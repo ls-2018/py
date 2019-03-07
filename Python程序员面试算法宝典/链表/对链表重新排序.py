@@ -61,3 +61,41 @@ def Recorder(head):
     tmp = None
     while cur1.next is not None:
         tmp = cur1.next
+        cur1.next = cur2
+        cur1=tmp
+
+        tmp = cur2.next
+        cur2.next=cur1
+        cur2=tmp
+    cur1.next=cur2
+
+
+
+if __name__ == '__main__':
+
+    head = LNode()
+    head.next = None
+
+    tmp = None
+    cur = head
+    # 构造 链表
+    i = 1
+    while i < 8:
+        tmp = LNode()
+        tmp.data = i
+        tmp.next = None
+        cur.next = tmp
+        cur = tmp
+        i += 1
+    cur = head.next
+    while cur is not None:
+        print(cur.data, end='', sep='')
+        cur = cur.next
+    print()
+    Recorder(head)
+
+    cur = head.next
+    while cur is not None:
+        print(cur.data, end='', sep='')
+        cur = cur.next
+    print()
