@@ -25,17 +25,19 @@ def Reverse(head):
 
     pre = cur
     cur = next
-    # # 使用当前遍历到的结点cur指向其前驱结点
-    # while cur.next != None:
-    #     next = cur.next
-    #     cur.next = pre
-    #     pre = cur
-    #     cur = cur.next
-    #     cur = next
-    # # 链表最后一个结点指向倒数第二个结点
-    # cur.next = pre
-    # # 链表的头结点指向原来的尾结点
-    # head.next = cur
+    # 使用当前遍历到的结点cur指向其前驱结点
+    while cur.next != None:
+        next = cur.next
+        cur.next = pre
+        pre = cur
+        cur = cur.next
+        cur = next
+        Print(1, pre)
+    # 链表最后一个结点指向倒数第二个结点
+    cur.next = pre
+    Print(1, cur)
+    # 链表的头结点指向原来的尾结点
+    head.next = cur
 
 
 def InsertReverse(head):
@@ -54,6 +56,22 @@ def InsertReverse(head):
         cur.next = head.next
         head.next = cur
         cur = next
+        Print(1, head)
+
+
+def Print(flag, head):
+    if flag == 0:
+        demo = '逆序前:'
+    elif flag == 1:
+        demo = '      '
+    elif flag == 2:
+        demo = '逆序后:'
+    cur = head.next
+    print(demo, end='')
+    while cur != None:
+        print('->', cur.data, end='', sep='')
+        cur = cur.next
+    print()
 
 
 if __name__ == '__main__':
@@ -71,22 +89,10 @@ if __name__ == '__main__':
         cur = tmp
         i += 1
 
-
-    cur = head.next
-    print('逆序前:', end='')
-    while cur != None:
-        print('->', cur.data, end='', sep='')
-        cur = cur.next
-    print()
-
-    InsertReverse(head)
-
-
-    cur = head.next
-    print('逆序后:', end='')
-    while cur != None:
-        print('->', cur.data, end='', sep='')
-        cur = cur.next
-    print()
+    Print(0, head)
+    # InsertReverse(head)
+    Reverse(head)
+    # print('逆序后:', end='')
+    Print(2, head)
 
 # 我更喜欢InsertReverse这种方法.
