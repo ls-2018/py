@@ -97,3 +97,4 @@ if __name__ == '__main__':
         print(cur.data, end='', sep='')
         cur = cur.next
     print()
+
