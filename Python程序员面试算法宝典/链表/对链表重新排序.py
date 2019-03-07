@@ -73,7 +73,6 @@ def Recorder(head):
 if __name__ == '__main__':
     head = LNode()
     head.next = None
-
     tmp = None
     cur = head
     # 构造 链表
