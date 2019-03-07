@@ -42,15 +42,15 @@ def Reverse(head):
     # 使当前遍历到的结点cur指向其前驱结点
     while cur is not None:
         next = cur.next
-        cur.next=pre
-        pre=cur
+        cur.next = pre
+        pre = cur
         cur = cur.next
-        cur= next
+        cur = next
     return pre
 
 
 def Recorder(head):
-    if head == None or head.next ==None:
+    if head == None or head.next == None:
         return
     # 前半部分链表的第一个结点
     cur1 = head.next
@@ -62,13 +62,12 @@ def Recorder(head):
     while cur1.next is not None:
         tmp = cur1.next
         cur1.next = cur2
-        cur1=tmp
+        cur1 = tmp
 
         tmp = cur2.next
-        cur2.next=cur1
-        cur2=tmp
-    cur1.next=cur2
-
+        cur2.next = cur1
+        cur2 = tmp
+    cur1.next = cur2
 
 
 if __name__ == '__main__':
