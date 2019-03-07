@@ -71,7 +71,6 @@ def Recorder(head):
 
 
 if __name__ == '__main__':
-
     head = LNode()
     head.next = None
 
