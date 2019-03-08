@@ -10,10 +10,12 @@
 采用链表实现的优点是：使用灵活方便，只需要在需要的时候才会申请空间。它的缺点为：除了要存储元素外，还需要额外的存储空间存储指针信息。
 '''
 
+
 class LNode():
-    def __new__(self,x):
-        self.data =x
-        self.next =None
+    def __new__(self, x):
+        self.data = x
+        self.next = None
+
 
 class MyStack:
     def __init__(self):
@@ -22,7 +24,7 @@ class MyStack:
 
     # 判断stack是否为空，如果为空返回true，否则返回false
     def empty(self):
-        if self.next==None:
+        if self.next == None:
             return True
         else:
             return False
@@ -31,36 +33,40 @@ class MyStack:
     def size(self):
         size = 0
         p = self.next
-        while p!=None:
-            p=p.next
-            size+=1
+        while p != None:
+            p = p.next
+            size += 1
         return size
 
     # 入栈：把e放到栈顶
-    def push(self,e):
+    def push(self, e):
         p = LNode
-        p.data=e
-        p.next=self.next
-        self.next=p
+        p.data = e
+        p.next = self.next
+        self.next = p
+
     # 出栈
     def pop(self):
-        tmp=self.next
-        if tmp!=None:
-            self.next=tmp.next
+        tmp = self.next
+        if tmp != None:
+            self.next = tmp.next
             return tmp.data
         print('栈已经为空')
         return None
+
     # 获取栈顶元素
     def top(self):
-        if self.next!=None:
+        if self.next != None:
             return self.next.next
         print("栈已经为空")
         return None
+
+
 if __name__ == '__main__':
-    s=MyStack()
+    s = MyStack()
     s.push(4)
-    print('栈顶元素为：',s.top())
-    print('栈的大小：',s.size())
+    print('栈顶元素为：', s.top())
+    print('栈的大小：', s.size())
     s.pop()
     print('出栈成功')
     s.pop()
