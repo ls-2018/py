@@ -70,22 +70,6 @@ def Print(flag, head):
     print()
 
 
-def Print(flag, head):
-    demo = ''
-    if flag == 0:
-        demo = '逆序前:'
-    elif flag == 1:
-        demo = '      '
-    elif flag == 2:
-        demo = '逆序后:'
-    cur = head.next
-    print(demo, end='')
-    while cur != None:
-        print('->', cur.data, end='', sep='')
-        cur = cur.next
-    print()
-
-
 if __name__ == '__main__':
     i = 1
     head1 = LNode()
