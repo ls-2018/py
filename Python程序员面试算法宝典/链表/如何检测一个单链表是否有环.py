@@ -51,37 +51,56 @@ def constructList():
     cur.next = head.next.next.next  # 建环
     return head
 
+
 def isLoop(head):
-    if head  == None or head.next ==None:
+    if head == None or head.next == None:
         return
     # 初始slow与fast都指向链表第一个结点
     slow = head.next
     fast = head.next
-    while fast!=None and fast.next !=None:
-        slow=slow.next
+    while fast != None and fast.next != None:
+        slow = slow.next
         fast = fast.next.next
-        if slow ==fast:
+        if slow == fast:
             return slow
-        return None
+    return None
 
 
-def findLoopNode(head,meetNode):
+def Print(flag, head):
+    if flag == 0:
+        demo = '逆序前:'
+    elif flag == 1:
+        demo = '      '
+    elif flag == 2:
+        demo = '逆序后:'
+    cur = head.next
+    print(demo, end='')
+    i = 0
+    while cur != None and i < 10:
+        print('->', cur.data, end='', sep='')
+        cur = cur.next
+        i += 1
+    print()
+
+
+def findLoopNode(head, meetNode):
     first = head.next
     second = meetNode
-    while first!=second:
-        first=first.next
+    while first != second:
+        first = first.next
         second = second.next
     return first
 
 
 if __name__ == '__main__':
     head = constructList()
+    Print(0,head)
 
     meetNode = isLoop(head)
     loopNode = None
-    if meetNode!=None:
+    if meetNode != None:
         print('有环')
-        loopNode= findLoopNode(head,meetNode)
-        print('环的入口为',loopNode.data)
+        loopNode = findLoopNode(head, meetNode)
+        print('环的入口为', loopNode.data)
     else:
         print('无环')
