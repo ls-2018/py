@@ -8,6 +8,10 @@
 front   记录队列首元素
 rear    记录队列尾元素往后的一个位置
 入队列时只需要将待入队的元素放到元素下表为rear的位置,同时执行rear+,出队列的时候只需要执行front+即可
+
+缺点：出队列后数组前半部分的空间不能被充分利用,解决这个问题的方法是把数组看成一个环状的空间（循环队列）,当数组最后一个被占用后,
+    可以从数组首位置开始循环利用.而这样也就限制了数组的大小.
+
 '''
 
 
@@ -60,6 +64,6 @@ if __name__ == '__main__':
     queue = MyQueue()
     queue.enQueue(1)
     queue.enQueue(2)
-    print('队列首元素为：',queue.getFront())
-    print('队列尾元素为：',queue.getBack())
-    print('队列大小为：',queue.size())
+    print('队列首元素为：', queue.getFront())
+    print('队列尾元素为：', queue.getBack())
+    print('队列大小为：', queue.size())
