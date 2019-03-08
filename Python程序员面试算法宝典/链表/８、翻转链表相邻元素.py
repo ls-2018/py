@@ -29,10 +29,6 @@ def reverse(head):
     pre = head  # 当前结点的前驱结点
     next = None  # 当前结点后继节点的后继结点
     while cur != None and cur.next != None:
-        # next =cur.next
-        # pre.next = next
-        # pre = next
-        # next
         next = cur.next.next
         pre.next = cur.next  # 奇数 指向 偶数
         cur.next.next = cur  # (奇数指向偶数)指向前驱结点
