@@ -55,7 +55,7 @@ class MergeList:
     def printList(self):
         tmp = self.head
         while tmp != None:
-            print(tmp.data, end='->', sep='')
+            print(tmp.data, end=',')
             tmp = tmp.down
 
 
