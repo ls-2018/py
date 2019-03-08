@@ -38,8 +38,8 @@ def reverse(head):
         cur.next.next = cur  # (奇数指向偶数)指向前驱结点
         cur.next = next  # 奇数指向奇数
 
-        pre = cur
-        print(pre.data)
+        pre = cur       # 翻转之后,cur就是前驱结点
+        # print(pre.data)
         cur = next
 
 
@@ -72,7 +72,7 @@ if __name__ == '__main__':
         cur.next = tmp
         cur = tmp
         i += 1
-    # Print(0,head)
+    Print(0,head)
 
     reverse(head)
-    # Print(2,head)
+    Print(2,head)
