@@ -18,7 +18,70 @@
         s = a + x = n * r
         a + x =(n-1)*r +r = (n-1)*r + L - a
         a = (n-1)*r + (L - a -x)
-                      起点到换入口的距离
-
+        起点              相遇点
+    ---->
+        于是在链表头和相遇点,分别设一个指针,每次各走一步,两个指针相遇,且相遇点第一个点为环入口点
+        期间走了n-1个环长
 '''
 
+
+class LNode():
+    def __init__(self):
+        self.data = None  # 数据域
+        self.next = None
+
+
+# 构造链表
+def constructList():
+    i = 0
+    head = LNode()
+    head.next = None
+    tmp = None
+    cur = head
+
+    # 构造链表
+    while i < 8:
+        tmp = LNode()
+        tmp.data = i
+        tmp.next = None
+
+        cur.next = tmp
+        cur = tmp
+        i += 1
+    cur.next = head.next.next.next  # 建环
+    return head
+
+def isLoop(head):
+    if head  == None or head.next ==None:
+        return
+    # 初始slow与fast都指向链表第一个结点
+    slow = head.next
+    fast = head.next
+    while fast!=None and fast.next !=None:
+        slow=slow.next
+        fast = fast.next.next
+        if slow ==fast:
+            return slow
+        return None
+
+
+def findLoopNode(head,meetNode):
+    first = head.next
+    second = meetNode
+    while first!=second:
+        first=first.next
+        second = second.next
+    return first
+
+
+if __name__ == '__main__':
+    head = constructList()
+
+    meetNode = isLoop(head)
+    loopNode = None
+    if meetNode!=None:
+        print('有环')
+        loopNode= findLoopNode(head,meetNode)
+        print('环的入口为',loopNode.data)
+    else:
+        print('无环')
