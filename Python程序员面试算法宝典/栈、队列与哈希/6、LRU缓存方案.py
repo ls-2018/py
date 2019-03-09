@@ -19,7 +19,7 @@ class LRU:
     def __init__(self, cachesize):
         self.cacheSize = cachesize
         self.queue = deque()
-        self.hashSet = set()
+        # self.hashSet = set()
 
     # 判断缓存队列是否已满
     def isQueueFull(self):
@@ -29,11 +29,11 @@ class LRU:
     def enqueue(self, pageNum):
         # 如果队列满了，需要删除对位的缓存的项
         if self.isQueueFull():
-            self.hashSet.remove(self.queue[-1])
+            # self.hashSet.remove(self.queue[-1])
             self.queue.pop()
         self.queue.appendleft(pageNum)
         # 把新缓存的结点同时添加到hash表中
-        self.hashSet.add(pageNum)
+        # self.hashSet.add(pageNum)
 
     """
     当访问某一个page的时候，会调用这个函数，对于访问的page有两种情况：
@@ -43,7 +43,8 @@ class LRU:
 
     def accessPage(self, pageNum):
         # page不在缓存队列中，把它缓存到对首
-        if pageNum not in self.hashSet:
+        # if pageNum not in self.hashSet:
+        if pageNum not in self.queue:
             self.enqueue(pageNum)
         # page 已经在缓存队列中了，移动到队首
         elif pageNum != self.queue[0]:
@@ -67,3 +68,8 @@ if __name__ == '__main__':
     lru.accessPage(7)
 
     lru.printQueue()
+
+'''
+更改记录:
+    去掉hashSet(),改用queue代替，没有区别
+'''
