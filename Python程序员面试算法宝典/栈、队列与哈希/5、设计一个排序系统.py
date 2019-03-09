@@ -6,6 +6,14 @@
 """
 from collections import deque
 
+"""
+deque.popleft()
+deque.pop()
+deque.append()
+deque.appendleft()
+deque.remove()
+"""
+
 
 class User:
     def __init__(self, id, name):
