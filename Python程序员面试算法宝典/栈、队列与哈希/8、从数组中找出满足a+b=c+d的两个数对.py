@@ -35,9 +35,10 @@ def findPairs(arr):
                 return True
             j += 1
         i += 1
-    return False
 
 
 if __name__ == '__main__':
     arr = [3, 4, 7, 10, 20, 9, 8]
     findPairs(arr)
+
+# 就是两次遍历，  i+j:(i,j)的数据格式存储,只要有i+j相同的就打印
