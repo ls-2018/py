@@ -52,10 +52,10 @@ def getNo(root, node, number):
     if root == node:
         return True
     tmp = number.num
-    number.num = 2 * tmp
 
     # node结点在root的左子树中,左子树的编号为当前节点的2倍
     if getNo(root.lchild, node, number):
+        number.num = 2 * tmp
         return True
     # node 结点在root的右子树中,右子树编号为当前结点的2倍加1
     else:
