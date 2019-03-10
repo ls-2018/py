@@ -13,7 +13,7 @@ class BiTNode:
 
 def isEqual(root1, root2):
     if root1 and root2:
-        if root1.data != root2.data:
+        if root1.data != root2.data:    # 避免同为None的情况
             return False
         return isEqual(root1.lchild, root2.lchild) and isEqual(root1.rchild, root2.rchild)
     if root1 == root2 == None:
@@ -41,7 +41,7 @@ def constructTree(x):
 
 
 if __name__ == '__main__':
-    root1 = constructTree(1)
+    root1 = constructTree(11)
     root2 = constructTree(1)
     equal = isEqual(root1, root2)
     if equal:
