@@ -47,7 +47,7 @@ def getNo(root, node, number):
     :param number: 在二叉树中的编号
     :return:
     """
-    if root == None:
+    if root is None:
         return False
     if root == node:
         return True
@@ -70,7 +70,7 @@ def getNodeFromNum(root, number):
     :param number:  结点的编号
     :return:
     """
-    if root == None or number < 0:
+    if root is None or number < 0:
         return None
     if number == 1:
         return root
@@ -113,10 +113,10 @@ if __name__ == '__main__':
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     root = arraytotree(arr, 0, len(arr) - 1)
     node1 = root.lchild.lchild.lchild
-    node2 = root.lchild.rchild
+    node2 = root
 
     res = FindParentNode(root, node1, node2)
-    if res != None:
+    if res is not None:
         print(node1.data, node2.data, '最近的公共父结点为：', res.data)
     else:
         print('没有公共父结点')
