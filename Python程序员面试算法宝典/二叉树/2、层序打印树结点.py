@@ -39,7 +39,19 @@ def printTreeLayer(root):
         if p.rchild != None:
             queue.append(p.rchild)
 
-#
+
+# 递归
+def printAtLevel(root, level):
+    if root == None or level < 0:
+        return 0
+    elif level == 0:
+        print(root.data)
+        return 1
+    else:
+        # 把打印根节点level层的结点转换成求解跟结点的孩子节点的level-1 蹭的结点
+        return printAtLevel(root.lchild, level - 1) + printAtLevel(root.rchild - 1)
+
+
 if __name__ == '__main__':
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     root = arraytotree(arr, 0, len(arr) - 1)
