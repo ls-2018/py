@@ -4,8 +4,10 @@
         6->3->2->1
         6->3->5
         那么 5,2 的共同父结点就是    3,6
+
+缺点：
+    在获取路径时，最复杂的情况时间复杂度为O(n)
 """
-from collections import deque
 
 
 class BiTNode:
