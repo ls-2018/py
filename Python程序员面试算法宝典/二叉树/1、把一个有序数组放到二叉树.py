@@ -44,6 +44,6 @@ if __name__ == '__main__':
         print(arr[i])
         i += 1
     root = arraytotree(arr, 0, len(arr) - 1)
-    print('转换成树的中序遍历为')
+    print('转换成树的中序遍历为')  # 左中右
     printTreeMidOrder(root)
     print()
