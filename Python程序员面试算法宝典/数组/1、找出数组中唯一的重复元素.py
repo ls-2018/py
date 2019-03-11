@@ -84,6 +84,25 @@ def findDup_4(array):
     return index
 
 
+# 环形相遇法
+def findDup_5(array):
+    if array is None:
+        return -1
+    slow = 0
+    fast = 0
+    while 1:
+        fast = array[array[fast]]  # fast
+        slow = array[slow]
+        if slow == fast:
+            break
+    fast = 0
+    while 1:
+        fast = array[fast]
+        slow = array[slow]
+        if slow == fast:
+            return slow
+
+
 if __name__ == '__main__':
     import random
 
@@ -95,3 +114,4 @@ if __name__ == '__main__':
     print('累加求和法', findDup_2(demo))
     print('亦或法    ', findDup_3(demo))
     print('数据映射法', findDup_4(demo))
+    print('环形相遇法', findDup_5(demo))
