@@ -22,7 +22,7 @@ def getMinNode(root):
     if root is None:
         return None
     while root.lchild is not None:
-        root= root.lchild
+        root = root.lchild
     return root
 
 
@@ -38,18 +38,21 @@ def getMaxNode(root):
         root = root.rchild
     return root
 
+
 def getNode(root):
     maxNode = getMaxNode(root)
     minNode = getMinNode(root)
-    mid = (maxNode.data + minNode.data)/2
+    mid = (maxNode.data + minNode.data) / 2
     result = None
     while root is not None:
-        if root.data <=mid:# 小于等于
-            root=root.rchild
+        if root.data <= mid:  # 小于等于
+            root = root.rchild
         else:
             result = root
-            root=root.lchild
+            root = root.lchild
     return result
+
+
 def arraytotree(arr, start, end):
     if start <= end:
         root = BiTNode()
@@ -61,7 +64,11 @@ def arraytotree(arr, start, end):
         root = None
     return root
 
+
 if __name__ == '__main__':
-    arr = [1,2,3,4,5,6,7,8,9]
-    root  = arraytotree(arr,0,len(arr)-1)
+    arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    root = arraytotree(arr, 0, len(arr) - 1)
     print(getNode(root).data)
+
+"""
+"""
