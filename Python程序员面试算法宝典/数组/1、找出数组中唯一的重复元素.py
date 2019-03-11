@@ -60,13 +60,38 @@ def findDup_3(array):
     return result
 
 
+# 数据映射法
+def findDup_4(array):
+    """
+    每遍历一个元素，都让数组内对应该坐标的值变成相反数，起先都是整数，但是一旦有重复的，就会颠倒两次。
+    """
+    if array is None:
+        return -1
+    lens = len(array)
+    index = 0
+    while 1:
+        # 数组中的元素的值只能小于len，否则会越界
+        if array[index] < 0:
+            break
+        # 访问过，通过变相反数的方法进行标记
+        array[index] *= -1
+        # index 的后继为array[index]
+        index = -1 * array[index]
+        print(index, '------')
+        if index >= lens:
+            print('有非法数字')
+            return -1
+    return index
+
+
 if __name__ == '__main__':
     import random
 
     a = random.randint(1, 1000)
     print(a)
     demo = [i + 1 for i in range(1000)]
-    demo.append(a)
+    demo.insert(44, a)
     print('空间换时间', findDup(demo))
     print('累加求和法', findDup_2(demo))
     print('亦或法    ', findDup_3(demo))
+    print('数据映射法', findDup_4(demo))
