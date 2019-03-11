@@ -2,20 +2,24 @@
 对于给定一个二叉树根节点，复制该树，返回新建树的根节点
 """
 
+
 class BiTNode:
     def __init__(self):
         self.data = None
         self.lchild = None
         self.rchild = None
+
+
 def createDupTree(root):
     if root is None:
         return None
 
     dupTree = BiTNode()
-    dupTree.data =root.data
-    dupTree.lchild=createDupTree(root.lchild)
-    dupTree.rchild=createDupTree(root.rchild)
+    dupTree.data = root.data
+    dupTree.lchild = createDupTree(root.lchild)
+    dupTree.rchild = createDupTree(root.rchild)
     return dupTree
+
 
 def printTreeMidOrder(root):
     if root == None:
@@ -25,6 +29,7 @@ def printTreeMidOrder(root):
     print(root.data)
     if root.rchild != None:
         printTreeMidOrder(root.rchild)
+
 
 def constructTree(x):
     root = BiTNode()
@@ -47,7 +52,7 @@ def constructTree(x):
 
 if __name__ == '__main__':
     root1 = constructTree(1)
-    root2=createDupTree(root1)
+    root2 = createDupTree(root1)
     print('原始二叉树中序遍历：')
     printTreeMidOrder(root1)
     print('新的二叉树中序遍历')
