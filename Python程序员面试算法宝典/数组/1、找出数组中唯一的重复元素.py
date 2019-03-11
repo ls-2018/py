@@ -25,6 +25,7 @@ def findDup(array):
 
 # 累加求和法
 def findDup_2(array):
+    """风险：元素值太大或数组太长，可能会出现溢出"""
     if array is None:
         return
     lens = len(array)
@@ -39,6 +40,26 @@ def findDup_2(array):
     return real_result - fuck_result
 
 
+# 亦或法
+def findDup_3(array):
+    """
+    (1^2^3^4^5)^(1^2^3^4^5^3) = (1^1)^(2^2)^(3^3^3)^(4^4)^(5^5) = 0^0^3^0^0 =3
+    :param array:
+    :return:
+    """
+    if array is None:
+        return -1
+    lens = len(array)
+    result = 0
+    for i in range(lens):
+        result ^= array[i]
+    j = 1
+    while j <= 1000:
+        result ^= j
+        j += 1
+    return result
+
+
 if __name__ == '__main__':
     import random
 
@@ -48,3 +69,4 @@ if __name__ == '__main__':
     demo.append(a)
     print('空间换时间', findDup(demo))
     print('累加求和法', findDup_2(demo))
+    print('亦或法    ', findDup_3(demo))
