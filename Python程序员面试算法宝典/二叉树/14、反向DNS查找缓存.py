@@ -25,10 +25,6 @@ class TrieNode:
         self.isLeaf = False
         self.url = None
         self.child = [None] * CHAR_COUNT
-        i = 0
-        while i < CHAR_COUNT:
-            self.child[i] = None
-            i += 1
 
 
 def getIndexFromChar(c):
@@ -45,7 +41,12 @@ class DNSCache:
         self.root = TrieNode()  # IP地址最大的长度
 
     def insert(self, ip, url):
-        # ip地址的长度
+        """
+        ip地址的长度
+        :param ip:      10.57.11.127
+        :param url:     www.samsung.com
+        :return:
+        """
         lens = len(ip)
         pCrawl = self.root
         level = 0
