@@ -20,6 +20,7 @@ def bubbleSort(R, O):
     lens = len(R)
     i = 0
     while i < lens - 1:
+        # 这就是冒泡嘛
         j = lens - 1
         while j > i:
             if R[j] - O[j] > R[j - 1] - O[j - 1]:
@@ -35,7 +36,7 @@ def schedule(R, O, M):
     lens = len(R)
     i = 0
     while i < lens:
-        if left < R[i]:  # 剩余的空间无法继续处理第i个请求
+        if left < R[i]:  # 剩余的空fr间无法继续处理第i个请求
             return False
         else:  # 剩余的空间能继续处理第i个请求，处理完成后将占用O[i]个空间
             left -= O[i]
