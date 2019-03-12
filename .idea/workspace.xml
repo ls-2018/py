@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,7 @@
     <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1552196124009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、判断数组是否为二元查找树后续遍历 Coverage Results" MODIFIED="1552190012792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$_.coverage" NAME="１３、 如何展开链接列表 Coverage Results" MODIFIED="1552022318594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/链表" />
-    <SUITE FILE_PATH="coverage/book$10.coverage" NAME="10、数组连续最大和 Coverage Results" MODIFIED="1552363826533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+    <SUITE FILE_PATH="coverage/book$10.coverage" NAME="10、数组连续最大和 Coverage Results" MODIFIED="1552364575832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$4O_1_.coverage" NAME="4、用O(1)时间复杂度求栈中最小元素 Coverage Results" MODIFIED="1552101279194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
     <SUITE FILE_PATH="coverage/book$9.coverage" NAME="9、求绝对值最小的数 Coverage Results" MODIFIED="1552359818355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$k.coverage" NAME="将链表向右旋转k个位置 Coverage Results" MODIFIED="1552003388476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/链表" />
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="452">
+              <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
               <folding>
                 <element signature="e#74#409#0" />
               </folding>
@@ -358,21 +358,7 @@
       <workItem from="1552097520138" duration="6588000" />
       <workItem from="1552172694210" duration="358000" />
       <workItem from="1552173591701" duration="18921000" />
-      <workItem from="1552345797026" duration="15355000" />
-    </task>
-    <task id="LOCAL-00013" summary="翻转链表相邻元素">
-      <created>1552006951498</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1552006951498</updated>
-    </task>
-    <task id="LOCAL-00014" summary="翻转链表相邻元素">
-      <created>1552009582023</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1552009582023</updated>
+      <workItem from="1552345797026" duration="15909000" />
     </task>
     <task id="LOCAL-00015" summary="翻转链表相邻元素">
       <created>1552009890436</created>
@@ -703,15 +689,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552360064581</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="9、求绝对值最小的数">
+      <created>1552364032149</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1552364032150</updated>
+    </task>
+    <task id="LOCAL-00063" summary="9、求绝对值最小的数">
+      <created>1552364170356</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1552364170356</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90001000" />
+    <option name="totallyTimeSpent" value="90555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.24786325" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
@@ -1115,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="452">
+          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
             <element signature="e#74#409#0" />
           </folding>

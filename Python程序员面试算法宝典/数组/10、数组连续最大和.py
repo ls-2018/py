@@ -52,10 +52,19 @@ def max_sub_array_2(array):
     # 优化一下
     End = All = array[0]
     i = 1
+    end = 0
+    start = 0
     while i < n:
-        All = max(End + array[i], array[i], All)  # array[1...i]的最大子数组和
+        All2 = max(End + array[i], array[i], All)  # array[1...i]的最大子数组和
+        if All2 > All:
+            end = i
+        All = All2
+        if End < 0:
+            start = i
         End = max(End + array[i], array[i])  # array[0...i]中包含array[i]的最大子数组和
+
         i += 1
+    print('开始:', start, '     结束:', end)
     return All
 
 
