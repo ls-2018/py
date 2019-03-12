@@ -40,15 +40,17 @@ def findMin(array):
                 end = mid - 1
             elif array[mid - 1] == 0:
                 return 0
-            else:
+            else:  # 找到正负数的分界点
                 break
         else:
             if array[mid + 1] < 0:
                 begin = mid + 1
             elif array[mid + 1] == 0:
                 return 0
-            else:
+            else:  # 找到正负数的分界点
                 break
+
+    # 判断分界点左右两边的绝对值
     if array[mid] > 0:
         if array[mid] < abs(array[mid - 1]):
             absMin = array[mid]
