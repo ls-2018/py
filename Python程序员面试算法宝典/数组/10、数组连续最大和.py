@@ -41,14 +41,22 @@ def max_sub_array_2(array):
     All = [None] * n
     End[n - 1] = array[n - 1]
     All[n - 1] = array[n - 1]
-    End[0] = All[0] = array[0]
+    # End[0] = All[0] = array[0]
+    # i = 1
+    # while i < n:
+    #     End[i] = max(End[i - 1] + array[i], array[i])  # array[0...i]中包含array[i]的最大子数组和
+    #
+    #     All[i] = max(End[i - 1] + array[i], array[i], All[i - 1])  # array[1...i]的最大子数组和
+    #     i += 1
+    # return All[n - 1]
+    # 优化一下
+    End = All = array[0]
     i = 1
     while i < n:
-        End[i] = max(End[i - 1] + array[i], array[i])  # array[0...i]中包含array[i]的最大子数组和
-
-        All[i] = max(End[i - 1] + array[i], array[i], All[i - 1])  # array[1...i]的最大子数组和
+        All = max(End + array[i], array[i], All)  # array[1...i]的最大子数组和
+        End = max(End + array[i], array[i])  # array[0...i]中包含array[i]的最大子数组和
         i += 1
-    return All[n - 1]
+    return All
 
 
 if __name__ == '__main__':
