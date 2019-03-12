@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/9、求绝对值最小的数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +27,7 @@
     <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1552196124009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、判断数组是否为二元查找树后续遍历 Coverage Results" MODIFIED="1552190012792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$_.coverage" NAME="１３、 如何展开链接列表 Coverage Results" MODIFIED="1552022318594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/链表" />
+    <SUITE FILE_PATH="coverage/book$10.coverage" NAME="10、数组连续最大和 Coverage Results" MODIFIED="1552363826533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$4O_1_.coverage" NAME="4、用O(1)时间复杂度求栈中最小元素 Coverage Results" MODIFIED="1552101279194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
     <SUITE FILE_PATH="coverage/book$9.coverage" NAME="9、求绝对值最小的数 Coverage Results" MODIFIED="1552359818355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$k.coverage" NAME="将链表向右旋转k个位置 Coverage Results" MODIFIED="1552003388476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/链表" />
@@ -48,11 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/9、求绝对值最小的数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="44">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-292">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <folding>
+                <element signature="e#74#409#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +75,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -85,8 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/删除无序链表中的重复项.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/找出单链表中倒数第K个元素.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/将链表向右旋转k个位置.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/如何检测一个单链表是否有环.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/翻转链表相邻元素.py" />
@@ -136,6 +148,8 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/8、求解最小三元组距离.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/9、求绝对值最小的数.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/212.ipynb" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py" />
       </list>
     </option>
   </component>
@@ -203,7 +217,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9、求绝对值最小的数">
+  <component name="RunManager" selected="Python.10、数组连续最大和">
+    <configuration name="10、数组连续最大和" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="7、数组中重复元素的最小位置" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,28 +254,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/7、数组中重复元素的最小位置.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7、找出排序二叉树任一两个结点的共同父节点_3(后序)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/7、找出排序二叉树任一两个结点的共同父节点_3(后序).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10、数组连续最大和" />
         <item itemvalue="Python.9、求绝对值最小的数" />
         <item itemvalue="Python.8、求解最小三元组距离" />
         <item itemvalue="Python.7、数组中重复元素的最小位置" />
         <item itemvalue="Python.asd" />
-        <item itemvalue="Python.7、找出排序二叉树任一两个结点的共同父节点_3(后序)" />
       </list>
     </recent_temporary>
   </component>
@@ -344,21 +358,7 @@
       <workItem from="1552097520138" duration="6588000" />
       <workItem from="1552172694210" duration="358000" />
       <workItem from="1552173591701" duration="18921000" />
-      <workItem from="1552345797026" duration="11672000" />
-    </task>
-    <task id="LOCAL-00011" summary="如何检测一个单链表是否有环">
-      <created>1552005756931</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1552005756931</updated>
-    </task>
-    <task id="LOCAL-00012" summary="翻转链表相邻元素">
-      <created>1552006834518</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1552006834518</updated>
+      <workItem from="1552345797026" duration="15355000" />
     </task>
     <task id="LOCAL-00013" summary="翻转链表相邻元素">
       <created>1552006951498</created>
@@ -689,11 +689,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552358840352</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="9、求绝对值最小的数">
+      <created>1552360011423</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1552360011424</updated>
+    </task>
+    <task id="LOCAL-00061" summary="9、求绝对值最小的数">
+      <created>1552360064581</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1552360064581</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86318000" />
+    <option name="totallyTimeSpent" value="90001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
@@ -726,7 +740,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="９、如何把链表以K个结点为一组进行翻转" />
     <MESSAGE value="１０、合并有序链表" />
     <MESSAGE value="１１、只有单个结点的指针下删除该结点" />
     <MESSAGE value="１２、如何判断两个单链表是否有交叉.py" />
@@ -751,26 +764,10 @@
     <MESSAGE value="7、数组中重复元素的最小位置" />
     <MESSAGE value="readme" />
     <MESSAGE value="8、求解最小三元组距离" />
-    <option name="LAST_COMMIT_MESSAGE" value="8、求解最小三元组距离" />
+    <MESSAGE value="9、求绝对值最小的数" />
+    <option name="LAST_COMMIT_MESSAGE" value="9、求绝对值最小的数" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.6/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="658" column="6" selection-start-line="658" selection-start-column="6" selection-end-line="658" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="24">
-            <caret line="1" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -1102,10 +1099,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/212.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/9、求绝对值最小的数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="44">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <element signature="e#74#409#0" />
+          </folding>
         </state>
       </provider>
     </entry>
