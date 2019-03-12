@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/15、如何对数组进行循环移位.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/15、如何对数组进行循环移位.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/15、如何对数组进行循环移位.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/15、如何对数组进行循环移位.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="550">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -378,14 +375,7 @@
       <workItem from="1552172694210" duration="358000" />
       <workItem from="1552173591701" duration="18921000" />
       <workItem from="1552345797026" duration="23788000" />
-      <workItem from="1552384015637" duration="1536000" />
-    </task>
-    <task id="LOCAL-00020" summary="１１、只有单个结点的指针下删除该结点">
-      <created>1552018064131</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1552018064131</updated>
+      <workItem from="1552384015637" duration="1788000" />
     </task>
     <task id="LOCAL-00021" summary="１１、只有单个结点的指针下删除该结点">
       <created>1552018085910</created>
@@ -723,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552371091772</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="15、如何对数组进行循环移位">
+      <created>1552385566336</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1552385566336</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99970000" />
+    <option name="totallyTimeSpent" value="100222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -738,7 +735,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.33296213" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.33296213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34517202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -746,7 +743,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32963374" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005342" side_tool="true" weight="0.3873474" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.33296213" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946582" weight="0.23751387" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -783,7 +780,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="１２、如何判断两个单链表是否有交叉.py" />
     <MESSAGE value="1、如何实现栈_2" />
     <MESSAGE value="２、如何实现队列" />
     <MESSAGE value="２、如何实现队列_2" />
@@ -808,7 +804,8 @@
     <MESSAGE value="9、求绝对值最小的数" />
     <MESSAGE value="12、翻转数组" />
     <MESSAGE value="13、在不排序的情况下求数组中的中位数" />
-    <option name="LAST_COMMIT_MESSAGE" value="13、在不排序的情况下求数组中的中位数" />
+    <MESSAGE value="15、如何对数组进行循环移位" />
+    <option name="LAST_COMMIT_MESSAGE" value="15、如何对数组进行循环移位" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1229,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/15、如何对数组进行循环移位.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="550">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
