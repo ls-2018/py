@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+            <state relative-caret-position="433">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -346,14 +345,7 @@
       <workItem from="1552345797026" duration="23788000" />
       <workItem from="1552384015637" duration="4591000" />
       <workItem from="1552390862141" duration="1316000" />
-      <workItem from="1552396562930" duration="1164000" />
-    </task>
-    <task id="LOCAL-00027" summary="1、如何实现栈_2">
-      <created>1552087198745</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1552087198745</updated>
+      <workItem from="1552396562930" duration="1790000" />
     </task>
     <task id="LOCAL-00028" summary="２、如何实现队列">
       <created>1552088425352</created>
@@ -691,22 +683,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552392063286</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="18、判断请求能否在给定的存储条件下完成">
+      <created>1552397749317</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1552397749318</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105505000" />
+    <option name="totallyTimeSpent" value="106131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.18496802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.33296213" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.33296213" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.344098" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -751,7 +749,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="２、如何实现队列_2" />
     <MESSAGE value="3、翻转栈的所有元素" />
     <MESSAGE value="3、如何给栈排序" />
     <MESSAGE value="4、用O(1)时间复杂度求栈中最小元素" />
@@ -776,7 +773,8 @@
     <MESSAGE value="15、如何对数组进行循环移位" />
     <MESSAGE value="16、高效地在二维数组中查找数据" />
     <MESSAGE value="17、查找最多的覆盖点" />
-    <option name="LAST_COMMIT_MESSAGE" value="17、查找最多的覆盖点" />
+    <MESSAGE value="18、判断请求能否在给定的存储条件下完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="18、判断请求能否在给定的存储条件下完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,8 +1171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        <state relative-caret-position="433">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
