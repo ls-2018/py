@@ -11,6 +11,11 @@ def swap(arr, i, j):
 
 
 # 按照R[i]-O[i]由大到小进行排序
+"""
+为什么要按照R[i]-O[i]由大到小排序
+"""
+
+
 def bubbleSort(R, O):
     lens = len(R)
     i = 0
