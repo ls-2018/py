@@ -12,6 +12,7 @@ def rightShift(arr, k):
         print('参数不合法')
         return
     lens = len(arr)
+    k %= lens
     while k != 0:
         tmp = arr[lens - 1]
         i = lens - 1
