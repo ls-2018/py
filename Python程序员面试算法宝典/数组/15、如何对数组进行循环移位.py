@@ -25,8 +25,32 @@ def rightShift(arr, k):
         k -= 1
 
 
+# 翻转法
+def reverse(arr, start, end):
+    while start < end:
+        tmp = arr[start]
+        arr[start] = arr[end]
+        arr[end] = tmp
+        start += 1
+        end -= 1
+
+
+def rightShift_2(arr, k):
+    if arr is None:
+        print('参数不合法')
+        return
+    lens = len(arr)
+    k %= lens
+    reverse(arr, 0, lens - k - 1)
+    reverse(arr, lens - k, lens - 1)
+    reverse(arr, 0, lens - 1)
+
+
 if __name__ == '__main__':
     k = 4
     array = [1, 2, 3, 4, 5, 6, 7, 8]
     rightShift(array, k)
+    print(array)
+    array = [1, 2, 3, 4, 5, 6, 7, 8]
+    rightShift_2(array, 5)
     print(array)
