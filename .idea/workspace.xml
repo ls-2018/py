@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/25、任务调度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/26、对磁盘分区.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,6 +37,7 @@
     <SUITE FILE_PATH="coverage/book$7_2.coverage" NAME="7、找出排序二叉树任一两个结点的共同父节点_2 Coverage Results" MODIFIED="1552197797045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$1_2.coverage" NAME="1、如何实现栈_2 Coverage Results" MODIFIED="1552193273460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
     <SUITE FILE_PATH="coverage/book$15.coverage" NAME="15、如何对数组进行循环移位 Coverage Results" MODIFIED="1552386420999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+    <SUITE FILE_PATH="coverage/book$26.coverage" NAME="26、对磁盘分区 Coverage Results" MODIFIED="1552455797486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$K.coverage" NAME="９、如何把链表以K个结点为一组进行翻转 Coverage Results" MODIFIED="1552016476225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/链表" />
     <SUITE FILE_PATH="coverage/book$21.coverage" NAME="21、求解迷宫问题 Coverage Results" MODIFIED="1552440711653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$4.coverage" NAME="4、如何判断两棵二叉树是否相等 Coverage Results" MODIFIED="1552184692564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
@@ -52,39 +53,12 @@
     <SUITE FILE_PATH="coverage/book$23_2.coverage" NAME="23、求两个有序集合的交集_2 Coverage Results" MODIFIED="1552443687630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="120" selection-start-line="120" selection-end-line="123" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/26、对磁盘分区.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/25、任务调度.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="37" selection-end-column="15" />
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -119,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/3、翻转栈的所有元素.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/3、如何给栈排序.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/3、如何给栈排序.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/4、根据入栈顺序判断出栈顺序.py" />
@@ -170,6 +143,7 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/25、任务调度.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/26、对磁盘分区.py" />
       </list>
     </option>
   </component>
@@ -187,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.25、任务调度">
+  <component name="RunManager" selected="Python.26、对磁盘分区">
     <configuration name="23、求两个有序集合的交集" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -326,7 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="26、对磁盘分区" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,7 +313,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/asd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/26、对磁盘分区.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,11 +324,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.26、对磁盘分区" />
         <item itemvalue="Python.25、任务调度" />
         <item itemvalue="Python.24、如何对有大量重复数字的数组排序_2" />
         <item itemvalue="Python.23、求两个有序集合的交集" />
         <item itemvalue="Python.23、求两个有序集合的交集_2" />
-        <item itemvalue="Python.asd" />
       </list>
     </recent_temporary>
   </component>
@@ -384,14 +358,8 @@
       <workItem from="1552396562930" duration="2497000" />
       <workItem from="1552432470416" duration="10221000" />
       <workItem from="1552444835366" duration="1932000" />
-      <workItem from="1552447513905" duration="4893000" />
-    </task>
-    <task id="LOCAL-00038" summary="1、把一个有序数组放到二叉树">
-      <created>1552175899375</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1552175899375</updated>
+      <workItem from="1552447513905" duration="5437000" />
+      <workItem from="1552454791202" duration="1003000" />
     </task>
     <task id="LOCAL-00039" summary="1、把一个有序数组放到二叉树">
       <created>1552176005902</created>
@@ -729,22 +697,29 @@
       <option name="project" value="LOCAL" />
       <updated>1552450050631</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="25、任务调度">
+      <created>1552453168618</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1552453168618</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123884000" />
+    <option name="totallyTimeSpent" value="125431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.19123931" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.19337606" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.44395116" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.44395116" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.34406215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -789,7 +764,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1、把一个有序数组放到二叉树" />
     <MESSAGE value="2、层序打印树结点" />
     <MESSAGE value="3、求一颗二叉树的最大子树和" />
     <MESSAGE value="4、如何判断两棵二叉树是否相等" />
@@ -814,7 +788,8 @@
     <MESSAGE value="22、找出三个有序数组的公共元素" />
     <MESSAGE value="23、求两个有序集合的交集" />
     <MESSAGE value="24、如何对有大量重复数字的数组排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="24、如何对有大量重复数字的数组排序" />
+    <MESSAGE value="25、任务调度" />
+    <option name="LAST_COMMIT_MESSAGE" value="25、任务调度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -858,16 +833,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/3、翻转栈的所有元素.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="7" selection-start-line="7" selection-end-line="36" />
-          <folding>
-            <element signature="e#127#672#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/4、根据入栈顺序判断出栈顺序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1201,6 +1166,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/26、对磁盘分区.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
