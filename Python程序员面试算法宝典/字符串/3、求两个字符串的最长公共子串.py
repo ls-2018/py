@@ -91,6 +91,8 @@ def getMaxSubStr_2(s1, s2):
             maxLen = tmpMaxLen
             maxLenEnd1 = s1begin + j
         i += 1
+
+
     i = maxLenEnd1 - maxLen
     while i < maxLenEnd1:
         sb += list(s1)[i]
@@ -100,4 +102,4 @@ def getMaxSubStr_2(s1, s2):
 
 if __name__ == '__main__':
     # print(getMaxSubStr('aszzzzzzzzzzzzzzzdc', 'aszzzzzzzzzzzzzzzdczzzzzzzzzzzzzzzz'))
-    print(getMaxSubStr_2('aszzzzzzzzzzzzzzzdc', 'aszzzzzzzzzzzzzzzdczzzzzzzzzzzzzzzz'))
+    print(getMaxSubStr_2('asdc', 'asdzx'))

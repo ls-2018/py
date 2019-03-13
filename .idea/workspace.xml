@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +46,7 @@
     <SUITE FILE_PATH="coverage/book$7_3__.coverage" NAME="7、找出排序二叉树任一两个结点的共同父节点_3(后序) Coverage Results" MODIFIED="1552198579259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$25.coverage" NAME="25、任务调度 Coverage Results" MODIFIED="1552453134053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$xxxxxx.coverage" NAME="xxxxxx Coverage Results" MODIFIED="1552391846664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
-    <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、求两个字符串的最长公共子串 Coverage Results" MODIFIED="1552472472753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、求两个字符串的最长公共子串 Coverage Results" MODIFIED="1552476134462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$.coverage" NAME="２、如何实现队列 Coverage Results" MODIFIED="1552088322199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
     <SUITE FILE_PATH="coverage/book$11.coverage" NAME="11、找出数组中出现一次的数 Coverage Results" MODIFIED="1552368627620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、判断数组是否为二元查找树后续遍历 Coverage Results" MODIFIED="1552190012792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
@@ -56,32 +54,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/26、对磁盘分区.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="370">
+              <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
               <folding>
-                <element signature="e#767#942#0" />
+                <element signature="e#47#1160#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/Python35/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="323" selection-start-line="323" selection-end-line="323" />
             </state>
           </provider>
         </entry>
@@ -383,21 +363,7 @@
       <workItem from="1552444835366" duration="1932000" />
       <workItem from="1552447513905" duration="5437000" />
       <workItem from="1552454791202" duration="2682000" />
-      <workItem from="1552468826598" duration="3449000" />
-    </task>
-    <task id="LOCAL-00041" summary="2、层序打印树结点">
-      <created>1552179363042</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1552179363043</updated>
-    </task>
-    <task id="LOCAL-00042" summary="3、求一颗二叉树的最大子树和">
-      <created>1552183861936</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1552183861936</updated>
+      <workItem from="1552468826598" duration="6701000" />
     </task>
     <task id="LOCAL-00043" summary="3、求一颗二叉树的最大子树和">
       <created>1552183926998</created>
@@ -728,30 +694,44 @@
       <option name="project" value="LOCAL" />
       <updated>1552457508266</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="3、求两个字符串的最长公共子串">
+      <created>1552472498771</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1552472498772</updated>
+    </task>
+    <task id="LOCAL-00091" summary="3、求两个字符串的最长公共子串">
+      <created>1552474080424</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1552474080425</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130559000" />
+    <option name="totallyTimeSpent" value="133811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" weight="0.27593985" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.26837417" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.33407572" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.37416482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32963374" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.344098" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.37416482" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946582" weight="0.23751387" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -788,7 +768,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4、如何判断两棵二叉树是否相等" />
     <MESSAGE value="5、把二叉链表转换为双向链表" />
     <MESSAGE value="_" />
     <MESSAGE value="6、判断数组是否为排序二杈树后续遍历" />
@@ -813,155 +792,66 @@
     <MESSAGE value="25、任务调度" />
     <MESSAGE value="26、对磁盘分区" />
     <MESSAGE value="1、打印字符串的所有排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、打印字符串的所有排序" />
+    <MESSAGE value="3、求两个字符串的最长公共子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="3、求两个字符串的最长公共子串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/17、查找最多的覆盖点.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/17、查找最多的覆盖点.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/17、查找最多的覆盖点.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/17、查找最多的覆盖点.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/17、查找最多的覆盖点.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/17、查找最多的覆盖点.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/1、打印字符串的所有排序.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="22" />
+          <line>80</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="23" />
+          <line>81</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="25" />
+          <line>82</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="26" />
+          <line>83</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="27" />
+          <line>84</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="28" />
+          <line>85</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="29" />
+          <line>87</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="30" />
+          <line>86</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1289,17 +1179,17 @@
     </entry>
     <entry file="file://E:/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        <state relative-caret-position="482">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="370">
+          <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
           <folding>
-            <element signature="e#767#942#0" />
+            <element signature="e#47#1160#0" />
           </folding>
         </state>
       </provider>
