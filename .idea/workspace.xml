@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/19、按要求构造新数组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,7 @@
     <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、层序打印树结点 Coverage Results" MODIFIED="1552176947257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、把二叉树转换成双向链表 Coverage Results" MODIFIED="1552189935364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$8.coverage" NAME="8、求解最小三元组距离 Coverage Results" MODIFIED="1552358814759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+    <SUITE FILE_PATH="coverage/book$19.coverage" NAME="19、按要求构造新数组 Coverage Results" MODIFIED="1552436777689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$13.coverage" NAME="13、在不排序的情况下求数组中的中位数 Coverage Results" MODIFIED="1552371662654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$_2.coverage" NAME="２、如何实现队列_2 Coverage Results" MODIFIED="1552092661793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
     <SUITE FILE_PATH="coverage/book$16.coverage" NAME="16、高效地在二维数组中查找数据 Coverage Results" MODIFIED="1552387844695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
@@ -47,11 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="408">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/19、按要求构造新数组.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -86,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/11、只有单个结点的指针下删除该结点.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/１１、只有单个结点的指针下删除该结点.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/１２、如何判断亮哥哥链表是否有交叉.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/链表/１２、如何判断两个单链表是否有交叉.py" />
@@ -137,14 +144,15 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/xxxxxx.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/17、查找最多的覆盖点.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/19、按要求构造新数组.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="527" />
-    <option name="y" value="149" />
-    <option name="width" value="1390" />
-    <option name="height" value="685" />
+    <option name="x" value="351" />
+    <option name="y" value="176" />
+    <option name="width" value="1380" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -204,29 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.18、判断请求能否在给定的存储条件下完成">
-    <configuration name="15、如何对数组进行循环移位" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/15、如何对数组进行循环移位.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.19、按要求构造新数组">
     <configuration name="16、高效地在二维数组中查找数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,6 +279,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="19、按要求构造新数组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/19、按要求构造新数组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xxxxxx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.19、按要求构造新数组" />
         <item itemvalue="Python.18、判断请求能否在给定的存储条件下完成" />
         <item itemvalue="Python.17、查找最多的覆盖点" />
         <item itemvalue="Python.xxxxxx" />
         <item itemvalue="Python.16、高效地在二维数组中查找数据" />
-        <item itemvalue="Python.15、如何对数组进行循环移位" />
       </list>
     </recent_temporary>
   </component>
@@ -349,14 +357,7 @@
       <workItem from="1552384015637" duration="4591000" />
       <workItem from="1552390862141" duration="1316000" />
       <workItem from="1552396562930" duration="2497000" />
-      <workItem from="1552432470416" duration="827000" />
-    </task>
-    <task id="LOCAL-00029" summary="２、如何实现队列">
-      <created>1552088700688</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1552088700688</updated>
+      <workItem from="1552432470416" duration="3852000" />
     </task>
     <task id="LOCAL-00030" summary="２、如何实现队列_2">
       <created>1552090539968</created>
@@ -694,23 +695,30 @@
       <option name="project" value="LOCAL" />
       <updated>1552399543803</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="18、判断请求能否在给定的存储条件下完成">
+      <created>1552433630013</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1552433630014</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107665000" />
+    <option name="totallyTimeSpent" value="110690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.18696581" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.18696581" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.33296213" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.344098" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.3318535" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.344098" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -818,13 +826,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/链表/８、翻转链表相邻元素.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="73" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/链表/９、如何把链表以K个结点为一组进行翻转.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1176,8 +1177,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/18、判断请求能否在给定的存储条件下完成.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="408">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/19、按要求构造新数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
