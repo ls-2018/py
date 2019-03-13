@@ -22,34 +22,32 @@ class MySet:
         self.maxs = maxs
 
 
-def getINtersection(s1: MySet, s2: MySet):
-    if s1.getMin() < s2.getMin():
-        if s1.getMax() < s2.getMin():
-            return None
-        elif s1.getMax() <= s2.getMax():
-            return MySet(s2.getMin(), s1.getMax())
-        else:
-            return MySet(s2.getMin(), s2.getMax())
-    elif s1.getMin() <= s2.getMax():
-        if s1.getMax() <= s2.getMax():
-            return MySet(s1.getMin(), s1.getMax())
-        else:
-            return MySet(s1.getMin(), s2.getMax())
-    else:
-        return None
-
-
 def getIntersection2(l1, l2):
     result = []
     i = 0
-    while i < len(l1):
-        j = 0
-        while j < len(l2):
-            s = getINtersection(l1[i], l2[j])
-            if s is not None:
-                result.append(s)
+    j = 0
+
+    while i < len(l1) and j < len(l2):
+        s1 = l1[i]
+        s2 = l2[j]
+        if s1.getMin() < s2.getMin():
+            if s1.getMax() < s2.getMin():
+                i += 1
+            elif s1.getMax() < s2.getMax():
+                result.append(MySet(s2.getMin(), s1.getMax()))
+                i += 1
+            else:
+                result.append(MySet(s2.getMin(), s2.getMax()))
+                j += 1
+        elif s1.getMin() <= s2.getMax():
+            if s1.getMax() <= s2.getMax():
+                result.append(MySet(s1.getMin(), s1.getMax()))
+                i += 1
+            else:
+                result.append(MySet(s1.getMin(), s2.getMax()))
+                j += 1
+        else:
             j += 1
-        i += 1
     return result
 
 
@@ -64,7 +62,3 @@ if __name__ == '__main__':
     while i < len(result):
         print(result[i].getMin(), '      ', result[i].getMax())
         i += 1
-
-"""
-没有利用到序列有序的条件
-"""
