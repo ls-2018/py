@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
     <SUITE FILE_PATH="coverage/book$19.coverage" NAME="19、按要求构造新数组 Coverage Results" MODIFIED="1552436777689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$13.coverage" NAME="13、在不排序的情况下求数组中的中位数 Coverage Results" MODIFIED="1552371662654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$_2.coverage" NAME="２、如何实现队列_2 Coverage Results" MODIFIED="1552092661793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
+    <SUITE FILE_PATH="coverage/book$24_2.coverage" NAME="24、如何对有大量重复数字的数组排序_2 Coverage Results" MODIFIED="1552449958608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$16.coverage" NAME="16、高效地在二维数组中查找数据 Coverage Results" MODIFIED="1552387844695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$14.coverage" NAME="14、求集合的所有子集 Coverage Results" MODIFIED="1552384907676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$17.coverage" NAME="17、查找最多的覆盖点 Coverage Results" MODIFIED="1552392044011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
@@ -51,11 +53,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+            <state relative-caret-position="595">
+              <caret line="120" selection-start-line="120" selection-end-line="123" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -90,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/２、如何实现队列.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/２、如何实现队列_2.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/3、翻转栈的所有元素.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/3、如何给栈排序.py" />
@@ -141,6 +151,7 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/23、求两个有序集合的交集_2.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/23、求两个有序集合的交集.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py" />
       </list>
     </option>
   </component>
@@ -208,29 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.23、求两个有序集合的交集">
-    <configuration name="21、求解迷宫问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/21、求解迷宫问题.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.24、如何对有大量重复数字的数组排序_2">
     <configuration name="22、找出三个有序数组的公共元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,6 +286,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="24、如何对有大量重复数字的数组排序_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,11 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.24、如何对有大量重复数字的数组排序_2" />
         <item itemvalue="Python.23、求两个有序集合的交集" />
         <item itemvalue="Python.23、求两个有序集合的交集_2" />
         <item itemvalue="Python.asd" />
         <item itemvalue="Python.22、找出三个有序数组的公共元素" />
-        <item itemvalue="Python.21、求解迷宫问题" />
       </list>
     </recent_temporary>
   </component>
@@ -355,14 +366,7 @@
       <workItem from="1552396562930" duration="2497000" />
       <workItem from="1552432470416" duration="10221000" />
       <workItem from="1552444835366" duration="1932000" />
-      <workItem from="1552447513905" duration="1437000" />
-    </task>
-    <task id="LOCAL-00035" summary="4、用两个栈模拟队列操作">
-      <created>1552102892657</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1552102892657</updated>
+      <workItem from="1552447513905" duration="2491000" />
     </task>
     <task id="LOCAL-00036" summary="5、设计一个排序系统">
       <created>1552104372095</created>
@@ -700,22 +704,30 @@
       <option name="project" value="LOCAL" />
       <updated>1552442221547</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="24、如何对有大量重复数字的数组排序">
+      <created>1552448977498</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1552448977499</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120428000" />
+    <option name="totallyTimeSpent" value="121482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.19123931" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.19123931" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.28523862" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.344098" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.28523862" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.34406215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -759,7 +771,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5、设计一个排序系统" />
     <MESSAGE value="1、把一个有序数组放到二叉树" />
     <MESSAGE value="2、层序打印树结点" />
     <MESSAGE value="3、求一颗二叉树的最大子树和" />
@@ -784,7 +795,8 @@
     <MESSAGE value="21、求解迷宫问题" />
     <MESSAGE value="22、找出三个有序数组的公共元素" />
     <MESSAGE value="23、求两个有序集合的交集" />
-    <option name="LAST_COMMIT_MESSAGE" value="23、求两个有序集合的交集" />
+    <MESSAGE value="24、如何对有大量重复数字的数组排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="24、如何对有大量重复数字的数组排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -819,17 +831,15 @@
           <line>31</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/２、如何实现队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="63" selection-start-line="63" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/２、如何实现队列_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1164,8 +1174,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        <state relative-caret-position="595">
+          <caret line="120" selection-start-line="120" selection-end-line="123" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/24、如何对有大量重复数字的数组排序_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
