@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、找出三个有序数组的公共元素 Coverage Results" MODIFIED="1552440715646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$19.coverage" NAME="19、按要求构造新数组 Coverage Results" MODIFIED="1552436777689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$13.coverage" NAME="13、在不排序的情况下求数组中的中位数 Coverage Results" MODIFIED="1552371662654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+    <SUITE FILE_PATH="coverage/book$10_2.coverage" NAME="10、如何实现字符串的匹配_2 Coverage Results" MODIFIED="1552529341971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$_2.coverage" NAME="２、如何实现队列_2 Coverage Results" MODIFIED="1552092661793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
     <SUITE FILE_PATH="coverage/book$24_2.coverage" NAME="24、如何对有大量重复数字的数组排序_2 Coverage Results" MODIFIED="1552449958608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$16.coverage" NAME="16、高效地在二维数组中查找数据 Coverage Results" MODIFIED="1552387844695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="560">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -216,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10、如何实现字符串的匹配">
+  <component name="RunManager" selected="Python.10、如何实现字符串的匹配_2">
     <configuration name="10、如何实现字符串的匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="10、如何实现字符串的匹配_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,7 +252,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/7、对大小写字符串进行排序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10、如何实现字符串的匹配_2" />
         <item itemvalue="Python.10、如何实现字符串的匹配" />
         <item itemvalue="Python.9、判断字符串是否为整数_2" />
         <item itemvalue="Python.9、判断字符串是否为整数" />
         <item itemvalue="Python.8、消除字符串的内嵌括号" />
-        <item itemvalue="Python.123" />
       </list>
     </recent_temporary>
   </component>
@@ -369,14 +369,7 @@
       <workItem from="1552478779848" duration="244000" />
       <workItem from="1552480364418" duration="1313000" />
       <workItem from="1552518713385" duration="5690000" />
-      <workItem from="1552525409474" duration="3228000" />
-    </task>
-    <task id="LOCAL-00052" summary="7、找出排序二叉树任一两个结点的共同父节点_2">
-      <created>1552196514856</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1552196514856</updated>
+      <workItem from="1552525409474" duration="3896000" />
     </task>
     <task id="LOCAL-00053" summary="7、找出排序二叉树任一两个结点的共同父节点_2">
       <created>1552197591543</created>
@@ -714,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552527167591</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="10、如何实现字符串的匹配_2">
+      <created>1552528651405</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1552528651405</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144286000" />
+    <option name="totallyTimeSpent" value="144954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
@@ -774,7 +774,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7、数组中重复元素的最小位置" />
     <MESSAGE value="readme" />
     <MESSAGE value="8、求解最小三元组距离" />
     <MESSAGE value="9、求绝对值最小的数" />
@@ -799,7 +798,8 @@
     <MESSAGE value="9、判断字符串是否为整数" />
     <MESSAGE value="9、判断字符串是否为整数_2" />
     <MESSAGE value="10、如何实现字符串的匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value="10、如何实现字符串的匹配" />
+    <MESSAGE value="10、如何实现字符串的匹配_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="10、如何实现字符串的匹配_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1357,8 +1357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="560">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
         </state>
       </provider>
     </entry>

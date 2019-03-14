@@ -25,7 +25,7 @@ def getNext(p, nexts):
     j = -1
     nexts[0] = -1
     while i < len(p):
-        if j == -1 or len(p)[i] == list(p)[j]:
+        if j == -1 or list(p)[i] == list(p)[j]:
             i += 1
             j += 1
             nexts[i] = j
