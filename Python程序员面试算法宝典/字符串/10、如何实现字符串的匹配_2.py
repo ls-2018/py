@@ -17,3 +17,53 @@ next[j]=max   (max{k | 1<k<j 且 P0P1...Pk = P(j-k-1)...P(j-1))
 next[j]=0   其他情况
 
 """
+
+
+def getNext(p, nexts):
+    """"""
+    i = 0
+    j = -1
+    nexts[0] = -1
+    while i < len(p):
+        if j == -1 or len(p)[i] == list(p)[j]:
+            i += 1
+            j += 1
+            nexts[i] = j
+        else:
+            j = nexts[j]
+
+
+def match(s, p, nexts):
+    # 检查参数的合理性,s>=p
+    if s is None or p is None:
+        print('参数不合理')
+        return -1
+    slen = len(s)
+    plen = len(p)
+    # p 肯定不是s的子串
+    if slen < plen:
+        return -1
+    i = j = 0
+    while i < slen and j < plen:
+        print("i= ", i, ' j= ', j)
+        if j == -1 or list(s)[i] == list(p)[j]:
+            i += 1
+            j += 1
+        else:
+            # 主串i不需要回溯,从next数组中找出需要比较的模式串的位置j
+            j = nexts[j]
+
+    if j >= plen:  # 匹配成功
+        return i - plen
+
+    return -1
+
+
+if __name__ == '__main__':
+    s = 'abababaabcbab'
+    p = 'abaabc'
+    lens = len(p)
+    nexts = [0] * (lens + 1)
+    getNext(p, nexts)
+    print('nexts数组为:', nexts)
+    print('匹配结尾为:', match(s, p, nexts))
