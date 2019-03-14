@@ -28,9 +28,9 @@ def getNext(p, nexts):
         if j == -1 or list(p)[i] == list(p)[j]:
             i += 1
             j += 1
-            nexts[i] = j
+            nexts[i] = j    # 指向相同的前一个
         else:
-            j = nexts[j]
+            j = nexts[j]    # 这里next[j]是之前匹配的上一个,
 
 
 def match(s, p, nexts):
