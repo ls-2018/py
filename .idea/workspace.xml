@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/7、对大小写字符串进行排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +13,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、去掉重复的排序 Coverage Results" MODIFIED="1552457991031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、把二叉树转换成双向链表 Coverage Results" MODIFIED="1552189935364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
-    <SUITE FILE_PATH="coverage/book$8.coverage" NAME="8、求解最小三元组距离 Coverage Results" MODIFIED="1552358814759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$25.coverage" NAME="25、任务调度 Coverage Results" MODIFIED="1552453134053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1552520623213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$8.coverage" NAME="8、消除字符串的内嵌括号 Coverage Results" MODIFIED="1552521627111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、找出三个有序数组的公共元素 Coverage Results" MODIFIED="1552440715646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$19.coverage" NAME="19、按要求构造新数组 Coverage Results" MODIFIED="1552436777689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$13.coverage" NAME="13、在不排序的情况下求数组中的中位数 Coverage Results" MODIFIED="1552371662654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
@@ -58,10 +55,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/7、对大小写字符串进行排序.py">
+        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="130">
+              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/5、设计一个排序系统.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/1、把一个有序数组放到二叉树.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/2、层序打印树结点.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/3、求一颗二叉树的最大子树和.py" />
@@ -145,8 +141,9 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/2、去掉重复的排序.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/6、判断两个字符串是否是包含关系.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/7、对大小写字符串进行排序.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/7、对大小写字符串进行排序.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py" />
       </list>
     </option>
   </component>
@@ -217,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.8、消除字符串的内嵌括号">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,8 +237,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="8、消除字符串的内嵌括号" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8、消除字符串的内嵌括号" />
         <item itemvalue="Python.123" />
       </list>
     </recent_temporary>
@@ -277,14 +297,7 @@
       <workItem from="1552468826598" duration="6701000" />
       <workItem from="1552478779848" duration="244000" />
       <workItem from="1552480364418" duration="1313000" />
-      <workItem from="1552518713385" duration="1918000" />
-    </task>
-    <task id="LOCAL-00044" summary="4、如何判断两棵二叉树是否相等">
-      <created>1552184706369</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1552184706369</updated>
+      <workItem from="1552518713385" duration="2933000" />
     </task>
     <task id="LOCAL-00045" summary="4、如何判断两棵二叉树是否相等">
       <created>1552184743105</created>
@@ -622,15 +635,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552478867370</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="7、对大小写字符串进行排序">
+      <created>1552520653461</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1552520653485</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137286000" />
+    <option name="totallyTimeSpent" value="138301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.19764957" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
@@ -682,7 +701,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="_" />
     <MESSAGE value="6、判断数组是否为排序二杈树后续遍历" />
     <MESSAGE value="7、找出排序二叉树任一两个结点的共同父节点" />
     <MESSAGE value="7、找出排序二叉树任一两个结点的共同父节点_2" />
@@ -707,7 +725,8 @@
     <MESSAGE value="1、打印字符串的所有排序" />
     <MESSAGE value="3、求两个字符串的最长公共子串" />
     <MESSAGE value="5、判断连个字符串是否为换位字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="5、判断连个字符串是否为换位字符串" />
+    <MESSAGE value="7、对大小写字符串进行排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="7、对大小写字符串进行排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,17 +881,80 @@
           <line>25</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/4、如何判断两棵二叉树是否相等(中序).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/3、求一颗二叉树的最大子树和(后序).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1196,7 +1278,14 @@
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/7、对大小写字符串进行排序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
