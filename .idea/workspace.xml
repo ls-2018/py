@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme" afterDir="false" />
     </list>
@@ -62,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="1725">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="700">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -174,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,7 +195,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,14 +379,8 @@
       <workItem from="1552480364418" duration="1313000" />
       <workItem from="1552518713385" duration="5690000" />
       <workItem from="1552525409474" duration="3896000" />
-      <workItem from="1552541822973" duration="761000" />
-    </task>
-    <task id="LOCAL-00053" summary="7、找出排序二叉树任一两个结点的共同父节点_2">
-      <created>1552197591543</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1552197591543</updated>
+      <workItem from="1552541822973" duration="1563000" />
+      <workItem from="1552544094492" duration="690000" />
     </task>
     <task id="LOCAL-00054" summary="6、找出数组中第K小的数">
       <created>1552349786727</created>
@@ -726,17 +718,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552528651405</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="_">
+      <created>1552542609221</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1552542609222</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145715000" />
+    <option name="totallyTimeSpent" value="147207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="580" y="0" width="1390" height="1047" extended-state="0" />
+    <frame x="580" y="0" width="1390" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.28496242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.28947368" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -786,7 +785,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme" />
     <MESSAGE value="8、求解最小三元组距离" />
     <MESSAGE value="9、求绝对值最小的数" />
     <MESSAGE value="12、翻转数组" />
@@ -811,7 +809,8 @@
     <MESSAGE value="9、判断字符串是否为整数_2" />
     <MESSAGE value="10、如何实现字符串的匹配" />
     <MESSAGE value="10、如何实现字符串的匹配_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="10、如何实现字符串的匹配_2" />
+    <MESSAGE value="_" />
+    <option name="LAST_COMMIT_MESSAGE" value="_" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1040,13 +1039,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/5、把二叉链表转换为双向链表(中序).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希/1、如何实现栈.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-72" />
@@ -1362,15 +1354,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="1725">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/新建文件夹 (2)/新建文件夹/手机相册/鏂板缓鏂囦欢澶_%BZ5ICZD8J{X[5IQKTGA25.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="700">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
