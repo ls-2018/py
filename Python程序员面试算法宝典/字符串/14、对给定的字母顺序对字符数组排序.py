@@ -1,10 +1,20 @@
 """
 已知字母序列[d,g,e,c,f,b,o,a]  轻松换一个方法,对输入的一组字符串['bed','dog','dear','eye']按照字母顺序排序病打印
 本例输出  dear  dog  eye  bed
+
+插入排序的变形
 """
 
 
 def compare(str1, str2, char_to_int):
+    """
+    str1, str2带比较的字符串
+    :param char_to_int:
+    :return: 不存在的字符在比较时,返回-1
+                相同返回
+                大于返回
+
+    """
     len1 = len(str1)
     len2 = len(str2)
     i = j = 0
@@ -12,9 +22,9 @@ def compare(str1, str2, char_to_int):
         # 如果字符不在给定的序列中,那么把值赋为-1
         if list(str1)[i] not in char_to_int.keys():
             char_to_int[list(str1)[i]] = -1
+        if list(str2)[j] not in char_to_int.keys():
+            char_to_int[list(str2)[j]] = -1
 
-        if list(str2)[i] not in char_to_int.keys():
-            char_to_int[list(str2)[i]] = -1
         # 比较各个字符的大小
         if char_to_int[list(str1)[i]] < char_to_int[list(str2)[j]]:
             return -1
@@ -23,12 +33,13 @@ def compare(str1, str2, char_to_int):
         else:
             i += 1
             j += 1
-        if i == len1 and j == len2:
-            return 0
-        elif i == len1:
-            return -1
-        else:
-            return 1
+            # 字符一直相等
+    if i == len1 and j == len2:
+        return 0
+    elif i == len1:  #
+        return -1
+    else:
+        return 1
 
 
 def insertSort(s, char_to_int):
@@ -41,7 +52,7 @@ def insertSort(s, char_to_int):
         j = i - 1
         while j > 0:
             # 用给定的规则比较字符串的大小
-            if compare(temp, s[j], char_to_int) == -1:
+            if compare(temp, s[j], char_to_int) == -1:  # 代表 temp 在s[j] 前面
                 s[j + 1] = s[j]
             else:
                 break
