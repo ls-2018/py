@@ -17,7 +17,7 @@ def func_1(src):
         return None
 
     lens = len(src)
-    longestSub = [None] * (lens + 1)
+    longestSub = [None] * lens
     k = i = 0
     while i < lens:
         longestSub[k] = list(src)[i]
@@ -45,7 +45,7 @@ def func_2(src):
     if src is None:
         return None
     lens = len(src)
-    largestSub = [None] * (lens + 1)
+    largestSub = [None] * lens
     # 最后一个字符一定在子串中
     largestSub[0] = list(src)[lens - 1]
     i = lens - 2  # 倒是第二个开始
