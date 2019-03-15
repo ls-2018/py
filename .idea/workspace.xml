@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45227d85-e2ad-4bb5-9d4d-8cb4173526ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一次穿线的最长重复串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/19、求解字符串中字典序最大的子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/19、求解字符串中字典序最大的子序列.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +16,7 @@
     <SUITE FILE_PATH="coverage/book$17.coverage" NAME="17、求最长递增子序列的长度 Coverage Results" MODIFIED="1552628526984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1552629544940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$ssa.coverage" NAME="ssa Coverage Results" MODIFIED="1552619682257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$19.coverage" NAME="19、求解字符串中字典序最大的子序列 Coverage Results" MODIFIED="1552631494597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$11_2.coverage" NAME="11、求字符串里的最长回文子串_2 Coverage Results" MODIFIED="1552611972829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$15.coverage" NAME="15、判断一个字符串是否包含重复字符 Coverage Results" MODIFIED="1552624041986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$11_3.coverage" NAME="11、求字符串里的最长回文子串_3 Coverage Results" MODIFIED="1552618142520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
@@ -25,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一次穿线的最长重复串.py">
+        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/19、求解字符串中字典序最大的子序列.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="357">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -66,6 +67,7 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一个出现的最长重复子串.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一次穿线的最长重复串.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/19、求解字符串中字典序最大的子序列.py" />
       </list>
     </option>
   </component>
@@ -128,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.19、求解字符串中字典序最大的子序列">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,8 +153,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="19、求解字符串中字典序最大的子序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/19、求解字符串中字典序最大的子序列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.19、求解字符串中字典序最大的子序列" />
         <item itemvalue="Python.123" />
       </list>
     </recent_temporary>
@@ -167,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552611927083</updated>
-      <workItem from="1552611934832" duration="16235000" />
+      <workItem from="1552611934832" duration="18358000" />
     </task>
     <task id="LOCAL-00001" summary="11、求字符串里的最长回文子串_2">
       <created>1552612117349</created>
@@ -246,11 +271,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552628464401</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="18、求一个串中第一次穿线的最长重复串">
+      <created>1552629555727</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552629555733</updated>
+    </task>
+    <task id="LOCAL-00013" summary="19、求解字符串中字典序最大的子序列">
+      <created>1552630848534</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552630848534</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16235000" />
+    <option name="totallyTimeSpent" value="18358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
@@ -266,7 +305,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5016026" side_tool="true" weight="0.39955604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.5283019" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.27968922" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839744" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,7 +326,9 @@
     <MESSAGE value="14、对给定的字母顺序对字符数组排序.py" />
     <MESSAGE value="16、如何找到由其他单词组成的最长单词" />
     <MESSAGE value="17、求最长递增子序列的长度" />
-    <option name="LAST_COMMIT_MESSAGE" value="17、求最长递增子序列的长度" />
+    <MESSAGE value="18、求一个串中第一次穿线的最长重复串" />
+    <MESSAGE value="19、求解字符串中字典序最大的子序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="19、求解字符串中字典序最大的子序列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -321,16 +362,6 @@
           <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/16、如何找到由其他单词组成的最长单词.py</url>
           <line>31</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一次穿线的最长重复串.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一次穿线的最长重复串.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -407,8 +438,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一次穿线的最长重复串.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/19、求解字符串中字典序最大的子序列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
         </state>
       </provider>
     </entry>
