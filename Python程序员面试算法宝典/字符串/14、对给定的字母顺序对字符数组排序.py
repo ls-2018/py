@@ -3,6 +3,11 @@
 本例输出  dear  dog  eye  bed
 
 插入排序的变形
+
+插入  : n*n
+比较  : n
+总共  : n*n*n
+
 """
 
 
@@ -53,7 +58,7 @@ def insertSort(s, char_to_int):
         while j >= 0:
             # 用给定的规则比较字符串的大小
             if compare(temp, s[j], char_to_int) == -1:  # 代表 temp 在s[j] 前面
-                x ,x1 = temp,s[j]
+                x, x1 = temp, s[j]
                 s[j + 1] = s[j]
             else:
                 break
