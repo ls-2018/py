@@ -50,9 +50,10 @@ def insertSort(s, char_to_int):
     while i < lens:
         temp = s[i]
         j = i - 1
-        while j > 0:
+        while j >= 0:
             # 用给定的规则比较字符串的大小
             if compare(temp, s[j], char_to_int) == -1:  # 代表 temp 在s[j] 前面
+                x ,x1 = temp,s[j]
                 s[j + 1] = s[j]
             else:
                 break

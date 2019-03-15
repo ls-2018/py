@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45227d85-e2ad-4bb5-9d4d-8cb4173526ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py" afterDir="false" />
     </list>
@@ -17,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/book$14.coverage" NAME="14、安给定的字母顺序对字符数组排序 Coverage Results" MODIFIED="1552620730516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$14.coverage" NAME="14、安给定的字母顺序对字符数组排序 Coverage Results" MODIFIED="1552621287788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$ssa.coverage" NAME="ssa Coverage Results" MODIFIED="1552619682257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$11_2.coverage" NAME="11、求字符串里的最长回文子串_2 Coverage Results" MODIFIED="1552611972829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$11_3.coverage" NAME="11、求字符串里的最长回文子串_3 Coverage Results" MODIFIED="1552618142520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
@@ -27,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="369">
+              <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding>
                 <element signature="e#167#258#1" />
               </folding>
@@ -103,6 +98,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -225,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552611927083</updated>
-      <workItem from="1552611934832" duration="7470000" />
+      <workItem from="1552611934832" duration="7844000" />
     </task>
     <task id="LOCAL-00001" summary="11、求字符串里的最长回文子串_2">
       <created>1552612117349</created>
@@ -255,11 +251,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552619092958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="14、对给定的字母顺序对字符数组排序.py">
+      <created>1552620753334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552620753334</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7470000" />
+    <option name="totallyTimeSpent" value="7844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
@@ -271,11 +274,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49946582" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49946582" visible="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50106835" side_tool="true" weight="0.5016648" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893162" visible="true" weight="0.42841288" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893162" weight="0.42841288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,6 +307,61 @@
           <line>64</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -331,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/14、对给定的字母顺序对字符数组排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="369">
+          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding>
             <element signature="e#167#258#1" />
           </folding>
