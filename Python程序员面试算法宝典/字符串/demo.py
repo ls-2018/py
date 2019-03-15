@@ -1,2 +1,0 @@
-
-print('deaszxc'[4])
