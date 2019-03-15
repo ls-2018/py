@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3114016b-f434-4139-897d-27436e2908f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/11、求字符串里的最长回文子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,18 +15,19 @@
     <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、去掉重复的排序 Coverage Results" MODIFIED="1552457991031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、把二叉树转换成双向链表 Coverage Results" MODIFIED="1552189935364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
     <SUITE FILE_PATH="coverage/book$8.coverage" NAME="8、消除字符串的内嵌括号 Coverage Results" MODIFIED="1552523229993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1552520623213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$25.coverage" NAME="25、任务调度 Coverage Results" MODIFIED="1552453134053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+    <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1552609159223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、找出三个有序数组的公共元素 Coverage Results" MODIFIED="1552440715646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$19.coverage" NAME="19、按要求构造新数组 Coverage Results" MODIFIED="1552436777689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$13.coverage" NAME="13、在不排序的情况下求数组中的中位数 Coverage Results" MODIFIED="1552371662654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
-    <SUITE FILE_PATH="coverage/book$10_2.coverage" NAME="10、如何实现字符串的匹配_2 Coverage Results" MODIFIED="1552607638269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$10_2.coverage" NAME="10、如何实现字符串的匹配_2 Coverage Results" MODIFIED="1552609036993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$_2.coverage" NAME="２、如何实现队列_2 Coverage Results" MODIFIED="1552092661793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/栈、队列与哈希" />
     <SUITE FILE_PATH="coverage/book$24_2.coverage" NAME="24、如何对有大量重复数字的数组排序_2 Coverage Results" MODIFIED="1552449958608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$16.coverage" NAME="16、高效地在二维数组中查找数据 Coverage Results" MODIFIED="1552387844695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$14.coverage" NAME="14、求集合的所有子集 Coverage Results" MODIFIED="1552384907676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
     <SUITE FILE_PATH="coverage/book$17.coverage" NAME="17、查找最多的覆盖点 Coverage Results" MODIFIED="1552392044011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
-    <SUITE FILE_PATH="coverage/book$11.coverage" NAME="11、找出数组中出现一次的数 Coverage Results" MODIFIED="1552368627620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数组" />
+    <SUITE FILE_PATH="coverage/book$a123.coverage" NAME="a123 Coverage Results" MODIFIED="1552609169346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$11.coverage" NAME="11、求字符串里的最长回文子串 Coverage Results" MODIFIED="1552608791444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、求两个字符串的最长公共子串 Coverage Results" MODIFIED="1552481507715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1、打印字符串的所有排序 Coverage Results" MODIFIED="1552457145707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1552196124009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树" />
@@ -61,10 +59,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py">
+        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="392">
+              <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -80,7 +78,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/11、求字符串里的最长回文子串.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -118,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/5、把二叉树转换成双向链表.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/asd.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/6、判断数组是否为二叉树后续遍历.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/二叉树/6、判断数组是否为二元查找树后续遍历.py" />
@@ -161,14 +162,15 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/2、去掉重复的排序.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/3、求两个字符串的最长公共子串.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/6、判断两个字符串是否是包含关系.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/7、对大小写字符串进行排序.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/9、判断字符串是否为整数.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/9、判断字符串是否为整数_2.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/11、求字符串里的最长回文子串.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py" />
       </list>
     </option>
   </component>
@@ -239,30 +241,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10、如何实现字符串的匹配_2">
-    <configuration name="10、如何实现字符串的匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10、如何实现字符串的匹配_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="a123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,79 +264,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8、消除字符串的内嵌括号" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/8、消除字符串的内嵌括号.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="9、判断字符串是否为整数" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/9、判断字符串是否为整数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="9、判断字符串是否为整数_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/字符串/9、判断字符串是否为整数_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10、如何实现字符串的匹配_2" />
-        <item itemvalue="Python.10、如何实现字符串的匹配" />
-        <item itemvalue="Python.9、判断字符串是否为整数_2" />
-        <item itemvalue="Python.9、判断字符串是否为整数" />
-        <item itemvalue="Python.8、消除字符串的内嵌括号" />
+        <item itemvalue="Python.a123" />
       </list>
     </recent_temporary>
   </component>
@@ -395,21 +305,7 @@
       <workItem from="1552525409474" duration="3896000" />
       <workItem from="1552541822973" duration="1563000" />
       <workItem from="1552544094492" duration="690000" />
-      <workItem from="1552606360857" duration="1590000" />
-    </task>
-    <task id="LOCAL-00054" summary="6、找出数组中第K小的数">
-      <created>1552349786727</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1552349786728</updated>
-    </task>
-    <task id="LOCAL-00055" summary="readme">
-      <created>1552350666141</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1552350666142</updated>
+      <workItem from="1552606360857" duration="2691000" />
     </task>
     <task id="LOCAL-00056" summary="7、数组中重复元素的最小位置">
       <created>1552351904064</created>
@@ -740,23 +636,36 @@
       <option name="project" value="LOCAL" />
       <updated>1552542609222</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="_">
+      <created>1552607960302</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1552607960303</updated>
+    </task>
+    <task id="LOCAL-00104" summary="11、求字符串里的最长回文子串">
+      <created>1552608807529</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1552608807530</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148797000" />
+    <option name="totallyTimeSpent" value="149898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924356" visible="true" weight="0.20940171" />
       <window_info id="Structure" order="1" sideWeight="0.50075644" side_tool="true" weight="0.20779915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.4017758" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.37402886" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.4017758" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.37402886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -800,7 +709,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8、求解最小三元组距离" />
     <MESSAGE value="9、求绝对值最小的数" />
     <MESSAGE value="12、翻转数组" />
     <MESSAGE value="13、在不排序的情况下求数组中的中位数" />
@@ -825,7 +733,8 @@
     <MESSAGE value="10、如何实现字符串的匹配" />
     <MESSAGE value="10、如何实现字符串的匹配_2" />
     <MESSAGE value="_" />
-    <option name="LAST_COMMIT_MESSAGE" value="_" />
+    <MESSAGE value="11、求字符串里的最长回文子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="11、求字符串里的最长回文子串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1051,34 +960,94 @@
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
           <line>66</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
           <line>62</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
           <line>63</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
           <line>64</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
           <line>65</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
           <line>67</line>
           <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1393,12 +1362,16 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/11、求字符串里的最长回文子串.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/10、如何实现字符串的匹配_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="415">
+          <caret line="71" column="9" lean-forward="true" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
         </state>
       </provider>
     </entry>
