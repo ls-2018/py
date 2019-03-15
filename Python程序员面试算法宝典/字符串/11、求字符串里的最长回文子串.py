@@ -33,7 +33,7 @@ class Test:
         # 初始化长度为1的回文字符串信息
         i = 0
         while i < n:
-            historyRecord[i][i] = 1
+            historyRecord[i][i] = 1  # 对角线为1
             i += 1
 
         # 初始化长度为2的回文字符串信息
@@ -41,26 +41,27 @@ class Test:
         while i < n - 1:
             if list(strs)[i] == list(strs)[i + 1]:
                 historyRecord[i][i + 1] = 1
-                self.startIndex = i
+                self.startIndex = i  # 记录最后一次
                 self.lens = 2
             i += 1
-        # 查找长度为3 开始的回文字符串
-        pLen = 3
-        while pLen < n:
+        # 查找长度大于等于3的回文字符串
+        pLen = 3    # 起始长度
+        while pLen < n:  # 字符串的长度
             i = 0
             while i < n - pLen + 1:
-                j = i + pLen - 1
-                if list(strs)[i] == list(strs)[j] and historyRecord[i + 1][j - 1] == 1:
+                j = i + pLen - 1    # 回文字符串的最后一个字符
+                if list(strs)[i] == list(strs)[j] and historyRecord[i + 1][j - 1] == 1:   # 为什有这一步,因为需要用到长度为2
                     historyRecord[i][j] = 1
                     self.startIndex = i
                     self.lens = pLen
                 i += 1
             pLen += 1
+            #
 
 
 if __name__ == '__main__':
 
-    strs = 'abcdefgfedxyz'
+    strs = 'abcdefgfedcxyz'
     t = Test()
     t.getLongestPalindrome(strs)
     if t.getStartIndex() != -1 and t.getLen() != -1:
