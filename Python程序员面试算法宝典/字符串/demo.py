@@ -1,0 +1,2 @@
+
+print('deaszxc'[4])
