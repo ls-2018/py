@@ -21,7 +21,7 @@ def func_1(p, i, j):
     mins = 2 ** 32
     k = i
     while k < j:
-        count = func_1(p, i, k) + func_1(p, k + 1, j) + p[i - 1] * p[k] * p[j]      # 两括号？
+        count = func_1(p, i, k) + func_1(p, k + 1, j) + p[i - 1] * p[k] * p[j]  # 两括号？
         if count < mins:
             mins = count
         k += 1

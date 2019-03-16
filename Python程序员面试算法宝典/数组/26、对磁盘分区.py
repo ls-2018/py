@@ -25,7 +25,7 @@ def is_allocable(d, p):
 if __name__ == '__main__':
     d = [120, 120, 120]
     p = [60, 60, 80, 20, 80]
-    if is_allocable(d,p):
+    if is_allocable(d, p):
         print('分配成功')
     else:
         print('失败')
