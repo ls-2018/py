@@ -11,10 +11,10 @@ class Test:
     def __init__(self, arr):
         self.numbers = arr
         # 用来标记图中结点是否被遍历过
-        self.visited = [None] * len(self.numbers)
+        self.visited = [False] * len(self.numbers)
 
-        # 图的二维数组表示
-        self.graph = [([None] * len(self.numbers)) for i in range(len(self.numbers))]
+        # 图的二维数组表示,可以连接的结点
+        self.graph = [([0] * len(self.numbers)) for i in range(len(self.numbers))]
         self.n = 6
 
         # 数字的组合
@@ -28,19 +28,20 @@ class Test:
         对图从结点start位置开始进行深度遍历
         :param start:  遍历的起始位置
         """
-        self.visited[start] = True
-        self.combination += str(self.numbers[start])
+        # 512234
+        self.visited[start] = True  # 进入递归标记已用
+        self.combination += str(self.numbers[start])  # 512234
         if len(self.combination) == self.n:
             # 4不出现在第三个位置
             if self.combination.index("4") != 2:
-                self.s.add((self.combination))
+                self.s.add(self.combination)
         j = 0
         while j < self.n:
             if self.graph[start][j] == 1 and self.visited[j] == False:
                 self.depthFirstSearch(j)
             j += 1
-        self.combination = self.combination[:-1]
-        self.visited[start] = False
+        self.combination = self.combination[:-1]    # 每退出一次递归，就减少一个，当完全退出以后，就是空字符串，可以方便最外层使用：因为最外层需要为空
+        self.visited[start] = False  # 退出递归标记解除
 
     def getAllCombination(self):
         """
@@ -58,7 +59,7 @@ class Test:
                     self.graph[i][j] = 1
                 j += 1
             i += 1
-        # 确保在遍历的时候3 与5 是不可达的
+        # 确保在遍历的时候3 与5 是不可达的；35在数组中的位置，恰好是3  5
         self.graph[3][5] = 0
         self.graph[5][3] = 0
         # 分别从不同的结点出发深度遍历图
