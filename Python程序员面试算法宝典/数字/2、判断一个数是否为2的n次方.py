@@ -20,5 +20,10 @@ def isPower_2(n):
     """
     if n < 1:
         return False
-    m = n & (n - 1)
+    m = n & (n - 7)  # 求n的几次方,这里后边的整数就变成n-1
     return m == 0
+
+
+if __name__ == '__main__':
+    print(isPower_2(8))
+    print(isPower_2(4))
