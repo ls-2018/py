@@ -27,19 +27,21 @@ def shell_sort(lists):
     # 希尔排序
     count = len(lists)
     step = 2
-    group = count // step
+    group = count // step  # 有多少组
     while group > 0:
         for i in range(0, group):
             j = i + group
+            # 从这开始的是一个冒泡排序,步长为group
             while j < count:
                 k = j - group
                 key = lists[j]
                 while k >= 0:
-                    if lists[k] > key:
+                    if lists[k] > key:  # 前面大于 好后面
                         lists[k + group] = lists[k]
                         lists[k] = key
                     k -= group
                 j += group
+
         group = group // step
     return lists
 
