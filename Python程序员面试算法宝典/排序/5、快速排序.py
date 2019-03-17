@@ -36,21 +36,42 @@
 """
 
 
+def find_mid(lists, left, right):
+    """选取合适的关键字"""
+    key1 = lists[left]
+    key2 = lists[right]
+    key3 = lists[(left + right) // 2]
+    maxNo = max(key1, key2, key3)
+    minNo = min(key1, key2, key3)
+    key = [key2, key1, key3]
+    key.remove(maxNo)
+    key.remove(minNo)
+    key = key[0]
+    if key == key1:
+        pass
+    elif key == key2:
+        lists[left], left[right] = left[right], left[left]
+    else:
+        lists[left], lists[(left + right) // 2] = key, lists[left]
+    return key
+
+
 def quick_sort(lists, left, right):
     # 快速排序
     if left > right:
         return lists
 
-    key = lists[left]
+    key = find_mid(lists, left, right)
+
     low = left
     high = right
-    while left < right:  # 遍历一次将开始元素放到应该放的位置,左小右大
 
+    while left < right:  # 遍历一次将开始元素放到应该放的位置,左小右大
         while left < right and lists[right] >= key:
             right -= 1  # 退出条件,lists[right] 小于key,
         lists[left] = lists[right]
         while left < right and lists[left] <= key:
-            left += 1  # 退出条件,lists[left] 大于key,
+            left += 1  # 退出条件,lists[left] 大于等于key,
         lists[right] = lists[left]
 
     # 最后left 与right相等
@@ -60,8 +81,8 @@ def quick_sort(lists, left, right):
 
 
 if __name__ == '__main__':
-    # lists = [3, 4, 2, 8, 9, 5, 1]
-    lists = [5, 4, 3, 2, 1]
+    lists = [3, 4, 2, 8, 9, 5, 1]
+    # lists = [5, 4, 3, 2, 1]
     print('排序前序列为:', lists)
     quick_sort(lists, 0, len(lists) - 1)
     print('排序后序列为:', lists)
