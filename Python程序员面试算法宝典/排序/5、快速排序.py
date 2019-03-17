@@ -55,8 +55,8 @@ def quick_sort(lists, left, right):
 
     # 最后left 与right相等
     lists[right] = key
-    # quick_sort(lists, low, left - 1)
-    # quick_sort(lists, left + 1, high)
+    quick_sort(lists, low, left - 1)
+    quick_sort(lists, left + 1, high)
 
 
 if __name__ == '__main__':
