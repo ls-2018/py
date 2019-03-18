@@ -75,7 +75,7 @@ decode  bytes解码
 encode  str  编码
 """
 
-text_str= 'Γεια σας, τον κόσμο'
+text_str = 'Γεια σας, τον κόσμο'
 # text_str= '测试'
 print(type(text_str))
 print(text_str.encode('utf8').decode('utf8'))
@@ -94,4 +94,4 @@ utf8 是变长的
 因此如果尝试将一个自己字符串使用Latin-1编码而使用utf-8解码，会出问题
 因此如果尝试将一个自己字符串使用utf-8编码而使用Latin-1解码，会乱码
 """
-print(5/2)
+print(5 / 2)
