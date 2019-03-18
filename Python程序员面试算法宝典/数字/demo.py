@@ -78,7 +78,7 @@ encode  str  编码
 text_str = 'Γεια σας, τον κόσμο'
 # text_str= '测试'
 print(type(text_str))
-print(text_str.encode('utf8').decode('utf8'))
+print(text_str.encode('utf8'))
 """
 <class 'bytes'>
 <class 'str'>
