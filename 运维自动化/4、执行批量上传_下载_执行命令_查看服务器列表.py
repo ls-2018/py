@@ -2,6 +2,8 @@ import getopt
 import paramiko
 import re
 import sys
+
+
 def Explain():
     '''
     定义函数，实现该脚本参数说明；
@@ -15,52 +17,56 @@ def Explain():
     print('\t-d 目标路径下文件')
     print('\t-m 执行远程命令')
 
+
 class Batch:
 
-    def SeeServerGroup(self,group):
+    def SeeServerGroup(self, group):
         self.group = group
         try:
-            ipfile = open(self.group,'r').readlines()
+            ipfile = open(self.group, 'r').readlines()
             for x in ipfile:
                 print(x.rstrip())
 
-        except(NameError,UnboundLocalError):
+        except(NameError, UnboundLocalError):
             print('服务器错误')
 
         else:
             print('Close')
-    def RunServerGroup(self,group):
+
+    def RunServerGroup(self, group):
         self.group = group
         try:
-            value = open(self.group,'r').readlines()
+            value = open(self.group, 'r').readlines()
             for x in value:
-                Match = re.match('#',x)
-                if Match:
-                    pass
-                else:
-                    Host  = x.rstrip()
-                    Cmd   = sys.argv[4]
-                    Result.RunCmd(Host,Cmd)
-        except Exception as e:
-            print(e)
-    def RunServerGroup1(self,group):
-        self.group = group
-        try:
-            value = open(self.group,'r').readlines()
-            for x in value:
-                Match = re.match('#',x)
+                Match = re.match('#', x)
                 if Match:
                     pass
                 else:
                     Host = x.rstrip()
-                    localfile  = sys.argv[4]
-                    objectfile = sys.argvp[6]
-                    UpandDownLoad(Host,localfile,objectfile)
+                    Cmd = sys.argv[4]
+                    Result.RunCmd(Host, Cmd)
         except Exception as e:
             print(e)
-    def UpandDownLoad(self,Host,localfile,objectfile):
+
+    def RunServerGroup1(self, group):
+        self.group = group
+        try:
+            value = open(self.group, 'r').readlines()
+            for x in value:
+                Match = re.match('#', x)
+                if Match:
+                    pass
+                else:
+                    Host = x.rstrip()
+                    localfile = sys.argv[4]
+                    objectfile = sys.argvp[6]
+                    UpandDownLoad(Host, localfile, objectfile)
+        except Exception as e:
+            print(e)
+
+    def UpandDownLoad(self, Host, localfile, objectfile):
         self.Host = Host
-        self.localfile  = localfile
+        self.localfile = localfile
         self.objectfile = objectfile
         user = 'root'
         s = paramiko.SSHClient()
@@ -68,33 +74,34 @@ class Batch:
         s.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         pkey_file = '/root/.ssh/id_rsa'
         key = paramiko.RSAKey.from_private_key_file(pkey_file)
-        t = paramiko.Transport((self.Host,22))
-        t.connect(username = user,pkey=key)
+        t = paramiko.Transport((self.Host, 22))
+        t.connect(username=user, pkey=key)
         sftp = paramiko.SFTPClient.from_transport(t)
         if sys.argv[3] == '-f':
-            sftp.put(self.localfile,self.objectfile)
+            sftp.put(self.localfile, self.objectfile)
             s.close()
         else:
-            sftp.get(self.localfile,self.objectfile)
+            sftp.get(self.localfile, self.objectfile)
             s.close()
 
-    def RunCmd(self,Host,Cmd):
+    def RunCmd(self, Host, Cmd):
         self.Host = Host
-        self.Cmd  = Cmd
+        self.Cmd = Cmd
         user = 'root'
         ssh = paramiko.SSHClient()
         ssh.load_system_host_keys()
         KeyFile = '/root/.ssh/id_rsa'
         key = paramiko.RSAKey.from_private_key_file(KeyFile)
-        ssh.connect(self.Host,22,user,pkey=key,timeout = 5)
-        stdin,stdout,stderr = ssh.exec_command(self.Cmd)
-        Cmd_Result = stdout.read(),stderr.read()
+        ssh.connect(self.Host, 22, user, pkey=key, timeout=5)
+        stdin, stdout, stderr = ssh.exec_command(self.Cmd)
+        Cmd_Result = stdout.read(), stderr.read()
         if Cmd_Result:
             for line in Cmd_Result:
                 print(line)
         else:
             print('No Values')
             ssh.close()
+
 
 if __name__ == '__main__':
     try:
@@ -113,18 +120,18 @@ if __name__ == '__main__':
             Result.RunServerGroup1(group)
         elif sys.argv[1] == '-i' and sys.argv[3] == '-m':
             Host = sys.argv[2]
-            Cmd  = sys.argv[4]
-            Result.RunCmd(Host,Cmd)
+            Cmd = sys.argv[4]
+            Result.RunCmd(Host, Cmd)
         elif sys.argv[1] == '-i' and sys.argv[3] == '-f' and sys.argv[5] == '-d':
             Host = sys.argv[2]
-            localfile  = sys.argv[4]
+            localfile = sys.argv[4]
             objectfile = sys.argv[6]
-            Result.UpandDownLoad(Host,localfile,objectfile)
+            Result.UpandDownLoad(Host, localfile, objectfile)
         elif sys.argv[1] == '-i' and sys.argv[3] == '-d' and sys.argv[5] == '-f':
             Host = sys.argv[2]
-            localfile  = sys.argv[4]
+            localfile = sys.argv[4]
             objectfile = sys.argv[6]
-            Result.UpandDownLoad(Host,localfile,objectfile)
+            Result.UpandDownLoad(Host, localfile, objectfile)
         elif sys.argv[1] == '-g':
             group = sys.argv[2]
             group = str(group)
