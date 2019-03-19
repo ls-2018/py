@@ -16,6 +16,5 @@ def go():
         getdirname = input_raw()
         worktask(getdirname)
 
-
 #  fab -f 7、动态获取远程主机目录列表.py go
 #  fab -f 7、动态获取远程主机目录列表.py local_task
