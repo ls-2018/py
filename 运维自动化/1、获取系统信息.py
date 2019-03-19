@@ -45,8 +45,7 @@ for proc in psutil.process_iter():  #
     except psutil.NoSuchProcess:
         pass
     else:
-        if pinfo['pid']==8900:
-            print(pinfo)
+        print(pinfo)
 """
 {   其中的一些信息
     'exe': 'D:\\Program Files\\Notepad++\\notepad++.exe', 
@@ -65,4 +64,26 @@ for proc in psutil.process_iter():  #
     'cpu_affinity': [0, 1, 2, 3], 
     'num_handles': 466
 }
+"""
+# #################################     获取用户启动应用程序信息    ############################################
+import psutil
+from subprocess import PIPE
+from sys import stdout
+# 启动应用程序，跟踪该应用程序的进程信息
+p = psutil.Popen(["D:\\Python35\\python.exe","-c"], stdout=PIPE)
+print(p.name())
+print(p.username())
+print(p.communicate())
+try:
+    print(p.cpu_times())
+except:
+    print("获取不到p.cpu_times()")
+"""
+python.exe
+DESKTOP-JRUNE4A\Administrator
+(b'', None)
+获取不到p.cpu_times()
+Argument expected for the -c option
+usage: D:\Python35\python.exe [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
 """
