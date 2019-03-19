@@ -19,7 +19,7 @@ for host in host_list:
         continue
 
     str_total = re.search('MemTotal:.*?\n', str_out).group()
-    print(str_total)
+    print(str_total)3、批量监控主机内存_CPU利用率_磁盘_网络等信息
     totalmem = re.search('\d+', str_total).group()
 
     str_free = re.search('MemFree:.*?\n', str_out).group()
@@ -29,4 +29,3 @@ for host in host_list:
     print('当前内存使用率为：' + str(use))
 
     ssh.close()
-
