@@ -1,47 +1,31 @@
-"""
-SMTP是发送邮件的协议，Python内置对SMTP的支持，可以发送纯文本邮件、HTML邮件以及带附件的邮件。
-Python对SMTP支持有smtplib和email两个模块，email负责构造邮件，smtplib负责发送邮件。
-"""
-from email import encoders
-from email.header import Header
-from email.mime.text import MIMEText
-from email.utils import parseaddr, formataddr
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
 import smtplib
-
-
-def _format_addr(s):
-    name, addr = parseaddr(s)
-    return formataddr((Header(name, 'utf-8').encode(), addr.encode('utf-8')))
-
-
-from_addr = input('From: ')
-password = input('Password: ')
-to_addr = input('To: ')
-smtp_server = input('SMTP server: ')
-
-msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
-msg['From'] = _format_addr(u'邮件信息 <%s>' % from_addr)
-msg['To'] = _format_addr(u'管理员 <%s>' % to_addr)
-msg['Subject'] = Header(u'来自SMTP的问候……', 'utf-8').encode()
-
-server = smtplib.SMTP(smtp_server, 25)
-server.set_debuglevel(1)
-server.login(from_addr, password)
-server.sendmail(from_addr, [to_addr], msg.as_string())
-server.quit()
-
-"""
-用set_debuglevel(1)就可以打印出和SMTP服务器交互的所有信息。SMTP协议就是简单的文本命令和响应。
-login()方法用来登录SMTP服务器，sendmail()方法就是发邮件，由于可以一次发给多个人，所以传入一个list，
-邮件正文是一个str，as_string()把MIMEText对象变成str。
-"""
-
-"""
-发送HTML邮件
-要发送HTML邮件，而不是普通的纯文本文件怎么办？方法很简单，在构造MIMEText对象时，把HTML字符串传进去，
-再把第二个参数由plain变为html就可以了：
-
-        msg = MIMEText('<html><body><h1>Hello</h1>' +
-            '<p>send by <a href="、user/bin/smlt.py ">Python</a>...</p>' +
-            '</body></html>', 'html', 'utf-8')
-"""
+from email.mime.text import MIMEText
+from email.utils import formataddr
+ 
+my_sender='15733101139@163.com'    # 发件人邮箱账号
+my_pass = ''              # 发件人邮箱密码
+my_user='1214972346@qq.com'      # 收件人邮箱账号，我这边发送给自己
+def mail():
+    ret=True
+    try:
+        msg=MIMEText('填写邮件内容','plain','utf-8')
+        msg['From']=formataddr(["FromRunoob",my_sender])  # 括号里的对应发件人邮箱昵称、发件人邮箱账号
+        msg['To']=formataddr(["FK",my_user])              # 括号里的对应收件人邮箱昵称、收件人邮箱账号
+        msg['Subject']="菜鸟教程发送邮件测试"                # 邮件的主题，也可以说是标题
+ 
+        server=smtplib.SMTP_SSL("smtp.163.com", 465)  # 发件人邮箱中的SMTP服务器，端口是25
+        server.login(my_sender, my_pass)  # 括号中对应的是发件人邮箱账号、邮箱密码
+        server.sendmail(my_sender,[my_user,],msg.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
+        server.quit()  # 关闭连接
+    except Exception:  # 如果 try 中的语句没有执行，则会执行下面的 ret=False
+        ret=False
+    return ret
+ 
+ret=mail()
+if ret:
+    print("邮件发送成功")
+else:
+    print("邮件发送失败")
