@@ -1,10 +1,7 @@
-import sys
 import os
-import atexit
 import time
 import psutil
 
-# print "Welcome,current system is",os.name," 3 seconds late start to get data..."
 time.sleep(3)
 
 line_num = 1
@@ -60,11 +57,6 @@ def poll(interval):
 
 
 def refresh_window(tot_before, tot_after, pnic_before, pnic_after, cpu_state, memory_state):
-    if os.name == 'nt':
-        os.system("cls")
-    else:
-        os.system("clear")
-    """Print stats on screen."""
 
     # print current time #cpu state #memory
     print(time.asctime() + " | " + cpu_state + " | " + memory_state)
