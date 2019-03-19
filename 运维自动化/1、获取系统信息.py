@@ -1,12 +1,13 @@
 """psutil是一个跨平台库，能够轻松实现获取系统运行的进程和系统利用率它主要应用于系统监控，分析和限制系统资源及进程的管理。
 采集系统的基本性能信息包括CPU、内存、磁盘、网络等，可以 完整描述当前系统的运行状态及质量。psutil模块已经封装了这些方法， 用户可以根据自身的应用场景，调用相应的方法来满足需求，非常简单实用。"""
-import psutil #导入psutil
-mem = psutil.virtual_memory() #使用psutil.virtual_memory方法获取内存完整信息
-swap = psutil.swap_memory() #获取swap分区信息
-disk = psutil.disk_partitions()  #加载磁盘完整信息
-disk_usage = psutil.disk_usage('/')  #获取分区使用情况
-IO = psutil.disk_io_counters(perdisk=True)  #获取磁盘io个数
-print("\n","内存信息:",mem,"\n","磁盘信息=",disk,"\n","分区使用情况:",disk_usage,"\n","IO:",IO,"\n")
+import psutil  # 导入psutil
+
+mem = psutil.virtual_memory()  # 使用psutil.virtual_memory方法获取内存完整信息
+swap = psutil.swap_memory()  # 获取swap分区信息
+disk = psutil.disk_partitions()  # 加载磁盘完整信息
+disk_usage = psutil.disk_usage('/')  # 获取分区使用情况
+IO = psutil.disk_io_counters(perdisk=True)  # 获取磁盘io个数
+print("\n", "内存信息:", mem, "\n", "磁盘信息=", disk, "\n", "分区使用情况:", disk_usage, "\n", "IO:", IO, "\n")
 """
 内存信息: svmem(total=12779589632, available=8544985088, percent=33.1, used=4234604544, free=8544985088) 
 磁盘信息= [
@@ -24,12 +25,11 @@ IO: {
     } 
 """
 
-
-time=psutil.cpu_times() #使用cpu_times方法获取CPU完整信息，需要显示所有逻辑CPU信息，
-time_user=psutil.cpu_times().user  #获取单项数据信息，如用户user的CPU时间比
-cpu_count=psutil.cpu_count()  #获取CPU的逻辑个数，默认logical=True4
-cpu2=psutil.cpu_count(logical=False)  #获取CPU的物理个数
-print("\n","cpu信息:",time,"\n","cpu单项信息=",time_user,"\n","cpu逻辑个数=",cpu_count,"\n","cpu物理个数=",cpu2)
+time = psutil.cpu_times()  # 使用cpu_times方法获取CPU完整信息，需要显示所有逻辑CPU信息，
+time_user = psutil.cpu_times().user  # 获取单项数据信息，如用户user的CPU时间比
+cpu_count = psutil.cpu_count()  # 获取CPU的逻辑个数，默认logical=True4
+cpu2 = psutil.cpu_count(logical=False)  # 获取CPU的物理个数
+print("\n", "cpu信息:", time, "\n", "cpu单项信息=", time_user, "\n", "cpu逻辑个数=", cpu_count, "\n", "cpu物理个数=", cpu2)
 """
  cpu信息: scputimes(user=4505.625, system=2875.0156250000036, idle=31789.343749999996, interrupt=241.375, dpc=189.109375) 
  cpu单项信息= 4505.625 
@@ -69,8 +69,9 @@ for proc in psutil.process_iter():  #
 import psutil
 from subprocess import PIPE
 from sys import stdout
+
 # 启动应用程序，跟踪该应用程序的进程信息
-p = psutil.Popen(["D:\\Python35\\python.exe","-c"], stdout=PIPE)
+p = psutil.Popen(["D:\\Python35\\python.exe", "-c"], stdout=PIPE)
 print(p.name())
 print(p.username())
 print(p.communicate())
