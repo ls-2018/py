@@ -7,6 +7,7 @@ class MyPagination(CursorPagination):
     ordering = '-created'
     page_size = 2
 
+
 from rest_framework.views import APIView
 
 # 'DEFAULT_PARSER_CLASSES': (
@@ -14,3 +15,11 @@ from rest_framework.views import APIView
 #     'rest_framework.parsers.FormParser',
 #     'rest_framework.parsers.MultiPartParser'
 # )
+
+# models
+# __all__ = ['tables1',]
+
+# admin
+# from . import models
+# for tables in models.__all__:
+#     admin.site.register(getattr(models,table))
