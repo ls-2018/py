@@ -31,3 +31,6 @@ from django.contrib.contenttypes.fields import GenericForeignKey,GenericRelation
 # b=xxx()   # 内部实例
 # c = GenericForeignKey('contenttype',b)
 from rest_framework.views import APIView
+
+from django.utils.timezone import now
+print(now())
