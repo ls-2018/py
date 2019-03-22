@@ -23,3 +23,10 @@ from rest_framework.views import APIView
 # from . import models
 # for tables in models.__all__:
 #     admin.site.register(getattr(models,table))
+from django.contrib.contenttypes.models import ContentType
+from django.contrib.contenttypes.fields import GenericForeignKey,GenericRelation
+
+# biao1
+# a= xxx()# 表的名字
+# b=xxx()   # 内部实例
+# c = GenericForeignKey('contenttype',b)
