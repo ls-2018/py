@@ -30,3 +30,4 @@ from django.contrib.contenttypes.fields import GenericForeignKey,GenericRelation
 # a= xxx()# 表的名字
 # b=xxx()   # 内部实例
 # c = GenericForeignKey('contenttype',b)
+from rest_framework.views import APIView
