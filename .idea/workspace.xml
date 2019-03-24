@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,38 +40,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/5、快速排序.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/快速——归并.py">
+        <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2684">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" selection-start-line="45" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="473">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#47#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/3、不适用除法操作符实现除法.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/4、只使用位运算符实现加减乘除.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/5.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/5、只使用+=实现加减乘除运算.py" />
@@ -161,6 +134,7 @@
         <option value="$PROJECT_DIR$/rest_ful/demo1.py" />
         <option value="$PROJECT_DIR$/alipay/alipay-master/README.md" />
         <option value="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py" />
+        <option value="$PROJECT_DIR$/online.py" />
       </list>
     </option>
   </component>
@@ -308,56 +282,7 @@
       <workItem from="1553228650060" duration="2203000" />
       <workItem from="1553233445848" duration="2466000" />
       <workItem from="1553242583675" duration="630000" />
-      <workItem from="1553397089200" duration="28000" />
-    </task>
-    <task id="LOCAL-00018" summary="12、找出最小的不重复数">
-      <created>1552712104466</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1552712104469</updated>
-    </task>
-    <task id="LOCAL-00019" summary="13、计算一个数的n次方">
-      <created>1552712706885</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1552712706885</updated>
-    </task>
-    <task id="LOCAL-00020" summary="14、在不适用库函数的条件下计算n的平方根.py">
-      <created>1552714365580</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1552714365581</updated>
-    </task>
-    <task id="LOCAL-00021" summary="1、如何求数字的组合">
-      <created>1552736126035</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1552736126036</updated>
-    </task>
-    <task id="LOCAL-00022" summary="_">
-      <created>1552736295303</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1552736295304</updated>
-    </task>
-    <task id="LOCAL-00023" summary="2、如何拿到最多金币">
-      <created>1552746145334</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1552746145334</updated>
-    </task>
-    <task id="LOCAL-00024" summary="3、求正整数n所有可能的整数组合">
-      <created>1552746327402</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1552746327402</updated>
+      <workItem from="1553397089200" duration="285000" />
     </task>
     <task id="LOCAL-00025" summary="8、堆排序">
       <created>1552804650284</created>
@@ -653,7 +578,56 @@
       <option name="project" value="LOCAL" />
       <updated>1553234125463</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="_">
+      <created>1553397155652</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397155655</updated>
+    </task>
+    <task id="LOCAL-00068" summary="_">
+      <created>1553397200367</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397200367</updated>
+    </task>
+    <task id="LOCAL-00069" summary="_">
+      <created>1553397223572</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397223573</updated>
+    </task>
+    <task id="LOCAL-00070" summary="线上部署">
+      <created>1553397273936</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397273937</updated>
+    </task>
+    <task id="LOCAL-00071" summary="线上部署">
+      <created>1553397296732</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397296732</updated>
+    </task>
+    <task id="LOCAL-00072" summary="线上部署">
+      <created>1553397314035</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397314056</updated>
+    </task>
+    <task id="LOCAL-00073" summary="线上部署">
+      <created>1553397354223</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397354229</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -686,12 +660,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84276000" />
+    <option name="totallyTimeSpent" value="84533000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1008" y="54" width="891" height="854" extended-state="0" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34519574" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15544872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -704,7 +679,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006017" side_tool="true" weight="0.75287354" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006017" side_tool="true" weight="0.7519466" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" weight="0.048850574" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -719,7 +694,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9、求有序疏离的第1500个值" />
     <MESSAGE value="10、把10进制数分别以2_16输出" />
     <MESSAGE value="11、求二进制中1的个数" />
     <MESSAGE value="12、找出最小的不重复数" />
@@ -744,7 +718,8 @@
     <MESSAGE value="1、获取系统信息" />
     <MESSAGE value="2、获取CPU使用率_内存使用率_网络使用状态" />
     <MESSAGE value="_" />
-    <option name="LAST_COMMIT_MESSAGE" value="_" />
+    <MESSAGE value="线上部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="线上部署" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1195,20 +1170,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#47#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/快速——归并.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#47#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
