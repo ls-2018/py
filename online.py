@@ -12,7 +12,7 @@ def remote_task():
         time.sleep(3)
         run("rm -rf ./*")
         # run('git clone https://github.com/ls-2018/online_deploy.git')
-        # with context_managers.settings(hide('warnings', 'running', 'stdout', 'stderr'), warn_only=True):
+        # with context_managers.settings(hide('warnings', 'running', 'stdout', 'stderr'), warn_only=True):# 异常返回code
         with context_managers.settings(warn_only=True):
             run('ps aux|grep uwsgi')
             run('ps aux|grep python*')
