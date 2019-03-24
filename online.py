@@ -27,7 +27,7 @@ def remote_task():
             run('pwd')
             run('setsid python3  ./log_handler/finally_log.py &')
 
-
+#  fab -f  online.py  -H xxxx -u root remote_task -p xxxx
 #  fab -f 6、查看本地与远程主机信息.py remote_task
 # ssh-keygen -t rsa -b 2048 -C "1214972346@qq.com"
 
