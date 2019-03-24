@@ -1,9 +1,0 @@
-pycrpytp安装方法
-https://www.cnblogs.com/pcat/p/6014575.html
-
-
-pip install https://github.com/sfbahr/PyCrypto-Wheels/raw/master/pycrypto-2.6.1-cp35-none-win32.whl
-
-当遇到import winrandom导入错误时
-改成
-from . import winrandom
