@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="线上部署">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online.py" afterDir="false" />
+    <list default="true" id="f8442a1d-670f-45ed-8c25-394d1d99f92d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,81 +11,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、插入排序 Coverage Results" MODIFIED="1552786202130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、快速排序 Coverage Results" MODIFIED="1552795280631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、求相对路径 Coverage Results" MODIFIED="1552658537085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$8_.coverage" NAME="8、按要求 比较两个输的大小 Coverage Results" MODIFIED="1552706812718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$10102_16.coverage" NAME="10、把10进制数分别以2_16输出 Coverage Results" MODIFIED="1552708722930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、冒泡排序 Coverage Results" MODIFIED="1552786984817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1、判断一个自然数是否是某个数的平方 Coverage Results" MODIFIED="1552696797983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$15_.coverage" NAME="15、不使用^实现亦或操作 Coverage Results" MODIFIED="1552714893996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、根据已知随机数生成函数计算新的随机数 Coverage Results" MODIFIED="1552705967689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$20.coverage" NAME="20、在二维数组中寻找最短路线 Coverage Results" MODIFIED="1552654848718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$23.coverage" NAME="23 Coverage Results" MODIFIED="1552693618256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$12.coverage" NAME="12、找出最小的不重复数 Coverage Results" MODIFIED="1552712635660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$8.coverage" NAME="8、堆排序 Coverage Results" MODIFIED="1552804502488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、如何拿到最多金币 Coverage Results" MODIFIED="1552804499029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
+    <SUITE FILE_PATH="coverage/book$xx.coverage" NAME="xx Coverage Results" MODIFIED="1552973219354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
     <SUITE FILE_PATH="coverage/book$14n.coverage" NAME="14、在不适用库函数的条件下计算n的平方根 Coverage Results" MODIFIED="1552713917988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1552783859290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
-    <SUITE FILE_PATH="coverage/book$22n.coverage" NAME="2、判断一个数是否为2的n次方 Coverage Results" MODIFIED="1552697827787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$12_2.coverage" NAME="12、找出最小的不重复数_2 Coverage Results" MODIFIED="1552715925141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$20__1_.coverage" NAME="20、在二维数组中寻找最短路线 (1) Coverage Results" MODIFIED="1552654252179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$6125100.coverage" NAME="6、如何组合125使其和为100 Coverage Results" MODIFIED="1552783442682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
-    <SUITE FILE_PATH="coverage/book$3n.coverage" NAME="3、求正整数n所有可能的整数组合 Coverage Results" MODIFIED="1552781498552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
-    <SUITE FILE_PATH="coverage/book$12.coverage" NAME="12、找出最小的不重复数 Coverage Results" MODIFIED="1552715787896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$4.coverage" NAME="4、归并排序 Coverage Results" MODIFIED="1552791493886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$Doctests_in_2CPU__.coverage" NAME="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 Coverage Results" MODIFIED="1552971223385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$Doctests_in_2CPU____4_.coverage" NAME="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (4) Coverage Results" MODIFIED="1552972683215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$1urlurl.coverage" NAME="1、从大量的url中找出相同的url Coverage Results" MODIFIED="1552817448145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/大数据" />
     <SUITE FILE_PATH="coverage/book$24.coverage" NAME="24、查找到达目标单词的最短长度 Coverage Results" MODIFIED="1552695847178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$7.coverage" NAME="7、希尔排序 Coverage Results" MODIFIED="1552796988616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$22n.coverage" NAME="2、判断一个数是否为2的n次方 Coverage Results" MODIFIED="1552697827787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1552959848590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$23.coverage" NAME="23 Coverage Results" MODIFIED="1552693618256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$20.coverage" NAME="20、在二维数组中寻找最短路线 Coverage Results" MODIFIED="1552654848718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$demo.coverage" NAME="demo Coverage Results" MODIFIED="1552891085876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$Doctests_in_2CPU____1_.coverage" NAME="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (1) Coverage Results" MODIFIED="1552971567894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$Doctests_in_2CPU____3_.coverage" NAME="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (3) Coverage Results" MODIFIED="1552971979356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$tests.coverage" NAME="tests Coverage Results" MODIFIED="1553248297193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01" />
+    <SUITE FILE_PATH="coverage/book$10102_16.coverage" NAME="10、把10进制数分别以2_16输出 Coverage Results" MODIFIED="1552708722930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$6500.coverage" NAME="6、找出排名前500的数 Coverage Results" MODIFIED="1552823674969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/大数据" />
+    <SUITE FILE_PATH="coverage/book$3ip.coverage" NAME="3、找出访问最多的ip Coverage Results" MODIFIED="1552818307395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/大数据" />
     <SUITE FILE_PATH="coverage/book$13n.coverage" NAME="13、计算一个数的n次方 Coverage Results" MODIFIED="1552712681091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$5nm.coverage" NAME="5、如何等概率地从大小为n的数组中选取m个整数 Coverage Results" MODIFIED="1552782846597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
+    <SUITE FILE_PATH="coverage/book$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1553228178250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rest_ful" />
+    <SUITE FILE_PATH="coverage/book$15_.coverage" NAME="15、不使用^实现亦或操作 Coverage Results" MODIFIED="1552734825866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$ed25519key.coverage" NAME="ed25519key Coverage Results" MODIFIED="1552961167448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Python35/Lib/site-packages/paramiko" />
+    <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1、获取系统信息 Coverage Results" MODIFIED="1552959327806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$Doctests_in_xx.coverage" NAME="Doctests in xx Coverage Results" MODIFIED="1552960362807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
     <SUITE FILE_PATH="coverage/book$91500.coverage" NAME="9、求有序疏离的第1500个值 Coverage Results" MODIFIED="1552707617142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="选择排序 Coverage Results" MODIFIED="1552786199779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$4.coverage" NAME="4、只使用位运算符实现加减乘除 Coverage Results" MODIFIED="1552703983859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$Doctests_in_2CPU____5_.coverage" NAME="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (5) Coverage Results" MODIFIED="1552972977087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$8_.coverage" NAME="8、按要求 比较两个输的大小 Coverage Results" MODIFIED="1552706812718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、不适用除法操作符实现除法 Coverage Results" MODIFIED="1552698476141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$20__1_.coverage" NAME="20、在二维数组中寻找最短路线 (1) Coverage Results" MODIFIED="1552654252179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$9.coverage" NAME="9、自动发送电子邮件模块 Coverage Results" MODIFIED="1552970841043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
     <SUITE FILE_PATH="coverage/book$610240.coverage" NAME="6、判断1024！末尾有多少个0 Coverage Results" MODIFIED="1552706522964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、求相对路径 Coverage Results" MODIFIED="1552658537085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$Doctests_in_2CPU____2_.coverage" NAME="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (2) Coverage Results" MODIFIED="1552971633449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$online.coverage" NAME="online Coverage Results" MODIFIED="1553047553131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$3_CPU__.coverage" NAME="3、批量监控主机内存_CPU利用率_磁盘_网络等信息 Coverage Results" MODIFIED="1552966520068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化" />
+    <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、根据已知随机数生成函数计算新的随机数 Coverage Results" MODIFIED="1552705967689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/5、快速排序.py">
+        <entry file="file://$PROJECT_DIR$/rest_ful/demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+            <state relative-caret-position="875">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/快速——归并.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <entry file="file://$PROJECT_DIR$/alipay/alipay-master/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="447">
+                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/online.py">
+        <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-              <folding>
-                <element signature="e#47#71#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py">
+        <entry file="file://D:/Python35/Lib/site-packages/rest_framework/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2684">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="2300">
+              <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py">
+        <entry file="file://D:/Python35/Lib/site-packages/rest_framework/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" selection-start-line="45" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -100,45 +116,96 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>   </find>
+      <find>&gt;&gt;&gt;</find>
+      <find>AES</find>
+      <find>crypto</find>
+      <find>cryp</find>
+      <find>vboxapi==1.0</find>
+      <find>MIMEText</find>
+      <find>memory_state</find>
+      <find>DEFAULT_PARSER_CLASSES</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/3、不适用除法操作符实现除法.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/4、只使用位运算符实现加减乘除.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/5.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/5、只使用+=实现加减乘除运算.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/6、根据已知随机数生成函数计算新的随机数.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/6、判断1024！末尾有多少个0.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个输的大小.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个数的大小.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/9、求有序疏离的第1500个值.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/10、把10进制数分别以2_16输出.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/11、求二进制中1的个数.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/12、找出最小的不重复数.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/13、计算一个数的n次方.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/14、在不适用库函数的条件下计算n的平方根.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/15、不使用^实现亦或操作.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/12、找出最小的不重复数_2.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/26、对磁盘分区.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数组/20、获取最好的矩阵链相乘方法.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/1、如何求数字的组合.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/2、如何拿到最多金币.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/3、求正整数n所有可能的整数组合.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/4、用一个随机函数生成另外一个随机函数.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/5、如何等概率地从大小为n的数组中选取m个整数.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/6、如何组合125使其和为100.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/xxx.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/7、如何判断还有几盏灯亮着.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/选择排序.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/2、插入排序.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/3、冒泡排序.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/5、快速排序.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/7、希尔排序.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/快速——归并.py" />
-        <option value="$PROJECT_DIR$/online.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/8、堆排序.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/1、从大量的url中找出相同的url.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/2、从大量数据中找出高频词.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/3、找出访问最多的ip.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/4、在大量的数据中找出不重复的数.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/5、在大量的数据中判断一个数是否存在.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py" />
+        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/demo.py" />
+        <option value="D:/Python35/Lib/site-packages/paramiko/ed25519key.py" />
+        <option value="$PROJECT_DIR$/123.txt" />
+        <option value="$PROJECT_DIR$/运维自动化/5.py" />
+        <option value="$PROJECT_DIR$/运维自动化/fabric命令.py" />
+        <option value="$PROJECT_DIR$/运维自动化/s.py" />
+        <option value="$PROJECT_DIR$/运维自动化/8、网关模式文件上传与执行.py" />
+        <option value="$PROJECT_DIR$/运维自动化/9、自动发送电子邮件模块.py" />
+        <option value="$PROJECT_DIR$/运维自动化/7、动态获取远程主机目录列表.py" />
+        <option value="$PROJECT_DIR$/运维自动化/6、查看本地与远程主机信息.py" />
+        <option value="$PROJECT_DIR$/运维自动化/5、fabric命令.py" />
+        <option value="$PROJECT_DIR$/运维自动化/4、执行批量上传_下载_执行命令_查看服务器列表.py" />
+        <option value="$PROJECT_DIR$/运维自动化/3、批量监控主机内存_CPU利用率_磁盘_网络等信息.py" />
+        <option value="$PROJECT_DIR$/运维自动化/1、获取系统信息.py" />
+        <option value="$PROJECT_DIR$/运维自动化/2、获取CPU使用率_内存使用率_网络使用状态.py" />
+        <option value="$PROJECT_DIR$/运维自动化/xx.py" />
+        <option value="$PROJECT_DIR$/运维自动化/xxx.py" />
+        <option value="$PROJECT_DIR$/../线上部署/线上部署/test/myblog/myblog/settings.py" />
+        <option value="$PROJECT_DIR$/运维自动化/online.py" />
+        <option value="$PROJECT_DIR$/../线上部署/线上部署/online.py" />
+        <option value="$PROJECT_DIR$/rest_ful/demo1.py" />
+        <option value="$PROJECT_DIR$/alipay/alipay-master/README.md" />
+        <option value="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1097" />
-    <option name="y" value="82" />
-    <option name="width" value="818" />
-    <option name="height" value="838" />
+    <option name="x" value="1008" />
+    <option name="y" value="54" />
+    <option name="width" value="891" />
+    <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,25 +216,47 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Python程序员面试算法宝典" type="462c0819:PsiDirectoryNode" />
+              <item name="alipay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Python程序员面试算法宝典" type="462c0819:PsiDirectoryNode" />
-              <item name="排序" type="462c0819:PsiDirectoryNode" />
+              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="alipay-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="alipay-master" type="462c0819:PsiDirectoryNode" />
+              <item name="s9alipay_src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="alipay" type="462c0819:PsiDirectoryNode" />
+              <item name="alipay-master" type="462c0819:PsiDirectoryNode" />
+              <item name="s9alipay_src" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\Python程序员面试算法宝典\字符串" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,8 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7、希尔排序">
-    <configuration name="2、插入排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tests">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rest_ful" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/2、插入排序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rest_ful/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3、冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,78 +301,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/3、冒泡排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4、归并排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5、快速排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/5、快速排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7、希尔排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/7、希尔排序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,11 +317,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.7、希尔排序" />
-        <item itemvalue="Python.5、快速排序" />
-        <item itemvalue="Python.4、归并排序" />
-        <item itemvalue="Python.3、冒泡排序" />
-        <item itemvalue="Python.2、插入排序" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +327,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
+      <changelist id="f8442a1d-670f-45ed-8c25-394d1d99f92d" name="Default Changelist" comment="" />
       <created>1552638147683</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -316,136 +336,28 @@
       <workItem from="1552650025077" duration="8293000" />
       <workItem from="1552692326574" duration="6528000" />
       <workItem from="1552699322614" duration="10305000" />
-      <workItem from="1552710964875" duration="5029000" />
-      <workItem from="1552778213346" duration="8957000" />
-      <workItem from="1552788042601" duration="9111000" />
-      <workItem from="1552864810136" duration="840000" />
-      <workItem from="1553130545207" duration="187000" />
-      <workItem from="1553131903384" duration="399000" />
-      <workItem from="1553132692237" duration="1549000" />
-      <workItem from="1553139779000" duration="178000" />
-      <workItem from="1553140170966" duration="294000" />
-      <workItem from="1553166789592" duration="718000" />
-      <workItem from="1553396286369" duration="514000" />
-    </task>
-    <task id="LOCAL-00001" summary="3、求正整数n所有可能的整数组合">
-      <created>1552781527308</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1552781527310</updated>
-    </task>
-    <task id="LOCAL-00002" summary="4、用一个随机函数生成另外一个随机函数">
-      <created>1552781849468</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1552781849468</updated>
-    </task>
-    <task id="LOCAL-00003" summary="5、如何等概率地从大小为n的数组中选取m个整数">
-      <created>1552782856266</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1552782856266</updated>
-    </task>
-    <task id="LOCAL-00004" summary="6、如何组合125使其和为100">
-      <created>1552783546011</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1552783546011</updated>
-    </task>
-    <task id="LOCAL-00005" summary="7、如何判断还有几盏灯亮着">
-      <created>1552784608249</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1552784608249</updated>
-    </task>
-    <task id="LOCAL-00006" summary="1、选择排序.py">
-      <created>1552785176275</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1552785176275</updated>
-    </task>
-    <task id="LOCAL-00007" summary="2、插入排序">
-      <created>1552786347933</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1552786347933</updated>
-    </task>
-    <task id="LOCAL-00008" summary="3、冒泡排序">
-      <created>1552786932495</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1552786932495</updated>
-    </task>
-    <task id="LOCAL-00009" summary="3、冒泡排序">
-      <created>1552787118449</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1552787118449</updated>
-    </task>
-    <task id="LOCAL-00010" summary="4、归并排序">
-      <created>1552788945231</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1552788945231</updated>
-    </task>
-    <task id="LOCAL-00011" summary="4、归并排序">
-      <created>1552789563367</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1552789563367</updated>
-    </task>
-    <task id="LOCAL-00012" summary="5、快速排序">
-      <created>1552793729449</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1552793729449</updated>
-    </task>
-    <task id="LOCAL-00013" summary="5、快速排序">
-      <created>1552793746988</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1552793746988</updated>
-    </task>
-    <task id="LOCAL-00014" summary="快速——归并">
-      <created>1552794389266</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1552794389266</updated>
-    </task>
-    <task id="LOCAL-00015" summary="5、快速排序">
-      <created>1552795317091</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1552795317091</updated>
-    </task>
-    <task id="LOCAL-00016" summary="7、希尔排序">
-      <created>1552796411545</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1552796411545</updated>
-    </task>
-    <task id="LOCAL-00017" summary="7、希尔排序">
-      <created>1552797098368</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1552797098368</updated>
+      <workItem from="1552710964875" duration="4021000" />
+      <workItem from="1552730690647" duration="5854000" />
+      <workItem from="1552744681686" duration="1704000" />
+      <workItem from="1552798246604" duration="1000" />
+      <workItem from="1552803472914" duration="1315000" />
+      <workItem from="1552817130199" duration="3831000" />
+      <workItem from="1552823604459" duration="3064000" />
+      <workItem from="1552880145004" duration="3696000" />
+      <workItem from="1552896481335" duration="8000" />
+      <workItem from="1552948984034" duration="62000" />
+      <workItem from="1552958316218" duration="5614000" />
+      <workItem from="1552964253760" duration="9177000" />
+      <workItem from="1552990981027" duration="2721000" />
+      <workItem from="1553000655452" duration="1660000" />
+      <workItem from="1553002867095" duration="185000" />
+      <workItem from="1553046244812" duration="3580000" />
+      <workItem from="1553050319610" duration="649000" />
+      <workItem from="1553155223570" duration="1724000" />
+      <workItem from="1553215620257" duration="3724000" />
+      <workItem from="1553228650060" duration="2203000" />
+      <workItem from="1553233445848" duration="2466000" />
+      <workItem from="1553242583675" duration="630000" />
     </task>
     <task id="LOCAL-00018" summary="12、找出最小的不重复数">
       <created>1552712104466</created>
@@ -468,37 +380,382 @@
       <option name="project" value="LOCAL" />
       <updated>1552714365581</updated>
     </task>
-    <task id="LOCAL-00021" summary="15、不使用^实现亦或操作">
-      <created>1552714999522</created>
+    <task id="LOCAL-00021" summary="1、如何求数字的组合">
+      <created>1552736126035</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1552714999522</updated>
+      <updated>1552736126036</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00022" summary="_">
+      <created>1552736295303</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1552736295304</updated>
+    </task>
+    <task id="LOCAL-00023" summary="2、如何拿到最多金币">
+      <created>1552746145334</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1552746145334</updated>
+    </task>
+    <task id="LOCAL-00024" summary="3、求正整数n所有可能的整数组合">
+      <created>1552746327402</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1552746327402</updated>
+    </task>
+    <task id="LOCAL-00025" summary="8、堆排序">
+      <created>1552804650284</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1552804650284</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1、从大量的url中找出相同的url">
+      <created>1552817619022</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552817619023</updated>
+    </task>
+    <task id="LOCAL-00027" summary="2、从大量数据中找出高频词">
+      <created>1552817825384</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1552817825384</updated>
+    </task>
+    <task id="LOCAL-00028" summary="3、找出访问最多的ip">
+      <created>1552818335165</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552818335165</updated>
+    </task>
+    <task id="LOCAL-00029" summary="4、在大量的数据中找出不重复的数">
+      <created>1552819052470</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1552819052470</updated>
+    </task>
+    <task id="LOCAL-00030" summary="5、在大量的数据中判断一个数是否存在">
+      <created>1552819671551</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552819671551</updated>
+    </task>
+    <task id="LOCAL-00031" summary="6、找出排名前500的数">
+      <created>1552820796575</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1552820796575</updated>
+    </task>
+    <task id="LOCAL-00032" summary="_">
+      <created>1552825687886</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1552825687886</updated>
+    </task>
+    <task id="LOCAL-00033" summary="_">
+      <created>1552890887609</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1552890887609</updated>
+    </task>
+    <task id="LOCAL-00034" summary="_">
+      <created>1552891055970</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1552891055970</updated>
+    </task>
+    <task id="LOCAL-00035" summary="_">
+      <created>1552891093152</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1552891093152</updated>
+    </task>
+    <task id="LOCAL-00036" summary="1、获取系统信息">
+      <created>1552958660215</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1552958660215</updated>
+    </task>
+    <task id="LOCAL-00037" summary="1、获取系统信息">
+      <created>1552959595436</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1552959595436</updated>
+    </task>
+    <task id="LOCAL-00038" summary="1、获取系统信息">
+      <created>1552959961561</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1552959961561</updated>
+    </task>
+    <task id="LOCAL-00039" summary="2、获取CPU使用率_内存使用率_网络使用状态">
+      <created>1552960420958</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1552960420958</updated>
+    </task>
+    <task id="LOCAL-00040" summary="1、获取系统信息">
+      <created>1552967544573</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1552967544573</updated>
+    </task>
+    <task id="LOCAL-00041" summary="1、获取系统信息">
+      <created>1552967569960</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1552967569960</updated>
+    </task>
+    <task id="LOCAL-00042" summary="1、获取系统信息">
+      <created>1552967588010</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1552967588010</updated>
+    </task>
+    <task id="LOCAL-00043" summary="1、获取系统信息">
+      <created>1552967856604</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1552967856604</updated>
+    </task>
+    <task id="LOCAL-00044" summary="_">
+      <created>1552968014839</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1552968014839</updated>
+    </task>
+    <task id="LOCAL-00045" summary="_">
+      <created>1552968097881</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1552968097881</updated>
+    </task>
+    <task id="LOCAL-00046" summary="9、自动发送电子邮件模块">
+      <created>1552968567912</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1552968567912</updated>
+    </task>
+    <task id="LOCAL-00047" summary="9、自动发送电子邮件模块">
+      <created>1552970417219</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970417219</updated>
+    </task>
+    <task id="LOCAL-00048" summary="9、自动发送电子邮件模块">
+      <created>1552970559617</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970559617</updated>
+    </task>
+    <task id="LOCAL-00049" summary="7、动态获取远程主机目录列表">
+      <created>1552970587027</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970587027</updated>
+    </task>
+    <task id="LOCAL-00050" summary="6、查看本地与远程主机信息">
+      <created>1552970610657</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970610657</updated>
+    </task>
+    <task id="LOCAL-00051" summary="5、fabric命令">
+      <created>1552970660859</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970660859</updated>
+    </task>
+    <task id="LOCAL-00052" summary="4、执行批量上传_下载_执行命令_查看服务器列表">
+      <created>1552970702904</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970702904</updated>
+    </task>
+    <task id="LOCAL-00053" summary="3、批量监控主机内存_CPU利用率_磁盘_网络等信息">
+      <created>1552970728121</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970728121</updated>
+    </task>
+    <task id="LOCAL-00054" summary="3、批量监控主机内存_CPU利用率_磁盘_网络等信息">
+      <created>1552970757061</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970757061</updated>
+    </task>
+    <task id="LOCAL-00055" summary="1、获取系统信息">
+      <created>1552970862183</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970862183</updated>
+    </task>
+    <task id="LOCAL-00056" summary="2、获取CPU使用率_内存使用率_网络使用状态">
+      <created>1552970909685</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1552970909685</updated>
+    </task>
+    <task id="LOCAL-00057" summary="2、获取CPU使用率_内存使用率_网络使用状态">
+      <created>1552971711354</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1552971711354</updated>
+    </task>
+    <task id="LOCAL-00058" summary="2、获取CPU使用率_内存使用率_网络使用状态">
+      <created>1552972811808</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1552972811808</updated>
+    </task>
+    <task id="LOCAL-00059" summary="_">
+      <created>1553155621799</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1553155621801</updated>
+    </task>
+    <task id="LOCAL-00060" summary="_">
+      <created>1553155648478</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1553155648479</updated>
+    </task>
+    <task id="LOCAL-00061" summary="_">
+      <created>1553157449150</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1553157449150</updated>
+    </task>
+    <task id="LOCAL-00062" summary="_">
+      <created>1553217478014</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1553217478015</updated>
+    </task>
+    <task id="LOCAL-00063" summary="_">
+      <created>1553218114004</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1553218114004</updated>
+    </task>
+    <task id="LOCAL-00064" summary="_">
+      <created>1553221656212</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1553221656212</updated>
+    </task>
+    <task id="LOCAL-00065" summary="_">
+      <created>1553228951648</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1553228951649</updated>
+    </task>
+    <task id="LOCAL-00066" summary="_">
+      <created>1553234125462</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1553234125463</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_xx - 2019.03.19 at 09h 52m 39s.xml">
+      <configuration name="Doctests in xx" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_xx - 2019.03.19 at 09h 52m 50s.xml">
+      <configuration name="Doctests in xx" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_2、获取CPU使用率_内存使用率_网络使用状态 - 2019.03.19 at 12h 54m 00s.xml">
+      <configuration name="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_2、获取CPU使用率_内存使用率_网络使用状态_(2) - 2019.03.19 at 13h 00m 39s.xml">
+      <configuration name="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (2)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_2、获取CPU使用率_内存使用率_网络使用状态_(1) - 2019.03.19 at 13h 01m 41s.xml">
+      <configuration name="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_2、获取CPU使用率_内存使用率_网络使用状态_(3) - 2019.03.19 at 13h 06m 25s.xml">
+      <configuration name="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (3)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_2、获取CPU使用率_内存使用率_网络使用状态_(4) - 2019.03.19 at 13h 09m 18s.xml">
+      <configuration name="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (4)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_2、获取CPU使用率_内存使用率_网络使用状态_(4) - 2019.03.19 at 13h 18m 11s.xml">
+      <configuration name="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (4)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_2、获取CPU使用率_内存使用率_网络使用状态_(5) - 2019.03.19 at 13h 23m 01s.xml">
+      <configuration name="Doctests in 2、获取CPU使用率_内存使用率_网络使用状态 (5)" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54127000" />
+    <option name="totallyTimeSpent" value="84240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="1008" y="54" width="891" height="854" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3922078" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33574006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49902153" weight="0.3469388" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38055223" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7305389" visible="true" weight="0.42385057" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.44097996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50097847" side_tool="true" weight="0.3613917" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7497219" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006017" side_tool="true" weight="0.75287354" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" weight="0.048850574" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -512,346 +769,613 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4、只使用位运算符实现加减乘除" />
-    <MESSAGE value="5、只使用+=实现加减乘除运算" />
-    <MESSAGE value="6、根据已知随机数生成函数计算新的随机数" />
-    <MESSAGE value="7、判断1024！末尾有多少个0.py" />
-    <MESSAGE value="8、按要求 比较两个数的大小" />
     <MESSAGE value="9、求有序疏离的第1500个值" />
     <MESSAGE value="10、把10进制数分别以2_16输出" />
     <MESSAGE value="11、求二进制中1的个数" />
     <MESSAGE value="12、找出最小的不重复数" />
     <MESSAGE value="13、计算一个数的n次方" />
     <MESSAGE value="14、在不适用库函数的条件下计算n的平方根.py" />
-    <MESSAGE value="15、不使用^实现亦或操作" />
+    <MESSAGE value="1、如何求数字的组合" />
+    <MESSAGE value="2、如何拿到最多金币" />
     <MESSAGE value="3、求正整数n所有可能的整数组合" />
-    <MESSAGE value="4、用一个随机函数生成另外一个随机函数" />
-    <MESSAGE value="5、如何等概率地从大小为n的数组中选取m个整数" />
-    <MESSAGE value="6、如何组合125使其和为100" />
-    <MESSAGE value="7、如何判断还有几盏灯亮着" />
-    <MESSAGE value="1、选择排序.py" />
-    <MESSAGE value="2、插入排序" />
-    <MESSAGE value="3、冒泡排序" />
-    <MESSAGE value="4、归并排序" />
-    <MESSAGE value="快速——归并" />
-    <MESSAGE value="5、快速排序" />
-    <MESSAGE value="7、希尔排序" />
-    <MESSAGE value="线上部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="线上部署" />
+    <MESSAGE value="8、堆排序" />
+    <MESSAGE value="1、从大量的url中找出相同的url" />
+    <MESSAGE value="2、从大量数据中找出高频词" />
+    <MESSAGE value="3、找出访问最多的ip" />
+    <MESSAGE value="4、在大量的数据中找出不重复的数" />
+    <MESSAGE value="5、在大量的数据中判断一个数是否存在" />
+    <MESSAGE value="6、找出排名前500的数" />
+    <MESSAGE value="9、自动发送电子邮件模块" />
+    <MESSAGE value="7、动态获取远程主机目录列表" />
+    <MESSAGE value="6、查看本地与远程主机信息" />
+    <MESSAGE value="5、fabric命令" />
+    <MESSAGE value="4、执行批量上传_下载_执行命令_查看服务器列表" />
+    <MESSAGE value="3、批量监控主机内存_CPU利用率_磁盘_网络等信息" />
+    <MESSAGE value="1、获取系统信息" />
+    <MESSAGE value="2、获取CPU使用率_内存使用率_网络使用状态" />
+    <MESSAGE value="_" />
+    <option name="LAST_COMMIT_MESSAGE" value="_" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/7、希尔排序.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="124" />
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/7、希尔排序.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
           <line>30</line>
-          <option name="timeStamp" value="125" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/7、希尔排序.py</url>
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
           <line>31</line>
-          <option name="timeStamp" value="127" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>219</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>494</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>496</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>497</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>498</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>500</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>499</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>501</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/_parseaddr.py</url>
+          <line>255</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Python35/Lib/email/utils.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/2、去掉重复的排序.py">
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/1、如何求数字的组合.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="1050">
+          <caret line="42" column="102" selection-start-line="42" selection-start-column="102" selection-end-line="42" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/readme">
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/2、如何拿到最多金币.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/链表/４、对链表重新排序.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/17、求最长递增子序列的长度.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/18、求一个串中第一次穿线的最长重复串.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/19、求解字符串中字典序最大的子序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/20、在二维数组中寻找最短路线.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/21、在三角形的数字阵列中寻找最短路线.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/22、求相对路径.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/23、截取中文字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/字符串/24、查找到达目标单词的最短长度.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/2、判断一个数是否为2的n次方.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/1、判断一个自然数是否是某个数的平方.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/3、不适用除法操作符实现除法.py" />
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/4、只使用位运算符实现加减乘除.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/5、只使用+=实现加减乘除运算.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/6、根据已知随机数生成函数计算新的随机数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/7、判断1024！末尾有多少个0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个数的大小.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/9、求有序疏离的第1500个值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/10、把10进制数分别以2_16输出.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/11、求二进制中1的个数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/13、计算一个数的n次方.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/14、在不适用库函数的条件下计算n的平方根.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/15、不使用^实现亦或操作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/12、找出最小的不重复数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="7" lean-forward="true" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/12、找出最小的不重复数_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state relative-caret-position="1000">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/3、求正整数n所有可能的整数组合.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/4、用一个随机函数生成另外一个随机函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1863">
-          <caret line="262" column="8" selection-start-line="262" selection-start-column="8" selection-end-line="262" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/5、如何等概率地从大小为n的数组中选取m个整数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/7、如何判断还有几盏灯亮着.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="56" column="79" selection-start-line="56" selection-start-column="79" selection-end-line="56" selection-end-column="79" />
-          <folding>
-            <element signature="e#136#400#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/xxx.py" />
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/6、如何组合125使其和为100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/1、选择排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/3、冒泡排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/2、插入排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" selection-start-line="29" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/7、希尔排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/5、快速排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+        <state relative-caret-position="575">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/快速——归并.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="425">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2684">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" selection-start-line="45" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online.py">
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/5、快速排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="489">
+          <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/8、堆排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/1、从大量的url中找出相同的url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/2、从大量数据中找出高频词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/3、找出访问最多的ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/4、在大量的数据中找出不重复的数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/5、在大量的数据中判断一个数是否存在.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/fabfile.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Python35/Lib/heapq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="129" column="22" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数字/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/bcrypt/__init__.py" />
+    <entry file="file://D:/Python35/Lib/site-packages/Crypto/pct_warnings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/Crypto/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/paramiko/transport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/paramiko/ed25519key.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
-            <element signature="e#47#71#0" expanded="true" />
+            <element signature="e#748#761#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/paramiko/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123.txt" />
+    <entry file="file://$PROJECT_DIR$/运维自动化/fabric命令.py" />
+    <entry file="file://D:/Python35/Lib/email/header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-537">
+          <caret line="179" column="8" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/email/_parseaddr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="499" selection-start-line="499" selection-end-line="499" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/email/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/9、自动发送电子邮件模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#44#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/1、获取系统信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/psutil/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="1812" column="53" lean-forward="true" selection-start-line="1812" selection-start-column="53" selection-end-line="1812" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/2、获取CPU使用率_内存使用率_网络使用状态.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/xx.py" />
+    <entry file="file://$PROJECT_DIR$/运维自动化/5、fabric命令.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/3、批量监控主机内存_CPU利用率_磁盘_网络等信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/4、执行批量上传_下载_执行命令_查看服务器列表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/8、网关模式文件上传与执行.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/6、查看本地与远程主机信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../线上部署/线上部署/test/myblog/myblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/fabric/context_managers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4425">
+          <caret line="185" column="46" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/7、动态获取远程主机目录列表.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/online.py" />
+    <entry file="file://$PROJECT_DIR$/../线上部署/线上部署/online.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/rest_framework/pagination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="470" column="6" selection-start-line="470" selection-start-column="6" selection-end-line="470" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest_ful/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python35/Lib/site-packages/rest_framework/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipay/alipay-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="447">
+            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
