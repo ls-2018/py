@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/online.py" beforeDir="false" afterPath="$PROJECT_DIR$/online.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="715">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#47#71#0" expanded="true" />
               </folding>
@@ -282,63 +284,7 @@
       <workItem from="1553228650060" duration="2203000" />
       <workItem from="1553233445848" duration="2466000" />
       <workItem from="1553242583675" duration="630000" />
-      <workItem from="1553397089200" duration="285000" />
-    </task>
-    <task id="LOCAL-00025" summary="8、堆排序">
-      <created>1552804650284</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1552804650284</updated>
-    </task>
-    <task id="LOCAL-00026" summary="1、从大量的url中找出相同的url">
-      <created>1552817619022</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1552817619023</updated>
-    </task>
-    <task id="LOCAL-00027" summary="2、从大量数据中找出高频词">
-      <created>1552817825384</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1552817825384</updated>
-    </task>
-    <task id="LOCAL-00028" summary="3、找出访问最多的ip">
-      <created>1552818335165</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1552818335165</updated>
-    </task>
-    <task id="LOCAL-00029" summary="4、在大量的数据中找出不重复的数">
-      <created>1552819052470</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1552819052470</updated>
-    </task>
-    <task id="LOCAL-00030" summary="5、在大量的数据中判断一个数是否存在">
-      <created>1552819671551</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1552819671551</updated>
-    </task>
-    <task id="LOCAL-00031" summary="6、找出排名前500的数">
-      <created>1552820796575</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1552820796575</updated>
-    </task>
-    <task id="LOCAL-00032" summary="_">
-      <created>1552825687886</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1552825687886</updated>
+      <workItem from="1553397089200" duration="526000" />
     </task>
     <task id="LOCAL-00033" summary="_">
       <created>1552890887609</created>
@@ -627,7 +573,63 @@
       <option name="project" value="LOCAL" />
       <updated>1553397354229</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="线上部署">
+      <created>1553397387771</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397387772</updated>
+    </task>
+    <task id="LOCAL-00075" summary="线上部署">
+      <created>1553397404466</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397404466</updated>
+    </task>
+    <task id="LOCAL-00076" summary="线上部署">
+      <created>1553397428779</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397428779</updated>
+    </task>
+    <task id="LOCAL-00077" summary="线上部署">
+      <created>1553397505859</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397505859</updated>
+    </task>
+    <task id="LOCAL-00078" summary="线上部署">
+      <created>1553397549027</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397549029</updated>
+    </task>
+    <task id="LOCAL-00079" summary="线上部署">
+      <created>1553397569808</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397569808</updated>
+    </task>
+    <task id="LOCAL-00080" summary="线上部署">
+      <created>1553397593772</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397593772</updated>
+    </task>
+    <task id="LOCAL-00081" summary="线上部署">
+      <created>1553397615361</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1553397615361</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -660,11 +662,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84533000" />
+    <option name="totallyTimeSpent" value="84774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15544872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1179,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="715">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#47#71#0" expanded="true" />
           </folding>
