@@ -285,35 +285,7 @@
       <workItem from="1553397089200" duration="526000" />
       <workItem from="1553405931826" duration="10000" />
       <workItem from="1553471167187" duration="594000" />
-      <workItem from="1553516354298" duration="1174000" />
-    </task>
-    <task id="LOCAL-00041" summary="1、获取系统信息">
-      <created>1552967569960</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1552967569960</updated>
-    </task>
-    <task id="LOCAL-00042" summary="1、获取系统信息">
-      <created>1552967588010</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1552967588010</updated>
-    </task>
-    <task id="LOCAL-00043" summary="1、获取系统信息">
-      <created>1552967856604</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1552967856604</updated>
-    </task>
-    <task id="LOCAL-00044" summary="_">
-      <created>1552968014839</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1552968014839</updated>
+      <workItem from="1553516354298" duration="2494000" />
     </task>
     <task id="LOCAL-00045" summary="_">
       <created>1552968097881</created>
@@ -630,7 +602,35 @@
       <option name="project" value="LOCAL" />
       <updated>1553516929354</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="线上部署">
+      <created>1553518057831</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1553518057831</updated>
+    </task>
+    <task id="LOCAL-00091" summary="线上部署">
+      <created>1553518114650</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1553518114650</updated>
+    </task>
+    <task id="LOCAL-00092" summary="线上部署">
+      <created>1553518141383</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1553518141383</updated>
+    </task>
+    <task id="LOCAL-00093" summary="线上部署">
+      <created>1553518163841</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1553518163841</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -663,10 +663,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86552000" />
+    <option name="totallyTimeSpent" value="87872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="494" y="112" width="891" height="854" extended-state="0" />
+    <frame x="165" y="112" width="891" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16606498" />
