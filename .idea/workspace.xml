@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="142">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#47#71#0" expanded="true" />
               </folding>
@@ -285,28 +285,7 @@
       <workItem from="1553397089200" duration="526000" />
       <workItem from="1553405931826" duration="10000" />
       <workItem from="1553471167187" duration="594000" />
-      <workItem from="1553516354298" duration="248000" />
-    </task>
-    <task id="LOCAL-00036" summary="1、获取系统信息">
-      <created>1552958660215</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1552958660215</updated>
-    </task>
-    <task id="LOCAL-00037" summary="1、获取系统信息">
-      <created>1552959595436</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1552959595436</updated>
-    </task>
-    <task id="LOCAL-00038" summary="1、获取系统信息">
-      <created>1552959961561</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1552959961561</updated>
+      <workItem from="1553516354298" duration="518000" />
     </task>
     <task id="LOCAL-00039" summary="2、获取CPU使用率_内存使用率_网络使用状态">
       <created>1552960420958</created>
@@ -630,7 +609,28 @@
       <option name="project" value="LOCAL" />
       <updated>1553516580195</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="线上部署">
+      <created>1553516631690</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1553516631690</updated>
+    </task>
+    <task id="LOCAL-00086" summary="线上部署">
+      <created>1553516721083</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1553516721083</updated>
+    </task>
+    <task id="LOCAL-00087" summary="线上部署">
+      <created>1553516802092</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1553516802093</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -663,7 +663,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85626000" />
+    <option name="totallyTimeSpent" value="85896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="494" y="112" width="891" height="854" extended-state="0" />
@@ -1165,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="142">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#47#71#0" expanded="true" />
           </folding>
