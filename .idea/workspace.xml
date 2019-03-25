@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="168">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#47#71#0" expanded="true" />
               </folding>
@@ -161,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +168,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,27 +285,7 @@
       <workItem from="1553397089200" duration="526000" />
       <workItem from="1553405931826" duration="10000" />
       <workItem from="1553471167187" duration="594000" />
-    </task>
-    <task id="LOCAL-00033" summary="_">
-      <created>1552890887609</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1552890887609</updated>
-    </task>
-    <task id="LOCAL-00034" summary="_">
-      <created>1552891055970</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1552891055970</updated>
-    </task>
-    <task id="LOCAL-00035" summary="_">
-      <created>1552891093152</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1552891093152</updated>
+      <workItem from="1553516354298" duration="248000" />
     </task>
     <task id="LOCAL-00036" summary="1、获取系统信息">
       <created>1552958660215</created>
@@ -634,7 +609,28 @@
       <option name="project" value="LOCAL" />
       <updated>1553397615361</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="线上部署">
+      <created>1553516387331</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1553516387334</updated>
+    </task>
+    <task id="LOCAL-00083" summary="线上部署">
+      <created>1553516470655</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1553516470655</updated>
+    </task>
+    <task id="LOCAL-00084" summary="线上部署">
+      <created>1553516580195</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1553516580195</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -667,13 +663,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85378000" />
+    <option name="totallyTimeSpent" value="85626000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1008" y="54" width="891" height="854" extended-state="0" />
+    <frame x="494" y="112" width="891" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16245487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16606498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -687,7 +683,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006017" side_tool="true" weight="0.7519466" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" weight="0.048850574" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" visible="true" weight="0.52442527" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1169,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="168">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#47#71#0" expanded="true" />
           </folding>
