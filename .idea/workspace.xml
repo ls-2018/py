@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="133">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -136,8 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
-    <option name="y" value="112" />
+    <option name="x" value="-26" />
+    <option name="y" value="53" />
     <option name="width" value="891" />
     <option name="height" value="854" />
   </component>
@@ -283,28 +283,7 @@
       <workItem from="1553405931826" duration="10000" />
       <workItem from="1553471167187" duration="594000" />
       <workItem from="1553516354298" duration="2494000" />
-      <workItem from="1553688317697" duration="227000" />
-    </task>
-    <task id="LOCAL-00049" summary="7、动态获取远程主机目录列表">
-      <created>1552970587027</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1552970587027</updated>
-    </task>
-    <task id="LOCAL-00050" summary="6、查看本地与远程主机信息">
-      <created>1552970610657</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1552970610657</updated>
-    </task>
-    <task id="LOCAL-00051" summary="5、fabric命令">
-      <created>1552970660859</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1552970660859</updated>
+      <workItem from="1553688317697" duration="525000" />
     </task>
     <task id="LOCAL-00052" summary="4、执行批量上传_下载_执行命令_查看服务器列表">
       <created>1552970702904</created>
@@ -628,7 +607,28 @@
       <option name="project" value="LOCAL" />
       <updated>1553688538210</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="线上部署">
+      <created>1553688605024</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1553688605024</updated>
+    </task>
+    <task id="LOCAL-00099" summary="线上部署">
+      <created>1553688630255</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1553688630267</updated>
+    </task>
+    <task id="LOCAL-00100" summary="线上部署">
+      <created>1553688770583</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1553688770583</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -661,13 +661,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88099000" />
+    <option name="totallyTimeSpent" value="88397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-26" y="53" width="891" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.075159915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1696751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -681,7 +681,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006017" side_tool="true" weight="0.7519466" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" visible="true" weight="0.4064588" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" visible="true" weight="0.52442527" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1157,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="133">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
