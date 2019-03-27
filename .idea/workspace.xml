@@ -43,11 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#47#71#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="358">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -138,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="165" />
     <option name="y" value="112" />
     <option name="width" value="891" />
@@ -156,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,34 +283,7 @@
       <workItem from="1553405931826" duration="10000" />
       <workItem from="1553471167187" duration="594000" />
       <workItem from="1553516354298" duration="2494000" />
-    </task>
-    <task id="LOCAL-00045" summary="_">
-      <created>1552968097881</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1552968097881</updated>
-    </task>
-    <task id="LOCAL-00046" summary="9、自动发送电子邮件模块">
-      <created>1552968567912</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1552968567912</updated>
-    </task>
-    <task id="LOCAL-00047" summary="9、自动发送电子邮件模块">
-      <created>1552970417219</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1552970417219</updated>
-    </task>
-    <task id="LOCAL-00048" summary="9、自动发送电子邮件模块">
-      <created>1552970559617</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1552970559617</updated>
+      <workItem from="1553688317697" duration="227000" />
     </task>
     <task id="LOCAL-00049" summary="7、动态获取远程主机目录列表">
       <created>1552970587027</created>
@@ -630,7 +600,35 @@
       <option name="project" value="LOCAL" />
       <updated>1553518163841</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="线上部署">
+      <created>1553688369449</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1553688369449</updated>
+    </task>
+    <task id="LOCAL-00095" summary="线上部署">
+      <created>1553688432974</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1553688432974</updated>
+    </task>
+    <task id="LOCAL-00096" summary="线上部署">
+      <created>1553688479928</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1553688479928</updated>
+    </task>
+    <task id="LOCAL-00097" summary="线上部署">
+      <created>1553688538210</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1553688538210</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -663,13 +661,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87872000" />
+    <option name="totallyTimeSpent" value="88099000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="112" width="891" height="854" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16606498" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.075159915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -683,7 +681,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006017" side_tool="true" weight="0.7519466" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" visible="true" weight="0.52442527" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" visible="true" weight="0.4064588" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1134,13 +1132,7 @@
     <entry file="file://D:/Python35/Lib/site-packages/rest_framework/settings.py" />
     <entry file="file://$PROJECT_DIR$/alipay/alipay-master/README.md" />
     <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/manage.py" />
-    <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py" />
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/5、快速排序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
@@ -1165,11 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#47#71#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="358">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
