@@ -33,7 +33,6 @@ def remote_task():
 # ssh-keygen -t rsa -b 2048 -C "1214972346@qq.com"
 
 
-
 """
 pip3 uninstall cryptography==2.5
 pip3 install cryptography==2.4.2
