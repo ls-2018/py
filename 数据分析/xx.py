@@ -8,7 +8,6 @@ df['time'] = date2num(df.index.to_pydatetime())
 
 fig = plt.figure()
 
-
 ax = fig.add_subplot(1, 1, 1)  # 创建子图实例，传入第一参数
 
 arr = df[['time', 'open', 'close', 'high', 'low']].values  # 获取序列化值，传入第二参数
