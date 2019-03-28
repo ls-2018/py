@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/数据分析/1、pandas.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="92">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -55,6 +58,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -81,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/4、只使用位运算符实现加减乘除.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/5.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/5、只使用+=实现加减乘除运算.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/6、根据已知随机数生成函数计算新的随机数.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/6、判断1024！末尾有多少个0.py" />
@@ -132,13 +134,15 @@
         <option value="$PROJECT_DIR$/alipay/alipay-master/README.md" />
         <option value="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py" />
         <option value="$PROJECT_DIR$/online.py" />
+        <option value="$PROJECT_DIR$/数据分析/1、pandas.py" />
+        <option value="$PROJECT_DIR$/数据分析/1、pandas.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-26" />
-    <option name="y" value="53" />
-    <option name="width" value="891" />
+    <option name="x" value="808" />
+    <option name="y" value="48" />
+    <option name="width" value="1119" />
     <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -159,6 +163,11 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,28 +292,8 @@
       <workItem from="1553405931826" duration="10000" />
       <workItem from="1553471167187" duration="594000" />
       <workItem from="1553516354298" duration="2494000" />
-      <workItem from="1553688317697" duration="1971000" />
-    </task>
-    <task id="LOCAL-00055" summary="1、获取系统信息">
-      <created>1552970862183</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1552970862183</updated>
-    </task>
-    <task id="LOCAL-00056" summary="2、获取CPU使用率_内存使用率_网络使用状态">
-      <created>1552970909685</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1552970909685</updated>
-    </task>
-    <task id="LOCAL-00057" summary="2、获取CPU使用率_内存使用率_网络使用状态">
-      <created>1552971711354</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1552971711354</updated>
+      <workItem from="1553688317697" duration="2219000" />
+      <workItem from="1553738310496" duration="1601000" />
     </task>
     <task id="LOCAL-00058" summary="2、获取CPU使用率_内存使用率_网络使用状态">
       <created>1552972811808</created>
@@ -628,7 +617,28 @@
       <option name="project" value="LOCAL" />
       <updated>1553689975914</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="线上部署">
+      <created>1553690612703</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1553690612704</updated>
+    </task>
+    <task id="LOCAL-00105" summary="线上部署">
+      <created>1553690794694</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1553690794694</updated>
+    </task>
+    <task id="LOCAL-00106" summary="线上部署">
+      <created>1553690831197</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1553690831197</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -661,13 +671,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89843000" />
+    <option name="totallyTimeSpent" value="91692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="53" width="891" height="854" extended-state="0" />
-    <editor active="true" />
+    <frame x="808" y="48" width="1119" height="854" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1696751" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13597734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -678,10 +687,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902297" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006017" side_tool="true" weight="0.7519466" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49939832" visible="true" weight="0.52442527" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50180507" side_tool="true" weight="0.52442527" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" visible="true" weight="0.54310346" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -949,20 +958,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/3、求正整数n所有可能的整数组合.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/8、堆排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/1、从大量的url中找出相同的url.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1155,10 +1150,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/1、pandas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/1、pandas.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="92">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
         </state>
       </provider>
     </entry>
