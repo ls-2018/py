@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="数据分析">
-      <change afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/matplotlib-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/PieChart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/matplotlib.ipynb" afterDir="false" />
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/1、pandas-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/1、pandas-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/matplotlib-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/matplotlib-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/matplotlib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/matplotlib.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -309,21 +307,7 @@
       <workItem from="1553688317697" duration="2219000" />
       <workItem from="1553738310496" duration="3442000" />
       <workItem from="1553751542521" duration="629000" />
-      <workItem from="1553753165845" duration="2458000" />
-    </task>
-    <task id="LOCAL-00064" summary="_">
-      <created>1553221656212</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1553221656212</updated>
-    </task>
-    <task id="LOCAL-00065" summary="_">
-      <created>1553228951648</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1553228951649</updated>
+      <workItem from="1553753165845" duration="3849000" />
     </task>
     <task id="LOCAL-00066" summary="_">
       <created>1553234125462</created>
@@ -654,7 +638,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553756985215</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="数据分析">
+      <created>1553757298274</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1553757298274</updated>
+    </task>
+    <task id="LOCAL-00114" summary="数据分析">
+      <created>1553758310125</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1553758310125</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -687,11 +685,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96620000" />
+    <option name="totallyTimeSpent" value="98011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="942" y="5" width="978" height="1003" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3769063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
