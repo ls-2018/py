@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据分析/1、pandas.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/1、pandas-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/1、pandas-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/1、pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/1、pandas.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="142">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -168,6 +169,12 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,21 +300,7 @@
       <workItem from="1553471167187" duration="594000" />
       <workItem from="1553516354298" duration="2494000" />
       <workItem from="1553688317697" duration="2219000" />
-      <workItem from="1553738310496" duration="1601000" />
-    </task>
-    <task id="LOCAL-00058" summary="2、获取CPU使用率_内存使用率_网络使用状态">
-      <created>1552972811808</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1552972811808</updated>
-    </task>
-    <task id="LOCAL-00059" summary="_">
-      <created>1553155621799</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1553155621801</updated>
+      <workItem from="1553738310496" duration="3105000" />
     </task>
     <task id="LOCAL-00060" summary="_">
       <created>1553155648478</created>
@@ -638,7 +631,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553690831197</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="数据分析">
+      <created>1553740335086</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1553740335087</updated>
+    </task>
+    <task id="LOCAL-00108" summary="数据分析">
+      <created>1553742079194</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1553742079194</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -671,10 +678,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91692000" />
+    <option name="totallyTimeSpent" value="93196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="808" y="48" width="1119" height="854" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13597734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -704,7 +712,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10、把10进制数分别以2_16输出" />
     <MESSAGE value="11、求二进制中1的个数" />
     <MESSAGE value="12、找出最小的不重复数" />
     <MESSAGE value="13、计算一个数的n次方" />
@@ -729,7 +736,8 @@
     <MESSAGE value="2、获取CPU使用率_内存使用率_网络使用状态" />
     <MESSAGE value="_" />
     <MESSAGE value="线上部署" />
-    <option name="LAST_COMMIT_MESSAGE" value="线上部署" />
+    <MESSAGE value="数据分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1162,8 +1170,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="142">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
