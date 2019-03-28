@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/toshare-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/000016" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/600519.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/toshare.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据分析/600519.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1241">
               <caret line="4181" column="16" lean-forward="true" selection-start-line="4181" selection-start-column="16" selection-end-line="4181" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -334,49 +335,7 @@
       <workItem from="1553738310496" duration="3442000" />
       <workItem from="1553751542521" duration="629000" />
       <workItem from="1553753165845" duration="6003000" />
-      <workItem from="1553763027171" duration="3666000" />
-    </task>
-    <task id="LOCAL-00069" summary="_">
-      <created>1553397223572</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397223573</updated>
-    </task>
-    <task id="LOCAL-00070" summary="线上部署">
-      <created>1553397273936</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397273937</updated>
-    </task>
-    <task id="LOCAL-00071" summary="线上部署">
-      <created>1553397296732</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397296732</updated>
-    </task>
-    <task id="LOCAL-00072" summary="线上部署">
-      <created>1553397314035</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397314056</updated>
-    </task>
-    <task id="LOCAL-00073" summary="线上部署">
-      <created>1553397354223</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397354229</updated>
-    </task>
-    <task id="LOCAL-00074" summary="线上部署">
-      <created>1553397387771</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397387772</updated>
+      <workItem from="1553763027171" duration="3907000" />
     </task>
     <task id="LOCAL-00075" summary="线上部署">
       <created>1553397404466</created>
@@ -679,7 +638,49 @@
       <option name="project" value="LOCAL" />
       <updated>1553763075997</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="数据分析">
+      <created>1553770467575</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1553770467576</updated>
+    </task>
+    <task id="LOCAL-00119" summary="数据分析">
+      <created>1553770507783</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1553770507783</updated>
+    </task>
+    <task id="LOCAL-00120" summary="数据分析">
+      <created>1553770530532</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1553770530532</updated>
+    </task>
+    <task id="LOCAL-00121" summary="数据分析">
+      <created>1553770550143</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1553770550143</updated>
+    </task>
+    <task id="LOCAL-00122" summary="数据分析">
+      <created>1553770594170</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1553770594170</updated>
+    </task>
+    <task id="LOCAL-00123" summary="数据分析">
+      <created>1553770611444</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1553770611444</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -712,10 +713,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103831000" />
+    <option name="totallyTimeSpent" value="104072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="938" y="2" width="978" height="1003" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3812636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1181,13 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/test.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1199,6 +1194,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="4181" column="16" lean-forward="true" selection-start-line="4181" selection-start-column="16" selection-end-line="4181" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
