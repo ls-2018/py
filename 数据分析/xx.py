@@ -14,4 +14,5 @@ arr = df[['time', 'open', 'close', 'high', 'low']].values  # 获取序列化值�
 
 fin.candlestick_ochl(ax, arr)  # 把子图和数据传入
 
+
 plt.show()
