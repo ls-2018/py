@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/机器学习-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/机器学习.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/xx.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/xx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +15,7 @@
     <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、快速排序 Coverage Results" MODIFIED="1552795280631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
     <SUITE FILE_PATH="coverage/book$12.coverage" NAME="12、找出最小的不重复数 Coverage Results" MODIFIED="1552715787896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、插入排序 Coverage Results" MODIFIED="1552786202130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$xx.coverage" NAME="xx Coverage Results" MODIFIED="1553762466645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
+    <SUITE FILE_PATH="coverage/book$xx.coverage" NAME="xx Coverage Results" MODIFIED="1553861886503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/book$.coverage" NAME="选择排序 Coverage Results" MODIFIED="1552786199779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
     <SUITE FILE_PATH="coverage/book$14n.coverage" NAME="14、在不适用库函数的条件下计算n的平方根 Coverage Results" MODIFIED="1552713917988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="325">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -159,9 +158,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="933" />
-    <option name="y" value="11" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="978" />
     <option name="height" value="1003" />
   </component>
@@ -338,28 +337,7 @@
       <workItem from="1553776354968" duration="620000" />
       <workItem from="1553778589077" duration="590000" />
       <workItem from="1553818744447" duration="764000" />
-      <workItem from="1553853514645" duration="1826000" />
-    </task>
-    <task id="LOCAL-00080" summary="线上部署">
-      <created>1553397593772</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397593772</updated>
-    </task>
-    <task id="LOCAL-00081" summary="线上部署">
-      <created>1553397615361</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397615361</updated>
-    </task>
-    <task id="LOCAL-00082" summary="线上部署">
-      <created>1553516387331</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516387334</updated>
+      <workItem from="1553853514645" duration="2608000" />
     </task>
     <task id="LOCAL-00083" summary="线上部署">
       <created>1553516470655</created>
@@ -683,7 +661,28 @@
       <option name="project" value="LOCAL" />
       <updated>1553776921260</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="机器学习">
+      <created>1553861262526</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861262527</updated>
+    </task>
+    <task id="LOCAL-00130" summary="机器学习">
+      <created>1553861286130</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861286131</updated>
+    </task>
+    <task id="LOCAL-00131" summary="机器学习">
+      <created>1553861896920</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861896921</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -716,7 +715,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108516000" />
+    <option name="totallyTimeSpent" value="109298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -727,7 +726,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7305389" weight="0.3986637" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7305389" visible="true" weight="0.37416482" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.44097996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1202,8 +1201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="325">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
