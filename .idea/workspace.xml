@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/toshare.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/toshare.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/机器学习-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/机器学习.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="350">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -158,11 +159,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="933" />
-    <option name="y" value="11" />
-    <option name="width" value="978" />
-    <option name="height" value="1003" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -176,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,16 +185,10 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,14 +335,10 @@
       <workItem from="1553751542521" duration="629000" />
       <workItem from="1553753165845" duration="6003000" />
       <workItem from="1553763027171" duration="4551000" />
-      <workItem from="1553776354968" duration="377000" />
-    </task>
-    <task id="LOCAL-00079" summary="线上部署">
-      <created>1553397569808</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397569808</updated>
+      <workItem from="1553776354968" duration="620000" />
+      <workItem from="1553778589077" duration="590000" />
+      <workItem from="1553818744447" duration="764000" />
+      <workItem from="1553853514645" duration="1826000" />
     </task>
     <task id="LOCAL-00080" summary="线上部署">
       <created>1553397593772</created>
@@ -684,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553771190893</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="机器学习">
+      <created>1553776921260</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1553776921260</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -717,12 +716,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105093000" />
+    <option name="totallyTimeSpent" value="108516000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="620" y="14" width="978" height="1003" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3899782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -736,7 +736,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50180507" side_tool="true" weight="0.52426034" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" visible="true" weight="0.44733727" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -750,7 +750,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11、求二进制中1的个数" />
     <MESSAGE value="12、找出最小的不重复数" />
     <MESSAGE value="13、计算一个数的n次方" />
     <MESSAGE value="14、在不适用库函数的条件下计算n的平方根.py" />
@@ -775,7 +774,8 @@
     <MESSAGE value="_" />
     <MESSAGE value="线上部署" />
     <MESSAGE value="数据分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据分析" />
+    <MESSAGE value="机器学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="机器学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1153,7 +1153,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py" />
+    <entry file="file://$PROJECT_DIR$/../.local/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py" />
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -1202,8 +1202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="350">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
