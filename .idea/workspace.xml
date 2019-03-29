@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/xx.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/xx.py" afterDir="false" />
-    </list>
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -337,35 +334,7 @@
       <workItem from="1553776354968" duration="620000" />
       <workItem from="1553778589077" duration="590000" />
       <workItem from="1553818744447" duration="764000" />
-      <workItem from="1553853514645" duration="3205000" />
-    </task>
-    <task id="LOCAL-00084" summary="线上部署">
-      <created>1553516580195</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516580195</updated>
-    </task>
-    <task id="LOCAL-00085" summary="线上部署">
-      <created>1553516631690</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516631690</updated>
-    </task>
-    <task id="LOCAL-00086" summary="线上部署">
-      <created>1553516721083</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516721083</updated>
-    </task>
-    <task id="LOCAL-00087" summary="线上部署">
-      <created>1553516802092</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516802093</updated>
+      <workItem from="1553853514645" duration="3520000" />
     </task>
     <task id="LOCAL-00088" summary="线上部署">
       <created>1553516882589</created>
@@ -682,7 +651,35 @@
       <option name="project" value="LOCAL" />
       <updated>1553862045811</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="机器学习">
+      <created>1553862642191</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862642191</updated>
+    </task>
+    <task id="LOCAL-00134" summary="机器学习">
+      <created>1553862743358</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862743358</updated>
+    </task>
+    <task id="LOCAL-00135" summary="机器学习">
+      <created>1553862778601</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862778601</updated>
+    </task>
+    <task id="LOCAL-00136" summary="机器学习">
+      <created>1553862810938</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862810938</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -715,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109895000" />
+    <option name="totallyTimeSpent" value="110210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="933" y="11" width="978" height="1003" extended-state="0" />
@@ -726,7 +723,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7305389" visible="true" weight="0.39763314" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.59150326" visible="true" weight="0.39763314" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.44097996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -734,7 +731,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50180507" side_tool="true" weight="0.52426034" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40849674" side_tool="true" visible="true" weight="0.39763314" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -1202,7 +1199,7 @@
     <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
