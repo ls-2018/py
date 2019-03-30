@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SaltStack学习/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,29 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析/test.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析/600519.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104525">
-              <caret line="4181" column="16" selection-start-line="4181" selection-start-column="16" selection-end-line="4181" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
+        <entry file="file://$PROJECT_DIR$/SaltStack学习/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -101,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/6、判断1024！末尾有多少个0.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个输的大小.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个数的大小.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/9、求有序疏离的第1500个值.py" />
@@ -152,6 +136,7 @@
         <option value="$PROJECT_DIR$/online.py" />
         <option value="$PROJECT_DIR$/数据分析/test.csv" />
         <option value="$PROJECT_DIR$/数据分析/xx.py" />
+        <option value="$PROJECT_DIR$/SaltStack学习/test.py" />
       </list>
     </option>
   </component>
@@ -334,35 +319,9 @@
       <workItem from="1553776354968" duration="620000" />
       <workItem from="1553778589077" duration="590000" />
       <workItem from="1553818744447" duration="764000" />
-      <workItem from="1553853514645" duration="3520000" />
-    </task>
-    <task id="LOCAL-00088" summary="线上部署">
-      <created>1553516882589</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516882589</updated>
-    </task>
-    <task id="LOCAL-00089" summary="线上部署">
-      <created>1553516929354</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516929354</updated>
-    </task>
-    <task id="LOCAL-00090" summary="线上部署">
-      <created>1553518057831</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1553518057831</updated>
-    </task>
-    <task id="LOCAL-00091" summary="线上部署">
-      <created>1553518114650</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1553518114650</updated>
+      <workItem from="1553853514645" duration="3763000" />
+      <workItem from="1553903544080" duration="1014000" />
+      <workItem from="1553914132628" duration="606000" />
     </task>
     <task id="LOCAL-00092" summary="线上部署">
       <created>1553518141383</created>
@@ -679,7 +638,35 @@
       <option name="project" value="LOCAL" />
       <updated>1553862810938</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="机器学习">
+      <created>1553863003131</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863003132</updated>
+    </task>
+    <task id="LOCAL-00138" summary="机器学习">
+      <created>1553863033262</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863033262</updated>
+    </task>
+    <task id="LOCAL-00139" summary="机器学习">
+      <created>1553863070498</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863070498</updated>
+    </task>
+    <task id="LOCAL-00140" summary="机器学习">
+      <created>1553863165282</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863165282</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -712,13 +699,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110210000" />
+    <option name="totallyTimeSpent" value="112073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="933" y="11" width="978" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832244" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2962963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -731,7 +718,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40849674" side_tool="true" visible="true" weight="0.39763314" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.40849674" side_tool="true" visible="true" weight="0.39763314" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -1000,13 +987,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/5、在大量的数据中判断一个数是否存在.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1198,8 +1178,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaltStack学习/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
