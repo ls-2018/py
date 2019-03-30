@@ -53,7 +53,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="46">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#42#74#0" expanded="true" />
@@ -360,42 +360,7 @@
       <workItem from="1553903544080" duration="1014000" />
       <workItem from="1553914132628" duration="1724000" />
       <workItem from="1553931101238" duration="1940000" />
-      <workItem from="1553953951054" duration="2451000" />
-    </task>
-    <task id="LOCAL-00099" summary="线上部署">
-      <created>1553688630255</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688630267</updated>
-    </task>
-    <task id="LOCAL-00100" summary="线上部署">
-      <created>1553688770583</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688770583</updated>
-    </task>
-    <task id="LOCAL-00101" summary="线上部署">
-      <created>1553688893428</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688893437</updated>
-    </task>
-    <task id="LOCAL-00102" summary="线上部署">
-      <created>1553689094502</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1553689094502</updated>
-    </task>
-    <task id="LOCAL-00103" summary="线上部署">
-      <created>1553689975914</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1553689975914</updated>
+      <workItem from="1553953951054" duration="2694000" />
     </task>
     <task id="LOCAL-00104" summary="线上部署">
       <created>1553690612703</created>
@@ -705,7 +670,42 @@
       <option name="project" value="LOCAL" />
       <updated>1553956407671</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="七牛云">
+      <created>1553956460156</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956460156</updated>
+    </task>
+    <task id="LOCAL-00149" summary="七牛云">
+      <created>1553956495152</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956495152</updated>
+    </task>
+    <task id="LOCAL-00150" summary="七牛云">
+      <created>1553956528466</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956528466</updated>
+    </task>
+    <task id="LOCAL-00151" summary="七牛云">
+      <created>1553956555074</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956555074</updated>
+    </task>
+    <task id="LOCAL-00152" summary="七牛云">
+      <created>1553956593187</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956593187</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -738,11 +738,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117582000" />
+    <option name="totallyTimeSpent" value="117825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="28" width="1296" height="922" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37378642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1227,7 +1226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="46">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#42#74#0" expanded="true" />
