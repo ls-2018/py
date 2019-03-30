@@ -16,7 +16,6 @@ bucket_name = 'online_193'
 q = Auth(AK, SK)
 token = q.upload_token(bucket_name)
 
-
 def updir(dirpath):
     if os.path.isdir(dirpath):  # 文件夹
         sublist = os.listdir(dirpath)
