@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/七牛云/上传文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/七牛云/上传文件.py" afterDir="false" />
-    </list>
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="71">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#42#74#0" expanded="true" />
               </folding>
@@ -363,42 +360,7 @@
       <workItem from="1553903544080" duration="1014000" />
       <workItem from="1553914132628" duration="1724000" />
       <workItem from="1553931101238" duration="1940000" />
-      <workItem from="1553953951054" duration="2204000" />
-    </task>
-    <task id="LOCAL-00094" summary="线上部署">
-      <created>1553688369449</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688369449</updated>
-    </task>
-    <task id="LOCAL-00095" summary="线上部署">
-      <created>1553688432974</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688432974</updated>
-    </task>
-    <task id="LOCAL-00096" summary="线上部署">
-      <created>1553688479928</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688479928</updated>
-    </task>
-    <task id="LOCAL-00097" summary="线上部署">
-      <created>1553688538210</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688538210</updated>
-    </task>
-    <task id="LOCAL-00098" summary="线上部署">
-      <created>1553688605024</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688605024</updated>
+      <workItem from="1553953951054" duration="2451000" />
     </task>
     <task id="LOCAL-00099" summary="线上部署">
       <created>1553688630255</created>
@@ -708,7 +670,42 @@
       <option name="project" value="LOCAL" />
       <updated>1553954961529</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="七牛云">
+      <created>1553956187257</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956187257</updated>
+    </task>
+    <task id="LOCAL-00144" summary="七牛云">
+      <created>1553956270980</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956270980</updated>
+    </task>
+    <task id="LOCAL-00145" summary="七牛云">
+      <created>1553956361399</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956361400</updated>
+    </task>
+    <task id="LOCAL-00146" summary="七牛云">
+      <created>1553956388722</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956388723</updated>
+    </task>
+    <task id="LOCAL-00147" summary="七牛云">
+      <created>1553956407671</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956407671</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -741,17 +738,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117335000" />
+    <option name="totallyTimeSpent" value="117582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="28" width="1296" height="922" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37378642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5906149" visible="true" weight="0.68979055" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5906149" weight="0.68979055" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.44109946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -759,7 +757,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40938511" side_tool="true" weight="0.67408377" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.40938511" side_tool="true" visible="true" weight="0.776178" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -1229,8 +1227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="71">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#42#74#0" expanded="true" />
           </folding>
