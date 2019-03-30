@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SaltStack学习/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/七牛云/上传文件.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/book$12.coverage" NAME="12、找出最小的不重复数 Coverage Results" MODIFIED="1552715787896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、插入排序 Coverage Results" MODIFIED="1552786202130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
     <SUITE FILE_PATH="coverage/book$xx.coverage" NAME="xx Coverage Results" MODIFIED="1553861886503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="选择排序 Coverage Results" MODIFIED="1552786199779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$.coverage" NAME="上传文件 Coverage Results" MODIFIED="1553954918127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/七牛云" />
     <SUITE FILE_PATH="coverage/book$14n.coverage" NAME="14、在不适用库函数的条件下计算n的平方根 Coverage Results" MODIFIED="1552713917988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$24.coverage" NAME="24、查找到达目标单词的最短长度 Coverage Results" MODIFIED="1552695847178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
@@ -44,11 +44,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SaltStack学习/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="25">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#42#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个输的大小.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个数的大小.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/9、求有序疏离的第1500个值.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/10、把10进制数分别以2_16输出.py" />
@@ -137,14 +148,15 @@
         <option value="$PROJECT_DIR$/数据分析/test.csv" />
         <option value="$PROJECT_DIR$/数据分析/xx.py" />
         <option value="$PROJECT_DIR$/SaltStack学习/test.py" />
+        <option value="$PROJECT_DIR$/七牛云/上传文件.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="933" />
-    <option name="y" value="11" />
-    <option name="width" value="978" />
-    <option name="height" value="1003" />
+    <option name="x" value="527" />
+    <option name="y" value="28" />
+    <option name="width" value="1296" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,6 +177,11 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="七牛云" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +213,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xx">
+  <component name="RunManager" selected="Python.上传文件">
+    <configuration name="上传文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/七牛云" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/七牛云/上传文件.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,6 +304,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.上传文件" />
         <item itemvalue="Python.xx" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.demo1" />
@@ -321,14 +361,9 @@
       <workItem from="1553818744447" duration="764000" />
       <workItem from="1553853514645" duration="3763000" />
       <workItem from="1553903544080" duration="1014000" />
-      <workItem from="1553914132628" duration="606000" />
-    </task>
-    <task id="LOCAL-00092" summary="线上部署">
-      <created>1553518141383</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1553518141383</updated>
+      <workItem from="1553914132628" duration="1724000" />
+      <workItem from="1553931101238" duration="1940000" />
+      <workItem from="1553953951054" duration="996000" />
     </task>
     <task id="LOCAL-00093" summary="线上部署">
       <created>1553518163841</created>
@@ -666,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553863165282</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="SaltStack学习">
+      <created>1553914803991</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1553914803992</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -699,26 +741,26 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112073000" />
+    <option name="totallyTimeSpent" value="116127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="933" y="11" width="978" height="1003" extended-state="0" />
+    <frame x="527" y="28" width="1296" height="922" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2962963" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37378642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.59150326" visible="true" weight="0.39763314" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.44097996" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.59150326" weight="0.33296213" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.44109946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.40849674" side_tool="true" visible="true" weight="0.39763314" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40849674" side_tool="true" weight="0.43979058" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -733,7 +775,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12、找出最小的不重复数" />
     <MESSAGE value="13、计算一个数的n次方" />
     <MESSAGE value="14、在不适用库函数的条件下计算n的平方根.py" />
     <MESSAGE value="1、如何求数字的组合" />
@@ -758,7 +799,8 @@
     <MESSAGE value="线上部署" />
     <MESSAGE value="数据分析" />
     <MESSAGE value="机器学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="机器学习" />
+    <MESSAGE value="SaltStack学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="SaltStack学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -987,13 +1029,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/fabfile.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1188,8 +1223,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SaltStack学习/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="25">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#42#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
