@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,7 @@
     <SUITE FILE_PATH="coverage/book$14n.coverage" NAME="14、在不适用库函数的条件下计算n的平方根 Coverage Results" MODIFIED="1552713917988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$24.coverage" NAME="24、查找到达目标单词的最短长度 Coverage Results" MODIFIED="1552695847178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$io_asynciohttp.coverage" NAME="异步io模块 asyncio使用协程完成http访问 Coverage Results" MODIFIED="1554018952665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$22n.coverage" NAME="2、判断一个数是否为2的n次方 Coverage Results" MODIFIED="1552697827787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$yield_from.coverage" NAME="协程yield_from Coverage Results" MODIFIED="1554016418053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$6125100.coverage" NAME="6、如何组合125使其和为100 Coverage Results" MODIFIED="1552783442682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
@@ -52,13 +50,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio使用协程完成http访问.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -101,8 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/2、如何拿到最多金币.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率/3、求正整数n所有可能的整数组合.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/8、堆排序.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/1、从大量的url中找出相同的url.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/大数据/2、从大量数据中找出高频词.py" />
@@ -152,6 +157,8 @@
         <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asyncio~.py" />
         <option value="$PROJECT_DIR$/生成器和协程/asynico获取返回值.py" />
         <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py" />
+        <option value="$PROJECT_DIR$/生成器和协程/asyncio使用协程完成http访问.py" />
+        <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asyncio使用协程完成http访问.py" />
       </list>
     </option>
   </component>
@@ -216,29 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.异步io模块 asynico获取返回值">
-    <configuration name="协程-yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/生成器和协程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成器和协程/协程-yield.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.异步io模块 asyncio使用协程完成http访问">
     <configuration name="5、进阶" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,6 +260,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Administrator\book\生成器和协程\异步.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="异步io模块 asyncio使用协程完成http访问" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/生成器和协程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成器和协程/异步io模块 asyncio使用协程完成http访问.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.异步io模块 asyncio使用协程完成http访问" />
         <item itemvalue="Python.异步io模块 asynico获取返回值" />
         <item itemvalue="Python.异步io模块 asyncio" />
         <item itemvalue="Python.协程yield_from" />
         <item itemvalue="Python.5、进阶" />
-        <item itemvalue="Python.协程-yield" />
       </list>
     </recent_temporary>
   </component>
@@ -391,21 +398,7 @@
       <workItem from="1553931101238" duration="1940000" />
       <workItem from="1553953951054" duration="2945000" />
       <workItem from="1554013397639" duration="3154000" />
-      <workItem from="1554017843919" duration="901000" />
-    </task>
-    <task id="LOCAL-00119" summary="数据分析">
-      <created>1553770507783</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1553770507783</updated>
-    </task>
-    <task id="LOCAL-00120" summary="数据分析">
-      <created>1553770530532</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1553770530532</updated>
+      <workItem from="1554017843919" duration="2098000" />
     </task>
     <task id="LOCAL-00121" summary="数据分析">
       <created>1553770550143</created>
@@ -736,7 +729,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554018423429</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="异步io模块 asynico获取返回值">
+      <created>1554018824665</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1554018824665</updated>
+    </task>
+    <task id="LOCAL-00169" summary="异步io模块 asyncio使用协程完成http访问">
+      <created>1554019673211</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1554019673211</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -769,18 +776,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122134000" />
+    <option name="totallyTimeSpent" value="123331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="725" y="73" width="1687" height="961" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1333743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1333743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5882875" visible="true" weight="0.36239102" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5882875" weight="0.8986637" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49778172" weight="0.42676768" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -803,8 +810,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3、找出访问最多的ip" />
-    <MESSAGE value="4、在大量的数据中找出不重复的数" />
     <MESSAGE value="5、在大量的数据中判断一个数是否存在" />
     <MESSAGE value="6、找出排名前500的数" />
     <MESSAGE value="9、自动发送电子邮件模块" />
@@ -828,7 +833,9 @@
     <MESSAGE value="协程-yield" />
     <MESSAGE value="协程yield_from" />
     <MESSAGE value="异步io模块 asyncio.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="异步io模块 asyncio.py" />
+    <MESSAGE value="异步io模块 asynico获取返回值" />
+    <MESSAGE value="异步io模块 asyncio使用协程完成http访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步io模块 asyncio使用协程完成http访问" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1057,7 +1064,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/运维自动化/fabric命令.py" />
     <entry file="file://D:/Python35/Lib/email/header.py" />
     <entry file="file://D:/Python35/Lib/email/_parseaddr.py" />
     <entry file="file://D:/Python35/Lib/codecs.py" />
@@ -1300,17 +1306,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio使用协程完成http访问.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>

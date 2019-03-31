@@ -20,14 +20,6 @@ loop.run_until_complete(asyncio.wait([task1, task2]))
 # loop.run_until_complete(func())
 
 
-
-
-
-
-
-
-
-
 # asyncio是一个底层模块
 # 他完成了几个任务的轮流检测io,并且在遇到io的时候能够及时在任务之间进行切换
 # 然后达到使用单线程实现异步的方式
