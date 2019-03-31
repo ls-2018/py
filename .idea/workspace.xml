@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/七牛云/上传文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/七牛云/上传文件.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,38 +11,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、插入排序 Coverage Results" MODIFIED="1552786202130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
     <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、快速排序 Coverage Results" MODIFIED="1552795280631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、求相对路径 Coverage Results" MODIFIED="1552658537085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$8_.coverage" NAME="8、按要求 比较两个输的大小 Coverage Results" MODIFIED="1552706812718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$10102_16.coverage" NAME="10、把10进制数分别以2_16输出 Coverage Results" MODIFIED="1552708722930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、冒泡排序 Coverage Results" MODIFIED="1552786984817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1、定义生成器 Coverage Results" MODIFIED="1554013259336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
-    <SUITE FILE_PATH="coverage/book$15_.coverage" NAME="15、不使用^实现亦或操作 Coverage Results" MODIFIED="1552714893996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、根据已知随机数生成函数计算新的随机数 Coverage Results" MODIFIED="1552705967689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$20.coverage" NAME="20、在二维数组中寻找最短路线 Coverage Results" MODIFIED="1552654848718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$23.coverage" NAME="23 Coverage Results" MODIFIED="1552693618256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$14n.coverage" NAME="14、在不适用库函数的条件下计算n的平方根 Coverage Results" MODIFIED="1552713917988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1552783859290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
-    <SUITE FILE_PATH="coverage/book$22n.coverage" NAME="2、判断一个数是否为2的n次方 Coverage Results" MODIFIED="1552697827787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$12_2.coverage" NAME="12、找出最小的不重复数_2 Coverage Results" MODIFIED="1552715925141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$6125100.coverage" NAME="6、如何组合125使其和为100 Coverage Results" MODIFIED="1552783442682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
-    <SUITE FILE_PATH="coverage/book$20__1_.coverage" NAME="20、在二维数组中寻找最短路线 (1) Coverage Results" MODIFIED="1552654252179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$3n.coverage" NAME="3、求正整数n所有可能的整数组合 Coverage Results" MODIFIED="1552781498552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
     <SUITE FILE_PATH="coverage/book$12.coverage" NAME="12、找出最小的不重复数 Coverage Results" MODIFIED="1552715787896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$4.coverage" NAME="4、归并排序 Coverage Results" MODIFIED="1552791493886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$xx.coverage" NAME="xx Coverage Results" MODIFIED="1554013248797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
+    <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、插入排序 Coverage Results" MODIFIED="1552786202130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$xx.coverage" NAME="xx Coverage Results" MODIFIED="1553861886503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
+    <SUITE FILE_PATH="coverage/book$.coverage" NAME="上传文件 Coverage Results" MODIFIED="1553955593427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/七牛云" />
+    <SUITE FILE_PATH="coverage/book$14n.coverage" NAME="14、在不适用库函数的条件下计算n的平方根 Coverage Results" MODIFIED="1552713917988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$24.coverage" NAME="24、查找到达目标单词的最短长度 Coverage Results" MODIFIED="1552695847178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
-    <SUITE FILE_PATH="coverage/book$7.coverage" NAME="7、希尔排序 Coverage Results" MODIFIED="1552796988616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
-    <SUITE FILE_PATH="coverage/book$13n.coverage" NAME="13、计算一个数的n次方 Coverage Results" MODIFIED="1552712681091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$22n.coverage" NAME="2、判断一个数是否为2的n次方 Coverage Results" MODIFIED="1552697827787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$6125100.coverage" NAME="6、如何组合125使其和为100 Coverage Results" MODIFIED="1552783442682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
     <SUITE FILE_PATH="coverage/book$5nm.coverage" NAME="5、如何等概率地从大小为n的数组中选取m个整数 Coverage Results" MODIFIED="1552782846597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
+    <SUITE FILE_PATH="coverage/book$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1552783859290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
+    <SUITE FILE_PATH="coverage/book$23.coverage" NAME="23 Coverage Results" MODIFIED="1552693618256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$20.coverage" NAME="20、在二维数组中寻找最短路线 Coverage Results" MODIFIED="1552654848718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$7.coverage" NAME="7、希尔排序 Coverage Results" MODIFIED="1552796988616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$3n.coverage" NAME="3、求正整数n所有可能的整数组合 Coverage Results" MODIFIED="1552781498552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排列组合与概率" />
+    <SUITE FILE_PATH="coverage/book$10102_16.coverage" NAME="10、把10进制数分别以2_16输出 Coverage Results" MODIFIED="1552708722930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$13n.coverage" NAME="13、计算一个数的n次方 Coverage Results" MODIFIED="1552712681091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$12_2.coverage" NAME="12、找出最小的不重复数_2 Coverage Results" MODIFIED="1552715925141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$15_.coverage" NAME="15、不使用^实现亦或操作 Coverage Results" MODIFIED="1552714893996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1、判断一个自然数是否是某个数的平方 Coverage Results" MODIFIED="1552696797983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$91500.coverage" NAME="9、求有序疏离的第1500个值 Coverage Results" MODIFIED="1552707617142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="选择排序 Coverage Results" MODIFIED="1552786199779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$4.coverage" NAME="4、归并排序 Coverage Results" MODIFIED="1552791493886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$8_.coverage" NAME="8、按要求 比较两个输的大小 Coverage Results" MODIFIED="1552706812718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、冒泡排序 Coverage Results" MODIFIED="1552786984817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$20__1_.coverage" NAME="20、在二维数组中寻找最短路线 (1) Coverage Results" MODIFIED="1552654252179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$610240.coverage" NAME="6、判断1024！末尾有多少个0 Coverage Results" MODIFIED="1552706522964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、求相对路径 Coverage Results" MODIFIED="1552658537085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
+    <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、根据已知随机数生成函数计算新的随机数 Coverage Results" MODIFIED="1552705967689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SaltStack学习/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#42#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,8 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/6、判断1024！末尾有多少个0.py" />
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个输的大小.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/8、按要求 比较两个数的大小.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/9、求有序疏离的第1500个值.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/10、把10进制数分别以2_16输出.py" />
@@ -128,14 +146,16 @@
         <option value="$PROJECT_DIR$/online.py" />
         <option value="$PROJECT_DIR$/数据分析/test.csv" />
         <option value="$PROJECT_DIR$/数据分析/xx.py" />
+        <option value="$PROJECT_DIR$/SaltStack学习/test.py" />
+        <option value="$PROJECT_DIR$/七牛云/上传文件.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="912" />
-    <option name="y" value="138" />
-    <option name="width" value="978" />
-    <option name="height" value="1003" />
+    <option name="x" value="527" />
+    <option name="y" value="28" />
+    <option name="width" value="1296" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,13 +180,12 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+              <item name="七牛云" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1、定义生成器">
-    <configuration name="1、定义生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.上传文件">
+    <configuration name="上传文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,12 +221,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/生成器和协程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/七牛云" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成器和协程/1、定义生成器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/七牛云/上传文件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +303,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1、定义生成器" />
+        <item itemvalue="Python.上传文件" />
         <item itemvalue="Python.xx" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.demo1" />
@@ -335,239 +355,14 @@
       <workItem from="1553751542521" duration="629000" />
       <workItem from="1553753165845" duration="6003000" />
       <workItem from="1553763027171" duration="4551000" />
-      <workItem from="1553776354968" duration="377000" />
-      <workItem from="1554009365856" duration="719000" />
-    </task>
-    <task id="LOCAL-00079" summary="线上部署">
-      <created>1553397569808</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397569808</updated>
-    </task>
-    <task id="LOCAL-00080" summary="线上部署">
-      <created>1553397593772</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397593772</updated>
-    </task>
-    <task id="LOCAL-00081" summary="线上部署">
-      <created>1553397615361</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1553397615361</updated>
-    </task>
-    <task id="LOCAL-00082" summary="线上部署">
-      <created>1553516387331</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516387334</updated>
-    </task>
-    <task id="LOCAL-00083" summary="线上部署">
-      <created>1553516470655</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516470655</updated>
-    </task>
-    <task id="LOCAL-00084" summary="线上部署">
-      <created>1553516580195</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516580195</updated>
-    </task>
-    <task id="LOCAL-00085" summary="线上部署">
-      <created>1553516631690</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516631690</updated>
-    </task>
-    <task id="LOCAL-00086" summary="线上部署">
-      <created>1553516721083</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516721083</updated>
-    </task>
-    <task id="LOCAL-00087" summary="线上部署">
-      <created>1553516802092</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516802093</updated>
-    </task>
-    <task id="LOCAL-00088" summary="线上部署">
-      <created>1553516882589</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516882589</updated>
-    </task>
-    <task id="LOCAL-00089" summary="线上部署">
-      <created>1553516929354</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1553516929354</updated>
-    </task>
-    <task id="LOCAL-00090" summary="线上部署">
-      <created>1553518057831</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1553518057831</updated>
-    </task>
-    <task id="LOCAL-00091" summary="线上部署">
-      <created>1553518114650</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1553518114650</updated>
-    </task>
-    <task id="LOCAL-00092" summary="线上部署">
-      <created>1553518141383</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1553518141383</updated>
-    </task>
-    <task id="LOCAL-00093" summary="线上部署">
-      <created>1553518163841</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1553518163841</updated>
-    </task>
-    <task id="LOCAL-00094" summary="线上部署">
-      <created>1553688369449</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688369449</updated>
-    </task>
-    <task id="LOCAL-00095" summary="线上部署">
-      <created>1553688432974</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688432974</updated>
-    </task>
-    <task id="LOCAL-00096" summary="线上部署">
-      <created>1553688479928</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688479928</updated>
-    </task>
-    <task id="LOCAL-00097" summary="线上部署">
-      <created>1553688538210</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688538210</updated>
-    </task>
-    <task id="LOCAL-00098" summary="线上部署">
-      <created>1553688605024</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688605024</updated>
-    </task>
-    <task id="LOCAL-00099" summary="线上部署">
-      <created>1553688630255</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688630267</updated>
-    </task>
-    <task id="LOCAL-00100" summary="线上部署">
-      <created>1553688770583</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688770583</updated>
-    </task>
-    <task id="LOCAL-00101" summary="线上部署">
-      <created>1553688893428</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1553688893437</updated>
-    </task>
-    <task id="LOCAL-00102" summary="线上部署">
-      <created>1553689094502</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1553689094502</updated>
-    </task>
-    <task id="LOCAL-00103" summary="线上部署">
-      <created>1553689975914</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1553689975914</updated>
-    </task>
-    <task id="LOCAL-00104" summary="线上部署">
-      <created>1553690612703</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1553690612704</updated>
-    </task>
-    <task id="LOCAL-00105" summary="线上部署">
-      <created>1553690794694</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1553690794694</updated>
-    </task>
-    <task id="LOCAL-00106" summary="线上部署">
-      <created>1553690831197</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1553690831197</updated>
-    </task>
-    <task id="LOCAL-00107" summary="数据分析">
-      <created>1553740335086</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1553740335087</updated>
-    </task>
-    <task id="LOCAL-00108" summary="数据分析">
-      <created>1553742079194</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1553742079194</updated>
-    </task>
-    <task id="LOCAL-00109" summary="数据分析">
-      <created>1553742862278</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1553742862278</updated>
-    </task>
-    <task id="LOCAL-00110" summary="数据分析">
-      <created>1553753190306</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1553753190307</updated>
-    </task>
-    <task id="LOCAL-00111" summary="数据分析">
-      <created>1553754831436</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1553754831436</updated>
+      <workItem from="1553776354968" duration="620000" />
+      <workItem from="1553778589077" duration="590000" />
+      <workItem from="1553818744447" duration="764000" />
+      <workItem from="1553853514645" duration="3763000" />
+      <workItem from="1553903544080" duration="1014000" />
+      <workItem from="1553914132628" duration="1724000" />
+      <workItem from="1553931101238" duration="1940000" />
+      <workItem from="1553953951054" duration="2945000" />
     </task>
     <task id="LOCAL-00112" summary="数据分析">
       <created>1553756985215</created>
@@ -681,7 +476,238 @@
       <option name="project" value="LOCAL" />
       <updated>1553771190893</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="机器学习">
+      <created>1553776921260</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1553776921260</updated>
+    </task>
+    <task id="LOCAL-00129" summary="机器学习">
+      <created>1553861262526</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861262527</updated>
+    </task>
+    <task id="LOCAL-00130" summary="机器学习">
+      <created>1553861286130</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861286131</updated>
+    </task>
+    <task id="LOCAL-00131" summary="机器学习">
+      <created>1553861896920</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1553861896921</updated>
+    </task>
+    <task id="LOCAL-00132" summary="机器学习">
+      <created>1553862045811</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862045811</updated>
+    </task>
+    <task id="LOCAL-00133" summary="机器学习">
+      <created>1553862642191</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862642191</updated>
+    </task>
+    <task id="LOCAL-00134" summary="机器学习">
+      <created>1553862743358</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862743358</updated>
+    </task>
+    <task id="LOCAL-00135" summary="机器学习">
+      <created>1553862778601</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862778601</updated>
+    </task>
+    <task id="LOCAL-00136" summary="机器学习">
+      <created>1553862810938</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1553862810938</updated>
+    </task>
+    <task id="LOCAL-00137" summary="机器学习">
+      <created>1553863003131</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863003132</updated>
+    </task>
+    <task id="LOCAL-00138" summary="机器学习">
+      <created>1553863033262</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863033262</updated>
+    </task>
+    <task id="LOCAL-00139" summary="机器学习">
+      <created>1553863070498</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863070498</updated>
+    </task>
+    <task id="LOCAL-00140" summary="机器学习">
+      <created>1553863165282</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863165282</updated>
+    </task>
+    <task id="LOCAL-00141" summary="SaltStack学习">
+      <created>1553914803991</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1553914803992</updated>
+    </task>
+    <task id="LOCAL-00142" summary="七牛云">
+      <created>1553954961528</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1553954961529</updated>
+    </task>
+    <task id="LOCAL-00143" summary="七牛云">
+      <created>1553956187257</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956187257</updated>
+    </task>
+    <task id="LOCAL-00144" summary="七牛云">
+      <created>1553956270980</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956270980</updated>
+    </task>
+    <task id="LOCAL-00145" summary="七牛云">
+      <created>1553956361399</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956361400</updated>
+    </task>
+    <task id="LOCAL-00146" summary="七牛云">
+      <created>1553956388722</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956388723</updated>
+    </task>
+    <task id="LOCAL-00147" summary="七牛云">
+      <created>1553956407671</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956407671</updated>
+    </task>
+    <task id="LOCAL-00148" summary="七牛云">
+      <created>1553956460156</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956460156</updated>
+    </task>
+    <task id="LOCAL-00149" summary="七牛云">
+      <created>1553956495152</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956495152</updated>
+    </task>
+    <task id="LOCAL-00150" summary="七牛云">
+      <created>1553956528466</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956528466</updated>
+    </task>
+    <task id="LOCAL-00151" summary="七牛云">
+      <created>1553956555074</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956555074</updated>
+    </task>
+    <task id="LOCAL-00152" summary="七牛云">
+      <created>1553956593187</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956593187</updated>
+    </task>
+    <task id="LOCAL-00153" summary="七牛云">
+      <created>1553956662041</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956662041</updated>
+    </task>
+    <task id="LOCAL-00154" summary="七牛云">
+      <created>1553956692991</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956692991</updated>
+    </task>
+    <task id="LOCAL-00155" summary="七牛云">
+      <created>1553956716598</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956716598</updated>
+    </task>
+    <task id="LOCAL-00156" summary="七牛云">
+      <created>1553956738842</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956738842</updated>
+    </task>
+    <task id="LOCAL-00157" summary="七牛云">
+      <created>1553956760616</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956760616</updated>
+    </task>
+    <task id="LOCAL-00158" summary="七牛云">
+      <created>1553956793577</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956793577</updated>
+    </task>
+    <task id="LOCAL-00159" summary="七牛云">
+      <created>1553956826383</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956826384</updated>
+    </task>
+    <task id="LOCAL-00160" summary="七牛云">
+      <created>1553956868809</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1553956868809</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -714,26 +740,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105812000" />
+    <option name="totallyTimeSpent" value="118076000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="912" y="138" width="978" height="1003" extended-state="0" />
+    <frame x="527" y="28" width="1296" height="922" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37378642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7305389" weight="0.3986637" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.44097996" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5906149" weight="0.68979055" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.44109946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50213677" side_tool="true" weight="0.42269188" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49786323" visible="true" weight="0.4475854" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.40938511" side_tool="true" visible="true" weight="0.6321989" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -747,9 +774,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11、求二进制中1的个数" />
-    <MESSAGE value="12、找出最小的不重复数" />
-    <MESSAGE value="13、计算一个数的n次方" />
     <MESSAGE value="14、在不适用库函数的条件下计算n的平方根.py" />
     <MESSAGE value="1、如何求数字的组合" />
     <MESSAGE value="2、如何拿到最多金币" />
@@ -772,7 +796,10 @@
     <MESSAGE value="_" />
     <MESSAGE value="线上部署" />
     <MESSAGE value="数据分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据分析" />
+    <MESSAGE value="机器学习" />
+    <MESSAGE value="SaltStack学习" />
+    <MESSAGE value="七牛云" />
+    <option name="LAST_COMMIT_MESSAGE" value="七牛云" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1001,20 +1028,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/5、在大量的数据中判断一个数是否存在.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/大数据/6、找出排名前500的数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/fabfile.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1150,7 +1163,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py" />
+    <entry file="file://$PROJECT_DIR$/../.local/lib/python3.6/site-packages/paramiko/kex_ecdh_nist.py" />
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -1185,22 +1198,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="125">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/600519.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91982">
+        <state relative-caret-position="104525">
           <caret line="4181" column="16" selection-start-line="4181" selection-start-column="16" selection-end-line="4181" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SaltStack学习/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/七牛云/上传文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#42#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
