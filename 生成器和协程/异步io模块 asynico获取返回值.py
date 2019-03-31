@@ -31,6 +31,7 @@ async def hello(i):
 async def main():
     tasks = []
     for i in range(5):
+
         tasks.append(asyncio.ensure_future(hello((20 - i) / 10)))
 
     for res in asyncio.as_completed(tasks):
