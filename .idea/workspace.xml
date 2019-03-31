@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,35 +48,7 @@
     <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、根据已知随机数生成函数计算新的随机数 Coverage Results" MODIFIED="1552705967689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio使用协程完成http访问.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,20 +127,20 @@
         <option value="$PROJECT_DIR$/生成器和协程/协程-yield.py" />
         <option value="$PROJECT_DIR$/生成器和协程/5、yield from.py" />
         <option value="$PROJECT_DIR$/生成器和协程/协程yield_from.py" />
-        <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asyncio.py" />
         <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asyncio~.py" />
         <option value="$PROJECT_DIR$/生成器和协程/asynico获取返回值.py" />
         <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py" />
         <option value="$PROJECT_DIR$/生成器和协程/asyncio使用协程完成http访问.py" />
         <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asyncio使用协程完成http访问.py" />
+        <option value="$PROJECT_DIR$/生成器和协程/异步io模块 asyncio.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="725" />
-    <option name="y" value="73" />
-    <option name="width" value="1687" />
-    <option name="height" value="961" />
+    <option name="x" value="479" />
+    <option name="y" value="2" />
+    <option name="width" value="1448" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,12 +164,13 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="生成器和协程" type="462c0819:PsiDirectoryNode" />
+              <item name="Python程序员面试算法宝典" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,14 +372,8 @@
       <workItem from="1553931101238" duration="1940000" />
       <workItem from="1553953951054" duration="2945000" />
       <workItem from="1554013397639" duration="3154000" />
-      <workItem from="1554017843919" duration="2098000" />
-    </task>
-    <task id="LOCAL-00121" summary="数据分析">
-      <created>1553770550143</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1553770550143</updated>
+      <workItem from="1554017843919" duration="4392000" />
+      <workItem from="1554034808009" duration="300000" />
     </task>
     <task id="LOCAL-00122" summary="数据分析">
       <created>1553770594170</created>
@@ -743,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554019673211</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="异步io模块 asyncio.py">
+      <created>1554020056700</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1554020056700</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -776,13 +751,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123331000" />
+    <option name="totallyTimeSpent" value="125925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="725" y="73" width="1687" height="961" extended-state="0" />
-    <editor active="true" />
+    <frame x="479" y="2" width="1448" height="1044" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1333743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3479827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -832,10 +806,10 @@
     <MESSAGE value="5、yield from.py" />
     <MESSAGE value="协程-yield" />
     <MESSAGE value="协程yield_from" />
-    <MESSAGE value="异步io模块 asyncio.py" />
     <MESSAGE value="异步io模块 asynico获取返回值" />
     <MESSAGE value="异步io模块 asyncio使用协程完成http访问" />
-    <option name="LAST_COMMIT_MESSAGE" value="异步io模块 asyncio使用协程完成http访问" />
+    <MESSAGE value="异步io模块 asyncio.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步io模块 asyncio.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1064,10 +1038,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python35/Lib/email/header.py" />
-    <entry file="file://D:/Python35/Lib/email/_parseaddr.py" />
-    <entry file="file://D:/Python35/Lib/codecs.py" />
-    <entry file="file://D:/Python35/Lib/email/utils.py" />
     <entry file="file://$PROJECT_DIR$/运维自动化/9、自动发送电子邮件模块.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1309,14 +1279,7 @@
     <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1325,6 +1288,35 @@
         <state relative-caret-position="325">
           <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/4、找出数组中丢失的数.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/3、找出旋转数组的最小元素.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/10、数组连续最大和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/2、查找最大值和最小值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
       </provider>
     </entry>
   </component>
