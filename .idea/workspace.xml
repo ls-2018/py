@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/生成器和协程/4、生成器的close和throw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/生成器和协程/5、yield from.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/book$2.coverage" NAME="2、推动生成器 Coverage Results" MODIFIED="1554013433447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
-    <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、快速排序 Coverage Results" MODIFIED="1552795280631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/排序" />
+    <SUITE FILE_PATH="coverage/book$5.coverage" NAME="5、进阶 Coverage Results" MODIFIED="1554014867232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$22.coverage" NAME="22、求相对路径 Coverage Results" MODIFIED="1552658537085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/字符串" />
     <SUITE FILE_PATH="coverage/book$4closethrow.coverage" NAME="4、生成器的close和throw Coverage Results" MODIFIED="1554014114719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
@@ -72,11 +72,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/生成器和协程/4、生成器的close和throw.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/生成器和协程/5、yield from.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-2066100795/itertools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="81" column="4" lean-forward="true" selection-start-line="80" selection-end-line="84" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -115,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/12、找出最小的不重复数.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/13、计算一个数的n次方.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/14、在不适用库函数的条件下计算n的平方根.py" />
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/数字/15、不使用^实现亦或操作.py" />
@@ -166,12 +183,13 @@
         <option value="$PROJECT_DIR$/生成器和协程/2、推动生成器.py" />
         <option value="$PROJECT_DIR$/生成器和协程/3、.py" />
         <option value="$PROJECT_DIR$/生成器和协程/4、生成器的close和throw.py" />
+        <option value="$PROJECT_DIR$/生成器和协程/5、进阶.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="853" />
-    <option name="y" value="38" />
+    <option name="x" value="745" />
+    <option name="y" value="52" />
     <option name="width" value="1175" />
     <option name="height" value="946" />
   </component>
@@ -230,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4、生成器的close和throw">
+  <component name="RunManager" selected="Python.5、进阶">
     <configuration name="上传文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,7 +337,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5、进阶" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,12 +345,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/生成器和协程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/xx.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成器和协程/5、yield from.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5、进阶" />
         <item itemvalue="Python.4、生成器的close和throw" />
         <item itemvalue="Python.3、" />
         <item itemvalue="Python.2、推动生成器" />
         <item itemvalue="Python.上传文件" />
-        <item itemvalue="Python.xx" />
       </list>
     </recent_temporary>
   </component>
@@ -404,14 +422,7 @@
       <workItem from="1553914132628" duration="1724000" />
       <workItem from="1553931101238" duration="1940000" />
       <workItem from="1553953951054" duration="2945000" />
-      <workItem from="1554013397639" duration="762000" />
-    </task>
-    <task id="LOCAL-00114" summary="数据分析">
-      <created>1553758310125</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1553758310125</updated>
+      <workItem from="1554013397639" duration="1570000" />
     </task>
     <task id="LOCAL-00115" summary="数据分析">
       <created>1553759103433</created>
@@ -749,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554013917295</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="4、生成器的close和throw">
+      <created>1554014167820</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1554014167820</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -782,10 +800,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118841000" />
+    <option name="totallyTimeSpent" value="119649000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="853" y="38" width="1175" height="946" extended-state="0" />
+    <frame x="745" y="52" width="1175" height="946" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19165927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -815,7 +834,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2、如何拿到最多金币" />
     <MESSAGE value="3、求正整数n所有可能的整数组合" />
     <MESSAGE value="8、堆排序" />
     <MESSAGE value="1、从大量的url中找出相同的url" />
@@ -840,7 +858,8 @@
     <MESSAGE value="七牛云" />
     <MESSAGE value="2、推动生成器.py" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="4、生成器的close和throw" />
+    <option name="LAST_COMMIT_MESSAGE" value="4、生成器的close和throw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1069,8 +1088,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python35/Lib/site-packages/Crypto/pct_warnings.py" />
-    <entry file="file://D:/Python35/Lib/site-packages/Crypto/__init__.py" />
     <entry file="file://D:/Python35/Lib/site-packages/paramiko/transport.py" />
     <entry file="file://D:/Python35/Lib/site-packages/paramiko/ed25519key.py" />
     <entry file="file://D:/Python35/Lib/site-packages/paramiko/__init__.py" />
@@ -1291,6 +1308,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-2066100795/itertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="81" column="4" lean-forward="true" selection-start-line="80" selection-end-line="84" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成器和协程/5、yield from.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
