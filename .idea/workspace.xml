@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Django/1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/Django/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/Django/进阶.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
     <SUITE FILE_PATH="coverage/book$io_asynico.coverage" NAME="异步io模块 asynico获取返回值 Coverage Results" MODIFIED="1554018785187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$io_asynciohttp.coverage" NAME="异步io模块 asyncio使用协程完成http访问 Coverage Results" MODIFIED="1554018952665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、 Coverage Results" MODIFIED="1554013632644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
-    <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1、定义生成器 Coverage Results" MODIFIED="1554013259336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
+    <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1 Coverage Results" MODIFIED="1554102535172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
     <SUITE FILE_PATH="coverage/book$15_.coverage" NAME="15、不使用^实现亦或操作 Coverage Results" MODIFIED="1552714893996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$io_asyncio.coverage" NAME="异步io模块 asyncio Coverage Results" MODIFIED="1554016424947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$6.coverage" NAME="6、根据已知随机数生成函数计算新的随机数 Coverage Results" MODIFIED="1552705967689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
@@ -52,12 +53,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django/基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="242">
-                <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+              <first_editor relative-caret-position="119">
+                <caret line="218" column="20" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Django/进阶.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="451">
+                <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -65,13 +78,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/进阶.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="330">
-                <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Django/1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#613#907#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/Python35/Lib/site-packages/paramiko/ed25519key.py" />
         <option value="$PROJECT_DIR$/123.txt" />
         <option value="$PROJECT_DIR$/运维自动化/5.py" />
         <option value="$PROJECT_DIR$/运维自动化/fabric命令.py" />
@@ -159,16 +172,17 @@
         <option value="$PROJECT_DIR$/a.py" />
         <option value="$PROJECT_DIR$/c.py" />
         <option value="$PROJECT_DIR$/VUE/Vue.md" />
-        <option value="$PROJECT_DIR$/Django/进阶.md" />
         <option value="$PROJECT_DIR$/Django/基础.md" />
+        <option value="$PROJECT_DIR$/Django/1.py" />
+        <option value="$PROJECT_DIR$/Django/进阶.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="627" />
-    <option name="y" value="28" />
-    <option name="width" value="1545" />
-    <option name="height" value="1042" />
+    <option name="x" value="931" />
+    <option name="y" value="27" />
+    <option name="width" value="1293" />
+    <option name="height" value="914" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -222,7 +236,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.c">
+  <component name="RunManager" selected="Python.1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,6 +305,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.c" />
         <item itemvalue="Python.a" />
       </list>
@@ -332,21 +369,7 @@
       <workItem from="1554034808009" duration="300000" />
       <workItem from="1554078089721" duration="6604000" />
       <workItem from="1554087945735" duration="8338000" />
-      <workItem from="1554098986581" duration="1208000" />
-    </task>
-    <task id="LOCAL-00133" summary="机器学习">
-      <created>1553862642191</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1553862642191</updated>
-    </task>
-    <task id="LOCAL-00134" summary="机器学习">
-      <created>1553862743358</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1553862743358</updated>
+      <workItem from="1554098986581" duration="4342000" />
     </task>
     <task id="LOCAL-00135" summary="机器学习">
       <created>1553862778601</created>
@@ -677,7 +700,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554095280639</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Django">
+      <created>1554100209584</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1554100209593</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Django">
+      <created>1554101203782</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1554101203782</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -710,27 +747,27 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142075000" />
+    <option name="totallyTimeSpent" value="145209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="627" y="28" width="1545" height="1042" extended-state="0" />
+    <frame x="931" y="27" width="1293" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44298247" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1502008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58653843" weight="0.30367073" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" weight="0.4260289" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58653843" weight="0.3026316" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" visible="true" weight="0.106578946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.41346154" side_tool="true" visible="true" weight="0.1891892" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5036145" side_tool="true" weight="0.44605264" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49718875" weight="0.44605264" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -998,16 +1035,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/运维自动化/8、网关模式文件上传与执行.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/6、查看本地与远程主机信息.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1247,21 +1274,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/进阶.md">
+    <entry file="file://$PROJECT_DIR$/Django/基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="330">
-            <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <first_editor relative-caret-position="119">
+            <caret line="218" column="20" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/基础.md">
+    <entry file="file://$PROJECT_DIR$/Django/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#613#907#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/进阶.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="242">
-            <caret line="111" column="26" lean-forward="true" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <first_editor relative-caret-position="451">
+            <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
