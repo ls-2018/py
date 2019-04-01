@@ -39,17 +39,48 @@
             -   name = 'alex'
                 print(f'{name} dsb.')
                
+    -   对象简洁法
+        - {'x':x, 'y':y}
+        - {x:x, y:y}
+        - {x,y}
+
+    -   深浅拷贝
+        
+        var z = Object.assign({},x) # 深拷贝
 
 
+    -   给父类绑定方法
+        String.prototype.dsb=function(){
+            console.log('xxx')
+        }
 
-
-
-
-
-
-
-
-
+    -   
+        class Point{
+            constructor(x,y){
+                this.x=x;
+                this.y=y;
+            } // 不加逗号
+            toString(){
+                return `(${this.x},${this.y}`
+            }
+         
+        var p = new Point(10,20)
+        console.log(p.x)
+        p.toString();
+        
+        
+        class ColorPoint{
+            constructor(x,y,color){
+                super(x,y); // 调用父类的constructor(x,y)
+                this.color=color;
+            } // 不加逗号
+            toString(){
+                return `(${this.x},${this.y}`
+            }
+         
+        var p = new Point(10,20)
+        console.log(p.x)
+        p.toString();
 
 
 
