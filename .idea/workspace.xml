@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanic框架/asyncio模块.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sanic框架/asyncio模块.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/Django/进阶.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="443">
-                <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+              <first_editor relative-caret-position="157">
+                <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -308,14 +307,7 @@
       <workItem from="1554098986581" duration="4342000" />
       <workItem from="1554105871988" duration="2000" />
       <workItem from="1554112102671" duration="846000" />
-      <workItem from="1554114644500" duration="7890000" />
-    </task>
-    <task id="LOCAL-00140" summary="机器学习">
-      <created>1553863165282</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1553863165282</updated>
+      <workItem from="1554114644500" duration="8574000" />
     </task>
     <task id="LOCAL-00141" summary="SaltStack学习">
       <created>1553914803991</created>
@@ -653,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554123789220</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="django">
+      <created>1554124375625</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1554124375626</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -686,10 +685,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153947000" />
+    <option name="totallyTimeSpent" value="154631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="144" y="35" width="1293" height="1045" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23534137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1257,8 +1257,8 @@
     <entry file="file://$PROJECT_DIR$/Django/进阶.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="443">
-            <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <first_editor relative-caret-position="157">
+            <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
