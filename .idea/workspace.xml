@@ -56,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/Django/进阶.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="531">
-                <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+              <first_editor relative-caret-position="707">
+                <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -312,14 +312,7 @@
       <workItem from="1554098986581" duration="4342000" />
       <workItem from="1554105871988" duration="2000" />
       <workItem from="1554112102671" duration="846000" />
-      <workItem from="1554114644500" duration="6096000" />
-    </task>
-    <task id="LOCAL-00137" summary="机器学习">
-      <created>1553863003131</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1553863003132</updated>
+      <workItem from="1554114644500" duration="7281000" />
     </task>
     <task id="LOCAL-00138" summary="机器学习">
       <created>1553863033262</created>
@@ -657,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554121942371</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="django">
+      <created>1554122627800</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1554122627800</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -690,10 +690,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152153000" />
+    <option name="totallyTimeSpent" value="153338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="725" y="35" width="1293" height="1045" extended-state="0" />
+    <frame x="646" y="35" width="1293" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23534137" />
@@ -1262,8 +1262,8 @@
     <entry file="file://$PROJECT_DIR$/Django/进阶.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="531">
-            <caret line="89" column="54" selection-start-line="89" selection-start-column="54" selection-end-line="89" selection-end-column="54" />
+          <first_editor relative-caret-position="707">
+            <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
