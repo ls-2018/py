@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django/进阶.md" beforeDir="false" afterPath="$PROJECT_DIR$/Django/进阶.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanic框架/asyncio模块.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sanic框架/asyncio模块.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/Django/进阶.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="707">
-                <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+              <first_editor relative-caret-position="443">
+                <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -165,7 +165,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="646" />
+    <option name="x" value="144" />
     <option name="y" value="35" />
     <option name="width" value="1293" />
     <option name="height" value="1045" />
@@ -187,11 +187,6 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -200,6 +195,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../typeidea1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -312,21 +308,7 @@
       <workItem from="1554098986581" duration="4342000" />
       <workItem from="1554105871988" duration="2000" />
       <workItem from="1554112102671" duration="846000" />
-      <workItem from="1554114644500" duration="7281000" />
-    </task>
-    <task id="LOCAL-00138" summary="机器学习">
-      <created>1553863033262</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1553863033262</updated>
-    </task>
-    <task id="LOCAL-00139" summary="机器学习">
-      <created>1553863070498</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1553863070498</updated>
+      <workItem from="1554114644500" duration="7890000" />
     </task>
     <task id="LOCAL-00140" summary="机器学习">
       <created>1553863165282</created>
@@ -657,7 +639,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554122627800</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="django">
+      <created>1554123693344</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1554123693355</updated>
+    </task>
+    <task id="LOCAL-00188" summary="django">
+      <created>1554123789220</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1554123789220</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -690,11 +686,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153338000" />
+    <option name="totallyTimeSpent" value="153947000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="646" y="35" width="1293" height="1045" extended-state="0" />
-    <editor active="true" />
+    <frame x="144" y="35" width="1293" height="1045" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23534137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1262,8 +1257,8 @@
     <entry file="file://$PROJECT_DIR$/Django/进阶.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="707">
-            <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+          <first_editor relative-caret-position="443">
+            <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
