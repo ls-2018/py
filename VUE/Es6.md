@@ -69,7 +69,7 @@
         p.toString();
         
         
-        class ColorPoint{
+        class ColorPoint extends Point{
             constructor(x,y,color){
                 super(x,y); // 调用父类的constructor(x,y)
                 this.color=color;
@@ -83,14 +83,10 @@
         p.toString();
 
 
-
-
-
-
-
-
-
-
+    -   箭头函数
+        （）->{
+            this指向父级对象
+        }
 
 
 
