@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django/基础.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/进阶.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/Django/基础.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/Django/基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="154">
-                <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <first_editor relative-caret-position="555">
+                <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
               </first_editor>
               <second_editor />
             </state>
@@ -332,21 +331,7 @@
       <workItem from="1554017843919" duration="4392000" />
       <workItem from="1554034808009" duration="300000" />
       <workItem from="1554078089721" duration="6604000" />
-      <workItem from="1554087945735" duration="4871000" />
-    </task>
-    <task id="LOCAL-00129" summary="机器学习">
-      <created>1553861262526</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1553861262527</updated>
-    </task>
-    <task id="LOCAL-00130" summary="机器学习">
-      <created>1553861286130</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1553861286131</updated>
+      <workItem from="1554087945735" duration="6031000" />
     </task>
     <task id="LOCAL-00131" summary="机器学习">
       <created>1553861896920</created>
@@ -677,7 +662,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554091182732</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Django">
+      <created>1554093147162</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1554093147162</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Django">
+      <created>1554093707286</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1554093707286</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -710,10 +709,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137400000" />
+    <option name="totallyTimeSpent" value="138560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="27" width="960" height="1042" extended-state="1" />
+    <frame x="960" y="27" width="960" height="1042" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.44298247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -728,7 +728,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.41346154" side_tool="true" visible="true" weight="0.30743244" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.41346154" side_tool="true" visible="true" weight="0.24211712" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49819493" weight="0.44733727" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -743,7 +743,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9、自动发送电子邮件模块" />
     <MESSAGE value="7、动态获取远程主机目录列表" />
     <MESSAGE value="6、查看本地与远程主机信息" />
     <MESSAGE value="5、fabric命令" />
@@ -768,7 +767,8 @@
     <MESSAGE value="异步io模块 asyncio.py" />
     <MESSAGE value="es6" />
     <MESSAGE value="vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue" />
+    <MESSAGE value="Django" />
+    <option name="LAST_COMMIT_MESSAGE" value="Django" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1259,8 +1259,8 @@
     <entry file="file://$PROJECT_DIR$/Django/基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <first_editor relative-caret-position="555">
+            <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>
