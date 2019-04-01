@@ -27,3 +27,34 @@
     
     -   v-model # 只适用在表单控件中
         v-model="currentItem"
+        
+        
+# 局部组件
+# 全局组件
+    -   Vue.component(
+            '组件名',
+            {
+                template:'',
+                    data(){
+                    return{}
+                }
+            }
+        )
+
+# 父组件->子组件传值
+    父组件     v-on:name='xxxxx'
+    子组件     props:['name']
+
+
+# 子组件->父组件传值
+    子组件抛出自定义事件  this.$emit('事件名','数据')     
+    父组件监听自定义事件  v-on:事件名=函数
+
+# 非父子组件间传值
+    借助中间对象
+        var bus = new Vue()
+    组件1：
+        bus.$emit('事件名'，'数据')
+    组件2：
+        bus.$on('事件名')
+        
