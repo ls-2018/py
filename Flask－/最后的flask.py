@@ -1,8 +1,23 @@
-from flask import Flask, url_for, render_template, redirect, send_file, jsonify,request
+from flask import Flask, \
+    url_for, \
+    Response, render_template, redirect, send_file, jsonify, \
+    request, \
+    session
 
-app = Flask(__name__)
+# #################         Flask Router   ###########################
+# 5-Flask 实例化配置
 
-# 3-Flask Request
+app = Flask(__name__, template_folder='', static_folder='', static_url_path='/{static_folder}')
+"""
+template_folder         模板存放目录    默认 templates
+static_folder           静态文件存放目录    默认 static
+static_url_path         静态文件访问路径    默认'/' + 'static_folder' 
+"""
+
+app.secret_key = 'session前端加密需要'
+
+# #################         Flask Router   ###########################
+
 # 4-Flask 路由
 """
 endpoint                        反向URL(默认是函数名)
@@ -16,17 +31,26 @@ defaults={'name': 'value'}      函数关键字传参
 def index():
     url = url_for('index')  # endpoint
     print(url)  # /index
+    # #################         Flask Request   ###########################
+    # 3-Flask Request
+
+    data = request.form  # 获取表单数据    K-V
+    args = request.args  # url中的数据
+    json_data = request.json  # 请求头Content-type:application/json 会自动序列化到这
+    raw_data = request.data  # 请求体原始的信息,bytes
+
+    file = request.files.get('my_file')  # FormData中的文件类型数据
+    file.save(file.filename)
+
+    cookies_dict = request.cookies
+
+    # #################         Flask Session   ###########################
+    # 8-Flask Session
+    # Flask中的Session信息存放在客户端        Cookie-Session:*****************************
+    # app需要设置secret_key
+    print(session)
+
     # #################         Flask Response   ###########################
-    data = request.form         # 获取表单数据
-    args = request.args         # url中的数据
-    json_data = request.json    # 请求头Content-type:application/json 会自动序列化到这
-    raw_data = request.data     # 请求体原始的信息,bytes
-
-
-
-    # #################         Flask Response   ###########################
-
-
     # return str(url)
     # return redirect('/')
     # return render_template()
@@ -34,19 +58,11 @@ def index():
     return jsonify({'a': 21})  # 响应头中加入    Content-type:application/json
 
 
-
-
-
-
-
-
 if __name__ == '__main__':
     app.run()
 
-# 5-Flask 实例化配置
 # 6-Flask 对象配置
 # 7-Flask 蓝图
-# 8-Flask Session
 # 9-Flask 特殊装饰器   @app.before_request
 # 10-Flask 请求上下文
 

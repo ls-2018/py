@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Flask－/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask－/最后的flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask－/最后的flask.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     <SUITE FILE_PATH="coverage/book$111.coverage" NAME="11、求二进制中1的个数 Coverage Results" MODIFIED="1552711990647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$8_.coverage" NAME="8、按要求 比较两个输的大小 Coverage Results" MODIFIED="1552706812718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
     <SUITE FILE_PATH="coverage/book$10102_16.coverage" NAME="10、把10进制数分别以2_16输出 Coverage Results" MODIFIED="1552708722930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/数字" />
+    <SUITE FILE_PATH="coverage/book$flask.coverage" NAME="最后的flask Coverage Results" MODIFIED="1554180538417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
     <SUITE FILE_PATH="coverage/book$io_asynico.coverage" NAME="异步io模块 asynico获取返回值 Coverage Results" MODIFIED="1554018785187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$io_asynciohttp.coverage" NAME="异步io模块 asyncio使用协程完成http访问 Coverage Results" MODIFIED="1554018952665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
     <SUITE FILE_PATH="coverage/book$3.coverage" NAME="3、 Coverage Results" MODIFIED="1554013632644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器和协程" />
@@ -52,11 +54,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Flask－/readme.md">
+        <entry file="file://$PROJECT_DIR$/Flask－/最后的flask.py">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="220">
-                <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <first_editor relative-caret-position="176">
+                <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/运维自动化/8、网关模式文件上传与执行.py" />
         <option value="$PROJECT_DIR$/运维自动化/9、自动发送电子邮件模块.py" />
         <option value="$PROJECT_DIR$/运维自动化/7、动态获取远程主机目录列表.py" />
         <option value="$PROJECT_DIR$/运维自动化/6、查看本地与远程主机信息.py" />
@@ -149,14 +150,15 @@
         <option value="$PROJECT_DIR$/sanic框架/1、入门.py" />
         <option value="$PROJECT_DIR$/Django/进阶.md" />
         <option value="$PROJECT_DIR$/Flask－/readme.md" />
+        <option value="$PROJECT_DIR$/Flask－/最后的flask.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="892" />
-    <option name="y" value="32" />
-    <option name="width" value="1079" />
-    <option name="height" value="952" />
+    <option name="x" value="811" />
+    <option name="y" value="27" />
+    <option name="width" value="1243" />
+    <option name="height" value="906" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -173,6 +175,11 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask－" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.最后的flask">
     <configuration name="1、入门" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,8 +239,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="最后的flask" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask－" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask－/最后的flask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.最后的flask" />
         <item itemvalue="Python.1、入门" />
       </list>
     </recent_temporary>
@@ -301,21 +331,7 @@
       <workItem from="1554112102671" duration="846000" />
       <workItem from="1554114644500" duration="8574000" />
       <workItem from="1554161301889" duration="5474000" />
-      <workItem from="1554169086141" duration="2497000" />
-    </task>
-    <task id="LOCAL-00145" summary="七牛云">
-      <created>1553956361399</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956361400</updated>
-    </task>
-    <task id="LOCAL-00146" summary="七牛云">
-      <created>1553956388722</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956388723</updated>
+      <workItem from="1554169086141" duration="5094000" />
     </task>
     <task id="LOCAL-00147" summary="七牛云">
       <created>1553956407671</created>
@@ -646,7 +662,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554178814281</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="Flask">
+      <created>1554179115291</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1554179115291</updated>
+    </task>
+    <task id="LOCAL-00195" summary="Flask">
+      <created>1554180850499</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1554180850499</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,18 +709,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162602000" />
+    <option name="totallyTimeSpent" value="165199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="892" y="32" width="1079" height="952" extended-state="0" />
+    <frame x="811" y="27" width="1243" height="906" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24345295" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24267782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58653843" weight="0.30527496" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58653843" weight="0.30452126" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" weight="0.106578946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -698,8 +728,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032051" side_tool="true" visible="true" weight="0.50250626" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49679488" weight="0.44556677" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50436467" side_tool="true" weight="0.44486216" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4956353" weight="0.44483986" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -713,7 +743,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4、执行批量上传_下载_执行命令_查看服务器列表" />
     <MESSAGE value="3、批量监控主机内存_CPU利用率_磁盘_网络等信息" />
     <MESSAGE value="1、获取系统信息" />
     <MESSAGE value="2、获取CPU使用率_内存使用率_网络使用状态" />
@@ -738,7 +767,8 @@
     <MESSAGE value="saynico" />
     <MESSAGE value="django" />
     <MESSAGE value="ckeditor_email_video_demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ckeditor_email_video_demo" />
+    <MESSAGE value="Flask" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flask" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -967,7 +997,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python35/Lib/site-packages/rest_framework/views.py" />
     <entry file="file://D:/Python35/Lib/site-packages/rest_framework/settings.py" />
     <entry file="file://$PROJECT_DIR$/alipay/alipay-master/README.md" />
     <entry file="file://$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/manage.py" />
@@ -1232,11 +1261,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask－/readme.md">
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/werkzeug/wrappers/base_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="330" column="72" selection-start-line="330" selection-start-column="72" selection-end-line="330" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask－/最后的flask.py">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <first_editor relative-caret-position="176">
+            <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           </first_editor>
           <second_editor />
         </state>
