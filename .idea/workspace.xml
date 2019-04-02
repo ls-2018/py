@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django/ckeditor_email_video_demo.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask－/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,23 +52,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Django/进阶.md">
+        <entry file="file://$PROJECT_DIR$/Flask－/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="193">
-                <caret line="163" column="12" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/基础.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="4796">
-                <caret line="218" column="20" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="20" />
+              <first_editor relative-caret-position="220">
+                <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/运维自动化/s.py" />
         <option value="$PROJECT_DIR$/运维自动化/8、网关模式文件上传与执行.py" />
         <option value="$PROJECT_DIR$/运维自动化/9、自动发送电子邮件模块.py" />
         <option value="$PROJECT_DIR$/运维自动化/7、动态获取远程主机目录列表.py" />
@@ -162,6 +148,7 @@
         <option value="$PROJECT_DIR$/sanic框架/asyncio模块.ipynb" />
         <option value="$PROJECT_DIR$/sanic框架/1、入门.py" />
         <option value="$PROJECT_DIR$/Django/进阶.md" />
+        <option value="$PROJECT_DIR$/Flask－/readme.md" />
       </list>
     </option>
   </component>
@@ -187,11 +174,6 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -208,6 +190,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Django" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\Python程序员面试算法宝典\字符串" />
     </key>
@@ -316,14 +301,7 @@
       <workItem from="1554112102671" duration="846000" />
       <workItem from="1554114644500" duration="8574000" />
       <workItem from="1554161301889" duration="5474000" />
-      <workItem from="1554169086141" duration="2251000" />
-    </task>
-    <task id="LOCAL-00144" summary="七牛云">
-      <created>1553956270980</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956270980</updated>
+      <workItem from="1554169086141" duration="2497000" />
     </task>
     <task id="LOCAL-00145" summary="七牛云">
       <created>1553956361399</created>
@@ -661,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554170164539</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="ckeditor_email_video_demo">
+      <created>1554178814281</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1554178814281</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -694,13 +679,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162356000" />
+    <option name="totallyTimeSpent" value="162602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="892" y="32" width="1079" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24345295" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24345295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -728,7 +713,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5、fabric命令" />
     <MESSAGE value="4、执行批量上传_下载_执行命令_查看服务器列表" />
     <MESSAGE value="3、批量监控主机内存_CPU利用率_磁盘_网络等信息" />
     <MESSAGE value="1、获取系统信息" />
@@ -753,7 +737,8 @@
     <MESSAGE value="Django" />
     <MESSAGE value="saynico" />
     <MESSAGE value="django" />
-    <option name="LAST_COMMIT_MESSAGE" value="django" />
+    <MESSAGE value="ckeditor_email_video_demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ckeditor_email_video_demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -982,13 +967,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest_ful/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python35/Lib/site-packages/rest_framework/views.py" />
     <entry file="file://D:/Python35/Lib/site-packages/rest_framework/settings.py" />
     <entry file="file://$PROJECT_DIR$/alipay/alipay-master/README.md" />
@@ -1237,8 +1215,8 @@
     <entry file="file://$PROJECT_DIR$/Django/进阶.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="193">
-            <caret line="163" column="12" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="12" />
+          <first_editor relative-caret-position="61">
+            <caret line="157" column="24" lean-forward="true" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
@@ -1249,6 +1227,16 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="4796">
             <caret line="218" column="20" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask－/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
