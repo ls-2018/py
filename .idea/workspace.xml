@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Django/ckeditor_email_video_demo.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/Django/进阶.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="127">
-                <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+              <first_editor relative-caret-position="193">
+                <caret line="163" column="12" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -168,7 +169,7 @@
     <option name="x" value="892" />
     <option name="y" value="32" />
     <option name="width" value="1079" />
-    <option name="height" value="1045" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -200,7 +201,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../typeidea1(1)/typeidea1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day152-下午村长分享/otherDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -315,14 +316,7 @@
       <workItem from="1554112102671" duration="846000" />
       <workItem from="1554114644500" duration="8574000" />
       <workItem from="1554161301889" duration="5474000" />
-      <workItem from="1554169086141" duration="786000" />
-    </task>
-    <task id="LOCAL-00143" summary="七牛云">
-      <created>1553956187257</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956187257</updated>
+      <workItem from="1554169086141" duration="2251000" />
     </task>
     <task id="LOCAL-00144" summary="七牛云">
       <created>1553956270980</created>
@@ -660,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554164770627</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="django">
+      <created>1554170164533</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1554170164539</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -693,13 +694,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160891000" />
+    <option name="totallyTimeSpent" value="162356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="892" y="32" width="1079" height="1045" extended-state="0" />
+    <frame x="892" y="32" width="1079" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24345295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24345295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -712,7 +713,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5032051" side_tool="true" visible="true" weight="0.4500561" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032051" side_tool="true" visible="true" weight="0.50250626" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49679488" weight="0.44556677" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -1236,8 +1237,8 @@
     <entry file="file://$PROJECT_DIR$/Django/进阶.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="127">
-            <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+          <first_editor relative-caret-position="193">
+            <caret line="163" column="12" lean-forward="true" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
