@@ -27,7 +27,7 @@ def create_app():
     """
 
     class MySet(object):
-        DEBUG = True
+        DEBUG = False
         SECRET_KEY = 'session前端加密需要'
 
     app.config.from_object(MySet)
@@ -41,7 +41,21 @@ def create_app():
 
     @app.before_request
     def be1():
-        # True \ False   决定是否往后执行
-        return 1
+        # None \ 非None   决定是否往后执行
+        return None
 
+    @app.after_request  # after会全部执行，与django中间件不同
+    def be1(response):
+        return response
+
+    @app.errorhandler(404)
+    def han(response):
+        print(response)
+        """404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."""
+        return '404'
+
+    app.__call__
     return app
+
+
+#
