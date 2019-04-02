@@ -50,7 +50,6 @@ def index():
     # return send_file('文件的绝对路径')# 自动识别文件类型（image,viedo)
     return jsonify({'a': 21})  # 响应头中加入    Content-type:application/json   由配置文件控制
 
-# 9-Flask 特殊装饰器   @app.before_request
 # 10-Flask 请求上下文
 
 

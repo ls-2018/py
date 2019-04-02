@@ -7,10 +7,9 @@ def create_app():
 
     app.register_blueprint(user)
     # #################         Flask 实例化配置   ###########################
-    # 5-Flask 实例化配置
-
-    # app = Flask(__name__)
     """
+    # 5-Flask 实例化配置
+    # app = Flask(__name__)
     template_folder='', static_folder='', static_url_path='/{static_folder}'
     template_folder         模板存放目录    默认 templates
     static_folder           静态文件存放目录    默认 static
@@ -27,9 +26,22 @@ def create_app():
     app.secret_key = 'session前端加密需要'
     """
 
-    # class MySet(object):
-    #     DEBUG = False
-    #     SECRET_KEY = 'session前端加密需要'
+    class MySet(object):
+        DEBUG = True
+        SECRET_KEY = 'session前端加密需要'
 
-    # app.config.from_object(MySet)
+    app.config.from_object(MySet)
+    # #################         Flask 特殊装饰器   ###########################
+    """    
+    
+    @app.before_request # 在请求进入视图函数之前
+    @app.after_request  # 在视图函数结束之后
+    @app.errorhandler(404)   
+    """
+
+    @app.before_request
+    def be1():
+        # True \ False   决定是否往后执行
+        return 1
+
     return app
