@@ -4,7 +4,7 @@ from flask import Flask, \
     request, \
     session
 
-# #################         Flask Router   ###########################
+# #################         Flask 实例化配置   ###########################
 # 5-Flask 实例化配置
 
 app = Flask(__name__, template_folder='', static_folder='', static_url_path='/{static_folder}')
@@ -14,12 +14,17 @@ static_folder           静态文件存放目录    默认 static
 static_url_path         静态文件访问路径    默认'/' + 'static_folder' 
 """
 
+# #################         Flask 对象配置   ###########################
+"""
+# 6-Flask 对象配置
+app.config['SECRET_KEY']= 'session前端加密需要'
+app.default_config
+"""
 app.secret_key = 'session前端加密需要'
 
 # #################         Flask Router   ###########################
-
-# 4-Flask 路由
 """
+# 4-Flask 路由
 endpoint                        反向URL(默认是函数名)
 strict_slashes                  是否严格遵循路由规则,最后的/    
 redirect_to='/login'            301 临时　　302重定向
@@ -61,7 +66,6 @@ def index():
 if __name__ == '__main__':
     app.run()
 
-# 6-Flask 对象配置
 # 7-Flask 蓝图
 # 9-Flask 特殊装饰器   @app.before_request
 # 10-Flask 请求上下文
