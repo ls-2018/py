@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask－/上下文.md" beforeDir="false" afterPath="$PROJECT_DIR$/Flask－/上下文.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/Flask－/app01/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
-              <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -72,7 +71,7 @@
         <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/flask/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="2302" column="20" lean-forward="true" selection-start-line="2302" selection-start-column="20" selection-end-line="2302" selection-end-column="20" />
+              <caret line="2302" column="21" selection-start-line="2302" selection-start-column="21" selection-end-line="2302" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -80,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/flask/ctx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="390" column="3" lean-forward="true" selection-start-line="390" selection-start-column="3" selection-end-line="425" selection-end-column="49" />
+            <state relative-caret-position="122">
+              <caret line="413" column="39" selection-start-line="413" selection-start-column="39" selection-end-line="413" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -90,8 +89,8 @@
         <entry file="file://$PROJECT_DIR$/Flask－/上下文.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="198">
-                <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+              <first_editor relative-caret-position="132">
+                <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -107,7 +106,7 @@
         <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/flask/globals.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -115,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/werkzeug/local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="293" column="52" selection-start-line="293" selection-start-column="34" selection-end-line="293" selection-end-column="52" />
+            <state relative-caret-position="232">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -241,19 +240,6 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="Flask－" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Flask－" type="462c0819:PsiDirectoryNode" />
-              <item name="app01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Flask－" type="462c0819:PsiDirectoryNode" />
-              <item name="app01" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -478,21 +464,7 @@
       <workItem from="1554161301889" duration="5474000" />
       <workItem from="1554169086141" duration="7483000" />
       <workItem from="1554184501893" duration="5998000" />
-      <workItem from="1554202506665" duration="4365000" />
-    </task>
-    <task id="LOCAL-00152" summary="七牛云">
-      <created>1553956593187</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956593187</updated>
-    </task>
-    <task id="LOCAL-00153" summary="七牛云">
-      <created>1553956662041</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956662041</updated>
+      <workItem from="1554202506665" duration="4884000" />
     </task>
     <task id="LOCAL-00154" summary="七牛云">
       <created>1553956692991</created>
@@ -823,7 +795,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554204518113</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="Flask">
+      <created>1554206884336</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1554206884336</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Flask">
+      <created>1554207338174</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1554207338174</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -856,18 +842,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177951000" />
+    <option name="totallyTimeSpent" value="178470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="736" y="27" width="1179" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17418215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17418215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5367893" visible="true" weight="0.2849741" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5367893" weight="0.2849741" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" weight="0.106578946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1413,41 +1399,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/werkzeug/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="293" column="52" selection-start-line="293" selection-start-column="34" selection-end-line="293" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flask－/app01/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/flask/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="2302" column="20" lean-forward="true" selection-start-line="2302" selection-start-column="20" selection-end-line="2302" selection-end-column="20" />
+          <caret line="2302" column="21" selection-start-line="2302" selection-start-column="21" selection-end-line="2302" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/flask/ctx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="390" column="3" lean-forward="true" selection-start-line="390" selection-start-column="3" selection-end-line="425" selection-end-column="49" />
+        <state relative-caret-position="122">
+          <caret line="413" column="39" selection-start-line="413" selection-start-column="39" selection-end-line="413" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
@@ -1457,8 +1443,8 @@
     <entry file="file://$PROJECT_DIR$/Flask－/上下文.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="198">
-            <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+          <first_editor relative-caret-position="132">
+            <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
