@@ -55,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/Django/进阶.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="157">
-                <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+              <first_editor relative-caret-position="127">
+                <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/Django/基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2">
+              <first_editor relative-caret-position="4796">
                 <caret line="218" column="20" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="20" />
               </first_editor>
               <second_editor />
@@ -96,6 +96,7 @@
       <find>MIMEText</find>
       <find>memory_state</find>
       <find>DEFAULT_PARSER_CLASSES</find>
+      <find>modelfo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -164,9 +165,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="35" />
-    <option name="width" value="1293" />
+    <option name="x" value="892" />
+    <option name="y" value="32" />
+    <option name="width" value="1079" />
     <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -178,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,15 +186,21 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../typeidea1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../typeidea1(1)/typeidea1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -308,20 +314,8 @@
       <workItem from="1554105871988" duration="2000" />
       <workItem from="1554112102671" duration="846000" />
       <workItem from="1554114644500" duration="8574000" />
-    </task>
-    <task id="LOCAL-00141" summary="SaltStack学习">
-      <created>1553914803991</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1553914803992</updated>
-    </task>
-    <task id="LOCAL-00142" summary="七牛云">
-      <created>1553954961528</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1553954961529</updated>
+      <workItem from="1554161301889" duration="5474000" />
+      <workItem from="1554169086141" duration="786000" />
     </task>
     <task id="LOCAL-00143" summary="七牛云">
       <created>1553956187257</created>
@@ -652,7 +646,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554124375626</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="django">
+      <created>1554163472855</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1554163472857</updated>
+    </task>
+    <task id="LOCAL-00191" summary="django">
+      <created>1554164770627</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1554164770627</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -685,13 +693,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154631000" />
+    <option name="totallyTimeSpent" value="160891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="35" width="1293" height="1045" extended-state="0" />
+    <frame x="892" y="32" width="1079" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23534137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24345295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -704,7 +712,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5032051" side_tool="true" weight="0.44605118" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5032051" side_tool="true" visible="true" weight="0.4500561" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49679488" weight="0.44556677" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -1210,12 +1218,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/01三元运算.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/02 模板字符串.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/01三元运算.py" />
+    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/02 模板字符串.py" />
     <entry file="file://$PROJECT_DIR$/sanic框架/1、入门.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1226,19 +1230,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/03 小清单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-980" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/xx.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/第四部分串讲_前端_Django_Vue_DRF_路飞.md">
+    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/03 小清单.html" />
+    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/xx.js" />
+    <entry file="file://$PROJECT_DIR$/../../../老毛桃U盘/第14部分-复习/day151-第三部分串讲/第三部分串讲/第三部分串讲/第四部分串讲_前端_Django_Vue_DRF_路飞.md" />
+    <entry file="file://$PROJECT_DIR$/Django/进阶.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="127">
+            <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
           </first_editor>
           <second_editor />
         </state>
@@ -1247,18 +1246,8 @@
     <entry file="file://$PROJECT_DIR$/Django/基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="2">
+          <first_editor relative-caret-position="4796">
             <caret line="218" column="20" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/进阶.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="157">
-            <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
