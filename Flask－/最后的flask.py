@@ -7,8 +7,9 @@ from flask import Flask, \
 # #################         Flask 实例化配置   ###########################
 # 5-Flask 实例化配置
 
-app = Flask(__name__, template_folder='', static_folder='', static_url_path='/{static_folder}')
+app = Flask(__name__)
 """
+template_folder='', static_folder='', static_url_path='/{static_folder}'
 template_folder         模板存放目录    默认 templates
 static_folder           静态文件存放目录    默认 static
 static_url_path         静态文件访问路径    默认'/' + 'static_folder' 
@@ -18,9 +19,18 @@ static_url_path         静态文件访问路径    默认'/' + 'static_folder'
 """
 # 6-Flask 对象配置
 app.config['SECRET_KEY']= 'session前端加密需要'
+app.config['DEBUG']= True
 app.default_config
-"""
 app.secret_key = 'session前端加密需要'
+"""
+
+
+class MySet(object):
+    DEBUG = False
+    SECRET_KEY = 'session前端加密需要'
+
+
+app.config.from_object(MySet)
 
 # #################         Flask Router   ###########################
 """
@@ -32,7 +42,7 @@ defaults={'name': 'value'}      函数关键字传参
 """
 
 
-@app.route('/index', methods=['GET', 'POST'], endpoint='index', strict_slashes=True)
+@app.route('/index', methods=['GET', 'POST'], endpoint='index')
 def index():
     url = url_for('index')  # endpoint
     print(url)  # /index
@@ -60,11 +70,11 @@ def index():
     # return redirect('/')
     # return render_template()
     # return send_file('文件的绝对路径')# 自动识别文件类型（image,viedo)
-    return jsonify({'a': 21})  # 响应头中加入    Content-type:application/json
+    return jsonify({'a': 21})  # 响应头中加入    Content-type:application/json   由配置文件控制
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=8001)
 
 # 7-Flask 蓝图
 # 9-Flask 特殊装饰器   @app.before_request
