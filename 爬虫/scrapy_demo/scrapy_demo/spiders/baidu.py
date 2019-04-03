@@ -19,4 +19,3 @@ class BaiduSpider(scrapy.Spider):
         self.i += 1
         for i in range(10):
             yield Request(url='http://baidu.com/', callback=self.parse)
-
