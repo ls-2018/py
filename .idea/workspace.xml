@@ -67,7 +67,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="109">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
@@ -431,49 +431,7 @@
       <workItem from="1554202506665" duration="8182000" />
       <workItem from="1554248364255" duration="3175000" />
       <workItem from="1554276890789" duration="2012000" />
-      <workItem from="1554293504954" duration="515000" />
-    </task>
-    <task id="LOCAL-00172" summary="vue">
-      <created>1554079826422</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1554079826422</updated>
-    </task>
-    <task id="LOCAL-00173" summary="es6">
-      <created>1554083012103</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1554083012103</updated>
-    </task>
-    <task id="LOCAL-00174" summary="vue">
-      <created>1554083556066</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1554083556083</updated>
-    </task>
-    <task id="LOCAL-00175" summary="vue">
-      <created>1554084134070</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1554084134070</updated>
-    </task>
-    <task id="LOCAL-00176" summary="vue">
-      <created>1554085705810</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1554085705810</updated>
-    </task>
-    <task id="LOCAL-00177" summary="vue">
-      <created>1554091182731</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1554091182732</updated>
+      <workItem from="1554293504954" duration="757000" />
     </task>
     <task id="LOCAL-00178" summary="Django">
       <created>1554093147162</created>
@@ -776,7 +734,49 @@
       <option name="project" value="LOCAL" />
       <updated>1554293956187</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="爬虫">
+      <created>1554294026356</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294026356</updated>
+    </task>
+    <task id="LOCAL-00222" summary="爬虫">
+      <created>1554294059928</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294059928</updated>
+    </task>
+    <task id="LOCAL-00223" summary="爬虫">
+      <created>1554294086909</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294086909</updated>
+    </task>
+    <task id="LOCAL-00224" summary="爬虫">
+      <created>1554294125123</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294125123</updated>
+    </task>
+    <task id="LOCAL-00225" summary="爬虫">
+      <created>1554294199331</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294199331</updated>
+    </task>
+    <task id="LOCAL-00226" summary="爬虫">
+      <created>1554294221878</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1554294221878</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,7 +809,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187470000" />
+    <option name="totallyTimeSpent" value="187712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="694" y="61" width="1179" height="926" extended-state="0" />
@@ -1315,7 +1315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="109">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
