@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="84">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -429,48 +431,7 @@
       <workItem from="1554202506665" duration="8182000" />
       <workItem from="1554248364255" duration="3175000" />
       <workItem from="1554276890789" duration="2012000" />
-    </task>
-    <task id="LOCAL-00162" summary="3">
-      <created>1554013917295</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1554013917295</updated>
-    </task>
-    <task id="LOCAL-00163" summary="4、生成器的close和throw">
-      <created>1554014167820</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1554014167820</updated>
-    </task>
-    <task id="LOCAL-00164" summary="5、yield from.py">
-      <created>1554014975048</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1554014975048</updated>
-    </task>
-    <task id="LOCAL-00165" summary="协程-yield">
-      <created>1554015256907</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1554015256909</updated>
-    </task>
-    <task id="LOCAL-00166" summary="协程yield_from">
-      <created>1554015881982</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1554015881983</updated>
-    </task>
-    <task id="LOCAL-00167" summary="异步io模块 asyncio.py">
-      <created>1554018423428</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1554018423429</updated>
+      <workItem from="1554293504954" duration="236000" />
     </task>
     <task id="LOCAL-00168" summary="异步io模块 asynico获取返回值">
       <created>1554018824665</created>
@@ -773,7 +734,49 @@
       <option name="project" value="LOCAL" />
       <updated>1554278316961</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="爬虫">
+      <created>1554293525781</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1554293525782</updated>
+    </task>
+    <task id="LOCAL-00212" summary="爬虫">
+      <created>1554293553172</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1554293553172</updated>
+    </task>
+    <task id="LOCAL-00213" summary="爬虫">
+      <created>1554293587114</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1554293587114</updated>
+    </task>
+    <task id="LOCAL-00214" summary="爬虫">
+      <created>1554293619966</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1554293619967</updated>
+    </task>
+    <task id="LOCAL-00215" summary="爬虫">
+      <created>1554293661252</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1554293661252</updated>
+    </task>
+    <task id="LOCAL-00216" summary="爬虫">
+      <created>1554293708917</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1554293708917</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -806,13 +809,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186955000" />
+    <option name="totallyTimeSpent" value="187220000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="472" y="45" width="1179" height="926" extended-state="0" />
+    <frame x="694" y="61" width="1179" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30920464" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31456658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -825,7 +828,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4852547" side_tool="true" weight="0.5807292" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.4852547" side_tool="true" visible="true" weight="0.67838544" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32901555" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5147453" weight="0.5807292" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
@@ -1196,14 +1199,6 @@
     <entry file="file://$PROJECT_DIR$/Flask－/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Flask－/app01/views/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Flask－/app01/views/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-422">
@@ -1213,6 +1208,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,17 +1233,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flask－/上下文.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="574">
             <caret line="153" column="6" lean-forward="true" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1312,8 +1315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="84">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
