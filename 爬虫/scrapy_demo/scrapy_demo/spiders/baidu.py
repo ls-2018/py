@@ -4,7 +4,6 @@ import scrapy
 from scrapy.http.request import Request
 
 
-
 class BaiduSpider(scrapy.Spider):
     name = 'baidu'
     allowed_domains = ['baidu.com']
