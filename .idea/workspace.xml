@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/xxx.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/scrapy_demo/xxx.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据清洗/总结.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,34 +58,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据清洗/总结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="242">
+                <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="267">
+              <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="174">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -100,22 +92,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/xxx.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/spider.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
+        <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/sharejs.com/spider.state">
+          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <selected id="4" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy.cfg">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/sharejs.com/requests.seen">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -144,6 +135,7 @@
       <find>serve_forever</find>
       <find>service_actions</find>
       <find>协程\线程的id号</find>
+      <find>log</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -158,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/alipay/alipay-master/README.md" />
         <option value="$PROJECT_DIR$/alipay/alipay-master/s9alipay_src/app01/tests.py" />
         <option value="$PROJECT_DIR$/数据分析/1、pandas.py" />
         <option value="$PROJECT_DIR$/数据分析/1、pandas.ipynb" />
@@ -207,14 +198,15 @@
         <option value="$PROJECT_DIR$/Flask－/app01/__init__.py" />
         <option value="$PROJECT_DIR$/Flask－/app01/model.py" />
         <option value="$PROJECT_DIR$/爬虫/xx.py" />
+        <option value="$PROJECT_DIR$/数据清洗/总结.md" />
         <option value="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/settings.py" />
         <option value="$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="48" />
+    <option name="x" value="712" />
+    <option name="y" value="61" />
     <option name="width" value="1179" />
     <option name="height" value="926" />
   </component>
@@ -251,15 +243,7 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="爬虫" type="462c0819:PsiDirectoryNode" />
               <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="sharejs.com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -485,14 +469,7 @@
       <workItem from="1554169086141" duration="7483000" />
       <workItem from="1554184501893" duration="5998000" />
       <workItem from="1554202506665" duration="8182000" />
-      <workItem from="1554248364255" duration="1910000" />
-    </task>
-    <task id="LOCAL-00159" summary="七牛云">
-      <created>1553956826383</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956826384</updated>
+      <workItem from="1554248364255" duration="3175000" />
     </task>
     <task id="LOCAL-00160" summary="七牛云">
       <created>1553956868809</created>
@@ -830,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554209138106</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="爬虫">
+      <created>1554252334625</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1554252334632</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -863,12 +847,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183678000" />
+    <option name="totallyTimeSpent" value="184943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="48" width="1179" height="926" extended-state="0" />
+    <frame x="712" y="61" width="1179" height="926" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17771883" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30327144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -883,7 +868,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.48452696" side_tool="true" weight="0.51554406" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32901555" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.515473" visible="true" weight="0.26165804" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.515473" visible="true" weight="0.5816062" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1150,27 +1135,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asyncio使用协程完成http访问.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/生成器和协程/异步io模块 asynico获取返回值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/4、找出数组中丢失的数.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1449,26 +1413,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/xxx.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
+    <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/xxx.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据清洗/总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="242">
+            <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/sharejs.com/requests.seen">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/sharejs.com/spider.state">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="267">
+          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
