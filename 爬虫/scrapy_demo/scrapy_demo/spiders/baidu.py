@@ -10,6 +10,7 @@ class BaiduSpider(scrapy.Spider):
     start_urls = ['http://baidu.com/']
     i = 1
 
+
     def parse(self, response):
         # response.xpath('')  # 返回列表   Selector
         # response.xpath('').extract()
