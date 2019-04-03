@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="425">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -172,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="472" />
     <option name="y" value="45" />
     <option name="width" value="1179" />
@@ -431,21 +428,7 @@
       <workItem from="1554184501893" duration="5998000" />
       <workItem from="1554202506665" duration="8182000" />
       <workItem from="1554248364255" duration="3175000" />
-      <workItem from="1554276890789" duration="1326000" />
-    </task>
-    <task id="LOCAL-00160" summary="七牛云">
-      <created>1553956868809</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1553956868809</updated>
-    </task>
-    <task id="LOCAL-00161" summary="2、推动生成器.py">
-      <created>1554013582495</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1554013582496</updated>
+      <workItem from="1554276890789" duration="2012000" />
     </task>
     <task id="LOCAL-00162" summary="3">
       <created>1554013917295</created>
@@ -776,7 +759,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554252334632</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="爬虫">
+      <created>1554278238188</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1554278238189</updated>
+    </task>
+    <task id="LOCAL-00210" summary="爬虫">
+      <created>1554278316961</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1554278316961</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,10 +806,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186269000" />
+    <option name="totallyTimeSpent" value="186955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="801" y="57" width="1179" height="926" extended-state="0" />
+    <frame x="472" y="45" width="1179" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30920464" />
@@ -830,7 +827,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4852547" side_tool="true" weight="0.5807292" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32901555" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.5147453" visible="true" weight="0.5807292" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5147453" weight="0.5807292" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1315,8 +1312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/scrapy_demo/scrapy_demo/spiders/baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="425">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
