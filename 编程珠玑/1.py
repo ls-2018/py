@@ -12,5 +12,5 @@
 #     # print('%08d'%i)
 # f.close()
 # print(datetime.datetime.today()-start)
-这是一个磁盘分区的内容
-具体类型  可以看  《python程序员面试宝典》  数组   如何对磁盘分区
+# 这是一个磁盘分区的内容
+# 具体类型  可以看  《python程序员面试宝典》  数组   如何对磁盘分区
