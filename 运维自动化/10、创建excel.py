@@ -28,26 +28,6 @@ ws1.add_image(img, 'A1')
 
 ws1.column_dimensions.group('A', 'D', hidden=True)  # 隐藏a到d列范围内的列
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Excel内置函数
 """
 ws2['G5'] = '=SUM(A5:F5)'       #  一片区域:=SUM(A6:F10)
