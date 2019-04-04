@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac9bab5-53cd-4188-8711-b7781c597f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/10、创建excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/10、创建excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/11、读取excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/11、读取excel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/运维自动化/11、读取excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="561">
+              <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -85,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/运维自动化/10、创建excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -137,6 +136,7 @@
       <find>协程\线程的id号</find>
       <find>log</find>
       <find>com</find>
+      <find>style</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -205,11 +205,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="632" />
-    <option name="y" value="37" />
-    <option name="width" value="1509" />
-    <option name="height" value="926" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -461,21 +460,7 @@
       <workItem from="1554276890789" duration="2012000" />
       <workItem from="1554293504954" duration="757000" />
       <workItem from="1554334711691" duration="3771000" />
-      <workItem from="1554345120610" duration="6945000" />
-    </task>
-    <task id="LOCAL-00186" summary="django">
-      <created>1554122627800</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1554122627800</updated>
-    </task>
-    <task id="LOCAL-00187" summary="django">
-      <created>1554123693344</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1554123693355</updated>
+      <workItem from="1554345120610" duration="7257000" />
     </task>
     <task id="LOCAL-00188" summary="django">
       <created>1554123789220</created>
@@ -806,7 +791,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554352209653</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="运维自动化">
+      <created>1554352873225</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1554352873225</updated>
+    </task>
+    <task id="LOCAL-00236" summary="运维自动化">
+      <created>1554352926771</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1554352926771</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -839,18 +838,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198428000" />
+    <option name="totallyTimeSpent" value="198740000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="51" width="1509" height="926" extended-state="0" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13963039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10897436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53580904" visible="true" weight="0.3950777" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53580904" weight="0.3950777" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" weight="0.106578946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1350,15 +1349,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/10、创建excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/11、读取excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="561">
+          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
         </state>
       </provider>
     </entry>
