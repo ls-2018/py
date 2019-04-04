@@ -5,6 +5,13 @@ wb = load_workbook('balances.xlsx', read_only=False, data_only=True)
 
 print(wb.sheetnames)  # ['New Title', 'Sheet', 'Mysheet']
 wb1 = wb['New Title']
+# ws = wb.active     #获取第一个sheet
+# wb.get_sheet_by_name("New Title"  )
+
+# wb1.guess_types = False
+# wb1["D1"]="12%"
+# wb1.guess_types = True    print ws["D1"].value会打印百分数b
+# wb1.guess_types = False   print ws["D1"].value会打印小数
 
 print(wb1['B4'].value)
 print(wb1.cell(row=4, column=2).value)
@@ -30,7 +37,7 @@ for row_cell in wb1['A1':'B3']:
 # ######################## 设置字体 ####################################
 from openpyxl.styles import Font, colors
 
-bold_itatic_24_font = Font(name='等线', size=24, italic=True, color=colors.RED, bold=True)
+bold_itatic_24_font = Font(name='等线', size=24, italic=True, color=colors.RED, bold=True, underline="single")
 wb1['A1'].font = bold_itatic_24_font
 wb1['A1'] = 'SX'
 
@@ -40,6 +47,18 @@ from openpyxl.styles import Alignment
 for row_cell in wb1['B2':'G10']:
     for cell in row_cell:
         cell.alignment = Alignment(horizontal='center', vertical='center')  # right,left
+
+# ############# 设定单元格的边框、字体、颜色、大小和边框背景色 ###############
+from openpyxl.styles import NamedStyle, Font, Border, Side, PatternFill
+
+highlight = NamedStyle(name="highlight")
+highlight.font = Font(bold=True, size=20, color="ff0100")
+highlight.fill = PatternFill("solid", fgColor="DDDDDD")  # 背景填充
+bd = Side(style='thick', color="000000")
+highlight.border = Border(left=bd, top=bd, right=bd, bottom=bd)
+
+print(dir(wb1["A1"]))
+wb1["A1"].style = highlight
 
 # ######################## 设置行高和列宽 ####################################
 # 有时候数据太长显示不完，就需要拉长拉高单元格。
