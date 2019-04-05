@@ -1,7 +1,7 @@
 from flask import Flask, send_file
 from app01 import create_app
 
-app = create_app()
+app = create_app()  # type:Flask
 
 
 @app.route('/static/<filename>')

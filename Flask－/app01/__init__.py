@@ -15,8 +15,17 @@ def create_app():
     
     static_folder           静态文件存放目录    默认 static
     static_url_path         静态文件访问路径    更改为/static            默认'/' + 'static_folder' 
-    
+  
     url_prefix='/user'      蓝图的前置URL
+    
+    static_host =   CDN的时候用
+    # 下边不用
+    host_matching = False,  # 如果不是特别需要的话,慎用,否则所有的route 都需要host=""的参数
+    subdomain_matching = False,  # 理论上来说是用来限制SERVER_NAME子域名的,但是目前还没有感觉出来区别在哪里
+    instance_path = None,  # 指向另一个Flask实例的路径
+    instance_relative_config = False  # 是否加载另一个实例的配置
+    root_path = None  # 主模块所在的目录的绝对路径,默认项目目录
+    
     """
 
     # #################         Flask 对象配置   ###########################
@@ -57,6 +66,4 @@ def create_app():
         return '404'
 
     return app
-
-
 #
