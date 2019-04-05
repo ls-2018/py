@@ -79,6 +79,8 @@ class LoginForm(Form):
     submit = simple.SubmitField(
         label="提交"
     )
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'GET':
