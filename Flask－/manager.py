@@ -1,4 +1,4 @@
-from flask import Flask, send_file
+from flask import Flask, send_file, views
 from app01 import create_app
 
 app = create_app()  # type:Flask
