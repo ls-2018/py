@@ -15,5 +15,3 @@ def index():
     session.get("user")
     return '1'
 
-
-
