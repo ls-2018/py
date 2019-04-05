@@ -42,6 +42,7 @@ class LoginForm(Form):
         render_kw={'class': 'form-control'}
     )
     email = simple.StringField(
+
         label="昵称",
         validators=[
             validators.Email(message="格式不正确"),
