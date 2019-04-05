@@ -14,4 +14,3 @@ def index():
     # 前端不在储存加密session,而是存储key
     session.get("user")
     return '1'
-
