@@ -19,8 +19,8 @@ class LoginForm(Form):
         ],
         widget=widgets.TextInput(),
         render_kw={'class': 'form-control'}
-
     )
+
     pwd = simple.PasswordField(
         label='密码',
         validators=[
@@ -36,8 +36,7 @@ class LoginForm(Form):
     repwd = simple.PasswordField(
         label='重复密码',
         validators=[
-            validators.EqualTo(message='密码不能为空.'),
-
+            validators.EqualTo(fieldname='pwd', message='密码不能为空.'),
         ],
         widget=widgets.PasswordInput(),
         render_kw={'class': 'form-control'}
