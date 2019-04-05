@@ -12,8 +12,10 @@ def create_app():
     # app = Flask(__name__)
     template_folder='', static_folder='', static_url_path='/{static_folder}'
     template_folder         模板存放目录    默认 templates
+    
     static_folder           静态文件存放目录    默认 static
-    static_url_path         静态文件访问路径    默认'/' + 'static_folder' 
+    static_url_path         静态文件访问路径    更改为/static            默认'/' + 'static_folder' 
+    
     url_prefix='/user'      蓝图的前置URL
     """
 

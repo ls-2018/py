@@ -22,6 +22,16 @@ defaults={'name': 'value'}      函数关键字传参
 def id(id):
     return str(id)
 
+
+
+
+
+
+
+
+
+
+
 @user.route('/user', methods=['GET', 'POST'], endpoint='user_index')
 def index():
     # url = url_for('user_index')  # endpoint
