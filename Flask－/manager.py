@@ -4,7 +4,7 @@ from app01 import create_app
 app = create_app()
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
 
 from werkzeug.serving import run_simple,WSGIRequestHandler

@@ -18,7 +18,9 @@ strict_slashes                  是否严格遵循路由规则,最后的/
 redirect_to='/login'            301 临时　　302重定向
 defaults={'name': 'value'}      函数关键字传参
 """
-
+@user.route('/<int:id>',)
+def id(id):
+    return str(id)
 
 @user.route('/user', methods=['GET', 'POST'], endpoint='user_index')
 def index():
