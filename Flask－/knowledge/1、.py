@@ -1,6 +1,7 @@
-from flask import Flask, Markup,render_template
+from flask import Flask, Markup, render_template
 
 app = Flask(__name__)
+
 
 @app.template_global()
 def ab(a, b):
@@ -9,10 +10,11 @@ def ab(a, b):
 
 @app.template_filter()
 def axb(a, b):
+    print(a, b)# 2 3
     return a * b  # 模板{{ 2| axb(3) }} 有些像偏函数
 
 
-@app.route('/', methods=[])
+@app.route('/')
 def index():
     return render_template('index.html')
 
