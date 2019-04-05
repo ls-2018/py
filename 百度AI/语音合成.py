@@ -41,6 +41,7 @@ if not isinstance(result, dict):
 #     "sn":"abcdefgh",
 #     "idx":1
 # }
+
 # 错误码	含义
 # 500	不支持的输入
 # 501	输入参数不正确
