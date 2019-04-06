@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/七牛云/x.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/七牛云/.qiniu_pythonsdk_hostscache.json" beforeDir="false" afterPath="$PROJECT_DIR$/七牛云/.qiniu_pythonsdk_hostscache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/七牛云/上传文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/七牛云/上传文件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/百度AI/websocket解密.py" beforeDir="false" afterPath="$PROJECT_DIR$/百度AI/websocket解密.py" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +145,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="728" />
-    <option name="y" value="61" />
+    <option name="x" value="639" />
+    <option name="y" value="38" />
     <option name="width" value="1283" />
     <option name="height" value="910" />
   </component>
@@ -207,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.上传文件">
+  <component name="RunManager" selected="Python.websocket解密">
     <configuration name="语音合成" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,7 +292,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.上传文件" />
         <item itemvalue="Python.x" />
         <item itemvalue="Python.websocket解密" />
         <item itemvalue="Python.语音合成" />
@@ -319,7 +312,7 @@
       <workItem from="1554448638715" duration="7369000" />
       <workItem from="1554505119794" duration="572000" />
       <workItem from="1554506272807" duration="2223000" />
-      <workItem from="1554510171501" duration="10899000" />
+      <workItem from="1554510171501" duration="11701000" />
     </task>
     <task id="LOCAL-00001" summary="Flask">
       <created>1554450764542</created>
@@ -440,22 +433,29 @@
       <option name="project" value="LOCAL" />
       <updated>1554518364481</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="七牛云">
+      <created>1554525359164</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1554525359164</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22860000" />
+    <option name="totallyTimeSpent" value="23662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="728" y="61" width="1283" height="910" extended-state="0" />
+    <frame x="354" y="69" width="1283" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22567457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22567457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49805826" visible="true" weight="0.32845744" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49805826" weight="0.32845744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,7 +502,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Flask" />
     <MESSAGE value="语音合成" />
-    <option name="LAST_COMMIT_MESSAGE" value="语音合成" />
+    <MESSAGE value="七牛云" />
+    <option name="LAST_COMMIT_MESSAGE" value="七牛云" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Python35/Lib/site-packages/flask/globals.py" />
