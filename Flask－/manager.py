@@ -9,7 +9,6 @@ def get_static(filename):
     return send_file(filename)
 
 
-
 if __name__ == '__main__':
     app.run(debug=True)
 
