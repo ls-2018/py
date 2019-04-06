@@ -14,3 +14,6 @@ str_byte.append(1)
 str_byte.append(1)
 
 print(str_byte)
+
+import struct
+struct.pack()

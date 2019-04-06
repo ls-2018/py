@@ -10,8 +10,8 @@ import traceback
 AK = ' '
 SK = ' '
 # 要上传的文件夹绝对路径
-dir = r'D:\Destop\线上部署\线上部署\test\myblog\static'
-
+dir = r'D:\Destop\线上部署\线上部署\test\myblog\media'
+# /static//bootstrap/css/
 bucket_name = 'online_193'
 q = Auth(AK, SK)
 token = q.upload_token(bucket_name)
@@ -34,21 +34,15 @@ def updir(dirpath):
             traceback.print_exc()
 
 
-def getKey(file):
+def getKey(file: str):
     key = ''
-    # fpath, fname = os.path.split(file)
-    # patharr = fpath.split('\\')
-    # if len(patharr) >= 2:
-    #     key = '/'.join(patharr[2:]) + '/' + fname
-    # else:
-    #     key = fname
-    demo1 = file.split(dir)
-    fpath = demo1[1][1:]
-    patharr = fpath.split('\\')
+    demo1 = file.split('\\')
+    fpath = '/'.join(demo1[demo1.index('media'):-1])
 
-    key = '/'.join(patharr)
-    return 'static/' + key
+    return fpath + '/' + demo1[-1]
 
+
+# D:\Destop\线上部署\线上部署\test\myblog\static\plugins\bootstrap\css
 
 if __name__ == '__main__':
     updir(dir)
