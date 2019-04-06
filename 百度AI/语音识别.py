@@ -18,6 +18,7 @@ result = client.synthesis('', 'zh', 1, {
 })
 
 
+
 # 识别正确返回语音二进制 错误则返回dict 参照下面错误码
 print(result)
 if not isinstance(result, dict):
