@@ -45,7 +45,7 @@ client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 # client.basicGeneralUrl(url, options)
 #
 
-url = "http://www.shuoiliu.com/media/123.jpg"
+url = "https://so.gushiwen.org/RandCode.ashx?t=1554609824471?t=1554609825313?t=1554609826123?t=1554609828322?t=1554609829559"
 
 """ 调用通用文字识别（含位置信息版）, 图片参数为远程url图片 """
 res = client.generalUrl(url)
