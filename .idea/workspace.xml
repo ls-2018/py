@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/爬虫/下载验证码.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/下载验证码.py" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1554602749589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/book$.coverage" NAME="下载验证码 Coverage Results" MODIFIED="1554616147632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/book$PJS.coverage" NAME="PJS Coverage Results" MODIFIED="1554617606561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/book$websocket.coverage" NAME="websocket解密 Coverage Results" MODIFIED="1554513838699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度AI" />
     <SUITE FILE_PATH="coverage/book$x.coverage" NAME="x Coverage Results" MODIFIED="1554524496052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/七牛云" />
   </component>
@@ -48,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/下载验证码.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="200">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#664#702#0" expanded="true" />
               </folding>
@@ -153,8 +152,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="564" />
-    <option name="y" value="182" />
+    <option name="x" value="804" />
+    <option name="y" value="172" />
     <option name="width" value="966" />
     <option name="height" value="834" />
   </component>
@@ -214,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.下载验证码">
+  <component name="RunManager" selected="Python.PJS">
     <configuration name="下载验证码" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +228,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/下载验证码.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PJS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/PJS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,8 +392,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PJS" />
         <item itemvalue="Python.下载验证码" />
-        <item itemvalue="Python.文字识别" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.x" />
         <item itemvalue="Python.websocket解密" />
@@ -398,56 +419,7 @@
       <workItem from="1554555719585" duration="236000" />
       <workItem from="1554557857529" duration="458000" />
       <workItem from="1554602256076" duration="1118000" />
-      <workItem from="1554608837757" duration="5988000" />
-    </task>
-    <task id="LOCAL-00001" summary="Flask">
-      <created>1554450764542</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1554450764542</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Flask">
-      <created>1554451186756</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1554451186756</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Flask">
-      <created>1554451252375</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1554451252375</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Flask">
-      <created>1554451275442</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1554451275442</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Flask">
-      <created>1554451302895</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1554451302895</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Flask">
-      <created>1554451327375</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1554451327376</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Flask">
-      <created>1554451342058</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1554451342058</updated>
+      <workItem from="1554608837757" duration="6331000" />
     </task>
     <task id="LOCAL-00008" summary="Flask">
       <created>1554451503375</created>
@@ -722,11 +694,81 @@
       <option name="project" value="LOCAL" />
       <updated>1554616135110</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="验证码识别">
+      <created>1554616158304</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616158304</updated>
+    </task>
+    <task id="LOCAL-00048" summary="验证码识别">
+      <created>1554616183956</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616183956</updated>
+    </task>
+    <task id="LOCAL-00049" summary="验证码识别">
+      <created>1554616209809</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616209809</updated>
+    </task>
+    <task id="LOCAL-00050" summary="验证码识别">
+      <created>1554616226220</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616226221</updated>
+    </task>
+    <task id="LOCAL-00051" summary="验证码识别">
+      <created>1554616268745</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616268745</updated>
+    </task>
+    <task id="LOCAL-00052" summary="验证码识别">
+      <created>1554616292672</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616292673</updated>
+    </task>
+    <task id="LOCAL-00053" summary="验证码识别">
+      <created>1554616309034</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616309034</updated>
+    </task>
+    <task id="LOCAL-00054" summary="验证码识别">
+      <created>1554616334785</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616334786</updated>
+    </task>
+    <task id="LOCAL-00055" summary="验证码识别">
+      <created>1554616378867</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616378867</updated>
+    </task>
+    <task id="LOCAL-00056" summary="验证码识别">
+      <created>1554616411858</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1554616411858</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32020000" />
+    <option name="totallyTimeSpent" value="32363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="564" y="182" width="966" height="834" extended-state="0" />
@@ -737,7 +779,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.495585" visible="true" weight="0.3239645" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.495585" weight="0.3239645" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -745,7 +787,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50441504" side_tool="true" weight="0.3239645" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50441504" side_tool="true" visible="true" weight="0.3239645" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49417475" weight="0.32906976" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -915,8 +957,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/下载验证码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="200">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#664#702#0" expanded="true" />
           </folding>
