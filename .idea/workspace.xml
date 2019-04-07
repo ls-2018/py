@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫/下载验证码.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/百度AI/文字识别.py" beforeDir="false" afterPath="$PROJECT_DIR$/百度AI/文字识别.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/下载验证码.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/下载验证码.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/下载验证码.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="310">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -155,10 +154,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
-    <option name="y" value="211" />
+    <option name="x" value="895" />
+    <option name="y" value="180" />
     <option name="width" value="966" />
-    <option name="height" value="913" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -400,7 +399,7 @@
       <workItem from="1554555719585" duration="236000" />
       <workItem from="1554557857529" duration="458000" />
       <workItem from="1554602256076" duration="1118000" />
-      <workItem from="1554608837757" duration="1745000" />
+      <workItem from="1554608837757" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="Flask">
       <created>1554450764542</created>
@@ -647,22 +646,29 @@
       <option name="project" value="LOCAL" />
       <updated>1554609627561</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="验证码识别">
+      <created>1554610770157</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1554610770157</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27777000" />
+    <option name="totallyTimeSpent" value="29031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="184" width="1183" height="913" extended-state="0" />
+    <frame x="895" y="180" width="966" height="834" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25912735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20750552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4963054" visible="true" weight="0.38675496" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4963054" visible="true" weight="0.26183432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -713,7 +719,8 @@
     <MESSAGE value="加密数据爬取" />
     <MESSAGE value="乱码" />
     <MESSAGE value="文字识别" />
-    <option name="LAST_COMMIT_MESSAGE" value="文字识别" />
+    <MESSAGE value="验证码识别" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证码识别" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Python35/Lib/site-packages/flask/globals.py" />
@@ -832,8 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/下载验证码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="310">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
