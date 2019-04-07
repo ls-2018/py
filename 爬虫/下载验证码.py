@@ -22,6 +22,7 @@
 
 from multiprocessing.dummy import Pool
 
+
 import re
 
 demo = 'code_img = requests.get(url=codeImg_url, headers=headers).content'
