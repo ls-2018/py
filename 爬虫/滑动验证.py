@@ -153,7 +153,6 @@ class SVCR:
             time.sleep(1000)
             return True
 
-
     # @simulate_reaction
     def click_start_btn(self, search_style="CLASS_NAME", search_content="geetest_radar_tip"):
         """找到开始按钮并点击"""
