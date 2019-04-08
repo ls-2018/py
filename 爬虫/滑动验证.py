@@ -171,6 +171,7 @@ class SVCR:
         # 保存当前浏览页面
         self.driver.save_screenshot("snap.png")
 
+
         # 截取目标图片
         img = Image.open("snap.png")
         return img.crop(img_box)
