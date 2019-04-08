@@ -163,7 +163,6 @@ class SVCR:
         """截取图片"""
         div_tag = self.driver.find_element_by_class_name("geetest_slicebg")
 
-
         # 计算截取图片大小
         img_pt = div_tag.location  # {'x': 296, 'y': 15}
         img_size = div_tag.size  # {'height': 159, 'width': 258}

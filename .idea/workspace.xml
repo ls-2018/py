@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/爬虫/滑动验证.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="165" column="18" lean-forward="true" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+              <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
               <folding>
                 <element signature="e#163#174#0" expanded="true" />
               </folding>
@@ -403,35 +401,7 @@
       <workItem from="1554627533653" duration="599000" />
       <workItem from="1554696111692" duration="789000" />
       <workItem from="1554709740497" duration="598000" />
-      <workItem from="1554724115084" duration="1191000" />
-    </task>
-    <task id="LOCAL-00016" summary="语音合成">
-      <created>1554458905153</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1554458905153</updated>
-    </task>
-    <task id="LOCAL-00017" summary="语音合成">
-      <created>1554518364481</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1554518364481</updated>
-    </task>
-    <task id="LOCAL-00018" summary="七牛云">
-      <created>1554525359164</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1554525359164</updated>
-    </task>
-    <task id="LOCAL-00019" summary="七牛云">
-      <created>1554532585402</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1554532585402</updated>
+      <workItem from="1554724115084" duration="1852000" />
     </task>
     <task id="LOCAL-00020" summary="七牛云">
       <created>1554532931973</created>
@@ -748,14 +718,43 @@
       <option name="project" value="LOCAL" />
       <updated>1554724342402</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="滑动验证">
+      <created>1554725332560</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1554725332561</updated>
+    </task>
+    <task id="LOCAL-00066" summary="滑动验证">
+      <created>1554725370791</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1554725370791</updated>
+    </task>
+    <task id="LOCAL-00067" summary="滑动验证">
+      <created>1554725424124</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1554725424124</updated>
+    </task>
+    <task id="LOCAL-00068" summary="滑动验证">
+      <created>1554725461039</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1554725461039</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38104000" />
+    <option name="totallyTimeSpent" value="38765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="817" y="-4" width="1080" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26671913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1183,7 +1182,7 @@
     <entry file="file://$PROJECT_DIR$/爬虫/滑动验证.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="165" column="18" lean-forward="true" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="e#163#174#0" expanded="true" />
           </folding>
