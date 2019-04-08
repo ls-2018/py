@@ -168,7 +168,6 @@ class SVCR:
         img_size = div_tag.size  # {'height': 159, 'width': 258}
         img_box = (img_pt["x"], img_pt["y"], img_pt["x"] + img_size["width"], img_pt["y"] + img_size["height"])
 
-
         # 保存当前浏览页面
         self.driver.save_screenshot("snap.png")
 
