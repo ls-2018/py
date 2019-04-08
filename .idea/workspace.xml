@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫/utils/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/滑动验证.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/6.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/滑动验证.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="175">
+              <caret line="160" selection-start-line="160" selection-end-line="160" />
               <folding>
                 <element signature="e#163#174#0" expanded="true" />
               </folding>
@@ -172,30 +164,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="百度AI" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -432,20 +401,8 @@
       <workItem from="1554617555677" duration="2474000" />
       <workItem from="1554620786918" duration="90000" />
       <workItem from="1554627533653" duration="599000" />
-    </task>
-    <task id="LOCAL-00009" summary="Flask">
-      <created>1554452260432</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1554452260432</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Flask">
-      <created>1554452363675</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1554452363675</updated>
+      <workItem from="1554696111692" duration="789000" />
+      <workItem from="1554709740497" duration="598000" />
     </task>
     <task id="LOCAL-00011" summary="Flask">
       <created>1554452440836</created>
@@ -776,15 +733,28 @@
       <option name="project" value="LOCAL" />
       <updated>1554617759824</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="滑动验证">
+      <created>1554696145835</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1554696145835</updated>
+    </task>
+    <task id="LOCAL-00059" summary="滑动验证">
+      <created>1554696187317</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1554696187317</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35526000" />
+    <option name="totallyTimeSpent" value="36913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="566" y="20" width="1331" height="1004" extended-state="0" />
-    <editor active="true" />
+    <frame x="817" y="-4" width="1080" height="1028" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26671913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -799,7 +769,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50551873" side_tool="true" weight="0.3239645" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50551873" side_tool="true" visible="true" weight="0.3229885" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49337748" weight="0.24721603" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -844,7 +814,8 @@
     <MESSAGE value="文字识别" />
     <MESSAGE value="验证码识别" />
     <MESSAGE value="无头浏览器" />
-    <option name="LAST_COMMIT_MESSAGE" value="无头浏览器" />
+    <MESSAGE value="滑动验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -983,36 +954,6 @@
           <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
           <line>45</line>
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>166</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>167</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>168</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>171</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>174</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>175</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
@@ -1240,8 +1181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/滑动验证.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="175">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
           <folding>
             <element signature="e#163#174#0" expanded="true" />
           </folding>
