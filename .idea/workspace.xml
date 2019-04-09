@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask－/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask－/manager.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Flask－/manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="200">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -347,42 +350,7 @@
       <workItem from="1554724115084" duration="3635000" />
       <workItem from="1554730530191" duration="136000" />
       <workItem from="1554769130175" duration="290000" />
-      <workItem from="1554774214163" duration="1711000" />
-    </task>
-    <task id="LOCAL-00037" summary="验证码识别">
-      <created>1554612023600</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1554612023600</updated>
-    </task>
-    <task id="LOCAL-00038" summary="验证码识别">
-      <created>1554612047304</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1554612047304</updated>
-    </task>
-    <task id="LOCAL-00039" summary="验证码识别">
-      <created>1554613621025</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1554613621025</updated>
-    </task>
-    <task id="LOCAL-00040" summary="验证码识别">
-      <created>1554615926332</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1554615926332</updated>
-    </task>
-    <task id="LOCAL-00041" summary="验证码识别">
-      <created>1554615952267</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1554615952267</updated>
+      <workItem from="1554774214163" duration="2856000" />
     </task>
     <task id="LOCAL-00042" summary="验证码识别">
       <created>1554615970247</created>
@@ -692,11 +660,46 @@
       <option name="project" value="LOCAL" />
       <updated>1554776177579</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Flask">
+      <created>1554776213128</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776213128</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Flask">
+      <created>1554776252692</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776252692</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Flask">
+      <created>1554776286712</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776286712</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Flask">
+      <created>1554776334292</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776334292</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Flask">
+      <created>1554777129757</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1554777129757</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42685000" />
+    <option name="totallyTimeSpent" value="43830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="817" y="-4" width="1080" height="1028" extended-state="0" />
@@ -1128,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Flask－/manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="200">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
