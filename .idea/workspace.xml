@@ -347,42 +347,7 @@
       <workItem from="1554724115084" duration="3635000" />
       <workItem from="1554730530191" duration="136000" />
       <workItem from="1554769130175" duration="290000" />
-      <workItem from="1554774214163" duration="1461000" />
-    </task>
-    <task id="LOCAL-00032" summary="加密数据爬取">
-      <created>1554602424101</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1554602424101</updated>
-    </task>
-    <task id="LOCAL-00033" summary="乱码">
-      <created>1554602769596</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1554602769596</updated>
-    </task>
-    <task id="LOCAL-00034" summary="文字识别">
-      <created>1554609148436</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1554609148436</updated>
-    </task>
-    <task id="LOCAL-00035" summary="文字识别">
-      <created>1554609627561</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1554609627561</updated>
-    </task>
-    <task id="LOCAL-00036" summary="验证码识别">
-      <created>1554610770157</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1554610770157</updated>
+      <workItem from="1554774214163" duration="1711000" />
     </task>
     <task id="LOCAL-00037" summary="验证码识别">
       <created>1554612023600</created>
@@ -692,14 +657,50 @@
       <option name="project" value="LOCAL" />
       <updated>1554775923414</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Flask">
+      <created>1554775954086</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775954086</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Flask">
+      <created>1554776010182</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776010182</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Flask">
+      <created>1554776037183</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776037183</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Flask">
+      <created>1554776086730</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776086730</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Flask">
+      <created>1554776177579</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1554776177579</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42435000" />
+    <option name="totallyTimeSpent" value="42685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="817" y="-4" width="1080" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
