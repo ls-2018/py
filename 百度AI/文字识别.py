@@ -28,7 +28,6 @@ client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 # """ 带参数调用通用文字识别, 图片参数为本地图片 """
 # client.basicGeneral(image, options)
 #
-
 # url = "http//www.x.com/sample.jpg"
 #
 """ 调用通用文字识别, 图片参数为远程url图片 """
