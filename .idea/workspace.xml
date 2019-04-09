@@ -347,14 +347,7 @@
       <workItem from="1554724115084" duration="3635000" />
       <workItem from="1554730530191" duration="136000" />
       <workItem from="1554769130175" duration="290000" />
-      <workItem from="1554774214163" duration="1210000" />
-    </task>
-    <task id="LOCAL-00031" summary="七牛云">
-      <created>1554558297998</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1554558297998</updated>
+      <workItem from="1554774214163" duration="1461000" />
     </task>
     <task id="LOCAL-00032" summary="加密数据爬取">
       <created>1554602424101</created>
@@ -692,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554775397401</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Flask">
+      <created>1554775923414</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775923414</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42184000" />
+    <option name="totallyTimeSpent" value="42435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="817" y="-4" width="1080" height="1028" extended-state="0" />
