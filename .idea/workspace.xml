@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +16,20 @@
     <SUITE FILE_PATH="coverage/book$x.coverage" NAME="x Coverage Results" MODIFIED="1554524496052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/七牛云" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Flask－/manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,7 +63,6 @@
         <option value="$PROJECT_DIR$/百度AI/websocket解密.py" />
         <option value="$PROJECT_DIR$/七牛云/x.py" />
         <option value="$PROJECT_DIR$/百度AI/语音识别.py" />
-        <option value="$PROJECT_DIR$/Flask－/manager.py" />
         <option value="$PROJECT_DIR$/七牛云/上传文件.py" />
         <option value="$PROJECT_DIR$/爬虫/加密数据爬取.py" />
         <option value="$PROJECT_DIR$/爬虫/test.py" />
@@ -60,6 +70,7 @@
         <option value="$PROJECT_DIR$/爬虫/下载验证码.py" />
         <option value="$PROJECT_DIR$/爬虫/PJS.py" />
         <option value="$PROJECT_DIR$/爬虫/滑动验证.py" />
+        <option value="$PROJECT_DIR$/Flask－/manager.py" />
       </list>
     </option>
   </component>
@@ -76,7 +87,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask－" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -318,28 +347,7 @@
       <workItem from="1554724115084" duration="3635000" />
       <workItem from="1554730530191" duration="136000" />
       <workItem from="1554769130175" duration="290000" />
-      <workItem from="1554774214163" duration="726000" />
-    </task>
-    <task id="LOCAL-00028" summary="Flask">
-      <created>1554555920704</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1554555920704</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Flask">
-      <created>1554555937908</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1554555937908</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Flask">
-      <created>1554555953448</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1554555953448</updated>
+      <workItem from="1554774214163" duration="1210000" />
     </task>
     <task id="LOCAL-00031" summary="七牛云">
       <created>1554558297998</created>
@@ -663,17 +671,37 @@
       <option name="project" value="LOCAL" />
       <updated>1554727829743</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Flask">
+      <created>1554775239376</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775239378</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Flask">
+      <created>1554775267302</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775267302</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Flask">
+      <created>1554775397401</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775397401</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41700000" />
+    <option name="totallyTimeSpent" value="42184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="817" y="-4" width="1080" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26671913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -724,7 +752,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="语音合成" />
-    <MESSAGE value="Flask" />
     <MESSAGE value="七牛云" />
     <MESSAGE value="加密数据爬取" />
     <MESSAGE value="乱码" />
@@ -733,7 +760,8 @@
     <MESSAGE value="无头浏览器" />
     <MESSAGE value="滑动验证" />
     <MESSAGE value="滑动验证.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动验证.py" />
+    <MESSAGE value="Flask" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flask" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1002,16 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask－/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1103,6 +1121,16 @@
           <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
           <folding>
             <element signature="e#163#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask－/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
