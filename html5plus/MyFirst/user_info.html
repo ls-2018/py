@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/mui.css"/>
+</head>
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <h1 class="mui-title">用户详情</h1>
+    </header>
+    <div class="mui-content">
+        <div class="mui-row" id="user_id">
+            
+        </div>
+        <div class="mui-row" id="nickname">
+            
+        </div>
+    </div>
+    <script src="js/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    mui.init()
+    mui.plusReady(function () {
+       var Sdata = plus.webview.currentWebview();
+       document.getElementById("user_id").innerText = Sdata.user_id;
+       document.getElementById("nickname").innerText = Sdata.nickname;
+    })
+    </script>
+</body>
+</html>

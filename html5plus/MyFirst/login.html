@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/mui.css"/>
+</head>
+<body>
+    <header class="mui-bar mui-bar-nav">
+        <h1 class="mui-title">登录</h1>
+    </header>
+   
+    <div class="mui-content">
+    	<form class="mui-input-group">
+    <div class="mui-input-row">
+        <label>用户名</label>
+	    <input id="username" type="text" class="mui-input-clear" placeholder="请输入用户名">
+	    </div>
+	    <div class="mui-input-row">
+	        <label>密码</label>
+	        <input id="pwd" type="password" class="mui-input-password" placeholder="请输入密码">
+	    </div>
+	    <div class="mui-button-row">
+	        <button type="button" class="mui-btn mui-btn-primary" id="login_btn" >登录</button>
+	        <button type="button" class="mui-btn mui-btn-danger mui-action-back" >取消</button>
+	    </div>
+	</form>
+    </div>
+    <script src="js/mui.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    mui.init()
+    mui.plusReady(function () {
+        var Sdata = plus.webview.currentWebview();
+        console.log(Sdata.name);
+        console.log(JSON.stringify(Sdata));
+    })
+    
+    document.getElementById('login_btn').addEventListener('tap',function () {
+       	var username = document.getElementById("username").value;     
+       	var pwd = document.getElementById("pwd").value;  
+       	mui.post('http://192.168.12.53:5000/login',{
+       			"username":username,
+       			"pwd":pwd
+       		},function(data){
+       			// {code:0,msg:"登陆成功",data:{user_id:666,username:123,nickname:"xiaowangba"}}
+       			mui.openWindow({
+       				url:"user_info.html",
+       				id:"user_info.html",
+       				styles:{
+       					top:"0px",
+       					bottom:"50px"
+       				},
+       				extras:data.data
+       			})
+       		},'json'
+       	);
+    })
+    
+    </script>
+</body>
+</html>
