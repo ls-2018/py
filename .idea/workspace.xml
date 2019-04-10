@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/html5plus/my_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +19,25 @@
     <SUITE FILE_PATH="coverage/book$websocket.coverage" NAME="websocket解密 Coverage Results" MODIFIED="1554513838699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度AI" />
     <SUITE FILE_PATH="coverage/book$connection.coverage" NAME="connection Coverage Results" MODIFIED="1554871175874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mongo" />
     <SUITE FILE_PATH="coverage/book$x.coverage" NAME="x Coverage Results" MODIFIED="1554524496052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/七牛云" />
+    <SUITE FILE_PATH="coverage/book$my_app.coverage" NAME="my_app Coverage Results" MODIFIED="1554885447827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus" />
     <SUITE FILE_PATH="coverage/book$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1554786284582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/怕漫画" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="256">
+              <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5plus/my_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -90,11 +103,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="817" />
-    <option name="y" value="-4" />
-    <option name="width" value="1080" />
-    <option name="height" value="1028" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -120,6 +133,12 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="html5plus" type="462c0819:PsiDirectoryNode" />
+              <item name="MyFirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="Mongo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -136,7 +155,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\html5plus" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\html5plus" />
       <recent name="D:\Destop\book\爬虫\utils" />
       <recent name="D:\Destop\book\爬虫\怕漫画\utils" />
       <recent name="D:\Destop\book\爬虫" />
@@ -155,29 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.connection">
-    <configuration name="下载验证码" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/下载验证码.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.my_app">
     <configuration name="PJS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -354,6 +355,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/html5plus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/html5plus/my_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,11 +401,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_app" />
         <item itemvalue="Python.connection" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.PJS" />
-        <item itemvalue="Python.下载验证码" />
       </list>
     </recent_temporary>
   </component>
@@ -420,14 +443,7 @@
       <workItem from="1554815208252" duration="87000" />
       <workItem from="1554855712419" duration="87000" />
       <workItem from="1554869719783" duration="3672000" />
-      <workItem from="1554883677958" duration="241000" />
-    </task>
-    <task id="LOCAL-00062" summary="滑动验证">
-      <created>1554724244432</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1554724244432</updated>
+      <workItem from="1554883677958" duration="1571000" />
     </task>
     <task id="LOCAL-00063" summary="滑动验证">
       <created>1554724287565</created>
@@ -765,22 +781,29 @@
       <option name="project" value="LOCAL" />
       <updated>1554883866839</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="mongo">
+      <created>1554883935237</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1554883935237</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53563000" />
+    <option name="totallyTimeSpent" value="54893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="817" y="-4" width="1080" height="1028" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49313724" weight="0.36091954" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49313724" visible="true" weight="0.3496659" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -838,7 +861,8 @@
     <MESSAGE value="文字识别" />
     <MESSAGE value="pymongo" />
     <MESSAGE value="移动app" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动app" />
+    <MESSAGE value="mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1240,8 +1264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="256">
+          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1252,6 +1276,13 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5plus/my_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
