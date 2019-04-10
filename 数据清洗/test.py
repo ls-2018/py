@@ -6,4 +6,3 @@ demo = demo1 + demo2
 print(demo)
 print(demo.isnull())
 print(demo[~demo.isnull()])
-
