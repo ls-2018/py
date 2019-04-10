@@ -57,3 +57,4 @@ res.get("info")["long"] = 18.5
 MONGO.userinfo.update_one({"_id": res.get("_id")}, {"$set": res})
 res = MONGO.userinfo.find_one({"name": "200wansui"})
 print(res)
+
