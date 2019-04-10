@@ -28,3 +28,16 @@ print(res,res.inserted_id)  # 不用commit
 
 res = MONGO.userinfo.insert_many([{},])
 print(res,res.inserted_ids)  # 不用commit  ,不再是字符串，而是对象
+
+
+
+#################################修改
+res = MONGO.userinfo.update_one({},{})    # 返回UpdateResult对象
+print(res.raw_result)   # 影响的行数
+
+
+# #############################删除
+# MONGO.userinfo.delete_one({})
+# MONGO.userinfo.delete_many({})    # 返回DeleteResult对象
+
+
