@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongo/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mongo/connection.py" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="656">
               <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
@@ -417,28 +414,7 @@
       <workItem from="1554807278510" duration="8000" />
       <workItem from="1554815208252" duration="87000" />
       <workItem from="1554855712419" duration="87000" />
-      <workItem from="1554869719783" duration="2703000" />
-    </task>
-    <task id="LOCAL-00056" summary="验证码识别">
-      <created>1554616411858</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1554616411858</updated>
-    </task>
-    <task id="LOCAL-00057" summary="无头浏览器">
-      <created>1554617759823</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1554617759824</updated>
-    </task>
-    <task id="LOCAL-00058" summary="滑动验证">
-      <created>1554696145835</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1554696145835</updated>
+      <workItem from="1554869719783" duration="3672000" />
     </task>
     <task id="LOCAL-00059" summary="滑动验证">
       <created>1554696187317</created>
@@ -762,22 +738,42 @@
       <option name="project" value="LOCAL" />
       <updated>1554871662534</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="pymongo">
+      <created>1554872653114</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1554872653114</updated>
+    </task>
+    <task id="LOCAL-00106" summary="pymongo">
+      <created>1554873722551</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1554873722551</updated>
+    </task>
+    <task id="LOCAL-00107" summary="pymongo">
+      <created>1554873903003</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1554873903003</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52353000" />
+    <option name="totallyTimeSpent" value="53322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="817" y="-4" width="1080" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29411766" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29411766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49313724" visible="true" weight="0.36091954" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49313724" weight="0.36091954" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1246,7 +1242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="656">
           <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
