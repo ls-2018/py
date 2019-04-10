@@ -41,7 +41,19 @@ print(res.raw_result)  # 影响的行数
 #
 
 list(MONGO.userinfo.find({}).limit(5))
-list(MONGO.userinfo.find({}).limit(5).skip(5))# 跳过5条取5条
-list(MONGO.userinfo.find({}).sort('age',pymongo.DESCENDING))# 倒序
-list(MONGO.userinfo.find({}).sort('age',pymongo.DESCENDING).skip(5).limit(2))# 倒序
+list(MONGO.userinfo.find({}).limit(5).skip(5))  # 跳过5条取5条
+list(MONGO.userinfo.find({}).sort('age', pymongo.DESCENDING))  # 倒序
+list(MONGO.userinfo.find({}).sort('age', pymongo.DESCENDING).skip(5).limit(2))  # 倒序
 # 先按age降序排列，在跳过5条取2条
+
+
+# ######################### python 的 update
+res = MONGO.userinfo.find_one({"name": "200wansui"})
+print(res)
+res.get("info")["shengao"] = 170
+res.get("info")["tizhong"] = 130
+res.get("info")["long"] = 18.5
+
+MONGO.userinfo.update_one({"_id": res.get("_id")}, {"$set": res})
+res = MONGO.userinfo.find_one({"name": "200wansui"})
+print(res)
