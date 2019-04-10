@@ -37,9 +37,6 @@ print(res.raw_result)  # 影响的行数
 # MONGO.userinfo.delete_one({})
 # MONGO.userinfo.delete_many({})    # 返回DeleteResult对象
 
-
-#
-
 list(MONGO.userinfo.find({}).limit(5))
 list(MONGO.userinfo.find({}).limit(5).skip(5))  # 跳过5条取5条
 list(MONGO.userinfo.find({}).sort('age', pymongo.DESCENDING))  # 倒序
