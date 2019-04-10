@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/数据清洗/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据清洗/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据清洗/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="175">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -83,10 +83,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="779" />
-    <option name="y" value="32" />
+    <option name="x" value="1007" />
+    <option name="y" value="126" />
     <option name="width" value="1071" />
-    <option name="height" value="998" />
+    <option name="height" value="632" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -392,42 +392,7 @@
       <workItem from="1554883677958" duration="1642000" />
       <workItem from="1554890933087" duration="41000" />
       <workItem from="1554896012713" duration="647000" />
-      <workItem from="1554899115605" duration="2066000" />
-    </task>
-    <task id="LOCAL-00065" summary="滑动验证">
-      <created>1554725332560</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1554725332561</updated>
-    </task>
-    <task id="LOCAL-00066" summary="滑动验证">
-      <created>1554725370791</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1554725370791</updated>
-    </task>
-    <task id="LOCAL-00067" summary="滑动验证">
-      <created>1554725424124</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1554725424124</updated>
-    </task>
-    <task id="LOCAL-00068" summary="滑动验证">
-      <created>1554725461039</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1554725461039</updated>
-    </task>
-    <task id="LOCAL-00069" summary="滑动验证">
-      <created>1554725995498</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1554725995498</updated>
+      <workItem from="1554899115605" duration="2313000" />
     </task>
     <task id="LOCAL-00070" summary="滑动验证">
       <created>1554726177480</created>
@@ -737,14 +702,49 @@
       <option name="project" value="LOCAL" />
       <updated>1554900576258</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="数据清洗">
+      <created>1554903642231</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1554903642231</updated>
+    </task>
+    <task id="LOCAL-00115" summary="数据清洗">
+      <created>1554903674082</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1554903674082</updated>
+    </task>
+    <task id="LOCAL-00116" summary="数据清洗">
+      <created>1554903729058</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1554903729058</updated>
+    </task>
+    <task id="LOCAL-00117" summary="数据清洗">
+      <created>1554903767432</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1554903767432</updated>
+    </task>
+    <task id="LOCAL-00118" summary="数据清洗">
+      <created>1554903802455</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1554903802455</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57718000" />
+    <option name="totallyTimeSpent" value="57965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="779" y="32" width="1071" height="998" extended-state="0" />
+    <frame x="1007" y="126" width="1071" height="632" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.31454006" />
@@ -752,7 +752,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49313724" visible="true" weight="0.3488095" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49313724" visible="true" weight="0.36708862" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1238,8 +1238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据清洗/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="175">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
