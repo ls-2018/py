@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据清洗/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据清洗/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据清洗/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据清洗/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -393,14 +392,7 @@
       <workItem from="1554883677958" duration="1642000" />
       <workItem from="1554890933087" duration="41000" />
       <workItem from="1554896012713" duration="647000" />
-      <workItem from="1554899115605" duration="1444000" />
-    </task>
-    <task id="LOCAL-00064" summary="滑动验证">
-      <created>1554724342402</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1554724342402</updated>
+      <workItem from="1554899115605" duration="2066000" />
     </task>
     <task id="LOCAL-00065" summary="滑动验证">
       <created>1554725332560</created>
@@ -738,11 +730,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554885491606</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="数据清洗">
+      <created>1554900576256</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1554900576258</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57096000" />
+    <option name="totallyTimeSpent" value="57718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="779" y="32" width="1071" height="998" extended-state="0" />
@@ -812,7 +811,8 @@
     <MESSAGE value="pymongo" />
     <MESSAGE value="mongo" />
     <MESSAGE value="移动app" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动app" />
+    <MESSAGE value="数据清洗" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据清洗" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1238,8 +1238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据清洗/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
