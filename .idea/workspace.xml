@@ -378,84 +378,7 @@
       <workItem from="1554970755290" duration="651000" />
       <workItem from="1554977923181" duration="599000" />
       <workItem from="1554979982321" duration="27000" />
-      <workItem from="1554982490762" duration="236000" />
-    </task>
-    <task id="LOCAL-00080" summary="Flask">
-      <created>1554775923414</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1554775923414</updated>
-    </task>
-    <task id="LOCAL-00081" summary="Flask">
-      <created>1554775954086</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1554775954086</updated>
-    </task>
-    <task id="LOCAL-00082" summary="Flask">
-      <created>1554776010182</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776010182</updated>
-    </task>
-    <task id="LOCAL-00083" summary="Flask">
-      <created>1554776037183</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776037183</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Flask">
-      <created>1554776086730</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776086730</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Flask">
-      <created>1554776177579</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776177579</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Flask">
-      <created>1554776213128</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776213128</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Flask">
-      <created>1554776252692</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776252692</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Flask">
-      <created>1554776286712</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776286712</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Flask">
-      <created>1554776334292</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1554776334292</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Flask">
-      <created>1554777129757</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1554777129757</updated>
+      <workItem from="1554982490762" duration="494000" />
     </task>
     <task id="LOCAL-00091" summary="Flask">
       <created>1554777529734</created>
@@ -723,11 +646,88 @@
       <option name="project" value="LOCAL" />
       <updated>1554982696132</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="mongo">
+      <created>1554982729805</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982729805</updated>
+    </task>
+    <task id="LOCAL-00130" summary="mongo">
+      <created>1554982748542</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982748543</updated>
+    </task>
+    <task id="LOCAL-00131" summary="mongo">
+      <created>1554982772786</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982772786</updated>
+    </task>
+    <task id="LOCAL-00132" summary="mongo">
+      <created>1554982800545</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982800545</updated>
+    </task>
+    <task id="LOCAL-00133" summary="mongo">
+      <created>1554982830004</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982830005</updated>
+    </task>
+    <task id="LOCAL-00134" summary="mongo">
+      <created>1554982862548</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982862548</updated>
+    </task>
+    <task id="LOCAL-00135" summary="mongo">
+      <created>1554982884793</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982884793</updated>
+    </task>
+    <task id="LOCAL-00136" summary="mongo">
+      <created>1554982902726</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982902726</updated>
+    </task>
+    <task id="LOCAL-00137" summary="mongo">
+      <created>1554982929660</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982929660</updated>
+    </task>
+    <task id="LOCAL-00138" summary="mongo">
+      <created>1554982947929</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982947929</updated>
+    </task>
+    <task id="LOCAL-00139" summary="mongo">
+      <created>1554982977559</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982977559</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63605000" />
+    <option name="totallyTimeSpent" value="63859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="779" y="32" width="1071" height="998" extended-state="0" />
@@ -1241,8 +1241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mongo/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
