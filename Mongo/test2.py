@@ -8,3 +8,4 @@ MONGO = mongo_client["test"]
 res = list(MONGO.userinfo.find({ }))
 print(res)
 
+
