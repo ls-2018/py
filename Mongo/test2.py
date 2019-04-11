@@ -7,5 +7,3 @@ MONGO = mongo_client["test"]
 # 查询数据
 res = list(MONGO.userinfo.find({}))
 print(res)
-
-
