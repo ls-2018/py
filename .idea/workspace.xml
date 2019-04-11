@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mongo/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mongo/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mongo/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mongo/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -381,34 +380,7 @@
       <workItem from="1554970755290" duration="651000" />
       <workItem from="1554977923181" duration="599000" />
       <workItem from="1554979982321" duration="27000" />
-    </task>
-    <task id="LOCAL-00076" summary="滑动验证.py">
-      <created>1554727829743</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1554727829743</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Flask">
-      <created>1554775239376</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1554775239378</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Flask">
-      <created>1554775267302</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1554775267302</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Flask">
-      <created>1554775397401</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1554775397401</updated>
+      <workItem from="1554982490762" duration="236000" />
     </task>
     <task id="LOCAL-00080" summary="Flask">
       <created>1554775923414</created>
@@ -725,16 +697,45 @@
       <option name="project" value="LOCAL" />
       <updated>1554957474318</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="html5plus">
+      <created>1554982522543</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982522544</updated>
+    </task>
+    <task id="LOCAL-00126" summary="mongo">
+      <created>1554982577309</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982577309</updated>
+    </task>
+    <task id="LOCAL-00127" summary="mongo">
+      <created>1554982618418</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982618418</updated>
+    </task>
+    <task id="LOCAL-00128" summary="mongo">
+      <created>1554982696132</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1554982696132</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63365000" />
+    <option name="totallyTimeSpent" value="63605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="779" y="32" width="1071" height="998" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1119403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20969337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -747,7 +748,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50686276" side_tool="true" weight="0.36091954" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50686276" side_tool="true" visible="true" weight="0.3607143" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49337748" weight="0.24721603" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -796,11 +797,12 @@
     <MESSAGE value="语法分析" />
     <MESSAGE value="文字识别" />
     <MESSAGE value="pymongo" />
-    <MESSAGE value="mongo" />
     <MESSAGE value="移动app" />
     <MESSAGE value="数据清洗" />
     <MESSAGE value="智能玩具" />
-    <option name="LAST_COMMIT_MESSAGE" value="智能玩具" />
+    <MESSAGE value="html5plus" />
+    <MESSAGE value="mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1241,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mongo/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
