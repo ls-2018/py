@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>6666666</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/mui.css" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">正在播放-<span id="title"></span></h1>
+		</header>
+		<div class="mui-content">
+			<div class="mui-row" style="text-align: center;margin-top: 15px;">
+				<img id="cover" src="" style="width: 250px;height: 250px; border-radius: 50%;" />
+			</div>
+			<button type="button" class="mui-btn mui-btn-yellow mui-btn-block" id="pause">暂停</button>
+			<button type="button" class="mui-btn mui-btn-green mui-btn-block" id="resume">继续播放</button>
+			<button type="button" class="mui-btn mui-btn-red mui-btn-block" id="stop">停止</button>
+			<button type="button" class="mui-btn mui-btn-grey mui-btn-block" id="restart">重新开始</button>
+			<button type="button" class="mui-btn mui-btn-blue mui-btn-block" id="send_music">将歌曲发送给玩具</button>
+		</div>
+
+	</body>
+	<script src="js/mui.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		mui.init();
+		var Sdata = null;
+		var player = null;
+		mui.plusReady(function() {
+			Sdata = plus.webview.currentWebview();
+			document.getElementById("title").innerText = Sdata.title;
+			document.getElementById("cover").src = window.serv_image + Sdata.cover;
+			player = plus.audio.createPlayer(window.serv_audio + Sdata.audio);
+			player.play();
+		})
+
+		document.getElementById('pause').addEventListener('tap', function() {
+			player.pause();
+		})
+
+		document.getElementById('resume').addEventListener('tap', function() {
+			player.resume();
+		})
+		
+		document.getElementById('stop').addEventListener('tap', function() {
+			player.stop();
+		})
+		
+		document.getElementById('restart').addEventListener('tap', function() {
+			player.play();
+		})
+		
+		document.getElementById('send_music').addEventListener('tap',function () {
+			var index = plus.webview.getWebviewById("HBuilder");
+		    mui.fire(index,"send_music",{"to_user":"toy123","music":window.serv_audio + Sdata.audio})
+		})
+		
+	</script>
+
+</html>

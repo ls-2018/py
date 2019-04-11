@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html5plus/KingEight/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5plus/KingEight/xiaopapa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5plus/NBtuxingsun.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5plus/KingEight/xiaopapa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="274">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -101,8 +99,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="669" />
-    <option name="y" value="302" />
+    <option name="x" value="460" />
+    <option name="y" value="216" />
     <option name="width" value="1227" />
     <option name="height" value="632" />
   </component>
@@ -126,12 +124,6 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="html5plus" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="html5plus" type="462c0819:PsiDirectoryNode" />
-              <item name="KingEight" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,15 +139,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\html5plus" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\html5plus" />
       <recent name="D:\Destop\book\爬虫\utils" />
       <recent name="D:\Destop\book\爬虫\怕漫画\utils" />
       <recent name="D:\Destop\book\爬虫" />
       <recent name="D:\Destop\book\百度AI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\html5plus" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,21 +388,7 @@
       <workItem from="1554896012713" duration="647000" />
       <workItem from="1554899115605" duration="2803000" />
       <workItem from="1554938372018" duration="1965000" />
-      <workItem from="1554950069868" duration="598000" />
-    </task>
-    <task id="LOCAL-00073" summary="滑动验证">
-      <created>1554726537636</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1554726537636</updated>
-    </task>
-    <task id="LOCAL-00074" summary="滑动验证">
-      <created>1554727288725</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1554727288725</updated>
+      <workItem from="1554950069868" duration="1634000" />
     </task>
     <task id="LOCAL-00075" summary="滑动验证">
       <created>1554727787756</created>
@@ -741,17 +719,30 @@
       <option name="project" value="LOCAL" />
       <updated>1554904336866</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="智能玩具">
+      <created>1554956232624</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1554956232626</updated>
+    </task>
+    <task id="LOCAL-00123" summary="智能玩具">
+      <created>1554956337694</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1554956337694</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61018000" />
+    <option name="totallyTimeSpent" value="62054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="460" y="216" width="1227" height="632" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108208954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1739503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -816,7 +807,8 @@
     <MESSAGE value="mongo" />
     <MESSAGE value="移动app" />
     <MESSAGE value="数据清洗" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据清洗" />
+    <MESSAGE value="智能玩具" />
+    <option name="LAST_COMMIT_MESSAGE" value="智能玩具" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1250,8 +1242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5plus/KingEight/xiaopapa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="274">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
