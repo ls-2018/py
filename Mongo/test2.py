@@ -10,4 +10,3 @@ print(res)
 res = MONGO.userinfo.insert_one({'name':"zhangsan "})
 print(res)
 
-
