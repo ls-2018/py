@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5plus/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/html5plus/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5plus/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -180,8 +181,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="160" />
+    <option name="x" value="1009" />
+    <option name="y" value="168" />
     <option name="width" value="689" />
     <option name="height" value="819" />
   </component>
@@ -413,14 +414,8 @@
       <workItem from="1555026523282" duration="1593000" />
       <workItem from="1555033598492" duration="334000" />
       <workItem from="1555057609408" duration="2808000" />
-      <workItem from="1555070802836" duration="845000" />
-    </task>
-    <task id="LOCAL-00112" summary="移动app">
-      <created>1554885491606</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1554885491606</updated>
+      <workItem from="1555070802836" duration="897000" />
+      <workItem from="1555073777328" duration="601000" />
     </task>
     <task id="LOCAL-00113" summary="数据清洗">
       <created>1554900576256</created>
@@ -758,17 +753,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555071875941</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="html5plus">
+      <created>1555071895481</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071895481</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70357000" />
+    <option name="totallyTimeSpent" value="71010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="160" width="689" height="819" extended-state="0" />
+    <frame x="1009" y="168" width="689" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31319556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3227345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1242,8 +1244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5plus/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
