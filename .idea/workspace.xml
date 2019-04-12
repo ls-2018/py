@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html5plus/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5plus/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -414,77 +413,7 @@
       <workItem from="1555026523282" duration="1593000" />
       <workItem from="1555033598492" duration="334000" />
       <workItem from="1555057609408" duration="2808000" />
-      <workItem from="1555070802836" duration="601000" />
-    </task>
-    <task id="LOCAL-00102" summary="pymongo">
-      <created>1554871202354</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1554871202354</updated>
-    </task>
-    <task id="LOCAL-00103" summary="pymongo">
-      <created>1554871417672</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1554871417672</updated>
-    </task>
-    <task id="LOCAL-00104" summary="pymongo">
-      <created>1554871662534</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1554871662534</updated>
-    </task>
-    <task id="LOCAL-00105" summary="pymongo">
-      <created>1554872653114</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1554872653114</updated>
-    </task>
-    <task id="LOCAL-00106" summary="pymongo">
-      <created>1554873722551</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1554873722551</updated>
-    </task>
-    <task id="LOCAL-00107" summary="pymongo">
-      <created>1554873903003</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1554873903003</updated>
-    </task>
-    <task id="LOCAL-00108" summary="移动app">
-      <created>1554883752953</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1554883752954</updated>
-    </task>
-    <task id="LOCAL-00109" summary="移动app">
-      <created>1554883825129</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1554883825129</updated>
-    </task>
-    <task id="LOCAL-00110" summary="移动app">
-      <created>1554883866839</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1554883866839</updated>
-    </task>
-    <task id="LOCAL-00111" summary="mongo">
-      <created>1554883935237</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1554883935237</updated>
+      <workItem from="1555070802836" duration="845000" />
     </task>
     <task id="LOCAL-00112" summary="移动app">
       <created>1554885491606</created>
@@ -759,17 +688,87 @@
       <option name="project" value="LOCAL" />
       <updated>1555059210490</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="html5plus">
+      <created>1555071663731</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071663732</updated>
+    </task>
+    <task id="LOCAL-00152" summary="html5plus">
+      <created>1555071702331</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071702331</updated>
+    </task>
+    <task id="LOCAL-00153" summary="html5plus">
+      <created>1555071726924</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071726924</updated>
+    </task>
+    <task id="LOCAL-00154" summary="html5plus">
+      <created>1555071744380</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071744380</updated>
+    </task>
+    <task id="LOCAL-00155" summary="html5plus">
+      <created>1555071766131</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071766131</updated>
+    </task>
+    <task id="LOCAL-00156" summary="html5plus">
+      <created>1555071785834</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071785834</updated>
+    </task>
+    <task id="LOCAL-00157" summary="html5plus">
+      <created>1555071815646</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071815646</updated>
+    </task>
+    <task id="LOCAL-00158" summary="html5plus">
+      <created>1555071839561</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071839561</updated>
+    </task>
+    <task id="LOCAL-00159" summary="html5plus">
+      <created>1555071859412</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071859412</updated>
+    </task>
+    <task id="LOCAL-00160" summary="html5plus">
+      <created>1555071875941</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1555071875941</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70113000" />
+    <option name="totallyTimeSpent" value="70357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="160" width="471" height="819" extended-state="0" />
+    <frame x="76" y="160" width="689" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09245742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31319556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -835,9 +834,9 @@
     <MESSAGE value="移动app" />
     <MESSAGE value="数据清洗" />
     <MESSAGE value="智能玩具" />
-    <MESSAGE value="html5plus" />
     <MESSAGE value="mongo" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongo" />
+    <MESSAGE value="html5plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="html5plus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1243,8 +1242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5plus/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
