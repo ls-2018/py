@@ -3,7 +3,7 @@ from gensim import corpora
 from gensim import models
 from gensim import similarities
 
-l1 = ["你的名字是什么", "你今年几岁了", "你有多高你胸多大", "你胸多大"]
+l1 = ["你的名字是什么", "你今年几岁了", "你有多高你胸多大", "你胸多大" ]
 a = "你今年多大了"
 
 all_doc_list = []
@@ -36,6 +36,18 @@ print("corpus", corpus, type(corpus))
 doc_test_vec = dictionary.doc2bow(doc_test_list)
 print("doc_test_vec", doc_test_vec, type(doc_test_vec))
 
+
+
+
+
+
+
+
+
+
+
+
+
 # 将corpus语料库(初识语料库) 使用Lsi模型进行训练
 lsi = models.LsiModel(corpus)
 # 这里的只是需要学习Lsi模型来了解的,这里不做阐述
@@ -49,6 +61,9 @@ print("lsi[doc_test_vec]", lsi[doc_test_vec])
 # 稀疏矩阵相似度 将 主 语料库corpus的训练结果 作为初始值
 index = similarities.SparseMatrixSimilarity(lsi[corpus], num_features=len(dictionary.keys()))
 print("index", index, type(index))
+
+# 边长\面积\形状...
+
 
 # 将 语料库doc_test_vec 在 语料库corpus的训练结果 中的 向量表示 与 语料库corpus的 向量表示 做矩阵相似度计算
 sim = index[lsi[doc_test_vec]]
@@ -64,3 +79,8 @@ text = l1[cc[0][0]]
 
 print(a,text)
 
+
+all_doc_list = [['你', '的', '名字', '是', '什么'], ['你', '今年', '几岁', '了'], ['你', '有', '多', '高', '你', '胸多大'], ['你', '胸多大']]
+doc_test_list = ['你', '今年', '多大', '了']
+corpus = [[(0, 1), (1, 1), (2, 1), (3, 1), (4, 1)], [(1, 1), (5, 1), (6, 1), (7, 1)], [(1, 2), (8, 1), (9, 1), (10, 1), (11, 1)], [(1, 1), (10, 1)]]
+doc_test_vec = [(1, 1), (5, 1), (6, 1)]
