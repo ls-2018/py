@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/爬虫/叶辰.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mongo/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mongo/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +22,7 @@
     <SUITE FILE_PATH="coverage/book$connection.coverage" NAME="connection Coverage Results" MODIFIED="1555033896070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mongo" />
     <SUITE FILE_PATH="coverage/book$main.coverage" NAME="main Coverage Results" MODIFIED="1554782047526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/怕漫画" />
     <SUITE FILE_PATH="coverage/book$PJS.coverage" NAME="PJS Coverage Results" MODIFIED="1554727819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="语法分析 Coverage Results" MODIFIED="1554781425756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度AI" />
+    <SUITE FILE_PATH="coverage/book$.coverage" NAME="叶辰 Coverage Results" MODIFIED="1555125278834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/book$x.coverage" NAME="x Coverage Results" MODIFIED="1554524496052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/七牛云" />
   </component>
   <component name="DatabaseView">
@@ -40,7 +40,29 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬虫/叶辰.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/123.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,12 +114,13 @@
         <option value="$PROJECT_DIR$/html5plus/KingEight/settings.py" />
         <option value="$PROJECT_DIR$/html5plus/test.py" />
         <option value="$PROJECT_DIR$/Mongo/test2.py" />
+        <option value="$PROJECT_DIR$/爬虫/叶辰.py" />
+        <option value="$PROJECT_DIR$/爬虫/123.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="520" />
-    <option name="y" value="76" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
     <option name="width" value="1051" />
     <option name="height" value="926" />
   </component>
@@ -109,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,22 +142,13 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="html5plus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Python程序员面试算法宝典" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="rest_ful" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +184,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
+  <component name="RunManager" selected="Python.叶辰">
+    <configuration name="叶辰" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/叶辰.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,35 +295,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xiaopapa" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/html5plus/KingEight" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/html5plus/KingEight/xiaopapa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.叶辰" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.connection" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.xiaopapa" />
       </list>
     </recent_temporary>
   </component>
@@ -344,6 +357,7 @@
       <workItem from="1555073777328" duration="601000" />
       <workItem from="1555111546768" duration="718000" />
       <workItem from="1555119167236" duration="1256000" />
+      <workItem from="1555123236333" duration="2037000" />
     </task>
     <task id="LOCAL-00115" summary="数据清洗">
       <created>1554903674082</created>
@@ -692,17 +706,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72984000" />
+    <option name="totallyTimeSpent" value="75021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="76" width="1051" height="926" extended-state="0" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3220339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17254274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49313724" weight="0.3600605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49252242" visible="true" weight="0.38932148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -710,7 +725,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5074925" side_tool="true" visible="true" weight="0.39248705" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5074776" side_tool="true" weight="0.35880828" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49266863" weight="0.40600666" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -874,11 +889,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python35/Lib/site-packages/flask_session/__init__.py" />
-    <entry file="file://D:/Python35/Lib/site-packages/flask/__init__.py" />
-    <entry file="file://D:/Python35/Lib/site-packages/wtforms/validators.py" />
-    <entry file="file://$PROJECT_DIR$/x" />
-    <entry file="file://$PROJECT_DIR$/123.txt" />
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1072250519/_struct.py" />
     <entry file="file://$PROJECT_DIR$/Flask－/Wtforms__--.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1013,30 +1023,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/my_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/KingEight/xiaopapa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/KingEight/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/html5plus/my_app.py" />
+    <entry file="file://$PROJECT_DIR$/html5plus/KingEight/xiaopapa.py" />
+    <entry file="file://$PROJECT_DIR$/html5plus/KingEight/settings.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/bson/code.py" />
     <entry file="file://$PROJECT_DIR$/爬虫/PJS.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1079,13 +1068,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/html5plus/test.py" />
     <entry file="file://$PROJECT_DIR$/爬虫/滑动验证.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -1103,6 +1086,38 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/xml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/xml/etree/ElementPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/xml/etree/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/叶辰.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/123.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
