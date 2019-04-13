@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Flask－/x.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/测试自动化/data_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask－/_trial_temp/_trial_marker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask－/_trial_temp/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask－/my_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/测试自动化/my_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask－/unittest_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试自动化/unittest_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask－/x.py" beforeDir="false" afterPath="$PROJECT_DIR$/测试自动化/x.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,9 @@
     <SUITE FILE_PATH="coverage/book$.coverage" NAME="语法分析 Coverage Results" MODIFIED="1554781425756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度AI" />
     <SUITE FILE_PATH="coverage/book$main.coverage" NAME="main Coverage Results" MODIFIED="1554782047526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/怕漫画" />
     <SUITE FILE_PATH="coverage/book$PJS.coverage" NAME="PJS Coverage Results" MODIFIED="1554727819768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_data_test_DataTest.coverage" NAME="Twisted Trial for data_test.DataTest Coverage Results" MODIFIED="1555162489210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试自动化" />
     <SUITE FILE_PATH="coverage/book$connection.coverage" NAME="connection Coverage Results" MODIFIED="1555033896070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mongo" />
-    <SUITE FILE_PATH="coverage/book$Twisted_Trial_in__py.coverage" NAME="Twisted Trial in x.py Coverage Results" MODIFIED="1555161176780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
+    <SUITE FILE_PATH="coverage/book$Twisted_Trial_in__py.coverage" NAME="Twisted Trial in x.py Coverage Results" MODIFIED="1555161871760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
     <SUITE FILE_PATH="coverage/book$my_app.coverage" NAME="my_app Coverage Results" MODIFIED="1554885447827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus" />
     <SUITE FILE_PATH="coverage/book$x.coverage" NAME="x Coverage Results" MODIFIED="1554524496052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/七牛云" />
     <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_unittest_1_MyClassTest.coverage" NAME="Twisted Trial for unittest_1.MyClassTest Coverage Results" MODIFIED="1555159385301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
@@ -29,6 +31,7 @@
     <SUITE FILE_PATH="coverage/book$xiaopapa.coverage" NAME="xiaopapa Coverage Results" MODIFIED="1554940979589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus/KingEight" />
     <SUITE FILE_PATH="coverage/book$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1555066349028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus" />
     <SUITE FILE_PATH="coverage/book$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1555033966342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mongo" />
+    <SUITE FILE_PATH="coverage/book$Twisted_Trial_in_data_test_py.coverage" NAME="Twisted Trial in data_test.py Coverage Results" MODIFIED="1555162391572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试自动化" />
     <SUITE FILE_PATH="coverage/book$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1555033812086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mongo" />
   </component>
   <component name="DatabaseView">
@@ -48,7 +51,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flask－/unittest_1.py">
+        <entry file="file://$PROJECT_DIR$/测试自动化/unittest_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="12" column="32" selection-end-line="22" />
@@ -59,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Flask－/x.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/测试自动化/x.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="100">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -71,8 +74,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/测试自动化/data_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flask－/my_report.html">
+        <entry file="file://$PROJECT_DIR$/测试自动化/my_report.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
@@ -157,14 +172,16 @@
         <option value="$PROJECT_DIR$/Flask－/unittest_1.py" />
         <option value="$PROJECT_DIR$/Flask－/异常信息补货.py" />
         <option value="$PROJECT_DIR$/Flask－/x.py" />
+        <option value="$PROJECT_DIR$/测试自动化/数据驱动.py" />
+        <option value="$PROJECT_DIR$/测试自动化/data_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="704" />
-    <option name="y" value="44" />
-    <option name="width" value="1249" />
-    <option name="height" value="868" />
+    <option name="x" value="1028" />
+    <option name="y" value="-3" />
+    <option name="width" value="925" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -192,18 +209,8 @@
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="测试自动化" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,11 +229,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\测试自动化" />
       <recent name="D:\Destop\book\html5plus" />
       <recent name="D:\Destop\book\爬虫\utils" />
       <recent name="D:\Destop\book\爬虫\怕漫画\utils" />
       <recent name="D:\Destop\book\爬虫" />
-      <recent name="D:\Destop\book\百度AI" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python36\Lib" />
@@ -247,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Twisted Trial in x.py">
+  <component name="RunManager" selected="Python tests.Twisted Trial for data_test.DataTest">
     <configuration name="分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,22 +277,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Twisted Trial for 异常信息补货.MyClassTest.test_add" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+    <configuration name="Twisted Trial for 测试自动化.data_test" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask－" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试自动化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;异常信息补货.MyClassTest.test_add&quot;" />
+      <option name="_new_target" value="&quot;测试自动化.data_test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Twisted Trial for unittest_1.MyClassTest" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+    <configuration name="Twisted Trial for 测试自动化.x.MyClassTest.test_add" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,37 +303,37 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittest_1.MyClassTest&quot;" />
+      <option name="_new_target" value="&quot;测试自动化.x.MyClassTest.test_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Twisted Trial for x.MyClassTest.test_add" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+    <configuration name="Twisted Trial for data_test.DataTest" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask－" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试自动化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;x.MyClassTest.test_add&quot;" />
+      <option name="_new_target" value="&quot;data_test.DataTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Twisted Trial in unittest_1.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+    <configuration name="Twisted Trial in data_test.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask－" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试自动化" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Flask－/unittest_1.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/测试自动化/data_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -341,17 +348,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Flask－/x.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/测试自动化/x.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Twisted Trial for data_test.DataTest" />
+        <item itemvalue="Python tests.Twisted Trial in data_test.py" />
+        <item itemvalue="Python tests.Twisted Trial for 测试自动化.data_test" />
         <item itemvalue="Python tests.Twisted Trial in x.py" />
-        <item itemvalue="Python tests.Twisted Trial for x.MyClassTest.test_add" />
-        <item itemvalue="Python tests.Twisted Trial for 异常信息补货.MyClassTest.test_add" />
-        <item itemvalue="Python tests.Twisted Trial in unittest_1.py" />
-        <item itemvalue="Python tests.Twisted Trial for unittest_1.MyClassTest" />
+        <item itemvalue="Python tests.Twisted Trial for 测试自动化.x.MyClassTest.test_add" />
       </list>
     </recent_temporary>
   </component>
@@ -408,14 +415,7 @@
       <workItem from="1555111546768" duration="718000" />
       <workItem from="1555119167236" duration="1256000" />
       <workItem from="1555123236333" duration="11856000" />
-      <workItem from="1555158171803" duration="2969000" />
-    </task>
-    <task id="LOCAL-00125" summary="html5plus">
-      <created>1554982522543</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982522544</updated>
+      <workItem from="1555158171803" duration="4284000" />
     </task>
     <task id="LOCAL-00126" summary="mongo">
       <created>1554982577309</created>
@@ -753,28 +753,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555159953832</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="异常捕获">
+      <created>1555161252818</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1555161252818</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Twisted_Trial_in_异常信息补货_py - 2019.04.13 at 21h 04m 51s.xml">
-      <configuration name="Twisted Trial in 异常信息补货.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Twisted_Trial_in_异常信息补货_py - 2019.04.13 at 21h 04m 58s.xml">
-      <configuration name="Twisted Trial in 异常信息补货.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Twisted_Trial_in_x_py - 2019.04.13 at 21h 05m 13s.xml">
-      <configuration name="Twisted Trial in x.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Twisted_Trial_for_x_MyClassTest_test_add - 2019.04.13 at 21h 05m 22s.xml">
-      <configuration name="Twisted Trial for x.MyClassTest.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Twisted_Trial_for_x_MyClassTest_test_add - 2019.04.13 at 21h 05m 34s.xml">
-      <configuration name="Twisted Trial for x.MyClassTest.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Twisted_Trial_for_x_MyClassTest_test_add - 2019.04.13 at 21h 11m 20s.xml">
-      <configuration name="Twisted Trial for x.MyClassTest.test_add" configurationId="tests" />
-    </history-entry>
     <history-entry file="Twisted_Trial_for_x_MyClassTest_test_add - 2019.04.13 at 21h 11m 31s.xml">
       <configuration name="Twisted Trial for x.MyClassTest.test_add" configurationId="tests" />
     </history-entry>
@@ -787,19 +776,38 @@
     <history-entry file="Twisted_Trial_for_x_MyClassTest_test_add - 2019.04.13 at 21h 12m 18s.xml">
       <configuration name="Twisted Trial for x.MyClassTest.test_add" configurationId="tests" />
     </history-entry>
+    <history-entry file="Twisted_Trial_in_x_py - 2019.04.13 at 21h 12m 58s.xml">
+      <configuration name="Twisted Trial in x.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_x_py - 2019.04.13 at 21h 24m 33s.xml">
+      <configuration name="Twisted Trial in x.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_data_test_DataTest - 2019.04.13 at 21h 31m 58s.xml">
+      <configuration name="Twisted Trial for data_test.DataTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_data_test_py - 2019.04.13 at 21h 32m 05s.xml">
+      <configuration name="Twisted Trial in data_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_data_test_py - 2019.04.13 at 21h 33m 13s.xml">
+      <configuration name="Twisted Trial in data_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_data_test_DataTest - 2019.04.13 at 21h 34m 10s.xml">
+      <configuration name="Twisted Trial for data_test.DataTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87810000" />
+    <option name="totallyTimeSpent" value="89125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="704" y="44" width="1249" height="868" extended-state="0" />
+    <frame x="1028" y="-3" width="925" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25231287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3468208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49128205" visible="true" weight="0.44507042" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.490328" visible="true" weight="0.38132733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -807,8 +815,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50871795" side_tool="true" weight="0.34033614" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49102134" weight="0.3197183" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.509672" side_tool="true" weight="0.5112676" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.490328" weight="0.3982002" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -867,7 +875,8 @@
     <MESSAGE value="分词" />
     <MESSAGE value="制作语料库" />
     <MESSAGE value="unittest" />
-    <option name="LAST_COMMIT_MESSAGE" value="unittest" />
+    <MESSAGE value="异常捕获" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常捕获" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,16 +985,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Flask－/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据清洗/总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1209,14 +1208,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask－/my_report.html">
+    <entry file="file://$PROJECT_DIR$/测试自动化/my_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask－/unittest_1.py">
+    <entry file="file://$PROJECT_DIR$/测试自动化/unittest_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="32" selection-end-line="22" />
@@ -1226,12 +1225,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Flask－/x.py">
+    <entry file="file://$PROJECT_DIR$/测试自动化/x.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="100">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试自动化/data_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
