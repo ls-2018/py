@@ -11,6 +11,7 @@ class DataTest(unittest.TestCase):
         print('========')
 
     @ddt.data([1, 2], [3, 4], [5, 6])
+
     @ddt.unpack
     def test_add(self, a, b):
         print(a + b)
