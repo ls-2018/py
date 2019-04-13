@@ -1,6 +1,6 @@
 import jieba
 
-jieba.add_world('xx')# 在词库添加一个词,前提得符合逻辑
+jieba.add_word('我来到')# 在词库添加一个词,前提得符合逻辑
 seg_list = jieba.cut('我来到北京清华大学', cut_all=True)  # 全模式
 print(type(seg_list))
 print(list(seg_list))
