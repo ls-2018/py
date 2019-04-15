@@ -152,11 +152,6 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -403,21 +398,7 @@
       <workItem from="1555298064476" duration="6641000" />
       <workItem from="1555311017079" duration="5515000" />
       <workItem from="1555318867266" duration="132000" />
-      <workItem from="1555327778549" duration="5323000" />
-    </task>
-    <task id="LOCAL-00148" summary="mongo">
-      <created>1555059169838</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1555059169838</updated>
-    </task>
-    <task id="LOCAL-00149" summary="mongo">
-      <created>1555059192656</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1555059192656</updated>
+      <workItem from="1555327778549" duration="6707000" />
     </task>
     <task id="LOCAL-00150" summary="mongo">
       <created>1555059210490</created>
@@ -748,7 +729,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555333684051</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="蒙特卡罗">
+      <created>1555333961640</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1555333961641</updated>
+    </task>
+    <task id="LOCAL-00198" summary="蒙特卡罗">
+      <created>1555335144886</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1555335144886</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -784,7 +779,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115634000" />
+    <option name="totallyTimeSpent" value="117018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,9 +806,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5120818" side_tool="true" weight="0.45197046" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51301116" side_tool="true" visible="true" weight="0.4507389" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48791823" visible="true" weight="0.4507389" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48698884" visible="true" weight="0.4507389" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -850,7 +845,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Flask" />
     <MESSAGE value="语法分析" />
     <MESSAGE value="文字识别" />
     <MESSAGE value="pymongo" />
@@ -875,7 +869,8 @@
     <MESSAGE value="KNN分类" />
     <MESSAGE value="PCA主成分分析" />
     <MESSAGE value="K-means聚类" />
-    <option name="LAST_COMMIT_MESSAGE" value="K-means聚类" />
+    <MESSAGE value="蒙特卡罗" />
+    <option name="LAST_COMMIT_MESSAGE" value="蒙特卡罗" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
