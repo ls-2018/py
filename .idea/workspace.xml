@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="数据驱动">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/正态性分析-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/正态性分析-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/正态性分析.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/正态性分析.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="250">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -162,8 +158,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="684" />
-    <option name="y" value="93" />
+    <option name="x" value="871" />
+    <option name="y" value="65" />
     <option name="width" value="1136" />
     <option name="height" value="970" />
   </component>
@@ -505,21 +501,7 @@
       <workItem from="1555294630839" duration="585000" />
       <workItem from="1555295243981" duration="520000" />
       <workItem from="1555295896414" duration="47000" />
-      <workItem from="1555298064476" duration="1197000" />
-    </task>
-    <task id="LOCAL-00131" summary="mongo">
-      <created>1554982772786</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982772786</updated>
-    </task>
-    <task id="LOCAL-00132" summary="mongo">
-      <created>1554982800545</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982800545</updated>
+      <workItem from="1555298064476" duration="2718000" />
     </task>
     <task id="LOCAL-00133" summary="mongo">
       <created>1554982830004</created>
@@ -850,7 +832,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555291212982</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="数据驱动">
+      <created>1555299275830</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1555299275831</updated>
+    </task>
+    <task id="LOCAL-00181" summary="数据驱动">
+      <created>1555299553174</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1555299553175</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -886,7 +882,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99220000" />
+    <option name="totallyTimeSpent" value="100741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="684" y="93" width="1136" height="970" extended-state="0" />
@@ -905,7 +901,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5120818" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5120818" side_tool="true" weight="0.45197046" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48791823" visible="true" weight="0.45197046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1325,8 +1321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="250">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
