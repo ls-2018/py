@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/Untitled.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,12 +156,6 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,21 +403,7 @@
       <workItem from="1555298064476" duration="6641000" />
       <workItem from="1555311017079" duration="5515000" />
       <workItem from="1555318867266" duration="132000" />
-      <workItem from="1555327778549" duration="4437000" />
-    </task>
-    <task id="LOCAL-00146" summary="mongo">
-      <created>1555058959604</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1555058959604</updated>
-    </task>
-    <task id="LOCAL-00147" summary="mongo">
-      <created>1555059010208</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1555059010208</updated>
+      <workItem from="1555327778549" duration="5323000" />
     </task>
     <task id="LOCAL-00148" summary="mongo">
       <created>1555059169838</created>
@@ -755,7 +734,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555332148321</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="K-means聚类">
+      <created>1555332992437</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1555332992437</updated>
+    </task>
+    <task id="LOCAL-00196" summary="K-means聚类">
+      <created>1555333684051</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1555333684051</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -791,7 +784,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114748000" />
+    <option name="totallyTimeSpent" value="115634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -857,7 +850,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="滑动验证.py" />
     <MESSAGE value="Flask" />
     <MESSAGE value="语法分析" />
     <MESSAGE value="文字识别" />
@@ -882,7 +874,8 @@
     <MESSAGE value="回归" />
     <MESSAGE value="KNN分类" />
     <MESSAGE value="PCA主成分分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="PCA主成分分析" />
+    <MESSAGE value="K-means聚类" />
+    <option name="LAST_COMMIT_MESSAGE" value="K-means聚类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
