@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="异常数据处理">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/异常数据处理-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/异常数据处理-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/异常数据处理.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/异常数据处理.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="数据归一化" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +156,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1166" />
-    <option name="y" value="62" />
+    <option name="x" value="884" />
+    <option name="y" value="58" />
     <option name="width" value="1136" />
     <option name="height" value="970" />
   </component>
@@ -503,14 +499,7 @@
       <workItem from="1555294630839" duration="585000" />
       <workItem from="1555295243981" duration="520000" />
       <workItem from="1555295896414" duration="47000" />
-      <workItem from="1555298064476" duration="4953000" />
-    </task>
-    <task id="LOCAL-00136" summary="mongo">
-      <created>1554982902726</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982902726</updated>
+      <workItem from="1555298064476" duration="6365000" />
     </task>
     <task id="LOCAL-00137" summary="mongo">
       <created>1554982929660</created>
@@ -848,7 +837,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555305064191</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="异常数据处理">
+      <created>1555305887727</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1555305887727</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -884,11 +880,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102976000" />
+    <option name="totallyTimeSpent" value="104388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1166" y="62" width="1136" height="970" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27137548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -942,7 +937,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="七牛云" />
     <MESSAGE value="加密数据爬取" />
     <MESSAGE value="乱码" />
     <MESSAGE value="验证码识别" />
@@ -967,7 +961,8 @@
     <MESSAGE value="数据驱动" />
     <MESSAGE value="数据处理" />
     <MESSAGE value="异常数据处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="异常数据处理" />
+    <MESSAGE value="数据归一化" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据归一化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
