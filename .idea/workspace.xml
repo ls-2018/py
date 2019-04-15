@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/PCA主成分分析-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/PCA主成分分析-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/PCA主成分分析.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/PCA主成分分析.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -409,21 +411,7 @@
       <workItem from="1555298064476" duration="6641000" />
       <workItem from="1555311017079" duration="5515000" />
       <workItem from="1555318867266" duration="132000" />
-      <workItem from="1555327778549" duration="2530000" />
-    </task>
-    <task id="LOCAL-00143" summary="mongo">
-      <created>1555058907977</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1555058907977</updated>
-    </task>
-    <task id="LOCAL-00144" summary="mongo">
-      <created>1555058925841</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1555058925841</updated>
+      <workItem from="1555327778549" duration="3598000" />
     </task>
     <task id="LOCAL-00145" summary="mongo">
       <created>1555058942865</created>
@@ -754,7 +742,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555317937198</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="PCA主成分分析">
+      <created>1555331085694</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1555331085696</updated>
+    </task>
+    <task id="LOCAL-00193" summary="PCA主成分分析">
+      <created>1555331674523</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1555331674524</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -790,7 +792,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112841000" />
+    <option name="totallyTimeSpent" value="113909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,7 +858,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="滑动验证" />
     <MESSAGE value="滑动验证.py" />
     <MESSAGE value="Flask" />
     <MESSAGE value="语法分析" />
@@ -881,7 +882,8 @@
     <MESSAGE value="数学建模" />
     <MESSAGE value="回归" />
     <MESSAGE value="KNN分类" />
-    <option name="LAST_COMMIT_MESSAGE" value="KNN分类" />
+    <MESSAGE value="PCA主成分分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="PCA主成分分析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
