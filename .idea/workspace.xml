@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="数据驱动">
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="异常数据处理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/异常数据处理-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/.ipynb_checkpoints/异常数据处理-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/异常数据处理.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/异常数据处理.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="200">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -158,8 +160,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="871" />
-    <option name="y" value="65" />
+    <option name="x" value="1166" />
+    <option name="y" value="62" />
     <option name="width" value="1136" />
     <option name="height" value="970" />
   </component>
@@ -501,28 +503,7 @@
       <workItem from="1555294630839" duration="585000" />
       <workItem from="1555295243981" duration="520000" />
       <workItem from="1555295896414" duration="47000" />
-      <workItem from="1555298064476" duration="2718000" />
-    </task>
-    <task id="LOCAL-00133" summary="mongo">
-      <created>1554982830004</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982830005</updated>
-    </task>
-    <task id="LOCAL-00134" summary="mongo">
-      <created>1554982862548</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982862548</updated>
-    </task>
-    <task id="LOCAL-00135" summary="mongo">
-      <created>1554982884793</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1554982884793</updated>
+      <workItem from="1555298064476" duration="4953000" />
     </task>
     <task id="LOCAL-00136" summary="mongo">
       <created>1554982902726</created>
@@ -846,7 +827,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555299553175</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="数据处理">
+      <created>1555303129801</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1555303129801</updated>
+    </task>
+    <task id="LOCAL-00183" summary="数据处理">
+      <created>1555303174746</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1555303174747</updated>
+    </task>
+    <task id="LOCAL-00184" summary="异常数据处理">
+      <created>1555305064190</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1555305064191</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -882,13 +884,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100741000" />
+    <option name="totallyTimeSpent" value="102976000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="684" y="93" width="1136" height="970" extended-state="0" />
+    <frame x="1166" y="62" width="1136" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27137548" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27137548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -903,7 +905,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5120818" side_tool="true" weight="0.45197046" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48791823" visible="true" weight="0.45197046" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.48791823" visible="true" weight="0.45197046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -940,7 +942,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="语音合成" />
     <MESSAGE value="七牛云" />
     <MESSAGE value="加密数据爬取" />
     <MESSAGE value="乱码" />
@@ -964,7 +965,9 @@
     <MESSAGE value="unittest" />
     <MESSAGE value="异常捕获" />
     <MESSAGE value="数据驱动" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据驱动" />
+    <MESSAGE value="数据处理" />
+    <MESSAGE value="异常数据处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常数据处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1321,8 +1324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="200">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
