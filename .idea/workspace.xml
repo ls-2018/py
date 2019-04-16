@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +47,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Flask－/flask-session点.py" />
         <option value="$PROJECT_DIR$/语音合成.py" />
         <option value="$PROJECT_DIR$/百度AI/语音合成.py" />
         <option value="$PROJECT_DIR$/Flask－/Wtforms__--.py" />
@@ -127,12 +137,13 @@
         <option value="$PROJECT_DIR$/数据分析/xx.py" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb" />
+        <option value="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="658" />
-    <option name="y" value="29" />
+    <option name="x" value="566" />
+    <option name="y" value="125" />
     <option name="width" value="1136" />
     <option name="height" value="970" />
   </component>
@@ -427,14 +438,7 @@
       <workItem from="1555327778549" duration="6823000" />
       <workItem from="1555369258549" duration="636000" />
       <workItem from="1555374559839" duration="5791000" />
-      <workItem from="1555382389903" duration="6986000" />
-    </task>
-    <task id="LOCAL-00162" summary="智能玩具">
-      <created>1555119254676</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1555119254685</updated>
+      <workItem from="1555382389903" duration="8472000" />
     </task>
     <task id="LOCAL-00163" summary="智能玩具">
       <created>1555120643839</created>
@@ -772,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555391997002</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="9、直方图">
+      <created>1555392980002</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1555392980002</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -808,7 +819,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130547000" />
+    <option name="totallyTimeSpent" value="132033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +831,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="29" width="1136" height="970" extended-state="0" />
+    <frame x="566" y="125" width="1136" height="970" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3550186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -874,7 +886,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="智能玩具" />
     <MESSAGE value="爬虫" />
     <MESSAGE value="pypinyin" />
     <MESSAGE value="分词" />
@@ -899,7 +910,8 @@
     <MESSAGE value="6、基本图表绘制" />
     <MESSAGE value="7、柱状图、堆叠图" />
     <MESSAGE value="8、面积图、填图、饼图" />
-    <option name="LAST_COMMIT_MESSAGE" value="8、面积图、填图、饼图" />
+    <MESSAGE value="9、直方图" />
+    <option name="LAST_COMMIT_MESSAGE" value="9、直方图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1224,6 +1236,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
