@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="4、刻度、注解、图表输出">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/4、刻度、注解、图表输出.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/4、刻度、注解、图表输出.ipynb" afterDir="false" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/Untitled1.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -428,14 +430,7 @@
       <workItem from="1555327778549" duration="6823000" />
       <workItem from="1555369258549" duration="636000" />
       <workItem from="1555374559839" duration="5791000" />
-      <workItem from="1555382389903" duration="2814000" />
-    </task>
-    <task id="LOCAL-00155" summary="html5plus">
-      <created>1555071766131</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1555071766131</updated>
+      <workItem from="1555382389903" duration="4197000" />
     </task>
     <task id="LOCAL-00156" summary="html5plus">
       <created>1555071785834</created>
@@ -773,7 +768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555385195700</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="5、子图">
+      <created>1555386723365</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386723365</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -809,7 +811,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126375000" />
+    <option name="totallyTimeSpent" value="127758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,9 +838,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5139405" side_tool="true" weight="0.4507389" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51486987" side_tool="true" weight="0.44581282" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4860595" visible="true" weight="0.44581282" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4851301" visible="true" weight="0.44581282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -875,7 +877,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="移动app" />
     <MESSAGE value="数据清洗" />
     <MESSAGE value="mongo" />
     <MESSAGE value="html5plus" />
@@ -900,7 +901,8 @@
     <MESSAGE value=" 风格及调色盘" />
     <MESSAGE value="3、图表的样式参数" />
     <MESSAGE value="4、刻度、注解、图表输出" />
-    <option name="LAST_COMMIT_MESSAGE" value="4、刻度、注解、图表输出" />
+    <MESSAGE value="5、子图" />
+    <option name="LAST_COMMIT_MESSAGE" value="5、子图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
