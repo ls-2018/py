@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part01.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part02.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part03.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/matplotlib各类图表参考文档.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/颜色参数.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,26 +46,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口-checkpoint.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part01.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -451,6 +427,7 @@
       <workItem from="1555327778549" duration="6823000" />
       <workItem from="1555369258549" duration="636000" />
       <workItem from="1555374559839" duration="5791000" />
+      <workItem from="1555382389903" duration="1303000" />
     </task>
     <task id="LOCAL-00153" summary="html5plus">
       <created>1555071726924</created>
@@ -831,7 +808,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123561000" />
+    <option name="totallyTimeSpent" value="124864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,9 +820,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="925" y="-1" width="1136" height="970" extended-state="0" />
+    <frame x="672" y="3" width="1136" height="970" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.60130113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6133829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1231,34 +1208,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/Untitled.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/1_风格及调色盘.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/Untitled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/1_风格及调色盘.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1266,21 +1218,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part01.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part01.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="4" />
