@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="11、极坐标图">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -443,28 +441,7 @@
       <workItem from="1555369258549" duration="636000" />
       <workItem from="1555374559839" duration="5791000" />
       <workItem from="1555382389903" duration="9688000" />
-      <workItem from="1555417694246" duration="572000" />
-    </task>
-    <task id="LOCAL-00165" summary="pypinyin">
-      <created>1555128695063</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1555128695063</updated>
-    </task>
-    <task id="LOCAL-00166" summary="分词">
-      <created>1555129707183</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1555129707187</updated>
-    </task>
-    <task id="LOCAL-00167" summary="分词">
-      <created>1555129830376</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1555129830376</updated>
+      <workItem from="1555417694246" duration="844000" />
     </task>
     <task id="LOCAL-00168" summary="制作语料库">
       <created>1555130832196</created>
@@ -788,7 +765,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555396359598</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="12、箱型图">
+      <created>1555418284986</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1555418284988</updated>
+    </task>
+    <task id="LOCAL-00215" summary="12、箱型图">
+      <created>1555418391079</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1555418391079</updated>
+    </task>
+    <task id="LOCAL-00216" summary="12、箱型图">
+      <created>1555418520056</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1555418520056</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -824,7 +822,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133821000" />
+    <option name="totallyTimeSpent" value="134093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,7 +889,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="分词" />
     <MESSAGE value="制作语料库" />
     <MESSAGE value="unittest" />
     <MESSAGE value="异常捕获" />
@@ -916,7 +913,8 @@
     <MESSAGE value="9、直方图" />
     <MESSAGE value="10、散点图" />
     <MESSAGE value="11、极坐标图" />
-    <option name="LAST_COMMIT_MESSAGE" value="11、极坐标图" />
+    <MESSAGE value="12、箱型图" />
+    <option name="LAST_COMMIT_MESSAGE" value="12、箱型图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
