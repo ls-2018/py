@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="13、表格样式创建">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/.ipynb_checkpoints/15、表格样式调用-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/.ipynb_checkpoints/15、表格样式调用-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -443,21 +444,7 @@
       <workItem from="1555369258549" duration="636000" />
       <workItem from="1555374559839" duration="5791000" />
       <workItem from="1555382389903" duration="9688000" />
-      <workItem from="1555417694246" duration="2363000" />
-    </task>
-    <task id="LOCAL-00170" summary="制作语料库">
-      <created>1555132395148</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1555132395148</updated>
-    </task>
-    <task id="LOCAL-00171" summary="制作语料库">
-      <created>1555133197399</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1555133197399</updated>
+      <workItem from="1555417694246" duration="2842000" />
     </task>
     <task id="LOCAL-00172" summary="制作语料库">
       <created>1555134094265</created>
@@ -788,7 +775,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555419805075</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="14、表格显示控制">
+      <created>1555420073064</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1555420073064</updated>
+    </task>
+    <task id="LOCAL-00220" summary="14、表格显示控制">
+      <created>1555420262567</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1555420262567</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -824,7 +825,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135612000" />
+    <option name="totallyTimeSpent" value="136091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -839,7 +840,7 @@
     <frame x="795" y="-2" width="1136" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36152416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36152416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -852,9 +853,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51486987" side_tool="true" weight="0.44581282" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5157993" side_tool="true" weight="0.44581282" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4851301" visible="true" weight="0.44581282" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.48420075" visible="true" weight="0.44581282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -891,7 +892,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="unittest" />
     <MESSAGE value="异常捕获" />
     <MESSAGE value="数据驱动" />
     <MESSAGE value="数据处理" />
@@ -916,7 +916,8 @@
     <MESSAGE value="11、极坐标图" />
     <MESSAGE value="12、箱型图" />
     <MESSAGE value="13、表格样式创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="13、表格样式创建" />
+    <MESSAGE value="14、表格显示控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="14、表格显示控制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
