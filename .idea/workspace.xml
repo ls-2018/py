@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment=" 风格及调色盘">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +46,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,12 +135,13 @@
         <option value="D:/Python36/Lib/site-packages/matplotlib/mpl-data/matplotlibrc" />
         <option value="D:/Python36/Lib/site-packages/matplotlib/figure.py" />
         <option value="$PROJECT_DIR$/数据分析/xx.py" />
+        <option value="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="704" />
-    <option name="y" value="62" />
+    <option name="x" value="697" />
+    <option name="y" value="-8" />
     <option name="width" value="1136" />
     <option name="height" value="970" />
   </component>
@@ -145,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,11 +164,28 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
+              <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,19 +198,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\机器学习" />
-      <recent name="D:\Destop\book\数据清洗\images" />
-      <recent name="D:\Destop\book\测试自动化" />
-      <recent name="D:\Destop\book\html5plus" />
-      <recent name="D:\Destop\book\爬虫\utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Destop\book\数据清洗\images" />
       <recent name="D:\Python36\Lib\site-packages\matplotlib\mpl-data\fonts\ttf" />
       <recent name="D:\Python36\Lib" />
       <recent name="$PROJECT_DIR$/机器学习" />
       <recent name="$PROJECT_DIR$/html5plus" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\机器学习\数据可视化\图表可视化--Seaborn" />
+      <recent name="D:\Destop\book\机器学习" />
+      <recent name="D:\Destop\book\数据清洗\images" />
+      <recent name="D:\Destop\book\测试自动化" />
+      <recent name="D:\Destop\book\html5plus" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,6 +274,9 @@
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -286,6 +318,9 @@
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -398,14 +433,9 @@
       <workItem from="1555298064476" duration="6641000" />
       <workItem from="1555311017079" duration="5515000" />
       <workItem from="1555318867266" duration="132000" />
-      <workItem from="1555327778549" duration="6707000" />
-    </task>
-    <task id="LOCAL-00150" summary="mongo">
-      <created>1555059210490</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1555059210490</updated>
+      <workItem from="1555327778549" duration="6823000" />
+      <workItem from="1555369258549" duration="636000" />
+      <workItem from="1555374559839" duration="2053000" />
     </task>
     <task id="LOCAL-00151" summary="html5plus">
       <created>1555071663731</created>
@@ -743,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555335144886</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="蒙特卡罗">
+      <created>1555336395991</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1555336395991</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -779,7 +816,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117018000" />
+    <option name="totallyTimeSpent" value="119823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,9 +828,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="704" y="62" width="1136" height="970" extended-state="0" />
+    <frame x="697" y="-8" width="1136" height="970" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28717473" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29832715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -806,9 +843,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51301116" side_tool="true" visible="true" weight="0.4507389" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5139405" side_tool="true" weight="0.4507389" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48698884" visible="true" weight="0.4507389" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4860595" visible="true" weight="0.4495074" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -979,9 +1016,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.6/xml/__init__.py" />
-    <entry file="file:///usr/lib/python3.6/xml/etree/ElementPath.py" />
-    <entry file="file:///usr/lib/python3.6/xml/etree/__init__.py" />
     <entry file="file://$PROJECT_DIR$/爬虫/123.txt" />
     <entry file="file://$PROJECT_DIR$/爬虫/ghostdriver.log">
       <provider selected="true" editor-type-id="text-editor">
@@ -1171,52 +1205,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/gesim_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/jiebademo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/pydemo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-813" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/ws_serv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/app.py" />
+    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/gesim_demo.py" />
+    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/jiebademo.py" />
+    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/pydemo.py" />
+    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/settings.py" />
+    <entry file="file://$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun/ws_serv.py" />
     <entry file="file://$PROJECT_DIR$/机器学习/images/截图1555329294.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1230,6 +1224,27 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/1_风格及调色盘.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
