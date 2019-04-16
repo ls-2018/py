@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="4、刻度、注解、图表输出">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/4、刻度、注解、图表输出.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/4、刻度、注解、图表输出.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -427,21 +428,7 @@
       <workItem from="1555327778549" duration="6823000" />
       <workItem from="1555369258549" duration="636000" />
       <workItem from="1555374559839" duration="5791000" />
-      <workItem from="1555382389903" duration="1303000" />
-    </task>
-    <task id="LOCAL-00153" summary="html5plus">
-      <created>1555071726924</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1555071726924</updated>
-    </task>
-    <task id="LOCAL-00154" summary="html5plus">
-      <created>1555071744380</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1555071744380</updated>
+      <workItem from="1555382389903" duration="2814000" />
     </task>
     <task id="LOCAL-00155" summary="html5plus">
       <created>1555071766131</created>
@@ -772,7 +759,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555379007416</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="3、图表的样式参数">
+      <created>1555383995676</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1555383995677</updated>
+    </task>
+    <task id="LOCAL-00203" summary="4、刻度、注解、图表输出">
+      <created>1555385195700</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385195700</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -808,7 +809,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124864000" />
+    <option name="totallyTimeSpent" value="126375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,7 +823,7 @@
   <component name="ToolWindowManager">
     <frame x="672" y="3" width="1136" height="970" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6133829" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3550186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -837,7 +838,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5139405" side_tool="true" weight="0.4507389" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4860595" visible="true" weight="0.44581282" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4860595" visible="true" weight="0.44581282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -874,8 +875,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="文字识别" />
-    <MESSAGE value="pymongo" />
     <MESSAGE value="移动app" />
     <MESSAGE value="数据清洗" />
     <MESSAGE value="mongo" />
@@ -899,7 +898,9 @@
     <MESSAGE value="K-means聚类" />
     <MESSAGE value="蒙特卡罗" />
     <MESSAGE value=" 风格及调色盘" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 风格及调色盘" />
+    <MESSAGE value="3、图表的样式参数" />
+    <MESSAGE value="4、刻度、注解、图表输出" />
+    <option name="LAST_COMMIT_MESSAGE" value="4、刻度、注解、图表输出" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
