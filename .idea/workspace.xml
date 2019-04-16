@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment=" 风格及调色盘">
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/1_风格及调色盘-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/K-means聚类-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/PCA主成分分析-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/分类-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/回归-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/数学建模-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/蒙特卡罗-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +57,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb">
+        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="0" />
+              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -435,14 +444,7 @@
       <workItem from="1555318867266" duration="132000" />
       <workItem from="1555327778549" duration="6823000" />
       <workItem from="1555369258549" duration="636000" />
-      <workItem from="1555374559839" duration="2053000" />
-    </task>
-    <task id="LOCAL-00151" summary="html5plus">
-      <created>1555071663731</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1555071663732</updated>
+      <workItem from="1555374559839" duration="2989000" />
     </task>
     <task id="LOCAL-00152" summary="html5plus">
       <created>1555071702331</created>
@@ -780,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555336395991</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary=" 风格及调色盘">
+      <created>1555378116312</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1555378116313</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -816,7 +825,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119823000" />
+    <option name="totallyTimeSpent" value="120759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,7 +839,7 @@
   <component name="ToolWindowManager">
     <frame x="697" y="-8" width="1136" height="970" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29832715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29832715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -845,7 +854,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5139405" side_tool="true" weight="0.4507389" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4860595" visible="true" weight="0.4495074" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4860595" weight="0.4495074" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -882,7 +891,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="语法分析" />
     <MESSAGE value="文字识别" />
     <MESSAGE value="pymongo" />
     <MESSAGE value="移动app" />
@@ -907,7 +915,8 @@
     <MESSAGE value="PCA主成分分析" />
     <MESSAGE value="K-means聚类" />
     <MESSAGE value="蒙特卡罗" />
-    <option name="LAST_COMMIT_MESSAGE" value="蒙特卡罗" />
+    <MESSAGE value=" 风格及调色盘" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 风格及调色盘" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,14 +1025,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/爬虫/123.txt" />
-    <entry file="file://$PROJECT_DIR$/爬虫/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pypinyin/__init__.pyi" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pypinyin/compat.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pypinyin/contrib/mmseg.py" />
@@ -1241,7 +1242,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
