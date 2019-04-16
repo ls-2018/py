@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="13、表格样式创建">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,21 +443,7 @@
       <workItem from="1555369258549" duration="636000" />
       <workItem from="1555374559839" duration="5791000" />
       <workItem from="1555382389903" duration="9688000" />
-      <workItem from="1555417694246" duration="844000" />
-    </task>
-    <task id="LOCAL-00168" summary="制作语料库">
-      <created>1555130832196</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1555130832196</updated>
-    </task>
-    <task id="LOCAL-00169" summary="制作语料库">
-      <created>1555131931507</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1555131931507</updated>
+      <workItem from="1555417694246" duration="2363000" />
     </task>
     <task id="LOCAL-00170" summary="制作语料库">
       <created>1555132395148</created>
@@ -786,7 +774,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555418520056</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="12、箱型图">
+      <created>1555418612618</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1555418612619</updated>
+    </task>
+    <task id="LOCAL-00218" summary="13、表格样式创建">
+      <created>1555419805075</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1555419805075</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -822,7 +824,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134093000" />
+    <option name="totallyTimeSpent" value="135612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,7 +839,7 @@
     <frame x="795" y="-2" width="1136" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36152416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36152416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -852,7 +854,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51486987" side_tool="true" weight="0.44581282" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4851301" visible="true" weight="0.44581282" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4851301" visible="true" weight="0.44581282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -889,7 +891,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="制作语料库" />
     <MESSAGE value="unittest" />
     <MESSAGE value="异常捕获" />
     <MESSAGE value="数据驱动" />
@@ -914,7 +915,8 @@
     <MESSAGE value="10、散点图" />
     <MESSAGE value="11、极坐标图" />
     <MESSAGE value="12、箱型图" />
-    <option name="LAST_COMMIT_MESSAGE" value="12、箱型图" />
+    <MESSAGE value="13、表格样式创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="13、表格样式创建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
