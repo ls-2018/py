@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="3、调色盘">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/.ipynb_checkpoints/3、调色盘-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/.ipynb_checkpoints/3、调色盘-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/3、调色盘.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/3、调色盘.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="1" />
+              <selected id="5" />
             </state>
           </provider>
         </entry>
@@ -203,6 +205,14 @@
               <item name="机器学习" type="462c0819:PsiDirectoryNode" />
               <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
               <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
+              <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -467,21 +477,7 @@
       <workItem from="1555464466098" duration="2078000" />
       <workItem from="1555468663787" duration="365000" />
       <workItem from="1555500674988" duration="650000" />
-      <workItem from="1555501498510" duration="1061000" />
-    </task>
-    <task id="LOCAL-00202" summary="3、图表的样式参数">
-      <created>1555383995676</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1555383995677</updated>
-    </task>
-    <task id="LOCAL-00203" summary="4、刻度、注解、图表输出">
-      <created>1555385195700</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1555385195700</updated>
+      <workItem from="1555501498510" duration="2218000" />
     </task>
     <task id="LOCAL-00204" summary="5、子图">
       <created>1555386723365</created>
@@ -812,7 +808,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555501304122</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="1_风格及调色盘">
+      <created>1555502595739</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1555502595743</updated>
+    </task>
+    <task id="LOCAL-00252" summary="3、调色盘">
+      <created>1555503687452</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1555503687452</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -848,7 +858,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143099000" />
+    <option name="totallyTimeSpent" value="144256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -861,6 +871,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="792" y="-4" width="1136" height="1048" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23605949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -914,8 +925,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据处理" />
-    <MESSAGE value="异常数据处理" />
     <MESSAGE value="数据归一化" />
     <MESSAGE value="数据离散化" />
     <MESSAGE value="数学建模" />
@@ -939,7 +948,9 @@
     <MESSAGE value="14、表格显示控制" />
     <MESSAGE value="15、表格样式调用" />
     <MESSAGE value="——" />
-    <option name="LAST_COMMIT_MESSAGE" value="——" />
+    <MESSAGE value="1_风格及调色盘" />
+    <MESSAGE value="3、调色盘" />
+    <option name="LAST_COMMIT_MESSAGE" value="3、调色盘" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1231,7 +1242,7 @@
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="5" />
         </state>
       </provider>
     </entry>
