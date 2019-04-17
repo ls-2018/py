@@ -28,3 +28,4 @@ dispatcher.connect(func,signals.spider_closed)
 
 
 
+
