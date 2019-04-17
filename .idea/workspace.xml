@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/xx.py" beforeDir="false" afterPath="$PROJECT_DIR$/xx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +52,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="615">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#19#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -143,21 +152,21 @@
         <option value="D:/Python36/Lib/site-packages/matplotlib/figure.py" />
         <option value="$PROJECT_DIR$/数据分析/xx.py" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" />
-        <option value="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/12、箱型图.ipynb" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb" />
         <option value="F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/documents_compare.py" />
         <option value="F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/weibo.py" />
         <option value="$PROJECT_DIR$/xx.py" />
+        <option value="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="835" />
-    <option name="y" value="76" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="792" />
+    <option name="y" value="-4" />
     <option name="width" value="1136" />
-    <option name="height" value="970" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -176,6 +185,24 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
+              <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,42 +466,8 @@
       <workItem from="1555456393935" duration="2433000" />
       <workItem from="1555464466098" duration="2078000" />
       <workItem from="1555468663787" duration="365000" />
-      <workItem from="1555500674988" duration="490000" />
-    </task>
-    <task id="LOCAL-00197" summary="蒙特卡罗">
-      <created>1555333961640</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1555333961641</updated>
-    </task>
-    <task id="LOCAL-00198" summary="蒙特卡罗">
-      <created>1555335144886</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1555335144886</updated>
-    </task>
-    <task id="LOCAL-00199" summary="蒙特卡罗">
-      <created>1555336395991</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1555336395991</updated>
-    </task>
-    <task id="LOCAL-00200" summary=" 风格及调色盘">
-      <created>1555378116312</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1555378116313</updated>
-    </task>
-    <task id="LOCAL-00201" summary=" 风格及调色盘">
-      <created>1555379007416</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1555379007416</updated>
+      <workItem from="1555500674988" duration="650000" />
+      <workItem from="1555501498510" duration="1061000" />
     </task>
     <task id="LOCAL-00202" summary="3、图表的样式参数">
       <created>1555383995676</created>
@@ -784,7 +777,42 @@
       <option name="project" value="LOCAL" />
       <updated>1555501149565</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="——">
+      <created>1555501173164</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501173164</updated>
+    </task>
+    <task id="LOCAL-00247" summary="——">
+      <created>1555501196211</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501196211</updated>
+    </task>
+    <task id="LOCAL-00248" summary="——">
+      <created>1555501236946</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501236946</updated>
+    </task>
+    <task id="LOCAL-00249" summary="——">
+      <created>1555501275908</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501275908</updated>
+    </task>
+    <task id="LOCAL-00250" summary="——">
+      <created>1555501304122</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501304122</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -820,7 +848,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141878000" />
+    <option name="totallyTimeSpent" value="143099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -832,10 +860,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="792" y="-4" width="1136" height="1048" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11673774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23605949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -848,9 +875,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5157993" side_tool="true" visible="true" weight="0.40200445" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5157993" side_tool="true" weight="0.40179574" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48420075" weight="0.44581282" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48420075" weight="0.44494382" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1150,13 +1177,6 @@
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/Untitled.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/1_风格及调色盘.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part01.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口-checkpoint.ipynb">
@@ -1200,11 +1220,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="615">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#19#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
         </state>
       </provider>
     </entry>
