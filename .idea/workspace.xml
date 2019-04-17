@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xx.py" beforeDir="false" afterPath="$PROJECT_DIR$/xx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="362">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#19#45#0" expanded="true" />
               </folding>
@@ -440,77 +439,7 @@
       <workItem from="1555456393935" duration="2433000" />
       <workItem from="1555464466098" duration="2078000" />
       <workItem from="1555468663787" duration="365000" />
-      <workItem from="1555500674988" duration="241000" />
-    </task>
-    <task id="LOCAL-00187" summary="数据离散化">
-      <created>1555309635812</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1555309635812</updated>
-    </task>
-    <task id="LOCAL-00188" summary="数学建模">
-      <created>1555312291231</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1555312291232</updated>
-    </task>
-    <task id="LOCAL-00189" summary="回归">
-      <created>1555313891232</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1555313891232</updated>
-    </task>
-    <task id="LOCAL-00190" summary="KNN分类">
-      <created>1555317796486</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1555317796486</updated>
-    </task>
-    <task id="LOCAL-00191" summary="KNN分类">
-      <created>1555317937197</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1555317937198</updated>
-    </task>
-    <task id="LOCAL-00192" summary="PCA主成分分析">
-      <created>1555331085694</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1555331085696</updated>
-    </task>
-    <task id="LOCAL-00193" summary="PCA主成分分析">
-      <created>1555331674523</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1555331674524</updated>
-    </task>
-    <task id="LOCAL-00194" summary="PCA主成分分析">
-      <created>1555332148321</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1555332148321</updated>
-    </task>
-    <task id="LOCAL-00195" summary="K-means聚类">
-      <created>1555332992437</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1555332992437</updated>
-    </task>
-    <task id="LOCAL-00196" summary="K-means聚类">
-      <created>1555333684051</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1555333684051</updated>
+      <workItem from="1555500674988" duration="490000" />
     </task>
     <task id="LOCAL-00197" summary="蒙特卡罗">
       <created>1555333961640</created>
@@ -785,7 +714,77 @@
       <option name="project" value="LOCAL" />
       <updated>1555500914532</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="——">
+      <created>1555500931439</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500931439</updated>
+    </task>
+    <task id="LOCAL-00237" summary="——">
+      <created>1555500952601</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500952601</updated>
+    </task>
+    <task id="LOCAL-00238" summary="——">
+      <created>1555500973613</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500973613</updated>
+    </task>
+    <task id="LOCAL-00239" summary="——">
+      <created>1555501010949</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501010949</updated>
+    </task>
+    <task id="LOCAL-00240" summary="——">
+      <created>1555501039546</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501039546</updated>
+    </task>
+    <task id="LOCAL-00241" summary="——">
+      <created>1555501062426</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501062426</updated>
+    </task>
+    <task id="LOCAL-00242" summary="——">
+      <created>1555501094415</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501094415</updated>
+    </task>
+    <task id="LOCAL-00243" summary="——">
+      <created>1555501110598</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501110598</updated>
+    </task>
+    <task id="LOCAL-00244" summary="——">
+      <created>1555501125827</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501125827</updated>
+    </task>
+    <task id="LOCAL-00245" summary="——">
+      <created>1555501149565</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1555501149565</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -821,7 +820,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141629000" />
+    <option name="totallyTimeSpent" value="141878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1201,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="362">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#19#45#0" expanded="true" />
           </folding>
