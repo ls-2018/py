@@ -440,62 +440,7 @@
       <workItem from="1555456393935" duration="2433000" />
       <workItem from="1555464466098" duration="2078000" />
       <workItem from="1555468663787" duration="365000" />
-    </task>
-    <task id="LOCAL-00179" summary="数据驱动">
-      <created>1555291212982</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1555291212982</updated>
-    </task>
-    <task id="LOCAL-00180" summary="数据驱动">
-      <created>1555299275830</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1555299275831</updated>
-    </task>
-    <task id="LOCAL-00181" summary="数据驱动">
-      <created>1555299553174</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1555299553175</updated>
-    </task>
-    <task id="LOCAL-00182" summary="数据处理">
-      <created>1555303129801</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1555303129801</updated>
-    </task>
-    <task id="LOCAL-00183" summary="数据处理">
-      <created>1555303174746</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1555303174747</updated>
-    </task>
-    <task id="LOCAL-00184" summary="异常数据处理">
-      <created>1555305064190</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1555305064191</updated>
-    </task>
-    <task id="LOCAL-00185" summary="异常数据处理">
-      <created>1555305887727</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1555305887727</updated>
-    </task>
-    <task id="LOCAL-00186" summary="数据归一化">
-      <created>1555309595831</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1555309595831</updated>
+      <workItem from="1555500674988" duration="241000" />
     </task>
     <task id="LOCAL-00187" summary="数据离散化">
       <created>1555309635812</created>
@@ -784,7 +729,63 @@
       <option name="project" value="LOCAL" />
       <updated>1555421217387</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="——">
+      <created>1555500728296</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500728297</updated>
+    </task>
+    <task id="LOCAL-00229" summary="——">
+      <created>1555500748355</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500748355</updated>
+    </task>
+    <task id="LOCAL-00230" summary="——">
+      <created>1555500798181</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500798181</updated>
+    </task>
+    <task id="LOCAL-00231" summary="——">
+      <created>1555500822600</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500822600</updated>
+    </task>
+    <task id="LOCAL-00232" summary="——">
+      <created>1555500846827</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500846827</updated>
+    </task>
+    <task id="LOCAL-00233" summary="——">
+      <created>1555500865878</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500865878</updated>
+    </task>
+    <task id="LOCAL-00234" summary="——">
+      <created>1555500894641</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500894641</updated>
+    </task>
+    <task id="LOCAL-00235" summary="——">
+      <created>1555500914532</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1555500914532</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -820,7 +821,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141388000" />
+    <option name="totallyTimeSpent" value="141629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1189,40 +1190,23 @@
     <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/huffman_coding.py" />
     <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/simhash_compression.py" />
     <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/documents_compare.py" />
-    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/follows.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/weibo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="131" column="26" lean-forward="true" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
-          <folding>
-            <element signature="e#1186#3465#0" />
-            <element signature="e#3496#4541#0" />
-            <element signature="e#4571#5183#0" />
-            <element signature="e#4643#5183#0" />
-            <element signature="e#5219#5536#0" />
-            <element signature="e#6508#6742#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/follows.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/follows.html" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/weibo.py" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/follows.py" />
     <entry file="file://$PROJECT_DIR$/online.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/pydispatch/dispatcher.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        <state relative-caret-position="337">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#19#45#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/pydispatch/dispatcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
       </provider>
     </entry>
   </component>
