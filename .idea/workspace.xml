@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/xx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,29 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://D:/Python36/Lib/site-packages/pydispatch/dispatcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-525" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,10 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/百度AI/语音合成.py" />
-        <option value="$PROJECT_DIR$/Flask－/Wtforms__--.py" />
-        <option value="$PROJECT_DIR$/x" />
-        <option value="$PROJECT_DIR$/123.txt" />
         <option value="$PROJECT_DIR$/百度AI/websocket解密.py" />
         <option value="$PROJECT_DIR$/七牛云/x.py" />
         <option value="$PROJECT_DIR$/百度AI/语音识别.py" />
@@ -125,12 +146,16 @@
         <option value="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py" />
         <option value="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/12、箱型图.ipynb" />
+        <option value="$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb" />
+        <option value="F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/documents_compare.py" />
+        <option value="F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/weibo.py" />
+        <option value="$PROJECT_DIR$/xx.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="795" />
-    <option name="y" value="-2" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="835" />
+    <option name="y" value="76" />
     <option name="width" value="1136" />
     <option name="height" value="970" />
   </component>
@@ -409,41 +434,11 @@
       <workItem from="1555374559839" duration="5791000" />
       <workItem from="1555382389903" duration="9688000" />
       <workItem from="1555417694246" duration="2959000" />
-    </task>
-    <task id="LOCAL-00174" summary="异常捕获">
-      <created>1555161252818</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1555161252818</updated>
-    </task>
-    <task id="LOCAL-00175" summary="数据驱动">
-      <created>1555162549132</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1555162549132</updated>
-    </task>
-    <task id="LOCAL-00176" summary="数据驱动">
-      <created>1555162831635</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1555162831635</updated>
-    </task>
-    <task id="LOCAL-00177" summary="数据驱动">
-      <created>1555288841436</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1555288841437</updated>
-    </task>
-    <task id="LOCAL-00178" summary="数据驱动">
-      <created>1555290595627</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1555290595627</updated>
+      <workItem from="1555421050618" duration="206000" />
+      <workItem from="1555455105892" duration="98000" />
+      <workItem from="1555456393935" duration="2433000" />
+      <workItem from="1555464466098" duration="2078000" />
+      <workItem from="1555468663787" duration="365000" />
     </task>
     <task id="LOCAL-00179" summary="数据驱动">
       <created>1555291212982</created>
@@ -753,7 +748,42 @@
       <option name="project" value="LOCAL" />
       <updated>1555420607808</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="15、表格样式调用">
+      <created>1555421089115</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1555421089116</updated>
+    </task>
+    <task id="LOCAL-00224" summary="15、表格样式调用">
+      <created>1555421116382</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1555421116382</updated>
+    </task>
+    <task id="LOCAL-00225" summary="15、表格样式调用">
+      <created>1555421154586</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1555421154586</updated>
+    </task>
+    <task id="LOCAL-00226" summary="15、表格样式调用">
+      <created>1555421181870</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1555421181870</updated>
+    </task>
+    <task id="LOCAL-00227" summary="15、表格样式调用">
+      <created>1555421217387</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1555421217387</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -789,7 +819,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136208000" />
+    <option name="totallyTimeSpent" value="141388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,9 +831,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="795" y="-2" width="1136" height="970" extended-state="0" />
+    <frame x="835" y="76" width="1136" height="970" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36152416" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.39405206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -816,7 +847,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5157993" side_tool="true" weight="0.44581282" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5157993" side_tool="true" weight="0.40200445" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32635468" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48420075" weight="0.44581282" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -989,79 +1020,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/机器学习/中文同音字解决.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/叶辰.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/分词.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-2066100795/builtins.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/gensim/similarities/docsim.py" />
-    <entry file="file://$PROJECT_DIR$/机器学习/gensim+jieba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/gensim+jieba+智能玩具.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试自动化/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="34" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试自动化/技能点.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask－/test.py" />
-    <entry file="file://$PROJECT_DIR$/Flask－/测试报告.html" />
-    <entry file="file://$PROJECT_DIR$/Flask－/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Flask－/_trial_temp/_trial_marker">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1215,6 +1173,55 @@
         <state>
           <selected id="3" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/interpolation_search.cpp" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/sample_doc_1.txt" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/sample_doc_2.txt" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/huffman_coding.py" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/simhash_compression.py" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/documents_compare.py" />
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/follows.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/weibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="131" column="26" lean-forward="true" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
+          <folding>
+            <element signature="e#1186#3465#0" />
+            <element signature="e#3496#4541#0" />
+            <element signature="e#4571#5183#0" />
+            <element signature="e#4643#5183#0" />
+            <element signature="e#5219#5536#0" />
+            <element signature="e#6508#6742#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/第十讲代码/charpter_10/weibo/follows.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/pydispatch/dispatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525" />
       </provider>
     </entry>
   </component>
