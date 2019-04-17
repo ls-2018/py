@@ -2,11 +2,13 @@
 from scrapy import signals
 from scrapy.xlib.pydispatch import dispatcher
 from scrapy import signals
+
+
 def func():
     pass
-dispatcher.connect(func,signals.spider_closed)
 
 
+dispatcher.connect(func, signals.spider_closed)
 
 # class MyExtend(object):
 #     def __init__(self):
@@ -24,12 +26,3 @@ dispatcher.connect(func,signals.spider_closed)
 #
 #     def x2(self, spider):
 #         print('close')
-
-
-
-
-
-
-
-
-
