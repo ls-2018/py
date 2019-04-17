@@ -27,5 +27,6 @@ dispatcher.connect(func, signals.spider_closed)
 
 
 
+
 #     def x2(self, spider):
 #         print('close')
