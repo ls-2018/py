@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/5、分布数据可视化-散点图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/5、分布数据可视化-散点图.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,8 +131,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="772" />
-    <option name="y" value="2" />
+    <option name="x" value="721" />
+    <option name="y" value="19" />
     <option name="width" value="1136" />
     <option name="height" value="1048" />
   </component>
@@ -441,14 +440,7 @@
       <workItem from="1555464466098" duration="2078000" />
       <workItem from="1555468663787" duration="365000" />
       <workItem from="1555500674988" duration="650000" />
-      <workItem from="1555501498510" duration="6147000" />
-    </task>
-    <task id="LOCAL-00210" summary="8、面积图、填图、饼图">
-      <created>1555391997002</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1555391997002</updated>
+      <workItem from="1555501498510" duration="6668000" />
     </task>
     <task id="LOCAL-00211" summary="9、直方图">
       <created>1555392980002</created>
@@ -786,7 +778,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555509733278</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="5、分布数据可视化-散点图">
+      <created>1555510037463</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1555510037463</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -822,7 +821,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148185000" />
+    <option name="totallyTimeSpent" value="148706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,7 +833,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="792" y="-4" width="1136" height="1048" extended-state="0" />
+    <frame x="154" y="-12" width="1136" height="1048" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23420075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
