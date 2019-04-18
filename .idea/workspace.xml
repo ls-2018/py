@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,19 +173,10 @@
               <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
               <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
-              <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,21 +321,10 @@
       <workItem from="1555545656644" duration="1138000" />
       <workItem from="1555546836088" duration="436000" />
       <workItem from="1555547776660" duration="4749000" />
-      <workItem from="1555561008961" duration="2073000" />
-    </task>
-    <task id="LOCAL-00217" summary="12、箱型图">
-      <created>1555418612618</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1555418612619</updated>
-    </task>
-    <task id="LOCAL-00218" summary="13、表格样式创建">
-      <created>1555419805075</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1555419805075</updated>
+      <workItem from="1555561008961" duration="2205000" />
+      <workItem from="1555587339645" duration="536000" />
+      <workItem from="1555589185077" duration="367000" />
+      <workItem from="1555593170155" duration="599000" />
     </task>
     <task id="LOCAL-00219" summary="14、表格显示控制">
       <created>1555420073064</created>
@@ -672,7 +655,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555563946904</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="11、结构化图表可视化">
+      <created>1555564985176</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1555564985176</updated>
+    </task>
+    <task id="LOCAL-00267" summary="11、结构化图表可视化">
+      <created>1555565017144</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1555565017144</updated>
+    </task>
+    <option name="localTasksCounter" value="268" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -708,7 +705,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157102000" />
+    <option name="totallyTimeSpent" value="158736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,7 +719,7 @@
   <component name="ToolWindowManager">
     <frame x="788" y="-1" width="1136" height="1048" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33271375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3522305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -737,7 +734,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51301116" side_tool="true" weight="0.44382024" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.3258427" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48698884" visible="true" weight="0.44382024" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.48698884" visible="true" weight="0.44382024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -774,7 +771,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="K-means聚类" />
     <MESSAGE value="蒙特卡罗" />
     <MESSAGE value=" 风格及调色盘" />
     <MESSAGE value="3、图表的样式参数" />
@@ -799,7 +795,8 @@
     <MESSAGE value="8、分布数据可视化-统计图" />
     <MESSAGE value="9、线性关系数据可视化" />
     <MESSAGE value="10、时间线图表、热图" />
-    <option name="LAST_COMMIT_MESSAGE" value="10、时间线图表、热图" />
+    <MESSAGE value="11、结构化图表可视化" />
+    <option name="LAST_COMMIT_MESSAGE" value="11、结构化图表可视化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,13 +1033,7 @@
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/3、调色盘.ipynb" />
     <entry file="file://$PROJECT_DIR$/xx.py" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/5、分布数据可视化-散点图.ipynb" />
-    <entry file="file://$PROJECT_DIR$/../123.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../123.py" />
   </component>
   <component name="masterDetails">
     <states>
