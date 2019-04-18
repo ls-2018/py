@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/.ipynb_checkpoints/4、分布数据可视化-直方图-密度图-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/.ipynb_checkpoints/4、分布数据可视化-直方图-密度图-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/4、分布数据可视化-直方图-密度图.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/4、分布数据可视化-直方图-密度图.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,8 +133,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="721" />
-    <option name="y" value="19" />
+    <option name="x" value="847" />
+    <option name="y" value="-9" />
     <option name="width" value="1136" />
     <option name="height" value="1048" />
   </component>
@@ -147,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,42 +157,16 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
-              <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-              <item name="数据可视化" type="462c0819:PsiDirectoryNode" />
-              <item name="图表可视化--Seaborn" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -317,6 +294,9 @@
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -441,6 +421,9 @@
       <workItem from="1555468663787" duration="365000" />
       <workItem from="1555500674988" duration="650000" />
       <workItem from="1555501498510" duration="6668000" />
+      <workItem from="1555545656644" duration="1138000" />
+      <workItem from="1555546836088" duration="436000" />
+      <workItem from="1555547776660" duration="1156000" />
     </task>
     <task id="LOCAL-00211" summary="9、直方图">
       <created>1555392980002</created>
@@ -821,7 +804,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148706000" />
+    <option name="totallyTimeSpent" value="151436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,9 +816,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="-12" width="1136" height="1048" extended-state="0" />
+    <frame x="847" y="-9" width="1136" height="1048" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23420075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32620817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -850,7 +833,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5083643" side_tool="true" weight="0.3258427" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.3258427" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48420075" weight="0.44494382" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48420075" visible="true" weight="0.44382024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1021,16 +1004,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/测试自动化/unittest_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/测试自动化/x.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1091,22 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/正态性分析.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/正态性分析.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据清洗/Untitled.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/Untitled.ipynb" />
-    <entry file="file://$PROJECT_DIR$/数据分析/异常数据处理.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/异常数据处理.ipynb" />
     <entry file="file://D:/Python36/Lib/site-packages/sklearn/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1143,30 +1104,12 @@
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part01.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口-checkpoint.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/12、箱型图.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/12、箱型图.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb" />
     <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/interpolation_search.cpp" />
     <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/sample_doc_1.txt" />
     <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/sample_doc_2.txt" />
@@ -1182,55 +1125,17 @@
     <entry file="file://D:/Python36/Lib/site-packages/pydispatch/dispatcher.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/10、散点图.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/.ipynb_checkpoints/Untitled-checkpoint.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/Untitled.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/3、调色盘.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xx.py">
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/10、散点图.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/Untitled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/3、调色盘.ipynb" />
+    <entry file="file://$PROJECT_DIR$/xx.py" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/5、分布数据可视化-散点图.ipynb" />
+    <entry file="file://$PROJECT_DIR$/../123.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/5、分布数据可视化-散点图.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="2" />
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
