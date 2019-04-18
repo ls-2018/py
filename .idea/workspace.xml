@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/11、结构化图表可视化.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -324,56 +328,7 @@
       <workItem from="1555561008961" duration="2205000" />
       <workItem from="1555587339645" duration="536000" />
       <workItem from="1555589185077" duration="367000" />
-      <workItem from="1555593170155" duration="599000" />
-    </task>
-    <task id="LOCAL-00219" summary="14、表格显示控制">
-      <created>1555420073064</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1555420073064</updated>
-    </task>
-    <task id="LOCAL-00220" summary="14、表格显示控制">
-      <created>1555420262567</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1555420262567</updated>
-    </task>
-    <task id="LOCAL-00221" summary="15、表格样式调用">
-      <created>1555420548826</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1555420548826</updated>
-    </task>
-    <task id="LOCAL-00222" summary="15、表格样式调用">
-      <created>1555420607808</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1555420607808</updated>
-    </task>
-    <task id="LOCAL-00223" summary="15、表格样式调用">
-      <created>1555421089115</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1555421089116</updated>
-    </task>
-    <task id="LOCAL-00224" summary="15、表格样式调用">
-      <created>1555421116382</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1555421116382</updated>
-    </task>
-    <task id="LOCAL-00225" summary="15、表格样式调用">
-      <created>1555421154586</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1555421154586</updated>
+      <workItem from="1555593170155" duration="838000" />
     </task>
     <task id="LOCAL-00226" summary="15、表格样式调用">
       <created>1555421181870</created>
@@ -669,7 +624,56 @@
       <option name="project" value="LOCAL" />
       <updated>1555565017144</updated>
     </task>
-    <option name="localTasksCounter" value="268" />
+    <task id="LOCAL-00268" summary="11、结构化图表可视化">
+      <created>1555593846489</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1555593846508</updated>
+    </task>
+    <task id="LOCAL-00269" summary="11、结构化图表可视化">
+      <created>1555593918645</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1555593918645</updated>
+    </task>
+    <task id="LOCAL-00270" summary="11、结构化图表可视化">
+      <created>1555593948639</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1555593948639</updated>
+    </task>
+    <task id="LOCAL-00271" summary="11、结构化图表可视化">
+      <created>1555593970764</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1555593970764</updated>
+    </task>
+    <task id="LOCAL-00272" summary="11、结构化图表可视化">
+      <created>1555593999151</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1555593999151</updated>
+    </task>
+    <task id="LOCAL-00273" summary="11、结构化图表可视化">
+      <created>1555594020375</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1555594020375</updated>
+    </task>
+    <task id="LOCAL-00274" summary="11、结构化图表可视化">
+      <created>1555594033681</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1555594033681</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -705,7 +709,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158736000" />
+    <option name="totallyTimeSpent" value="158975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,8 +722,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="788" y="-1" width="1136" height="1048" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3522305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19144982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -905,16 +910,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/测试自动化/x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/测试自动化/data_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1034,6 +1029,9 @@
     <entry file="file://$PROJECT_DIR$/xx.py" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/5、分布数据可视化-散点图.ipynb" />
     <entry file="file://$PROJECT_DIR$/../123.py" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/11、结构化图表可视化.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
