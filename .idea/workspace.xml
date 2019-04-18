@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,14 +327,7 @@
       <workItem from="1555545656644" duration="1138000" />
       <workItem from="1555546836088" duration="436000" />
       <workItem from="1555547776660" duration="4749000" />
-      <workItem from="1555561008961" duration="902000" />
-    </task>
-    <task id="LOCAL-00215" summary="12、箱型图">
-      <created>1555418391079</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1555418391079</updated>
+      <workItem from="1555561008961" duration="1413000" />
     </task>
     <task id="LOCAL-00216" summary="12、箱型图">
       <created>1555418520056</created>
@@ -674,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555561183952</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="10、时间线图表、热图">
+      <created>1555563406920</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1555563406920</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -710,7 +708,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155931000" />
+    <option name="totallyTimeSpent" value="156442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,7 +774,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PCA主成分分析" />
     <MESSAGE value="K-means聚类" />
     <MESSAGE value="蒙特卡罗" />
     <MESSAGE value=" 风格及调色盘" />
@@ -801,7 +798,8 @@
     <MESSAGE value="7、分布数据可视化-分布图" />
     <MESSAGE value="8、分布数据可视化-统计图" />
     <MESSAGE value="9、线性关系数据可视化" />
-    <option name="LAST_COMMIT_MESSAGE" value="9、线性关系数据可视化" />
+    <MESSAGE value="10、时间线图表、热图" />
+    <option name="LAST_COMMIT_MESSAGE" value="10、时间线图表、热图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
