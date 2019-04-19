@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/商铺数据.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/项目01商铺数据加载及存储.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/项目02基于Python的算法函数创建.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/项目03知乎数据清洗整理和结论研究.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/项目04视频网站数据清洗整理和结论研究.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据可视化/项目05多场景下的算法构建.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,8 +129,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="706" />
-    <option name="y" value="256" />
+    <option name="x" value="765" />
+    <option name="y" value="152" />
     <option name="width" value="1155" />
     <option name="height" value="883" />
   </component>
@@ -373,14 +365,7 @@
       <workItem from="1555589185077" duration="367000" />
       <workItem from="1555593170155" duration="1252000" />
       <workItem from="1555628895907" duration="1805000" />
-      <workItem from="1555631633628" duration="7872000" />
-    </task>
-    <task id="LOCAL-00242" summary="——">
-      <created>1555501094415</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
-      <option name="project" value="LOCAL" />
-      <updated>1555501094415</updated>
+      <workItem from="1555631633628" duration="8518000" />
     </task>
     <task id="LOCAL-00243" summary="——">
       <created>1555501110598</created>
@@ -718,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555635477472</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="GEPHI">
+      <created>1555641142709</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1555641142709</updated>
+    </task>
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -754,7 +746,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169066000" />
+    <option name="totallyTimeSpent" value="169712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -766,7 +758,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="256" width="1155" height="883" extended-state="0" />
+    <frame x="765" y="152" width="1155" height="883" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25753424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -781,9 +773,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5139405" side_tool="true" weight="0.44382024" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5150685" side_tool="true" weight="0.13241379" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.44494382" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4860595" visible="true" weight="0.13241379" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4849315" visible="true" weight="0.42482758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -820,7 +812,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 风格及调色盘" />
     <MESSAGE value="3、图表的样式参数" />
     <MESSAGE value="4、刻度、注解、图表输出" />
     <MESSAGE value="5、子图" />
@@ -845,7 +836,8 @@
     <MESSAGE value="10、时间线图表、热图" />
     <MESSAGE value="11、结构化图表可视化" />
     <MESSAGE value="数据预处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据预处理" />
+    <MESSAGE value="GEPHI" />
+    <option name="LAST_COMMIT_MESSAGE" value="GEPHI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
