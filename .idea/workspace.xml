@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据分析/use_matplotlib.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/xxx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/600519.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/Untitled.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/Untitled1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/Untitled2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/toshare.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/toshare.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/xx.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/K线图.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,21 +48,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析/K线图.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据分析/xxx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="225">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据分析/use_matplotlib.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
     </leaf>
@@ -76,9 +65,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -94,6 +83,7 @@
       <find>unic</find>
       <find>font.family</find>
       <find>LinearRegression</find>
+      <find>test.csv</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/爬虫/下载验证码.py" />
         <option value="$PROJECT_DIR$/爬虫/PJS.py" />
         <option value="$PROJECT_DIR$/爬虫/滑动验证.py" />
         <option value="$PROJECT_DIR$/Flask－/manager.py" />
@@ -153,12 +142,13 @@
         <option value="$PROJECT_DIR$/xxx.html" />
         <option value="$PROJECT_DIR$/数据分析/K线图.py" />
         <option value="$PROJECT_DIR$/数据分析/K线图.ipynb" />
+        <option value="$PROJECT_DIR$/数据分析/xxx.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
-    <option name="y" value="78" />
+    <option name="x" value="517" />
+    <option name="y" value="77" />
     <option name="width" value="1155" />
     <option name="height" value="883" />
   </component>
@@ -236,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xx (1)">
+  <component name="RunManager" selected="Python.xxx">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -341,8 +331,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xxx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/xxx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xxx" />
         <item itemvalue="Python.xx (1)" />
         <item itemvalue="Python.K线图" />
         <item itemvalue="Python.123" />
@@ -440,21 +450,7 @@
       <workItem from="1555676637520" duration="4822000" />
       <workItem from="1555722454124" duration="1455000" />
       <workItem from="1555754970743" duration="598000" />
-      <workItem from="1555760528407" duration="1455000" />
-    </task>
-    <task id="LOCAL-00252" summary="3、调色盘">
-      <created>1555503687452</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1555503687452</updated>
-    </task>
-    <task id="LOCAL-00253" summary="3、调色盘">
-      <created>1555504193064</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1555504193064</updated>
+      <workItem from="1555760528407" duration="3718000" />
     </task>
     <task id="LOCAL-00254" summary="4、分布数据可视化-直方图-密度图">
       <created>1555505801794</created>
@@ -785,7 +781,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555681522071</updated>
     </task>
-    <option name="localTasksCounter" value="301" />
+    <task id="LOCAL-00301" summary="K线图">
+      <created>1555762006804</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1555762006806</updated>
+    </task>
+    <task id="LOCAL-00302" summary="查找历史金叉死叉日期">
+      <created>1555763107116</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1555763107116</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -821,7 +831,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179694000" />
+    <option name="totallyTimeSpent" value="181957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,10 +843,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="78" width="1155" height="883" extended-state="0" />
+    <frame x="517" y="77" width="1155" height="883" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23105022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23105022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Jupyter" weight="0.32965517" />
@@ -851,7 +861,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51598173" side_tool="true" weight="0.40220386" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" visible="true" weight="0.39034483" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" visible="true" weight="0.39034483" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" weight="0.04137931" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -889,9 +899,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9、直方图" />
-    <MESSAGE value="10、散点图" />
-    <MESSAGE value="11、极坐标图" />
     <MESSAGE value="12、箱型图" />
     <MESSAGE value="13、表格样式创建" />
     <MESSAGE value="14、表格显示控制" />
@@ -914,7 +921,10 @@
     <MESSAGE value="项目04视频网站数据清洗整理和结论研究" />
     <MESSAGE value="项目05多场景下的算法构建" />
     <MESSAGE value="项目07城市餐饮店铺选址分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目07城市餐饮店铺选址分析" />
+    <MESSAGE value="K线图" />
+    <MESSAGE value="查找历史金叉死叉日期" />
+    <MESSAGE value="demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1091,10 +1101,6 @@
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/CH03图表绘制工具：Matplotlib__Part01.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/1、图表窗口-checkpoint.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1182,16 +1188,10 @@
     <entry file="file://$PROJECT_DIR$/数据分析/K线图.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/Untitled1.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/Untitled2.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/Untitled.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/toshare.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/1、pandas.ipynb">
@@ -1200,11 +1200,11 @@
     <entry file="file://$PROJECT_DIR$/数据分析/K线图.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/matplotlib.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/PieChart.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/use_matplotlib.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/异常数据处理.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
@@ -1215,18 +1215,47 @@
     <entry file="file://$PROJECT_DIR$/数据分析/数据归一化.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/数据连续属性离散化.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/正态性分析.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/K线图.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="350">
+          <caret line="14" column="41" selection-end-line="17" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/use_matplotlib.ipynb">
+    <entry file="file://$PROJECT_DIR$/数据分析/查找历史金叉死叉日期.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/toshare.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/matplotlib.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="377" column="8" selection-start-line="377" selection-start-column="8" selection-end-line="377" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/xxx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
