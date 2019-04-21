@@ -5,7 +5,7 @@ import tushare
 import datetime
 import dateutil
 
-CASH = 10000
+CASH = 100000
 START_DATE = '2016-01-07'
 END_DATE = '2017-12-31'
 # trade_cal = tushare.trade_cal()
@@ -91,7 +91,7 @@ def __order(today_data, security, amount):
     # 300   -200
     if context.positions.get(security,0) < -amount:
         # 卖超过拥有的量
-        amount = -context.positions[security]
+        amount = -context.positions.get(security,0)
         print('卖出股票不能超过持仓数，已调整为%d' % amount)
 
     context.positions[security] = context.positions.get(security, 0) + amount
@@ -102,5 +102,38 @@ def __order(today_data, security, amount):
     if context.positions[security] == 0:
         del context.positions[security]
 
-__order(get_today_data('601318'),'601318',100)
+# __order(get_today_data('601318'),'601318',1000000)
+# print(context.positions)
+
+
+def order(security,amount):
+    today_data = get_today_data(security)
+    __order(today_data,security,amount)
+
+def order_target(security,amount):
+    if amount<0:
+        print('数量不能为负数，已调整为0')
+        amount = 0
+    today_data = get_today_data(security)
+    hold_amount = context.positions.get(security,0)
+    delta_amount = amount -hold_amount # 要卖的股票数
+    __order(today_data,security,delta_amount)  # ToDo : T+1  closeabel total
+
+def order_value(security,value):
+    today_data = get_today_data(security)
+    amount = value//today_data['open']
+    __order(today_data,security,amount)
+
+def order_target_value(security,value):
+    today_data = get_today_data(security)
+    if value <0:
+        print('价格不能为负，以调整为0')
+        value=0
+    hold_value = context.positions.get(security,0)*today_data['open']
+
+    delta_value = value-hold_value# 买卖的价格
+    order_value(security,delta_value)
+
+order('601318',100)
+order_value('601318',30000)
 print(context.positions)
