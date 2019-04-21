@@ -22,7 +22,7 @@ class Context:
         self.benchmark = None
         self.date_range = trade_cal[(trade_cal['isOpen'] == 1) &
                                     (trade_cal['calendarDate'] >= start_date) &
-                                    (trade_cal['calendarDate'] <= end_date)]
+                                    (trade_cal['calendarDate'] <= end_date)]['calendarDate'].values
         # self.dt = datetime.datetime.strptime('',start_date)
         # self.dt = dateutil.parser.parse(start_date)  # ToDo: start_date 后一个交易日
         self.dt = None
@@ -165,15 +165,30 @@ def run():
             value += p * context.positions[stock]
         plt_df.loc[dt, 'value'] = value
     plt_df['ratio'] = (plt_df['value'] - init_value) / init_value
-    print(plt_df)
+    bm_df = attribute_daterange_history(context.benchmark, context.start_date, context.end_date)
+    bm_init = bm_df['open'][0]
+    plt_df['benckmark_ratio'] = (bm_df['open'] - bm_init) / bm_init
+    plt_df[['ratio', 'benckmark_ratio']].plot()
+    plt.show()
 
 
 def initialize(context):
     set_benckmark('601318')
+    g.p1 = 5
+    g.p2 = 60
+    g.security = '601318'
 
 
 def handle_data(context):
     order('601318', 100)
+    hist = attribute_history(g.security, g.p2)
+    md5 = hist['close'][-g.p1].mean()
+    md60 = hist['close'].mean()
+
+    if md5 > md60 and g.security not in context.positions:
+        order_value(g.security, context.cash)
+    elif md5 < md60 and g.security in context.positions:
+        order_target(g.security, 0)
 
 
 if __name__ == '__main__':
