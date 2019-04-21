@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据分析/xxx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/xxx.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/xxx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,15 +47,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据分析/xxx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -147,8 +144,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="517" />
-    <option name="y" value="77" />
+    <option name="x" value="470" />
+    <option name="y" value="158" />
     <option name="width" value="1155" />
     <option name="height" value="883" />
   </component>
@@ -226,48 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xxx">
-    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../x" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../x/123.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="K线图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/K线图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,47 +246,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xx (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Destop\book\数据分析\K线图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="xx" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/xx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="xxx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -343,8 +258,8 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/xxx.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -353,10 +268,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.xxx" />
-        <item itemvalue="Python.xx (1)" />
-        <item itemvalue="Python.K线图" />
-        <item itemvalue="Python.123" />
-        <item itemvalue="Python.xx" />
       </list>
     </recent_temporary>
   </component>
@@ -450,14 +361,8 @@
       <workItem from="1555676637520" duration="4822000" />
       <workItem from="1555722454124" duration="1455000" />
       <workItem from="1555754970743" duration="598000" />
-      <workItem from="1555760528407" duration="3718000" />
-    </task>
-    <task id="LOCAL-00254" summary="4、分布数据可视化-直方图-密度图">
-      <created>1555505801794</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1555505801794</updated>
+      <workItem from="1555760528407" duration="3964000" />
+      <workItem from="1555824625169" duration="2160000" />
     </task>
     <task id="LOCAL-00255" summary="5、分布数据可视化-散点图">
       <created>1555507416898</created>
@@ -795,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555763107116</updated>
     </task>
-    <option name="localTasksCounter" value="303" />
+    <task id="LOCAL-00303" summary="demo">
+      <created>1555764374535</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1555764374571</updated>
+    </task>
+    <option name="localTasksCounter" value="304" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -831,7 +743,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181957000" />
+    <option name="totallyTimeSpent" value="184363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,16 +755,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="517" y="77" width="1155" height="883" extended-state="0" />
+    <frame x="470" y="158" width="1155" height="883" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23105022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2347032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Jupyter" weight="0.32965517" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32962137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48791823" weight="0.38132733" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48791823" weight="0.617931" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39724138" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -861,8 +773,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51598173" side_tool="true" weight="0.40220386" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" visible="true" weight="0.39034483" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.31514478" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" weight="0.04137931" />
+      <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1098,12 +1011,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/book$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1555825154727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/12、箱型图.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/15、表格样式调用.ipynb" />
     <entry file="file://F:/02.Python爬虫视频分布式Scrapy Nosql搜索引擎可视化入门到精通教程/第03阶段-高级实战-01-分布式爬虫调度验证搜索原理-2017年更新/课件和源码/charpter_09/interpolation_search.cpp" />
@@ -1165,9 +1076,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xxx.html" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/商铺数据.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
@@ -1178,6 +1086,9 @@
           <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目03知乎数据清洗整理和结论研究.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
@@ -1185,21 +1096,12 @@
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目01商铺数据加载及存储.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/K线图.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/Untitled2.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/Untitled.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/Untitled2.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/Untitled.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据分析/1、pandas.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/K线图.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/K线图.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据分析/PieChart.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1247,13 +1149,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1715" column="47" lean-forward="true" selection-start-line="1715" selection-start-column="47" selection-end-line="1715" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/xxx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
