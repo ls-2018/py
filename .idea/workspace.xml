@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据分析/简易回测框架.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="179" selection-end-column="27" />
+            <state relative-caret-position="58">
+              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -147,8 +147,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="30" />
+    <option name="x" value="773" />
+    <option name="y" value="43" />
     <option name="width" value="1155" />
     <option name="height" value="772" />
   </component>
@@ -397,14 +397,7 @@
       <workItem from="1555760528407" duration="3964000" />
       <workItem from="1555824625169" duration="3231000" />
       <workItem from="1555835895032" duration="598000" />
-      <workItem from="1555845900064" duration="3659000" />
-    </task>
-    <task id="LOCAL-00260" summary="7、分布数据可视化-分布图">
-      <created>1555549144325</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1555549144327</updated>
+      <workItem from="1555845900064" duration="3963000" />
     </task>
     <task id="LOCAL-00261" summary="7、分布数据可视化-分布图">
       <created>1555549900383</created>
@@ -742,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555848802055</updated>
     </task>
-    <option name="localTasksCounter" value="309" />
+    <task id="LOCAL-00309" summary="简易回测框架">
+      <created>1555849767856</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1555849767856</updated>
+    </task>
+    <option name="localTasksCounter" value="310" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -778,7 +778,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189691000" />
+    <option name="totallyTimeSpent" value="189995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -790,14 +790,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="30" width="1155" height="772" extended-state="0" />
+    <frame x="773" y="43" width="1155" height="772" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24383561" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48791823" visible="true" weight="0.3713355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48791823" visible="true" weight="0.62540716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39724138" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1045,7 +1046,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="简易回测框架 Coverage Results" MODIFIED="1555849751893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
+    <SUITE FILE_PATH="coverage/book$.coverage" NAME="简易回测框架 Coverage Results" MODIFIED="1555849870690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/book$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1555825154727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
@@ -1212,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/简易回测框架.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="177" column="4" selection-start-line="177" selection-start-column="4" selection-end-line="179" selection-end-column="27" />
+        <state relative-caret-position="58">
+          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

@@ -7,7 +7,7 @@ import dateutil
 
 CASH = 100000
 START_DATE = '2016-01-07'
-END_DATE = '2017-12-31'
+END_DATE = '2016-05-31'
 # trade_cal = tushare.trade_cal()
 # trade_cal.to_csv('trade_cal.csv')
 trade_cal = pd.read_csv('trade_cal.csv')
@@ -47,7 +47,7 @@ def attribute_history(security, count, fields=('open', 'close', 'high', 'low', '
     end_date = (context.dt - datetime.timedelta(days=1)).strftime('%Y-%m-%d')
     start_date = trade_cal[(trade_cal['isOpen'] == 1) & (trade_cal['calendarDate'] <= end_date)][-count:].iloc[0, :][
         'calendarDate']
-    print(start_date, end_date)
+    # print(start_date, end_date)
     return attribute_daterange_history(security, start_date, end_date)
 
 
@@ -182,7 +182,7 @@ def initialize(context):
 def handle_data(context):
     order('601318', 100)
     hist = attribute_history(g.security, g.p2)
-    md5 = hist['close'][-g.p1].mean()
+    md5 = hist['close'][-g.p1:].mean()
     md60 = hist['close'].mean()
 
     if md5 > md60 and g.security not in context.positions:
