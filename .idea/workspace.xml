@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据分析/简易回测框架.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/简易回测框架.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/简易回测框架.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,20 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据分析/xxx.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数据分析/简易回测框架.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="26">
+              <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -156,10 +147,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="608" />
-    <option name="y" value="81" />
+    <option name="x" value="771" />
+    <option name="y" value="46" />
     <option name="width" value="1155" />
-    <option name="height" value="883" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -172,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,6 +184,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,6 +231,9 @@
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -281,6 +275,9 @@
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -398,14 +395,9 @@
       <workItem from="1555722454124" duration="1455000" />
       <workItem from="1555754970743" duration="598000" />
       <workItem from="1555760528407" duration="3964000" />
-      <workItem from="1555824625169" duration="2413000" />
-    </task>
-    <task id="LOCAL-00256" summary="5、分布数据可视化-散点图">
-      <created>1555509408903</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1555509408903</updated>
+      <workItem from="1555824625169" duration="3231000" />
+      <workItem from="1555835895032" duration="598000" />
+      <workItem from="1555845900064" duration="1212000" />
     </task>
     <task id="LOCAL-00257" summary="5、分布数据可视化-散点图">
       <created>1555509426159</created>
@@ -743,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555830214135</updated>
     </task>
-    <option name="localTasksCounter" value="305" />
+    <task id="LOCAL-00305" summary="简易回测框架">
+      <created>1555830644452</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1555830644452</updated>
+    </task>
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -779,7 +778,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184616000" />
+    <option name="totallyTimeSpent" value="187244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,16 +790,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="73" width="1155" height="883" extended-state="0" />
+    <frame x="771" y="46" width="1155" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2347032" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24383561" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32962137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48791823" visible="true" weight="0.47862068" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48791823" visible="true" weight="0.102605864" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39724138" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -808,10 +806,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51598173" side_tool="true" weight="0.40220386" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51598173" side_tool="true" weight="0.40065145" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.31448275" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" weight="0.04137931" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -848,7 +847,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12、箱型图" />
     <MESSAGE value="13、表格样式创建" />
     <MESSAGE value="14、表格显示控制" />
     <MESSAGE value="15、表格样式调用" />
@@ -873,7 +871,8 @@
     <MESSAGE value="K线图" />
     <MESSAGE value="查找历史金叉死叉日期" />
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="简易回测框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="简易回测框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1047,7 +1046,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="简易回测框架 Coverage Results" MODIFIED="1555830619457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
+    <SUITE FILE_PATH="coverage/book$.coverage" NAME="简易回测框架 Coverage Results" MODIFIED="1555847120982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/book$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1555825154727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析" />
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
@@ -1112,18 +1111,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xxx.html" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/商铺数据.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目03知乎数据清洗整理和结论研究.ipynb">
@@ -1202,14 +1201,14 @@
     <entry file="file://$PROJECT_DIR$/数据分析/xxx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据分析/简易回测框架.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        <state relative-caret-position="26">
+          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
