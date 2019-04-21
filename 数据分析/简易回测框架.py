@@ -5,9 +5,9 @@ import tushare
 import datetime
 import dateutil
 
-CASH = 100000
+CASH = 10000
 START_DATE = '2016-01-07'
-END_DATE = '2016-05-31'
+END_DATE = '2016-01-15'
 # trade_cal = tushare.trade_cal()
 # trade_cal.to_csv('trade_cal.csv')
 trade_cal = pd.read_csv('trade_cal.csv')
@@ -53,11 +53,12 @@ def attribute_history(security, count, fields=('open', 'close', 'high', 'low', '
 
 def attribute_daterange_history(security, start_date, end_date, fields=('open', 'close', 'high', 'low', 'volume')):
     try:
-        f = open(security + '.csv')
+        f = open(security + '.csv', 'r')
         df = pd.read_csv(f, index_col='date', parse_dates=['date']).loc[start_date:end_date, :]
-    except:
+    except FileNotFoundError:
         df = tushare.get_k_data(security, start_date, end_date)
-    return df[list(fields)]
+    df = df[list(fields)]# type:pd.DataFrame
+    return df.reset_index( drop=True)
 
 
 #  下单函数
@@ -167,7 +168,8 @@ def run():
     plt_df['ratio'] = (plt_df['value'] - init_value) / init_value
     bm_df = attribute_daterange_history(context.benchmark, context.start_date, context.end_date)
     bm_init = bm_df['open'][0]
-    plt_df['benckmark_ratio'] = (bm_df['open'] - bm_init) / bm_init
+    temp =(bm_df['open'] - bm_init) / bm_init
+    plt_df['benckmark_ratio'] = temp
     plt_df[['ratio', 'benckmark_ratio']].plot()
     plt.show()
 
