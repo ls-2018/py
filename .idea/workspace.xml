@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/梯度下降求解逻辑回归-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/.ipynb_checkpoints/梯度下降求解逻辑回归-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,9 +134,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="731" />
-    <option name="y" value="249" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="750" />
+    <option name="y" value="107" />
     <option name="width" value="1155" />
     <option name="height" value="772" />
   </component>
@@ -152,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,6 +406,7 @@
       <workItem from="1555835895032" duration="598000" />
       <workItem from="1555845900064" duration="6885000" />
       <workItem from="1555887891247" duration="3780000" />
+      <workItem from="1555897649313" duration="1378000" />
     </task>
     <task id="LOCAL-00266" summary="11、结构化图表可视化">
       <created>1555564985176</created>
@@ -787,7 +787,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196697000" />
+    <option name="totallyTimeSpent" value="198075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,9 +799,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="731" y="249" width="1155" height="772" extended-state="0" />
+    <frame x="750" y="107" width="1155" height="772" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26392695" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26849315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -816,7 +816,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5150685" side_tool="true" weight="0.495114" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.31403118" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" visible="true" weight="0.35993487" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" visible="true" weight="0.2703583" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1114,18 +1114,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xxx.html" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/商铺数据.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
+        </state>
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目03知乎数据清洗整理和结论研究.ipynb">
@@ -1257,9 +1257,7 @@
     <entry file="file://$PROJECT_DIR$/机器学习/回归.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.py" />
   </component>
   <component name="masterDetails">
     <states>
