@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/.ipynb_checkpoints/样本不均衡解决方案-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/.ipynb_checkpoints/样本不均衡解决方案-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/样本不均衡解决方案.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/样本不均衡解决方案.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,11 +190,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\机器学习\样本不均衡解决方案" />
       <recent name="D:\Destop\book\数据分析" />
       <recent name="D:\Destop\book\机器学习\数据可视化" />
       <recent name="D:\Destop\book\机器学习\数据可视化\图表可视化--Seaborn\.ipynb_checkpoints" />
       <recent name="D:\Destop\book\机器学习\数据可视化\图表可视化--Seaborn" />
-      <recent name="D:\Destop\book\机器学习\数据可视化\Matplotlib工具" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Destop\book\机器学习" />
@@ -410,21 +414,7 @@
       <workItem from="1555845900064" duration="6885000" />
       <workItem from="1555887891247" duration="3780000" />
       <workItem from="1555897649313" duration="1378000" />
-      <workItem from="1555909678871" duration="4455000" />
-    </task>
-    <task id="LOCAL-00273" summary="11、结构化图表可视化">
-      <created>1555594020375</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1555594020375</updated>
-    </task>
-    <task id="LOCAL-00274" summary="11、结构化图表可视化">
-      <created>1555594033681</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1555594033681</updated>
+      <workItem from="1555909678871" duration="5145000" />
     </task>
     <task id="LOCAL-00275" summary="11、结构化图表可视化">
       <created>1555594071279</created>
@@ -755,7 +745,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555914833108</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary="样本不均衡解决方案">
+      <created>1555915826519</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1555915826519</updated>
+    </task>
+    <task id="LOCAL-00323" summary="样本不均衡解决方案">
+      <created>1555916005768</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1555916005768</updated>
+    </task>
+    <option name="localTasksCounter" value="324" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -791,7 +795,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202530000" />
+    <option name="totallyTimeSpent" value="203220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
