@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/.ipynb_checkpoints/样本不均衡解决方案-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/.ipynb_checkpoints/样本不均衡解决方案-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/样本不均衡解决方案.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/样本不均衡解决方案/样本不均衡解决方案.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="750" />
     <option name="y" value="107" />
     <option name="width" value="1155" />
@@ -152,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,21 +157,11 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
-              <item name="样本不均衡解决方案" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,29 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.简易回测框架">
-    <configuration name="简易回测框架" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/简易回测框架.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,62 +226,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xx" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/xx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="xxx" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/xxx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.xxx" />
-      <item itemvalue="Python.简易回测框架" />
-      <item itemvalue="Python.xx" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.简易回测框架" />
-        <item itemvalue="Python.xx" />
-        <item itemvalue="Python.xxx" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -414,14 +323,10 @@
       <workItem from="1555845900064" duration="6885000" />
       <workItem from="1555887891247" duration="3780000" />
       <workItem from="1555897649313" duration="1378000" />
-      <workItem from="1555909678871" duration="5145000" />
-    </task>
-    <task id="LOCAL-00275" summary="11、结构化图表可视化">
-      <created>1555594071279</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
-      <option name="project" value="LOCAL" />
-      <updated>1555594071279</updated>
+      <workItem from="1555909678871" duration="5762000" />
+      <workItem from="1555929643731" duration="724000" />
+      <workItem from="1555973955219" duration="982000" />
+      <workItem from="1555991121991" duration="91000" />
     </task>
     <task id="LOCAL-00276" summary="11、结构化图表可视化">
       <created>1555594097519</created>
@@ -759,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555916005768</updated>
     </task>
-    <option name="localTasksCounter" value="324" />
+    <task id="LOCAL-00324" summary="样本不均衡解决方案">
+      <created>1555916348988</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1555916348988</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -795,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203220000" />
+    <option name="totallyTimeSpent" value="205634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,7 +721,7 @@
   <component name="ToolWindowManager">
     <frame x="750" y="107" width="1155" height="772" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27305937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2894977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -824,7 +736,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5150685" side_tool="true" weight="0.495114" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.31403118" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" visible="true" weight="0.47068405" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" weight="0.4699187" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1124,13 +1036,13 @@
           <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目03知乎数据清洗整理和结论研究.ipynb">
@@ -1270,10 +1182,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/样本不均衡解决方案/creditcard.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
