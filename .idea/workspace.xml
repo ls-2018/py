@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Mongo/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mongo/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="473">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -342,70 +342,7 @@
       <workItem from="1555929643731" duration="724000" />
       <workItem from="1555973955219" duration="982000" />
       <workItem from="1555991121991" duration="91000" />
-      <workItem from="1556024838655" duration="241000" />
-    </task>
-    <task id="LOCAL-00286" summary="11、结构化图表可视化">
-      <created>1555594447170</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1555594447170</updated>
-    </task>
-    <task id="LOCAL-00287" summary="数据预处理">
-      <created>1555631735454</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1555631735455</updated>
-    </task>
-    <task id="LOCAL-00288" summary="数据预处理">
-      <created>1555635091189</created>
-      <option name="number" value="00288" />
-      <option name="presentableId" value="LOCAL-00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1555635091189</updated>
-    </task>
-    <task id="LOCAL-00289" summary="数据预处理">
-      <created>1555635279789</created>
-      <option name="number" value="00289" />
-      <option name="presentableId" value="LOCAL-00289" />
-      <option name="project" value="LOCAL" />
-      <updated>1555635279789</updated>
-    </task>
-    <task id="LOCAL-00290" summary="数据预处理">
-      <created>1555635477472</created>
-      <option name="number" value="00290" />
-      <option name="presentableId" value="LOCAL-00290" />
-      <option name="project" value="LOCAL" />
-      <updated>1555635477472</updated>
-    </task>
-    <task id="LOCAL-00291" summary="GEPHI">
-      <created>1555641142709</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1555641142709</updated>
-    </task>
-    <task id="LOCAL-00292" summary="项目01商铺数据加载及存储">
-      <created>1555641910407</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1555641910407</updated>
-    </task>
-    <task id="LOCAL-00293" summary="项目02基于Python的算法函数创建">
-      <created>1555641954042</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1555641954042</updated>
-    </task>
-    <task id="LOCAL-00294" summary="项目03知乎数据清洗整理和结论研究">
-      <created>1555642017982</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1555642017982</updated>
+      <workItem from="1556024838655" duration="480000" />
     </task>
     <task id="LOCAL-00295" summary="项目04视频网站数据清洗整理和结论研究">
       <created>1555642045494</created>
@@ -687,7 +624,70 @@
       <option name="project" value="LOCAL" />
       <updated>1556025077567</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="Mongo">
+      <created>1556025125989</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025125989</updated>
+    </task>
+    <task id="LOCAL-00336" summary="Mongo">
+      <created>1556025142174</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025142174</updated>
+    </task>
+    <task id="LOCAL-00337" summary="Mongo">
+      <created>1556025176603</created>
+      <option name="number" value="00337" />
+      <option name="presentableId" value="LOCAL-00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025176603</updated>
+    </task>
+    <task id="LOCAL-00338" summary="Mongo">
+      <created>1556025201877</created>
+      <option name="number" value="00338" />
+      <option name="presentableId" value="LOCAL-00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025201877</updated>
+    </task>
+    <task id="LOCAL-00339" summary="Mongo">
+      <created>1556025220378</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025220378</updated>
+    </task>
+    <task id="LOCAL-00340" summary="Mongo">
+      <created>1556025237190</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025237190</updated>
+    </task>
+    <task id="LOCAL-00341" summary="Mongo">
+      <created>1556025250319</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025250319</updated>
+    </task>
+    <task id="LOCAL-00342" summary="Mongo">
+      <created>1556025265137</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025265137</updated>
+    </task>
+    <task id="LOCAL-00343" summary="Mongo">
+      <created>1556025316288</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025316288</updated>
+    </task>
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -723,7 +723,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205875000" />
+    <option name="totallyTimeSpent" value="206114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1206,7 +1206,7 @@
     <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
