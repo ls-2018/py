@@ -1,7 +1,7 @@
 import pymongo
 from bson import ObjectId
 
-mongo_client = pymongo.MongoClient(host="127.0.0.1",port=27017)
+mongo_client = pymongo.MongoClient(host="127.0.0.1", port=27017)
 MONGO = mongo_client["test"]
 
 # 查询数据
@@ -22,8 +22,6 @@ print(res)
 # import json
 # res_json = json.dumps(res)
 # print(res_json)
-
-
 
 
 # 增加数据
