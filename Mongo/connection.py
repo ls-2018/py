@@ -44,6 +44,7 @@ list(MONGO.userinfo.find({}).sort('age', pymongo.DESCENDING).skip(5).limit(2))  
 # 先按age降序排列，在跳过5条取2条
 
 
+
 # ######################### python 的 update
 res = MONGO.userinfo.find_one({"name": "200wansui"})
 print(res)
