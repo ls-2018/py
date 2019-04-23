@@ -50,6 +50,7 @@ list(MONGO.userinfo.find({}).sort('age', pymongo.DESCENDING).skip(5).limit(2))  
 
 
 
+
 # ######################### python 的 update
 res = MONGO.userinfo.find_one({"name": "200wansui"})
 print(res)
