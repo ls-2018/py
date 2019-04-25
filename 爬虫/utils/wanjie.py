@@ -13,7 +13,6 @@ bro.get("http://www.gugu5.com/o/wanjiexianzong/")
 
 a_list = bro.find_elements_by_xpath('//*[@id="play_0"]/ul/li/a')
 pre_link = []
-img_link = []
 for a in a_list:
     href = a.get_attribute('href')
     title = a.get_attribute('title')
@@ -30,9 +29,9 @@ def _get_img_1():
         num = len(bro.find_elements_by_xpath('//*[@id="qTcms_select_i2"]/option '))
         for i in range(1, num):
             src = bro.find_element_by_xpath('//*[@id="qTcms_pic"]').get_attribute('src')
-            img_link.append((title, src, i))
-            _get_img_2(title, href, i)
-            bro.find_element_by_xpath('/html/body/div[11]/a[3]').click()
+            _get_img_2(title, src, i)
+            btn = bro.find_element_by_xpath('/html/body/div[12]/a[3]')
+            btn.click()
 
 
 # /html/body/div[8]/select/option[1]
