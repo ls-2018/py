@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Mongo/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mongo/connection.py" afterDir="false" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="Mongo">
+      <change afterPath="$PROJECT_DIR$/爬虫/utils/wanjie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <SUITE FILE_PATH="coverage/book$app.coverage" NAME="app Coverage Results" MODIFIED="1555328514999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun" />
     <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_unittest_1_MyClassTest.coverage" NAME="Twisted Trial for unittest_1.MyClassTest Coverage Results" MODIFIED="1555159385301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
     <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_x_MyClassTest_test_add.coverage" NAME="Twisted Trial for x.MyClassTest.test_add Coverage Results" MODIFIED="1555161136859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
+    <SUITE FILE_PATH="coverage/book$wanjie.coverage" NAME="wanjie Coverage Results" MODIFIED="1556178649089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/utils" />
     <SUITE FILE_PATH="coverage/book$websocket.coverage" NAME="websocket解密 Coverage Results" MODIFIED="1554513838699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度AI" />
     <SUITE FILE_PATH="coverage/book$xiaopapa.coverage" NAME="xiaopapa Coverage Results" MODIFIED="1554940979589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus/KingEight" />
     <SUITE FILE_PATH="coverage/book$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1555066349028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus" />
@@ -46,12 +48,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
+        <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+            <state relative-caret-position="523">
+              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Jupyter Notebook" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -89,9 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Flask－/manager.py" />
-        <option value="$PROJECT_DIR$/百度AI/语法分析.py" />
-        <option value="$PROJECT_DIR$/爬虫/怕漫画/test.py" />
         <option value="$PROJECT_DIR$/爬虫/怕漫画/main.py" />
         <option value="$PROJECT_DIR$/百度AI/文字识别.py" />
         <option value="$PROJECT_DIR$/数据清洗/test.py" />
@@ -140,13 +142,16 @@
         <option value="$PROJECT_DIR$/数据分析/简易回测框架.py" />
         <option value="$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.py" />
         <option value="$PROJECT_DIR$/Mongo/connection.py" />
+        <option value="$PROJECT_DIR$/Mongo/test.py" />
+        <option value="$PROJECT_DIR$/xx.html" />
+        <option value="$PROJECT_DIR$/爬虫/utils/wanjie.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="750" />
-    <option name="y" value="107" />
-    <option name="width" value="1155" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="671" />
+    <option name="y" value="83" />
+    <option name="width" value="1462" />
     <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -170,7 +175,13 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -188,22 +199,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\机器学习\样本不均衡解决方案" />
-      <recent name="D:\Destop\book\数据分析" />
-      <recent name="D:\Destop\book\机器学习\数据可视化" />
-      <recent name="D:\Destop\book\机器学习\数据可视化\图表可视化--Seaborn\.ipynb_checkpoints" />
-      <recent name="D:\Destop\book\机器学习\数据可视化\图表可视化--Seaborn" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Destop\book\机器学习" />
       <recent name="D:\Destop\book\数据分析" />
       <recent name="D:\Destop\book\机器学习\数据可视化" />
       <recent name="D:\Destop\book\机器学习\数据可视化\Matplotlib工具" />
       <recent name="D:\Destop\book\数据清洗\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\机器学习\样本不均衡解决方案" />
+      <recent name="D:\Destop\book\数据分析" />
+      <recent name="D:\Destop\book\机器学习\数据可视化" />
+      <recent name="D:\Destop\book\机器学习\数据可视化\图表可视化--Seaborn\.ipynb_checkpoints" />
+      <recent name="D:\Destop\book\机器学习\数据可视化\图表可视化--Seaborn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,6 +252,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wanjie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/utils/wanjie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wanjie" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -342,21 +380,15 @@
       <workItem from="1555929643731" duration="724000" />
       <workItem from="1555973955219" duration="982000" />
       <workItem from="1555991121991" duration="91000" />
-      <workItem from="1556024838655" duration="727000" />
-    </task>
-    <task id="LOCAL-00301" summary="K线图">
-      <created>1555762006804</created>
-      <option name="number" value="00301" />
-      <option name="presentableId" value="LOCAL-00301" />
-      <option name="project" value="LOCAL" />
-      <updated>1555762006806</updated>
-    </task>
-    <task id="LOCAL-00302" summary="查找历史金叉死叉日期">
-      <created>1555763107116</created>
-      <option name="number" value="00302" />
-      <option name="presentableId" value="LOCAL-00302" />
-      <option name="project" value="LOCAL" />
-      <updated>1555763107116</updated>
+      <workItem from="1556024838655" duration="1080000" />
+      <workItem from="1556026010555" duration="3610000" />
+      <workItem from="1556061019612" duration="97000" />
+      <workItem from="1556062264223" duration="497000" />
+      <workItem from="1556074563047" duration="76000" />
+      <workItem from="1556146828224" duration="597000" />
+      <workItem from="1556157578871" duration="3000" />
+      <workItem from="1556167626522" duration="68000" />
+      <workItem from="1556176032616" duration="1721000" />
     </task>
     <task id="LOCAL-00303" summary="demo">
       <created>1555764374535</created>
@@ -687,7 +719,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556025542769</updated>
     </task>
-    <option name="localTasksCounter" value="350" />
+    <task id="LOCAL-00350" summary="Mongo">
+      <created>1556025579660</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025579660</updated>
+    </task>
+    <task id="LOCAL-00351" summary="Mongo">
+      <created>1556025631719</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1556025631719</updated>
+    </task>
+    <option name="localTasksCounter" value="352" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -723,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206361000" />
+    <option name="totallyTimeSpent" value="213383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,12 +784,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4849315" weight="0.37639198" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4849315" weight="0.5144766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53340757" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -751,8 +797,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5150685" side_tool="true" visible="true" weight="0.2962138" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.31403118" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5150685" side_tool="true" weight="0.28455284" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49163568" weight="0.31270358" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48401827" weight="0.4699187" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32962137" />
@@ -760,7 +806,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.33315566" />
-      <window_info anchor="right" id="Database" order="4" weight="0.39190522" />
+      <window_info anchor="right" id="Database" order="4" weight="0.39178082" />
       <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.18245265" />
       <window_info anchor="right" x="0" y="0" width="234" height="847" id="Documentation" order="6" side_tool="true" weight="0.32992566" />
     </layout>
@@ -997,46 +1043,13 @@
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/online.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/pydispatch/dispatcher.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/Matplotlib工具/10、散点图.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/1_风格及调色盘-checkpoint.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/Untitled.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/3、调色盘.ipynb" />
-    <entry file="file://$PROJECT_DIR$/xx.py" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/5、分布数据可视化-散点图.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/11、结构化图表可视化.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/图表可视化--Seaborn/11、结构化图表可视化.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/xx.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1072250519/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1072250519/nt.py" />
     <entry file="file://$PROJECT_DIR$/爬虫/滑动验证.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/叶辰.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/数据预处理.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/数据预处理.ipynb" />
     <entry file="file://$PROJECT_DIR$/../x/123.py" />
     <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/edge.csv">
       <provider selected="true" editor-type-id="text-editor">
@@ -1052,48 +1065,22 @@
           <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目03知乎数据清洗整理和结论研究.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目01商铺数据加载及存储.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目03知乎数据清洗整理和结论研究.ipynb" />
+    <entry file="file://$PROJECT_DIR$/机器学习/数据可视化/项目01商铺数据加载及存储.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据分析/Untitled2.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据分析/Untitled.ipynb" />
-    <entry file="file://$PROJECT_DIR$/数据分析/1、pandas.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/1、pandas.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据分析/K线图.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据分析/PieChart.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/use_matplotlib.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/异常数据处理.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/数据处理.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/数据归一化.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/数据连续属性离散化.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/正态性分析.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/use_matplotlib.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/异常数据处理.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/数据处理.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/数据归一化.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/数据连续属性离散化.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/正态性分析.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据分析/K线图.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1104,15 +1091,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/查找历史金叉死叉日期.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/toshare.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/matplotlib.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/查找历史金叉死叉日期.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/toshare.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/matplotlib.ipynb" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1187,26 +1168,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/回归.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/回归.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.py" />
-    <entry file="file://$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.ipynb" />
     <entry file="file://$PROJECT_DIR$/机器学习/data/LogiReg_data.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/样本不均衡解决方案/creditcard.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/样本不均衡解决方案/creditcard.csv" />
     <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+        <state relative-caret-position="182">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xx.html" />
+    <entry file="file://$PROJECT_DIR$/Mongo/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mongo/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/叶辰.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="9" column="42" lean-forward="true" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/urllib3/_collections.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/urllib3/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/urllib3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1361" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/urllib3/util/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2536">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/urllib3/util/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
