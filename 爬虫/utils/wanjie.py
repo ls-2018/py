@@ -27,10 +27,10 @@ def _get_img_1():
             os.mkdir(f'./wanjie/{title}')
         bro.get(href)
         num = len(bro.find_elements_by_xpath('//*[@id="qTcms_select_i2"]/option '))
-        for i in range(1, num):
+        for i in range(1, num+1):
             src = bro.find_element_by_xpath('//*[@id="qTcms_pic"]').get_attribute('src')
             _get_img_2(title, src, i)
-            btn = bro.find_element_by_xpath('/html/body/div[12]/a[3]')
+            btn = bro.find_element_by_xpath('//*[@id="qTcms_pic"]')
             btn.click()
 
 
