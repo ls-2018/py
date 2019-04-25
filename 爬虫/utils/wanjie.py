@@ -2,11 +2,12 @@ from urllib import request
 import os
 from selenium import webdriver
 from multiprocessing.dummy import Pool as ThreadPool
+from multiprocessing import Pool as ProcessPoll
 
 chorme_opt = webdriver.ChromeOptions()
 prefs = {"profile.managed_default_content_settings.images": 2}
 chorme_opt.add_experimental_option("prefs", prefs)
-
+# bro = webdriver.Chrome(executable_path=r"./chromedriver.exe")
 bro = webdriver.Chrome(executable_path=r"./chromedriver.exe", chrome_options=chorme_opt)
 bro.get("http://www.gugu5.com/o/wanjiexianzong/")
 
@@ -19,32 +20,37 @@ for a in a_list:
     pre_link.append((href, title))
 
 
-def _get_img_1(demo):
-    href, title = demo
-    if os.path.exists(f"./wanjie/{title}"):
-        pass
-    else:
-        os.mkdir(f'./wanjie/{title}')
-    bro.get(href)
-    num = bro.find_elements_by_xpath('/html/body/div[8]/select/option').__len__()
-    for i in range(1, num):
-        href = bro.find_element_by_xpath('//*[@id="qTcms_pic"]').get_attribute('href')
-        img_link.append((title, href, i))
-        bro.find_element_by_xpath('/html/body/div[11]/a[3]').click()
+def _get_img_1():
+    for href, title in pre_link:
+        if os.path.exists(f"./wanjie/{title}"):
+            pass
+        else:
+            os.mkdir(f'./wanjie/{title}')
+        bro.get(href)
+        num = len(bro.find_elements_by_xpath('//*[@id="qTcms_select_i2"]/option '))
+        for i in range(1, num):
+            src = bro.find_element_by_xpath('//*[@id="qTcms_pic"]').get_attribute('src')
+            img_link.append((title, src, i))
+            _get_img_2(title, href, i)
+            bro.find_element_by_xpath('/html/body/div[11]/a[3]').click()
 
 
 # /html/body/div[8]/select/option[1]
-def _get_img_2(title, url, num):
-    print(title, num, url)
-    request.urlretrieve(url, f'./wanjie/{title}/{num}.png')
+def _get_img_2(title, src, num):
+    print(title, num, src)
+    request.urlretrieve(src, f'./wanjie/{title}/{num}.png')
 
 
 if __name__ == '__main__':
-    pool = ThreadPool(16)  # 线程
+    _get_img_1()
 
-    pool.map(_get_img_1, pre_link)
-    pool.join()
-    print('----')
-    pool.map(_get_img_2, img_link)
-    pool.close()
-    pool.join()
+    # pool = ProcessPoll(3)  # 线程
+
+    # pool.map(_get_img_1, pre_link)
+    # pool.close()
+    # pool.join()
+    # print('---')
+    # pool2 = ThreadPool(16)  # 线程
+    # pool2.map(_get_img_2, img_link)
+    # pool2.close()
+    # pool2.join()
