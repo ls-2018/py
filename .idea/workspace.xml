@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/utils/wanjie.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/utils/wanjie.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -380,13 +394,7 @@
       <workItem from="1556235189045" duration="635000" />
       <workItem from="1556253833905" duration="546000" />
       <workItem from="1556319532001" duration="1294000" />
-    </task>
-    <task id="LOCAL-00307" summary="简易回测框架">
-      <created>1555847778747</created>
-      <option name="number" value="00307" />
-      <option name="presentableId" value="LOCAL-00307" />
-      <option name="project" value="LOCAL" />
-      <updated>1555847778747</updated>
+      <workItem from="1556361928165" duration="233000" />
     </task>
     <task id="LOCAL-00308" summary="简易回测框架">
       <created>1555848802055</created>
@@ -724,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556180873210</updated>
     </task>
-    <option name="localTasksCounter" value="356" />
+    <task id="LOCAL-00356" summary="wanjie">
+      <created>1556361950654</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1556361950654</updated>
+    </task>
+    <option name="localTasksCounter" value="357" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -772,9 +787,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="477" y="8" width="1462" height="1007" extended-state="1" />
+    <frame x="477" y="8" width="1462" height="1007" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27960056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28388017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
