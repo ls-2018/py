@@ -33,6 +33,7 @@ def _get_img_1():
             btn = bro.find_element_by_xpath('//*[@id="qTcms_pic"]')
             btn.click()
 
+
 # /html/body/div[8]/select/option[1]
 def _get_img_2(title, src, num):
     print(title, num, src)
