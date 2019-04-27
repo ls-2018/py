@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,7 @@
     <SUITE FILE_PATH="coverage/book$app.coverage" NAME="app Coverage Results" MODIFIED="1555328514999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun" />
     <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_unittest_1_MyClassTest.coverage" NAME="Twisted Trial for unittest_1.MyClassTest Coverage Results" MODIFIED="1555159385301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
     <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_x_MyClassTest_test_add.coverage" NAME="Twisted Trial for x.MyClassTest.test_add Coverage Results" MODIFIED="1555161136859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
-    <SUITE FILE_PATH="coverage/book$wanjie.coverage" NAME="wanjie Coverage Results" MODIFIED="1556179946282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/utils" />
+    <SUITE FILE_PATH="coverage/book$wanjie.coverage" NAME="wanjie Coverage Results" MODIFIED="1556180196491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/utils" />
     <SUITE FILE_PATH="coverage/book$websocket.coverage" NAME="websocket解密 Coverage Results" MODIFIED="1554513838699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度AI" />
     <SUITE FILE_PATH="coverage/book$xiaopapa.coverage" NAME="xiaopapa Coverage Results" MODIFIED="1554940979589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus/KingEight" />
     <SUITE FILE_PATH="coverage/book$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1555066349028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus" />
@@ -45,20 +47,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,9 +134,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="588" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="477" />
+    <option name="y" value="8" />
     <option name="width" value="1462" />
     <option name="height" value="1007" />
   </component>
@@ -162,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,21 +375,11 @@
       <workItem from="1556157578871" duration="3000" />
       <workItem from="1556167626522" duration="68000" />
       <workItem from="1556176032616" duration="1721000" />
-      <workItem from="1556178635034" duration="1102000" />
-    </task>
-    <task id="LOCAL-00305" summary="简易回测框架">
-      <created>1555830644452</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1555830644452</updated>
-    </task>
-    <task id="LOCAL-00306" summary="简易回测框架">
-      <created>1555847179515</created>
-      <option name="number" value="00306" />
-      <option name="presentableId" value="LOCAL-00306" />
-      <option name="project" value="LOCAL" />
-      <updated>1555847179516</updated>
+      <workItem from="1556178635034" duration="2315000" />
+      <workItem from="1556184794942" duration="598000" />
+      <workItem from="1556235189045" duration="635000" />
+      <workItem from="1556253833905" duration="546000" />
+      <workItem from="1556319532001" duration="1294000" />
     </task>
     <task id="LOCAL-00307" summary="简易回测框架">
       <created>1555847778747</created>
@@ -731,7 +710,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556179729537</updated>
     </task>
-    <option name="localTasksCounter" value="354" />
+    <task id="LOCAL-00354" summary="wanjie">
+      <created>1556179961001</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1556179961001</updated>
+    </task>
+    <task id="LOCAL-00355" summary="wanjie">
+      <created>1556180873210</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1556180873210</updated>
+    </task>
+    <option name="localTasksCounter" value="356" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -767,7 +760,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214485000" />
+    <option name="totallyTimeSpent" value="218771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,15 +772,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="38" width="1462" height="1007" extended-state="0" />
+    <frame x="477" y="8" width="1462" height="1007" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2660485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27960056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4849315" weight="0.29564193" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38515902" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4849315" weight="0.42761692" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38515902" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3280899" />
@@ -1032,18 +1025,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
-          <line>22</line>
+          <line>21</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
-          <line>34</line>
+          <line>32</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
-          <line>33</line>
+          <line>31</line>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1263,8 +1261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="203">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
