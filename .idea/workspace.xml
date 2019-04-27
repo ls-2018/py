@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/爬虫/utils/wanjie.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/utils/wanjie.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="675">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -394,91 +393,7 @@
       <workItem from="1556235189045" duration="635000" />
       <workItem from="1556253833905" duration="546000" />
       <workItem from="1556319532001" duration="1294000" />
-      <workItem from="1556361928165" duration="233000" />
-    </task>
-    <task id="LOCAL-00308" summary="简易回测框架">
-      <created>1555848802055</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1555848802055</updated>
-    </task>
-    <task id="LOCAL-00309" summary="简易回测框架">
-      <created>1555849767856</created>
-      <option name="number" value="00309" />
-      <option name="presentableId" value="LOCAL-00309" />
-      <option name="project" value="LOCAL" />
-      <updated>1555849767856</updated>
-    </task>
-    <task id="LOCAL-00310" summary="简易回测框架">
-      <created>1555849919200</created>
-      <option name="number" value="00310" />
-      <option name="presentableId" value="LOCAL-00310" />
-      <option name="project" value="LOCAL" />
-      <updated>1555849919200</updated>
-    </task>
-    <task id="LOCAL-00311" summary="简易回测框架">
-      <created>1555851436560</created>
-      <option name="number" value="00311" />
-      <option name="presentableId" value="LOCAL-00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1555851436560</updated>
-    </task>
-    <task id="LOCAL-00312" summary="简易回测框架">
-      <created>1555852105719</created>
-      <option name="number" value="00312" />
-      <option name="presentableId" value="LOCAL-00312" />
-      <option name="project" value="LOCAL" />
-      <updated>1555852105719</updated>
-    </task>
-    <task id="LOCAL-00313" summary="简易回测框架">
-      <created>1555854126569</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1555854126569</updated>
-    </task>
-    <task id="LOCAL-00314" summary="线性回归">
-      <created>1555889708936</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1555889708938</updated>
-    </task>
-    <task id="LOCAL-00315" summary="梯度下降求解逻辑回归">
-      <created>1555909947090</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1555909947091</updated>
-    </task>
-    <task id="LOCAL-00316" summary="梯度下降求解逻辑回归">
-      <created>1555911315142</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1555911315143</updated>
-    </task>
-    <task id="LOCAL-00317" summary="科比数据集分析">
-      <created>1555912295619</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1555912295619</updated>
-    </task>
-    <task id="LOCAL-00318" summary="科比数据集分析">
-      <created>1555913489329</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1555913489331</updated>
-    </task>
-    <task id="LOCAL-00319" summary="样本不均衡解决方案">
-      <created>1555913934715</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1555913934760</updated>
+      <workItem from="1556361928165" duration="503000" />
     </task>
     <task id="LOCAL-00320" summary="样本不均衡解决方案">
       <created>1555914671588</created>
@@ -739,7 +654,91 @@
       <option name="project" value="LOCAL" />
       <updated>1556361950654</updated>
     </task>
-    <option name="localTasksCounter" value="357" />
+    <task id="LOCAL-00357" summary="wanjie">
+      <created>1556362174606</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362174606</updated>
+    </task>
+    <task id="LOCAL-00358" summary="wanjie">
+      <created>1556362191408</created>
+      <option name="number" value="00358" />
+      <option name="presentableId" value="LOCAL-00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362191408</updated>
+    </task>
+    <task id="LOCAL-00359" summary="wanjie">
+      <created>1556362210031</created>
+      <option name="number" value="00359" />
+      <option name="presentableId" value="LOCAL-00359" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362210031</updated>
+    </task>
+    <task id="LOCAL-00360" summary="wanjie">
+      <created>1556362230459</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362230459</updated>
+    </task>
+    <task id="LOCAL-00361" summary="wanjie">
+      <created>1556362255572</created>
+      <option name="number" value="00361" />
+      <option name="presentableId" value="LOCAL-00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362255572</updated>
+    </task>
+    <task id="LOCAL-00362" summary="wanjie">
+      <created>1556362279836</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362279836</updated>
+    </task>
+    <task id="LOCAL-00363" summary="wanjie">
+      <created>1556362305496</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362305496</updated>
+    </task>
+    <task id="LOCAL-00364" summary="wanjie">
+      <created>1556362332889</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362332889</updated>
+    </task>
+    <task id="LOCAL-00365" summary="wanjie">
+      <created>1556362347032</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362347032</updated>
+    </task>
+    <task id="LOCAL-00366" summary="wanjie">
+      <created>1556362368106</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362368106</updated>
+    </task>
+    <task id="LOCAL-00367" summary="wanjie">
+      <created>1556362385956</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362385956</updated>
+    </task>
+    <task id="LOCAL-00368" summary="wanjie">
+      <created>1556362415254</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362415254</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -775,7 +774,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219022000" />
+    <option name="totallyTimeSpent" value="219274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1039,26 +1038,6 @@
           <line>47</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/utils/wanjie.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1277,8 +1256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="675">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
