@@ -34,7 +34,6 @@ def _get_img_1():
             btn.click()
         # /html/body/div[8]/select/option[1]
 
-
 def _get_img_2(title, src, num):
     print(title, num, src)
     request.urlretrieve(src, f'./wanjie/{title}/{num}.png')
