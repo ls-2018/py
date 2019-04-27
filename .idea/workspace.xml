@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/爬虫/utils/wanjie.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/utils/wanjie.py" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
     <SUITE FILE_PATH="coverage/book$app.coverage" NAME="app Coverage Results" MODIFIED="1555328514999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus/TuXingSun/TuXingSun" />
     <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_unittest_1_MyClassTest.coverage" NAME="Twisted Trial for unittest_1.MyClassTest Coverage Results" MODIFIED="1555159385301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
     <SUITE FILE_PATH="coverage/book$Twisted_Trial_for_x_MyClassTest_test_add.coverage" NAME="Twisted Trial for x.MyClassTest.test_add Coverage Results" MODIFIED="1555161136859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask－" />
-    <SUITE FILE_PATH="coverage/book$wanjie.coverage" NAME="wanjie Coverage Results" MODIFIED="1556180196491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/utils" />
+    <SUITE FILE_PATH="coverage/book$wanjie.coverage" NAME="wanjie Coverage Results" MODIFIED="1556362801994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫/utils" />
     <SUITE FILE_PATH="coverage/book$websocket.coverage" NAME="websocket解密 Coverage Results" MODIFIED="1554513838699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/百度AI" />
     <SUITE FILE_PATH="coverage/book$xiaopapa.coverage" NAME="xiaopapa Coverage Results" MODIFIED="1554940979589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus/KingEight" />
     <SUITE FILE_PATH="coverage/book$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1555066349028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html5plus" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+            <state relative-caret-position="550">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -393,77 +391,7 @@
       <workItem from="1556235189045" duration="635000" />
       <workItem from="1556253833905" duration="546000" />
       <workItem from="1556319532001" duration="1294000" />
-      <workItem from="1556361928165" duration="503000" />
-    </task>
-    <task id="LOCAL-00320" summary="样本不均衡解决方案">
-      <created>1555914671588</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1555914671590</updated>
-    </task>
-    <task id="LOCAL-00321" summary="样本不均衡解决方案">
-      <created>1555914833108</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1555914833108</updated>
-    </task>
-    <task id="LOCAL-00322" summary="样本不均衡解决方案">
-      <created>1555915826519</created>
-      <option name="number" value="00322" />
-      <option name="presentableId" value="LOCAL-00322" />
-      <option name="project" value="LOCAL" />
-      <updated>1555915826519</updated>
-    </task>
-    <task id="LOCAL-00323" summary="样本不均衡解决方案">
-      <created>1555916005768</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1555916005768</updated>
-    </task>
-    <task id="LOCAL-00324" summary="样本不均衡解决方案">
-      <created>1555916348988</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1555916348988</updated>
-    </task>
-    <task id="LOCAL-00325" summary="样本不均衡解决方案">
-      <created>1556024877935</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1556024877936</updated>
-    </task>
-    <task id="LOCAL-00326" summary="Mongo">
-      <created>1556024917296</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1556024917296</updated>
-    </task>
-    <task id="LOCAL-00327" summary="Mongo">
-      <created>1556024941558</created>
-      <option name="number" value="00327" />
-      <option name="presentableId" value="LOCAL-00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1556024941558</updated>
-    </task>
-    <task id="LOCAL-00328" summary="Mongo">
-      <created>1556024958702</created>
-      <option name="number" value="00328" />
-      <option name="presentableId" value="LOCAL-00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1556024958702</updated>
-    </task>
-    <task id="LOCAL-00329" summary="Mongo">
-      <created>1556024971592</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1556024971592</updated>
+      <workItem from="1556361928165" duration="751000" />
     </task>
     <task id="LOCAL-00330" summary="Mongo">
       <created>1556024987263</created>
@@ -738,7 +666,77 @@
       <option name="project" value="LOCAL" />
       <updated>1556362415254</updated>
     </task>
-    <option name="localTasksCounter" value="369" />
+    <task id="LOCAL-00369" summary="wanjie">
+      <created>1556362442550</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362442550</updated>
+    </task>
+    <task id="LOCAL-00370" summary="wanjie">
+      <created>1556362473562</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362473562</updated>
+    </task>
+    <task id="LOCAL-00371" summary="wanjie">
+      <created>1556362508699</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362508699</updated>
+    </task>
+    <task id="LOCAL-00372" summary="wanjie">
+      <created>1556362531940</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362531940</updated>
+    </task>
+    <task id="LOCAL-00373" summary="wanjie">
+      <created>1556362563508</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362563508</updated>
+    </task>
+    <task id="LOCAL-00374" summary="wanjie">
+      <created>1556362589406</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362589406</updated>
+    </task>
+    <task id="LOCAL-00375" summary="wanjie">
+      <created>1556362604139</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362604139</updated>
+    </task>
+    <task id="LOCAL-00376" summary="wanjie">
+      <created>1556362643631</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362643631</updated>
+    </task>
+    <task id="LOCAL-00377" summary="wanjie">
+      <created>1556362661421</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362661421</updated>
+    </task>
+    <task id="LOCAL-00378" summary="wanjie">
+      <created>1556362677951</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1556362677951</updated>
+    </task>
+    <option name="localTasksCounter" value="379" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -774,7 +772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219274000" />
+    <option name="totallyTimeSpent" value="219522000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1256,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/utils/wanjie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        <state relative-caret-position="550">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
