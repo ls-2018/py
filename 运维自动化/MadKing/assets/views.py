@@ -61,6 +61,7 @@ def new_assets_approval(request):
             request.POST['asset_data'] = obj.data
             ass_handler = core.Asset(request)
             if ass_handler.data_is_valid_without_id():
+                # 根据asset_id判断资产记录存在
                 ass_handler.data_inject()
                 obj.approved = True
                 obj.save()

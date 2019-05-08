@@ -33,7 +33,7 @@ class Asset(object):
     def mandatory_check(self, data, only_check_sn=False):
         """
         :param data:
-        :param only_check_sn: 根据asset_id有无
+        :param only_check_sn: 根据  asset_id 或 sn  有无,判断资产表记录是否存在
         :return:
         """
         for field in self.mandatory_fields:
@@ -49,10 +49,9 @@ class Asset(object):
         try:
             # 是否传过来了资产SN号
             if not only_check_sn:
-                # 已经审批的资产，是否待审批表中存在
-                self.asset_obj = models.Asset.objects.get(id=int(data['asset_id']), sn=data['sn'])
+                self.asset_obj = models.Asset.objects.get(id=int(data['asset_id']))
             else:
-                self.asset_obj = models.Asset.objects.get(sn=data['sn'])  # 是否资产表中已记录
+                self.asset_obj = models.Asset.objects.get(sn=data['sn'])
             return True
         except ObjectDoesNotExist as e:
             self.response_msg('error', 'AssetDataInvalid',
@@ -91,7 +90,7 @@ class Asset(object):
 
     def save_new_asset_to_approval_zone(self):
         """
-        在资产待审批表中插入一条记录
+        在 资产待审批表  中插入一条记录
         """
         asset_sn = self.clean_data.get('sn')
         models.NewAssetApprovalZone.objects.get_or_create(sn=asset_sn,
@@ -143,16 +142,17 @@ class Asset(object):
             self.update_asset()
 
     def data_is_valid_without_id(self):
-        '''when there's no asset id in reporting data ,goes through this function fisrt'''
-
+        """
+        在资产表中， 根据sn，判断是否记录
+        """
         data = self.request.POST.get("asset_data")
         if data:
             try:
                 data = json.loads(data)
-                asset_obj = models.Asset.objects.get_or_create(sn=data.get('sn'), name=data.get(
-                    'sn'))  # push asset id into reporting data before doing the mandatory check
+                asset_obj = models.Asset.objects.get_or_create(sn=data.get('sn'), name=data.get('sn'))
+                # push asset id into reporting data before doing the mandatory check
                 data['asset_id'] = asset_obj[0].id
-                self.mandatory_check(data)
+                self.mandatory_check(data)  # 根据asset_id，判断资产记录是否存在
                 self.clean_data = data
                 if not self.response['error']:
                     return True
