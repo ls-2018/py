@@ -124,7 +124,11 @@ class Asset(object):
             self.response_msg('error', 'AssetDataInvalid', "The reported asset data is not valid or provided")
 
     def __is_new_asset(self):
-        if not hasattr(self.asset_obj, self.clean_data['asset_type']):  # new asset
+        """
+        资产记录  有没有被  设备 关联
+        :return:
+        """
+        if not hasattr(self.asset_obj, self.clean_data['asset_type']):
             return True
         else:
             return False
