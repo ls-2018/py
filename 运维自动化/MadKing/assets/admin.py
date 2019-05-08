@@ -157,7 +157,7 @@ class EventLogAdmin(admin.ModelAdmin, BaseAdmin):
 
 
 from django.contrib.contenttypes.models import ContentType
-from django.http import HttpResponseRedirect
+from django.shortcuts import redirect
 
 
 class NewAssetApprovalZoneAdmin(admin.ModelAdmin):
@@ -168,7 +168,7 @@ class NewAssetApprovalZoneAdmin(admin.ModelAdmin):
     def approve_selected_objects(modeladmin, request, queryset):
         selected = request.POST.getlist(admin.ACTION_CHECKBOX_NAME)
         ct = ContentType.objects.get_for_model(queryset.model)
-        return HttpResponseRedirect("/asset/new_assets/approval/?ct=%s&ids=%s" % (ct.pk, ",".join(selected)))
+        return redirect("/asset/new_assets/approval/?ct=%s&ids=%s" % (ct.pk, ",".join(selected)))
 
     approve_selected_objects.short_description = "批准入库"
 
