@@ -268,6 +268,7 @@ class Asset(object):
     def __create_server_info(self, ignore_errs=False):
         try:
             self.__verify_field(self.clean_data, 'model', str)
+            # 按照 思路来讲 ，这里是不会产生错误的
             if not len(self.response['error']) or ignore_errs is True:
                 # 没有错误、或者可以忽略错误
                 data_set = {
