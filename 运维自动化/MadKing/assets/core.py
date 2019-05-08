@@ -281,8 +281,8 @@ class Asset(object):
 
                 # 常见server记录
                 obj = models.Server(**data_set)
-                # 更新资产数据
-                obj.asset.model = self.clean_data.get('model')
+                # 更新资产表数据
+                # obj.asset.model = self.clean_data.get('model')
                 obj.save()
                 return obj
         except Exception as e:
