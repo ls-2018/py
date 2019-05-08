@@ -152,7 +152,6 @@ class Asset(object):
             try:
                 data = json.loads(data)
                 asset_obj = models.Asset.objects.get_or_create(sn=data.get('sn'), name=data.get('sn'))
-                # push asset id into reporting data before doing the mandatory check
                 data['asset_id'] = asset_obj[0].id
                 self.mandatory_check(data)  # 根据asset_id，判断资产记录是否存在
                 self.clean_data = data
