@@ -49,7 +49,7 @@ class Asset(object):
         try:
             # 是否传过来了资产SN号
             if not only_check_sn:
-                self.asset_obj = models.Asset.objects.get(id=int(data['asset_id']))
+                self.asset_obj = models.Asset.objects.get(id=int(data['asset_id']), sn=data['sn'])
             else:
                 self.asset_obj = models.Asset.objects.get(sn=data['sn'])
             return True
@@ -68,7 +68,8 @@ class Asset(object):
         if data:
             try:
                 data = json.loads(data)
-                if self.mandatory_check(data, only_check_sn=True):  # 判断资产是否存在
+                if self.mandatory_check(data, only_check_sn=True):
+                    # 根据sn判断资产存在
                     response = {'asset_id': self.asset_obj.id}
                 else:
                     if hasattr(self, 'waiting_approval'):
@@ -129,11 +130,11 @@ class Asset(object):
             return False
 
     def data_inject(self):
-        '''save data into DB,the data_is_valid() must returns True before call this function'''
-
-        # self.reformat_components('slot',self.clean_data.get('ram'))
-        # self.reformat_components('name',self.clean_data.get('nic'))
+        """
+        将资产待审批记录   ----->   资产表
+        """
         if self.__is_new_asset():
+            # 没有 设备 关联 资产记录
             print('\033[32;1m---new asset,going to create----\033[0m')
             self.create_asset()
         else:  # asset already already exist , just update it
@@ -144,6 +145,7 @@ class Asset(object):
     def data_is_valid_without_id(self):
         """
         在资产表中， 根据sn，判断是否记录
+        :return: True 表示没有资产记录
         """
         data = self.request.POST.get("asset_data")
         if data:
@@ -210,10 +212,10 @@ class Asset(object):
                                   field_key, data_set))
 
     def create_asset(self):
-        '''
-        invoke asset create function according to it's asset type
+        """
+        根据待审批数据中 资产类型 调用 不同的资产 创建函数
         :return:
-        '''
+        """
         func = getattr(self, '_create_%s' % self.clean_data['asset_type'])
         create_obj = func()
 
