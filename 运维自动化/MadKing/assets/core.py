@@ -201,7 +201,7 @@ class Asset(object):
 
     def __verify_field(self, data_set, field_key, data_type, required=True):
         field_val = data_set.get(field_key)
-        if field_val:
+        if field_val is not None:
             try:
                 data_set[field_key] = data_type(field_val)
             except ValueError as e:
@@ -331,7 +331,7 @@ class Asset(object):
         if disk_info:
             for disk_item in disk_info:
                 try:
-                    self.__verify_field(disk_item, 'slot', str)
+                    self.__verify_field(disk_item, 'slot', str)  # 有的是数字，有的是字符串
                     self.__verify_field(disk_item, 'capacity', float)
                     self.__verify_field(disk_item, 'iface_type', str)
                     self.__verify_field(disk_item, 'model', str)
