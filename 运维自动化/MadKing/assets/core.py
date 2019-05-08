@@ -209,7 +209,7 @@ class Asset(object):
                                   "The field [%s]'s data type is invalid, the correct data type should be [%s] " % (
                                       field_key, data_type))
 
-        elif required == True:
+        elif required is True:
             self.response_msg('error', 'LackOfField',
                               "The field [%s] has no value provided in your reporting data [%s]" % (
                                   field_key, data_set))

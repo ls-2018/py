@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,69 +46,46 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/views.py">
+        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#122#2688#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#22#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/temps/__init__.py">
+        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="206">
+              <caret line="204" column="16" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+              <folding>
+                <element signature="e#22#33#0" expanded="true" />
+                <element signature="e#8951#9045#0" />
+                <element signature="e#9085#10054#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/.local/lib/python3.6/site-packages/gensim/similarities/docsim.py" />
         <option value="$PROJECT_DIR$/机器学习/gensim+jieba.py" />
         <option value="$PROJECT_DIR$/机器学习/gensim+jieba+智能玩具.py" />
         <option value="$PROJECT_DIR$/测试自动化/demo.py" />
@@ -200,8 +178,9 @@
         <option value="$PROJECT_DIR$/运维自动化/MadKing/MadKing/views.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" />
-        <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/temps/__init__.py" />
+        <option value="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/__init__.py" />
+        <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" />
       </list>
     </option>
   </component>
@@ -252,7 +231,48 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
               <item name="MadKing" type="462c0819:PsiDirectoryNode" />
-              <item name="temps" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,6 +286,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/机器学习" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -499,28 +520,7 @@
       <workItem from="1557116715855" duration="598000" />
       <workItem from="1557148684449" duration="380000" />
       <workItem from="1557300483408" duration="1589000" />
-      <workItem from="1557319903160" duration="3195000" />
-    </task>
-    <task id="LOCAL-00350" summary="Mongo">
-      <created>1556025579660</created>
-      <option name="number" value="00350" />
-      <option name="presentableId" value="LOCAL-00350" />
-      <option name="project" value="LOCAL" />
-      <updated>1556025579660</updated>
-    </task>
-    <task id="LOCAL-00351" summary="Mongo">
-      <created>1556025631719</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1556025631719</updated>
-    </task>
-    <task id="LOCAL-00352" summary="wanjie">
-      <created>1556178694329</created>
-      <option name="number" value="00352" />
-      <option name="presentableId" value="LOCAL-00352" />
-      <option name="project" value="LOCAL" />
-      <updated>1556178694330</updated>
+      <workItem from="1557319903160" duration="3917000" />
     </task>
     <task id="LOCAL-00353" summary="wanjie">
       <created>1556179729537</created>
@@ -844,7 +844,28 @@
       <option name="project" value="LOCAL" />
       <updated>1557322955476</updated>
     </task>
-    <option name="localTasksCounter" value="399" />
+    <task id="LOCAL-00399" summary="MadKing">
+      <created>1557323123698</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
+      <option name="project" value="LOCAL" />
+      <updated>1557323123699</updated>
+    </task>
+    <task id="LOCAL-00400" summary="MadKing">
+      <created>1557323265919</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1557323265919</updated>
+    </task>
+    <task id="LOCAL-00401" summary="MadKing">
+      <created>1557323461097</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
+      <option name="project" value="LOCAL" />
+      <updated>1557323461097</updated>
+    </task>
+    <option name="localTasksCounter" value="402" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,7 +901,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228093000" />
+    <option name="totallyTimeSpent" value="228815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,12 +913,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="856" y="-8" width="1070" height="1052" extended-state="0" />
+    <frame x="669" y="-8" width="1257" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4188119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30409357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32997763" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7104137" weight="0.42756185" />
@@ -908,7 +930,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51670146" side_tool="true" visible="true" weight="0.46868008" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51670146" side_tool="true" weight="0.46868008" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49072754" weight="0.3121319" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48329854" weight="0.4691502" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
@@ -917,7 +939,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.33315566" />
-      <window_info anchor="right" id="Database" order="4" weight="0.39178082" />
+      <window_info anchor="right" id="Database" order="4" weight="0.39097744" />
       <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.18245265" />
       <window_info anchor="right" x="0" y="0" width="234" height="847" id="Documentation" order="6" side_tool="true" weight="0.32992566" />
     </layout>
@@ -1154,51 +1176,6 @@
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Flask－/Wtforms__--.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask－/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/xx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/简易回测框架.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="172" column="42" lean-forward="true" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/回归.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.py" />
-    <entry file="file://$PROJECT_DIR$/机器学习/梯度下降求解逻辑回归.ipynb" />
-    <entry file="file://$PROJECT_DIR$/机器学习/data/LogiReg_data.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/样本不均衡解决方案/creditcard.csv" />
     <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1400,20 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/HouseStark.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="129" column="47" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/conf/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -1430,16 +1393,6 @@
           <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1461,16 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#22#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1488,6 +1431,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/conf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/bin/NedStark.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/bin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/api_token.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/HouseStark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="129" column="47" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/info_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://45757b31-9157-403e-82f0-eaf3abaaacaf/schema/main/table/assets_newassetapprovalzone">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="204" column="16" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+          <folding>
+            <element signature="e#22#33#0" expanded="true" />
+            <element signature="e#8951#9045#0" />
+            <element signature="e#9085#10054#0" />
+          </folding>
         </state>
       </provider>
     </entry>
