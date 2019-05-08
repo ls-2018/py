@@ -33,7 +33,7 @@ class Asset(object):
     def mandatory_check(self, data, only_check_sn=False):
         """
         :param data:
-        :param only_check_sn:检查合法性
+        :param only_check_sn: 根据asset_id有无
         :return:
         """
         for field in self.mandatory_fields:
@@ -49,7 +49,8 @@ class Asset(object):
         try:
             # 是否传过来了资产SN号
             if not only_check_sn:
-                self.asset_obj = models.Asset.objects.get(id=int(data['asset_id']), sn=data['sn'])  # 是否待审批表中存在
+                # 已经审批的资产，是否待审批表中存在
+                self.asset_obj = models.Asset.objects.get(id=int(data['asset_id']), sn=data['sn'])
             else:
                 self.asset_obj = models.Asset.objects.get(sn=data['sn'])  # 是否资产表中已记录
             return True
@@ -57,20 +58,18 @@ class Asset(object):
             self.response_msg('error', 'AssetDataInvalid',
                               "Cannot find asset object in DB by using asset id [%s] and SN [%s] " % (
                                   data['asset_id'], data['sn']))
-            self.waiting_approval = True
+            self.waiting_approval = True  # 待审批资产
         return False
 
     def get_asset_id_by_sn(self):
         """
-         When the client first time reports it's data to Server,
-        it doesn't know it's asset id yet,so it will come to the server asks for the asset it first,
-        then report the data again
+         上传待审批的资产数据
         """
         data = self.request.POST.get("asset_data")
         if data:
             try:
                 data = json.loads(data)
-                if self.mandatory_check(data, only_check_sn=True):  # 新资产通不过
+                if self.mandatory_check(data, only_check_sn=True):  # 判断资产是否存在
                     response = {'asset_id': self.asset_obj.id}
                 else:
                     if hasattr(self, 'waiting_approval'):
@@ -91,7 +90,9 @@ class Asset(object):
         return response
 
     def save_new_asset_to_approval_zone(self):
-        '''When find out it is a new asset, will save the data into approval zone to waiting for IT admin's approvals'''
+        """
+        在资产待审批表中插入一条记录
+        """
         asset_sn = self.clean_data.get('sn')
         models.NewAssetApprovalZone.objects.get_or_create(sn=asset_sn,
                                                           data=json.dumps(self.clean_data),
