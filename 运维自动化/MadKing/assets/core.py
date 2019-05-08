@@ -268,7 +268,8 @@ class Asset(object):
     def __create_server_info(self, ignore_errs=False):
         try:
             self.__verify_field(self.clean_data, 'model', str)
-            if not len(self.response['error']) or ignore_errs == True:  # no processing when there's no error happend
+            if not len(self.response['error']) or ignore_errs == True:
+                # no processing when there's no error happend
                 data_set = {
                     'asset_id': self.asset_obj.id,
                     'raid_type': self.clean_data.get('raid_type'),
