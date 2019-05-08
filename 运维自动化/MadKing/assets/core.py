@@ -292,8 +292,8 @@ class Asset(object):
     def __create_or_update_manufactory(self, ignore_errs=False):
         try:
             self.__verify_field(self.clean_data, 'manufactory', str)
-            manufactory = self.clean_data.get('manufactory')
-            if not len(self.response['error']) or ignore_errs == True:  # no processing when there's no error happend
+            if not len(self.response['error']) or ignore_errs is True:
+                manufactory = self.clean_data.get('manufactory')
                 obj_exist = models.Manufactory.objects.filter(manufactory=manufactory)
                 if obj_exist:
                     obj = obj_exist[0]
@@ -310,7 +310,7 @@ class Asset(object):
             self.__verify_field(self.clean_data, 'model', str)
             self.__verify_field(self.clean_data, 'cpu_count', int)
             self.__verify_field(self.clean_data, 'cpu_core_count', int)
-            if not len(self.response['error']) or ignore_errs == True:  # no processing when there's no error happend
+            if not len(self.response['error']) or ignore_errs is True:
                 data_set = {
                     'asset_id': self.asset_obj.id,
                     'cpu_model': self.clean_data.get('cpu_model'),
@@ -335,7 +335,8 @@ class Asset(object):
                     self.__verify_field(disk_item, 'capacity', float)
                     self.__verify_field(disk_item, 'iface_type', str)
                     self.__verify_field(disk_item, 'model', str)
-                    if not len(self.response['error']):  # no processing when there's no error happend
+                    if not len(self.response['error']):
+                        # no processing when there's no error happend
                         data_set = {
                             'asset_id': self.asset_obj.id,
                             'sn': disk_item.get('sn'),
@@ -360,7 +361,8 @@ class Asset(object):
             for nic_item in nic_info:
                 try:
                     self.__verify_field(nic_item, 'macaddress', str)
-                    if not len(self.response['error']):  # no processing when there's no error happend
+                    if not len(self.response['error']):
+                        # no processing when there's no error happend
                         data_set = {
                             'asset_id': self.asset_obj.id,
                             'name': nic_item.get('name'),
@@ -386,7 +388,8 @@ class Asset(object):
             for ram_item in ram_info:
                 try:
                     self.__verify_field(ram_item, 'capacity', int)
-                    if not len(self.response['error']):  # no processing when there's no error happend
+                    if not len(self.response['error']):
+                        # no processing when there's no error happend
                         data_set = {
                             'asset_id': self.asset_obj.id,
                             'slot': ram_item.get("slot"),
