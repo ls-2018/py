@@ -46,8 +46,13 @@ def asset_with_no_asset_id(request):
 
 
 def new_assets_approval(request):
+    """
+    创建新的资产表记录
+    post: 对确认后的数据进行记录，以及在对应的设备表添加记录
+    get: admin ---> 批准入库;再次确认
+    """
     if request.method == 'POST':
-        request.POST = request.POST.copy()
+        request.POST = request.POST.copy()  # 只读
         approved_asset_list = request.POST.getlist('approved_asset_list')
         approved_asset_list = models.NewAssetApprovalZone.objects.filter(id__in=approved_asset_list)
 
