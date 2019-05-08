@@ -1,5 +1,4 @@
 #_*_coding:utf-8_*_
-__author__ = 'jieli'
 
 
 from django.db import models

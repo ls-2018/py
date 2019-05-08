@@ -1,5 +1,4 @@
 #_*_coding:utf-8_*_
-__author__ = 'jieli'
 from django.conf.urls import url, include
 from rest_framework import routers
 from assets import rest_views as views
