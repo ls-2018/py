@@ -255,8 +255,8 @@ class Asset(object):
     def _create_server(self):
         self.__create_server_info()
         self.__create_or_update_manufactory()
-
         self.__create_cpu_component()
+        # 多条记录
         self.__create_disk_component()
         self.__create_nic_component()
         self.__create_ram_component()
