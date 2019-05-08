@@ -273,13 +273,15 @@ class Asset(object):
                 data_set = {
                     'asset_id': self.asset_obj.id,
                     'raid_type': self.clean_data.get('raid_type'),
-                    # 'model':self.clean_data.get('model'),
+                    'model': self.clean_data.get('model'),
                     'os_type': self.clean_data.get('os_type'),
                     'os_distribution': self.clean_data.get('os_distribution'),
                     'os_release': self.clean_data.get('os_release'),
                 }
 
+                # 常见server记录
                 obj = models.Server(**data_set)
+                # 更新资产数据
                 obj.asset.model = self.clean_data.get('model')
                 obj.save()
                 return obj

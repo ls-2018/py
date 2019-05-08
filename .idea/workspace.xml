@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +68,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+            <state relative-caret-position="299">
+              <caret line="143" column="28" lean-forward="true" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
+              <folding>
+                <element signature="e#1083#1151#0" />
+                <element signature="e#1338#2007#0" />
+                <element signature="e#2048#2430#0" />
+                <element signature="e#2469#3319#0" />
+                <element signature="e#3357#4166#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="204" column="16" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+            <state relative-caret-position="256">
+              <caret line="271" column="31" lean-forward="true" selection-start-line="271" selection-start-column="31" selection-end-line="271" selection-end-column="31" />
               <folding>
                 <element signature="e#22#33#0" expanded="true" />
                 <element signature="e#8951#9045#0" />
@@ -122,6 +127,7 @@
       <find>waiting_approval</find>
       <find>mandatory_check</find>
       <find>data_is_valid</find>
+      <find>model</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/机器学习/gensim+jieba.py" />
         <option value="$PROJECT_DIR$/机器学习/gensim+jieba+智能玩具.py" />
         <option value="$PROJECT_DIR$/测试自动化/demo.py" />
         <option value="$PROJECT_DIR$/测试自动化/技能点.md" />
@@ -180,6 +185,7 @@
         <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/temps/__init__.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/__init__.py" />
+        <option value="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" />
       </list>
     </option>
@@ -520,14 +526,7 @@
       <workItem from="1557116715855" duration="598000" />
       <workItem from="1557148684449" duration="380000" />
       <workItem from="1557300483408" duration="1589000" />
-      <workItem from="1557319903160" duration="3917000" />
-    </task>
-    <task id="LOCAL-00353" summary="wanjie">
-      <created>1556179729537</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
-      <option name="project" value="LOCAL" />
-      <updated>1556179729537</updated>
+      <workItem from="1557319903160" duration="4162000" />
     </task>
     <task id="LOCAL-00354" summary="wanjie">
       <created>1556179961001</created>
@@ -865,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557323461097</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <task id="LOCAL-00402" summary="MadKing">
+      <created>1557323847585</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1557323847586</updated>
+    </task>
+    <option name="localTasksCounter" value="403" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -901,7 +907,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228815000" />
+    <option name="totallyTimeSpent" value="229060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -916,7 +922,7 @@
     <frame x="669" y="-8" width="1257" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30409357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30409357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32997763" />
@@ -1472,13 +1478,6 @@
         <state relative-caret-position="-381" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1496,10 +1495,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="143" column="28" lean-forward="true" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
+          <folding>
+            <element signature="e#1083#1151#0" />
+            <element signature="e#1338#2007#0" />
+            <element signature="e#2048#2430#0" />
+            <element signature="e#2469#3319#0" />
+            <element signature="e#3357#4166#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="204" column="16" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+        <state relative-caret-position="256">
+          <caret line="271" column="31" lean-forward="true" selection-start-line="271" selection-start-column="31" selection-end-line="271" selection-end-column="31" />
           <folding>
             <element signature="e#22#33#0" expanded="true" />
             <element signature="e#8951#9045#0" />
