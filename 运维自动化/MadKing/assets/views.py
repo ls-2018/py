@@ -63,7 +63,7 @@ def new_assets_approval(request):
             if ass_handler.data_is_valid_without_id():
                 # 根据asset_id 判断资产表资产记录存在
                 ass_handler.data_inject()
-                obj.approved = True
+                obj.approved = True  # 更改待审批记录中的资产状态
                 obj.save()
 
             response_dic[obj.id] = ass_handler.response
