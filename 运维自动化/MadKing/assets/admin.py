@@ -156,6 +156,7 @@ class EventLogAdmin(admin.ModelAdmin, BaseAdmin):
     # asset   user
     search_fields = ('asset',)
     list_filter = ('event_type', 'component', 'date', 'user')
+    list_per_page = 50  # 每页显示50条
 
     def show_user(self, obj):
         print(obj.user)
