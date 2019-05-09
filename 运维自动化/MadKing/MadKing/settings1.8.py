@@ -2,18 +2,11 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '6x*13=g9mag2&36bi(+l81x9zibt%^8g@6)*v1n#*)q9zdol3@'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-# Application definition
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -27,16 +20,15 @@ INSTALLED_APPS = (
     # 'debugtools',
 )
 
-MIDDLEWARE_CLASSES = (
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.security.SecurityMiddleware',
-)
+]
 
 ROOT_URLCONF = 'MadKing.urls'
 
@@ -75,9 +67,6 @@ DATABASES = {
 }
 '''
 
-# Internationalization
-# https://docs.djangoproject.com/en/1.8/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -88,12 +77,9 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.8/howto/static-files/
-
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    "%s/%s" % (BASE_DIR, "statics"),
+    '%s/%s' % (BASE_DIR, "statics"),
 )
 
 AUTH_USER_MODEL = 'assets.UserProfile'
@@ -101,8 +87,6 @@ AUTH_USER_MODEL = 'assets.UserProfile'
 TOKEN_TIMEOUT = 120
 
 REST_FRAMEWORK = {
-    # Use Django's standard `django.contrib.auth` permissions,
-    # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
