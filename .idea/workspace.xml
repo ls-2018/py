@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="MadKing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/settings1.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/settings1.8.py" afterDir="false" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r410/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r410/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r710/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r710/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r720/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r720/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/hp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/hp/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -384,63 +386,7 @@
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
       <workItem from="1557356921757" duration="5237000" />
-      <workItem from="1557363682239" duration="2608000" />
-    </task>
-    <task id="LOCAL-00369" summary="wanjie">
-      <created>1556362442550</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362442550</updated>
-    </task>
-    <task id="LOCAL-00370" summary="wanjie">
-      <created>1556362473562</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362473562</updated>
-    </task>
-    <task id="LOCAL-00371" summary="wanjie">
-      <created>1556362508699</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362508699</updated>
-    </task>
-    <task id="LOCAL-00372" summary="wanjie">
-      <created>1556362531940</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362531940</updated>
-    </task>
-    <task id="LOCAL-00373" summary="wanjie">
-      <created>1556362563508</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362563508</updated>
-    </task>
-    <task id="LOCAL-00374" summary="wanjie">
-      <created>1556362589406</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362589406</updated>
-    </task>
-    <task id="LOCAL-00375" summary="wanjie">
-      <created>1556362604139</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362604139</updated>
-    </task>
-    <task id="LOCAL-00376" summary="wanjie">
-      <created>1556362643631</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362643631</updated>
+      <workItem from="1557363682239" duration="2855000" />
     </task>
     <task id="LOCAL-00377" summary="wanjie">
       <created>1556362661421</created>
@@ -729,7 +675,63 @@
       <option name="project" value="LOCAL" />
       <updated>1557370740621</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <task id="LOCAL-00418" summary="MadKing">
+      <created>1557370918070</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370918070</updated>
+    </task>
+    <task id="LOCAL-00419" summary="MadKing">
+      <created>1557370960619</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370960620</updated>
+    </task>
+    <task id="LOCAL-00420" summary="MadKing">
+      <created>1557370988062</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370988062</updated>
+    </task>
+    <task id="LOCAL-00421" summary="MadKing">
+      <created>1557371005027</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371005027</updated>
+    </task>
+    <task id="LOCAL-00422" summary="MadKing">
+      <created>1557371035823</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371035823</updated>
+    </task>
+    <task id="LOCAL-00423" summary="MadKing">
+      <created>1557371068951</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371068952</updated>
+    </task>
+    <task id="LOCAL-00424" summary="MadKing">
+      <created>1557371095307</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371095308</updated>
+    </task>
+    <task id="LOCAL-00425" summary="MadKing">
+      <created>1557371110155</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371110155</updated>
+    </task>
+    <option name="localTasksCounter" value="426" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -765,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238503000" />
+    <option name="totallyTimeSpent" value="238750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
