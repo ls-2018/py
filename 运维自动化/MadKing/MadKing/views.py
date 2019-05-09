@@ -2,7 +2,6 @@
 from django.shortcuts import render, HttpResponse, HttpResponseRedirect
 from django.contrib import auth
 from django.core.exceptions import ObjectDoesNotExist
-# Create your views here.
 import django
 
 from assets.dashboard import AssetDashboard

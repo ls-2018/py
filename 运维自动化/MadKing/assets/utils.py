@@ -5,7 +5,7 @@ import hashlib
 import json
 from assets import models
 from django.shortcuts import HttpResponse
-from MadKing import settings
+from django.conf import settings
 
 from django.core.exceptions import ObjectDoesNotExist
 
@@ -22,10 +22,10 @@ def json_datetime_handler(obj):
 
 def gen_token(username, timestamp, token):
     token_format = "%s\n%s\n%s" % (username, timestamp, token)
-    # print('--->token format:[%s]'% token_format)
-
     obj = hashlib.md5()
-    obj.update(token_format.encode())
+    obj.update(bytes(token_format, encoding='utf8'))
+    # print("token format:[%s]" % token_format)
+    # print("token :[%s]" % obj.hexdigest())
     return obj.hexdigest()[10:17]
 
 
