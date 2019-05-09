@@ -1,2 +1,1 @@
-#_*_coding:utf-8_*_
-__author__ = 'jieli'
+# _*_coding:utf-8_*_
