@@ -2,18 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/conf/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/HouseStark.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/HouseStark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/info_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/info_collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/logs/run_log" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/logs/run_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0002_auto_20160706_0718.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0003_auto_20161108_1011.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0004_auto_20161109_0545.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0005_auto_20161109_0725.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0006_auto_20161109_1041.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0007_networkdevice_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0008_software_sub_asset_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0009_asset_status.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0010_auto_20170623_0716.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/0011_disk_manufactory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/myauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/myauth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/rest_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/rest_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/rest_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/rest_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/statics/plugins/DataTables/datatables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/statics/plugins/DataTables/datatables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,8 +193,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="652" />
-    <option name="y" value="168" />
+    <option name="x" value="729" />
+    <option name="y" value="145" />
     <option name="width" value="1094" />
     <option name="height" value="722" />
   </component>
@@ -193,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +220,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,6 +413,7 @@
       <workItem from="1557363682239" duration="3000000" />
       <workItem from="1557374123484" duration="772000" />
       <workItem from="1557376487125" duration="1789000" />
+      <workItem from="1557381735129" duration="1926000" />
     </task>
     <task id="LOCAL-00382" summary="wanjie">
       <created>1556362743456</created>
@@ -777,7 +794,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241456000" />
+    <option name="totallyTimeSpent" value="243382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,9 +806,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="652" y="168" width="1094" height="722" extended-state="0" />
+    <frame x="729" y="145" width="1094" height="722" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25435203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2591876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

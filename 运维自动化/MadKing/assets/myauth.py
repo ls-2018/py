@@ -3,7 +3,7 @@
 
 from django.db import models
 from django.contrib.auth.models import (
-    BaseUserManager, AbstractBaseUser, Group, PermissionsMixin
+    BaseUserManager, AbstractBaseUser,User, Group, PermissionsMixin
 )
 import django
 
@@ -49,7 +49,6 @@ class UserManager(BaseUserManager):
         return user
 
 
-# class UserProfile(AbstractBaseUser):
 class UserProfile(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(
         verbose_name='email address',

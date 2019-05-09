@@ -1,21 +1,20 @@
-#_*_coding:utf-8_*_
-from django.conf.urls import url, include
+# _*_coding:utf-8_*_
+from django.urls import re_path, include
 from rest_framework import routers
 from assets import rest_views as views
 from assets import views as asset_views
-router = routers.DefaultRouter()
-router.register(r'users', views.UserViewSet)
-router.register(r'assets', views.AssetViewSet)
-router.register(r'servers', views.ServerViewSet)
-
-
 from assets import rest_test
-# Wire up our API using automatic URL routing.
-# Additionally, we include login URLs for the browsable API.
+
+router = routers.DefaultRouter()
+router.register('users', views.UserViewSet)
+router.register('assets', views.AssetViewSet)
+router.register('servers', views.ServerViewSet)
+router.register('manufactory', views.ManuFactoryViewSet)
+
 urlpatterns = [
-    url(r'^', include(router.urls)),
-    url(r'asset_list/$',views.AssetList ),
-    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    url(r'^dashboard_data/',asset_views.get_dashboard_data,name="get_dashboard_data"),
-    url(r'^eventlogs/$', rest_test.eventlog_list),
+    re_path('', include(router.urls)),
+    re_path('asset_list/$', views.AssetList),
+    re_path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    re_path('dashboard_data/', asset_views.get_dashboard_data, name="get_dashboard_data"),
+    re_path('eventlogs/$', rest_test.eventlog_list),
 ]
