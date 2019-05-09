@@ -151,9 +151,19 @@ class NicAdmin(admin.ModelAdmin):
 
 
 class EventLogAdmin(admin.ModelAdmin, BaseAdmin):
-    list_display = ('name', 'colored_event_type', 'asset', 'component', 'detail', 'date', 'user')
+    list_display = ('name', 'colored_event_type', 'component', 'date', 'show_user', 'show_asset')
+    # 多对多字段只能显示 id
+    # asset   user
     search_fields = ('asset',)
     list_filter = ('event_type', 'component', 'date', 'user')
+
+    def show_user(self, obj):
+        print(obj.user)
+        return obj.user
+
+    def show_asset(self, obj):
+        print('--------', obj.asset)
+        return obj.asset
 
 
 from django.contrib.contenttypes.models import ContentType
@@ -178,7 +188,8 @@ admin.site.register(models.UserProfile, UserProfileAdmin)
 # ... and, since we're not using Django's built-in permissions,
 # unregister the Group model from admin.
 # admin.site.unregister(Group)
-admin.site.register(models.Asset, AssetAdmin)
+# admin.site.register(models.Asset, AssetAdmin)
+admin.site.register(models.Asset)
 admin.site.register(models.Server)
 admin.site.register(models.NetworkDevice)
 admin.site.register(models.IDC)

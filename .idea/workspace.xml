@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/MadKing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/jsLinters/jshint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/myauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/myauth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,24 +193,6 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
-              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
-              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
-              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,14 +388,7 @@
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
       <workItem from="1557356921757" duration="5237000" />
-      <workItem from="1557363682239" duration="596000" />
-    </task>
-    <task id="LOCAL-00365" summary="wanjie">
-      <created>1556362347032</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362347032</updated>
+      <workItem from="1557363682239" duration="1212000" />
     </task>
     <task id="LOCAL-00366" summary="wanjie">
       <created>1556362368106</created>
@@ -756,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557362388879</updated>
     </task>
-    <option name="localTasksCounter" value="414" />
+    <task id="LOCAL-00414" summary="MadKing">
+      <created>1557364976780</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1557364976782</updated>
+    </task>
+    <option name="localTasksCounter" value="415" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -792,7 +769,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236491000" />
+    <option name="totallyTimeSpent" value="237107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,10 +781,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="461" y="-5" width="1464" height="1052" extended-state="1" />
+    <frame x="743" y="422" width="593" height="512" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18019943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47467166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

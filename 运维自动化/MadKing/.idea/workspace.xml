@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4182d415-a168-4058-85dd-fd8b28a93877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MadKing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/myauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/myauth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +21,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/core.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="607" column="21" lean-forward="true" selection-start-line="607" selection-start-column="21" selection-end-line="607" selection-end-column="21" />
+            <state relative-caret-position="188">
+              <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+              <folding>
+                <element signature="e#490#1467#0" />
+                <element signature="e#785#847#0" />
+                <element signature="e#888#1194#0" />
+                <element signature="e#1237#1467#0" />
+                <element signature="e#1513#2433#0" />
+                <element signature="e#1513#1669#1" />
+                <element signature="e#1781#2045#0" />
+                <element signature="e#2073#2163#0" />
+                <element signature="e#2203#2433#0" />
+                <element signature="e#2203#2268#0" />
+                <element signature="e#2583#2636#0" />
+                <element signature="e#2865#3174#0" />
+                <element signature="e#3185#3250#0" />
+                <element signature="e#3355#3493#0" />
+                <element signature="e#3356#3481#0" />
+                <element signature="e#3362#3481#0" />
+                <element signature="e#3631#3716#0" />
+                <element signature="e#3761#3841#0" />
+                <element signature="e#3886#3966#0" />
+                <element signature="e#4011#4091#0" />
+                <element signature="e#4137#4218#0" />
+                <element signature="e#4261#5069#0" />
+                <element signature="e#4286#4415#0" />
+                <element signature="e#5110#5230#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python36/Lib/site-packages/django/db/models/fields/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="735" lean-forward="true" selection-start-line="735" selection-end-line="735" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python36/Lib/site-packages/django/db/models/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="370" selection-start-line="370" selection-end-line="370" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="394" column="38" lean-forward="true" selection-start-line="394" selection-start-column="38" selection-end-line="394" selection-end-column="38" />
+              <folding>
+                <element signature="e#22#59#0" expanded="true" />
+                <element signature="e#153#527#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +92,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ObjectCreationException</find>
+      <find>('</find>
+      <find>UserProfile</find>
+      <find>list_display</find>
     </findStrings>
+    <replaceStrings>
+      <replace>(&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -48,17 +106,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/models.py" />
         <option value="$PROJECT_DIR$/assets/views.py" />
         <option value="$PROJECT_DIR$/assets/__init__.py" />
         <option value="$PROJECT_DIR$/assets/core.py" />
+        <option value="$PROJECT_DIR$/assets/models.py" />
+        <option value="$PROJECT_DIR$/assets/myauth.py" />
+        <option value="$PROJECT_DIR$/assets/admin.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="638" />
-    <option name="y" value="40" />
-    <option name="width" value="1285" />
+    <option name="x" value="480" />
+    <option name="y" value="25" />
+    <option name="width" value="1444" />
     <option name="height" value="949" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -142,24 +202,24 @@
       <option name="presentableId" value="Default" />
       <updated>1557362810911</updated>
       <workItem from="1557362812279" duration="528000" />
-      <workItem from="1557363682458" duration="1068000" />
+      <workItem from="1557363682458" duration="4506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1596000" />
+    <option name="totallyTimeSpent" value="5034000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="638" y="40" width="1285" height="949" extended-state="0" />
+    <frame x="480" y="25" width="1444" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2532795" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15028901" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32996207" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.50782996" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996207" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27939317" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987755" weight="0.50695324" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -167,8 +227,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007123" side_tool="true" weight="0.32996207" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012245" side_tool="true" weight="0.50695324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.471555" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -183,97 +243,174 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>334</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>336</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>337</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>339</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>343</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>341</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>342</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>344</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>345</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/options.py</url>
           <line>348</line>
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>346</line>
-          <option name="timeStamp" value="11" />
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/options.py</url>
+          <line>350</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>347</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>338</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>335</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>349</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/options.py</url>
           <line>351</line>
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/options.py</url>
           <line>352</line>
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/options.py</url>
+          <line>353</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>249</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>302</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>303</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>304</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>374</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>375</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>377</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>376</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>378</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>380</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>379</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>382</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>383</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py</url>
+          <line>384</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/assets/core.py</url>
-          <line>333</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/assets/admin.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/admin.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/admin.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -284,13 +421,6 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="236" column="23" selection-start-line="236" selection-start-column="23" selection-end-line="236" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -309,8 +439,212 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="607" column="21" lean-forward="true" selection-start-line="607" selection-start-column="21" selection-end-line="607" selection-end-column="21" />
+        <state relative-caret-position="791">
+          <caret line="642" column="24" lean-forward="true" selection-start-line="642" selection-start-column="24" selection-end-line="642" selection-end-column="24" />
+          <folding>
+            <element signature="e#20475#22285#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/myauth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/views/decorators/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/utils/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/staticfiles/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="642" selection-start-line="642" selection-end-line="642" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="863" selection-start-line="863" selection-end-line="863" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/core/handlers/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/backends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/utils/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="353" selection-start-line="353" selection-end-line="353" />
+          <folding>
+            <element signature="e#22642#23197#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="916" lean-forward="true" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="383" column="32" lean-forward="true" selection-start-line="383" selection-start-column="32" selection-end-line="383" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="735" lean-forward="true" selection-start-line="735" selection-end-line="735" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+          <folding>
+            <element signature="e#490#1467#0" />
+            <element signature="e#785#847#0" />
+            <element signature="e#888#1194#0" />
+            <element signature="e#1237#1467#0" />
+            <element signature="e#1513#2433#0" />
+            <element signature="e#1513#1669#1" />
+            <element signature="e#1781#2045#0" />
+            <element signature="e#2073#2163#0" />
+            <element signature="e#2203#2433#0" />
+            <element signature="e#2203#2268#0" />
+            <element signature="e#2583#2636#0" />
+            <element signature="e#2865#3174#0" />
+            <element signature="e#3185#3250#0" />
+            <element signature="e#3355#3493#0" />
+            <element signature="e#3356#3481#0" />
+            <element signature="e#3362#3481#0" />
+            <element signature="e#3631#3716#0" />
+            <element signature="e#3761#3841#0" />
+            <element signature="e#3886#3966#0" />
+            <element signature="e#4011#4091#0" />
+            <element signature="e#4137#4218#0" />
+            <element signature="e#4261#5069#0" />
+            <element signature="e#4286#4415#0" />
+            <element signature="e#5110#5230#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="394" column="38" lean-forward="true" selection-start-line="394" selection-start-column="38" selection-end-line="394" selection-end-column="38" />
+          <folding>
+            <element signature="e#22#59#0" expanded="true" />
+            <element signature="e#153#527#0" />
+          </folding>
         </state>
       </provider>
     </entry>
