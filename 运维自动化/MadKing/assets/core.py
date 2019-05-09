@@ -634,7 +634,7 @@ def log_handler(asset_obj, event_name, user, detail, component=None):
         2: ['NewComponentAdded'],
     }
     if not user.id:
-        user = models.UserProfile.objects.filter(is_admin=True).last()
+        user = models.UserProfile.objects.filter(is_superuser=True).last()
     event_type = None
     for k, v in log_category.items():
         if event_name in v:

@@ -18,9 +18,8 @@ def index(request):
 
 
 @csrf_exempt
-@utils.token_required
+# @utils.token_required
 def asset_report(request):
-    print(request.GET)
     if request.method == 'POST':
         ass_handler = core.Asset(request)
         if ass_handler.data_is_valid():
@@ -60,9 +59,8 @@ def new_assets_approval(request):
         for obj in approved_asset_list:
             request.POST['asset_data'] = obj.data
             ass_handler = core.Asset(request)
-            if ass_handler.data_is_valid_without_id():
-                # 根据 asset_id 判断资产表资产记录是否创建成功
-                ass_handler.data_inject()
+            if ass_handler.data_is_valid_without_id():  # 根据 asset_id 判断资产表资产记录是否创建成功
+                ass_handler.data_inject()  # 添加相应的设备记录
                 obj.approved = True  # 更改待审批记录中的资产状态
                 obj.save()
 
