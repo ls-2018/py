@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="MadKing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/HouseStark.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/core/HouseStark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/settings1.8.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/settings1.8.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,8 +167,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="623" />
-    <option name="y" value="111" />
+    <option name="x" value="661" />
+    <option name="y" value="113" />
     <option name="width" value="1094" />
     <option name="height" value="722" />
   </component>
@@ -388,14 +384,7 @@
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
       <workItem from="1557356921757" duration="5237000" />
-      <workItem from="1557363682239" duration="2434000" />
-    </task>
-    <task id="LOCAL-00368" summary="wanjie">
-      <created>1556362415254</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362415254</updated>
+      <workItem from="1557363682239" duration="2608000" />
     </task>
     <task id="LOCAL-00369" summary="wanjie">
       <created>1556362442550</created>
@@ -733,7 +722,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557368816687</updated>
     </task>
-    <option name="localTasksCounter" value="417" />
+    <task id="LOCAL-00417" summary="MadKing">
+      <created>1557370740621</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1557370740621</updated>
+    </task>
+    <option name="localTasksCounter" value="418" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -769,7 +765,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238329000" />
+    <option name="totallyTimeSpent" value="238503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -781,9 +777,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="623" y="111" width="1094" height="722" extended-state="1" />
+    <frame x="661" y="113" width="1094" height="722" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24468085" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24468085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -796,7 +793,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51670146" side_tool="true" weight="0.46631205" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.51670146" side_tool="true" visible="true" weight="0.46631205" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49072754" weight="0.31208053" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48329854" weight="0.46868008" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
