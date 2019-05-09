@@ -32,7 +32,7 @@ def gen_token(username, timestamp, token):
 def token_required(func):
     def wrapper(*args, **kwargs):
         response = {"errors": []}
-
+        # args[0] = request
         get_args = args[0].GET
         username = get_args.get("user")
         token_md5_from_client = get_args.get("token")
