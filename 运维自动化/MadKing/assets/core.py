@@ -227,6 +227,7 @@ class Asset(object):
         create_obj = func()
 
     def _update_server(self):
+        # nic
         self.__update_asset_component(
             data_source=self.clean_data['nic'],
             fk='nic_set',
@@ -234,6 +235,7 @@ class Asset(object):
                            'bonding'],
             identify_field='macaddress'
         )
+        # disk
         self.__update_asset_component(
             data_source=self.clean_data['physical_disk_driver'],
             fk='disk_set',
@@ -241,12 +243,14 @@ class Asset(object):
                            'iface_type'],
             identify_field='slot'
         )
+        # ram
         self.__update_asset_component(
             data_source=self.clean_data['ram'],
             fk='ram_set',
             update_fields=['slot', 'sn', 'model', 'capacity'],
             identify_field='slot'
         )
+
         self.__update_cpu_component()
         self.__update_manufactory_component()
 
