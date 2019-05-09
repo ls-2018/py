@@ -18,7 +18,7 @@ def index(request):
 
 
 @csrf_exempt
-# @utils.token_required
+@utils.token_required
 def asset_report(request):
     if request.method == 'POST':
         ass_handler = core.Asset(request)

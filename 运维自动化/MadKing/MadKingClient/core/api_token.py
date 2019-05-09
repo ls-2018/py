@@ -15,4 +15,4 @@ def get_token(username, token_id):
 
 
 if __name__ == '__main__':
-    print(get_token('alex', 'test'))
+    print(get_token('alexsb', 'test'))
