@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+
 {% block header-css %}
 <link rel="stylesheet" type="text/css" href="/static/plugins/DataTables/datatables.min.css"/>
 
@@ -19,7 +20,7 @@
 {% block page-nav-tab %}
 <ol class="breadcrumb">
     <li><a href="/">Home</a></li>
-    <li><a href="{% url 'asset_list' %}">资产列表</a></li>
+    <li><a href="{% url 'asset:asset_list' %}">资产列表</a></li>
     <li class="active">资产详情</li>
 </ol>
 {% endblock %}

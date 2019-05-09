@@ -89,7 +89,6 @@ def asset_list(request):
     # asset_obj_list = models.Asset.objects.all()
     print("asset_obj_list:", asset_obj_list)
     order_res = tables.get_orderby(request, asset_obj_list, admin.AssetAdmin)
-    # print('----->',order_res)
     paginator = Paginator(order_res[0], admin.AssetAdmin.list_per_page)
 
     page = request.GET.get('page')
@@ -100,15 +99,9 @@ def asset_list(request):
     except EmptyPage:
         asset_objs = paginator.page(paginator.num_pages)
 
-    table_obj = tables.TableHandler(request,
-                                    models.Asset,
-                                    admin.AssetAdmin,
-                                    asset_objs,
-                                    order_res
-                                    )
+    table_obj = tables.TableHandler(request, models.Asset, admin.AssetAdmin, asset_objs, order_res)
 
-    return render(request, 'assets/assets.html', {'table_obj': table_obj,
-                                                  'paginator': paginator})
+    return render(request, 'assets/assets.html', {'table_obj': table_obj, 'paginator': paginator})
 
 
 @login_required
@@ -143,7 +136,6 @@ def asset_detail(request, asset_id):
     if request.method == "GET":
         try:
             asset_obj = models.Asset.objects.get(id=asset_id)
-
         except ObjectDoesNotExist as e:
             return render(request, 'assets/asset_detail.html', {'error': e})
         return render(request, 'assets/asset_detail.html', {"asset_obj": asset_obj})

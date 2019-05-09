@@ -4,6 +4,7 @@ from django.utils import timezone
 from django.db.models import Count
 import time
 
+
 def get_orderby(request, model_objs, admin_form):
     orderby_field = request.GET.get('orderby')
     if orderby_field:
@@ -39,17 +40,18 @@ class TableHandler(object):
 
         # print("list display:",admin_class.list_display)
 
-        #for dynamic display
-        self.dynamic_fk = getattr(admin_class,'dynamic_fk') if \
-                hasattr(admin_class, 'dynamic_fk') else None
-        self.dynamic_list_display = getattr(admin_class,'dynamic_list_display') if \
-            hasattr(admin_class,'dynamic_list_display') else ()
-        self.dynamic_choice_fields = getattr(admin_class,'dynamic_choice_fields') if \
-            hasattr(admin_class,'dynamic_choice_fields') else ()
+        # for dynamic display
+        self.dynamic_fk = getattr(admin_class, 'dynamic_fk') if \
+            hasattr(admin_class, 'dynamic_fk') else None
+        self.dynamic_list_display = getattr(admin_class, 'dynamic_list_display') if \
+            hasattr(admin_class, 'dynamic_list_display') else ()
+        self.dynamic_choice_fields = getattr(admin_class, 'dynamic_choice_fields') if \
+            hasattr(admin_class, 'dynamic_choice_fields') else ()
 
-        #for m2m fields
-        self.m2m_fields  = getattr(admin_class,'m2m_fields') if \
-            hasattr(admin_class,'m2m_fields') else ()
+        # for m2m fields
+        self.m2m_fields = getattr(admin_class, 'm2m_fields') if \
+            hasattr(admin_class, 'm2m_fields') else ()
+
     def get_list_filter(self, list_filter):
         filters = []
         # print("list filters",list_filter)
@@ -61,7 +63,7 @@ class TableHandler(object):
                 'column_name': i,
                 # 'choices' : col_obj.get_choices()
             }
-            if col_obj.get_internal_type() not in ('DateField','DateTimeField'):
+            if col_obj.get_internal_type() not in ('DateField', 'DateTimeField'):
                 try:
                     choices = col_obj.get_choices()
 
