@@ -459,19 +459,13 @@ class Asset(object):
                                                              data_source=source_data_item)
                                     break
                             else:
-                                self.response_msg(
-                                    'warning', 'AssetUpdateWarning',
-                                    "Asset component [%s]'s key field [%s] is not provided in reporting data " % (
-                                        fk, identify_field))
+                                self.response_msg('warning', 'AssetUpdateWarning',
+                                                  "组件 [%s]'s -- [%s] 没有提供唯一标识 " % (fk, identify_field))
 
                         else:
                             # 汇报的数据不全，---> 资产移除，
-                            print(
-                                '\033[33;1mError:cannot find any matches in source data by using key field val [%s],component data is missing in reporting data!\033[0m' % (
-                                    key_field_data))
-                            self.response_msg("error", "AssetUpdateWarning",
-                                              "Cannot find any matches in source data by using key field val [%s],component data is missing in reporting data!" % (
-                                                  key_field_data))
+                            print('\033[33;1mError:组件 [%s],上报数据已没有!\033[0m' % key_field_data)
+                            self.response_msg("error", "AssetUpdateWarning", "组件 [%s],上报数据已没有!" % key_field_data)
 
                     # 和以前客户端做兼容
                     elif type(data_source) is dict:  # deprecated

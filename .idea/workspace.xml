@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="463" column="109" selection-start-line="463" selection-start-column="109" selection-end-line="463" selection-end-column="109" />
+            <state relative-caret-position="450">
+              <caret line="463" column="49" selection-start-line="463" selection-start-column="49" selection-end-line="463" selection-end-column="49" />
               <folding>
                 <element signature="e#212#786#0" />
                 <element signature="e#378#616#0" />
@@ -599,14 +599,7 @@
       <workItem from="1557148684449" duration="380000" />
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
-      <workItem from="1557356921757" duration="3629000" />
-    </task>
-    <task id="LOCAL-00363" summary="wanjie">
-      <created>1556362305496</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362305496</updated>
+      <workItem from="1557356921757" duration="4223000" />
     </task>
     <task id="LOCAL-00364" summary="wanjie">
       <created>1556362332889</created>
@@ -944,7 +937,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557360438263</updated>
     </task>
-    <option name="localTasksCounter" value="412" />
+    <task id="LOCAL-00412" summary="MadKing">
+      <created>1557361745203</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1557361745203</updated>
+    </task>
+    <option name="localTasksCounter" value="413" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -980,7 +980,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234287000" />
+    <option name="totallyTimeSpent" value="234881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -995,7 +995,7 @@
     <frame x="461" y="-5" width="1464" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17806268" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17806268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1589,8 +1589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="463" column="109" selection-start-line="463" selection-start-column="109" selection-end-line="463" selection-end-column="109" />
+        <state relative-caret-position="450">
+          <caret line="463" column="49" selection-start-line="463" selection-start-column="49" selection-end-line="463" selection-end-column="49" />
           <folding>
             <element signature="e#212#786#0" />
             <element signature="e#378#616#0" />
