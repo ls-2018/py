@@ -10,6 +10,7 @@ urlpatterns = [
     re_path(r'^report_test/$', views.asset_report_test),
     re_path(r'^acquire_asset_id_test/$', views.acquire_asset_id_test),
     re_path(r'^asset_list/$', views.asset_list, name="asset_list"),
+    re_path(r'^$', views.asset_list),
     re_path(r'^asset_list/(\d+)/$', views.asset_detail, name="asset_detail"),
     re_path(r'^asset_list/list/$', views.get_asset_list, name="get_asset_list"),
     re_path(r'^asset_list/category/$', views.asset_category, name="asset_category"),

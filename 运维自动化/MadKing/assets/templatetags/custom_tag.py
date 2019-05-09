@@ -72,7 +72,7 @@ def build_table_row(row_obj, table_obj, onclick_column=None, target_link=None):
         if column_name in table_obj.fk_fields:
             column_data = getattr(row_obj, column_name).__str__()
         if onclick_column == column_name:
-            column = ''' <td><a href=%s>%s</a></td> ''' % (url_reverse(target_link, args=(column_data,)), column_data)
+            column = ''' <td><a href=%s style="color:red !important">%s</a></td> ''' % (url_reverse(target_link, args=(column_data,)), column_data)
         else:
             column = "<td>%s</td>" % column_data
         row_ele += column

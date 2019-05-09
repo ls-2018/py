@@ -33,10 +33,10 @@
             <span class="caret"></span>
           </button>
           <ul style="width: 100%;" class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="{% url 'asset_category' %}?category_type=by_asset_type">设备类型</a></li>
-            <li><a href="{% url 'asset_category' %}?category_type=by_business_unit">业务线</a></li>
-            <li><a href="{% url 'asset_category' %}?category_type=by_idc">IDC机房</a></li>
-            <li><a href="{% url 'asset_category' %}?category_type=by_tag">资产标签</a></li>
+            <li><a href="{% url 'asset:asset_category' %}?category_type=by_asset_type">设备类型</a></li>
+            <li><a href="{% url 'asset:asset_category' %}?category_type=by_business_unit">业务线</a></li>
+            <li><a href="{% url 'asset:asset_category' %}?category_type=by_idc">IDC机房</a></li>
+            <li><a href="{% url 'asset:asset_category' %}?category_type=by_tag">资产标签</a></li>
           </ul>
         </div>
 
