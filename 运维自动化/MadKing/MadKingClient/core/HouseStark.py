@@ -15,7 +15,6 @@ class ArgvHandler(object):
     def __init__(self, argv_list):
         self.argvs = argv_list
         self.parse_argv()
-        self.f = open(settings.Params["log_file"], "a+", encoding='utf8')
 
     def parse_argv(self):
         if len(self.argvs) > 1:
@@ -61,7 +60,6 @@ class ArgvHandler(object):
         else:
             new_url = url_str + "?" + url_arg_str
         return new_url
-        # print(url_arg_str)
 
     def __submit_data(self, action_type, data, method):
 
@@ -100,7 +98,6 @@ class ArgvHandler(object):
 
     def load_asset_id(self, sn=None):
         asset_id_file = settings.Params['asset_id']  # 服务端存储的记录ID，用于更新  （数据库中sn可以重复的前提下）
-        print(asset_id_file)
         if os.path.exists(asset_id_file):
             asset_id = open(asset_id_file).read().strip()
             if asset_id.isdigit():  # 服务端存储的记录ID
@@ -120,7 +117,6 @@ class ArgvHandler(object):
     def report_asset(self):
         obj = info_collection.InfoCollection()
         asset_data = obj.collect()
-        print('-------')
         asset_id = self.load_asset_id(asset_data["sn"])
         if asset_id:  # reported to server before
             asset_data["asset_id"] = asset_id
@@ -142,7 +138,7 @@ class ArgvHandler(object):
 
     # ######## 记录日志 ############
     def log_record(self, log, action_type=None):
-        f = self.f
+        f = open(settings.Params["log_file"], "a+", encoding='utf8')
         if log is str:
             pass
         if type(log) is dict:
@@ -150,7 +146,6 @@ class ArgvHandler(object):
             if "info" in log:
                 for msg in log["info"]:
                     log_format = "%s\tINFO\t%s\n" % (datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), msg)
-                    # print msg
                     f.write(log_format)
             if "error" in log:
                 for msg in log["error"]:
@@ -160,6 +155,4 @@ class ArgvHandler(object):
                 for msg in log["warning"]:
                     log_format = "%s\tWARNING\t%s\n" % (datetime.datetime.now().strftime("%Y-%m-%d-%H:%M:%S"), msg)
                     f.write(log_format)
-
-    def __del__(self):
-        self.f.close()
+        f.close()

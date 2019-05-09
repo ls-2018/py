@@ -549,3 +549,318 @@
 2015-11-12-02:15:58	WARNING	{u'AssetUpdateWarning': u"Asset component [VMware-56 4d ee b6 68 8a d4 aa-c3 28 e6 c5 1f 9d db 4a sn:VMware-56 4d ee b6 68 8a d4 aa-c3 28 e6 c5 1f 9d db 4a]'s field [raid_type] is not provided in reporting data "}
 2015-11-12-02:15:59	WARNING	{u'AssetUpdateWarning': u"Asset component [VMware-56 4d ee b6 68 8a d4 aa-c3 28 e6 c5 1f 9d db 4a sn:VMware-56 4d ee b6 68 8a d4 aa-c3 28 e6 c5 1f 9d db 4a]'s field [raid_type] is not provided in reporting data "}
 2015-11-12-02:20:24	WARNING	{u'AssetUpdateWarning': u"Asset component [VMware-56 4d ee b6 68 8a d4 aa-c3 28 e6 c5 1f 9d db 4a sn:VMware-56 4d ee b6 68 8a d4 aa-c3 28 e6 c5 1f 9d db 4a]'s field [raid_type] is not provided in reporting data "}
+2019-05-09-13:37:08	INFO	{'FieldChanged': '资产[<id:17 name:00330-80000-00000-AA199>] --> 组件[17:28:C2:DD:68:C9:ED] --> 字段[ipaddress] 由 [None] 更改为 [192.168.43.60]'}
+2019-05-09-13:37:08	INFO	{'FieldChanged': "资产[<id:17 name:00330-80000-00000-AA199>] --> 组件[17:28:C2:DD:68:C9:ED] --> 字段[netmask] 由 [] 更改为 [['255.255.255.0', '64', '128', '64']]"}
+2019-05-09-13:37:08	INFO	{'FieldChanged': '资产[<id:17 name:00330-80000-00000-AA199>] --> 组件[17:00:50:56:C0:00:08] --> 字段[ipaddress] 由 [None] 更改为 [10.0.0.253]'}
+2019-05-09-13:37:08	INFO	{'FieldChanged': "资产[<id:17 name:00330-80000-00000-AA199>] --> 组件[17:00:50:56:C0:00:08] --> 字段[netmask] 由 [] 更改为 [['255.255.255.0', '64']]"}
+2019-05-09-13:37:08	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:37:08	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:37:08	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:37:08	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:37:08	INFO	{'FieldChanged': '资产[<id:17 name:00330-80000-00000-AA199>] --> 组件[00330-80000-00000-AA199 sn:00330-80000-00000-AA199] --> 字段[os_release] 由 [10 64bit  10.0.17763 ] 更改为 [10 64bit  10.0.17763]'}
+2019-05-09-13:37:08	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:37:08	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:00:50:56:C0:00:08]'的字段 [sn] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [17:00:50:56:C0:00:08]'的字段 [bonding] 没有上报"}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:37:08	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:30:5A:3A:BD:DB:68] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:1A:C2:DD:68:C9:ED] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:2A:C2:DD:68:C9:ED] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:2C:79:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:32:EC:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:3A:9A:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:00:FF:FE:8B:3F:37] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:4A:C2:DD:68:C9:ED] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:00:50:56:C0:00:08] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 12, 'sn': None, 'model': '[00000012] WAN Miniport (IP)', 'macaddress': '8C:E2:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:46	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 13, 'sn': None, 'model': '[00000013] WAN Miniport (IPv6)', 'macaddress': '90:60:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:46	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 14, 'sn': None, 'model': '[00000014] WAN Miniport (Network Monitor)', 'macaddress': '94:CD:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:46	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:38:46	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [30:5A:3A:BD:DB:68],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [1A:C2:DD:68:C9:ED],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [2A:C2:DD:68:C9:ED],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [2C:79:20:52:41:53],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [32:EC:20:52:41:53],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [3A:9A:20:52:41:53],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [00:FF:FE:8B:3F:37],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [4A:C2:DD:68:C9:ED],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [00:50:56:C0:00:08],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:38:46	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:38:46	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:38:46	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:38:46	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:38:46	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:38:46	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:38:46	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:38:46	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:38:59	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:8C:E2:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:59	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:90:60:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:59	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:94:CD:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 2, 'sn': None, 'model': '[00000002] Realtek PCIe GbE Family Controller', 'macaddress': '30:5A:3A:BD:DB:68', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 3, 'sn': None, 'model': '[00000003] Microsoft Wi-Fi Direct Virtual Adapter', 'macaddress': '1A:C2:DD:68:C9:ED', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 5, 'sn': None, 'model': '[00000005] Microsoft Wi-Fi Direct Virtual Adapter', 'macaddress': '2A:C2:DD:68:C9:ED', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 12, 'sn': None, 'model': '[00000012] WAN Miniport (IP)', 'macaddress': '2C:79:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 13, 'sn': None, 'model': '[00000013] WAN Miniport (IPv6)', 'macaddress': '32:EC:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 14, 'sn': None, 'model': '[00000014] WAN Miniport (Network Monitor)', 'macaddress': '3A:9A:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 17, 'sn': None, 'model': '[00000017] Netease UU TAP-Win32 Adapter V9.21', 'macaddress': '00:FF:FE:8B:3F:37', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 19, 'sn': None, 'model': '[00000019] Microsoft Hosted Network Virtual Adapter', 'macaddress': '4A:C2:DD:68:C9:ED', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 21, 'sn': None, 'model': '[00000021] VMware Virtual Ethernet Adapter for VMnet8', 'macaddress': '00:50:56:C0:00:08', 'ipaddress': '10.0.0.253', 'netmask': ['255.255.255.0', '64'], 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:59	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:38:59	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:38:59	ERROR	{'AssetUpdateWarning': '组件 [8C:E2:20:52:41:53],没有上报数据!'}
+2019-05-09-13:38:59	ERROR	{'AssetUpdateWarning': '组件 [90:60:20:52:41:53],没有上报数据!'}
+2019-05-09-13:38:59	ERROR	{'AssetUpdateWarning': '组件 [94:CD:20:52:41:53],没有上报数据!'}
+2019-05-09-13:38:59	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:38:59	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:38:59	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:38:59	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:38:59	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:38:59	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:38:59	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:39:10	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:39:10	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:39:10	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:39:10	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:39:10	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:39:10	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:30:5A:3A:BD:DB:68]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:1A:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2A:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:2C:79:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:32:EC:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:3A:9A:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:00:FF:FE:8B:3F:37]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:4A:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:00:50:56:C0:00:08]'的字段 [sn] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [17:00:50:56:C0:00:08]'的字段 [bonding] 没有上报"}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:39:10	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:41:41	ERROR	{'AssetDataInvalid': 'Cannot find asset object in DB by using asset id [17] and SN [00330-80000-00000-AA199] '}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:30:5A:3A:BD:DB:68] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:1A:C2:DD:68:C9:ED] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:2A:C2:DD:68:C9:ED] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:2C:79:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:32:EC:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:3A:9A:20:52:41:53] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:00:FF:FE:8B:3F:37] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:4A:C2:DD:68:C9:ED] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:00:50:56:C0:00:08] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 12, 'sn': None, 'model': '[00000012] WAN Miniport (IP)', 'macaddress': '8C:E2:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:43:20	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 13, 'sn': None, 'model': '[00000013] WAN Miniport (IPv6)', 'macaddress': '90:60:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:43:20	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[NIC] has justed added a new item [{'name': 14, 'sn': None, 'model': '[00000014] WAN Miniport (Network Monitor)', 'macaddress': '94:CD:20:52:41:53', 'ipaddress': '', 'netmask': '', 'bonding': None, 'asset_id': 17}]"}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:43:20	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:43:20	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [30:5A:3A:BD:DB:68],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [1A:C2:DD:68:C9:ED],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [2A:C2:DD:68:C9:ED],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [2C:79:20:52:41:53],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [32:EC:20:52:41:53],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [3A:9A:20:52:41:53],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [00:FF:FE:8B:3F:37],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [4A:C2:DD:68:C9:ED],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [00:50:56:C0:00:08],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:43:20	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:43:20	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:43:20	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:43:20	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:43:20	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:43:20	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:43:20	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:43:20	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:45:31	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:45:31	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:45:31	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:45:31	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:45:31	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:45:31	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:45:31	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:46:04	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:46:04	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:46:04	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:46:04	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:46:04	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:46:04	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:46:04	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:47:48	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:47:48	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:47:48	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:47:48	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:47:48	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:47:48	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:47:48	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:49:57	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:49:57	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:49:57	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:49:57	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:49:57	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:49:57	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:49:57	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}
+2019-05-09-13:50:43	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:1 capacity:931.510956287384] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:50:43	INFO	{'HardwareChanges': 'Asset[<id:17 name:00330-80000-00000-AA199>] --> component[17:slot:0 capacity:232.8834843635559] --> is lacking from reporting source data, assume it has been removed or replaced,will also delete it from DB'}
+2019-05-09-13:50:43	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': 'S32XJ9EG612232', 'slot': 1, 'manufactory': '(标准磁盘驱动器)', 'model': 'ST1000LM024 HN-M101MBB', 'capacity': 931.510956287384, 'iface_type': 'unknown', 'asset_id': 17}]"}
+2019-05-09-13:50:43	INFO	{'NewComponentAdded': "Asset[<id:17 name:00330-80000-00000-AA199>] --> component[Disk] has justed added a new item [{'sn': '174623803967', 'slot': 0, 'manufactory': '(标准磁盘驱动器)', 'model': 'SanDisk SDSSDH3250G', 'capacity': 232.8834843635559, 'iface_type': 'SSD', 'asset_id': 17}]"}
+2019-05-09-13:50:43	ERROR	{'AssetUpdateWarning': '组件 [1],没有上报数据!'}
+2019-05-09-13:50:43	ERROR	{'AssetUpdateWarning': '组件 [0],没有上报数据!'}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [sn] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [netmask] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:28:C2:DD:68:C9:ED]'的字段 [bonding] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:8C:E2:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:90:60:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [sn] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [ipaddress] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [netmask] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [17:94:CD:20:52:41:53]'的字段 [bonding] 没有上报"}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [disk_set]'s -- [slot] 没有提供唯一标识 "}
+2019-05-09-13:50:43	WARNING	{'AssetUpdateWarning': "组件 [00330-80000-00000-AA199 sn:00330-80000-00000-AA199]'的字段 [raid_type] 没有上报"}

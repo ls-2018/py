@@ -10,9 +10,7 @@ class InfoCollection(object):
         pass
 
     def get_platform(self):
-
         os_platform = platform.system()
-
         return os_platform
 
     def collect(self):
@@ -32,14 +30,7 @@ class InfoCollection(object):
 
     def Windows(self):
         sys_info = plugin_api.WindowsSysInfo()
-        print(sys_info)
-        # f = file('data_tmp.txt','wb')
-        # f.write(json.dumps(sys_info))
-        # f.close()
         return sys_info
 
     def build_report_data(self, data):
-
-        # add token info in here before send
-
         return data

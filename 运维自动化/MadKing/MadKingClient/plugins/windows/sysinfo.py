@@ -5,6 +5,80 @@ import win32com
 import wmi
 import os
 
+demo = {
+    'os_type': 'Windows',
+    'os_release': '10 64bit  10.0.17763 ',
+    'os_distribution': 'Microsoft',
+    'asset_type': 'server',
+    'cpu_count': 1,
+    'cpu_model': 'Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz',
+    'cpu_core_count': 2,
+    'ram': [
+        {
+            'slot': 'ChannelA-DIMM0',
+            'capacity': 4096.0,
+            'model': '物理内存',
+            'manufactory': 'Micron',
+            'sn': '00000000'
+        },
+        {
+            'slot': 'ChannelB-DIMM0',
+            'capacity': 8192.0,
+            'model': '物理内存',
+            'manufactory': 'Kingston',
+            'sn': '122B977C'
+        }
+    ],
+    'manufactory': 'ASUSTeK COMPUTER INC.',
+    'model': 'X555LB',
+    'wake_up_type': 6,
+    'sn': '00330-80000-00000-AA199',
+    'physical_disk_driver': [
+        {
+            'iface_type': 'unknown', 'slot': 1,
+            'sn': 'S32XJ9EG612232', 'model': 'ST1000LM024 HN-M101MBB',
+            'manufactory': '(标准磁盘驱动器)',
+            'capacity': 931.510956287384
+        },
+        {
+            'iface_type': 'SSD',
+            'slot': 0,
+            'sn': '174623803967',
+            'model': 'SanDisk SDSSDH3250G',
+            'manufactory': '(标准磁盘驱动器)',
+            'capacity': 232.8834843635559
+        }
+    ],
+    'nic': [
+        {
+            'macaddress': '28:C2:DD:68:C9:ED',
+            'model': '[00000001] Qualcomm Atheros AR956x Wireless Network Adapter',
+            'name': 1,
+            'ipaddress': '',
+            'netmask': ''
+        },
+        {
+            'macaddress': '8C:E2:20:52:41:53',
+            'model': '[00000012] WAN Miniport (IP)',
+            'name': 12,
+            'ipaddress': '',
+            'netmask': ''
+        },
+        {
+            'macaddress': '90:60:20:52:41:53',
+            'model': '[00000013] WAN Miniport (IPv6)',
+            'name': 13,
+            'ipaddress': '',
+            'netmask': ''
+        },
+        {
+            'macaddress': '94:CD:20:52:41:53',
+            'model': '[00000014] WAN Miniport (Network Monitor)', 'name': 14,
+            'ipaddress': '', 'netmask': ''},
+
+    ]
+}
+
 
 def collect():
     data = {
@@ -22,7 +96,7 @@ def collect():
 
     # for k,v in data.items():
     #    print k,v
-    return data
+    return demo
 
 
 class Win32Info(object):
@@ -118,85 +192,3 @@ class Win32Info(object):
 
 if __name__ == "__main__":
     print(collect())
-"""
-demo = {
-    'os_type': 'Windows',
-    'os_release': '10 64bit  10.0.17763 ',
-    'os_distribution': 'Microsoft',
-    'asset_type': 'server',
-    'cpu_count': 1,
-    'cpu_model': 'Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz',
-    'cpu_core_count': 2,
-    'ram': [
-        {
-            'slot': 'ChannelA-DIMM0',
-            'capacity': 4096.0,
-            'model': '物理内存',
-            'manufactory': 'Micron',
-            'sn': '00000000'
-        },
-        {
-            'slot': 'ChannelB-DIMM0',
-            'capacity': 8192.0,
-            'model': '物理内存',
-            'manufactory': 'Kingston',
-            'sn': '122B977C'
-        }
-    ],
-    'manufactory': 'ASUSTeK COMPUTER INC.',
-    'model': 'X555LB',
-    'wake_up_type': 6,
-    'sn': '00330-80000-00000-AA199',
-    'physical_disk_driver': [
-        {
-            'iface_type': 'unknown', 'slot': 1,
-            'sn': 'S32XJ9EG612232', 'model': 'ST1000LM024 HN-M101MBB',
-            'manufactory': '(标准磁盘驱动器)',
-            'capacity': 931.510956287384
-        },
-        {
-            'iface_type': 'SSD',
-            'slot': 0,
-            'sn': '174623803967',
-            'model': 'SanDisk SDSSDH3250G',
-            'manufactory': '(标准磁盘驱动器)',
-            'capacity': 232.8834843635559
-        }
-    ],
-    'nic': [
-        {
-            'macaddress': '28:C2:DD:68:C9:ED',
-            'model': '[00000001] Qualcomm Atheros AR956x Wireless Network Adapter',
-            'name': 1,
-            'ipaddress': '',
-            'netmask': ''
-        },
-        {
-            'macaddress': '30:5A:3A:BD:DB:68',
-            'model': '[00000002] Realtek PCIe GbE Family Controller',
-            'name': 2,
-            'ipaddress': '10.92.3.47',
-            'netmask': ('255.255.255.0', '64')
-        },
-        {
-            'macaddress': '8C:E2:20:52:41:53',
-            'model': '[00000012] WAN Miniport (IP)',
-            'name': 12,
-            'ipaddress': '',
-            'netmask': ''
-        },
-        {
-            'macaddress': '90:60:20:52:41:53',
-            'model': '[00000013] WAN Miniport (IPv6)',
-            'name': 13,
-            'ipaddress': '',
-            'netmask': ''
-        },
-        {
-            'macaddress': '94:CD:20:52:41:53',
-            'model': '[00000014] WAN Miniport (Network Monitor)', 'name': 14,
-            'ipaddress': '', 'netmask': ''},
-
-    ]
-}
-"""

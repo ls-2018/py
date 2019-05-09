@@ -35,13 +35,13 @@ def token_required(func):
         # args[0] = request
         get_args = args[0].GET
         username = get_args.get("user")
-        token_md5_from_client = get_args.get("token")
+        token_md5_from_client = get_args.get("md5_token")
         timestamp = get_args.get("timestamp")
         if not username or not timestamp or not token_md5_from_client:
             response['errors'].append({"auth_failed": "This api requires token authentication!"})
             return HttpResponse(json.dumps(response))
         try:
-            user_obj = models.UserProfile.objects.get(email=username)
+            user_obj = models.UserProfile.objects.get(name=username)
             token_md5_from_server = gen_token(username, timestamp, user_obj.token)
             if token_md5_from_client != token_md5_from_server:
                 response['errors'].append({"auth_failed": "Invalid username or token_id"})
@@ -49,9 +49,8 @@ def token_required(func):
                 if abs(time.time() - int(timestamp)) > settings.TOKEN_TIMEOUT:  # default timeout 120
                     response['errors'].append({"auth_failed": "The token is expired!"})
                 else:
-                    pass  # print "\033[31;1mPass authentication\033[0m"
 
-                print("\033[41;1m;%s ---client:%s\033[0m" % (time.time(), timestamp), time.time() - int(timestamp))
+                    print("\033[31;1mPass authentication\033[0m")
         except ObjectDoesNotExist:
             response['errors'].append({"auth_failed": "Invalid username or token_id"})
         if response['errors']:

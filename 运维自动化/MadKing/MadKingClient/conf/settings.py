@@ -3,7 +3,7 @@ import os
 
 BaseDir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Params = {
-    "server": "10.92.3.47",
+    "server": "127.0.0.1",
     "port": 8000,
     'request_timeout': 30,
     "urls": {
@@ -14,7 +14,7 @@ Params = {
     'log_file': ('%s/logs/run_log' % BaseDir).replace('/', os.sep),
 
     'auth': {
-        'user': 'lijie3721@126.com',
-        'token': 'abc'
+        'user': 'root',
+        'token': 'random_str'
     },
 }

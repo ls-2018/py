@@ -4,8 +4,16 @@
     <list default="true" id="4182d415-a168-4058-85dd-fd8b28a93877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MadKing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MadKing/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MadKingClient/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MadKingClient/conf/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MadKingClient/core/HouseStark.py" beforeDir="false" afterPath="$PROJECT_DIR$/MadKingClient/core/HouseStark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MadKingClient/core/info_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/MadKingClient/core/info_collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MadKingClient/logs/run_log" beforeDir="false" afterPath="$PROJECT_DIR$/MadKingClient/logs/run_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MadKingClient/plugins/windows/sysinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/MadKingClient/plugins/windows/sysinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,20 +25,44 @@
     <SUITE FILE_PATH="coverage/MadKing$api_token.coverage" NAME="api_token Coverage Results" MODIFIED="1557375732692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MadKingClient/core" />
     <SUITE FILE_PATH="coverage/MadKing$core.coverage" NAME="core Coverage Results" MODIFIED="1557364939642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assets" />
     <SUITE FILE_PATH="coverage/MadKing$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1557376903129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MadKing" />
+    <SUITE FILE_PATH="coverage/MadKing$NedStark.coverage" NAME="NedStark Coverage Results" MODIFIED="1557381220438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MadKingClient/bin" />
     <SUITE FILE_PATH="coverage/MadKing$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1557370256744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assets" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -43,6 +75,16 @@
       <find>is_ad</find>
       <find>is_superuser</find>
       <find>report_asset</find>
+      <find>settings</find>
+      <find>Connecting</find>
+      <find>__submit_data</find>
+      <find>AUTH_USER_MODEL</find>
+      <find>---client</find>
+      <find>macaddress</find>
+      <find>asset_id</find>
+      <find>slot</find>
+      <find>-------</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>(&quot;</replace>
@@ -55,16 +97,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/myauth.py" />
-        <option value="$PROJECT_DIR$/assets/admin.py" />
         <option value="$PROJECT_DIR$/assets/models.py" />
-        <option value="$PROJECT_DIR$/assets/views.py" />
-        <option value="$PROJECT_DIR$/assets/core.py" />
         <option value="$PROJECT_DIR$/assets/__init__.py" />
         <option value="$PROJECT_DIR$/MadKing/settings1.8.py" />
         <option value="$PROJECT_DIR$/MadKing/wsgi.py" />
         <option value="$PROJECT_DIR$/MadKingClient/core/__init__.py" />
         <option value="$PROJECT_DIR$/MadKingClient/plugins/windows/__init__.py" />
-        <option value="$PROJECT_DIR$/MadKingClient/plugins/windows/sysinfo.py" />
         <option value="$PROJECT_DIR$/MadKingClient/plugins/plugin_api.py" />
         <option value="$PROJECT_DIR$/MadKingClient/__init__.py" />
         <option value="$PROJECT_DIR$/temps/hardware_info/hp/__init__.py" />
@@ -73,19 +111,25 @@
         <option value="$PROJECT_DIR$/temps/hardware_info/dell_r410/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/MadKingClient/core/api_token.py" />
-        <option value="$PROJECT_DIR$/MadKingClient/core/HouseStark.py" />
         <option value="$PROJECT_DIR$/assets/urls.py" />
         <option value="$PROJECT_DIR$/MadKing/__init__.py" />
         <option value="$PROJECT_DIR$/MadKing/views.py" />
+        <option value="$PROJECT_DIR$/MadKingClient/conf/settings.py" />
+        <option value="$PROJECT_DIR$/assets/admin.py" />
+        <option value="$PROJECT_DIR$/MadKingClient/plugins/windows/sysinfo.py" />
         <option value="$PROJECT_DIR$/assets/utils.py" />
+        <option value="$PROJECT_DIR$/assets/views.py" />
+        <option value="$PROJECT_DIR$/assets/core.py" />
+        <option value="$PROJECT_DIR$/MadKingClient/core/HouseStark.py" />
+        <option value="$PROJECT_DIR$/MadKingClient/core/info_collection.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="538" />
-    <option name="y" value="135" />
-    <option name="width" value="1282" />
-    <option name="height" value="974" />
+    <option name="x" value="642" />
+    <option name="y" value="17" />
+    <option name="width" value="1525" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -104,7 +148,44 @@
             <path>
               <item name="MadKing" type="b2602c69:ProjectViewProjectNode" />
               <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MadKing" type="b2602c69:ProjectViewProjectNode" />
               <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MadKing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MadKing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MadKing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MadKing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MadKing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKingClient" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,9 +195,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -131,8 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="MadKing" type="Python.DjangoServer" factoryName="Django server">
+  <component name="RunManager" selected="Django server.MadKing">
+    <configuration name="NedStark" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MadKing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,13 +223,36 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MadKingClient/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MadKingClient/bin/NedStark.py" />
+      <option name="PARAMETERS" value="report_asset" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MadKing" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MadKing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="MadKing.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python36\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="0.0.0.0" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -155,6 +261,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.MadKing" />
+      <item itemvalue="Python.NedStark" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.NedStark" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -169,39 +284,39 @@
       <workItem from="1557362812279" duration="528000" />
       <workItem from="1557363682458" duration="7614000" />
       <workItem from="1557374018113" duration="1751000" />
-      <workItem from="1557376486873" duration="802000" />
+      <workItem from="1557376486873" duration="4730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10695000" />
+    <option name="totallyTimeSpent" value="14623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="538" y="135" width="1282" height="974" extended-state="0" />
-    <editor active="true" />
+    <frame x="642" y="17" width="1525" height="976" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17512275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14607508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32965687" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996207" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2769608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42542788" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987755" weight="0.5061275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="manage.py@MadKing" order="7" sideWeight="0.49928775" weight="0.32996207" />
+      <window_info anchor="bottom" id="manage.py@MadKing" order="7" sideWeight="0.49928775" weight="0.32965687" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012245" side_tool="true" weight="0.5061275" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.471555" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.47058824" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32978722" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +470,266 @@
           <line>384</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/utils.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>626</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>627</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>628</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>629</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>630</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>631</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>633</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>639</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>640</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>642</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>634</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>635</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>636</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>637</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/assets/core.py</url>
+          <line>638</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -366,65 +741,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python36/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/backends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="228" selection-start-line="228" selection-end-line="228" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/middleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/utils/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/admin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/admin/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="353" selection-start-line="353" selection-end-line="353" />
-          <folding>
-            <element signature="e#22642#23197#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/db/models/fields/related.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="916" lean-forward="true" selection-start-line="916" selection-end-line="916" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python36/Lib/site-packages/django/contrib/admin/views/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -439,50 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-          <folding>
-            <element signature="e#490#1467#0" />
-            <element signature="e#785#847#0" />
-            <element signature="e#888#1194#0" />
-            <element signature="e#1237#1467#0" />
-            <element signature="e#1513#2433#0" />
-            <element signature="e#1513#1669#1" />
-            <element signature="e#1781#2045#0" />
-            <element signature="e#2073#2163#0" />
-            <element signature="e#2203#2433#0" />
-            <element signature="e#2203#2268#0" />
-            <element signature="e#2583#2636#0" />
-            <element signature="e#2865#3174#0" />
-            <element signature="e#3185#3250#0" />
-            <element signature="e#3355#3493#0" />
-            <element signature="e#3356#3481#0" />
-            <element signature="e#3362#3481#0" />
-            <element signature="e#3631#3716#0" />
-            <element signature="e#3761#3841#0" />
-            <element signature="e#3886#3966#0" />
-            <element signature="e#4011#4091#0" />
-            <element signature="e#4137#4218#0" />
-            <element signature="e#4261#5069#0" />
-            <element signature="e#4286#4415#0" />
-            <element signature="e#5110#5230#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python36/Lib/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="735" lean-forward="true" selection-start-line="735" selection-end-line="735" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MadKingClient/bin/NedStark.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -493,135 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/myauth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="205" column="34" lean-forward="true" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="634" column="5" lean-forward="true" selection-start-line="634" selection-start-column="5" selection-end-line="634" selection-end-column="5" />
-          <folding>
-            <element signature="e#212#786#0" />
-            <element signature="e#378#616#0" />
-            <element signature="e#440#573#0" />
-            <element signature="e#641#727#0" />
-            <element signature="e#844#971#0" />
-            <element signature="e#1039#2238#0" />
-            <element signature="e#1039#1156#1" />
-            <element signature="e#1213#1449#0" />
-            <element signature="e#1251#1449#0" />
-            <element signature="e#1476#1613#0" />
-            <element signature="e#1476#1487#0" />
-            <element signature="e#1639#1900#0" />
-            <element signature="e#1953#2217#0" />
-            <element signature="e#2282#3404#0" />
-            <element signature="e#2282#2317#1" />
-            <element signature="e#2398#3217#0" />
-            <element signature="e#2419#3069#0" />
-            <element signature="e#2530#2605#0" />
-            <element signature="e#2648#3069#0" />
-            <element signature="e#2710#2994#0" />
-            <element signature="e#2721#2844#0" />
-            <element signature="e#3122#3217#0" />
-            <element signature="e#3245#3380#0" />
-            <element signature="e#3461#4826#0" />
-            <element signature="e#3461#3502#1" />
-            <element signature="e#4865#5374#0" />
-            <element signature="e#4937#5249#0" />
-            <element signature="e#4958#5142#0" />
-            <element signature="e#6082#6155#1" />
-            <element signature="e#6923#7968#0" />
-            <element signature="e#6923#7890#1" />
-            <element signature="e#8055#8716#0" />
-            <element signature="e#8137#8473#0" />
-            <element signature="e#8253#8473#0" />
-            <element signature="e#8518#8716#0" />
-            <element signature="e#8754#8822#1" />
-            <element signature="e#10048#10505#0" />
-            <element signature="e#10570#11560#0" />
-            <element signature="e#10587#11432#0" />
-            <element signature="e#10759#11432#0" />
-            <element signature="e#10802#11209#0" />
-            <element signature="e#11304#11313#0" />
-            <element signature="e#11635#12363#0" />
-            <element signature="e#11652#12230#0" />
-            <element signature="e#11796#12230#0" />
-            <element signature="e#12063#12143#0" />
-            <element signature="e#12430#13429#0" />
-            <element signature="e#12447#13304#0" />
-            <element signature="e#12724#13304#0" />
-            <element signature="e#12735#13016#0" />
-            <element signature="e#13478#14886#0" />
-            <element signature="e#13568#14768#0" />
-            <element signature="e#13612#14768#0" />
-            <element signature="e#13637#14625#0" />
-            <element signature="e#13982#14625#0" />
-            <element signature="e#14063#14535#0" />
-            <element signature="e#16202#17220#0" />
-            <element signature="e#16273#17103#0" />
-            <element signature="e#16315#17103#0" />
-            <element signature="e#16340#16961#0" />
-            <element signature="e#16467#16961#0" />
-            <element signature="e#16548#16872#0" />
-            <element signature="e#17271#17672#0" />
-            <element signature="e#17412#17602#0" />
-            <element signature="e#17728#17781#0" />
-            <element signature="e#17829#18204#0" />
-            <element signature="e#17945#18132#0" />
-            <element signature="e#18307#18547#1" />
-            <element signature="e#20547#22357#0" />
-            <element signature="e#20625#21978#0" />
-            <element signature="e#20792#21607#0" />
-            <element signature="e#21030#21607#0" />
-            <element signature="e#21724#21978#0" />
-            <element signature="e#22123#22357#0" />
-            <element signature="e#23186#25083#0" />
-            <element signature="e#23547#23641#0" />
-            <element signature="e#23708#24009#0" />
-            <element signature="e#23762#24009#0" />
-            <element signature="e#24903#25083#0" />
-            <element signature="e#25183#27366#0" />
-            <element signature="e#25366#25534#0" />
-            <element signature="e#25410#25534#0" />
-            <element signature="e#25467#25534#0" />
-            <element signature="e#25604#26309#0" />
-            <element signature="e#25659#26309#0" />
-            <element signature="e#25794#25928#0" />
-            <element signature="e#25855#25928#0" />
-            <element signature="e#26061#26309#0" />
-            <element signature="e#26103#26309#0" />
-            <element signature="e#26366#27102#0" />
-            <element signature="e#26422#27102#0" />
-            <element signature="e#27147#27366#0" />
-            <element signature="e#27456#28195#0" />
-            <element signature="e#27663#27778#0" />
-            <element signature="e#27828#28195#0" />
-            <element signature="e#28280#30055#0" />
-            <element signature="e#28280#28416#1" />
-            <element signature="e#28582#30029#0" />
-            <element signature="e#28733#29898#0" />
-            <element signature="e#29213#29898#0" />
-            <element signature="e#30132#30227#1" />
-            <element signature="e#30247#30336#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -657,16 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MadKingClient/core/info_collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#22#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MadKingClient/logs/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -683,22 +824,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MadKingClient/plugins/windows/sysinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MadKingClient/plugins/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MadKingClient/plugins/plugin_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MadKingClient/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -764,84 +891,366 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MadKingClient/conf/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MadKing/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MadKing/settings.py">
+    <entry file="file://$PROJECT_DIR$/MadKing/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        <state relative-caret-position="-350">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MadKing/views.py">
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="188">
+          <caret line="206" column="14" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="355" column="10" selection-start-line="355" selection-start-column="6" selection-end-line="355" selection-end-column="10" />
+          <folding>
+            <element signature="e#529#706#0" />
+            <element signature="e#529#625#1" />
+            <element signature="e#754#1010#0" />
+            <element signature="e#850#1010#0" />
+            <element signature="e#1049#2972#0" />
+            <element signature="e#1049#2111#1" />
+            <element signature="e#2418#2655#0" />
+            <element signature="e#2574#2654#0" />
+            <element signature="e#2688#2818#0" />
+            <element signature="e#2726#2808#0" />
+            <element signature="e#2855#2912#0" />
+            <element signature="e#3015#3175#0" />
+            <element signature="e#3015#3070#1" />
+            <element signature="e#3149#3175#0" />
+            <element signature="e#3209#4414#0" />
+            <element signature="e#3209#3992#1" />
+            <element signature="e#4242#4309#0" />
+            <element signature="e#4342#4358#0" />
+            <element signature="e#4395#4414#0" />
+            <element signature="e#4457#5778#0" />
+            <element signature="e#4562#5009#0" />
+            <element signature="e#4562#4654#1" />
+            <element signature="e#5099#5272#0" />
+            <element signature="e#5357#5778#0" />
+            <element signature="e#5901#6106#0" />
+            <element signature="e#5969#6083#0" />
+            <element signature="e#6150#6514#0" />
+            <element signature="e#6150#6242#1" />
+            <element signature="e#6291#6497#0" />
+            <element signature="e#6374#6439#0" />
+            <element signature="e#6566#6946#0" />
+            <element signature="e#6566#6658#1" />
+            <element signature="e#6707#6929#0" />
+            <element signature="e#6798#6871#0" />
+            <element signature="e#6991#9901#0" />
+            <element signature="e#6991#7114#1" />
+            <element signature="e#7242#7339#0" />
+            <element signature="e#7496#7610#0" />
+            <element signature="e#7986#8001#0" />
+            <element signature="e#8058#8516#0" />
+            <element signature="e#8058#8282#1" />
+            <element signature="e#8367#8489#0" />
+            <element signature="e#8571#8614#0" />
+            <element signature="e#8664#9244#0" />
+            <element signature="e#8664#9022#1" />
+            <element signature="e#9300#9531#0" />
+            <element signature="e#9300#9464#1" />
+            <element signature="e#9584#9901#0" />
+            <element signature="e#9584#9722#1" />
+            <element signature="e#9964#12147#0" />
+            <element signature="e#9964#10149#1" />
+            <element signature="e#10463#10544#0" />
+            <element signature="e#11056#11174#0" />
+            <element signature="e#11416#11505#0" />
+            <element signature="e#11536#11623#0" />
+            <element signature="e#11662#11849#0" />
+            <element signature="e#11662#11752#1" />
+            <element signature="e#11889#11961#0" />
+            <element signature="e#12042#12147#0" />
+            <element signature="e#12180#12424#0" />
+            <element signature="e#12180#12351#1" />
+            <element signature="e#12395#12424#0" />
+            <element signature="e#12452#14262#0" />
+            <element signature="e#12677#12699#0" />
+            <element signature="e#12738#12778#0" />
+            <element signature="e#12812#12867#0" />
+            <element signature="e#12897#12987#0" />
+            <element signature="e#13019#13109#0" />
+            <element signature="e#13161#13251#0" />
+            <element signature="e#13305#13395#0" />
+            <element signature="e#13441#13460#0" />
+            <element signature="e#13516#13545#0" />
+            <element signature="e#13602#13614#0" />
+            <element signature="e#13669#13716#0" />
+            <element signature="e#13766#13808#0" />
+            <element signature="e#13864#13980#0" />
+            <element signature="e#13899#13960#0" />
+            <element signature="e#14030#14073#0" />
+            <element signature="e#14125#14136#0" />
+            <element signature="e#14192#14204#0" />
+            <element signature="e#14242#14262#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MadKing/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MadKing/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/views/decorators/csrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MadKingClient/bin/NedStark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MadKingClient/plugins/plugin_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="-172">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/views.py">
+    <entry file="file://$PROJECT_DIR$/assets/myauth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="147">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="81" column="79" selection-start-line="81" selection-start-column="79" selection-end-line="81" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bd94c0a4-41d6-490f-bab5-cb9eaa3f3bee/schema/main/table/assets_userprofile">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bd94c0a4-41d6-490f-bab5-cb9eaa3f3bee/schema/main/table/assets_server">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bd94c0a4-41d6-490f-bab5-cb9eaa3f3bee/schema/main/table/assets_networkdevice">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bd94c0a4-41d6-490f-bab5-cb9eaa3f3bee/schema/main/table/assets_manufactory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MadKingClient/plugins/windows/sysinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bd94c0a4-41d6-490f-bab5-cb9eaa3f3bee/schema/main/table/assets_newassetapprovalzone">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#22#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MadKingClient/core/HouseStark.py">
+    <entry file="file://$PROJECT_DIR$/assets/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        <state relative-caret-position="230">
+          <caret line="495" column="37" selection-start-line="495" selection-start-column="37" selection-end-line="495" selection-end-column="37" />
           <folding>
-            <element signature="e#22#54#0" expanded="true" />
+            <element signature="e#212#786#0" />
+            <element signature="e#378#616#0" />
+            <element signature="e#440#573#0" />
+            <element signature="e#641#727#0" />
+            <element signature="e#844#971#0" />
+            <element signature="e#1039#2238#0" />
+            <element signature="e#1039#1156#1" />
+            <element signature="e#1213#1449#0" />
+            <element signature="e#1251#1449#0" />
+            <element signature="e#1476#1613#0" />
+            <element signature="e#1476#1487#0" />
+            <element signature="e#1639#1900#0" />
+            <element signature="e#1953#2217#0" />
+            <element signature="e#2282#2317#1" />
+            <element signature="e#3461#3502#1" />
+            <element signature="e#4937#5249#0" />
+            <element signature="e#4958#5142#0" />
+            <element signature="e#6082#6155#1" />
+            <element signature="e#6923#7890#1" />
+            <element signature="e#8137#8473#0" />
+            <element signature="e#8253#8473#0" />
+            <element signature="e#8518#8716#0" />
+            <element signature="e#8754#8822#1" />
+            <element signature="e#10587#11432#0" />
+            <element signature="e#10759#11432#0" />
+            <element signature="e#10802#11209#0" />
+            <element signature="e#11304#11313#0" />
+            <element signature="e#11652#12230#0" />
+            <element signature="e#11796#12230#0" />
+            <element signature="e#12063#12143#0" />
+            <element signature="e#12447#13304#0" />
+            <element signature="e#12724#13304#0" />
+            <element signature="e#12735#13016#0" />
+            <element signature="e#13568#14768#0" />
+            <element signature="e#13612#14768#0" />
+            <element signature="e#13637#14625#0" />
+            <element signature="e#13982#14625#0" />
+            <element signature="e#14063#14535#0" />
+            <element signature="e#14934#16154#0" />
+            <element signature="e#16273#17103#0" />
+            <element signature="e#16315#17103#0" />
+            <element signature="e#16340#16961#0" />
+            <element signature="e#16467#16961#0" />
+            <element signature="e#16548#16872#0" />
+            <element signature="e#17271#17672#0" />
+            <element signature="e#17412#17602#0" />
+            <element signature="e#17728#17781#0" />
+            <element signature="e#17829#18204#0" />
+            <element signature="e#17945#18132#0" />
+            <element signature="e#18307#18547#1" />
+            <element signature="e#20547#22357#0" />
+            <element signature="e#23186#25083#0" />
+            <element signature="e#23547#23641#0" />
+            <element signature="e#23708#24009#0" />
+            <element signature="e#23762#24009#0" />
+            <element signature="e#25183#27366#0" />
+            <element signature="e#25366#25534#0" />
+            <element signature="e#25410#25534#0" />
+            <element signature="e#25467#25534#0" />
+            <element signature="e#25604#26309#0" />
+            <element signature="e#25659#26309#0" />
+            <element signature="e#25794#25928#0" />
+            <element signature="e#25855#25928#0" />
+            <element signature="e#26061#26309#0" />
+            <element signature="e#26103#26309#0" />
+            <element signature="e#26366#27102#0" />
+            <element signature="e#26422#27102#0" />
+            <element signature="e#27147#27366#0" />
+            <element signature="e#27456#28195#0" />
+            <element signature="e#27663#27778#0" />
+            <element signature="e#27828#28195#0" />
+            <element signature="e#28280#30055#0" />
+            <element signature="e#28280#28416#1" />
+            <element signature="e#28582#30029#0" />
+            <element signature="e#28733#29898#0" />
+            <element signature="e#29213#29898#0" />
+            <element signature="e#30132#30227#1" />
+            <element signature="e#30247#30336#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MadKingClient/conf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MadKingClient/core/api_token.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="94">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="e#22#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/utils.py">
+    <entry file="file://$PROJECT_DIR$/assets/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MadKingClient/core/info_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#22#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MadKingClient/core/HouseStark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
+            <element signature="e#1723#3282#0" />
+          </folding>
         </state>
       </provider>
     </entry>

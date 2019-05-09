@@ -143,7 +143,6 @@ class Asset(object):
             self.create_asset()
         else:  # asset already already exist , just update it
             print('\033[33;1m---asset already exist ,going to update----\033[0m')
-
             self.update_asset()
 
     def data_is_valid_without_id(self):
@@ -251,7 +250,6 @@ class Asset(object):
 
         self.__update_cpu_component()
         self.__update_manufactory_component()
-
         self.__update_server_component()
 
     def _create_server(self):
@@ -437,7 +435,6 @@ class Asset(object):
         :param identify_field:设备组件表中的 唯一 的 组件 标识  ，如果没有用asset_id标识(结果可能有多个)
         :return:
         """
-        print(data_source, update_fields, identify_field)
         try:
             component_obj = getattr(self.asset_obj, fk)
             if hasattr(component_obj, 'select_related'):  # this component is reverse m2m relation with Asset model
@@ -455,7 +452,6 @@ class Asset(object):
                                     # 客户端的数据与数据库的数据匹配上（根据数据表唯一标识），进行下一步更新
                                     self.__compare_component(model_obj=obj, fields_from_db=update_fields,
                                                              data_source=source_data_item)
-                                    print('-------------matched', key_field_data, key_field_data_from_source_data)
                                     break
                             else:
                                 self.response_msg('warning', 'AssetUpdateWarning',
@@ -471,14 +467,15 @@ class Asset(object):
                         for key, source_data_item in data_source.items():
                             key_field_data_from_source_data = source_data_item.get(identify_field)
                             if key_field_data_from_source_data:
-                                if key_field_data == key_field_data_from_source_data:  # find the matched source data for this component,then should compare each field in this component to see if there's any changes since last update
+                                if key_field_data == key_field_data_from_source_data:
                                     self.__compare_component(model_obj=obj, fields_from_db=update_fields,
                                                              data_source=source_data_item)
-                                    break  # must break ast last ,then if the loop is finished , logic will goes for ..else part,then you will know that no source data is matched for by using this key_field_data, that means , this item is lacked from source data, it makes sense when the hardware info got changed. e.g: one of the RAM is broken, sb takes it away,then this data will not be reported in reporting data
+                                    break
                             else:  # key field data from source data cannot be none
-                                self.response_msg('warning', 'AssetUpdateWarning',
-                                                  "Asset component [%s]'s key field [%s] is not provided in reporting data " % (
-                                                      fk, identify_field))
+                                self.response_msg(
+                                    'warning', 'AssetUpdateWarning',
+                                    "Asset component [%s]'s key field [%s] is not provided in reporting data " % (
+                                        fk, identify_field))
 
                         else:  # couldn't find any matches, the asset component must be broken or changed manually
                             print(
@@ -498,7 +495,6 @@ class Asset(object):
 
     def __filter_add_or_deleted_components(self, model_obj_name, data_from_db, data_source, identify_field):
         '''This function is filter out all  component data in db but missing in reporting data, and all the data in reporting data but not in DB'''
-        print(data_from_db, data_source, identify_field)
         data_source_key_list = []  # save all the identified keys from client data,e.g: [macaddress1,macaddress2]
         if type(data_source) is list:
             for data in data_source:
@@ -510,9 +506,6 @@ class Asset(object):
                     data_source_key_list.append(data.get(identify_field))
                 else:  # workround for some component uses key as identified field e.g: ram
                     data_source_key_list.append(key)
-        print('-->identify field [%s] from db  :', data_source_key_list)
-        print('-->identify[%s] from data source:', [getattr(obj, identify_field) for obj in data_from_db])
-
         data_source_key_list = set(data_source_key_list)
         data_identify_val_from_db = set([getattr(obj, identify_field) for obj in data_from_db])
         data_only_in_db = data_identify_val_from_db - data_source_key_list  # delete all this from db
@@ -590,8 +583,6 @@ class Asset(object):
         :param data_source: 客户端数据
         :return:
         """
-        print('---going to compare:[%s]' % model_obj, fields_from_db)
-        print('---source data:', data_source)
         for field in fields_from_db:
             val_from_db = getattr(model_obj, field)
             val_from_data_source = data_source.get(field)

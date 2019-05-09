@@ -1,11 +1,11 @@
 # _*_coding:utf8_*_
-from django.contrib import admin
-
 from django import forms
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from assets import models
+from django.contrib.contenttypes.models import ContentType
+from django.shortcuts import redirect
 
 
 class BaseAdmin(object):
@@ -75,14 +75,14 @@ class UserProfileAdmin(UserAdmin):
     # The fields to be used in displaying the User model.
     # These override the definitions on the base UserAdmin
     # that reference specific fields on auth.User.
-    list_display = ('id', 'email', 'is_admin', 'is_active')
+    list_display = ('id', 'name', 'email', 'is_admin', 'is_active', 'is_superuser')
     list_filter = ('is_admin',)
     fieldsets = (
         (None, {'fields': ('email', 'password')}),
         ('Personal info', {'fields': ('department', 'tel', 'mobile', 'memo')}),
         ('API TOKEN info', {'fields': ('token',)}),
-        ('Permissions', {'fields': ('is_active', 'is_admin')}),
-        ('账户有效期', {'fields': ('valid_begin_time', 'valid_end_time')}),
+        # ('Permissions', {'fields': ('is_active', 'is_admin')}),
+        # ('账户有效期', {'fields': ('valid_begin_time', 'valid_end_time')}),
     )
     # add_fieldsets is not a standard ModelAdmin attribute. UserAdmin
     # overrides get_fieldsets to use this attribute when creating a user.
@@ -164,10 +164,6 @@ class EventLogAdmin(admin.ModelAdmin, BaseAdmin):
     def show_asset(self, obj):
         print('--------', obj.asset)
         return obj.asset
-
-
-from django.contrib.contenttypes.models import ContentType
-from django.shortcuts import redirect
 
 
 class NewAssetApprovalZoneAdmin(admin.ModelAdmin):
