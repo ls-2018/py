@@ -227,7 +227,7 @@ class Disk(models.Model):
     asset = models.ForeignKey('Asset', on_delete=models.CASCADE)
     sn = models.CharField(u'SN号', max_length=128, blank=True, null=True)
     slot = models.CharField(u'插槽位', max_length=64)
-    # manufactory = models.CharField(u'制造商', max_length=64,blank=True,null=True)
+    manufactory = models.CharField(u'制造商', max_length=64,blank=True,null=True)
     model = models.CharField(u'磁盘型号', max_length=128, blank=True, null=True)
     capacity = models.FloatField(u'磁盘容量GB')
     disk_iface_choice = (

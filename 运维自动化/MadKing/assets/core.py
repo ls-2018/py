@@ -464,8 +464,8 @@ class Asset(object):
 
                         else:
                             # 汇报的数据不全，---> 资产移除，
-                            print('\033[33;1mError:组件 [%s],上报数据已没有!\033[0m' % key_field_data)
-                            self.response_msg("error", "AssetUpdateWarning", "组件 [%s],上报数据已没有!" % key_field_data)
+                            print('\033[33;1mError:组件 [%s],没有上报数据!\033[0m' % key_field_data)
+                            self.response_msg("error", "AssetUpdateWarning", "组件 [%s],没有上报数据!" % key_field_data)
 
                     # 和以前客户端做兼容
                     elif type(data_source) is dict:  # deprecated
