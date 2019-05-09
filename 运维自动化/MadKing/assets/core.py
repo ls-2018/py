@@ -434,9 +434,9 @@ class Asset(object):
     def __update_asset_component(self, data_source, fk, update_fields, identify_field=None):
         """
         :param data_source: 从客户端提交的数据
-        :param fk: 由资产记录根据fk ---> 真正存放设备信息的记录
+        :param fk: 由资产记录根据fk ---> 设备信息的记录 ---> 设备组件的记录
         :param update_fields: 哪些字段需要比较
-        :param identify_field: 使用此字段标识资产的每个组件，如果设置为None，则意味着仅使用资产id进行标识
+        :param identify_field:设备组件表中的 唯一 的 组件 标识  ，如果没有用asset_id标识(结果可能有多个)
         :return:
         """
         print(data_source, update_fields, identify_field)
@@ -448,20 +448,24 @@ class Asset(object):
                     key_field_data = getattr(obj, identify_field)
                     # use this key_field_data to find the relative data source from reporting data
                     if type(data_source) is list:
-                        for source_data_item in data_source:  # 到客户端的数据 源里去找到跟 服务器数据库中key_field_data对应的条目
+                        for source_data_item in data_source:
+
                             key_field_data_from_source_data = source_data_item.get(identify_field)
+                            # 客户端数据是否有该设备所必须拥有的唯一标识
                             if key_field_data_from_source_data:
-                                if key_field_data == key_field_data_from_source_data:  # find the matched source data for this component,then should compare each field in this component to see if there's any changes since last update
+                                if key_field_data == key_field_data_from_source_data:
+                                    # 客户端的数据与数据库的数据匹配上（根据数据表唯一标识），进行下一步更新
                                     self.__compare_component(model_obj=obj, fields_from_db=update_fields,
                                                              data_source=source_data_item)
+                                    break
+                            else:
+                                self.response_msg(
+                                    'warning', 'AssetUpdateWarning',
+                                    "Asset component [%s]'s key field [%s] is not provided in reporting data " % (
+                                        fk, identify_field))
 
-                                    break  # 已经根据identify_field找到客户端中对应的数据条目，且对比完了，后面的loop没必要继续了
-                            else:  # key field data from source data cannot be none
-                                self.response_msg('warning', 'AssetUpdateWarning',
-                                                  "Asset component [%s]'s key field [%s] is not provided in reporting data " % (
-                                                      fk, identify_field))
-
-                        else:  # couldn't find any matches, the asset component must be broken or changed manually
+                        else:
+                            # 汇报的数据不全，---> 资产移除，
                             print(
                                 '\033[33;1mError:cannot find any matches in source data by using key field val [%s],component data is missing in reporting data!\033[0m' % (
                                     key_field_data))
@@ -469,6 +473,7 @@ class Asset(object):
                                               "Cannot find any matches in source data by using key field val [%s],component data is missing in reporting data!" % (
                                                   key_field_data))
 
+                    # 和以前客户端做兼容
                     elif type(data_source) is dict:  # deprecated
                         for key, source_data_item in data_source.items():
                             key_field_data_from_source_data = source_data_item.get(identify_field)

@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="443" column="77" selection-start-line="443" selection-start-column="24" selection-end-line="443" selection-end-column="77" />
+            <state relative-caret-position="375">
+              <caret line="463" column="109" selection-start-line="463" selection-start-column="109" selection-end-line="463" selection-end-column="109" />
               <folding>
                 <element signature="e#212#786#0" />
                 <element signature="e#378#616#0" />
@@ -149,12 +149,7 @@
                 <element signature="e#17786#17839#0" />
                 <element signature="e#17887#18262#0" />
                 <element signature="e#18003#18190#0" />
-                <element signature="e#18841#23708#0" />
-                <element signature="e#19459#20493#0" />
-                <element signature="e#19626#20122#0" />
-                <element signature="e#19864#20122#0" />
-                <element signature="e#20239#20493#0" />
-                <element signature="e#20638#21178#0" />
+                <element signature="e#21102#22912#0" />
                 <element signature="e#21753#22330#0" />
                 <element signature="e#22447#22701#0" />
                 <element signature="e#22846#23080#0" />
@@ -240,7 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/机器学习/gensim+jieba+智能玩具.py" />
         <option value="$PROJECT_DIR$/测试自动化/demo.py" />
         <option value="$PROJECT_DIR$/测试自动化/技能点.md" />
         <option value="$PROJECT_DIR$/Flask－/测试报告.html" />
@@ -290,14 +284,15 @@
         <option value="$PROJECT_DIR$/运维自动化/MadKing/temps/__init__.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/__init__.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/MadKingClient/plugins/windows/sysinfo.py" />
+        <option value="$PROJECT_DIR$/运维自动化/MadKing/__init__.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="706" />
-    <option name="y" value="-4" />
-    <option name="width" value="1294" />
+    <option name="x" value="461" />
+    <option name="y" value="-5" />
+    <option name="width" value="1464" />
     <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -353,7 +348,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -383,7 +378,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.auto_xiaohudie">
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/运维自动化/MadKing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/运维自动化/MadKing/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -391,7 +405,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Python36\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -399,8 +413,8 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
@@ -453,9 +467,11 @@
     <list>
       <item itemvalue="Python.auto_xiaohudie" />
       <item itemvalue="Python.wanjie" />
+      <item itemvalue="Python.__init__" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.auto_xiaohudie" />
         <item itemvalue="Python.wanjie" />
       </list>
@@ -583,14 +599,7 @@
       <workItem from="1557148684449" duration="380000" />
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
-      <workItem from="1557356921757" duration="2267000" />
-    </task>
-    <task id="LOCAL-00362" summary="wanjie">
-      <created>1556362279836</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362279836</updated>
+      <workItem from="1557356921757" duration="3629000" />
     </task>
     <task id="LOCAL-00363" summary="wanjie">
       <created>1556362305496</created>
@@ -928,7 +937,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557360199508</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <task id="LOCAL-00411" summary="MadKing">
+      <created>1557360438263</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1557360438263</updated>
+    </task>
+    <option name="localTasksCounter" value="412" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -964,7 +980,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232925000" />
+    <option name="totallyTimeSpent" value="234287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -976,10 +992,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="626" y="-6" width="1294" height="1052" extended-state="0" />
+    <frame x="461" y="-5" width="1464" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17828201" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17806268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -993,7 +1009,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51670146" side_tool="true" weight="0.46868008" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49072754" weight="0.3121319" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49072754" weight="0.31208053" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48329854" weight="0.4691502" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32962137" />
@@ -1467,9 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/temps/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1571,10 +1584,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="443" column="77" selection-start-line="443" selection-start-column="24" selection-end-line="443" selection-end-column="77" />
+        <state relative-caret-position="375">
+          <caret line="463" column="109" selection-start-line="463" selection-start-column="109" selection-end-line="463" selection-end-column="109" />
           <folding>
             <element signature="e#212#786#0" />
             <element signature="e#378#616#0" />
@@ -1653,12 +1669,7 @@
             <element signature="e#17786#17839#0" />
             <element signature="e#17887#18262#0" />
             <element signature="e#18003#18190#0" />
-            <element signature="e#18841#23708#0" />
-            <element signature="e#19459#20493#0" />
-            <element signature="e#19626#20122#0" />
-            <element signature="e#19864#20122#0" />
-            <element signature="e#20239#20493#0" />
-            <element signature="e#20638#21178#0" />
+            <element signature="e#21102#22912#0" />
             <element signature="e#21753#22330#0" />
             <element signature="e#22447#22701#0" />
             <element signature="e#22846#23080#0" />
