@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r410/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r410/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r710/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r710/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r720/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/dell_r720/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/hp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/temps/hardware_info/hp/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,21 +381,7 @@
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
       <workItem from="1557356921757" duration="5237000" />
-      <workItem from="1557363682239" duration="2855000" />
-    </task>
-    <task id="LOCAL-00377" summary="wanjie">
-      <created>1556362661421</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362661421</updated>
-    </task>
-    <task id="LOCAL-00378" summary="wanjie">
-      <created>1556362677951</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362677951</updated>
+      <workItem from="1557363682239" duration="3000000" />
     </task>
     <task id="LOCAL-00379" summary="wanjie">
       <created>1556362692935</created>
@@ -731,7 +712,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557371110155</updated>
     </task>
-    <option name="localTasksCounter" value="426" />
+    <task id="LOCAL-00426" summary="MadKing">
+      <created>1557371162721</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371162721</updated>
+    </task>
+    <task id="LOCAL-00427" summary="MadKing">
+      <created>1557371254624</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
+      <option name="project" value="LOCAL" />
+      <updated>1557371254625</updated>
+    </task>
+    <option name="localTasksCounter" value="428" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -767,7 +762,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238750000" />
+    <option name="totallyTimeSpent" value="238895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,7 +775,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="661" y="113" width="1094" height="722" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24468085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
