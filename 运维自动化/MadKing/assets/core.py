@@ -432,12 +432,13 @@ class Asset(object):
             self.__create_cpu_component(ignore_errs=True)
 
     def __update_asset_component(self, data_source, fk, update_fields, identify_field=None):
-        '''
-        data_source: the data source of this component from reporting data
-        fk: which key to use to find the connection between main Asset obj and each asset component
-        update_fields: what fields in DB will be compared and updated
-        identify_field: use this field to identify each component of an Asset , if set to None,means only use asset id to identify
-         '''
+        """
+        :param data_source: 从客户端提交的数据
+        :param fk: 由资产记录根据fk ---> 真正存放设备信息的记录
+        :param update_fields: 哪些字段需要比较
+        :param identify_field: 使用此字段标识资产的每个组件，如果设置为None，则意味着仅使用资产id进行标识
+        :return:
+        """
         print(data_source, update_fields, identify_field)
         try:
             component_obj = getattr(self.asset_obj, fk)

@@ -66,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="429" column="92" selection-start-line="429" selection-start-column="92" selection-end-line="429" selection-end-column="92" />
+            <state relative-caret-position="330">
+              <caret line="443" column="77" selection-start-line="443" selection-start-column="24" selection-end-line="443" selection-end-column="77" />
               <folding>
                 <element signature="e#212#786#0" />
                 <element signature="e#378#616#0" />
@@ -116,8 +116,8 @@
                 <element signature="e#8754#8925#0" />
                 <element signature="e#8754#8822#1" />
                 <element signature="e#9234#9333#0" />
-                <element signature="e#9549#9640#0" />
                 <element signature="e#10106#10563#0" />
+                <element signature="e#10628#11618#0" />
                 <element signature="e#11693#12421#0" />
                 <element signature="e#11710#12288#0" />
                 <element signature="e#11854#12288#0" />
@@ -149,7 +149,6 @@
                 <element signature="e#17786#17839#0" />
                 <element signature="e#17887#18262#0" />
                 <element signature="e#18003#18190#0" />
-                <element signature="e#18365#23790#0" />
                 <element signature="e#18841#23708#0" />
                 <element signature="e#19459#20493#0" />
                 <element signature="e#19626#20122#0" />
@@ -192,23 +191,6 @@
                 <element signature="e#31453#31542#0" />
                 <element signature="e#31701#31765#0" />
                 <element signature="e#31733#31765#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-              <folding>
-                <element signature="e#122#2688#0" />
-                <element signature="e#153#539#0" />
-                <element signature="e#2723#4795#0" />
-                <element signature="e#4838#5207#0" />
-                <element signature="e#5249#6272#0" />
-                <element signature="e#6309#7563#0" />
               </folding>
             </state>
           </provider>
@@ -313,9 +295,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="785" />
-    <option name="y" value="-8" />
-    <option name="width" value="1141" />
+    <option name="x" value="706" />
+    <option name="y" value="-4" />
+    <option name="width" value="1294" />
     <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -601,21 +583,7 @@
       <workItem from="1557148684449" duration="380000" />
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
-      <workItem from="1557356921757" duration="1657000" />
-    </task>
-    <task id="LOCAL-00360" summary="wanjie">
-      <created>1556362230459</created>
-      <option name="number" value="00360" />
-      <option name="presentableId" value="LOCAL-00360" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362230459</updated>
-    </task>
-    <task id="LOCAL-00361" summary="wanjie">
-      <created>1556362255572</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362255572</updated>
+      <workItem from="1557356921757" duration="2267000" />
     </task>
     <task id="LOCAL-00362" summary="wanjie">
       <created>1556362279836</created>
@@ -946,7 +914,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557325260092</updated>
     </task>
-    <option name="localTasksCounter" value="409" />
+    <task id="LOCAL-00409" summary="MadKing">
+      <created>1557359805611</created>
+      <option name="number" value="00409" />
+      <option name="presentableId" value="LOCAL-00409" />
+      <option name="project" value="LOCAL" />
+      <updated>1557359805612</updated>
+    </task>
+    <task id="LOCAL-00410" summary="MadKing">
+      <created>1557360199508</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1557360199508</updated>
+    </task>
+    <option name="localTasksCounter" value="411" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -982,7 +964,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232315000" />
+    <option name="totallyTimeSpent" value="232925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -994,10 +976,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="669" y="-8" width="1257" height="1052" extended-state="0" />
+    <frame x="626" y="-6" width="1294" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18379281" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17828201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1574,10 +1556,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="194" column="37" lean-forward="true" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
+          <folding>
+            <element signature="e#122#2688#0" />
+            <element signature="e#153#539#0" />
+            <element signature="e#2723#4795#0" />
+            <element signature="e#4838#5207#0" />
+            <element signature="e#5249#6272#0" />
+            <element signature="e#6309#7563#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="429" column="92" selection-start-line="429" selection-start-column="92" selection-end-line="429" selection-end-column="92" />
+        <state relative-caret-position="330">
+          <caret line="443" column="77" selection-start-line="443" selection-start-column="24" selection-end-line="443" selection-end-column="77" />
           <folding>
             <element signature="e#212#786#0" />
             <element signature="e#378#616#0" />
@@ -1623,8 +1620,8 @@
             <element signature="e#8754#8925#0" />
             <element signature="e#8754#8822#1" />
             <element signature="e#9234#9333#0" />
-            <element signature="e#9549#9640#0" />
             <element signature="e#10106#10563#0" />
+            <element signature="e#10628#11618#0" />
             <element signature="e#11693#12421#0" />
             <element signature="e#11710#12288#0" />
             <element signature="e#11854#12288#0" />
@@ -1656,7 +1653,6 @@
             <element signature="e#17786#17839#0" />
             <element signature="e#17887#18262#0" />
             <element signature="e#18003#18190#0" />
-            <element signature="e#18365#23790#0" />
             <element signature="e#18841#23708#0" />
             <element signature="e#19459#20493#0" />
             <element signature="e#19626#20122#0" />
@@ -1699,21 +1695,6 @@
             <element signature="e#31453#31542#0" />
             <element signature="e#31701#31765#0" />
             <element signature="e#31733#31765#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding>
-            <element signature="e#122#2688#0" />
-            <element signature="e#153#539#0" />
-            <element signature="e#2723#4795#0" />
-            <element signature="e#4838#5207#0" />
-            <element signature="e#5249#6272#0" />
-            <element signature="e#6309#7563#0" />
           </folding>
         </state>
       </provider>
