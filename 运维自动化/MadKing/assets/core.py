@@ -231,16 +231,14 @@ class Asset(object):
         self.__update_asset_component(
             data_source=self.clean_data['nic'],
             fk='nic_set',
-            update_fields=['name', 'sn', 'model', 'macaddress', 'ipaddress', 'netmask',
-                           'bonding'],
+            update_fields=['name', 'sn', 'model', 'macaddress', 'ipaddress', 'netmask', 'bonding'],
             identify_field='macaddress'
         )
         # disk
         self.__update_asset_component(
             data_source=self.clean_data['physical_disk_driver'],
             fk='disk_set',
-            update_fields=['slot', 'sn', 'model', 'manufactory', 'capacity',
-                           'iface_type'],
+            update_fields=['slot', 'sn', 'model', 'manufactory', 'capacity', 'iface_type'],
             identify_field='slot'
         )
         # ram
@@ -452,11 +450,12 @@ class Asset(object):
 
                             key_field_data_from_source_data = source_data_item.get(identify_field)
                             # 客户端数据是否有该设备所必须拥有的唯一标识
-                            if key_field_data_from_source_data:
+                            if key_field_data_from_source_data:  # 匹配了对应网卡
                                 if key_field_data == key_field_data_from_source_data:
                                     # 客户端的数据与数据库的数据匹配上（根据数据表唯一标识），进行下一步更新
                                     self.__compare_component(model_obj=obj, fields_from_db=update_fields,
                                                              data_source=source_data_item)
+                                    print('-------------matched', key_field_data, key_field_data_from_source_data)
                                     break
                             else:
                                 self.response_msg('warning', 'AssetUpdateWarning',
@@ -585,55 +584,59 @@ class Asset(object):
             i.delete()
 
     def __compare_component(self, model_obj, fields_from_db, data_source):
+        """
+        :param model_obj: 组件对象
+        :param fields_from_db: 需要匹配的字段
+        :param data_source: 客户端数据
+        :return:
+        """
         print('---going to compare:[%s]' % model_obj, fields_from_db)
         print('---source data:', data_source)
         for field in fields_from_db:
             val_from_db = getattr(model_obj, field)
             val_from_data_source = data_source.get(field)
             if val_from_data_source:
-                # if type(val_from_db) is unicode:val_from_data_source = unicode(val_from_data_source)#no unicode in py3
-                # if type(val_from_db) in (int,long):val_from_data_source = int(val_from_data_source) #no long in py3
-                if type(val_from_db) in (int,):
+                if type(val_from_db) is int:
                     val_from_data_source = int(val_from_data_source)
                 elif type(val_from_db) is float:
                     val_from_data_source = float(val_from_data_source)
                 elif type(val_from_db) is str:
                     val_from_data_source = str(val_from_data_source).strip()
-                if val_from_db == val_from_data_source:  # this field haven't changed since last update
+
+                if val_from_db == val_from_data_source:  # not change
                     pass
-                    # print '\033[32;1m val_from_db[%s]  == val_from_data_source[%s]\033[0m' %(val_from_db,val_from_data_source)
                 else:
                     print('\033[34;1m val_from_db[%s]  != val_from_data_source[%s]\033[0m' % (
                         val_from_db, val_from_data_source), type(val_from_db), type(val_from_data_source), field)
-                    db_field = model_obj._meta.get_field(field)
-                    db_field.save_form_data(model_obj, val_from_data_source)
+
+                    setattr(model_obj, field, val_from_data_source)
                     model_obj.update_date = timezone.now()
-                    model_obj.save()
-                    log_msg = "Asset[%s] --> component[%s] --> field[%s] has changed from [%s] to [%s]" % (
-                        self.asset_obj, model_obj, field, val_from_db, val_from_data_source)
+                    log_msg = "资产[%s] --> 组件[%s] --> 字段[%s] 由 [%s] 更改为 [%s]" % (
+                        self.asset_obj, model_obj, field, val_from_db, val_from_data_source
+                    )
                     self.response_msg('info', 'FieldChanged', log_msg)
                     log_handler(self.asset_obj, 'FieldChanged', self.request.user, log_msg, model_obj)
             else:
-                self.response_msg('warning', 'AssetUpdateWarning',
-                                  "Asset component [%s]'s field [%s] is not provided in reporting data " % (
-                                      model_obj, field))
+                self.response_msg('warning', 'AssetUpdateWarning', "组件 [%s]'的字段 [%s] 没有上报" % (model_obj, field))
 
         model_obj.save()
 
 
 def log_handler(asset_obj, event_name, user, detail, component=None):
-    '''    (1,u'硬件变更'),
+    """
+        (1,u'硬件变更'),
         (2,u'新增配件'),
         (3,u'设备下线'),
-        (4,u'设备上线'),'''
-    log_catelog = {
+        (4,u'设备上线'),
+    """
+    log_category = {
         1: ['FieldChanged', 'HardwareChanges'],
         2: ['NewComponentAdded'],
     }
     if not user.id:
         user = models.UserProfile.objects.filter(is_admin=True).last()
     event_type = None
-    for k, v in log_catelog.items():
+    for k, v in log_category.items():
         if event_name in v:
             event_type = k
             break

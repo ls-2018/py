@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/MadKing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/jsLinters/jshint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,137 +75,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="337" column="72" selection-start-line="337" selection-start-column="72" selection-end-line="337" selection-end-column="72" />
-              <folding>
-                <element signature="e#212#786#0" />
-                <element signature="e#378#616#0" />
-                <element signature="e#440#573#0" />
-                <element signature="e#641#727#0" />
-                <element signature="e#844#971#0" />
-                <element signature="e#1039#2238#0" />
-                <element signature="e#1039#1156#1" />
-                <element signature="e#1213#1449#0" />
-                <element signature="e#1251#1449#0" />
-                <element signature="e#1476#1613#0" />
-                <element signature="e#1476#1487#0" />
-                <element signature="e#1639#1900#0" />
-                <element signature="e#1953#2217#0" />
-                <element signature="e#2282#3404#0" />
-                <element signature="e#2282#2317#1" />
-                <element signature="e#2398#3217#0" />
-                <element signature="e#2419#3069#0" />
-                <element signature="e#2530#2605#0" />
-                <element signature="e#2648#3069#0" />
-                <element signature="e#2710#2994#0" />
-                <element signature="e#2721#2844#0" />
-                <element signature="e#3122#3217#0" />
-                <element signature="e#3245#3380#0" />
-                <element signature="e#3461#4826#0" />
-                <element signature="e#3461#3502#1" />
-                <element signature="e#4865#5374#0" />
-                <element signature="e#4937#5249#0" />
-                <element signature="e#4958#5142#0" />
-                <element signature="e#5414#5606#0" />
-                <element signature="e#5414#5472#1" />
-                <element signature="e#5643#5690#1" />
-                <element signature="e#6082#6852#0" />
-                <element signature="e#6082#6155#1" />
-                <element signature="e#6236#6727#0" />
-                <element signature="e#6257#6620#0" />
-                <element signature="e#6923#7968#0" />
-                <element signature="e#6923#7890#1" />
-                <element signature="e#8055#8716#0" />
-                <element signature="e#8137#8473#0" />
-                <element signature="e#8253#8473#0" />
-                <element signature="e#8518#8716#0" />
-                <element signature="e#8754#8925#0" />
-                <element signature="e#8754#8822#1" />
-                <element signature="e#9234#9333#0" />
-                <element signature="e#10106#10563#0" />
-                <element signature="e#10628#11618#0" />
-                <element signature="e#11693#12421#0" />
-                <element signature="e#11710#12288#0" />
-                <element signature="e#11854#12288#0" />
-                <element signature="e#12121#12201#0" />
-                <element signature="e#12488#13487#0" />
-                <element signature="e#12505#13362#0" />
-                <element signature="e#12782#13362#0" />
-                <element signature="e#12793#13074#0" />
-                <element signature="e#14121#14593#0" />
-                <element signature="e#14992#16212#0" />
-                <element signature="e#15063#16095#0" />
-                <element signature="e#15105#16095#0" />
-                <element signature="e#15130#15953#0" />
-                <element signature="e#15259#15953#0" />
-                <element signature="e#15340#15864#0" />
-                <element signature="e#16260#17278#0" />
-                <element signature="e#16331#17161#0" />
-                <element signature="e#16373#17161#0" />
-                <element signature="e#16398#17019#0" />
-                <element signature="e#16525#17019#0" />
-                <element signature="e#16606#16930#0" />
-                <element signature="e#17329#17730#0" />
-                <element signature="e#17470#17660#0" />
-                <element signature="e#17786#17839#0" />
-                <element signature="e#17887#18262#0" />
-                <element signature="e#18003#18190#0" />
-                <element signature="e#21102#22912#0" />
-                <element signature="e#21753#22330#0" />
-                <element signature="e#22447#22701#0" />
-                <element signature="e#22846#23080#0" />
-                <element signature="e#23909#25806#0" />
-                <element signature="e#24270#24364#0" />
-                <element signature="e#24431#24732#0" />
-                <element signature="e#24485#24732#0" />
-                <element signature="e#25626#25806#0" />
-                <element signature="e#25906#28089#0" />
-                <element signature="e#26089#26257#0" />
-                <element signature="e#26133#26257#0" />
-                <element signature="e#26190#26257#0" />
-                <element signature="e#26327#27032#0" />
-                <element signature="e#26382#27032#0" />
-                <element signature="e#26517#26651#0" />
-                <element signature="e#26578#26651#0" />
-                <element signature="e#26784#27032#0" />
-                <element signature="e#26826#27032#0" />
-                <element signature="e#27089#27825#0" />
-                <element signature="e#27145#27825#0" />
-                <element signature="e#27870#28089#0" />
-                <element signature="e#28179#28918#0" />
-                <element signature="e#28386#28501#0" />
-                <element signature="e#28551#28918#0" />
-                <element signature="e#29003#31272#0" />
-                <element signature="e#29160#31246#0" />
-                <element signature="e#29311#30995#0" />
-                <element signature="e#29311#29415#0" />
-                <element signature="e#30019#30152#0" />
-                <element signature="e#30195#30995#0" />
-                <element signature="e#31030#31246#0" />
-                <element signature="e#31349#31985#0" />
-                <element signature="e#31349#31434#1" />
-                <element signature="e#31453#31542#0" />
-                <element signature="e#31701#31765#0" />
-                <element signature="e#31733#31765#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKing/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -298,10 +176,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="461" />
-    <option name="y" value="-5" />
-    <option name="width" value="1464" />
-    <option name="height" value="1052" />
+    <option name="x" value="743" />
+    <option name="y" value="422" />
+    <option name="width" value="593" />
+    <option name="height" value="512" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -532,7 +410,8 @@
       <workItem from="1557148684449" duration="380000" />
       <workItem from="1557300483408" duration="1589000" />
       <workItem from="1557319903160" duration="5760000" />
-      <workItem from="1557356921757" duration="4995000" />
+      <workItem from="1557356921757" duration="5237000" />
+      <workItem from="1557363682239" duration="596000" />
     </task>
     <task id="LOCAL-00365" summary="wanjie">
       <created>1556362347032</created>
@@ -913,7 +792,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235653000" />
+    <option name="totallyTimeSpent" value="236491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -928,16 +807,16 @@
     <frame x="461" y="-5" width="1464" height="1052" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17806268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18019943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7104137" weight="0.42756185" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38515902" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38478747" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3280899" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3277405" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -1012,233 +891,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>158</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>159</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>163</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/滑动验证.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../x/123.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>337</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>338</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>339</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>340</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>341</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>357</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>356</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>343</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>353</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>354</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>336</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py</url>
-          <line>335</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -1248,7 +907,6 @@
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/机器学习/样本不均衡解决方案/creditcard.csv" />
     <entry file="file://$PROJECT_DIR$/Mongo/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1432,16 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKing/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -1580,10 +1228,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/MadKing/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="337" column="72" selection-start-line="337" selection-start-column="72" selection-end-line="337" selection-end-column="72" />
+        <state relative-caret-position="359">
+          <caret line="353" column="53" lean-forward="true" selection-start-line="353" selection-start-column="53" selection-end-line="353" selection-end-column="53" />
           <folding>
             <element signature="e#212#786#0" />
             <element signature="e#378#616#0" />
