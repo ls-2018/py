@@ -2,7 +2,6 @@
 
 from core import info_collection
 from conf import settings
-import urllib
 import sys
 import os
 import json
