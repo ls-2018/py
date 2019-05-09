@@ -49,7 +49,7 @@
         <tbody>
             {% for row in table_obj.query_sets %}
                 <tr>
-                    {% build_table_row  row table_obj 'id'  'asset_detail'  %}
+                    {% build_table_row  row table_obj 'id'  'asset:asset_detail'  %}
                 </tr>
             {% endfor %}
 

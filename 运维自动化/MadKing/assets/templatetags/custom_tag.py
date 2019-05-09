@@ -58,13 +58,14 @@ def build_table_row(row_obj, table_obj, onclick_column=None, target_link=None):
     print('--->onclick', onclick_column, )
     row_ele = "<tr>"
     for index, column_name in enumerate(table_obj.list_display):
-        try:
-            column_data = row_obj._meta.get_field(column_name)._get_val_from_obj(row_obj)
-        except Exception as e:
-            if hasattr(row_obj, column_name):
-                column_data = getattr(row_obj, column_name)()
-            else:
-                raise ValueError
+        # try:
+        #     column_data = row_obj._meta.get_field(column_name)._get_val_from_obj(row_obj)
+        # except Exception :
+        #     if hasattr(row_obj, column_name):
+        #         column_data = getattr(row_obj, column_name)()
+        #     else:
+        #         raise ValueError
+        column_data = getattr(row_obj, column_name, '---')
 
         if column_name in table_obj.choice_fields:
             column_data = getattr(row_obj, 'get_%s_display' % column_name)()
@@ -87,10 +88,11 @@ def build_table_row(row_obj, table_obj, onclick_column=None, target_link=None):
                 print("-->type", type(dy_fk_obj), dy_fk_obj)
                 for index, column_name in enumerate(table_obj.dynamic_list_display):
                     if hasattr(dy_fk_obj, column_name):
-                        if column_name in table_obj.dynamic_choice_fields:
-                            column_data = getattr(dy_fk_obj, 'get_%s_display' % column_name)()
-                        else:
-                            column_data = dy_fk_obj._meta.get_field(column_name)._get_val_from_obj(dy_fk_obj)
+                        # if column_name in table_obj.dynamic_choice_fields:
+                        #     column_data = getattr(dy_fk_obj, 'get_%s_display' % column_name)()
+                        # else:
+                        #     column_data = dy_fk_obj._meta.get_field(column_name)._get_val_from_obj(dy_fk_obj)
+                        column_data = getattr(row_obj, column_name, '+')
                         print("dynamic column data", column_data)
 
                         column = "<td>%s</td>" % column_data
