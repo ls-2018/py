@@ -13,7 +13,6 @@ try:
     import termios
     import tty
     import time
-
     has_termios = True
 except ImportError:
     has_termios = False
@@ -41,10 +40,8 @@ def posix_shell(chan, self, host_ip, username, host_ins):
         tab_input_flag = False
         while True:
             r, w, e = select.select([chan, sys.stdin], [], [])
-
             if chan in r:
                 try:
-
                     x = u(chan.recv(1024))
                     if tab_input_flag:
                         cmd += ''.join(x[:10])
@@ -53,10 +50,8 @@ def posix_shell(chan, self, host_ip, username, host_ins):
                         sys.stdout.write('\r\n\033[32;1m*** Session Closed ***\033[0m\r\n')
                         self.flush_cmd_input('*** Session Closed ***', host_ins, 2)
                         break
-
                     sys.stdout.write(x)
                     sys.stdout.flush()
-
                 except socket.timeout:
                     pass
                 except UnicodeDecodeError as e:
@@ -73,11 +68,9 @@ def posix_shell(chan, self, host_ip, username, host_ins):
                     if cmd in unsupport_cmd_list:
                         x = "...Operation is not supported!\r\n"
                     cmd = ''
-
                 if x == '\t':
                     tab_input_flag = True
                 chan.send(x)
-
         # f.close()
     finally:
         termios.tcsetattr(sys.stdin, termios.TCSADRAIN, oldtty)
@@ -86,9 +79,7 @@ def posix_shell(chan, self, host_ip, username, host_ins):
 # thanks to Mike Looijmans for this code
 def windows_shell(chan):
     import threading
-
     sys.stdout.write("Line-buffered terminal emulation. Press F6 or ^Z to send EOF.\r\n\r\n")
-
     def writeall(sock):
         while True:
             data = sock.recv(256)
@@ -98,10 +89,8 @@ def windows_shell(chan):
                 break
             sys.stdout.write(data)
             sys.stdout.flush()
-
     writer = threading.Thread(target=writeall, args=(chan,))
     writer.start()
-
     try:
         while True:
             d = sys.stdin.read(1)
