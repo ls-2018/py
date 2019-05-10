@@ -1,12 +1,13 @@
-#Author: Alex Li
-import sys,os
+# Author: Alex Li
+import sys, os
 
 basedir = '/'.join(__file__.split("/")[:-2])
 sys.path.append(basedir)
 
-sys.path.append('%s/CrazyEye' %basedir)
-os.environ['DJANGO_SETTINGS_MODULE'] ='CrazyEye.settings'
+sys.path.append('%s/CrazyEye' % basedir)
+os.environ['DJANGO_SETTINGS_MODULE'] = 'CrazyEye.settings'
 import django
+
 django.setup()
 
 '''#for windows platform only
@@ -17,6 +18,5 @@ sys.path.append(base_dir)
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "auto_cmdb.settings")
 '''
 
-#from web import models
-#print models.Hosts.objects.all()
-
+# from web import models
+# print models.Hosts.objects.all()
