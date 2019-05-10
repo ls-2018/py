@@ -1,5 +1,4 @@
 # _*_coding:utf-8_*_
-__author__ = 'jieli'
 import sys
 
 from backend import ssh_interactive
@@ -79,7 +78,7 @@ class Features(object):
                     self.user_id = token_list[0].user.id
 
                     print_msg("--- logging host[%s@%s(%s)], be patient,it may takes a minute --- " % (
-                    bind_host_obj.host_user.username, bind_host_obj.host.hostname, bind_host_obj.host.ip_addr),
+                        bind_host_obj.host_user.username, bind_host_obj.host.hostname, bind_host_obj.host.ip_addr),
                               'normal')
                     try:
                         # ssh_interactive.login(self,bind_host_obj)
@@ -151,7 +150,7 @@ class Features(object):
                             hosts = host_groups[user_choice].bind_hosts.select_related()
                             for index, h in enumerate(hosts):
                                 print("  %s.\t%s(%s)  %s" % (
-                                index, h.host.hostname, h.host.ip_addr, h.host_user.username))
+                                    index, h.host.hostname, h.host.ip_addr, h.host_user.username))
                             user_choice2 = input("\033[32;1m['b'(back)]>>>:\033[0m").strip()
 
                             if user_choice2.isdigit():
@@ -159,7 +158,7 @@ class Features(object):
                                 if user_choice2 < len(hosts):
                                     h = hosts[user_choice2]
                                     print('\033[32;1m-----connecting [%s] with user [%s]-----\033[0m' % (
-                                    h.host.ip_addr, h.host_user.username))
+                                        h.host.ip_addr, h.host_user.username))
                                     try:
                                         ssh_interactive.login_raw(self, h)
                                     except Exception as e:
@@ -185,7 +184,7 @@ class Features(object):
                             if user_choice2 < len(hosts):
                                 h = hosts[user_choice2]
                                 print('\033[32;1m-----connecting [%s] with user [%s]-----\033[0m' % (
-                                h.host.ip_addr, h.host_user.username))
+                                    h.host.ip_addr, h.host_user.username))
                                 try:
                                     ssh_interactive.login_raw(self, h)
                                 except Exception as e:
