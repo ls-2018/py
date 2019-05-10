@@ -1,9 +1,11 @@
 # _*_coding:utf-8_*_
-
+"""
+修改原生的用户管理
+"""
 
 from django.db import models
 from django.contrib.auth.models import (
-    BaseUserManager, AbstractBaseUser,User, Group, PermissionsMixin
+    BaseUserManager, AbstractBaseUser, User, Group, PermissionsMixin
 )
 import django
 
@@ -74,7 +76,8 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     groups = models.ManyToManyField
 
     USERNAME_FIELD = 'email'
-    # REQUIRED_FIELDS = ['name','token','department','tel','mobile','memo']
+    # REQUIRED_FIELDS = ['name', 'token', 'department', 'tel', 'mobile', 'memo']
+
     REQUIRED_FIELDS = ['name']
 
     def get_full_name(self):
