@@ -60,7 +60,7 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
 
-    name = models.CharField(max_length=32)
+    name = models.CharField(max_length=32,)
     token = models.CharField(u'token', max_length=128, default=None, blank=True, null=True)
     department = models.CharField(u'部门', max_length=32, default=None, blank=True, null=True)
     # business_unit = models.ManyToManyField(BusinessUnit)
