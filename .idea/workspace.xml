@@ -38,8 +38,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="835" />
-    <option name="y" value="44" />
+    <option name="x" value="760" />
+    <option name="y" value="50" />
     <option name="width" value="1094" />
     <option name="height" value="1001" />
   </component>
@@ -113,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557465127259</updated>
       <workItem from="1557465133731" duration="616000" />
-      <workItem from="1557485680596" duration="5046000" />
+      <workItem from="1557485680596" duration="6862000" />
     </task>
     <task id="LOCAL-00001" summary="CrazyEye">
       <created>1557465731661</created>
@@ -143,16 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1557490441952</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更改ssh 使其唯一标识">
+      <created>1557492489919</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557492489919</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5662000" />
+    <option name="totallyTimeSpent" value="7478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="835" y="44" width="1094" height="1001" extended-state="0" />
+    <frame x="760" y="50" width="1094" height="1001" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24661508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24661508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -165,8 +172,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50096714" side_tool="true" weight="0.32977462" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49903288" weight="0.32977462" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -180,7 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CrazyEye" />
-    <option name="LAST_COMMIT_MESSAGE" value="CrazyEye" />
+    <MESSAGE value="更改ssh 使其唯一标识" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改ssh 使其唯一标识" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/tmp/ssh_log2">
