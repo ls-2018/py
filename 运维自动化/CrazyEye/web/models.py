@@ -38,7 +38,7 @@ class Hosts(models.Model):
         ('windows', 'Windows'),
         ('linux', 'Linux/Unix')
     )
-    idc = models.ForeignKey('IDC')
+    idc = models.ForeignKey('IDC', on_delete=models.CASCADE)
     system_type = models.CharField(choices=system_type_choices, max_length=32, default='linux')
     port = models.IntegerField(default=22)
     enabled = models.BooleanField(default=True, help_text='主机若不想被用户访问可以去掉此选项')
@@ -73,8 +73,8 @@ class HostUsers(models.Model):
 
 
 class BindHosts(models.Model):
-    host = models.ForeignKey('Hosts')
-    host_user = models.ForeignKey('HostUsers', verbose_name="远程用户")
+    host = models.ForeignKey('Hosts', on_delete=models.CASCADE)
+    host_user = models.ForeignKey('HostUsers', verbose_name="远程用户", on_delete=models.CASCADE)
 
     enabled = models.BooleanField(default=True)
 
@@ -119,7 +119,7 @@ class UserProfile(auth.AbstractBaseUser, auth.PermissionsMixin):
     )
     name = models.CharField(max_length=32)
     # token = models.CharField('token', max_length=128,default=None,blank=True,null=True)
-    department = models.ForeignKey('Department', verbose_name='部门', blank=True, null=True)
+    department = models.ForeignKey('Department', verbose_name='部门', blank=True, null=True, on_delete=models.CASCADE)
     host_groups = models.ManyToManyField('HostGroups', verbose_name='授权主机组', blank=True)
     bind_hosts = models.ManyToManyField('BindHosts', verbose_name='授权主机', blank=True)
 
@@ -221,8 +221,8 @@ class SessionTrack(models.Model):  # 没用了的表
 
 class Session(models.Model):
     '''生成用户操作session id '''
-    user = models.ForeignKey('UserProfile')
-    bind_host = models.ForeignKey('BindHosts')
+    user = models.ForeignKey('UserProfile', on_delete=models.CASCADE)
+    bind_host = models.ForeignKey('BindHosts', on_delete=models.CASCADE)
     tag = models.CharField(max_length=128, default='n/a')
     closed = models.BooleanField(default=False)
     cmd_count = models.IntegerField(default=0)  # 命令执行数量
@@ -239,9 +239,9 @@ class Session(models.Model):
 
 # Deprecated
 class AuditLog(models.Model):
-    session = models.ForeignKey(SessionTrack)
-    user = models.ForeignKey('UserProfile')
-    host = models.ForeignKey('BindHosts')
+    session = models.ForeignKey(SessionTrack, on_delete=models.CASCADE)
+    user = models.ForeignKey('UserProfile', on_delete=models.CASCADE)
+    host = models.ForeignKey('BindHosts', on_delete=models.CASCADE)
     action_choices = (
         (0, 'CMD'),
         (1, 'Login'),
@@ -269,7 +269,7 @@ class TaskLog(models.Model):
     task_type_choices = (('cmd', "CMD"), ('file_send', "批量发送文件"), ('file_get', "批量下载文件"))
     task_type = models.CharField(choices=task_type_choices, max_length=50)
     files_dir = models.CharField("文件上传临时目录", blank=True, null=True, max_length=32)
-    user = models.ForeignKey('UserProfile')
+    user = models.ForeignKey('UserProfile', on_delete=models.CASCADE)
     hosts = models.ManyToManyField('BindHosts')
     cmd = models.TextField()
     expire_time = models.IntegerField(default=30)
@@ -285,8 +285,8 @@ class TaskLog(models.Model):
 
 
 class TaskLogDetail(models.Model):
-    child_of_task = models.ForeignKey('TaskLog')
-    bind_host = models.ForeignKey('BindHosts')
+    child_of_task = models.ForeignKey('TaskLog', on_delete=models.CASCADE)
+    bind_host = models.ForeignKey('BindHosts', on_delete=models.CASCADE)
     date = models.DateTimeField(auto_now_add=True)  # finished date
     event_log = models.TextField()
     result_choices = (('success', 'Success'), ('failed', 'Failed'), ('unknown', 'Unknown'))
@@ -302,8 +302,8 @@ class TaskLogDetail(models.Model):
 
 
 class Token(models.Model):
-    user = models.ForeignKey(UserProfile)
-    host = models.ForeignKey(BindHosts)
+    user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
+    host = models.ForeignKey(BindHosts, on_delete=models.CASCADE)
     token = models.CharField(max_length=64)
     date = models.DateTimeField(default=django.utils.timezone.now)
     expire = models.IntegerField(default=300)
