@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/MadKing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运维自动化/MadKing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/MadKing/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/templatetags/custom_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/templatetags/custom_tag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/assets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/assets/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/templates/assets/asset_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/templates/assets/asset_category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/运维自动化/MadKing/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/MadKing/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,17 +66,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/assets/templatetags/custom_tag.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -440,14 +417,8 @@
       <workItem from="1557381735129" duration="2661000" />
       <workItem from="1557395074833" duration="4000" />
       <workItem from="1557398403754" duration="602000" />
-      <workItem from="1557406386647" duration="1613000" />
-    </task>
-    <task id="LOCAL-00384" summary="wanjie">
-      <created>1556362798603</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1556362798603</updated>
+      <workItem from="1557406386647" duration="2380000" />
+      <workItem from="1557450354965" duration="704000" />
     </task>
     <task id="LOCAL-00385" summary="wanjie">
       <created>1556362817175</created>
@@ -785,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557392458668</updated>
     </task>
-    <option name="localTasksCounter" value="433" />
+    <task id="LOCAL-00433" summary="MadKing">
+      <created>1557410800427</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1557410800430</updated>
+    </task>
+    <option name="localTasksCounter" value="434" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -821,7 +799,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246336000" />
+    <option name="totallyTimeSpent" value="247807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,7 +811,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="729" y="145" width="1094" height="722" extended-state="0" />
+    <frame x="729" y="145" width="1094" height="722" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2746615" />

@@ -54,7 +54,7 @@
         // 第二个参数可以指定前面引入的主题
         $(document).ready(function () {
                 $.getJSON("{% url 'api:get_dashboard_data' %}", function (callback) {
-                    console.log(callback)
+                    console.log(callback);
 
                     DrawCharts(callback);
                 });//end getJSON
@@ -149,7 +149,7 @@
 
                     }
                 ]
-            })
+            });
 
 
             //business load
