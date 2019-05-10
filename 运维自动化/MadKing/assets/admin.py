@@ -98,6 +98,10 @@ class UserProfileAdmin(UserAdmin):
     )
 
 
+# Now register the new UserAdmin...
+admin.site.register(models.UserProfile, UserProfileAdmin)
+
+
 # ###################################################
 
 
@@ -184,8 +188,6 @@ class NewAssetApprovalZoneAdmin(admin.ModelAdmin):
     approve_selected_objects.short_description = "批准入库"
 
 
-# Now register the new UserAdmin...
-admin.site.register(models.UserProfile, UserProfileAdmin)
 # ... and, since we're not using Django's built-in permissions,
 # unregister the Group model from admin.
 # admin.site.unregister(Group)

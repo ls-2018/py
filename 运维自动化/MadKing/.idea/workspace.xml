@@ -14,26 +14,49 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/myauth.py">
+        <entry file="file://$PROJECT_DIR$/assets/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="53" column="17" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="332">
+              <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+              <folding>
+                <element signature="e#344#505#0" />
+                <element signature="e#1300#1530#0" />
+                <element signature="e#1576#2496#0" />
+                <element signature="e#1576#1732#1" />
+                <element signature="e#1844#2108#0" />
+                <element signature="e#2136#2226#0" />
+                <element signature="e#2266#2496#0" />
+                <element signature="e#2266#2331#0" />
+                <element signature="e#2646#2699#0" />
+                <element signature="e#2978#3150#0" />
+                <element signature="e#3135#3192#0" />
+                <element signature="e#3276#3341#0" />
+                <element signature="e#3722#3807#0" />
+                <element signature="e#3852#3932#0" />
+                <element signature="e#3977#4057#0" />
+                <element signature="e#4102#4182#0" />
+                <element signature="e#4228#4309#0" />
+                <element signature="e#4352#5160#0" />
+                <element signature="e#4377#4506#0" />
+                <element signature="e#5201#5321#0" />
+                <element signature="e#5378#5809#0" />
+                <element signature="e#5476#5490#0" />
+                <element signature="e#5676#5715#0" />
+                <element signature="e#5756#5809#0" />
+                <element signature="e#5867#6482#0" />
+                <element signature="e#5883#6086#0" />
+                <element signature="e#6205#6425#0" />
+                <element signature="e#6579#6642#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/admin.py">
+        <entry file="file://$PROJECT_DIR$/assets/myauth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#344#505#0" />
-                <element signature="e#553#1530#0" />
-                <element signature="e#1576#2496#0" />
-                <element signature="e#2538#3674#0" />
-                <element signature="e#5378#5809#0" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -44,9 +67,10 @@
     <findStrings>
       <find>model</find>
       <find>UserAdmin</find>
-      <find>ad</find>
       <find>UserProfile</find>
       <find>UserCreationForm</find>
+      <find>Password</find>
+      <find>ad</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,19 +175,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557461521696</updated>
-      <workItem from="1557461523127" duration="1074000" />
+      <workItem from="1557461523127" duration="1338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1074000" />
+    <option name="totallyTimeSpent" value="1338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="839" y="87" width="1094" height="864" extended-state="0" />
+    <frame x="853" y="112" width="1094" height="864" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19245648" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19245648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -173,7 +197,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26203966" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26203966" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,24 +337,47 @@
     <entry file="file://$PROJECT_DIR$/MadKingClient/bin/NedStark.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/myauth.py">
+    <entry file="file://$PROJECT_DIR$/assets/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="332">
+          <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <folding>
+            <element signature="e#344#505#0" />
+            <element signature="e#1300#1530#0" />
+            <element signature="e#1576#2496#0" />
+            <element signature="e#1576#1732#1" />
+            <element signature="e#1844#2108#0" />
+            <element signature="e#2136#2226#0" />
+            <element signature="e#2266#2496#0" />
+            <element signature="e#2266#2331#0" />
+            <element signature="e#2646#2699#0" />
+            <element signature="e#2978#3150#0" />
+            <element signature="e#3135#3192#0" />
+            <element signature="e#3276#3341#0" />
+            <element signature="e#3722#3807#0" />
+            <element signature="e#3852#3932#0" />
+            <element signature="e#3977#4057#0" />
+            <element signature="e#4102#4182#0" />
+            <element signature="e#4228#4309#0" />
+            <element signature="e#4352#5160#0" />
+            <element signature="e#4377#4506#0" />
+            <element signature="e#5201#5321#0" />
+            <element signature="e#5378#5809#0" />
+            <element signature="e#5476#5490#0" />
+            <element signature="e#5676#5715#0" />
+            <element signature="e#5756#5809#0" />
+            <element signature="e#5867#6482#0" />
+            <element signature="e#5883#6086#0" />
+            <element signature="e#6205#6425#0" />
+            <element signature="e#6579#6642#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/admin.py">
+    <entry file="file://$PROJECT_DIR$/assets/myauth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#344#505#0" />
-            <element signature="e#553#1530#0" />
-            <element signature="e#1576#2496#0" />
-            <element signature="e#2538#3674#0" />
-            <element signature="e#5378#5809#0" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
         </state>
       </provider>
     </entry>
