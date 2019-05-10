@@ -1,0 +1,102 @@
+        <div class="col-sm-7 col-lg-9 pull-right task_res_div">
+            <div class="panel ">
+
+                <div class="pannel-heading">
+                    <div class="panel-control">
+                        <button class="btn btn-default " type="button" data-toggle="collapse" data-target="#demo-chat-body" aria-expanded="true">
+                            <i class="fa fa-chevron-down "></i>
+                        </button>
+                    </div>
+                    <h3 class="panel-title">{% block multi_task_action_title %}批量文件分发{% endblock %}</h3>
+                </div>
+
+                <div class="panel-body">
+                    <!-- Content here -->
+
+
+                    <div class="pad-ver">
+
+                           <select  id="task_type" class="selectpicker">
+                            <option value="file_send">分发文件到客户端</option>
+                            <option value="file_get">从客户端下载文件</option>
+                          </select>
+                            <!--Send button-->
+                          <select name="task_expire_time" class="selectpicker">
+                            <option value="30">任务超时时间(30分钟)</option>
+                            <option value="45">45分钟</option>
+                            <option value="60">60分钟</option>
+                            <option value="90">90分钟</option>
+                            <option value="120">120分钟</option>
+                            <option value="180">180分钟</option>
+                          </select>
+
+                        <!--input id="file_upload" name="filename" type="file" multiple class="file-loading" -->
+                            <!--Send button-->
+                        <div id="file-send-container">
+                        <p>已上传文件列表:</p>
+
+                        <table id="uploaded-list" class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>文件名</th>
+                                <th>大小(kb)</th>
+                                <th>上传时间</th>
+                                <th>删除</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                {% for filename, fileinfo in uploaded_files.files.items %}
+                                    <tr>
+                                        <td>{{ filename }}</td>
+                                        <td>{{ fileinfo.size }}</td>
+                                        <td>{{ fileinfo.ctime }}</td>
+                                        <td ><i style='color:red;cursor: pointer' class='fa fa-times' aria-hidden='true' onclick="DeleteFileOnServer('{{ filename }}',this)"></i></td>
+                                    </tr>
+                                {% endfor %}
+
+                            </tbody>
+                            <tfoot>
+
+                            </tfoot>
+                        </table>
+
+                        <form id="filedropzone" method="post" action="{{ request.path }}" class="dropzone dz-clickable">{% csrf_token %}
+                            <div class="dz-default dz-message">
+                                <div class="dz-icon icon-wrap icon-circle icon-wrap-md">
+                                    <i class="fa fa-cloud-upload fa-3x"></i>
+                                </div>
+                                <div>
+                                    <p class="dz-text">把要传到远程的文件拖到这里</p>
+                                    <p class="text-muted">如果文件数量多,建议上传前请将代码打包成.zip格式</p>
+                                </div>
+                            </div>
+
+                        </form>
+
+
+                        </div>
+
+
+                        <form id="file_form">
+                          <div class="form-group">
+                            <label for="exampleInputName2">远程文件路径</label>
+                            <input type="text" placeholder="必须输入绝对路径，不要包含文件名" class="form-control" name="remote_file_path" id="remote_file_path" >
+                          </div>
+                        </form>
+                            <button id="file-exec-btn" type="button" class="btn btn-success btn-labeled">
+                                <span class="btn-label"><i class="fa fa-bicycle"></i></span> 开始执行
+                            </button>
+                            <!--Save draft button-->
+                            <button  onclick="TerminateTask()"  id="mail-save-btn" type="button" class="btn btn-danger btn-labeled">
+                                <span class="btn-label"><i class="fa fa-stop"></i></span> 停止
+                            </button>
+                            <button id="file-download-to-local" task_id="None" type="button" class="btn btn-info btn-labeled hide">
+                                <span class="btn-label"><i class="fa fa-download"></i></span> 下载文件到我的电脑
+                            </button>
+                    </div>
+                    <br>
+                    {% include 'multi_task_result_display_component.html' %}
+
+                </div>
+            </div> <!--end panel-default-->
+        </div> <!--end col-lg-9-->
