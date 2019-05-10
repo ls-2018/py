@@ -1,7 +1,7 @@
-#_*_coding:utf-8_*_
-__author__ = 'jieli'
+# _*_coding:utf-8_*_
 
 import sys
+
 basedir = '/'.join(__file__.split("/")[:-2])
 sys.path.append(basedir)
 

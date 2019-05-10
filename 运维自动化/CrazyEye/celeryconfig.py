@@ -1,4 +1,4 @@
-#_*_coding:utf-8_*_
+# _*_coding:utf-8_*_
 
 broker_url = 'redis://localhost'
 result_backend = 'redis://localhost'
