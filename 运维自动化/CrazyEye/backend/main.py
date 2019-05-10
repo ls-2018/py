@@ -159,8 +159,8 @@ class Features(object):
                                     print('\033[32;1m-----connecting [%s] with user [%s]-----\033[0m' % (
                                         h.host.ip_addr, h.host_user.username))
                                     try:
+                                        # 子进程前台交互
                                         ssh_interactive.login_raw(self, h)
-                                        # ssh_interactive.login(, h)
                                     except Exception as e:
                                         print("\033[31;1m%s\033[0m" % e)
                                     finally:
