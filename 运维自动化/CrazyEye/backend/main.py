@@ -133,7 +133,7 @@ class Features(object):
 
         while True:
             try:
-
+                # 需要优化，每一次都查询数据库
                 print('z. Ungrouped [%s]' % self.login_user.bind_hosts.select_related().count())
                 for index, h_group in enumerate(host_groups):
                     # host_list = models.BindHosts.objects.filter(host_group__id=h_group.id)
@@ -146,11 +146,10 @@ class Features(object):
                     user_choice = int(user_choice)
                     if user_choice < len(host_groups):
                         while True:
-                            # hosts = models.BindHosts.objects.filter(host_group__id=host_groups[user_choice].id )
                             hosts = host_groups[user_choice].bind_hosts.select_related()
                             for index, h in enumerate(hosts):
                                 print("  %s.\t%s(%s)  %s" % (
-                                    index, h.host.hostname, h.host.ip_addr, h.host_user.username))
+                                index, h.host.hostname, h.host.ip_addr, h.host_user.username))
                             user_choice2 = input("\033[32;1m['b'(back)]>>>:\033[0m").strip()
 
                             if user_choice2.isdigit():
@@ -161,6 +160,7 @@ class Features(object):
                                         h.host.ip_addr, h.host_user.username))
                                     try:
                                         ssh_interactive.login_raw(self, h)
+                                        # ssh_interactive.login(, h)
                                     except Exception as e:
                                         print("\033[31;1m%s\033[0m" % e)
                                     finally:
@@ -195,14 +195,10 @@ class Features(object):
                                 print_msg("No this option!", 'err')
                         elif user_choice2 == 'b':
                             break
-
-
                 elif user_choice == 'exit':
                     print_msg('Bye!', 'warning', exit=True)
             except (KeyboardInterrupt, EOFError):
                 print_msg("input 'exit' to logout!", 'err')
-            except UnicodeEncodeError as e:
-                print_msg("%s, make sure you terminal supports utf8 charset!" % str(e), 'err', exit=True)
 
     def flush_cmd_input(self, log, host, action_type):
         current_time = django.utils.timezone.now()

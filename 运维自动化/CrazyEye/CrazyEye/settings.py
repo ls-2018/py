@@ -1,4 +1,4 @@
-#_*_coding:utf-8_*_
+# _*_coding:utf-8_*_
 """
 Django settings for CrazyEye project.
 
@@ -12,10 +12,10 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os,datetime
+import os, datetime
 import logging
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -28,11 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = (
-    #'suit',
+    # 'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,7 +43,6 @@ INSTALLED_APPS = (
     'session_security',
     'kingadmin',
     'django_celery_beat',
-
 
 )
 
@@ -65,7 +63,7 @@ ROOT_URLCONF = 'CrazyEye.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["%s/%s" %(BASE_DIR,'templates'),],
+        'DIRS': ["%s/%s" % (BASE_DIR, 'templates'), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -73,7 +71,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                #'django.core.context_processors.request',
+                # 'django.core.context_processors.request',
 
             ],
         },
@@ -81,7 +79,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'CrazyEye.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
@@ -105,13 +102,12 @@ DATABASES = {
     }
 }
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
-#TIME_ZONE = 'Asia/Shanghai'
+# TIME_ZONE = 'Asia/Shanghai'
 TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
@@ -120,13 +116,12 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    "%s/%s" %(BASE_DIR, "statics"),
+    "%s/%s" % (BASE_DIR, "statics"),
 ]
 
 AUTH_USER_MODEL = 'web.UserProfile'
@@ -135,34 +130,29 @@ LOGIN_URL = '/login/'
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 MaxTaskProcesses = 4
-MultiTaskScript = '%s/%s'%(BASE_DIR,'backend/multitask.py')
+MultiTaskScript = '%s/%s' % (BASE_DIR, 'backend/multitask.py')
 
-RSA_PRIVATE_KEY_FILE = '%s/%s'%(BASE_DIR,'var/rsa_key/id_rsa')
-
+RSA_PRIVATE_KEY_FILE = '%s/%s' % (BASE_DIR, 'var/rsa_key/id_rsa')
 
 Welcome_msg = '''
 |-------\033[32;1m[Welcome login CrazyEye Auditing System]\033[0m-----|
 |            Version :   1.0                         |
-|            Author  :   Alex Li                     |
+|            Author  :   xxxxxx                    |
 |            QQ Group:   29215534                    |
 |----------------------------------------------------|\n\n'''
 
+FileUploadDir = '%s/uploads' % BASE_DIR
 
-FileUploadDir = '%s/uploads' %BASE_DIR
+MaxUploadFiles = 6  # max files number allowed by one single task
 
-MaxUploadFiles = 6 #max files number allowed by one single task
-
-#WebSSH = ['localhost',4200] #deprecated
+# WebSSH = ['localhost',4200] #deprecated
 
 SHELLINABOX = {
-    'host':'192.168.2.200',
-    'port':4200,
-    'username':'crazy_audit2',
+    'host': '192.168.2.200',
+    'port': 4200,
+    'username': 'crazy_audit2',
     'password': '123'
 }
-
-
-
 
 SSH_CLIENT_PATH = '/usr/local/openssh7/bin/ssh'
 
@@ -171,6 +161,6 @@ SCHEDULE_LOG_DIR = '%s/logs/bernard/plan_logs' % BASE_DIR
 
 LOG_LEVEL = logging.DEBUG
 
-#for celery
+# for celery
 CELERY_BROKER_URL = 'redis://localhost'
 CELERY_RESULT_BACKEND = 'redis://localhost'

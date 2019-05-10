@@ -2,708 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0bf8a1-3964-45f9-82c7-58f453008c3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/.skipped-commit-ids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/CREDITS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ChangeLog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/INSTALL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/LICENCE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/Makefile.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/OVERVIEW" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/PROTOCOL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/PROTOCOL.agent" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/PROTOCOL.certkeys" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/PROTOCOL.chacha20poly1305" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/PROTOCOL.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/PROTOCOL.krl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/PROTOCOL.mux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/README.dns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/README.platform" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/README.privsep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/README.tun" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/TODO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/aclocal.m4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/addrmatch.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/atomicio.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/atomicio.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/audit-bsm.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/audit-linux.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/audit.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/audit.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-bsdauth.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-chall.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-krb5.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-options.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-options.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-pam.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-pam.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-passwd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-rh-rsa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-rhosts.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-rsa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-shadow.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-sia.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-sia.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth-skey.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2-chall.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2-gss.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2-hostbased.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2-kbdint.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2-none.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2-passwd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2-pubkey.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/auth2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/authfd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/authfd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/authfile.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/authfile.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/bitmap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/bitmap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/blocks.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/bufaux.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/bufbn.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/bufec.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/buffer.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/buffer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/buildpkg.sh.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/canohost.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/canohost.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/chacha.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/chacha.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/channels.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/channels.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-3des1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-aes.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-aesctr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-aesctr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-bf1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-chachapoly.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-chachapoly.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher-ctr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cipher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/cleanup.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/clientloop.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/clientloop.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/compat.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/compat.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/config.guess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/config.h.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/config.sub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/configure" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/configure.ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/aix/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/aix/buildbff.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/aix/inventory.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/aix/pam.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/cygwin/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/cygwin/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/cygwin/ssh-host-config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/cygwin/ssh-user-config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/cygwin/sshd-inetd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/findssl.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/gnome-ssh-askpass1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/gnome-ssh-askpass2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/hpux/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/hpux/egd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/hpux/egd.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/hpux/sshd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/hpux/sshd.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/redhat/gnome-ssh-askpass.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/redhat/gnome-ssh-askpass.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/redhat/openssh.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/redhat/sshd.init" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/redhat/sshd.init.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/redhat/sshd.pam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/redhat/sshd.pam.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/solaris/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/ssh-copy-id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/ssh-copy-id.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/sshd.pam.freebsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/sshd.pam.generic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/suse/openssh.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/suse/rc.config.sshd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/suse/rc.sshd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/contrib/suse/sysconfig.ssh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/crc32.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/crc32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/crypto_api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/deattack.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/deattack.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/defines.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/dh.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/dh.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/digest-libc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/digest-openssl.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/digest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/dispatch.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/dispatch.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/dns.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/dns.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ed25519.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/entropy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/entropy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/fatal.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/fe25519.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/fe25519.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/fixalgorithms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/fixpaths" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/fixprogs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ge25519.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ge25519.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ge25519_base.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/groupaccess.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/groupaccess.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/gss-genr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/gss-serv-krb5.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/gss-serv.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/hash.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/hmac.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/hmac.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/hostfile.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/hostfile.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/includes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/install-sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexc25519.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexc25519c.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexc25519s.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexdh.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexdhc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexdhs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexecdh.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexecdhc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexecdhs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexgex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexgexc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/kexgexs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/key.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/key.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/krl.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/krl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/log.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/log.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/loginrec.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/loginrec.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/logintest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/mac.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/mac.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/match.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/match.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/md-sha256.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/md5crypt.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/md5crypt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/mdoc2man.awk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/misc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/misc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/mkinstalldirs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/moduli" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/moduli.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/moduli.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/moduli.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor_fdpass.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor_fdpass.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor_mm.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor_mm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor_wrap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/monitor_wrap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/msg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/msg.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/mux.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/myproposal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/nchan.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/nchan.ms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/nchan2.ms" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/opacket.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/opacket.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/Makefile.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/arc4random.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/base64.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/base64.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/basename.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bcrypt_pbkdf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bindresvport.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/blf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/blowfish.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-asprintf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-closefrom.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-cray.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-cray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-cygwin_util.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-cygwin_util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-err.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-getpeereid.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-misc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-misc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-nextstep.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-nextstep.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-openpty.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-poll.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-poll.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-setres_id.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-setres_id.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-snprintf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-statvfs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-statvfs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-waitpid.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/bsd-waitpid.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/chacha_private.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/charclass.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/daemon.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/dirname.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/explicit_bzero.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/fake-rfc2553.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/fake-rfc2553.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/fmt_scaled.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/getcwd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/getgrouplist.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/getopt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/getopt_long.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/getrrsetbyname-ldns.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/getrrsetbyname.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/getrrsetbyname.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/glob.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/glob.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/inet_aton.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/inet_ntoa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/inet_ntop.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/kludge-fd_set.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/md5.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/md5.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/mktemp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/openbsd-compat.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/openssl-compat.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/openssl-compat.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-aix.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-aix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-irix.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-irix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-linux.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-linux.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-solaris.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-solaris.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-tun.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-tun.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-uw.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/port-uw.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/pwcache.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/readpassphrase.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/readpassphrase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/reallocarray.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/realpath.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/regress/Makefile.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/regress/closefromtest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/regress/opensslvertest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/regress/snprintftest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/regress/strduptest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/regress/strtonumtest.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/rmd160.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/rmd160.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/rresvport.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/setenv.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/setproctitle.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sha1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sha1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sha2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sha2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sigact.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sigact.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strlcat.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strlcpy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strmode.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strnlen.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strptime.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strsep.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strtoll.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strtonum.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strtoul.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/strtoull.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sys-queue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/sys-tree.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/timingsafe_bcmp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/vis.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/vis.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/xcrypt.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openbsd-compat/xmmap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/openssh.xml.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/opensshd.init.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/packet.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/packet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/pathnames.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/pkcs11.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/platform-pledge.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/platform-tracing.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/platform.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/platform.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/poly1305.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/poly1305.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/progressmeter.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/progressmeter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/readconf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/readconf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/readpass.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/README.regress" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/addrmatch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/agent-getpeereid.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/agent-pkcs11.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/agent-ptrace.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/agent-timeout.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/agent.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/banner.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/broken-pipe.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/brokenkeys.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/cert-file.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/cert-hostkey.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/cert-userkey.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/cfginclude.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/cfgmatch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/cfgparse.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/check-perm.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/cipher-speed.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/conch-ciphers.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/connect-privsep.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/connect.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/dhgex.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/dsa_ssh2.prv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/dsa_ssh2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/dynamic-forward.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/envpass.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/exit-status.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/forcecommand.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/forward-control.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/forwarding.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/host-expand.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/hostkey-agent.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/hostkey-rotate.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/integrity.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/kextype.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/key-options.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/keygen-change.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/keygen-convert.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/keygen-knownhosts.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/keys-command.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/keyscan.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/keytype.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/krl.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/limit-keytype.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/localcommand.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/login-timeout.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/misc/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/misc/kexfuzz/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/misc/kexfuzz/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/misc/kexfuzz/kexfuzz.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/modpipe.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/multiplex.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/multipubkey.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/netcat.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/portnum.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/principals-command.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/proto-mismatch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/proto-version.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/proxy-connect.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/putty-ciphers.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/putty-kex.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/putty-transfer.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/reconfigure.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/reexec.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/rekey.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/rsa_openssh.prv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/rsa_openssh.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/rsa_ssh2.prv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/scp-ssh-wrapper.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/scp.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/setuid-allowed.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sftp-badcmds.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sftp-batch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sftp-chroot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sftp-cmds.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sftp-glob.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sftp-perm.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sftp.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/ssh-com-client.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/ssh-com-keygen.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/ssh-com-sftp.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/ssh-com.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/ssh2putty.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sshcfgparse.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/sshd-log-wrapper.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/stderr-after-eof.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/stderr-data.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/t11.ok" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/t4.ok" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/t5.ok" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/test-exec.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/transfer.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/try-ciphers.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/Makefile.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/bitmap/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/bitmap/tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/mktestdata.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/test_iterate.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/dsa_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/dsa_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/dsa_3.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/dsa_4.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/dsa_5.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/dsa_6.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ecdsa_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ecdsa_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ecdsa_3.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ecdsa_4.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ecdsa_5.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ecdsa_6.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ed25519_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ed25519_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ed25519_3.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ed25519_4.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ed25519_5.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/ed25519_6.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/known_hosts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa1_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa1_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa1_3.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa1_4.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa1_5.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa1_6.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa_3.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa_4.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa_5.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/testdata/rsa_6.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/hostkeys/tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/kex/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/kex/test_kex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/kex/tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/test_sshbuf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/test_sshbuf_fixed.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/test_sshbuf_fuzz.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/test_sshbuf_getput_basic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/test_sshbuf_getput_crypto.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/test_sshbuf_getput_fuzz.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/test_sshbuf_misc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshbuf/tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/common.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/mktestdata.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/test_file.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/test_fuzz.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/test_sshkey.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1-cert.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1-cert.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1.param.g" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1.param.priv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1.param.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_1_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_2.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_2.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/dsa_n_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1.param.curve" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1.param.priv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1.param.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_1_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_2.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_2.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_2.param.curve" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_2.param.priv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_2.param.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ecdsa_n_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_1-cert.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_1-cert.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_1.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_1.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_1_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_2.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_2.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/ed25519_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_1.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_1.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_1.param.n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_1_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_2.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_2.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_2.param.n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa1_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1-cert.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1-cert.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1.param.n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1.param.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1.param.q" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_1_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_2.fp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_2.fp.bb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_2.param.n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_2.param.p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_2.param.q" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_2.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/testdata/rsa_n_pw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/sshkey/tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/test_helper/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/test_helper/fuzz.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/test_helper/test_helper.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/test_helper/test_helper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/utf8/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/unittests/utf8/tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/valgrind-unit.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/regress/yes-head.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/rijndael.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/rijndael.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/rsa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/rsa.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-capsicum.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-darwin.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-null.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-pledge.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-rlimit.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-seccomp-filter.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-solaris.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sandbox-systrace.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sc25519.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sc25519.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/scp.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/scp.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/scp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/servconf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/servconf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/serverloop.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/serverloop.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/session.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/session.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-client.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-client.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-common.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-glob.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-server-main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-server.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-server.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp-server.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sftp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/smult_curve25519_ref.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-add.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-add.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-add.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-agent.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-agent.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-agent.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-dss.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-ecdsa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-ed25519.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-gss.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keygen.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keygen.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keygen.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keyscan.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keyscan.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keyscan.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keysign.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keysign.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-keysign.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-pkcs11-client.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-pkcs11-helper.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-pkcs11-helper.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-pkcs11-helper.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-pkcs11.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-pkcs11.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-rsa.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh-sandbox.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh_api.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh_api.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh_config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh_config.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh_config.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshbuf-getput-basic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshbuf-getput-crypto.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshbuf-misc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshbuf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshbuf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshconnect.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshconnect.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshconnect1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshconnect2.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshd.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshd.8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshd_config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshd_config.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshd_config.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssherr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssherr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshkey.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshkey.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshlogin.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshlogin.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshpty.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshpty.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/sshtty.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/survey.sh.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ttymodes.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ttymodes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/uidswap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/uidswap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/umac.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/umac.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/utf8.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/utf8.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/uuencode.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/uuencode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/verify.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/version.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/xmalloc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/openssh-7.3p1/xmalloc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyEye/CrazyEye/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyEye/CrazyEye/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/interactive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/session_tracker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/session_tracker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/ssh_interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyEye/backend/ssh_interactive.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -715,7 +20,81 @@
     <SUITE FILE_PATH="coverage/book$audit.coverage" NAME="audit Coverage Results" MODIFIED="1557487092793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化/CrazyEye/backend" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/session_tracker.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/interactive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <folding>
+                <element signature="e#17#30#0" expanded="true" />
+                <element signature="e#670#2316#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/audit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#370#2894#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="163" column="58" lean-forward="true" selection-start-line="163" selection-start-column="58" selection-end-line="163" selection-end-column="58" />
+              <folding>
+                <element signature="e#21#31#0" expanded="true" />
+                <element signature="e#1470#3064#0" />
+                <element signature="e#3096#4619#0" />
+                <element signature="e#7123#8396#0" />
+                <element signature="e#8827#9292#0" />
+                <element signature="e#9361#9703#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/ssh_interactive.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="156" column="31" lean-forward="true" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+              <folding>
+                <element signature="e#3133#4668#0" />
+                <element signature="e#3133#3200#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/CrazyEye/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -732,17 +111,20 @@
       <list>
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/__init__.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/audit.py" />
-        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/interactive.py" />
-        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/main.py" />
         <option value="$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.c" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/web/models.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/session_tracker.sh" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/interactive.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/main.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/ssh_interactive.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/CrazyEye/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="865" />
-    <option name="y" value="50" />
-    <option name="width" value="989" />
+    <option name="x" value="727" />
+    <option name="y" value="-2" />
+    <option name="width" value="1204" />
     <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -764,6 +146,32 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="CrazyEye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="CrazyEye" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="CrazyEye" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="MadKing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -830,7 +238,8 @@
       <option name="presentableId" value="Default" />
       <updated>1557465127259</updated>
       <workItem from="1557465133731" duration="616000" />
-      <workItem from="1557485680596" duration="7825000" />
+      <workItem from="1557485680596" duration="7999000" />
+      <workItem from="1557529825402" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="CrazyEye">
       <created>1557465731661</created>
@@ -881,16 +290,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557494958673</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更改ssh 使其唯一标识">
+      <created>1557496239299</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557496239299</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8441000" />
+    <option name="totallyTimeSpent" value="9621000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="865" y="50" width="989" height="1001" extended-state="0" />
+    <frame x="727" y="-2" width="1204" height="1001" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36490852" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20979021" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -935,54 +352,10 @@
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/tmp/ssh_log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/audit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/interactive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#17#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/channels.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/channels.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1958" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="930" column="18" lean-forward="true" selection-start-line="930" selection-start-column="18" selection-end-line="930" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#64042#0" />
-            <element signature="e#0#64042#0" />
-            <element signature="e#0#64042#0" />
-            <element signature="e#0#64042#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/channels.h" />
+    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/channels.c" />
+    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.h" />
+    <entry file="file://$PROJECT_DIR$/运维自动化/openssh-7.3p1/ssh.c" />
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/web/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -995,6 +368,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin/models.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/session_tracker.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/interactive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="e#17#30#0" expanded="true" />
+            <element signature="e#670#2316#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/audit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="e#370#2894#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="163" column="58" lean-forward="true" selection-start-line="163" selection-start-column="58" selection-end-line="163" selection-end-column="58" />
+          <folding>
+            <element signature="e#21#31#0" expanded="true" />
+            <element signature="e#1470#3064#0" />
+            <element signature="e#3096#4619#0" />
+            <element signature="e#7123#8396#0" />
+            <element signature="e#8827#9292#0" />
+            <element signature="e#9361#9703#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/backend/ssh_interactive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="156" column="31" lean-forward="true" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
+          <folding>
+            <element signature="e#3133#4668#0" />
+            <element signature="e#3133#3200#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/CrazyEye/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

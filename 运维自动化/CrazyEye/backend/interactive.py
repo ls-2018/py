@@ -13,6 +13,7 @@ try:
     import termios
     import tty
     import time
+
     has_termios = True
 except ImportError:
     has_termios = False
@@ -54,7 +55,7 @@ def posix_shell(chan, self, host_ip, username, host_ins):
                     sys.stdout.flush()
                 except socket.timeout:
                     pass
-                except UnicodeDecodeError :
+                except UnicodeDecodeError:
                     pass
             if sys.stdin in r:
                 x = sys.stdin.read(1)
@@ -80,6 +81,7 @@ def posix_shell(chan, self, host_ip, username, host_ins):
 def windows_shell(chan):
     import threading
     sys.stdout.write("Line-buffered terminal emulation. Press F6 or ^Z to send EOF.\r\n\r\n")
+
     def writeall(sock):
         while True:
             data = sock.recv(256)
@@ -89,6 +91,7 @@ def windows_shell(chan):
                 break
             sys.stdout.write(data)
             sys.stdout.flush()
+
     writer = threading.Thread(target=writeall, args=(chan,))
     writer.start()
     try:

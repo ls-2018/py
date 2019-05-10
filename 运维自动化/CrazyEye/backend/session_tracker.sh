@@ -27,7 +27,7 @@ do
             sudo mkdir $today_audit_dir
         fi;
         #ps -ef |awk '{ print $2 }'  |grep $has_process > "logs/audit/$today/session_$1.log"
-        sudo strace  -fp $has_process -t -o  "logs/audit/$today/session_$1.log"
+        sudo strace  -fp $has_process -t -o  "logs/audit/$today/session_${1}.log"
         break;
     fi;
 
