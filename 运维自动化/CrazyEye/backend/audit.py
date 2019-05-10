@@ -3,8 +3,12 @@
 import re
 
 
+# strace -t -p 12318 -o tmp/log  -f
+# https://www.cnblogs.com/ls-2018/p/10846229.html
 class AuditLogHandler(object):
-    '''分析audit log日志'''
+    """
+    分析audit log日志
+    """
 
     def __init__(self, log_file):
         self.log_file_obj = self._get_file(log_file)
@@ -76,5 +80,5 @@ class AuditLogHandler(object):
 
 
 if __name__ == "__main__":
-    parser = AuditLogHandler('tmp/ssh_log2_4')
-    parser.parse()
+    parser = AuditLogHandler('tmp/ssh_log')
+    print(parser.parse())
