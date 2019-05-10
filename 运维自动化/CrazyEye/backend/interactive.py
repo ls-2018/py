@@ -54,7 +54,7 @@ def posix_shell(chan, self, host_ip, username, host_ins):
                     sys.stdout.flush()
                 except socket.timeout:
                     pass
-                except UnicodeDecodeError as e:
+                except UnicodeDecodeError :
                     pass
             if sys.stdin in r:
                 x = sys.stdin.read(1)
