@@ -19,6 +19,7 @@ class BaseAdmin(object):
     m2m_fields = []
 
 
+# #################用户管理##################################
 class UserCreationForm(forms.ModelForm):
     """A form for creating new users. Includes all the required
     fields, plus a repeated password."""
@@ -70,7 +71,6 @@ class UserChangeForm(forms.ModelForm):
 class UserProfileAdmin(UserAdmin):
     # The forms to add and change user instances
     form = UserChangeForm
-    add_form = UserCreationForm
 
     # The fields to be used in displaying the User model.
     # These override the definitions on the base UserAdmin
@@ -78,23 +78,27 @@ class UserProfileAdmin(UserAdmin):
     list_display = ('id', 'name', 'email', 'is_admin', 'is_active', 'is_superuser')
     list_filter = ('is_admin',)
     fieldsets = (
-        (None, {'fields': ('email', 'password')}),
+        ('UserInfo', {'fields': ('email', 'password')}),
         ('Personal info', {'fields': ('department', 'tel', 'mobile', 'memo')}),
         ('API TOKEN info', {'fields': ('token',)}),
         # ('Permissions', {'fields': ('is_active', 'is_admin')}),
         # ('账户有效期', {'fields': ('valid_begin_time', 'valid_end_time')}),
     )
+    search_fields = ('email',)
+    ordering = ('email',)
+    filter_horizontal = ()
     # add_fieldsets is not a standard ModelAdmin attribute. UserAdmin
     # overrides get_fieldsets to use this attribute when creating a user.
+    add_form = UserCreationForm
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
             'fields': ('email', 'password1', 'password2', 'is_active', 'is_admin')}
          ),
     )
-    search_fields = ('email',)
-    ordering = ('email',)
-    filter_horizontal = ()
+
+
+# ###################################################
 
 
 class ServerInline(admin.TabularInline):
