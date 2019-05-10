@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="" />
+    <list default="true" id="4777ea09-beb8-4cda-95a8-701efd108377" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/admin_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/admin_base.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +67,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="100">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#20#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/admin_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -123,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Flask－/测试报告.html" />
         <option value="$PROJECT_DIR$/Flask－/__init__.py" />
         <option value="$PROJECT_DIR$/Flask－/unittest_1.py" />
         <option value="$PROJECT_DIR$/Flask－/异常信息补货.py" />
@@ -174,10 +194,11 @@
         <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/admin.py" />
         <option value="$PROJECT_DIR$/运维自动化/MadKing/assets/templatetags/custom_tag.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/forms.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/admin_base.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="728" />
     <option name="y" value="53" />
     <option name="width" value="1094" />
@@ -464,14 +485,7 @@
       <workItem from="1557406386647" duration="2380000" />
       <workItem from="1557450354965" duration="1453000" />
       <workItem from="1557452983888" duration="560000" />
-      <workItem from="1557454846342" duration="977000" />
-    </task>
-    <task id="LOCAL-00387" summary="MadKing">
-      <created>1557300639961</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1557300639962</updated>
+      <workItem from="1557454846342" duration="2587000" />
     </task>
     <task id="LOCAL-00388" summary="MadKing">
       <created>1557300769083</created>
@@ -809,7 +823,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557455045179</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="CrazyEye">
+      <created>1557456626195</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1557456626195</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -845,7 +866,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250093000" />
+    <option name="totallyTimeSpent" value="251703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,7 +881,7 @@
     <frame x="728" y="53" width="1094" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3065764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3065764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -873,9 +894,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921347" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3280142" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50967115" side_tool="true" weight="0.4680851" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49072754" weight="0.31208053" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.48329854" weight="0.46868008" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49032882" visible="true" weight="0.4680851" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32965517" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32962137" />
       <window_info active="true" anchor="bottom" id="Database Console" order="15" sideWeight="0.49946696" visible="true" weight="0.32962137" />
@@ -960,19 +981,6 @@
     <SUITE FILE_PATH="coverage/book$123.coverage" NAME="123 Coverage Results" MODIFIED="1555634056294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../x" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/爬虫/叶辰.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="9" column="42" lean-forward="true" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/urllib3/_collections.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/Python36/Lib/site-packages/urllib3/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1384,11 +1392,25 @@
     <entry file="das://a4529e1b-a713-4c34-b110-b2dd5df59c46/schema/main/table/assets_userprofile" />
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#20#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/kingadmin_old/admin_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
