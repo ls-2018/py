@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0bf8a1-3964-45f9-82c7-58f453008c3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/运维自动化/CrazyMonitor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyEye/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyEye/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/CrazyMonitor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/dictionaries/jieli.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +36,34 @@
     <SUITE FILE_PATH="coverage/book$crazy_eyes_mgr.coverage" NAME="crazy_eyes_mgr Coverage Results" MODIFIED="1557546723305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/运维自动化/CrazyEye" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="275">
+                <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="181" column="64" selection-start-line="181" selection-start-column="64" selection-end-line="181" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#6320#6744#0" />
+                <element signature="e#6815#8721#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -41,7 +86,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/运维自动化/CrazyMonitor" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,16 +108,18 @@
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/multitask.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/multitask_old.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/backend/global_settings.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="103" />
+    <option name="y" value="-9" />
     <option name="width" value="1204" />
     <option name="height" value="999" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -87,6 +134,24 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="CrazyMonitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="CrazyMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,6 +312,8 @@
       <workItem from="1557485680596" duration="7999000" />
       <workItem from="1557529825402" duration="5036000" />
       <workItem from="1557543905825" duration="6643000" />
+      <workItem from="1557568053720" duration="597000" />
+      <workItem from="1557571404366" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="CrazyEye">
       <created>1557465731661</created>
@@ -385,12 +452,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20294000" />
+    <option name="totallyTimeSpent" value="22574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="355" width="1204" height="999" extended-state="0" />
+    <frame x="649" y="50" width="1204" height="999" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31381118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16433567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -697,6 +765,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/templates/multi_task_log_detail.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="181" column="64" selection-start-line="181" selection-start-column="64" selection-end-line="181" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#6320#6744#0" />
+            <element signature="e#6815#8721#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
