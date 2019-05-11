@@ -130,7 +130,7 @@ LOGIN_URL = '/login/'
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 MaxTaskProcesses = 4
-MultiTaskScript = '%s/%s' % (BASE_DIR, 'backend/multitask.py')
+MultiTaskScript = '%s/%s' % (BASE_DIR, 'backend/multitask_old.py')
 
 RSA_PRIVATE_KEY_FILE = '%s/%s' % (BASE_DIR, 'var/rsa_key/id_rsa')
 

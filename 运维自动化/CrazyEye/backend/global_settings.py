@@ -1,11 +1,11 @@
-#_*_coding:utf-8_*_
+# _*_coding:utf-8_*_
 
-import os,sys
+import os
+import sys
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "CrazyEye.settings")
-base_dir = '/'.join(os.path.abspath(os.path.dirname(__file__)).split("/")[:-1])
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(base_dir)
 import django
-django.setup()
 
-from web import models
+django.setup()

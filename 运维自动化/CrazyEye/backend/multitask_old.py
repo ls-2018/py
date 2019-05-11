@@ -1,4 +1,4 @@
-import global_settings
+from . import global_settings
 import json
 import traceback
 import paramiko
@@ -25,7 +25,6 @@ def cmd_exec(task_id, bind_host_id, user_id, cmd):
                       bind_host.host_user.password,
                       timeout=5)
         else:  # rsa_key
-
             key = paramiko.RSAKey.from_private_key_file(settings.RSA_PRIVATE_KEY_FILE)
             s.connect(bind_host.host.ip_addr,
                       int(bind_host.host.port),
@@ -160,3 +159,5 @@ if __name__ == '__main__':
     Pool.join()
     # for res in res_list:
     #    res.get()
+
+#
