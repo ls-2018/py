@@ -29,9 +29,11 @@ import sys
 import time
 import traceback
 from paramiko.py3compat import input
-import termios
+
+import termios  # unix
 import signal
 import fcntl
+
 import struct
 import paramiko
 import subprocess
@@ -92,7 +94,13 @@ def manual_auth(ins, username, hostname, pw, host_obj, main_ins):
 # setup logging
 # paramiko.util.log_to_file('demo.log')
 def get_session_id(instance, bind_host_obj, tag):
-    '''apply  session id'''
+    """
+    创建回话记录
+    :param instance:
+    :param bind_host_obj:
+    :param tag:
+    :return:
+    """
     session_obj = instance.models.Session(user_id=instance.login_user.id, bind_host=bind_host_obj, tag=tag)
 
     session_obj.save()
@@ -102,7 +110,7 @@ def get_session_id(instance, bind_host_obj, tag):
 
 def login_raw(instance, h):
     """
-    原生的ssh交互
+    ssh交互
     :param instance:
     :param h:
     :return:
@@ -112,7 +120,8 @@ def login_raw(instance, h):
     ssh_path = instance.django_settings.SSH_CLIENT_PATH
     rand_tag_id = utils.random_str(16)
     session_obj = get_session_id(instance, h, rand_tag_id)
-    session_track_process = subprocess.Popen(
+    # 后端启动stace，监控用户输入
+    subprocess.Popen(
         "/bin/sh %s/backend/session_tracker.sh %s  %s" % (
             instance.django_settings.BASE_DIR, session_obj.id, rand_tag_id),
         shell=True,
