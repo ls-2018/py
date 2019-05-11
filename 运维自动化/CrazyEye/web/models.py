@@ -6,9 +6,6 @@ import datetime
 from web import auth
 
 
-# Create your models here.
-
-
 class IDC(models.Model):
     name = models.CharField(max_length=64, unique=True)
 
@@ -294,11 +291,12 @@ class TaskLogDetail(models.Model):
     note = models.CharField(max_length=100, blank=True)
 
     def __str__(self):
-        return "child of:%s result:%s" % (self.child_of_task.id, self.result)
+        return "child of:%s result:%s" % (self.child_of_task_id, self.result)
 
     class Meta:
         verbose_name = '批量任务日志'
         verbose_name_plural = '批量任务日志'
+        unique_together = ['child_of_task', 'bind_host']
 
 
 class Token(models.Model):
