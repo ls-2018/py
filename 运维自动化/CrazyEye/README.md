@@ -110,8 +110,8 @@ CrazyEye是基于Python开发的一款简单易用的IT审计堡垒机,通过对
         
         |-------[Welcome login CrazyEye Auditing System]-----|
         |            Version :   1.0                         |
-        |            Author  :   Alex Li                     |
-        |            QQ Group:   29215534                    |
+        |            Author  :     Li                     |
+        |            QQ Group:                        |
         |----------------------------------------------------|
         
         
@@ -174,15 +174,3 @@ CrazyEye是基于Python开发的一款简单易用的IT审计堡垒机,通过对
 
 
 
-作者介绍
-=============
-
-Alex(金角大王),多年IT自动化开发经验,国内PYTHON语言知名推广者，曾任职公安部、飞信、Nokia中国、中金公司、Advent软件、汽车之家等公司,目前任老男孩教育Python教学总监，热爱抽烟、喝酒、烫头！
-
-他的Python基础视频 http://study.163.com/course/courseMain.htm?courseId=1003245008
-
-
-技术支持
-=============
-
-目前CrazyEye发布是的1.0测试版,由于时间有限，在使用过程中难免会出现一些小bug,你可以加入 `PYTHON开发交流QQ群(29215534)` 提交bug,我会尽快回复！
