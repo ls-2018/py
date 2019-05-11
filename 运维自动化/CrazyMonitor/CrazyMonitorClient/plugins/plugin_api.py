@@ -1,5 +1,4 @@
 #_*_coding:utf-8_*_
-__author__ = 'Alex Li'
 
 from linux import sysinfo,load,cpu_mac,cpu,memory,network,host_alive
 
