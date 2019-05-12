@@ -1,14 +1,10 @@
 # _*_coding:utf-8_*_
 
+# #################Linux###################
 
 def LinuxSysInfo():
     from .linux import sysinfo
     return sysinfo.collect()
-
-
-def WindowsSysInfo():
-    from .windows import sysinfo as win_sysinfo
-    return win_sysinfo.collect()
 
 
 def get_linux_cpu():
@@ -23,7 +19,6 @@ def host_alive_check():
 
 def GetMacCPU():
     from .linux import cpu_mac
-    # return cpu.monitor()
     return cpu_mac.monitor()
 
 
@@ -40,6 +35,12 @@ def get_memory_info():
 def get_linux_load():
     from .linux import load
     return load.monitor()
+
+
+# #################windows###################
+def WindowsSysInfo():
+    from .windows import sysinfo as win_sysinfo
+    return win_sysinfo.collect()
 
 
 def get_module(path):
