@@ -1,5 +1,4 @@
 #_*_coding:utf-8_*_
-__author__ = 'Alex Li'
 import time,json,pickle
 from CrazyMonitor import settings
 from monitor import models

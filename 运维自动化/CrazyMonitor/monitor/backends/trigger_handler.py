@@ -1,5 +1,4 @@
 #_*_coding:utf-8_*_
-__author__ = 'Alex Li'
 
 from monitor.backends import redis_conn
 import pickle,time
