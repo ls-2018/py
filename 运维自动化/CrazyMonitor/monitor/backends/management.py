@@ -1,12 +1,12 @@
-#_*_coding:utf-8_*_
+# _*_coding:utf-8_*_
 
-import os,sys
-#from perpetual_machine import
+import os, sys
+# from perpetual_machine import
 import django
-django.setup()
-from monitor.backends import data_processing,trigger_handler
-from CrazyMonitor import settings
 
+django.setup()
+from monitor.backends import data_processing, trigger_handler
+from CrazyMonitor import settings
 
 
 class ManagementUtility(object):
@@ -16,14 +16,15 @@ class ManagementUtility(object):
     A ManagementUtility has a number of commands, which can be manipulated
     by editing the self.commands dictionary.
     """
+
     def __init__(self, argv=None):
         self.argv = argv or sys.argv[:]
         self.prog_name = os.path.basename(self.argv[0])
         self.settings_exception = None
         self.registered_actions = {
-            'start':self.start,
+            'start': self.start,
             'stop': self.stop,
-            'trigger_watch':self.trigger_watch,
+            'trigger_watch': self.trigger_watch,  # 监听所有trigger
         }
 
         self.argv_check()
@@ -59,16 +60,17 @@ class ManagementUtility(object):
         """
         if not commands_only:
             print("supported commands as flow:")
-            for k,v in self.registered_actions.items():
-                print("    %s%s" % (k.ljust(20),v.__doc__))
+            for k, v in self.registered_actions.items():
+                print("    %s%s" % (k.ljust(20), v.__doc__))
             exit()
-
 
     def execute(self):
         '''
         run according to user's input
         :return:
         '''
+
+
 def execute_from_command_line(argv=None):
     """
     A simple method that runs a ManagementUtility.
