@@ -115,7 +115,8 @@ def service_data_report(request):
             # data['report_time'] = time.time()
             # REDIS_OBJ.lpush(redis_key_format,json.dumps(data))
 
-            # 在这里同时触发监控(在这里触发的好处是什么呢？)
+            # 每次客户端数据汇报过来的同事，出发trigger检测，就可以实时的实现报警反应，
+            # 存在的问题：客户端宕机(有另外的存活检测机制)
             host_obj = models.Host.objects.get(id=client_id)
             service_triggers = get_host_triggers(host_obj)
 
