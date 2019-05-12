@@ -11,8 +11,10 @@ import operator
 class DataHandler(object):
     def __init__(self, django_settings, connect_redis=True):
         self.django_settings = django_settings
+
         self.poll_interval = 3  # 每3秒进行一次全局轮训
         self.config_update_interval = 120  # 每120s重新从数据库加载一次配置数据
+
         self.config_last_loading_time = time.time()
         self.global_monitor_dic = {}
         self.exit_flag = False
@@ -21,7 +23,7 @@ class DataHandler(object):
 
     def looping(self):
         """
-      start looping data ...
+        start looping data ...
         检测所有主机需要监控的服务的数据有没有按时汇报上来，只做基本检测
         """
         # get latest report data
@@ -68,12 +70,12 @@ class DataHandler(object):
             time.sleep(self.poll_interval)
 
     def data_point_validation(self, host_obj, service_obj):
-        '''
+        """
         only do basic data validation here, alert if the client didn't report data to server in the configured time interval
         :param h:
         :param service_obj:
         :return:
-        '''
+        """
         service_redis_key = "StatusData_%s_%s_latest" % (host_obj.id, service_obj.name)  # 拼出此服务在redis中存储的对应key
         latest_data_point = self.redis.lrange(service_redis_key, -1, -1)
         if latest_data_point:  # data list is not empty,
@@ -189,11 +191,7 @@ class DataHandler(object):
             service_list = []
             trigger_list = []
             for group in h.host_groups.select_related():
-                # print("grouptemplates:", group.templates.select_related())
-
                 for template in group.templates.select_related():
-                    # print("tempalte:",template.services.select_related())
-                    # print("triigers:",template.triggers.select_related())
                     service_list.extend(template.services.select_related())
                     trigger_list.extend(template.triggers.select_related())
                 for service in service_list:
@@ -202,11 +200,7 @@ class DataHandler(object):
                     else:
                         self.global_monitor_dic[h]['services'][service.id][0] = service
                 for trigger in trigger_list:
-                    # if not self.global_monitor_dic['triggers'][trigger.id]:
                     self.global_monitor_dic[h]['triggers'][trigger.id] = trigger
-
-            # print(h.templates.select_related() )
-            # print('service list:',service_list)
 
             for template in h.templates.select_related():
                 service_list.extend(template.services.select_related())
@@ -218,7 +212,6 @@ class DataHandler(object):
                     self.global_monitor_dic[h]['services'][service.id][0] = service
             for trigger in trigger_list:
                 self.global_monitor_dic[h]['triggers'][trigger.id] = trigger
-            # print(self.global_monitor_dic[h])
             # 通过这个时间来确定是否需要更新主机状态
             self.global_monitor_dic[h].setdefault('status_last_check', time.time())
 

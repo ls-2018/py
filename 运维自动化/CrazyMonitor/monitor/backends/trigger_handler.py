@@ -77,7 +77,7 @@ class ActionHandler(object):
 
         print("要发报警的数据:", self.alert_counter_dic[action_obj.id][host_id])
         print("action email:", action_operation_obj.action_type, action_operation_obj.notifiers, trigger_data)
-        notifier_mail_list = [obj.email for obj in action_operation_obj.notifiers.all()]
+        notifier_mail_list = [obj.user.email for obj in action_operation_obj.notifiers.all()]
         subject = '级别:%s -- 主机:%s -- 服务:%s' % (trigger_data.get('trigger_id'),
                                                trigger_data.get('host_id'),
                                                trigger_data.get('service_item'))
@@ -114,6 +114,8 @@ class ActionHandler(object):
             actions_set = trigger_obj.action_set.select_related()  # 找到这个trigger所关联的action list
             print("actions_set:", actions_set)
             matched_action_list = set()  # 一个空集合
+
+            # 有些问题，以下代码
             for action in actions_set:
                 # 每个action 都 可以直接 包含多个主机或主机组,
                 # 为什么tigger里关联了template,template里又关联了主机，那action还要直接关联主机呢？
@@ -128,8 +130,8 @@ class ActionHandler(object):
                                 self.alert_counter_dic[action.id][h.id] = {'counter': 0, 'last_alert': time.time()}
                             else:
                                 # 如果达到报警触发interval次数，就记数+1
-                                if time.time() - self.alert_counter_dic[action.id][h.id][
-                                    'last_alert'] >= action.interval:
+                                if time.time() - self.alert_counter_dic[action.id][h.id]['last_alert'] \
+                                        >= action.interval:
                                     self.alert_counter_dic[action.id][h.id]['counter'] += 1
 
                                 else:
@@ -153,14 +155,16 @@ class ActionHandler(object):
                                 print("没达到alert interval时间,不报警", action.interval,
                                       time.time() - self.alert_counter_dic[action.id][h.id]['last_alert'])
 
+            # 真正报警实现
             print("alert_counter_dic:", self.alert_counter_dic)
             print("matched_action_list:", matched_action_list)
-            for action_obj in matched_action_list:  #
+            for action_obj in matched_action_list:  # 循环到的所有报警
                 if time.time() - self.alert_counter_dic[action_obj.id][host_id]['last_alert'] >= action_obj.interval:
                     # 该报警 了
                     print("该报警了.......", time.time() - self.alert_counter_dic[action_obj.id][host_id]['last_alert'],
                           action_obj.interval)
-                    for action_operation in action_obj.operations.select_related().order_by('-step'):
+                    # for action_operation in action_obj.operations.select_related().order_by('-step'):  # 报警的所有动作
+                    for action_operation in action_obj.operations.select_related().order_by('step'):  # 【1,5,10】 报警的所有动作
                         if action_operation.step > self.alert_counter_dic[action_obj.id][host_id]['counter']:
                             # 就
                             print("##################alert action:%s" %

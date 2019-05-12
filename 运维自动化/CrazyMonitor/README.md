@@ -7,7 +7,7 @@
 
     python3 manage.py runserver 0.0.0.0:9000  启动监控服务web端
 
-    python3 MonitorServer.py start  启动监控主程序
-
+    python3 MonitorServer.py start  启动主机存活监控主程序
+                    每个主机、每个主机的每个插件
     python3 MonitorServer.py trigger_watch  启动报警监听程序
 
