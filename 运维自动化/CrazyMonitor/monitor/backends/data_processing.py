@@ -170,10 +170,10 @@ class DataHandler(object):
     '''
 
     def update_or_load_configs(self):
-        '''
+        """
         load monitor configs from Mysql DB
         :return:
-        '''
+        """
         all_enabled_hosts = models.Host.objects.all()
         for h in all_enabled_hosts:
             if h not in self.global_monitor_dic:  # new host
@@ -345,6 +345,21 @@ class ExpressionProcess(object):
         else:
             return False
 
+    def judge(self, calculated_val):
+        """
+        判断是否达到了阈值
+        :param calculated_val: #已经算好的结果,可能是avg(5) or ....
+        :return:
+        """
+        # expression_args = self.expression_obj.data_calc_args.split(',')
+        # hit_times = expression_args[1] if len(expression_args)>1 else None
+        # if hit_times:#定义了超过阈值几次的条件
+        calc_func = getattr(operator, self.expression_obj.operator_type)
+        # calc_func = operator.eq....
+        return calc_func(calculated_val, self.expression_obj.threshold)
+        # type: models.TriggerExpression
+
+    #   以下都返回 [True,43,None]
     def get_avg(self, data_set):
         """
         return average value of given data set
@@ -400,23 +415,7 @@ class ExpressionProcess(object):
         else:  # 可能是由于最近这个服务 没有数据 汇报 过来,取到的数据 为空,所以没办法 判断阈值
             return [False, None, None]
 
-    def judge(self, calculated_val):
-        """
-        determine whether the index has reached the alert benchmark
-        :param calculated_val: #已经算好的结果,可能是avg(5) or ....
-        :return:
-        """
-        # expression_args = self.expression_obj.data_calc_args.split(',')
-        # hit_times = expression_args[1] if len(expression_args)>1 else None
-        # if hit_times:#定义了超过阈值几次的条件
-        calc_func = getattr(operator, self.expression_obj.operator_type)
-        # calc_func = operator.eq....
-        return calc_func(calculated_val, self.expression_obj.threshold)
-
     def get_hit(self, data_set):
-        """
-        return hit times  value of given data set
-        """
         pass
 
     def get_max(self, data_set):
