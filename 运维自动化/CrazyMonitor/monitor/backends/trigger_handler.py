@@ -163,7 +163,6 @@ class ActionHandler(object):
                     # 该报警 了
                     print("该报警了.......", time.time() - self.alert_counter_dic[action_obj.id][host_id]['last_alert'],
                           action_obj.interval)
-                    # for action_operation in action_obj.operations.select_related().order_by('-step'):  # 报警的所有动作
                     for action_operation in action_obj.operations.select_related().order_by('step'):  # 【1,5,10】 报警的所有动作
                         if action_operation.step > self.alert_counter_dic[action_obj.id][host_id]['counter']:
                             # 就
@@ -176,5 +175,4 @@ class ActionHandler(object):
                             # 报完警后更新一下报警时间 ，这样就又重新计算alert interval了
                             self.alert_counter_dic[action_obj.id][host_id]['last_alert'] = time.time()
                             self.record_log(action_obj, action_operation, host_id, self.trigger_data)
-                        # else:
-                        #     print("离下次触发报警的时间还有[%s]s" % )
+                            break
