@@ -85,7 +85,7 @@ class DataHandler(object):
                 no_data_secs = time.time() - last_report_time
                 msg = '''Some thing must be wrong with client [%s] , because haven't receive data of service [%s] \
                 for [%s]s (interval is [%s])\033[0m''' % (
-                host_obj.ip_addr, service_obj.name, no_data_secs, monitor_interval)
+                    host_obj.ip_addr, service_obj.name, no_data_secs, monitor_interval)
                 self.trigger_notifier(host_obj=host_obj, trigger_id=None, positive_expressions=None,
                                       msg=msg)
                 print("\033[41;1m%s\033[0m" % msg)
@@ -130,13 +130,14 @@ class DataHandler(object):
                     expression_res_string += str(single_expression_res['calc_res']) + ' '
 
                 # 把所有结果为True的expression提出来,报警时你得知道是谁出问题导致trigger触发了
-                if single_expression_res['calc_res'] == True:
+                if single_expression_res['calc_res'] is True:
                     single_expression_res['expression_obj'] = single_expression_res[
                         'expression_obj'].id  # 要存到redis里,数据库对象转成id
                     positive_expressions.append(single_expression_res)
             # else: #single expression不成立,随便加个东西,别让程序出错,这个地方我觉得是个bug
             #    expression_res_string += 'None'
         print("whole trigger res:", trigger_obj.name, expression_res_string)
+
         if expression_res_string:
             trigger_res = eval(expression_res_string)
             print("whole trigger res:", trigger_res)
@@ -144,6 +145,18 @@ class DataHandler(object):
                 print("##############trigger alert:", trigger_obj.severity, trigger_res)
                 self.trigger_notifier(host_obj, trigger_obj.id, positive_expressions,
                                       msg=trigger_obj.name)  # msg 需要专门分析后生成, 这里是临时写的
+    '''
+    exp_list = [iowait.avg(5) > 10 and ,...]
+    exp_res_list = []   # [True, False , ...]
+    for i in exp_list:
+        1、到redis里去取出相应的值，进行平均运算，得到结果，与阈值  按定义表达式进行拼接
+        2、拿到每个表达式的结果，添加到exp_res_list 
+    3、拼接 完整的表达式字符串exp = 'False and True and Flase '...直接用eval获取值
+    4、if  True：
+        通知报警模块
+        
+    '''
+
 
     def update_or_load_configs(self):
         '''
@@ -260,7 +273,7 @@ class ExpressionProcess(object):
         self.expression_obj = expression_obj
         self.main_ins = main_ins
         self.service_redis_key = "StatusData_%s_%s_latest" % (
-        host_obj.id, expression_obj.service.name)  # 拼出此服务在redis中存储的对应key
+            host_obj.id, expression_obj.service.name)  # 拼出此服务在redis中存储的对应key
         self.time_range = self.expression_obj.data_calc_args.split(',')[0]  # 获取要从redis中取多长时间的数据,单位为minute
 
         print("\033[31;1m------>%s\033[0m" % self.service_redis_key)
