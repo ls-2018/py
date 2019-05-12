@@ -107,6 +107,7 @@ class TriggerExpression(models.Model):
         ('lt', '<'),
         ('gt', '>')
     )
+    # 一分钟内cpu>70 多次才报警
     operator_type = models.CharField("运算符", choices=operator_type_choices, max_length=32)
     data_calc_type_choices = (
         ('avg', 'Average'),
@@ -116,6 +117,7 @@ class TriggerExpression(models.Model):
     )
     data_calc_func = models.CharField("数据处理方式", choices=data_calc_type_choices, max_length=64)
     data_calc_args = models.CharField("函数传入参数", help_text="若是多个参数,则用,号分开,第一个值是时间", max_length=64)
+
     threshold = models.IntegerField("阈值")
     logic_type_choices = (('or', 'OR'), ('and', 'AND'))
     logic_type = models.CharField("与一个条件的逻辑关系", choices=logic_type_choices, max_length=32, blank=True, null=True)
