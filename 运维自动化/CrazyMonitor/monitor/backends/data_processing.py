@@ -224,7 +224,7 @@ class DataHandler(object):
 
     def trigger_notifier(self, host_obj, trigger_id, positive_expressions, redis_obj=None, msg=None):
         """
-         所有的触发器报警信息都会经过
+        发布触发器报警信息
         :param host_obj:
         :param trigger_id:
         :param positive_expressions: it's list, contains all the expression has True result
@@ -245,7 +245,7 @@ class DataHandler(object):
                    'msg': msg,
                    'time': time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
                    'start_time': time.time(),
-                   'duration': None
+                   'duration': None  # 持续时间
                    }
         self.redis.publish(self.django_settings.TRIGGER_CHAN, pickle.dumps(msg_dic))
 
@@ -265,9 +265,9 @@ class DataHandler(object):
 
 
 class ExpressionProcess(object):
-    '''
+    """
     load data and calc it by different method
-    '''
+    """
 
     def __init__(self, main_ins, host_obj, expression_obj, specified_item=None):
         '''
