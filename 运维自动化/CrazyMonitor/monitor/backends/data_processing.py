@@ -117,10 +117,11 @@ class DataHandler(object):
         calc_sub_res_list = []  # 先把每个expression的结果算出来放在这个列表里,最后再统一计算这个列表
         positive_expressions = []  # 导致报警信息成立的因素
         expression_res_string = ''  # 最终拼接而成的字符串表达式
+
         for expression in trigger_obj.triggerexpression_set.select_related().order_by('id'):
             print(expression, expression.logic_type)
             expression_process_obj = ExpressionProcess(self, host_obj, expression)
-            single_expression_res = expression_process_obj.process()  # 得到单条expression表达式的结果
+            single_expression_res = expression_process_obj.process()  # 得到单条expression表达式的结果，返回的是一个字典
             if single_expression_res:
                 calc_sub_res_list.append(single_expression_res)
                 if single_expression_res['expression_obj'].logic_type:  # 不是最后一条
@@ -131,8 +132,8 @@ class DataHandler(object):
 
                 # 把所有结果为True的expression提出来,报警时你得知道是谁出问题导致trigger触发了
                 if single_expression_res['calc_res'] is True:
-                    single_expression_res['expression_obj'] = single_expression_res[
-                        'expression_obj'].id  # 要存到redis里,数据库对象转成id
+                    # 要存到redis里,数据库对象转成id
+                    single_expression_res['expression_obj'] = single_expression_res['expression_obj'].id
                     positive_expressions.append(single_expression_res)
             # else: #single expression不成立,随便加个东西,别让程序出错,这个地方我觉得是个bug
             #    expression_res_string += 'None'
