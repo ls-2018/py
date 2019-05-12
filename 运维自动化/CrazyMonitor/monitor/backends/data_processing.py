@@ -336,7 +336,7 @@ class ExpressionProcess(object):
             res_dic = {
                 'calc_res': single_expression_calc_res[0],
                 'calc_res_val': single_expression_calc_res[1],
-                'expression_obj': self.expression_obj,
+                'expression_obj': self.expression_obj,  # type:models.TriggerExpression
                 'service_item': single_expression_calc_res[2],
             }
 
@@ -348,7 +348,6 @@ class ExpressionProcess(object):
     def get_avg(self, data_set):
         """
         return average value of given data set
-        :param data_set:
         """
         clean_data_list = []
         clean_data_dic = {}
@@ -415,11 +414,16 @@ class ExpressionProcess(object):
         return calc_func(calculated_val, self.expression_obj.threshold)
 
     def get_hit(self, data_set):
-        '''
+        """
         return hit times  value of given data set
-        :param data_set:
-        :return:
-        '''
+        """
         pass
 
-# 志不坚者智不达
+    def get_max(self, data_set):
+
+        pass
+
+    def get_last(self, data_set):
+        pass
+
+# 志不坚者智不达:呵呵
