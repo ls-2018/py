@@ -1,5 +1,7 @@
 # _*_coding:utf-8_*_
-import time, json, pickle
+import time
+import json
+import pickle
 from CrazyMonitor import settings
 from monitor import models
 from monitor.backends import redis_conn
@@ -18,11 +20,10 @@ class DataHandler(object):
             self.redis = redis_conn.redis_conn(django_settings)
 
     def looping(self):
-        '''
-        start looping data ...
+        """
+      start looping data ...
         检测所有主机需要监控的服务的数据有没有按时汇报上来，只做基本检测
-        :return:
-        '''
+        """
         # get latest report data
         self.update_or_load_configs()  # 生成全局的监控配置dict
         count = 0
@@ -105,13 +106,13 @@ class DataHandler(object):
         # print("triggers:", self.global_monitor_dic[host_obj]['triggers'])
 
     def load_service_data_and_calulating(self, host_obj, trigger_obj, redis_obj):
-        '''
+        """
         fetching out service data from redis db and calculate according to each serivce's trigger configuration
         :param host_obj:
         :param trigger_obj:
         :param redis_obj: #从外面调用此函数时需传入redis_obj,以减少重复连接
         :return:
-        '''
+        """
         # StatusData_1_LinuxCPU_10mins
         self.redis = redis_obj
         calc_sub_res_list = []  # 先把每个expression的结果算出来放在这个列表里,最后再统一计算这个列表
@@ -120,7 +121,7 @@ class DataHandler(object):
 
         for expression in trigger_obj.triggerexpression_set.select_related().order_by('id'):
             print(expression, expression.logic_type)
-            expression_process_obj = ExpressionProcess(self, host_obj, expression)
+            expression_process_obj = ExpressionProcess(self, host_obj, expression)  #
             single_expression_res = expression_process_obj.process()  # 得到单条expression表达式的结果，返回的是一个字典
             if single_expression_res:
                 calc_sub_res_list.append(single_expression_res)
@@ -138,7 +139,9 @@ class DataHandler(object):
             # else: #single expression不成立,随便加个东西,别让程序出错,这个地方我觉得是个bug
             #    expression_res_string += 'None'
         print("whole trigger res:", trigger_obj.name, expression_res_string)
-
+        """
+        xxx
+        """
         if expression_res_string:
             trigger_res = eval(expression_res_string)
             print("whole trigger res:", trigger_res)
@@ -270,24 +273,26 @@ class ExpressionProcess(object):
     """
 
     def __init__(self, main_ins, host_obj, expression_obj, specified_item=None):
-        '''
+        """
         :param main_ins:   DataHandler 实例
         :param host_obj: 具体的host obj
         :param expression_obj:
-        :return:
-        计算单条表达式的结果
-        '''
+        :return:计算单条表达式的结果
+        """
         self.host_obj = host_obj
         self.expression_obj = expression_obj
         self.main_ins = main_ins
         self.service_redis_key = "StatusData_%s_%s_latest" % (
             host_obj.id, expression_obj.service.name)  # 拼出此服务在redis中存储的对应key
+        # models.TriggerExpression.data_calc_args
         self.time_range = self.expression_obj.data_calc_args.split(',')[0]  # 获取要从redis中取多长时间的数据,单位为minute
 
         print("\033[31;1m------>%s\033[0m" % self.service_redis_key)
 
     def load_data_from_redis(self):
-        '''load data from redis according to expression's configuration'''
+        """
+        load data from redis according to expression's configuration
+        """
         time_in_sec = int(self.time_range) * 60  # 下面的+60是默认多取一分钟数据,宁多勿少,多出来的后面会去掉
         approximate_data_points = (time_in_sec + 60) / self.expression_obj.service.interval  # 获取一个大概要取的值
         # stop_loading_flag = False #循环去redis里一个点一个点的取数据,直到变成True
@@ -298,8 +303,7 @@ class ExpressionProcess(object):
         approximate_data_range = [json.loads(i.decode()) for i in data_range_raw]
         data_range = []  # 精确的需要的数据 列表
         for point in approximate_data_range:
-            # print('bread point:', point)
-            val, saving_time = point
+            val, saving_time = point  # [{total:; idle: ;},时间戳]
             if time.time() - saving_time < time_in_sec:  # 代表数据有效
                 data_range.append(point)
                 # print("service index key:",self.expression_obj.service_index.key)
@@ -336,17 +340,16 @@ class ExpressionProcess(object):
                 'service_item': single_expression_calc_res[2],
             }
 
-            print("\033[41;1msingle_expression_calc_res:%s\033[0m" % single_expression_calc_res)
+            print("\033[41;1m single_expression_calc_res:%s\033[0m" % single_expression_calc_res)
             return res_dic
         else:
             return False
 
     def get_avg(self, data_set):
-        '''
+        """
         return average value of given data set
         :param data_set:
-        :return:
-        '''
+        """
         clean_data_list = []
         clean_data_dic = {}
         for point in data_set:
@@ -399,11 +402,11 @@ class ExpressionProcess(object):
             return [False, None, None]
 
     def judge(self, calculated_val):
-        '''
+        """
         determine whether the index has reached the alert benchmark
         :param calculated_val: #已经算好的结果,可能是avg(5) or ....
         :return:
-        '''
+        """
         # expression_args = self.expression_obj.data_calc_args.split(',')
         # hit_times = expression_args[1] if len(expression_args)>1 else None
         # if hit_times:#定义了超过阈值几次的条件
