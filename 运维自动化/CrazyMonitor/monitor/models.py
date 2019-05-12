@@ -73,6 +73,7 @@ class Service(models.Model):
 class Template(models.Model):
     name = models.CharField('模版名称', max_length=64, unique=True)
     services = models.ManyToManyField('Service', verbose_name="服务列表")
+    # triggers 最好改成1：n
     triggers = models.ManyToManyField('Trigger', verbose_name="触发器列表", blank=True)
 
     def __str__(self):
@@ -101,7 +102,7 @@ class TriggerExpression(models.Model):
     trigger = models.ForeignKey('Trigger', verbose_name="所属触发器", on_delete=models.CASCADE)
     service = models.ForeignKey(Service, verbose_name="关联服务", on_delete=models.CASCADE)
     service_index = models.ForeignKey(ServiceIndex, verbose_name="关联服务指标", on_delete=models.CASCADE)
-    specified_index_key = models.CharField(verbose_name="只监控专门指定的指标key", max_length=64, blank=True, null=True)
+    # specified_index_key = models.CharField(verbose_name="只监控专门指定的指标key", max_length=64, blank=True, null=True)
     operator_type_choices = (
         ('eq', '='),
         ('lt', '<'),
@@ -156,7 +157,7 @@ class ActionOperation(models.Model):
     action_type = models.CharField("动作类型", choices=action_type_choices, default='email', max_length=64)
     notifiers = models.ManyToManyField('UserProfile', verbose_name="通知对象", blank=True)
     _msg_format = '''Host({hostname},{ip}) service({service_name}) has issue,msg:{msg}'''
-
+    # script_name = models.CharField(max_length=128, blank=True, null=True)
     msg_format = models.TextField("消息格式", default=_msg_format)
 
     def __str__(self):
