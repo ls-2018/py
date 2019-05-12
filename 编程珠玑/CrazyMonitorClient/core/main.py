@@ -7,7 +7,8 @@ class command_handler(object):
 
     def __init__(self, sys_args):
         self.sys_args = sys_args
-        if len(self.sys_args) < 2: exit(self.help_msg())
+        if len(self.sys_args) < 2:
+            exit(self.help_msg())
         self.command_allowcator()
 
     def command_allowcator(self):
@@ -32,7 +33,6 @@ class command_handler(object):
     def start(self):
         print("going to start the monitor client")
         # exit_flag = False
-
         Client = client.ClientHandle()
         Client.forever_run()
 
