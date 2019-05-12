@@ -1,11 +1,12 @@
 from django.contrib import admin
 
 from django import forms
-from  monitor import models
+from monitor import models
 # Register your models here.
 
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
+
 
 class UserCreationForm(forms.ModelForm):
     """A form for creating new users. Includes all the required
@@ -15,7 +16,7 @@ class UserCreationForm(forms.ModelForm):
 
     class Meta:
         model = models.UserProfile
-        fields = ('email','name')
+        fields = ('email', 'name')
 
     def clean_password2(self):
         # Check that the two password entries match
@@ -40,13 +41,13 @@ class UserChangeForm(forms.ModelForm):
     password hash display field.
     """
     password = ReadOnlyPasswordHashField(label="Password",
-        help_text=("Raw passwords are not stored, so there is no way to see "
-                    "this user's password, but you can change the password "
-                    "using <a href=\"password/\">this form</a>."))
+                                         help_text=("Raw passwords are not stored, so there is no way to see "
+                                                    "this user's password, but you can change the password "
+                                                    "using <a href=\"password/\">this form</a>."))
 
     class Meta:
         model = models.UserProfile
-        fields = ('email','password','is_active', 'is_admin')
+        fields = ('email', 'password', 'is_active', 'is_admin')
 
     def clean_password(self):
         # Regardless of what the user provides, return the initial value.
@@ -63,15 +64,15 @@ class UserProfileAdmin(UserAdmin):
     # The fields to be used in displaying the User model.
     # These override the definitions on the base UserAdmin
     # that reference specific fields on auth.User.
-    list_display = ('id','email','is_admin','is_active')
+    list_display = ('id', 'email', 'is_admin', 'is_active')
     list_filter = ('is_admin',)
     list_editable = ['is_admin']
 
     fieldsets = (
-        (None, {'fields': ('email','name', 'password')}),
-        ('Personal info', {'fields': ('phone','weixin','memo',)}),
+        (None, {'fields': ('email', 'name', 'password')}),
+        ('Personal info', {'fields': ('phone', 'weixin', 'memo',)}),
 
-        ('用户权限', {'fields': ('is_active','is_staff','is_admin','user_permissions','groups')}),
+        ('用户权限', {'fields': ('is_active', 'is_staff', 'is_admin', 'user_permissions', 'groups')}),
 
     )
     # add_fieldsets is not a standard ModelAdmin attribute. UserAdmin
@@ -79,59 +80,60 @@ class UserProfileAdmin(UserAdmin):
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
-            'fields': ('email',  'password1', 'password2','is_active','is_admin')}
-        ),
+            'fields': ('email', 'password1', 'password2', 'is_active', 'is_admin')}
+         ),
     )
     search_fields = ('email',)
     ordering = ('email',)
-    filter_horizontal = ('user_permissions','groups')
-
-
-
-
+    filter_horizontal = ('user_permissions', 'groups')
 
 
 class HostAdmin(admin.ModelAdmin):
-    list_display =  ('id','name','ip_addr','status')
-    filter_horizontal = ('host_groups','templates')
+    list_display = ('id', 'name', 'ip_addr', 'status')
+    filter_horizontal = ('host_groups', 'templates')
 
 
 class TemplateAdmin(admin.ModelAdmin):
-    filter_horizontal = ('services','triggers')
+    filter_horizontal = ('services', 'triggers')
+
 
 class ServiceAdmin(admin.ModelAdmin):
     filter_horizontal = ('items',)
-    list_display = ('name','interval','plugin_name')
-    #list_select_related = ('items',)
+    list_display = ('name', 'interval', 'plugin_name')
+    # list_select_related = ('items',)
 
 
 class TriggerExpressionInline(admin.TabularInline):
+    """
+    反向关联的展示
+    """
     model = models.TriggerExpression
-    #exclude = ('memo',)
-    #readonly_fields = ['create_date']
+    # exclude = ('memo',)
+    # readonly_fields = ['create_date']
 
 
 class TriggerAdmin(admin.ModelAdmin):
-    list_display = ('name','severity','enabled')
-    inlines = [TriggerExpressionInline,]
-    #filter_horizontal = ('expressions',)
+    list_display = ('name', 'severity', 'enabled')
+    inlines = [TriggerExpressionInline, ]
+    # filter_horizontal = ('expressions',)
 
 
 class TriggerExpressionAdmin(admin.ModelAdmin):
-    list_display = ('trigger','service','service_index','specified_index_key','operator_type','data_calc_func','threshold','logic_type')
+    list_display = (
+    'trigger', 'service', 'service_index', 'specified_index_key', 'operator_type', 'data_calc_func', 'threshold',
+    'logic_type')
 
 
-
-admin.site.register(models.Host,HostAdmin)
+admin.site.register(models.Host, HostAdmin)
 admin.site.register(models.HostGroup)
-admin.site.register(models.Template,TemplateAdmin)
-admin.site.register(models.Service,ServiceAdmin)
-admin.site.register(models.Trigger,TriggerAdmin)
-admin.site.register(models.TriggerExpression,TriggerExpressionAdmin)
+admin.site.register(models.Template, TemplateAdmin)
+admin.site.register(models.Service, ServiceAdmin)
+admin.site.register(models.Trigger, TriggerAdmin)
+admin.site.register(models.TriggerExpression, TriggerExpressionAdmin)
 admin.site.register(models.ServiceIndex)
 admin.site.register(models.Action)
 admin.site.register(models.ActionOperation)
-#admin.site.register(models.ActionCondtion,ActionConditionAdmin)
+# admin.site.register(models.ActionCondtion,ActionConditionAdmin)
 admin.site.register(models.Maintenance)
-admin.site.register(models.UserProfile,UserProfileAdmin)
+admin.site.register(models.UserProfile, UserProfileAdmin)
 admin.site.register(models.EventLog)
