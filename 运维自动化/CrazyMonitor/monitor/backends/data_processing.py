@@ -115,8 +115,8 @@ class DataHandler(object):
         # StatusData_1_LinuxCPU_10mins
         self.redis = redis_obj
         calc_sub_res_list = []  # 先把每个expression的结果算出来放在这个列表里,最后再统一计算这个列表
-        positive_expressions = []
-        expression_res_string = ''
+        positive_expressions = []  # 导致报警信息成立的因素
+        expression_res_string = ''  # 最终拼接而成的字符串表达式
         for expression in trigger_obj.triggerexpression_set.select_related().order_by('id'):
             print(expression, expression.logic_type)
             expression_process_obj = ExpressionProcess(self, host_obj, expression)
@@ -145,6 +145,7 @@ class DataHandler(object):
                 print("##############trigger alert:", trigger_obj.severity, trigger_res)
                 self.trigger_notifier(host_obj, trigger_obj.id, positive_expressions,
                                       msg=trigger_obj.name)  # msg 需要专门分析后生成, 这里是临时写的
+
     '''
     exp_list = [iowait.avg(5) > 10 and ,...]
     exp_res_list = []   # [True, False , ...]
@@ -152,11 +153,17 @@ class DataHandler(object):
         1、到redis里去取出相应的值，进行平均运算，得到结果，与阈值  按定义表达式进行拼接
         2、拿到每个表达式的结果，添加到exp_res_list 
     3、拼接 完整的表达式字符串exp = 'False and True and Flase '...直接用eval获取值
-    4、if  True：
+    4、if  True：#
         通知报警模块
         
+            将成立的出发器发送到报警队列
+            why:
+                解决生产者与消费者之间速度差异的问题，
+                报警收敛
+                报警升级
+                。。。。
+        
     '''
-
 
     def update_or_load_configs(self):
         '''
@@ -215,15 +222,15 @@ class DataHandler(object):
         return True
 
     def trigger_notifier(self, host_obj, trigger_id, positive_expressions, redis_obj=None, msg=None):
-        '''
-        all the triggers alerts need to be published through here
+        """
+         所有的触发器报警信息都会经过
         :param host_obj:
         :param trigger_id:
         :param positive_expressions: it's list, contains all the expression has True result
         :param redis_obj:
+        :param msg:
         :return:
-        '''
-
+        """
         # alert.sendmail(msg )
         # alert.sendsms(msg)
         if redis_obj:  # 从外部调用 时才用的到,为了避免重复调用 redis连接
