@@ -142,10 +142,10 @@ class DataHandler(object):
         if expression_res_string:
             trigger_res = eval(expression_res_string)
             print("whole trigger res:", trigger_res)
-            if trigger_res:  # 终于走到这一步,该触发报警了
+            if trigger_res:  # 终于走到这一步,该触发报警了；放到队列里，
                 print("##############trigger alert:", trigger_obj.severity, trigger_res)
-                self.trigger_notifier(host_obj, trigger_obj.id, positive_expressions,
-                                      msg=trigger_obj.name)  # msg 需要专门分析后生成, 这里是临时写的
+                self.trigger_notifier(host_obj, trigger_obj.id, positive_expressions, msg=trigger_obj.name)
+                # msg 需要专门分析后生成, 这里是临时写的
 
     '''
     exp_list = [iowait.avg(5) > 10 and ,...]
