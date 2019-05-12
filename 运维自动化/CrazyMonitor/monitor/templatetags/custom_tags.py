@@ -1,5 +1,4 @@
 #_*_coding:utf-8_*_
-__author__ = 'Alex Li'
 from django import template
 from monitor import models
 from django.utils.safestring import mark_safe

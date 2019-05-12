@@ -1,12 +1,12 @@
-#_*_coding:utf-8_*_
-__author__ = 'jieli'
+# _*_coding:utf-8_*_
 
 
 from django.db import models
 from django.contrib.auth.models import (
-    BaseUserManager, AbstractBaseUser,Group,PermissionsMixin
+    BaseUserManager, AbstractBaseUser, Group, PermissionsMixin
 )
 import django
+
 
 class UserManager(BaseUserManager):
     def create_user(self, email, name, password=None):
@@ -27,17 +27,15 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-    def create_superuser(self, email, name ,password):
+    def create_superuser(self, email, name, password):
         """
         Creates and saves a superuser with the given email, date of
         birth and password.
         """
         user = self.create_user(email,
-            password=password,
-            name=name,
-        )
+                                password=password,
+                                name=name,
+                                )
         user.is_admin = True
         user.save(using=self._db)
         return user
-
-
