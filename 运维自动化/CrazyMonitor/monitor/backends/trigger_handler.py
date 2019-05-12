@@ -13,7 +13,7 @@ class TriggerHandler(object):
         self.django_settings = django_settings
         self.redis = redis_conn.redis_conn(self.django_settings)
         self.alert_counters = {}  # 纪录每个action的触发报警次数
-        self.trigger_count=0
+        self.trigger_count = 0
         '''alert_counters = {
             1: {2:{'counter':0,'last_alert':None}, #k 1是主机id, {2:{'counter'}} 2是trigger id
                 4:{'counter':1,'last_alert':None}},  #k是action id, 
@@ -47,9 +47,9 @@ class TriggerHandler(object):
 
 
 class ActionHandler(object):
-    '''
+    """
     负责把达到报警条件的trigger进行分析 ,并根据 action 表中的配置来进行报警
-    '''
+    """
 
     def __init__(self, trigger_data, alert_counter_dic):
         self.trigger_data = trigger_data
@@ -66,14 +66,14 @@ class ActionHandler(object):
         )
 
     def action_email(self, action_obj, action_operation_obj, host_id, trigger_data):
-        '''
+        """
         sending alert email to who concerns.
         :param action_obj: 触发这个报警的action对象
         :param action_operation_obj: 要报警的动作对象
         :param host_id: 要报警的目标主机
         :param trigger_data: 要报警的数据
         :return:
-        '''
+        """
 
         print("要发报警的数据:", self.alert_counter_dic[action_obj.id][host_id])
         print("action email:", action_operation_obj.action_type, action_operation_obj.notifiers, trigger_data)
@@ -90,13 +90,13 @@ class ActionHandler(object):
         )
 
     def trigger_process(self):
-        '''
+        """
         分析trigger并报警
         :return:
-        '''
+        """
         print('Action Processing'.center(50, '-'))
 
-        if self.trigger_data.get('trigger_id') == None:  # trigger id == None
+        if self.trigger_data.get('trigger_id') is None:  # trigger id == None
             print(self.trigger_data)
             if self.trigger_data.get('msg'):
                 print(self.trigger_data.get('msg'))
@@ -118,27 +118,23 @@ class ActionHandler(object):
                 # 每个action 都 可以直接 包含多个主机或主机组,
                 # 为什么tigger里关联了template,template里又关联了主机，那action还要直接关联主机呢？
                 # 那是因为一个trigger可以被多个template关联，这个trigger触发了，不一定是哪个tempalte里的主机导致的
-                for hg in action.host_groups.select_related():
-                    for h in hg.host_set.select_related():
+                for hg in action.host_groups.select_related():  # 主机组
+                    for h in hg.host_set.select_related():  # 主机
                         if h.id == host_id:  # 这个action适用于此主机
                             matched_action_list.add(action)
                             if action.id not in self.alert_counter_dic:  # 第一次被 触,先初始化一个action counter dic
                                 self.alert_counter_dic[action.id] = {}
-                            print("action, ", id(action))
                             if h.id not in self.alert_counter_dic[action.id]:  # 这个主机第一次触发这个action的报警
                                 self.alert_counter_dic[action.id][h.id] = {'counter': 0, 'last_alert': time.time()}
-                                # self.alert_counter_dic.setdefault(action,{h.id:{'counter':0,'last_alert':time.time()}})
                             else:
                                 # 如果达到报警触发interval次数，就记数+1
                                 if time.time() - self.alert_counter_dic[action.id][h.id][
                                     'last_alert'] >= action.interval:
                                     self.alert_counter_dic[action.id][h.id]['counter'] += 1
-                                    # self.alert_counter_dic[action.id][h.id]['last_alert'] = time.time()
 
                                 else:
                                     print("没达到alert interval时间,不报警", action.interval,
                                           time.time() - self.alert_counter_dic[action.id][h.id]['last_alert'])
-                            # self.alert_counter_dic.setdefault(action.id,{})
 
                 for host in action.hosts.select_related():
                     if host.id == host_id:  # 这个action适用于此主机
