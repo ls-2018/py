@@ -13,6 +13,7 @@ class TriggerHandler(object):
         self.django_settings = django_settings
         self.redis = redis_conn.redis_conn(self.django_settings)
         self.alert_counters = {}  # 纪录每个action的触发报警次数
+        self.trigger_count=0
         '''alert_counters = {
             1: {2:{'counter':0,'last_alert':None}, #k 1是主机id, {2:{'counter'}} 2是trigger id
                 4:{'counter':1,'last_alert':None}},  #k是action id, 
@@ -20,18 +21,18 @@ class TriggerHandler(object):
         }'''
 
     def start_watching(self):
-        '''
+        """
         start listening and watching the needed to be handled triggers from other process
         :return:
-        '''
+        """
 
-        radio = self.redis.pubsub()
+        radio = self.redis.pubsub()  # redis接收端
         radio.subscribe(self.django_settings.TRIGGER_CHAN)
         radio.parse_response()  # ready to watch
         print("\033[43;1m************start listening new triggers**********\033[0m")
         self.trigger_count = 0
         while True:
-            msg = radio.parse_response()
+            msg = radio.parse_response()  # 阻塞
             self.trigger_consume(msg)
 
     def trigger_consume(self, msg):
