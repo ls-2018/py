@@ -1,0 +1,73 @@
+{% extends "master/base.html" %}
+
+{% block content %}
+<div class="box">
+    <div class="box-header">
+      <h1 class="box-title">{{ page_title }}</h1>
+      <a href="#" data-url="{% url 'commandcreate' %}" class="add-btn btn bg-purple btn-sm pull-right">新建命令</a>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+      <div class="well">
+        <form class="form-inline">
+          <div class="form-group">
+            <input class="form-control" name="name" type="text" value="{{ request.GET.name }}" placeholder="项目名">
+          </div>
+          <button id="search_btn" type="submit" class="btn btn-default">查询</button>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <table id="" class="table table-bordered table-hover" role="grid">
+            <thead>
+              <tr role="row">
+                <th class="text-center">名称</th>
+                <th class="text-center">项目</th>
+                <th class="text-center">命令</th>
+                <th class="text-center">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for command in coms %}
+              <tr role="row" class="odd">
+                <td class="text-center"><a href="#">{{ command.name }}</a></td>
+                <td class="text-center"> {{ command.team.name }}</td>
+                <td class="text-center"> {{ command.command }}</td>
+                <td class="text-center">
+                  <div class="btn-group">
+                    <a type="button" href="#" class="btn btn-primary btn-xs">详情</a>
+                    <a type="button" href="{% url 'comdelete' command.pk %}" class="btn del-btn btn-danger btn-xs">删除</a>
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+            <tfoot>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- /.box-body -->
+</div>
+{% endblock %}
+
+{% block footer_script %}
+<script>
+$(function(){
+    $("#command").addClass('active');
+    $(".add-btn").on('click', function(e) {
+        e.preventDefault();
+        var url = $(this).attr('data-url');
+        ui.box({
+            title: '添加项目',
+            size: 'lg',
+            footer: false,
+            remote: url
+        });
+    });
+
+})
+</script>
+{% endblock %}

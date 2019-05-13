@@ -1,0 +1,55 @@
+<table class="table table-bordered table-hover" role="grid">
+    <tbody>
+    <tr>
+        <td class="text-center" style="width:200px"> 项目名称</td>
+        <td class="text-center">{{ code.team.name }}</td>
+    </tr>
+    <tr>
+        <td class="text-center" style="width:200px"> 更新时间</td>
+        <td class="text-center">{{ code.create_time|date:"Y-m-d H:m:s" }}</td>
+    </tr>
+    <tr>
+        <td class="text-center" style="width:200px"> 更新类型</td>
+        <td class="text-center">{{ code.get_type_display }}</td>
+    </tr>
+    <tr>
+        <td class="text-center" style="width:200px"> 更新人员</td>
+        <td class="text-center">{{ code.user.name }}</td>
+    </tr>
+    <tr>
+        <td class="text-center" style="width:200px"> 测试人员</td>
+        <td class="text-center">{{ code.team.test_user.name }}</td>
+    </tr>
+    <tr>
+        <td class="text-center" style="width:200px"> 更新结果</td>
+        <td class="text-center">{{ code.get_status_display }}</td>
+    </tr>
+    <tr>
+        <td class="text-center" style="width:200px"> 详情</td>
+        <td class="text-center">
+            <table class="table table-bordered table-hover" role="grid">
+
+                <thead>
+                <tr role="row">
+                    <th class="text-center">主机名</th>
+                    <th class="text-center">主机IP</th>
+                    <th class="text-center">状态</th>
+                </tr>
+                    {% for host in code.host_issue_set.all %}
+                        <tr role="row" class="odd">
+                            <td class="text-center"><a href="#">{{ host.host.name }}</a></td>
+                            <td class="text-center"> {{ host.host.hostip }}</td>
+                            <td class="text-center"> {{ host.get_status_display }}</td>
+
+                        </tr>
+                    {% endfor %}
+                </thead>
+            </table>
+
+
+        </td>
+    </tr>
+
+
+    </tbody>
+</table>

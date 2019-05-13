@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/issue/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/issue/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/issue/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/issue/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/login_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/adminlte.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/_all-skins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-black-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-black-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-black.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-blue-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-blue-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-green-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-green-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-purple-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-purple-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-red-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-red-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-yellow-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/css/skins/skin-yellow.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/default-50x50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/js/adminlte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/AdminLTE/js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/css/wizard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/img/cd-icon-location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/img/cd-icon-movie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/img/cd-icon-picture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/img/login_bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/js/common/ui.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/js/modernizr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/js/wizard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/Ionicons/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/Ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/Ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/Ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/Ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/Ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-datetimepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/css/sco.message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/css/scojs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.panes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap-scojs/js/sco.valid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/fastclick/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/gateone/gateone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/LICENCE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/beep1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/beep1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/beep2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/beep2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/beep3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/beep3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling4.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling5.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/bling5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/blop.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/blop.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/boop1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/boop1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/boop2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/boop2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/boop3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/audio/boop3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/jBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/jBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/jBox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Confirm/jBox.Confirm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Confirm/jBox.Confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Confirm/jBox.Confirm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Image/jBox.Image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Image/jBox.Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Image/jBox.Image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Notice/jBox.Notice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Notice/jBox.Notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/plugins/Notice/jBox.Notice.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/themes/NoticeFancy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/themes/TooltipBorder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/themes/TooltipBorderThick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/themes/TooltipDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/themes/TooltipError.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/themes/TooltipSmall.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jBox/themes/TooltipSmallGray.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-cookie/jquery-cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-growl/jquery.grow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-knob/jquery.knob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/draggable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/resizable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/selectable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/selectmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/sortable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/base/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_diagonals-thick_8_333333_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_flat_65_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_glass_40_111111_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_glass_55_1c1c1c_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_100_f9f9f9_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_40_aaaaaa_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_highlight-soft_50_aaaaaa_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_45_cd0a0a_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_55_ffeb80_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-icons_4ca300_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-icons_bbbbbb_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-icons_ededed_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-icons_ffcf29_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/black-tie/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_dots-small_65_a6a6a6_2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_flat_0_333333_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_flat_65_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_glass_55_fbf8ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-bg_highlight-soft_15_cc0000_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-icons_004276_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/blitzer/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-icons_2694e8_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-icons_3d80b3_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-icons_72a7cf_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/cupertino/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_glass_40_ffc73d_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_highlight-hard_20_0972a5_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_33_003147_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_35_222222_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_44_444444_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-bg_loop_25_000000_21x21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-icons_4b8e0b_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-icons_a83300_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-icons_cccccc_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dark-hive/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_dots-medium_30_0b58a2_4x4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_20_333333_2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_30_a32d00_2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_40_00498f_2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_flat_40_292929_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-bg_gloss-wave_20_111111_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-icons_00498f_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-icons_98d2fb_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-icons_9ccdfc_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/dot-luv/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_flat_55_994d53_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_flat_55_fafafa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_gloss-wave_30_3d3644_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_dcd9de_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_eae6ea_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_25_30273a_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_45_5f5964_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-icons_734d99_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-icons_8d78a5_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-icons_a8a3ae_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-icons_ebccce_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/eggplant/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-small_25_c5ddfc_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_20_e69700_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_26_2293f7_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_flat_0_e69700_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_flat_0_e6b900_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_highlight-soft_100_f9f9f9_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-bg_inset-hard_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-icons_0a82eb_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-icons_0b54d5_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-icons_5fa5e3_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-icons_fcdd4a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/excite-bike/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_flat_55_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-icons_0073ea_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-icons_666666_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-icons_ff0084_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/flick/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_flat_75_ba9217_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-icons_88a206_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-icons_c02669_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-icons_e1e463_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-icons_ffeb33_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/hot-sneaks/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_glass_100_f5f0e5_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_glass_25_cb842e_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_glass_70_ede4d4_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_100_f4f0ec_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_75_f5f5b5_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-bg_inset-soft_100_f4f0ec_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-icons_c47a23_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-icons_cb672b_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-icons_f08000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-icons_f35f07_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-icons_ff7519_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/humanity/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_diagonals-small_0_aaaaaa_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_15_444444_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_95_ffdc2e_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_glass_55_fbf5d0_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_highlight-hard_30_285c00_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_33_3a8104_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_50_4eb305_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_60_4ca20b_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-bg_inset-soft_10_285c00_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-icons_4eb305_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-icons_72b42d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/le-frog/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_glass_15_5f391b_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_20_1c160d_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_25_453326_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_30_44372c_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_201913_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_619226_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-bg_inset-soft_10_201913_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-icons_9bcc60_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-icons_add978_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-icons_e3ddc9_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-icons_f1fd86_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/mint-choc/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_flat_55_c0402a_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_flat_55_eeeeee_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_glass_100_f8f8f8_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_glass_35_dddddd_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_glass_60_eeeeee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_inset-hard_75_999999_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-bg_inset-soft_50_c9c9c9_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-icons_3383bb_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-icons_70b2e1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-icons_999999_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/images/ui-icons_fbc856_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/overcast/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_20_6e4f1c_10x10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_40_000000_10x10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_eceadf_60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_eceadf_60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_f7f3de_60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_ffffff_60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_65_654b24_60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_68_b83400_60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-icons_3572ac_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-icons_8c291d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-icons_b83400_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-icons_fbdb93_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/pepper-grinder/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_flat_55_fbec88_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_glass_85_dfeffc_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-icons_217bc0_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-icons_469bdd_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-icons_6da8d5_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/images/ui-icons_f9bd01_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/redmond/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/smoothness/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_glass_55_fcf0ba_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_gloss-wave_100_ece8da_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_fafaf4_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_15_459e00_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_95_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_25_67b021_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_95_ffedad_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-bg_inset-soft_15_2b2922_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-icons_808080_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-icons_847e71_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-icons_8DC262_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-icons_eeeeee_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/south-street/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_flat_55_999999_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_glass_45_0078ae_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_glass_55_f8da4e_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_glass_75_79c9ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-icons_0078ae_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-icons_056b93_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-icons_e0fdff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-icons_f5e175_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-icons_f7a50d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/images/ui-icons_fcd113_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/start/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_diagonals-medium_20_d34d17_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_60_fece2f_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_70_ffdd57_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_90_fff9e5_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_highlight-soft_100_feeebd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-bg_inset-soft_30_ffffff_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-icons_3d3d3d_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-icons_bd7b00_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-icons_d19405_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-icons_eb990f_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-icons_ed9f26_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-icons_fadc7a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/images/ui-icons_ffe180_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/sunny/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_10_4f4221_10x8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_20_372806_10x8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_675423_10x8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_d5ac5d_10x8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_261803_10x8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_443113_10x8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_flat_75_ddd4b0_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-icons_070603_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-icons_e8e2b5_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-icons_e9cd86_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-icons_efec9f_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-icons_f2ec64_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-icons_f9f2bd_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/images/ui-icons_ff7519_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/swanky-purse/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_diagonals-small_50_262626_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_flat_0_303030_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_flat_0_4c4c4c_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_glass_40_0a0a0a_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_glass_55_f1fbe5_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_glass_60_000000_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_55_000000_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_85_9fda58_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_95_f6ecd5_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-icons_000000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-icons_1f1f1f_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-icons_9fda58_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-icons_b8ec79_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/trontastic/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_glass_20_555555_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_0078a3_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_ffc73d_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_gloss-wave_25_333333_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_25_000000_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-icons_4b8e0b_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-icons_a83300_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-icons_cccccc_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-darkness/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/ui-lightness/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_gloss-wave_16_121212_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_highlight-hard_15_888888_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_highlight-hard_55_555555_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_highlight-soft_35_adadad_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_highlight-soft_60_dddddd_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-bg_inset-soft_15_121212_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-icons_666666_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-icons_aaaaaa_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-icons_bbbbbb_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-icons_c98000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-icons_cccccc_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/images/ui-icons_f29a00_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/themes/vader/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-blind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-bounce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-clip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-drop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-explode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-fade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-fold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-puff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-pulsate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-shake.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-size.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-slide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect-transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/effect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ar-DZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-cy-GB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-en-AU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-en-GB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-en-NZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-fr-CA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-fr-CH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-it-CH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-nl-BE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-rm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-sr-SR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-tj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-zh-HK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/i18n/datepicker-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/button.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/dialog.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/draggable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/droppable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-blind.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-bounce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-clip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-drop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-explode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-fade.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-fold.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-puff.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-pulsate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-scale.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-shake.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-size.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-slide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect-transfer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/effect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-af.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ar-DZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-be.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-cy-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-fr-CA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-hi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-lb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-nb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-nn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-rm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-sr-SR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-ta.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-tj.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-zh-HK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/i18n/datepicker-zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/mouse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/position.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/resizable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/selectable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/selectmenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/spinner.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/tabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/minified/widget.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/mouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/progressbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/selectable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/selectmenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery-ui/ui/widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/css/fileinput-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/css/fileinput-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/css/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/LANG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/cr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/kz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/locales/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/plugins/piexif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/plugins/piexif.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/plugins/purify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/plugins/purify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/plugins/sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/js/plugins/sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/scss/fileinput-rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/scss/fileinput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/scss/themes/explorer-fa/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/scss/themes/explorer-fas/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/scss/themes/explorer/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fa/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fa/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fa/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fas/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fas/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fas/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer-fas/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/explorer/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/fa/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/fas/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/fas/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/gly/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/kartik-v-bootstrap-fileinput/themes/gly/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/en-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/zh-hk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/locale/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/min/locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/min/locales.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/min/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/min/moment-with-locales.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/min/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/moment/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/js/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/js/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/js/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/js/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/js/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/js/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/select2/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/assets/fonts/jquery.filer-icons/jquery-filer-preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/assets/fonts/jquery.filer-icons/jquery-filer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/assets/fonts/jquery.filer-icons/jquery-filer.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/assets/fonts/jquery.filer-icons/jquery-filer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/assets/fonts/jquery.filer-icons/jquery-filer.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/assets/fonts/jquery.filer-icons/jquery-filer.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/jquery-filer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/jquery.filer-dragdropbox-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/jquery.filer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/themes/jquery.filer-dragdropbox-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/css/tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/jQuery之家.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/js/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/js/jquery.filer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/js/jquery.filer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/js/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/plugins/upload/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/static/readme.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/code_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/command_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/command_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/file_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/git_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/host_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/host_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/master/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/master/breadcrumb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/master/footer_js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/master/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/master/header_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/master/paginator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/master/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/project_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/project_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/rollback_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/team_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/test_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/test_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/test_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/update_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/user_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/ansible2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/ansible2/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/ansible2/callback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/ansible2/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/ansible2/inventory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/ansible2/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/ansible2/test_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/csv_template/machine_demo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/jsonfield/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/jsonfield/encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/jsonfield/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/jsonfield/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/jsonfield/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/jsonfield/subclassing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/jsonfield/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/utils/mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/code_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/com.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/comm_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/host.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/host_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0002_command_test_userprofile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0003_auto_20181219_0742.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0004_auto_20181221_0729.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0005_auto_20181225_0411.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0006_auto_20181225_0702.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0007_auto_20181225_1012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0008_issue_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/0009_auto_20190103_0107.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/project_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/templates/scheduler/ansibletask_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/templates/scheduler/ansibletask_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/templates/scheduler/ansibletask_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/templates/scheduler/crontabtask_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/templates/scheduler/crontabtask_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/templates/scheduler/crontabtask_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/test_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/user_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/issue/web/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/book$cpu_mac.coverage" NAME="cpu_mac Coverage Results" MODIFIED="1557627167217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux" />
+    <SUITE FILE_PATH="coverage/book$sysinfo.coverage" NAME="sysinfo Coverage Results" MODIFIED="1557627341339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/windows" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>commands</find>
+      <find>command_handler</find>
+      <find>service_data_report</find>
+      <find>u&quot;</find>
+      <find>Action</find>
+      <find>get_host_triggers</find>
+      <find>data_processing</find>
+      <find>DataHandler</find>
+      <find>data_optimization</find>
+      <find>DataStore</find>
+      <find>__init__</find>
+      <find>models.</find>
+      <find>load_service_data_and_calulating</find>
+      <find>ExpressionProcess</find>
+      <find>operator</find>
+      <find>service_triggers</find>
+      <find>trigger_handler</find>
+      <find>action_e</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>subprocess</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/CrazyMonitorClient/core/client.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/CrazyMonitorClient/core/main.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/host_alive.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/mac_load.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/memory.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/network.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/sysinfo.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/windows/sysinfo.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/core/main.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/conf/settings.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/core/client.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/CPU.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/cpu.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/load.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/plugin_api.py" />
+        <option value="$PROJECT_DIR$/编程珠玑/1.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/CrazyMonitorClient/plugins/linux/cpu_mac.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/MonitorServer.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/auth.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/templatetags/custom_tags.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/__init__.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/models.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/views.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/serializer.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/management.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/perpetual_machine.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/redis_conn.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/trigger_handler.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/host_status.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/data_processing.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/data_optimization.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/admin.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/graphs.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/tests.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/urls.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/models.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/plans.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/plugin_apis.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/tasks.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/urls.py" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="734" />
+    <option name="width" value="1132" />
+    <option name="height" value="1046" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="issue" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\运维自动化\CrazyMonitor" />
+      <recent name="D:\Destop\book\编程珠玑" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.sysinfo">
+    <configuration name="cpu_mac" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/cpu_mac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sysinfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/windows" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/windows/sysinfo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sysinfo" />
+        <item itemvalue="Python.cpu_mac" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="" />
+      <created>1557626146301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557626146301</updated>
+      <workItem from="1557626154359" duration="3428000" />
+      <workItem from="1557646109433" duration="8827000" />
+      <workItem from="1557661713626" duration="1349000" />
+      <workItem from="1557663673622" duration="6599000" />
+      <workItem from="1557704388034" duration="1454000" />
+      <workItem from="1557709887022" duration="607000" />
+      <workItem from="1557710828191" duration="328000" />
+    </task>
+    <task id="LOCAL-00001" summary="CrazyMonitor">
+      <created>1557626962084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557626962084</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CrazyMonitor">
+      <created>1557627089863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557627089863</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CrazyMonitor">
+      <created>1557628365340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557628365340</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CrazyMonitor">
+      <created>1557628506700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557628506700</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CrazyMonitor">
+      <created>1557628648385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557628648385</updated>
+    </task>
+    <task id="LOCAL-00006" summary="CrazyMonitor">
+      <created>1557628707710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557628707710</updated>
+    </task>
+    <task id="LOCAL-00007" summary="CrazyMonitor">
+      <created>1557629163171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557629163171</updated>
+    </task>
+    <task id="LOCAL-00008" summary="CrazyMonitor">
+      <created>1557629538769</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557629538769</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CrazyMonitor">
+      <created>1557646547024</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557646547025</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CrazyMonitor">
+      <created>1557646961202</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557646961202</updated>
+    </task>
+    <task id="LOCAL-00011" summary="CrazyMonitor">
+      <created>1557647032559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557647032559</updated>
+    </task>
+    <task id="LOCAL-00012" summary="CrazyMonitor">
+      <created>1557647468620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557647468620</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CrazyMonitor">
+      <created>1557649247293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557649247293</updated>
+    </task>
+    <task id="LOCAL-00014" summary="CrazyMonitor">
+      <created>1557650030421</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557650030421</updated>
+    </task>
+    <task id="LOCAL-00015" summary="CrazyMonitor">
+      <created>1557651971353</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557651971353</updated>
+    </task>
+    <task id="LOCAL-00016" summary="CrazyMonitor">
+      <created>1557652315776</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557652315776</updated>
+    </task>
+    <task id="LOCAL-00017" summary="CrazyMonitor">
+      <created>1557653710744</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557653710744</updated>
+    </task>
+    <task id="LOCAL-00018" summary="CrazyMonitor">
+      <created>1557654368814</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557654368814</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CrazyMonitor">
+      <created>1557654785547</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557654785547</updated>
+    </task>
+    <task id="LOCAL-00020" summary="CrazyMonitor">
+      <created>1557655060625</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557655060625</updated>
+    </task>
+    <task id="LOCAL-00021" summary="CrazyMonitor">
+      <created>1557655259970</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1557655259970</updated>
+    </task>
+    <task id="LOCAL-00022" summary="CrazyMonitor">
+      <created>1557663702353</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1557663702353</updated>
+    </task>
+    <task id="LOCAL-00023" summary="CrazyMonitor">
+      <created>1557664062653</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1557664062653</updated>
+    </task>
+    <task id="LOCAL-00024" summary="CrazyMonitor">
+      <created>1557664942881</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1557664942881</updated>
+    </task>
+    <task id="LOCAL-00025" summary="CrazyMonitor">
+      <created>1557665714262</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1557665714262</updated>
+    </task>
+    <task id="LOCAL-00026" summary="CrazyMonitor">
+      <created>1557666543873</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1557666543873</updated>
+    </task>
+    <task id="LOCAL-00027" summary="CrazyMonitor">
+      <created>1557667127269</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1557667127269</updated>
+    </task>
+    <task id="LOCAL-00028" summary="CrazyMonitor">
+      <created>1557668988745</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1557668988745</updated>
+    </task>
+    <task id="LOCAL-00029" summary="CrazyMonitor">
+      <created>1557705901577</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1557705901577</updated>
+    </task>
+    <task id="LOCAL-00030" summary="CrazyMonitor">
+      <created>1557705920737</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1557705920738</updated>
+    </task>
+    <task id="LOCAL-00031" summary="CrazyMonitor">
+      <created>1557705939897</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1557705939897</updated>
+    </task>
+    <task id="LOCAL-00032" summary="CrazyMonitor">
+      <created>1557705966589</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1557705966589</updated>
+    </task>
+    <task id="LOCAL-00033" summary="CrazyEye">
+      <created>1557706007427</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1557706007427</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22592000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="734" y="0" width="1132" height="1046" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24160448" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49950248" weight="0.32936978" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5009328" side_tool="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49906716" visible="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CrazyMonitor" />
+    <MESSAGE value="CrazyEye" />
+    <option name="LAST_COMMIT_MESSAGE" value="CrazyEye" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/CrazyMonitorClient/plugins/linux/cpu_mac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/CrazyMonitorClient/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程珠玑/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/CrazyMonitor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#645#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/CrazyMonitorClient/conf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/templatetags/custom_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/migrations/0002_auto_20170407_1608.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/share/screeshots/monitor2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/share/screeshots/flow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/share/screeshots/monitor1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/Python36/Lib/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1860">
+          <caret line="293" column="42" lean-forward="true" selection-start-line="293" selection-start-column="42" selection-end-line="293" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#377#1" />
+            <element signature="e#389#961#0" />
+            <element signature="e#1098#1131#0" />
+            <element signature="e#1151#1186#0" />
+            <element signature="e#1206#1241#0" />
+            <element signature="e#1261#1296#0" />
+            <element signature="e#1316#1351#0" />
+            <element signature="e#1371#1404#0" />
+            <element signature="e#1505#1538#0" />
+            <element signature="e#1558#1634#0" />
+            <element signature="e#1655#1690#0" />
+            <element signature="e#1714#1757#0" />
+            <element signature="e#1857#1893#0" />
+            <element signature="e#1914#1947#0" />
+            <element signature="e#1969#2002#0" />
+            <element signature="e#2028#2063#0" />
+            <element signature="e#2083#2132#0" />
+            <element signature="e#2150#2177#0" />
+            <element signature="e#2214#2249#0" />
+            <element signature="e#2270#2303#0" />
+            <element signature="e#2324#2357#0" />
+            <element signature="e#2381#2414#0" />
+            <element signature="e#2432#2459#0" />
+            <element signature="e#2480#2513#0" />
+            <element signature="e#2531#2558#0" />
+            <element signature="e#2579#2614#0" />
+            <element signature="e#2638#2673#0" />
+            <element signature="e#2694#2727#0" />
+            <element signature="e#2752#2785#0" />
+            <element signature="e#2806#2839#0" />
+            <element signature="e#2945#3137#0" />
+            <element signature="e#3031#3120#0" />
+            <element signature="e#3163#3223#0" />
+            <element signature="e#3248#3380#0" />
+            <element signature="e#3330#3363#0" />
+            <element signature="e#3405#3437#0" />
+            <element signature="e#3462#3493#0" />
+            <element signature="e#3518#3698#0" />
+            <element signature="e#3592#3623#0" />
+            <element signature="e#3726#3758#0" />
+            <element signature="e#3797#4853#0" />
+            <element signature="e#3797#4109#1" />
+            <element signature="e#4155#4281#0" />
+            <element signature="e#4625#4739#0" />
+            <element signature="e#4764#4838#0" />
+            <element signature="e#4959#6319#0" />
+            <element signature="e#4959#5307#1" />
+            <element signature="e#5391#5982#0" />
+            <element signature="e#5417#5747#0" />
+            <element signature="e#5627#5717#0" />
+            <element signature="e#5774#5982#0" />
+            <element signature="e#5905#5952#0" />
+            <element signature="e#6021#6043#0" />
+            <element signature="e#6077#6249#0" />
+            <element signature="e#6099#6248#0" />
+            <element signature="e#6285#6319#0" />
+            <element signature="e#6343#7292#0" />
+            <element signature="e#6343#6565#1" />
+            <element signature="e#6649#6959#0" />
+            <element signature="e#6675#6786#0" />
+            <element signature="e#6740#6756#0" />
+            <element signature="e#6813#6959#0" />
+            <element signature="e#6894#6929#0" />
+            <element signature="e#6998#7020#0" />
+            <element signature="e#7054#7222#0" />
+            <element signature="e#7076#7221#0" />
+            <element signature="e#7258#7292#0" />
+            <element signature="e#7318#8693#0" />
+            <element signature="e#7318#7570#1" />
+            <element signature="e#7661#8005#0" />
+            <element signature="e#7691#7789#0" />
+            <element signature="e#8044#8104#0" />
+            <element signature="e#8138#8436#0" />
+            <element signature="e#8308#8435#0" />
+            <element signature="e#8472#8693#0" />
+            <element signature="e#8581#8693#0" />
+            <element signature="e#8798#8839#0" />
+            <element signature="e#8861#8902#0" />
+            <element signature="e#8927#9127#0" />
+            <element signature="e#9014#9103#0" />
+            <element signature="e#9154#9197#0" />
+            <element signature="e#9222#9265#0" />
+            <element signature="e#9287#9328#0" />
+            <element signature="e#9350#9391#0" />
+            <element signature="e#9416#9457#0" />
+            <element signature="e#9478#9519#0" />
+            <element signature="e#9541#9583#0" />
+            <element signature="e#9608#9651#0" />
+            <element signature="e#9673#9714#0" />
+            <element signature="e#9740#9781#0" />
+            <element signature="e#9803#9844#0" />
+            <element signature="e#9950#10025#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1307">
+          <caret line="292" column="8" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="300">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/redis_conn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/trigger_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/perpetual_machine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="e#22#36#0" expanded="true" />
+            <element signature="e#644#783#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/host_status.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/data_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#21#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/data_optimization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="114" column="37" selection-start-line="114" selection-start-column="37" selection-end-line="114" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/api_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+          <folding>
+            <element signature="e#20#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/MonitorServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/plans.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/plugin_apis.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/tasks.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/celeryconfig.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/crazy_eyes_mgr.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/crazyeye_uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/MadKing/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

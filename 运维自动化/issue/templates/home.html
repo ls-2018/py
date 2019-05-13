@@ -1,0 +1,243 @@
+{% extends "master/base.html" %}
+
+{% block content %}
+<!-- Small boxes (Stat box) -->
+<div class="row">
+  <div class="col-lg-4">
+      <div id="machine_pie" style="width: 100%;height: 300px;"></div>
+  </div>
+  <!-- ./col -->
+  <div class="col-lg-4">
+    <!-- small box -->
+      <div id="machine_status_pie" style="width: 100%;height: 300px;"></div>
+  </div>
+  <!-- ./col -->
+  <div class="col-lg-4 col-xs-6">
+    <!-- small box -->
+      <div id="ansibletask_pie" style="width: 100%;height: 300px;"></div>
+  </div>
+  <!-- ./col -->
+</div>
+<!-- /.row -->
+<!-- Main row -->
+{% endblock %}
+
+{% block footer_script %}
+
+    <script>
+        $("#dashboard").addClass('active menu-open');
+        var myChart1 = echarts.init(document.getElementById('machine_pie'));
+        var myChart2 = echarts.init(document.getElementById('ansibletask_pie'));
+        var myChart3 = echarts.init(document.getElementById('machine_status_pie'));
+        machine_option = {
+            title : {
+                text: '主机类型',
+{#                subtext: '物理机-虚拟机-网络设备',#}
+                x:"center"
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                left: "right",
+                data: ['物理机','虚拟机','网络设备','容器']
+            },
+            series : [
+                {
+                    name: '访问来源',
+                    type: 'pie',
+                    radius : '55%',
+                    center: ['50%', '60%'],
+                    data:[
+                        {value:0, name:'物理机'},
+                        {value:0, name:'虚拟机'},
+                        {value:0, name:'网络设备'},
+                        {value:0, name:'容器'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+
+        ansible_option = {
+            title : {
+                text: 'Ansible任务',
+                x:"center"
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                left: "right",
+                data: ['未开始','执行中','已完成','执行失败']
+            },
+            series : [
+                {
+                    name: "任务状态",
+                    type: 'pie',
+                    radius : '55%',
+                    center: ['50%', '60%'],
+                    data:[
+                        {value:0, name:'未开始'},
+                        {value:0, name:'执行中'},
+                        {value:0, name:'已完成'},
+                        {value:0, name:'执行失败'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+
+        machine_status_option = {
+            title : {
+                text: '主机状态',
+                x:"center"
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                left: "right",
+                data: ['使用中','未使用','故障','其它']
+            },
+            series : [
+                {
+                    name: "主机状态",
+                    type: 'pie',
+                    radius : '55%',
+                    center: ['50%', '60%'],
+                    data:[
+                        {value:0, name:'使用中'},
+                        {value:0, name:'未使用'},
+                        {value:0, name:'故障'},
+                        {value:0, name:'其它'}
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+
+
+
+        myChart1.setOption(machine_option);
+        myChart2.setOption(ansible_option);
+        myChart3.setOption(machine_status_option);
+
+        myChart1.on('click', function(params){
+           // 点击柱状图不同位置打开相应的百度搜索页面
+           //window.open('https://www.baidu.com/s?wd=' + encodeURIComponent(params.name));
+
+           //点击柱状图不同位置跳转到不同页面
+           var name=params.name;
+           console.log(name);
+           //window.open('https://www.baidu.com/s?wd=' + encodeURIComponent(params.name));
+            window.location.href = ("{% url 'server:machine_list' %}");
+       });
+
+        // 动态获取数据
+        var newdata = [];
+        function updateData() {
+            $.ajax({
+            //几个参数需要注意一下
+                type: "GET",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "{% url 'server:machine_type' %}" ,//url
+                success: function (result, status, xhr) {
+{#                        console.log(result);//打印服务端返回的数据(调试用)#}
+                    newdata = [
+                        {value: result.physical_machines, name: "物理机"},
+                        {value: result.virtual_machines, name: "虚拟机"},
+                        {value: result.container_machines, name: "容器"},
+                        {value: result.network_device, name: "网络设备"}
+                        ];
+                    machine_option.series[0].data=newdata;
+                    myChart1.setOption(machine_option);
+                },
+                error : function(xhr, status, error) {
+                    console.log(xhr);
+                    console.log(status);
+                    console.log(error);
+                }
+            });
+
+            // ansibletask_status
+            $.ajax({
+            //几个参数需要注意一下
+                type: "GET",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "{% url 'scheduler:ansibletask_status' %}" ,//url
+                success: function (result, status, xhr) {
+                        console.log(result);//打印服务端返回的数据(调试用)
+                    newdata = [
+                        {value: result.waitting, name: "未开始"},
+                        {value: result.running, name: "执行中"},
+                        {value: result.finished, name: "已完成"},
+                        {value: result.failed, name: "执行失败"}
+                        ];
+                    ansible_option.series[0].data=newdata;
+                    myChart2.setOption(ansible_option);
+
+                },
+                error : function(xhr, status, error) {
+                    console.log(xhr);
+                    console.log(status);
+                    console.log(error);
+                }
+            });
+
+        // 获取主机状态信息
+           $.ajax({
+            //几个参数需要注意一下
+                type: "GET",//方法类型
+                dataType: "json",//预期服务器返回的数据类型
+                url: "{% url 'server:machine_status' %}" ,//url
+                success: function (result, status, xhr) {
+                        console.log(result);//打印服务端返回的数据(调试用)
+                    newdata = [
+                        {value: result.using, name: "使用中"},
+                        {value: result.nousing, name: "未使用"},
+                        {value: result.breakdone, name: "故障"},
+                        {value: result.other, name: "其它"}
+                        ];
+                    machine_status_option.series[0].data=newdata;
+                    myChart3.setOption(machine_status_option);
+
+                },
+                error : function(xhr, status, error) {
+                    console.log(xhr);
+                    console.log(status);
+                    console.log(error);
+                }
+            });
+
+
+        }
+
+        updateData();
+        setInterval(updateData, 5000);
+    </script>
+{% endblock %}

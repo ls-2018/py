@@ -1,0 +1,155 @@
+{% extends "master/base.html" %}
+{% block content %}
+<div class="box">
+    <div class="box-header">
+      <h1 class="box-title">{{ page_title }}</h1>
+      <a href="{% url 'scheduler:crontabtask_create' %}" class="btn bg-purple btn-sm pull-right">创建任务</a>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+      <div class="well">
+        <form class="form-inline">
+          <div class="form-group">
+            <input class="form-control" name="task_name" type="text" value="{{ request.GET.task_name }}"
+                   placeholder="任务名">
+            <select class="form-control" name="task_status">
+              <option>all</option>
+              <option value="0" {% if request.GET.task_status == "0" %}selected{% endif %}>未添加</option>
+              <option value="1" {% if request.GET.task_status == "1" %}selected{% endif %}>已添加</option>
+              <option value="2" {% if request.GET.task_status == "2" %}selected{% endif %}>已删除</option>
+            </select>
+          </div>
+          <button id="search_btn" type="submit" class="btn btn-default">查询</button>
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <table id="" class="table table-bordered table-hover" role="grid">
+            <thead>
+              <tr role="row">
+                <th class="text-center">计划编号</th>
+                <th class="text-center">计划名称</th>
+                <th class="text-center">计划描述</th>
+                <th class="text-center">开始时间</th>
+                <th class="text-center">变更时间</th>
+                <th class="text-center">计划状态</th>
+                <th class="text-center">创建人</th>
+                <th class="text-center">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for task in tasks %}
+              <tr role="row" class="odd">
+                <td class="text-center">{{ task.id }}</td>
+                <td class="text-center">{{ task.cron_name }}</td>
+                <td class="text-center"> {{ task.cron_describe }}</td>
+                <td class="text-center"> {{ task.create_at }}</td>
+                <td class="text-center"> {{ task.update_at }}</td>
+                <td class="text-center"> <span class="label {% if task.task_status == '0'  %}label-danger
+                        {% elif task.task_status == '1' %}label-primary{% elif task.task_status == '2' %}label-success
+                        {% elif task.task_status == '3' %}label-danger{% elif task.task_status == '4' %}label-warning{% endif %}">
+                    {{ task.get_task_status_display }}</span></td>
+                </td>
+
+                <td class="text-center"> {{ task.create_user }}</td>
+                <td class="text-center">
+                  <div class="btn-group">
+                    <a href="{% url 'scheduler:crontab_detail' task.id %}"><button type="button" class="btn
+                    btn-primary btn-xs">详情</button></a>
+                    <a><button type="button" class="btn btn-danger btn-xs delete-btn" id="{{ task.cron_name }}"
+                               data-id="{{ task.id }}" {% if task.task_status == "1" or task.task_status == "4" %}disabled{% endif %}>删除任务</button></a>
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+            <tfoot>
+            </tfoot>
+          </table>
+
+        </div>
+      </div>
+
+      <div class="row">
+          {% include 'master/paginator.html' %}
+      </div>
+    </div>
+    <!-- /.box-body -->
+</div>
+{% endblock %}
+
+{% block footer_script %}
+<script>
+
+$(function(){
+    $("#menu_scheduler").addClass('active menu-open');
+    $("#menu_crontab").addClass('active');
+    $("#crontab_list").addClass('active');
+
+    // 判定当页是否有状态为执行中的，有则定时刷新
+    var flag = false;
+    {% for task in tasks %}
+        {% if task.task_status == "1" %}
+            flag = true;
+        {% endif %}
+    {% endfor %}
+    if(flag === true){
+        setTimeout("window.location.reload()", "8000");
+    }
+
+    $(".delete-btn").click(function () {
+        // shanchurenwu
+        var taskid = $(this).attr('data-id');
+        layer.open({
+            title: "确认删除",
+          content: '确认删除定时任务('+this.id+')?',
+          btn: ['确认', '取消'],
+          yes: function(index, layero) {
+              layer.close(index); //如果设定了yes回调，需进行手工关闭
+              $.ajax({
+                  url: "{% url 'scheduler:crontab_delete' %}",
+                  type: "GET",
+                  dataType: "json",
+                  data: {id: taskid},
+                  success: function (resp, status) {
+                      if(resp.code === "0"){
+                          layer.open({
+                                type: 0,
+                                title: "succeed",
+                                content: resp.msg,
+                                icon: 1,
+                                skin: "layui-layer-lan",
+                                time: 1000
+                            });
+                            setTimeout('window.location.href="{% url 'scheduler:crontabtask_list' %}"', 1500);
+                        } else {
+                            layer.open({
+                                type: 0,
+                                title: "Failed",
+                                content: resp.msg,
+                                icon: 2,
+                                skin: "layui-layer-lan"
+                            });
+                        }
+                  },
+                  error : function(xhr, status, error) {
+                      layer.open({
+                          type: 0,
+                          title: "Server Error",
+                          content: "后台error," + error,
+                          icon: 2,
+                          skin: "layui-layer-lan"
+                      })
+                  }
+                });
+          }
+        });
+    });
+
+});
+
+
+
+</script>
+{% endblock %}

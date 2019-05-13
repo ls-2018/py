@@ -1,0 +1,63 @@
+<form class="form-horizontal" enctype="multipart/form-data" id="createForm" action="" method="post">{% csrf_token %}
+    <div class="box-body">
+        {% for field in form %}
+            <div class="form-group{% if field.errors %} has-error{% endif %}">
+                <label class="col-sm-2 control-label">{{ field.label }}
+                    {% if field.field.required %}
+                        <span class="text-red">*</span>
+                    {% endif %}
+                </label>
+                <div class="col-sm-8">
+                    {{ field }}
+                </div>
+                <span class="help-block">
+          {% for error in field.errors %}
+              {{ error }}
+          {% endfor %}
+                    {{ field.help_text }}
+        </span>
+            </div>
+        {% endfor %}
+        <div class="form-group">
+            <label class="col-sm-2 control-label">
+                备注：
+            </label>
+            <div class="col-sm-8">
+                1.支持的浏览器为Chrome,Firefox,Safari,Opera 和 IE10,点击虚框内空白处选择文件</br>
+                2.请上传直接上传war包<br>
+                3.务必要上传<a href="/static/readme.xls">readme.xls</a>文件
+            </div>
+        </div>
+        <div class="box-footer text-center">
+            <button id="createBtn" type="button" class="btn btn-info" onclick="upload()">提交</button>
+            <p class="text-center"><i id='iconWait'></i></p>
+        </div>
+    </div>
+</form>
+
+<script>
+    function upload() {
+        var form = new FormData(document.getElementById("createForm"));
+        $.ajax({
+            //几个参数需要注意一下
+            type: "POST",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            contentType: false,
+            processData: false,
+            url: "{% url 'filecreate' %}",//url
+            data: form,
+            success: function (result, status, xhr) {
+                if (result.status === 1) {
+                    alert('上传失败');
+                } else {
+                    console.log(result);
+                    alert('上传成功');
+                    location.reload();
+                }
+            },
+            error: function (xhr, status, error) {
+                alert('上传失败')
+            }
+        });
+    }
+</script>

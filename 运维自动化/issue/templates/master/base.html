@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% block title %} {{ page_title }} {% endblock %} - 代码发布系统</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+  {% include "master/header_css.html" %}
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+  {% include "master/header.html" %}
+  {% include "master/sidebar.html" %}
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+
+    {% include "master/breadcrumb.html" %}
+    <!-- Main content -->
+    <section class="content">
+        {% block content %}{% endblock %}
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs"> <b>Version</b> 2.4.0 </div>
+    <strong>Copyright &copy; 2018-2020 .</strong> All rights reserved.
+
+    {% if sql_queries and False %}
+    <div class="container">
+      <h3>SQL excute in this Request</h3>
+      {% for query in sql_queries %}
+        <h3>Excute times: {{query.time}}</h3>
+        <code> {{query.sql}} </code>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+  </footer>
+
+</div>
+<!-- ./wrapper -->
+
+{% include "master/footer_js.html" %}
+
+{% block footer_script %} {% endblock %}
+</body>
+</html>

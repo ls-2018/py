@@ -1,0 +1,309 @@
+{% extends "master/base.html" %}
+
+{% block content %}
+<div class="box center-block">
+  <div class="box-header">
+    <h4 class="box-title">创建任务</h4>
+  </div>
+    <!-- Button trigger modal -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <ul class="nav nav-pills nav-justified step step-progress">
+                    <li class="active">
+                        <a>1. 基本信息</a>
+                    </li>
+                    <li>
+                        <a>2. 剧本渲染</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <form id="base_info" class="form-horizontal">{% csrf_token %}
+                                  <div class="form-group">
+                                    <label for="task_name" class="col-sm-2 control-label">任务名称</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control" name="task_name" id="task_name"
+                                             placeholder="任务名称">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task_describe" class="col-sm-2 control-label">任务描述</label>
+                                    <div class="col-sm-10">
+                                      <input type="text" class="form-control" name="task_describe" id="task_describe"
+                                             placeholder="任务描述">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="task_hosts" class="col-sm-2 control-label">执行主机</label>
+{#                                    <div class="col-sm-10">#}
+{#                                      <textarea class="form-control" rows="3" name="task_machines" id="task_machines"#}
+{#                                                placeholder="ip,ip段用逗号分隔"></textarea>#}
+{#                                    </div>#}
+
+                                    <div class="col-sm-10">
+                                      　　<select id="task_machines" multiple="multiple" class="form-control">
+                                         <optgroup label="ip">
+                                             {% for machine in machines %}
+                                              <option value="{{ machine.ip }}">{{ machine.ip }}</option>
+                                             {% endfor %}
+                                         </optgroup>
+                                     </select>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                      <button type="button" id="base_info_create" class="btn
+                                      btn-success">1.点击完成第一步</button>
+                                    </div>
+                                  </div>
+                                </form>
+                            </div>
+                            <div class="item">
+                                <div class="box-body">
+                                        <form class="form form-inline" id="upload_f" method="post">{% csrf_token  %}
+                                            <div class="row">
+                                                <div class="file-loading col-md-8">
+                                                  <input id="input-b9" name="file" multiple type="file">
+                                                </div>
+                                                <div class="col-md-4 pull-right">
+                                                    <button type="button" style="float: right;" id="upload_btn" class="btn
+                                                    btn-success">2.渲染预览区</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                  </div>
+                                <div>
+                                    <pre class="preview bg-black" style="max-height: 400px;">
+                                    </pre>
+
+                                </div>
+                            </div>
+{#                            <div class="item">#}
+{#                                <button class="btn btn-primary" id="cancel" data-dismiss="modal">取消创建</button>#}
+{#                                <button class="btn btn-primary" id="create" data-dismiss="modal">确认创建</button>#}
+{#                            </div>#}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                    <button type="button" class="btn btn-default MN MN-pre">上一步</button>
+                    <button type="button" class="btn btn-primary MN MN-next">下一步</button>
+                    <button type="button" id="confirm_create_btn" class="btn btn-success" disabled>3.确认创建并执行</button>
+            </div>
+        </div>
+    </div>
+  <!-- /.box-header -->
+
+{% endblock %}
+
+
+{% block footer_script %}
+<script>
+$(function(){
+  $("#menu_scheduler").addClass('active menu-open');
+  $("#menu_ansible").addClass('active');
+  $("#ansible_create").addClass('active');
+
+
+
+  var csrftoken = $.cookie('csrftoken');
+    function csrfSafeMethod(method) {
+        // these HTTP methods do not require CSRF protection
+        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    }
+    $.ajaxSetup({
+        beforeSend: function(xhr, settings) {
+            if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                xhr.setRequestHeader("X-CSRFToken", csrftoken);
+            }
+        }
+    });
+
+     //多选
+    var select_ips = $("#task_machines").select2({
+        placeholder: "选择要执行的机器",
+        tags: true,
+{#        maximumSelectionLength: 3  //最多能够选择的个数#}
+    });
+
+
+
+  //playbook预览
+  $(".preview").html("{{ html|safe }}");
+
+  // 隐藏pre
+  $(".MN-pre").hide();
+  $(".MN-next").hide();
+
+  $(".modal-footer .MN").each(function () {
+      $(this).click(function () {
+          if ($(this).hasClass("MN-next")) {
+              $(".MN-pre").show();
+              $(".carousel").carousel('next');
+              $(".step li.active").next().addClass("active");
+          } else {
+              $(".MN-next").show();
+              $(".carousel").carousel('prev');
+              if ($(".step li").length > 1 && $(".step li.active").length>1) {
+                  $($(".step li.active")[$(".step li.active").length - 1]).removeClass("active")
+
+              }
+            }
+      });
+  });
+
+    // check data
+  $("#base_info_create").mouseover(function () {
+      var task_name = $("#task_name").val();
+      var task_describe = $("#task_describe").val();
+      console.log(task_name, task_describe);
+
+      if(!task_name || !task_describe) {
+          $(this).attr("disabled", true);
+          setTimeout("$('#base_info_create').attr('disabled', false)", 2000);
+      }
+  });
+    // ansible任务 基本信息
+  $("#base_info_create").click(function () {
+{#      var base_info_form = new FormData(document.getElementById("base_info"));#}
+      var tn = $("#task_name").val();
+      var td = $("#task_describe").val();
+      var ipl = select_ips.val();
+      console.log(tn, td, ipl);
+
+      $.ajax({
+                url:"{% url 'scheduler:ansible_create' %}",
+                type:"POST",
+                data:{task_name: tn, task_describe: td, task_machines: ipl.join(",")},
+                dataType:"json",
+                success:function(result, status){
+                    console.log(result);
+                    if(result.code === "1"){
+                    layer.open({
+                    type: 0,
+                    title: "Failed",
+                    content: result.msg,
+                    icon: 2,
+                    skin: "layui-layer-lan"
+                    });
+                    }else{
+                        console.log(result);
+                        // 下一个步骤进行
+                        $(".MN-next").click();
+                        $(".MN-pre").show();
+
+{#                       layer.open({#}
+{#                        type: 0,#}
+{#                        title: "Succeed",#}
+{#                        content: result.msg,#}
+{#                        icon: 1,#}
+{#                        skin: "layui-layer-lan"#}
+{#                        });#}
+                    }
+                },
+                error:function(xhr, status, error){
+                    layer.open({
+                    type: 0,
+                    title: "Server Error",
+                    content: "后台error:"+error,
+                    icon: 2,
+                    skin: "layui-layer-lan"
+                });
+                }
+            });
+
+  });
+
+  // fileinput 插件
+  $("#input-b9").fileinput({
+        showPreview: false,
+        showUpload: false,
+        allowedFileExtensions: ["yaml", "yml"]
+    });
+    // playbook渲染
+    $("#upload_btn").click(function () {
+        var form = new FormData(document.getElementById("upload_f"));
+        $.ajax({
+        //几个参数需要注意一下
+            type: "POST",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            contentType: false,
+            processData: false,
+            url: "{% url 'scheduler:upload' %}" ,//url
+            data: form,
+            success: function (result, status, xhr) {
+                console.log(result);//打印服务端返回的数据(调试用)
+                console.log(status);
+                console.log(xhr);
+                $(".preview").html(result.html);
+
+                if(result.code === "1"){
+                    layer.open({
+                    type: 0,
+                    title: "剧本加载失败",
+                    content: result.msg,
+                    icon: 2,
+                    skin: "layui-layer-lan"
+                    });
+                }else{
+                    // code 高亮
+                    $('pre').each(function(i, block) {
+                        hljs.highlightBlock(block);
+                    });
+                    $("#confirm_create_btn").attr("disabled", false);
+                    return;
+                }
+            },
+            error : function(xhr, status, error) {
+                layer.open({
+                    type: 0,
+                    title: "Server Error",
+                    content: "后台error"+error,
+                    icon: 2,
+                    skin: "layui-layer-lan"
+                });
+            }
+        });
+    });
+
+    // 确认提交
+    $("#confirm_create_btn").click(function () {
+        $.ajax({
+            url:"{% url 'scheduler:ansible_save' %}",
+                type:"GET",
+                data: {},
+                dataType: "json",
+                success:function(result, status){
+                    if(result.code === "0"){
+                        window.location.href="{% url 'scheduler:ansible_list' %}";
+                    } else {
+                        layer.open({
+                            type: 0,
+                            title: "Failed",
+                            content: result.msg,
+                            icon: 2,
+                            skin: "layui-layer-lan"
+                        });
+                    }
+                },
+                error: function (xhr, status, error) {
+                    layer.open({
+                    type: 0,
+                    title: "Server Error",
+                    content: "后台error"+error,
+                    icon: 2,
+                    skin: "layui-layer-lan"
+                });
+                }
+        });
+    });
+
+});
+</script>
+{% endblock %}

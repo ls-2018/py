@@ -1,0 +1,306 @@
+{% extends "master/base.html" %}
+
+{% block content %}
+<div class="box">
+    <div class="box-header">
+    <h4 class="box-title">创建计划</h4>
+    </div>
+  <!-- /.box-header -->
+    <div class="box-body">
+        <div class="row">
+            <div class="col-md-6">
+              <div class="col-md-8">
+                <form class="form-horizontal">
+                    <div class="form-group col-md-12">
+                          <button type="button" class="btn btn-primary">分钟</button>
+                          <select class="form-control"  id="min_select" multiple="multiple" style="width: 75%;">
+                              <option value="*" selected>*</option>
+                          </select>
+
+                    </div>
+
+                    <div class="form-group col-md-12">
+                          <button type="button" class="btn btn-primary">小时</button>
+                          <select class="form-control" id="hour_select" multiple="multiple" style="width: 75%;">
+                              <option value="*" selected>*</option>
+                          </select>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">日期</button>
+                        <select class="form-control" id="day_select" multiple="multiple" style="width: 75%;">
+                            <option value="*" selected>*</option>
+                        </select>
+                      </div>
+
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">月份</button>
+                        <select class="form-control" id="month_select" multiple="multiple" style="width: 75%;">
+                            <option value="*" selected>*</option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">星期</button>
+                        <select class="form-control" id="weekday_select" multiple="multiple" style="width: 75%;">
+                            <option value="*" selected>*</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">机器</button>
+                        <select class="form-control" id="select_ips" multiple="multiple" style="width: 75%;">
+                        {% for machine in machines %}
+                          <option value="{{ machine.ip }}">{{ machine.ip }}</option>
+                         {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">CMD</button>
+                        <textarea class="form-control" id="job" name="job"></textarea>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">执行用户</button>
+                        <input class="form-control" id="run_user" name="run_user">
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">计划名称</button>
+                        <input class="form-control" id="cron_name" name="cron_name">
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <button type="button" class="btn btn-primary">计划描述</button>
+                        <input class="form-control" id="cron_describe" name="cron_describe">
+                    </div>
+
+
+                    <button id="cron_btn" type="button" class="btn btn-success">添加</button>
+                </form>
+        </div>
+          </div>
+            <div class="col-md-6">
+              <pre style="height: 500px;font-size: 16px;" class="bg-black-active"><span
+                      class="text-default">预览:</span><br>任务名称=<span class="text-danger cron_name">
+              </span><br>用户=<span class="text-danger cron_user"></span><br><code></code></pre>
+        </div>
+            </div>
+
+    </div>
+    <div class="box-footer">
+    </div>
+</div>
+{% endblock %}
+
+
+{% block footer_script %}
+<script>
+String.prototype.format = function(args) {
+        var result = this;
+        if (arguments.length > 0) {
+            if (arguments.length == 1 && typeof (args) == "object") {
+                for (var key in args) {
+                    if(args[key]!=undefined){
+                        var reg = new RegExp("({" + key + "})", "g");
+                        result = result.replace(reg, args[key]);
+                    }
+                }
+            }
+            else {
+                for (var i = 0; i < arguments.length; i++) {
+                    if (arguments[i] != undefined) {
+                        var reg= new RegExp("({)" + i + "(})", "g");
+                        result = result.replace(reg, arguments[i]);
+                    }
+                }
+            }
+        }
+        return result;
+    };
+
+
+
+
+
+
+
+$(function() {
+    $("#menu_scheduler").addClass('active menu-open');
+    $("#menu_crontab").addClass('active');
+    $("#crontab_create").addClass('active');
+
+
+    var csrftoken = $.cookie('csrftoken');
+
+    function csrfSafeMethod(method) {
+        // these HTTP methods do not require CSRF protection
+        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    }
+
+    $.ajaxSetup({
+        beforeSend: function (xhr, settings) {
+            if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                xhr.setRequestHeader("X-CSRFToken", csrftoken);
+            }
+        }
+    });
+    //生成0--59分钟
+    var min = $("#min_select");
+    for(var i=0; i<60; i++){
+        if (i !== 0){
+            min.append('<option value="{0}">{1}</option><option value="{2}">{3}</option>'.format(i, i, '*/'+i, '*/'+i));
+            continue
+        }
+        min.append('<option value="{0}">{1}</option>'.format(i, i));
+
+    }
+
+    var hour = $("#hour_select");
+    for(var i=0; i<24; i++){
+        if (i !== 0){
+            hour.append('<option value="{0}">{1}</option><option value="{2}">{3}</option>'.format(i, i,
+                '*/'+i, '*/'+i));
+            continue
+        }
+        hour.append('<option value="{0}">{1}</option>'.format(i, i));
+    }
+
+    var day = $("#day_select");
+    for(var i=1; i<31; i++){
+        day.append('<option value="{0}">{1}</option><option value="{2}">{3}</option>'.format(i, i,
+                '*/' + i, '*/' + i));
+    }
+
+    var month = $("#month_select");
+    for(var i=1; i<13; i++){
+        if(i !== 0){
+           month.append('<option value="{0}">{1}</option><option value="{2}">{3}</option>'.format(i, i,
+               '*/'+i, '*/'+i));
+           continue
+        }
+        month.append('<option value="{0}">{1}</option>'.format(i, i));
+
+    }
+
+    //
+    var wds = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+    var weekday = $("#weekday_select");
+    for(var i=0; i<7; i++){
+        weekday.append('<option value="{0}">{1}</option>'.format(i, wds[i]));
+    }
+
+    // select2 - 分钟
+    var select_min = $('#min_select').select2(
+         {
+{#             width: "80px",#}
+             width: 'resolve',
+             placeholder: "选择分钟"
+         }
+     );
+    // select2 - 小时
+    var select_hour = $('#hour_select').select2(
+         {
+             width: 'resolve',
+             placeholder: "选择小时"
+         }
+     );
+     // select2 - 日期
+    var select_day = $('#day_select').select2(
+         {
+             width: 'resolve',
+             placeholder: "选择日期"
+         }
+     );
+     // select2 - 月份
+    var select_month =  $('#month_select').select2(
+         {
+             width: 'resolve',
+             placeholder: "选择月份"
+         }
+     );
+     // select2 - 星期
+    var select_weekday =  $('#weekday_select').select2(
+         {
+             width: 'resolve',
+             placeholder: "选择星期"
+         }
+     );
+    // ips - 主机ip
+    var select_ips = $("#select_ips").select2(
+        {
+            width: 'resolve',
+             placeholder: "主机"
+        }
+    );
+
+    // 计划动态更新
+    function scheduler_update(){
+        var schedule_str = "";
+        schedule_str = select_min.val() + " " + select_hour.val() + " " + select_day.val() + " " + select_month.val() + " " + select_weekday.val();
+        var cmd = " " + $("#job").val();
+        console.log(cmd);
+        // 更新jobcmd
+        $('pre code').text(schedule_str+cmd);
+        //更新用户,cron_name
+        $("pre").children("span.cron_name").text($("#cron_name").val());
+        $("pre").children("span.cron_user").text($("#run_user").val());
+    }
+    // 初始化
+    scheduler_update();
+    // 动态更新
+    $("select, #job, #cron_describe, #cron_name, #run_user").change(scheduler_update);
+
+
+    // 添加
+    $("#cron_btn").click(function (e) {
+        $.ajax({
+            type: "POST",
+            url: "{% url 'scheduler:crontabtask_create' %}",
+            dataType: "json",
+            data: {
+                minute: select_min.val().join(','),
+                hour: select_hour.val().join(','),
+                day: select_day.val().join(','),
+                month: select_month.val().join(','),
+                weekday: select_weekday.val().join(','),
+                machines: $("#select_ips").val().join(','),
+                user: $.trim($("span.cron_user").text()),
+                cronname: $.trim($("span.cron_name").text()),
+                crondescribe: $.trim($("#cron_describe").val()),
+                jobcmd: $.trim($("#job").val()),
+                run_user: $.trim($("#run_user").val())
+            },
+            success: function (resp, status) {
+                console.log(resp.msg);
+                if(resp.code === "0"){
+{#                    layer.open({#}
+{#                        type: 0,#}
+{#                        title: "Succeed",#}
+{#                        content: resp.msg,#}
+{#                        icon: 1,#}
+{#                        skin: "layui-layer-lan",#}
+{#                        time: 2000#}
+{#                        });#}
+                    layer.load(3, {time: 10*1000});
+                    setTimeout('window.location.href = "{% url 'scheduler:crontabtask_list' %}"', 2500);
+                } else {
+                    layer.open({
+                        type: 0,
+                        title: "failed",
+                        content: resp.msg,
+                        icon: 2,
+                        skin: "layui-layer-lan",
+                        time: 1500
+                        });
+                }
+            }
+        });
+    });
+});
+
+</script>
+{% endblock %}

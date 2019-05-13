@@ -1,0 +1,205 @@
+{% extends "master/base.html" %}
+{% block content %}
+
+<div class="box">
+    <div class="box-header">
+      <h1 class="box-title">{{ page_title }}</h1>
+        <a href="{% url 'scheduler:ansible_list' %}"><button class="btn btn-primary pull-right btn-xs">返回任务列表
+        </button></a>
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <table id="" class="table table-bordered table-hover" role="grid">
+            <tbody>
+                <tr>
+                    <th class="text-center">任务名称</th>
+                    <td>{{ task.task_name }}</td>
+                </tr>
+                <tr>
+                    <th class="text-center">剧本名称</th>
+                    <td>{{ task.playbook_name }}</td>
+                </tr>
+                <tr>
+                    <th class="text-center">执行主机</th>
+                    <td>{{ task.task_machines }}</td>
+                </tr>
+                <tr>
+                    <th class="text-center">任务状态</th>
+                    <td><span class="label {% if task.task_status == '0'  %}label-danger
+                        {% elif task.task_status == '1' %}label-primary{% elif task.task_status == '2' %}label-success
+                        {% elif task.task_status == '3' %}label-danger{% endif %}">
+                    {{ task.get_task_status_display }}</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="text-center">开始时间</th>
+                    <td>{{ task.create_at }}</td>
+                </tr>
+                <tr>
+                    <th class="text-center">完成时间</th>
+                    <td>{{ task.finish_at }}</td>
+                </tr>
+                <tr>
+                    <th class="text-center">创建者</th>
+                    <td>{{ task.create_user }}</td>
+                </tr>
+                <tr>
+                    <th class="text-center">任务执行结果</th>
+                    <td>
+                    <div>
+                    <span class="label {% if task.task_status == "0" or task.task_status == "3" %}label-danger
+                        {% elif task.task_status == "1" %} label-primary
+                        {% else %}label-success{% endif %}">
+                        {% if task.task_result %}
+                            {{ task.task_result.msg }}
+                        {% else %}
+                            无
+                        {% endif %}
+                    </span>
+                    </div>
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+
+        <!-- 任务执行过程 --->
+
+        <div class="well {% if not task.task_result %}hide{% endif %}">
+            <div class="panel-heading">
+{#                <span class="page-header text-primary">结果详情</span>&nbsp;&nbsp;#}
+
+                <span class="label label-success text-">&nbsp;&nbsp;</span>&nbsp;执行成功
+                <span class="label label-danger">&nbsp;&nbsp;</span>&nbsp;执行失败
+                <span class="label label-warning">&nbsp;&nbsp;</span>&nbsp;主机不可达
+            </div>
+            <div class="row">
+                {% if task.task_status == "0" %}
+                    <p class="text-danger">
+{#                        {% display_ansibletask_result task.task_result %}#}
+                        {{ task.task_result.msg }}
+                    </p>
+                {% else %}
+                    <div class="col-md-12 {% if not task.task_result.success %}hide{% endif %}" style="border: 1px">
+                        <ul class="list-unstyled list-inline">
+                            {% for fh in task.task_result.success %}
+                                <li style="margin: 5px">
+                                    <button class="btn btn-xs btn-success btn-detail" id="{{ fh }}">{{fh}}</button>
+                                </li>
+                            {% endfor %}
+                        </ul>
+
+                    </div>
+                    <div class="col-md-12 {% if not task.task_result.failed %}hide{% endif %}">
+                        <ul class="list-unstyled list-inline">
+                            {% for fh in task.task_result.failed %}
+                                <li style="margin: 5px">
+                                    <button class="btn btn-xs btn-danger btn-detail" id="{{ fh }}">{{fh}}</button>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="col-md-12 {% if not task.task_result.unreachable %}hide{% endif %}">
+                        <ul class="list-unstyled list-inline">
+
+                            {% for fh in task.task_result.unreachable %}
+                                <li style="margin: 5px">
+                                    <button class="btn btn-xs btn-warning btn-detail" id="{{ fh }}">{{fh}}</button>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!--执行过程信息 -->
+        <div class="panel panel-info" id="host-panel-detail">
+          <div class="panel-heading"></div>
+          <div class="panel-body" style="color: black">
+          </div>
+        </div>
+
+        <div class="well">
+            <p><span class="page-header">剧本预览-<span>{{ task.playbook_name }}</span></span></p>
+            <pre style="background-color: #0f0f0f;color: white;max-height:500px;"
+            ><code>{% if task.playbook_content %}{{ task.playbook_content }}
+            {% else %}无{% endif %}</code></pre>
+        </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer_script %}
+<script>
+
+$(function(){
+    $("#menu_scheduler").addClass('active menu-open');
+    $("#menu_ansible").addClass('active');
+    $("#ansible_list").addClass('active');
+
+    // 隐藏结果框
+    $("#host-panel-detail").hide();
+
+    $(".btn-detail").click(function () {
+       var host_ip = this.id;
+       console.log(host_ip);
+       $.ajax({
+            url: "{% url 'scheduler:host_result_ansible' %}",
+            data: {taskid: "{{ task.id }}", ip: host_ip},
+            type:"GET",
+            dataType: "json",
+            success:function(result, status){
+                console.log(result);
+                if(result.code === "0"){
+                    $("#host-panel-detail").fadeIn(1000);
+                    $("#host-panel-detail").children("div.panel-heading").text(host_ip);
+                    // 循环填充
+                    $("#host-panel-detail").children("div.panel-body").text("");
+                    $.each(result.host_result,function(i, line) {  //遍历二维数组
+                        $("#host-panel-detail").children("div.panel-body").append((i+1)+". "+line+"<br>")
+                    });
+
+                } else {
+                    layer.open({
+                        type: 0,
+                        title: "Failed",
+                        content: result.msg,
+                        icon: 2,
+                        skin: "layui-layer-lan"
+                    });
+                }
+            },
+            error: function (xhr, status, error) {
+                layer.open({
+                    type: 0,
+                    title: "Server Error",
+                    content: "后台error" + error,
+                    icon: 2,
+                    skin: "layui-layer-lan"
+                });
+            }
+            });
+    });
+
+    // 定时刷新，直到状态为已完成或者失败
+    if ("{{ task.task_status }}" === "1")
+    {
+        setTimeout("window.location.reload();console.log(Date())", "5000");
+    }
+
+    // code 高亮
+    $(document).ready(function() {
+        $('pre').each(function(i, block) {
+        hljs.highlightBlock(block);
+        });
+    });
+
+});
+</script>
+{% endblock %}

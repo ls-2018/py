@@ -1,0 +1,86 @@
+{% extends "master/base.html" %}
+
+{% block content %}
+    <div class="box">
+        <div class="box-header">
+            <h1 class="box-title">{{ page_title }}</h1>
+            <a href="#" data-url="{% url 'testcreate' %}" class="add-btn btn bg-purple btn-sm pull-right">添加压测</a>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+            <div class="well">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input class="form-control" name="name" type="text" placeholder="项目名">
+                    </div>
+                    <button id="search_btn" type="submit" class="btn btn-default">查询</button>
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="" class="table table-bordered table-hover" role="grid">
+                        <thead>
+                        <tr role="row">
+                            <th class="text-center">地址</th>
+                            <th class="text-center">并发</th>
+                            <th class="text-center">次数</th>
+                            <th class="text-center">结果</th>
+                            <th class="text-center">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for test in tests %}
+                            <tr role="row" class="odd">
+                                <td class="text-center"><a href="#">{{ test.url }}</a></td>
+                                <td class="text-center"> {{ test.bingfa }}</td>
+                                <td class="text-center"> {{ test.num }}</td>
+                                <td class="text-center"> 成功</td>
+                                <td class="text-center">
+                                    <div class="btn-group">
+                                        <a type="button" href="#" data-url="{% url 'testdetail' test.pk %}" class="detail-btn btn btn-primary btn-xs">详情</a>
+                                        <a type="button" href="{% url 'testdelete' test.pk %}" class="btn del-btn btn-danger btn-xs">删除</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                        <tfoot>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.box-body -->
+    </div>
+{% endblock %}
+
+{% block footer_script %}
+    <script>
+        $(function () {
+            $("#test").addClass('active');
+            $(".add-btn").on('click', function (e) {
+                e.preventDefault();
+                var url = $(this).attr('data-url');
+                ui.box({
+                    title: '添加测试',
+                    size: 'lg',
+                    footer: false,
+                    remote: url
+                });
+            });
+
+            $(".detail-btn").on('click', function (e) {
+                e.preventDefault();
+                var url = $(this).attr('data-url');
+                ui.box({
+                    title: '测试详情',
+                    size: 'lg',
+                    footer: false,
+                    remote: url
+                });
+            });
+
+        })
+    </script>
+{% endblock %}

@@ -1,0 +1,121 @@
+{% extends "master/base.html" %}
+
+{% block content %}
+    <div class="box">
+        <div class="box-header">
+            <h1 class="box-title">{{ page_title }}</h1>
+            <a href="#" data-url="{% url 'filecreate' %}" class="add-btn-file btn bg-purple btn-sm pull-right">文件更新</a>
+            <a href="#" data-url="{% url 'gitcreate' %}" class="add-btn-git btn bg-purple btn-sm pull-right">git更新</a>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+            <div class="well">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input class="form-control" name="name" type="text" value="{{ request.GET.name }}"
+                               placeholder="项目名">
+                    </div>
+                    <button id="search_btn" type="submit" class="btn btn-default">查询</button>
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <table id="" class="table table-bordered table-hover" role="grid">
+                        <thead>
+                        <tr role="row">
+                            <th class="text-center">项目名</th>
+                            <th class="text-center">更新时间</th>
+                            <th class="text-center">更新类型</th>
+                            <th class="text-center">更新人员</th>
+                            <th class="text-center">测试人员</th>
+                            <th class="text-center">更新结果</th>
+                            <th class="text-center">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for issue in issues %}
+                            <tr role="row" class="odd">
+                                <td class="text-center"><a href="#">{{ issue.team.name }}</a></td>
+                                <td class="text-center"> {{ issue.create_time|date:"Y-m-d H:m:s" }}</td>
+                                <td class="text-center"> {{ issue.get_type_display }}</td>
+                                <td class="text-center"> {{ issue.user.name }}</td>
+                                <td class="text-center"> {{ issue.team.test_user.name }}</td>
+                                <td class="text-center"> {{ issue.get_status_display }}</td>
+                                <td class="text-center">
+                                    <div class="btn-group">
+                                        <a type="button" href="#" data-url="{% url 'codedetail' issue.pk %}"
+                                           class="detail-btn btn btn-primary btn-xs">详情</a>
+                                        {% if issue.status == "0" %}
+                                            <a type="button" href="{% url 'update' issue.pk %}"
+                                               class="btn del-btn btn-danger btn-xs">开始更新</a>
+                                        {% elif issue.status == "2" %}
+                                            <a type="button" href="{% url 'successful' issue.pk %}"
+                                               class="btn del-btn btn-danger btn-xs">测试通过</a>
+                                            <a type="button" href="{% url 'backup' issue.pk %}"
+                                               class="btn del-btn btn-success btn-xs">回滚</a>
+                                        {% elif issue.status == "4" %}
+                                            <a type="button" href="{% url 'backup' issue.pk %}"
+                                               class="btn del-btn btn-success btn-xs">回滚</a>
+                                        {% elif issue.status == "3" %}
+                                            <a type="button" href="{% url 'updateagain' issue.pk %}"
+                                               class="btn del-btn btn-danger btn-xs">再次更新</a>
+                                        {% else %}
+                                            <a type="button" href="#" class="btn del-btn btn-danger btn-xs">确认</a>
+                                        {% endif %}
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                        <tfoot>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.box-body -->
+    </div>
+{% endblock %}
+
+{% block footer_script %}
+    <script>
+        $(function () {
+            $("#menu_issue").addClass("open active")
+            $("#menu_all").addClass('active');
+            $(".add-btn-file").on('click', function (e) {
+                e.preventDefault();
+                var url = $(this).attr('data-url');
+                ui.box({
+                    title: '文件更新',
+                    size: 'lg',
+                    footer: false,
+                    remote: url
+                });
+            });
+
+            $(".add-btn-git").on('click', function (e) {
+                e.preventDefault();
+                var url = $(this).attr('data-url');
+                ui.box({
+                    title: 'git地址更新',
+                    size: 'lg',
+                    footer: false,
+                    remote: url
+                });
+            });
+
+            $(".detail-btn").on('click', function (e) {
+                e.preventDefault();
+                var url = $(this).attr('data-url');
+                ui.box({
+                    title: '更新详情',
+                    size: 'lg',
+                    footer: false,
+                    remote: url
+                });
+            });
+
+        })
+    </script>
+{% endblock %}
