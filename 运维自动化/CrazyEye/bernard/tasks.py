@@ -1,12 +1,13 @@
 # Create your tasks here
 from __future__ import absolute_import, unicode_literals
 from celery import shared_task
-from bernard.plans import  TaskPlan
+from bernard.plans import TaskPlan
+
 
 @shared_task
 def add(x, y):
-    print("runninig add", x,y)
-    return "add res:",x + y
+    print("runninig add", x, y)
+    return "add res:", x + y
 
 
 @shared_task
@@ -18,10 +19,11 @@ def mul(x, y):
 def xsum(numbers):
     return sum(numbers)
 
+
 @shared_task
 def scp_task(file):
-    print("running scp file",file)
-    return  "done"
+    print("running scp file", file)
+    return "done"
 
 
 @shared_task
