@@ -120,8 +120,8 @@ class TriggerAdmin(admin.ModelAdmin):
 
 class TriggerExpressionAdmin(admin.ModelAdmin):
     list_display = (
-    'trigger', 'service', 'service_index', 'specified_index_key', 'operator_type', 'data_calc_func', 'threshold',
-    'logic_type')
+        'trigger', 'service', 'service_index', 'specified_index_key', 'operator_type', 'data_calc_func', 'threshold',
+        'logic_type')
 
 
 admin.site.register(models.Host, HostAdmin)
