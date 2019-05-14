@@ -7,7 +7,7 @@ import sys
 
 smtp_addr = "smtp.163.com"
 myemail = "15733101139@163.com"
-password = "No15733101139"
+password = "xxx"
 print(sys.argv)
 recvmail = sys.argv[1]
 subject = sys.argv[2]
