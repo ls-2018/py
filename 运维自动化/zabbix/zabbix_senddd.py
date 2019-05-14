@@ -20,6 +20,7 @@ sendurl = 'https://oapi.dingtalk.com/message/send?access_token=' + tocken
 headers = {
     'Content-Type': 'application/json'
 }
+
 main_content = {
     "touser": touser,
     "toparty": "",
