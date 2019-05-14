@@ -1,4 +1,4 @@
-# 企业微信地址，个人可注册
+# 企业内部开发
 # https://work.weixin.qq.com/wework_admin/frame
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
