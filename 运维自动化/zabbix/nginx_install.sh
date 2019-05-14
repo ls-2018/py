@@ -1,3 +1,4 @@
+#!/bin/bash
 yum install -y wget gcc gcc-c++ make pcre pcre-devel zlib zlib-devel openssl openssl-devel
 cd /usr/local/src
 yum install lrzsz -y

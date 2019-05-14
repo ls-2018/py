@@ -1,3 +1,4 @@
+#!/bin/bash
 yum install -y gcc gcc-c++ make tar openssl openssl-devel cmake ncurses ncurses-devel
 useradd -s /sbin/nologin mysql
 cd /usr/local/src

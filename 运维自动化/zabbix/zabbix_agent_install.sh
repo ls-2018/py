@@ -21,3 +21,13 @@ echo "export PATH=$PATH:/usr/local/zabbix/sbin/:/usr/local/zabbix/bin/" >> /etc/
 source /etc/profile
 
 zabbix_agent --version
+
+###############################################################
+# PidFile=/usr/local/zabbix/zabbix_agentd.pid
+# LogFile=/usr/local/zabbix/zabbix_agentd.log
+# Hostname=xxx
+# Server=xxx
+# ServerActive=xxx   # 白名单，只设置服务端的ip
+# UnsafeUserParameters=1
+# Include=/usr/local/zabbix/etc/zabbix_agentd.conf.d/*.conf
+##############################################################
