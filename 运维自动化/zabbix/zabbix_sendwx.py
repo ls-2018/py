@@ -7,10 +7,11 @@ import sys
 import requests
 
 agentid = "1000002"
-corpid = "ww3144e40350ed3124" # 企业微信的CorpID
+corpid = "ww3144e40350ed3124"  # 企业微信的CorpID
 corpsecret = ""
 
 # get tocken
+# https://work.weixin.qq.com/api/doc#90000/90003/90487
 gettoken_url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" + corpid + "&corpsecret=" + corpsecret
 token_file = requests.get(url=gettoken_url)
 token_data = token_file.text
