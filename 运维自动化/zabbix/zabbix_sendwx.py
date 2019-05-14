@@ -37,3 +37,5 @@ print(response.text)
 if __name__ == "__main__":
     pass
     # python zabbix_sendwx.py "LiuShuo" "disk is not enough"
+
+# 发送到企业微信中
