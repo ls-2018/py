@@ -7,6 +7,7 @@
 # Created Time : 2019-05-14 10:02:18
 # Description:
 ##############################################################
+
 yum install -y gcc gcc-c++ make pcre-devel
 useradd -s /sbin/nologin zabbix
 cd /usr/local/src/
