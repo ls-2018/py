@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # curl 'https://oapi.dingtalk.com/gettoken?corpid=xxx&corpsecret=xxx'
 import json, requests, sys
+
 # 钉钉企业的地址
 # https://oa.dingtalk.com/
 # https://open-dev.dingtalk.com
@@ -28,6 +29,7 @@ main_content = {
         "content": content
     }
 }
+
 main_content = json.dumps(main_content)
 req = requests.get(url=sendurl, headers=headers)
 response = requests.post(url=req, data=main_content)
