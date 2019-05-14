@@ -18,5 +18,6 @@ make && make install
 chown zabbix:zabbix -R /usr/local/zabbix/
 
 echo "export PATH=$PATH:/usr/local/zabbix/sbin/:/usr/local/zabbix/bin/" >> /etc/profile
-
 source /etc/profile
+
+zabbix_agent --version
