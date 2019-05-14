@@ -1,14 +1,14 @@
 # 企业微信地址，个人可注册
-# https://work.weixin.qq.com/
+# https://work.weixin.qq.com/wework_admin/frame
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
 import json
 import sys
 import requests
 
-agentid = "xxx"
-corpid = "xxx"
-corpsecret = "xxx"
+agentid = "1000002"
+corpid = "ww3144e40350ed3124"
+corpsecret = "mfPMdYjvDtn2Wl1vJRty1SnN6OLIoAHMdwvcWR2nAHY"
 
 # get tocken
 gettoken_url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" + corpid + "&corpsecret=" + corpsecret
@@ -35,4 +35,4 @@ print(response.text.decode("utf-8"))
 
 if __name__ == "__main__":
     pass
-    # /usr/local/zabbix/alertscripts/zabbix_wx.py "zhuang_weihong" "disk is not enough"
+    # python zabbix_wx.py "zhuang_weihong" "disk is not enough"
