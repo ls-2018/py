@@ -26,8 +26,8 @@ zabbix_agent --version
 # PidFile=/usr/local/zabbix/zabbix_agentd.pid
 # LogFile=/usr/local/zabbix/zabbix_agentd.log
 # Hostname=xxx
-# Server=xxx
-# ServerActive=xxx   # 白名单，只设置服务端的ip
+# Server=xxx            # zabbix server的ip地址，多个ip使用逗号分隔
+# ServerActive=xxx   # agent主动上传数据，如果注释这个选项，那么当前服务器的主动监控就被禁用了
 # UnsafeUserParameters=1
 # Include=/usr/local/zabbix/etc/zabbix_agentd.conf.d/*.conf
 ##############################################################
