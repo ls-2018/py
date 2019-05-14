@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendwx.py" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendwx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,26 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendmail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#42#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendwx.py">
+        <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-              <folding>
-                <element signature="e#88#99#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="663">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -162,12 +148,14 @@
         <option value="$PROJECT_DIR$/Flask－/client.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendmail.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendwx.py" />
+        <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="424" />
-    <option name="width" value="1442" />
+    <option name="x" value="757" />
+    <option name="y" value="-10" />
+    <option name="width" value="1190" />
     <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -323,7 +311,7 @@
       <workItem from="1557704388034" duration="1454000" />
       <workItem from="1557709887022" duration="607000" />
       <workItem from="1557710828191" duration="2017000" />
-      <workItem from="1557832364898" duration="1901000" />
+      <workItem from="1557832364898" duration="3650000" />
     </task>
     <task id="LOCAL-00001" summary="CrazyMonitor">
       <created>1557626962084</created>
@@ -619,17 +607,38 @@
       <option name="project" value="LOCAL" />
       <updated>1557834258273</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="wx报警">
+      <created>1557834354962</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1557834354962</updated>
+    </task>
+    <task id="LOCAL-00044" summary="wx报警">
+      <created>1557834421253</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1557834421253</updated>
+    </task>
+    <task id="LOCAL-00045" summary="wx报警">
+      <created>1557834449903</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1557834449903</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26182000" />
+    <option name="totallyTimeSpent" value="27931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="424" y="0" width="1442" height="1046" extended-state="0" />
+    <frame x="757" y="-10" width="1190" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16353111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -665,9 +674,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="wx报警" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/migrations/0002_auto_20170407_1608.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1060,11 +1066,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendwx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="575">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="e#88#99#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
