@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="438">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -153,8 +150,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="757" />
-    <option name="y" value="-10" />
+    <option name="x" value="387" />
+    <option name="y" value="-18" />
     <option name="width" value="1190" />
     <option name="height" value="1046" />
   </component>
@@ -166,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,6 +309,7 @@
       <workItem from="1557709887022" duration="607000" />
       <workItem from="1557710828191" duration="2017000" />
       <workItem from="1557832364898" duration="3650000" />
+      <workItem from="1557838546047" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="CrazyMonitor">
       <created>1557626962084</created>
@@ -628,17 +626,31 @@
       <option name="project" value="LOCAL" />
       <updated>1557834449903</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="wx报警">
+      <created>1557838633798</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1557838633798</updated>
+    </task>
+    <task id="LOCAL-00047" summary="dd报警">
+      <created>1557838699742</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1557838699742</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27931000" />
+    <option name="totallyTimeSpent" value="28300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="757" y="-10" width="1190" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20353982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -651,7 +663,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5009328" side_tool="true" weight="0.32995495" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5009328" side_tool="true" visible="true" weight="0.32995495" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49906716" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
@@ -671,7 +683,8 @@
     <MESSAGE value="断点续传" />
     <MESSAGE value="email报警" />
     <MESSAGE value="wx报警" />
-    <option name="LAST_COMMIT_MESSAGE" value="wx报警" />
+    <MESSAGE value="dd报警" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd报警" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/__init__.py">
@@ -1076,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="438">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
