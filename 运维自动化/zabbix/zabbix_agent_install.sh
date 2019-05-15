@@ -14,6 +14,7 @@ cd /usr/local/src/
 wget 'https://nchc.dl.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/4.0.3/zabbix-4.0.3.tar.gz'
 tar -zxvf zabbix-4.0.3.tar.gz
 cd zabbix-4.0.3
+
 ./configure --prefix=/usr/local/zabbix --enable-agent
 make && make install
 chown zabbix:zabbix -R /usr/local/zabbix/
