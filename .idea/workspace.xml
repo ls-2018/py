@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.qpj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.shx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +46,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,7 +136,6 @@
         <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/graphs.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/tests.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/urls.py" />
-        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/models.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/plans.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/plugin_apis.py" />
@@ -162,6 +153,7 @@
         <option value="$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_install.sh" />
         <option value="H:/新建文件夹/数据分析师（Python）/Python资料包合集/【非常重要】Python数据分析师微专业_项目资料/项目07城市餐饮店铺选址分析/项目07城市餐饮店铺选址分析.ipynb" />
+        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py" />
       </list>
     </option>
   </component>
@@ -179,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,10 +178,40 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="CrazyEye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
+              <item name="CrazyEye" type="462c0819:PsiDirectoryNode" />
+              <item name="bernard" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,13 +341,7 @@
       <workItem from="1557839238743" duration="1572000" />
       <workItem from="1557874507978" duration="3947000" />
       <workItem from="1557915617790" duration="2353000" />
-    </task>
-    <task id="LOCAL-00011" summary="CrazyMonitor">
-      <created>1557647032559</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1557647032559</updated>
+      <workItem from="1557926980460" duration="208000" />
     </task>
     <task id="LOCAL-00012" summary="CrazyMonitor">
       <created>1557647468620</created>
@@ -664,16 +679,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557880461522</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="CrazyEye">
+      <created>1557927154575</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927154579</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36447000" />
+    <option name="totallyTimeSpent" value="36662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="404" y="214" width="1123" height="1046" extended-state="0" />
+    <frame x="604" y="248" width="1123" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19567263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19943556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -727,7 +750,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="CrazyMonitor" />
-    <MESSAGE value="CrazyEye" />
     <MESSAGE value="断点续传" />
     <MESSAGE value="email报警" />
     <MESSAGE value="wx报警" />
@@ -737,7 +759,8 @@
     <MESSAGE value="za" />
     <MESSAGE value="zabbix_agent_install" />
     <MESSAGE value="proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
+    <MESSAGE value="CrazyEye" />
+    <option name="LAST_COMMIT_MESSAGE" value="CrazyEye" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/trigger_handler.py">
@@ -883,15 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1027,27 +1041,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://H:/新建文件夹/数据分析师（Python）/Python资料包合集/【非常重要】Python数据分析师微专业_项目资料/项目07城市餐饮店铺选址分析/项目07城市餐饮店铺选址分析.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/Untitled.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据分析/project07_h1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://H:/新建文件夹/数据分析师（Python）/Python资料包合集/【非常重要】Python数据分析师微专业_项目资料/项目07城市餐饮店铺选址分析/项目07城市餐饮店铺选址分析.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/Untitled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/数据分析/project07_h1.html" />
     <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -1059,6 +1055,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
