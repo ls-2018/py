@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/net_population.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/road.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.qpj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/qgis数据/上海市行政区.shx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,26 +67,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/mac_load.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/memory.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/network.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/sysinfo.py" />
@@ -158,17 +158,18 @@
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/nginx_install.sh" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/mysql_install.sh" />
-        <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_install.sh" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh" />
+        <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_install.sh" />
+        <option value="H:/新建文件夹/数据分析师（Python）/Python资料包合集/【非常重要】Python数据分析师微专业_项目资料/项目07城市餐饮店铺选址分析/项目07城市餐饮店铺选址分析.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="800" />
-    <option name="y" value="-5" />
+    <option name="x" value="604" />
+    <option name="y" value="248" />
     <option name="width" value="1123" />
-    <option name="height" value="1046" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,22 +187,10 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
-              <item name="zabbix" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,13 +201,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\数据分析" />
+      <recent name="D:\Destop\book\运维自动化\zabbix" />
+      <recent name="D:\Destop\book\Flask－" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\运维自动化\CrazyMonitor" />
       <recent name="D:\Destop\book\编程珠玑" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\运维自动化\zabbix" />
-      <recent name="D:\Destop\book\Flask－" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,14 +318,8 @@
       <workItem from="1557832364898" duration="3650000" />
       <workItem from="1557838546047" duration="644000" />
       <workItem from="1557839238743" duration="1572000" />
-      <workItem from="1557874507978" duration="3240000" />
-    </task>
-    <task id="LOCAL-00010" summary="CrazyMonitor">
-      <created>1557646961202</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1557646961202</updated>
+      <workItem from="1557874507978" duration="3947000" />
+      <workItem from="1557915617790" duration="2353000" />
     </task>
     <task id="LOCAL-00011" summary="CrazyMonitor">
       <created>1557647032559</created>
@@ -672,17 +657,23 @@
       <option name="project" value="LOCAL" />
       <updated>1557879843311</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="proxy">
+      <created>1557880461522</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1557880461522</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33387000" />
+    <option name="totallyTimeSpent" value="36447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="-5" width="1123" height="1046" extended-state="0" />
-    <editor active="true" />
+    <frame x="404" y="214" width="1123" height="1046" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20696142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19567263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -695,8 +686,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5009328" side_tool="true" visible="true" weight="0.32995495" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49906716" weight="0.32995495" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014111" side_tool="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985889" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -745,33 +736,10 @@
     <MESSAGE value="agent" />
     <MESSAGE value="za" />
     <MESSAGE value="zabbix_agent_install" />
-    <option name="LAST_COMMIT_MESSAGE" value="zabbix_agent_install" />
+    <MESSAGE value="proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python36/Lib/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1307">
-          <caret line="292" column="8" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="300">
-            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/redis_conn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/backends/trigger_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
@@ -1045,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/nginx_install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1059,17 +1020,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/新建文件夹/数据分析师（Python）/Python资料包合集/【非常重要】Python数据分析师微专业_项目资料/项目07城市餐饮店铺选址分析/项目07城市餐饮店铺选址分析.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据分析/project07_h1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
