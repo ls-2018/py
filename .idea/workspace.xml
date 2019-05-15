@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="325">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -101,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/host_alive.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/mac_load.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/memory.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/network.py" />
@@ -152,6 +160,7 @@
         <option value="$PROJECT_DIR$/运维自动化/zabbix/mysql_install.sh" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_install.sh" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh" />
+        <option value="$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh" />
       </list>
     </option>
   </component>
@@ -318,28 +327,7 @@
       <workItem from="1557832364898" duration="3650000" />
       <workItem from="1557838546047" duration="644000" />
       <workItem from="1557839238743" duration="1572000" />
-      <workItem from="1557874507978" duration="619000" />
-    </task>
-    <task id="LOCAL-00007" summary="CrazyMonitor">
-      <created>1557629163171</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1557629163171</updated>
-    </task>
-    <task id="LOCAL-00008" summary="CrazyMonitor">
-      <created>1557629538769</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1557629538769</updated>
-    </task>
-    <task id="LOCAL-00009" summary="CrazyMonitor">
-      <created>1557646547024</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1557646547025</updated>
+      <workItem from="1557874507978" duration="3240000" />
     </task>
     <task id="LOCAL-00010" summary="CrazyMonitor">
       <created>1557646961202</created>
@@ -663,17 +651,38 @@
       <option name="project" value="LOCAL" />
       <updated>1557840211359</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="zabbix_agent_install">
+      <created>1557876992551</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1557876992552</updated>
+    </task>
+    <task id="LOCAL-00057" summary="zabbix_agent_install">
+      <created>1557879791999</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1557879791999</updated>
+    </task>
+    <task id="LOCAL-00058" summary="zabbix_agent_install">
+      <created>1557879843311</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1557879843311</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30766000" />
+    <option name="totallyTimeSpent" value="33387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="-5" width="1123" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20775028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20696142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -686,7 +695,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5009328" side_tool="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5009328" side_tool="true" visible="true" weight="0.32995495" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49906716" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
@@ -739,107 +748,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="zabbix_agent_install" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python36/Lib/operator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1860">
-          <caret line="293" column="42" lean-forward="true" selection-start-line="293" selection-start-column="42" selection-end-line="293" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#377#1" />
-            <element signature="e#389#961#0" />
-            <element signature="e#1098#1131#0" />
-            <element signature="e#1151#1186#0" />
-            <element signature="e#1206#1241#0" />
-            <element signature="e#1261#1296#0" />
-            <element signature="e#1316#1351#0" />
-            <element signature="e#1371#1404#0" />
-            <element signature="e#1505#1538#0" />
-            <element signature="e#1558#1634#0" />
-            <element signature="e#1655#1690#0" />
-            <element signature="e#1714#1757#0" />
-            <element signature="e#1857#1893#0" />
-            <element signature="e#1914#1947#0" />
-            <element signature="e#1969#2002#0" />
-            <element signature="e#2028#2063#0" />
-            <element signature="e#2083#2132#0" />
-            <element signature="e#2150#2177#0" />
-            <element signature="e#2214#2249#0" />
-            <element signature="e#2270#2303#0" />
-            <element signature="e#2324#2357#0" />
-            <element signature="e#2381#2414#0" />
-            <element signature="e#2432#2459#0" />
-            <element signature="e#2480#2513#0" />
-            <element signature="e#2531#2558#0" />
-            <element signature="e#2579#2614#0" />
-            <element signature="e#2638#2673#0" />
-            <element signature="e#2694#2727#0" />
-            <element signature="e#2752#2785#0" />
-            <element signature="e#2806#2839#0" />
-            <element signature="e#2945#3137#0" />
-            <element signature="e#3031#3120#0" />
-            <element signature="e#3163#3223#0" />
-            <element signature="e#3248#3380#0" />
-            <element signature="e#3330#3363#0" />
-            <element signature="e#3405#3437#0" />
-            <element signature="e#3462#3493#0" />
-            <element signature="e#3518#3698#0" />
-            <element signature="e#3592#3623#0" />
-            <element signature="e#3726#3758#0" />
-            <element signature="e#3797#4853#0" />
-            <element signature="e#3797#4109#1" />
-            <element signature="e#4155#4281#0" />
-            <element signature="e#4625#4739#0" />
-            <element signature="e#4764#4838#0" />
-            <element signature="e#4959#6319#0" />
-            <element signature="e#4959#5307#1" />
-            <element signature="e#5391#5982#0" />
-            <element signature="e#5417#5747#0" />
-            <element signature="e#5627#5717#0" />
-            <element signature="e#5774#5982#0" />
-            <element signature="e#5905#5952#0" />
-            <element signature="e#6021#6043#0" />
-            <element signature="e#6077#6249#0" />
-            <element signature="e#6099#6248#0" />
-            <element signature="e#6285#6319#0" />
-            <element signature="e#6343#7292#0" />
-            <element signature="e#6343#6565#1" />
-            <element signature="e#6649#6959#0" />
-            <element signature="e#6675#6786#0" />
-            <element signature="e#6740#6756#0" />
-            <element signature="e#6813#6959#0" />
-            <element signature="e#6894#6929#0" />
-            <element signature="e#6998#7020#0" />
-            <element signature="e#7054#7222#0" />
-            <element signature="e#7076#7221#0" />
-            <element signature="e#7258#7292#0" />
-            <element signature="e#7318#8693#0" />
-            <element signature="e#7318#7570#1" />
-            <element signature="e#7661#8005#0" />
-            <element signature="e#7691#7789#0" />
-            <element signature="e#8044#8104#0" />
-            <element signature="e#8138#8436#0" />
-            <element signature="e#8308#8435#0" />
-            <element signature="e#8472#8693#0" />
-            <element signature="e#8581#8693#0" />
-            <element signature="e#8798#8839#0" />
-            <element signature="e#8861#8902#0" />
-            <element signature="e#8927#9127#0" />
-            <element signature="e#9014#9103#0" />
-            <element signature="e#9154#9197#0" />
-            <element signature="e#9222#9265#0" />
-            <element signature="e#9287#9328#0" />
-            <element signature="e#9350#9391#0" />
-            <element signature="e#9416#9457#0" />
-            <element signature="e#9478#9519#0" />
-            <element signature="e#9541#9583#0" />
-            <element signature="e#9608#9651#0" />
-            <element signature="e#9673#9714#0" />
-            <element signature="e#9740#9781#0" />
-            <element signature="e#9803#9844#0" />
-            <element signature="e#9950#10025#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python36/Lib/site-packages/django/core/management/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1307">
@@ -1153,8 +1061,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="325">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/zabbix/proxy_install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
