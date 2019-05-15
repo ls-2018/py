@@ -12,6 +12,7 @@ class SchedulLogAdmin(admin.ModelAdmin):
 class StageAdmin(admin.ModelAdmin):
     list_display = ("id", "name")
 
+
 # admin.site.register(models.Schedule)
 admin.site.register(models.Plan)
 admin.site.register(models.Stage, StageAdmin)
