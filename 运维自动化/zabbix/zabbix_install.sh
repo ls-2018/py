@@ -11,6 +11,7 @@
 yum install -y libevent-devel wget tar gcc gcc-c++ make net-snmp-devel libxml2-devel libcurl-devel
 useradd -s /sbin/nologin zabbix
 cd /usr/local/src/
+
 wget 'https://nchc.dl.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/4.0.3/zabbix-4.0.3.tar.gz'
 tar -zxvf zabbix-4.0.3.tar.gz
 cd zabbix-4.0.3
