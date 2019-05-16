@@ -6,7 +6,6 @@ path = r'./utils/chromedriver.exe'
 browser = webdriver.Chrome(executable_path=path)
 browser_2 = webdriver.Chrome(executable_path=path)
 
-
 browser.get('https://www.lagou.com/')
 if browser.find_elements_by_xpath('//*[@id="colorbox"]'):
     browser.find_elements_by_xpath('//*[@id="changeCityBox"]/ul/li[1]/a')[0].click()
@@ -21,10 +20,10 @@ browser.get(
 time.sleep(5)
 
 title_list = list()
-from openpyxl import load_workbook
+from openpyxl import Workbook
 import datetime
 
-wb = load_workbook(f'{str(datetime.date.today())}.xlsx', read_only=False, data_only=True)
+wb = Workbook()
 ws = wb.active
 ws.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
 title_list.append(browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'))
@@ -63,7 +62,7 @@ for item in title_list:
 
     except Exception as e:
         print(e)
-
+wb.save(f'{str(datetime.date.today())}.xlsx')
 time.sleep(50)
 browser.quit()
 browser_2.quit()
