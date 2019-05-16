@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="200">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <element signature="e#2703#2897#0" />
@@ -377,63 +377,7 @@
       <workItem from="1557988179810" duration="13033000" />
       <workItem from="1558007334621" duration="34000" />
       <workItem from="1558008965711" duration="2124000" />
-      <workItem from="1558015762962" duration="339000" />
-    </task>
-    <task id="LOCAL-00030" summary="CrazyMonitor">
-      <created>1557705920737</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1557705920738</updated>
-    </task>
-    <task id="LOCAL-00031" summary="CrazyMonitor">
-      <created>1557705939897</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1557705939897</updated>
-    </task>
-    <task id="LOCAL-00032" summary="CrazyMonitor">
-      <created>1557705966589</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1557705966589</updated>
-    </task>
-    <task id="LOCAL-00033" summary="CrazyEye">
-      <created>1557706007427</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1557706007427</updated>
-    </task>
-    <task id="LOCAL-00034" summary="CrazyEye">
-      <created>1557711229327</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1557711229327</updated>
-    </task>
-    <task id="LOCAL-00035" summary="CrazyEye">
-      <created>1557711624328</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1557711624331</updated>
-    </task>
-    <task id="LOCAL-00036" summary="断点续传">
-      <created>1557712415031</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1557712415031</updated>
-    </task>
-    <task id="LOCAL-00037" summary="断点续传">
-      <created>1557712834922</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1557712834922</updated>
+      <workItem from="1558015762962" duration="602000" />
     </task>
     <task id="LOCAL-00038" summary="email报警">
       <created>1557832937592</created>
@@ -722,11 +666,67 @@
       <option name="project" value="LOCAL" />
       <updated>1558015938086</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="自动投递简历">
+      <created>1558016109581</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016109581</updated>
+    </task>
+    <task id="LOCAL-00080" summary="自动投递简历">
+      <created>1558016124846</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016124846</updated>
+    </task>
+    <task id="LOCAL-00081" summary="自动投递简历">
+      <created>1558016159901</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016159901</updated>
+    </task>
+    <task id="LOCAL-00082" summary="自动投递简历">
+      <created>1558016201146</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016201146</updated>
+    </task>
+    <task id="LOCAL-00083" summary="自动投递简历">
+      <created>1558016233581</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016233581</updated>
+    </task>
+    <task id="LOCAL-00084" summary="自动投递简历">
+      <created>1558016298558</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016298558</updated>
+    </task>
+    <task id="LOCAL-00085" summary="自动投递简历">
+      <created>1558016315469</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016315469</updated>
+    </task>
+    <task id="LOCAL-00086" summary="自动投递简历">
+      <created>1558016331586</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1558016331586</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54937000" />
+    <option name="totallyTimeSpent" value="55200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="607" y="-2" width="1323" height="1016" extended-state="0" />
@@ -1097,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="200">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <element signature="e#2703#2897#0" />
