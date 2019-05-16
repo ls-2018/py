@@ -72,7 +72,6 @@ while next_flag:
     else:
         next_flag = False
 
-
 for item in title_list:
     try:
         post = item.get('post')  # 职位
@@ -103,14 +102,13 @@ for item in title_list:
             if browser.find_element_by_id('colorbox'):
                 browser.find_element_by_xpath('//*[@id="delayConfirmDeliver"]').click()
             print(post, company_name, addr, salary)
-            ws.append([post, company_name, addr, salary,post_link])
+            ws.append([post, company_name, addr, salary, post_link])
 
             # print(browser.execute_script("document.getElementsByClassName('job-detail')[0].innerText"))
         time.sleep(1)
     except Exception as e:
         print(e)
 wb.save(f'{str(datetime.date.today())}_boss.xlsx')
-
 
 time.sleep(50)
 browser.quit()
