@@ -10,7 +10,6 @@ browser.get('https://www.lagou.com/')
 if browser.find_elements_by_xpath('//*[@id="colorbox"]'):
     browser.find_elements_by_xpath('//*[@id="changeCityBox"]/ul/li[1]/a')[0].click()
     pass
-
 browser.find_elements_by_xpath('//*[@id="lg_tbar"]/div/div[2]/div/a[1]')[0].click()
 browser.find_elements_by_xpath('/html/body/div[2]/div[1]/div/div/div[2]/div[3]/div[4]/div/a[2]')[0].click()
 time.sleep(5)
