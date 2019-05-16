@@ -1,8 +1,6 @@
 from django.conf.urls import include, url
 
-
 from bernard import views
-
 
 urlpatterns = [
     url(r'test/$', views.task_test),
