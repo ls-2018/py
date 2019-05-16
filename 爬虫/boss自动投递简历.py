@@ -13,7 +13,6 @@ if browser.find_elements_by_xpath('//*[@id="colorbox"]'):
 browser.find_elements_by_xpath('//*[@id="lg_tbar"]/div/div[2]/div/a[1]')[0].click()
 browser.find_elements_by_xpath('/html/body/div[2]/div[1]/div/div/div[2]/div[3]/div[4]/div/a[2]')[0].click()
 time.sleep(5)
-
 # browser.get(    'https://www.lagou.com/jobs/list_python?gj=3%E5%B9%B4%E5%8F%8A%E4%BB%A5%E4%B8%8B&px=default&yx=10k-15k&city=%E5%8C%97%E4%BA%AC#order')
 browser.get(
     'https://www.lagou.com/jobs/list_%E8%BF%90%E7%BB%B4%E5%BC%80%E5%8F%91?px=default&gj=3%E5%B9%B4%E5%8F%8A%E4%BB%A5%E4%B8%8B&city=%E5%8C%97%E4%BA%AC#filterBox')
