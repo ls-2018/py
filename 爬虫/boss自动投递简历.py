@@ -32,7 +32,6 @@ for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
     addr = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/span/em').text  # 地点
     salary = item.find_element_by_xpath('.//div[1]/div[1]/div[2]/div/span').text  # 薪资
     post_link = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a').get_attribute('href')  # 投递链接
-
     company_href = item.find_element_by_xpath('.//div[1]/div[2]/div[1]/a').get_attribute('href')
     company_name = item.find_element_by_xpath('.//div[1]/div[2]/div[1]/a').text  # 公司名字
     demo = {
