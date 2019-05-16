@@ -44,7 +44,6 @@ for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
     }
     print(demo)
     title_list.append(demo)
-
 next_flag = True
 while next_flag:
     next_page = browser.find_elements_by_xpath('//*[@id="s_position_list"]/div[2]/div/span')[-1]
