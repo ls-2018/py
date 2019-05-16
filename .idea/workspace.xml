@@ -46,14 +46,26 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="275">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,9 +171,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="604" />
-    <option name="y" value="248" />
+    <option name="y" value="-7" />
     <option name="width" value="1123" />
-    <option name="height" value="704" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,17 +193,6 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -199,13 +200,6 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
               <item name="CrazyEye" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="运维自动化" type="462c0819:PsiDirectoryNode" />
-              <item name="CrazyEye" type="462c0819:PsiDirectoryNode" />
-              <item name="bernard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -341,49 +335,8 @@
       <workItem from="1557839238743" duration="1572000" />
       <workItem from="1557874507978" duration="3947000" />
       <workItem from="1557915617790" duration="2353000" />
-      <workItem from="1557926980460" duration="208000" />
-    </task>
-    <task id="LOCAL-00012" summary="CrazyMonitor">
-      <created>1557647468620</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1557647468620</updated>
-    </task>
-    <task id="LOCAL-00013" summary="CrazyMonitor">
-      <created>1557649247293</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1557649247293</updated>
-    </task>
-    <task id="LOCAL-00014" summary="CrazyMonitor">
-      <created>1557650030421</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1557650030421</updated>
-    </task>
-    <task id="LOCAL-00015" summary="CrazyMonitor">
-      <created>1557651971353</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1557651971353</updated>
-    </task>
-    <task id="LOCAL-00016" summary="CrazyMonitor">
-      <created>1557652315776</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1557652315776</updated>
-    </task>
-    <task id="LOCAL-00017" summary="CrazyMonitor">
-      <created>1557653710744</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1557653710744</updated>
+      <workItem from="1557926980460" duration="433000" />
+      <workItem from="1557965761739" duration="661000" />
     </task>
     <task id="LOCAL-00018" summary="CrazyMonitor">
       <created>1557654368814</created>
@@ -686,17 +639,58 @@
       <option name="project" value="LOCAL" />
       <updated>1557927154579</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="CrazyEye">
+      <created>1557927218101</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927218102</updated>
+    </task>
+    <task id="LOCAL-00062" summary="CrazyEye">
+      <created>1557927256517</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927256518</updated>
+    </task>
+    <task id="LOCAL-00063" summary="CrazyEye">
+      <created>1557927322544</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927322544</updated>
+    </task>
+    <task id="LOCAL-00064" summary="CrazyEye">
+      <created>1557927356607</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927356608</updated>
+    </task>
+    <task id="LOCAL-00065" summary="CrazyEye">
+      <created>1557927388094</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927388094</updated>
+    </task>
+    <task id="LOCAL-00066" summary="CrazyEye">
+      <created>1557927418177</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1557927418177</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36662000" />
+    <option name="totallyTimeSpent" value="37541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="604" y="248" width="1123" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="604" y="-7" width="1123" height="959" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19943556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20319849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -930,9 +924,6 @@
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1060,10 +1051,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="275">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyEye/bernard/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
