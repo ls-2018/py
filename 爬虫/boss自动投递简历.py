@@ -75,18 +75,6 @@ while next_flag:
 for item in title_list:
     try:
         post = item.get('post')  # 职位
-        if '云' in post:
-            continue
-        if 'PaaS' in post:
-            continue
-        if '商业' in post:
-            continue
-        if 'Java' in post:
-            continue
-        if 'oracle' in post:
-            continue
-        if '大数据' in post:
-            continue
         addr = item.get('addr')  # 地点
         salary = item.get('salary')  # 薪资
         post_link = item.get('post_link')  # 投递链接
