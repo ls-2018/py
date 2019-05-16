@@ -14,8 +14,9 @@ if browser.find_elements_by_xpath('//*[@id="colorbox"]'):
 browser.find_elements_by_xpath('//*[@id="lg_tbar"]/div/div[2]/div/a[1]')[0].click()
 browser.find_elements_by_xpath('/html/body/div[2]/div[1]/div/div/div[2]/div[3]/div[4]/div/a[2]')[0].click()
 time.sleep(5)
+# browser.get(    'https://www.lagou.com/jobs/list_python?gj=3%E5%B9%B4%E5%8F%8A%E4%BB%A5%E4%B8%8B&px=default&yx=10k-15k&city=%E5%8C%97%E4%BA%AC#order')
 browser.get(
-    'https://www.lagou.com/jobs/list_python?gj=3%E5%B9%B4%E5%8F%8A%E4%BB%A5%E4%B8%8B&px=default&yx=10k-15k&city=%E5%8C%97%E4%BA%AC#order')
+    'https://www.lagou.com/jobs/list_%E8%BF%90%E7%BB%B4%E5%BC%80%E5%8F%91?px=default&gj=3%E5%B9%B4%E5%8F%8A%E4%BB%A5%E4%B8%8B&city=%E5%8C%97%E4%BA%AC#filterBox')
 time.sleep(5)
 
 title_list = list()
@@ -23,11 +24,8 @@ from openpyxl import Workbook
 import datetime
 
 wb = Workbook()
-wb1 = Workbook()
 ws = wb.active
-ws1 = wb.active
 ws.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
-ws1.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
 
 for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
     post = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/h3').text  # 职位
@@ -69,13 +67,27 @@ while next_flag:
                 'company_name': company_name
             }
             title_list.append(demo)
+
             print(demo)
     else:
         next_flag = False
 
+
 for item in title_list:
     try:
         post = item.get('post')  # 职位
+        if '云' in post:
+            continue
+        if 'PaaS' in post:
+            continue
+        if '商业' in post:
+            continue
+        if 'Java' in post:
+            continue
+        if 'oracle' in post:
+            continue
+        if '大数据' in post:
+            continue
         addr = item.get('addr')  # 地点
         salary = item.get('salary')  # 薪资
         post_link = item.get('post_link')  # 投递链接
@@ -83,7 +95,7 @@ for item in title_list:
         # 投递简历
         browser.get(post_link)
         if browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').text == '已投递':
-            ws1.append([post, company_name, addr, salary, ])
+            pass
         else:
             browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/ul/div/li[1]/span[1]').click()  # 选择简历
             browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').click()
@@ -91,14 +103,14 @@ for item in title_list:
             if browser.find_element_by_id('colorbox'):
                 browser.find_element_by_xpath('//*[@id="delayConfirmDeliver"]').click()
             print(post, company_name, addr, salary)
-            ws.append([post, company_name, addr, salary, ])
+            ws.append([post, company_name, addr, salary,post_link])
+
             # print(browser.execute_script("document.getElementsByClassName('job-detail')[0].innerText"))
         time.sleep(1)
     except Exception as e:
         print(e)
+wb.save(f'{str(datetime.date.today())}_boss.xlsx')
 
-wb.save(f'{str(datetime.date.today())}.xlsx')
-wb1.save(f'{str(datetime.date.today())}_d.xlsx')
 
 time.sleep(50)
 browser.quit()

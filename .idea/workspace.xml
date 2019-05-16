@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/爬虫/boss自动投递简历.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/自动投递简历.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/自动投递简历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/2019-05-16.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/2019-05-16_d.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/自动投递简历.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/拉钩自动投递简历.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1557997839359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="自动投递简历 Coverage Results" MODIFIED="1557999935174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/book$.coverage" NAME="自动投递简历 Coverage Results" MODIFIED="1558010205420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/book$cpu_mac.coverage" NAME="cpu_mac Coverage Results" MODIFIED="1557627167217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux" />
     <SUITE FILE_PATH="coverage/book$xl.coverage" NAME="xl Coverage Results" MODIFIED="1557994046094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/book$sysinfo.coverage" NAME="sysinfo Coverage Results" MODIFIED="1557627341339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/windows" />
@@ -52,23 +55,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/爬虫/自动投递简历.py">
+        <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="519">
+              <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="43" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <element signature="e#293#309#0" />
+                <element signature="e#2703#2897#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="409" selection-start-line="409" selection-end-line="409" />
             </state>
           </provider>
         </entry>
@@ -120,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/windows/sysinfo.py" />
-        <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/core/main.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/conf/settings.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/core/client.py" />
         <option value="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux/CPU.py" />
@@ -171,14 +163,16 @@
         <option value="$PROJECT_DIR$/爬虫/xl.py" />
         <option value="$PROJECT_DIR$/爬虫/test.py" />
         <option value="$PROJECT_DIR$/爬虫/自动投递简历.py" />
+        <option value="$PROJECT_DIR$/爬虫/拉钩自动投递简历.py" />
+        <option value="$PROJECT_DIR$/爬虫/boss自动投递简历.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="42" />
-    <option name="width" value="1426" />
-    <option name="height" value="945" />
+    <option name="x" value="607" />
+    <option name="y" value="-2" />
+    <option name="width" value="1323" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -188,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +199,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,6 +206,7 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -251,7 +246,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/自动投递简历.py" />
+      <option name="SCRIPT_NAME" value="D:\Destop\book\爬虫\拉钩自动投递简历.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,21 +378,9 @@
       <workItem from="1557926980460" duration="433000" />
       <workItem from="1557965761739" duration="1433000" />
       <workItem from="1557973397194" duration="1094000" />
-      <workItem from="1557988179810" duration="12737000" />
-    </task>
-    <task id="LOCAL-00026" summary="CrazyMonitor">
-      <created>1557666543873</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1557666543873</updated>
-    </task>
-    <task id="LOCAL-00027" summary="CrazyMonitor">
-      <created>1557667127269</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1557667127269</updated>
+      <workItem from="1557988179810" duration="13033000" />
+      <workItem from="1558007334621" duration="34000" />
+      <workItem from="1558008965711" duration="2124000" />
     </task>
     <task id="LOCAL-00028" summary="CrazyMonitor">
       <created>1557668988745</created>
@@ -728,30 +711,43 @@
       <option name="project" value="LOCAL" />
       <updated>1557999448240</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="自动投递简历">
+      <created>1558005892828</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1558005892828</updated>
+    </task>
+    <task id="LOCAL-00076" summary="自动投递简历">
+      <created>1558006108318</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1558006108319</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52144000" />
+    <option name="totallyTimeSpent" value="54598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="42" width="1426" height="945" extended-state="0" />
-    <editor active="true" />
+    <frame x="607" y="-2" width="1323" height="1016" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13762811" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20110847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986911" weight="0.47141042" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5476493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986911" weight="0.35081586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34848484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5013089" side_tool="true" visible="true" weight="0.43964422" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013089" side_tool="true" weight="0.43964422" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985889" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
@@ -805,93 +801,7 @@
     <MESSAGE value="自动投递简历" />
     <option name="LAST_COMMIT_MESSAGE" value="自动投递简历" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>96</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>93</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>86</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/自动投递简历.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1134,13 +1044,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/xl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/xl.py" />
     <entry file="file://$PROJECT_DIR$/爬虫/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1178,18 +1082,28 @@
     </entry>
     <entry file="file://D:/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="9825">
           <caret line="409" selection-start-line="409" selection-end-line="409" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/自动投递简历.py">
+    <entry file="file://$PROJECT_DIR$/爬虫/拉钩自动投递简历.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="332">
+          <caret line="111" column="44" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#293#309#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#2703#2897#0" />
           </folding>
         </state>
       </provider>
