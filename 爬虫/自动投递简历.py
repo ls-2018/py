@@ -22,19 +22,26 @@ time.sleep(5)
 title_list = list()
 from openpyxl import Workbook
 import datetime
-
+import copy
 wb = Workbook()
 ws = wb.active
 ws.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
-title_list.append(browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'))
+for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
+     title_list.append(copy.deepcopy(item))
 
 next_flag = True
 while next_flag:
-    next_page = browser.find_element_by_xpath('//*[@id="s_position_list"]/div[2]/div/span[6]')
-    if next_page:
+    next_page = browser.find_elements_by_xpath('//*[@id="s_position_list"]/div[2]/div/span')[-1]
+    print('=', next_page.get_attribute('class'))
+    if 'pager_next_disabled' not in next_page.get_attribute('class'):
         next_page.click()
+        import time
+        time.sleep(0.5)
+        # title_list.extend(browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'))
+        for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
+            title_list.append(copy.deepcopy(item))
     else:
-        next_page = False
+        next_flag = False
 
 for item in title_list:
     try:
@@ -59,9 +66,12 @@ for item in title_list:
             print(post, company_name, addr, salary, company_href)
             ws.append([post, company_name, addr, salary, company_href])
             print(browser.execute_script("document.getElementsByClassName('job-detail')[0].innerText"))
+        import time
 
+        time.sleep(0.5)
     except Exception as e:
         print(e)
+
 wb.save(f'{str(datetime.date.today())}.xlsx')
 time.sleep(50)
 browser.quit()
