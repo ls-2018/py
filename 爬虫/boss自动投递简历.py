@@ -67,7 +67,6 @@ while next_flag:
                 'company_name': company_name
             }
             title_list.append(demo)
-
             print(demo)
     else:
         next_flag = False
