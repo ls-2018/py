@@ -23,8 +23,11 @@ from openpyxl import Workbook
 import datetime
 
 wb = Workbook()
+wb1 = Workbook()
 ws = wb.active
+ws1 = wb.active
 ws.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
+ws1.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
 
 for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
     post = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/h3').text  # 职位
@@ -80,19 +83,22 @@ for item in title_list:
         # 投递简历
         browser.get(post_link)
         if browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').text == '已投递':
-            pass
+            ws1.append([post, company_name, addr, salary, ])
         else:
             browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/ul/div/li[1]/span[1]').click()  # 选择简历
             browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').click()
+            time.sleep(1)
             if browser.find_element_by_id('colorbox'):
                 browser.find_element_by_xpath('//*[@id="delayConfirmDeliver"]').click()
             print(post, company_name, addr, salary)
             ws.append([post, company_name, addr, salary, ])
-            print(browser.execute_script("document.getElementsByClassName('job-detail')[0].innerText"))
+            # print(browser.execute_script("document.getElementsByClassName('job-detail')[0].innerText"))
         time.sleep(1)
     except Exception as e:
         print(e)
 
 wb.save(f'{str(datetime.date.today())}.xlsx')
+wb1.save(f'{str(datetime.date.today())}_d.xlsx')
+
 time.sleep(50)
 browser.quit()
