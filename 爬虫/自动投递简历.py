@@ -6,6 +6,7 @@ path = r'./utils/chromedriver.exe'
 browser = webdriver.Chrome(executable_path=path)
 browser_2 = webdriver.Chrome(executable_path=path)
 
+
 browser.get('https://www.lagou.com/')
 if browser.find_elements_by_xpath('//*[@id="colorbox"]'):
     browser.find_elements_by_xpath('//*[@id="changeCityBox"]/ul/li[1]/a')[0].click()
