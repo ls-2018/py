@@ -48,7 +48,6 @@ for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
 next_flag = True
 while next_flag:
     next_page = browser.find_elements_by_xpath('//*[@id="s_position_list"]/div[2]/div/span')[-1]
-
     if 'pager_next_disabled' not in next_page.get_attribute('class'):
         next_page.click()
         time.sleep(1)
