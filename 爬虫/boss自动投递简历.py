@@ -109,6 +109,5 @@ for item in title_list:
     except Exception as e:
         print(e)
 wb.save(f'{str(datetime.date.today())}_boss.xlsx')
-
 time.sleep(10)
 browser.quit()

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫/boss自动投递简历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/2019-05-16.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/2019-05-16_d.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/自动投递简历.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/拉钩自动投递简历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/boss自动投递简历.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/boss自动投递简历.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="43" />
+            <state relative-caret-position="267">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <element signature="e#2703#2897#0" />
@@ -182,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,20 +377,7 @@
       <workItem from="1557988179810" duration="13033000" />
       <workItem from="1558007334621" duration="34000" />
       <workItem from="1558008965711" duration="2124000" />
-    </task>
-    <task id="LOCAL-00028" summary="CrazyMonitor">
-      <created>1557668988745</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1557668988745</updated>
-    </task>
-    <task id="LOCAL-00029" summary="CrazyMonitor">
-      <created>1557705901577</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1557705901577</updated>
+      <workItem from="1558015762962" duration="339000" />
     </task>
     <task id="LOCAL-00030" summary="CrazyMonitor">
       <created>1557705920737</created>
@@ -725,16 +708,31 @@
       <option name="project" value="LOCAL" />
       <updated>1558006108319</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="自动投递简历">
+      <created>1558015922966</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1558015922966</updated>
+    </task>
+    <task id="LOCAL-00078" summary="自动投递简历">
+      <created>1558015938086</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1558015938086</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54598000" />
+    <option name="totallyTimeSpent" value="54937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="607" y="-2" width="1323" height="1016" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20110847" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20427553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -747,7 +745,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013089" side_tool="true" weight="0.43964422" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5013089" side_tool="true" visible="true" weight="0.43939394" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985889" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
@@ -1099,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="43" />
+        <state relative-caret-position="267">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <element signature="e#2703#2897#0" />
