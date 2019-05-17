@@ -1,6 +1,7 @@
 from selenium import webdriver
+from openpyxl import Workbook
+import datetime
 import time
-import json
 
 path = r'./utils/chromedriver.exe'
 # 创建浏览器对象
@@ -19,8 +20,6 @@ browser.get(
 time.sleep(5)
 
 title_list = list()
-from openpyxl import Workbook
-import datetime
 
 wb = Workbook()
 ws = wb.active

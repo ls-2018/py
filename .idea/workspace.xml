@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/爬虫/boss自动投递简历.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/boss自动投递简历.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +54,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="50">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <element signature="e#2703#2897#0" />
+                <element signature="e#1897#2990#0" />
+                <element signature="e#3020#4101#0" />
               </folding>
             </state>
           </provider>
@@ -164,10 +165,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="607" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1105" />
     <option name="y" value="-2" />
-    <option name="width" value="1323" />
+    <option name="width" value="825" />
     <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -178,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,16 +187,10 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,6 +374,7 @@
       <workItem from="1558007334621" duration="34000" />
       <workItem from="1558008965711" duration="2124000" />
       <workItem from="1558015762962" duration="602000" />
+      <workItem from="1558090283731" duration="629000" />
     </task>
     <task id="LOCAL-00038" summary="email报警">
       <created>1557832937592</created>
@@ -726,13 +723,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55200000" />
+    <option name="totallyTimeSpent" value="55829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="607" y="-2" width="1323" height="1016" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20427553" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08528785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -745,7 +742,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5013089" side_tool="true" visible="true" weight="0.43939394" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013089" side_tool="true" visible="true" weight="0.41982183" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985889" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
@@ -1097,11 +1094,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/boss自动投递简历.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="50">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#2703#2897#0" />
+            <element signature="e#1897#2990#0" />
+            <element signature="e#3020#4101#0" />
           </folding>
         </state>
       </provider>
