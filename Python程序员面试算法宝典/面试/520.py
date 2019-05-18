@@ -164,6 +164,14 @@
 # print(c)
 # print(type(range(5)))
 
-import random
+# import random
+#
+# random.shuffle([1, 2])
+# print([1,2,3,4][:2])
 
-random.shuffle([1, 2])
+class Stu:
+    def __init__(self):
+        self.a()
+    def a(self):
+        print(1)
+d = Stu()
