@@ -152,3 +152,18 @@
 # print(h.remove_min())
 # print(h.remove_min())
 # print(h.remove_min())
+# a = 3 if 5 > 3 else 4
+# print(a)
+# L=range(100)
+# print(L[1:4])
+# print('a'.isalpha())
+
+# a = [1, 2, 3, 4, 5, 6, 7, 3, 4, 5, ]
+# b = list(set(a))
+# c = [i for i in a if i not in b]
+# print(c)
+# print(type(range(5)))
+
+import random
+
+random.shuffle([1, 2])
