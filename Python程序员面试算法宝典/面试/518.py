@@ -155,13 +155,157 @@ print(a.__len__())
 print(b.__len__())
 # 两种数据类型结构不同，list多存储了一个申请内存的槽的个数
 '''
-p = [1, 2, 3]
-*x, = p
-print(x == p)   # 都指向同一份内存
-print(x is p)
-y, *x = p
-print(y)
-print(*x)
-x = p
-print(x == p)
-print(x is p)
+# p = [1, 2, 3]
+# *x, = p
+# print(x == p)   # 都指向同一份内存
+# print(x is p)
+# y, *x = p
+# print(y)
+# print(*x)
+# x = p
+# print(x == p)
+# print(x is p)
+
+
+# encoding=utf-8
+# 输入5个整数，排序后输出
+# 算法：
+# 1、从输入流获取5个整数，并存于列表中
+# 2、调用列表的sort方法对列表进行排序
+# 3、打印排序后的结果，打印排序之前的
+
+# numList = []
+# i = 1
+# while i <= 5:
+#     try:
+#         n = int(input("请输入第%d个数" % i))
+#     except ValueError as e:
+#         print("输入的非数字类型数据，请重新输入。")
+#         continue
+#     else:
+#         numList.append(n)
+#         i += 1
+# print(numList)
+# tmpList = numList[:]
+# tmpList.sort()
+# print(numList)
+# print(tmpList)
+
+# # 2、使用尽可能多的方法实现list去重
+# # list.count()
+#
+# 方法一：
+# encoding=utf-8
+
+# a = [1, 1, 3, 2, 2, 1, 5, 5, 3, 4]
+# n = 0
+# while n < len(a):
+#     if a.count(a[n]) > 1:
+#         a.remove(a[n])
+#         continue
+#     n += 1
+#
+# print(a)
+#
+#
+# # 方法二：
+#
+# def listP(old_list):
+#     tmpDict = dict.fromkeys(old_list, 0)
+#     new_list = tmpDict.keys()
+#     return new_list
+#
+#
+# if __name__ == "__main__":
+#     old_list = [1, 2, 3, 3, 4, 6, 4, 2, 7, 1]
+#     new_list = listP(old_list)
+#     print(old_list)
+#     print(new_list)
+#
+#
+# # 方法三：
+#
+# def listP(old_list):
+#     return list(set(old_list))
+#
+#
+# if __name__ == "__main__":
+#     old_list = [1, 2, 3, 3, 4, 6, 4, 2, 7, 1]
+#     new_list = listP(old_list)
+#     print(old_list)
+#     print(new_list)
+#
+#
+# # 方法四：
+#
+# def listP(old_list):
+#     map(lambda x, y: x if y in x else x + [y], [[]] + old_list)
+#     return list(set(old_list))
+#
+#
+# if __name__ == "__main__":
+#     old_list = [1, 2, 3, 3, 4, 6, 4, 2, 7, 1]
+#     new_list = listP(old_list)
+#     print(old_list)
+#     print(new_list)
+#
+#
+# # 3、输入3个数字，以逗号隔开，输出其中最大的数
+# def findMaxNum(x, y, z):
+#     x, y, z = x, y, z
+#     if x < y:
+#         x, y = y, x
+#     if x < z:
+#         x, z = z, x
+#     return x
+#
+#
+# if __name__ == "__main__":
+#     numList = input("请输入三个数，以逗号隔开：".encode("gbk")).split(",")
+#     print(numList)
+#     res = findMaxNum(int(numList[0]), int(numList[1]), int(numList[2]))
+#     print(res)
+#
+# # 4、求两个正整数m和n的最大公约数
+# # 方法一：
+# a, b = input().split(",")
+# a, b = int(a), int(b)
+# c = a % b
+# while c:
+#     a, b = b, c
+#     c = a % b
+# print(b)
+#
+#
+# # 方法二：
+#
+# def gcd(x, y):
+#     min = y if x > y else x
+#     for i in range(1, min + 1):
+#         if x % i == 0 and y % i == 0:
+#             gcd1 = i
+#
+#     return gcd1
+#
+#
+# a = 64
+# b = 24
+# print(gcd(a, b))
+#
+# # 5、输入一个正整数，输出其阶乘结果
+# # 方法一：  # encoding=utf-8
+#
+# num = int(input("请输入一个正整数：".encode("gbk")))
+# result = 1
+# for i in range(2, num + 1):
+#     result *= i
+# print("%d 的阶乘为：" % num, result)
+#
+# # 方法二：
+# try:
+#     num = int(input("请输入一个正整数：".encode("gbk")))
+# except ValueError as  e:
+#     print("请输入整数")
+# else:
+#     f = map(lambda x, y: x * y, range(1, num + 1))
+#     print(f)
