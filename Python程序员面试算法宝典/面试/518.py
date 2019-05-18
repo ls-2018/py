@@ -309,11 +309,105 @@ print(b.__len__())
 # else:
 #     f = map(lambda x, y: x * y, range(1, num + 1))
 #     print(f)
-import re
+# import re
+#
+# demo = 'asd123afs'
+# # demo.replace()
+# res = re.findall('\d+', demo)
+# for i in res:
+#     demo = demo.replace(i, 'afanti')
+# print(demo)
+# import pymysql
+#
+# conn = pymysql.connect(host='localhost', user='root',
+#                        password='123456',database = 'day47', charset = 'utf8')
+# cursor = conn.cursor()  # 拿到游标，即mysql >
+# # 执行sql
+# sql = 'select * from user'
+# print(sql)  # 注意%s需要加双引号
+# rows = cursor.execute(sql)
 
-demo = 'asd123afs'
-# demo.replace()
-res = re.findall('\d+', demo)
-for i in res:
-    demo = demo.replace(i, 'afanti')
-print(demo)
+# import re
+#
+# tels = ["13100001234", "18912344321", "10086", "18800007777"]
+#
+#
+# for tel in tels:
+#     ret = re.match("1\d{9}[0-3,5-6,8-9]", tel)
+#     if ret:
+#         print(ret.group())
+#     else:
+#         print("%s 不是想要的手机号" % tel)
+# import threading
+# import time
+#
+#
+# def work(a, index):
+#     for i in range(26):
+#         d = str(a[index])
+#         index += 1
+#         b = str(a[index])
+#         c = d + b
+#         index += 1
+#         yield c
+#         time.sleep(0.1)
+#
+#
+# def task():
+#     for i in range(65, 91):
+#         yield chr(i)
+#         time.sleep(0.1)
+#
+#
+# if __name__ == '__main__':
+#     a = list(range(1, 53))
+#     index = 0
+#
+#     thread_1 = threading.Thread(target=work, args=(a, index))
+#     thread_2 = threading.Thread(target=task)
+#
+#     thread_1.start()
+#     thread_2.start()
+#     b1 = work(a, index)
+#     b2 = task()
+#     for _ in range(26):
+#         a1 = next(b1)
+#         a2 = next(b2)
+#         print(a1 + a2)
+import threading
+import time
+
+lockA = threading.Lock()
+lockB = threading.Lock()
+
+
+def printNumber(n):
+    if n > 50:
+        return
+    n += 1
+    # A B 都上锁，解锁在对方函数内从而使无序的线程变得有序
+    lockA.acquire()
+    print("%d%d" % (n, n + 1), end="")
+    lockB.release()
+    # 让线程1先打印
+    time.sleep(0.01)
+    # 递归调用
+    printNumber(n + 1)
+
+
+def printAlpha(n):
+    if n > 90:
+        return
+    lockB.acquire()
+    print(chr(n), end=' ')
+    lockA.release()
+    time.sleep(0.02)
+    # 递归调用
+    printAlpha(n + 1)
+
+
+lockB.acquire()
+t1 = threading.Thread(target=printNumber, args=(0,))
+t2 = threading.Thread(target=printAlpha, args=(65,))
+t1.start()
+t2.start()
