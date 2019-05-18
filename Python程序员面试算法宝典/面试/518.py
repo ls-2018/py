@@ -155,3 +155,13 @@ print(a.__len__())
 print(b.__len__())
 # 两种数据类型结构不同，list多存储了一个申请内存的槽的个数
 '''
+p = [1, 2, 3]
+*x, = p
+print(x == p)   # 都指向同一份内存
+print(x is p)
+y, *x = p
+print(y)
+print(*x)
+x = p
+print(x == p)
+print(x is p)
