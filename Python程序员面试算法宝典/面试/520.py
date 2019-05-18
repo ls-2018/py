@@ -169,9 +169,26 @@
 # random.shuffle([1, 2])
 # print([1,2,3,4][:2])
 
-class Stu:
-    def __init__(self):
-        self.a()
-    def a(self):
-        print(1)
-d = Stu()
+# class Stu:
+#     def __init__(self):
+#         self.a()
+#
+#     def a(self):
+#         print(1)
+#
+#     def __missing__(self, key):
+#         return 1
+#
+#
+# # 可以看出当使用__getitem__来访问一个不存在的key的时候，会调用__miss__()方法获取默认值，并将该值添加到字典中去
+#
+# d = Stu()
+# d.a = 1
+# print(d['a'])
+
+# try:
+#     raise Exception('x')
+# except Exception:
+#     pass
+# import functools
+# functools.partial
