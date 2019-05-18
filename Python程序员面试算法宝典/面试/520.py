@@ -192,26 +192,31 @@
 #     pass
 # import functools
 # functools.partial
-def swap(str, i, j):
-    tmp = str[i]
-    str[i] = str[j]
-    str[j] = tmp
+# def swap(str, i, j):
+#     tmp = str[i]
+#     str[i] = str[j]
+#     str[j] = tmp
+#
+#
+# def permutation(str, start):
+#     if str is None or start < 0:
+#         return
+#     if start == len(str) - 1:
+#         print(''.join(str))
+#     else:
+#         i = start
+#         while i < len(str):
+#             swap(str, start, i)
+#             permutation(str, start + 1)
+#             swap(str, start, i)
+#             i += 1
+#
+#
+# if __name__ == '__main__':
+#     s = list('aabc')
+#     permutation(s, 0)
 
-
-def permutation(str, start):
-    if str is None or start < 0:
-        return
-    if start == len(str) - 1:
-        print(''.join(str))
-    else:
-        i = start
-        while i < len(str):
-            swap(str, start, i)
-            permutation(str, start + 1)
-            swap(str, start, i)
-            i += 1
-
-
-if __name__ == '__main__':
-    s = list('aabc')
-    permutation(s, 0)
+# print([[k * j for k in [i for i in range(5)]] for j in range(5)])
+# print(3*[1,2,3])
+import os
+print(os.stat(r'D:\Destop\book\Python程序员面试算法宝典\链表\１、链表的逆序.py').st_size)
