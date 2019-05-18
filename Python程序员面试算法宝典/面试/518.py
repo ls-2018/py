@@ -309,3 +309,11 @@ print(b.__len__())
 # else:
 #     f = map(lambda x, y: x * y, range(1, num + 1))
 #     print(f)
+import re
+
+demo = 'asd123afs'
+# demo.replace()
+res = re.findall('\d+', demo)
+for i in res:
+    demo = demo.replace(i, 'afanti')
+print(demo)
