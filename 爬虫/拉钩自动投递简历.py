@@ -97,12 +97,13 @@ for item in title_list:
         if browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').text == '已投递':
             pass
         else:
+            print(post, company_name, addr, salary)
+
             browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/ul/div/li[1]/span[1]').click()  # 选择简历
             browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').click()
             time.sleep(1)
             if browser.find_element_by_id('colorbox'):
                 browser.find_element_by_xpath('//*[@id="delayConfirmDeliver"]').click()
-            print(post, company_name, addr, salary)
             ws.append([post, company_name, addr, salary,post_link])
 
             # print(browser.execute_script("document.getElementsByClassName('job-detail')[0].innerText"))
