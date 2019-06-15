@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ELK/es_api/1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ELK/es_api/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ELK/es_api/持久化示例.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1557997839359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/book$.coverage" NAME="拉钩自动投递简历 Coverage Results" MODIFIED="1558420419267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/book$.coverage" NAME="持久化示例 Coverage Results" MODIFIED="1560573593860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ELK/es_api" />
     <SUITE FILE_PATH="coverage/book$cpu_mac.coverage" NAME="cpu_mac Coverage Results" MODIFIED="1557627167217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/linux" />
     <SUITE FILE_PATH="coverage/book$xl.coverage" NAME="xl Coverage Results" MODIFIED="1557994046094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/book$518.coverage" NAME="518 Coverage Results" MODIFIED="1558141635928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/面试" />
@@ -56,44 +56,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/爬虫/拉钩自动投递简历.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="118" column="110" selection-start-line="118" selection-start-column="110" selection-end-line="118" selection-end-column="110" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ELK/es_api/1.py">
+        <entry file="file://$PROJECT_DIR$/ELK/es_api/持久化示例.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="125">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+        <entry file="file://D:/Python36/Lib/site-packages/elasticsearch_dsl/connections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6025">
-              <caret line="241" selection-start-line="241" selection-end-line="241" />
+            <state relative-caret-position="316">
+              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+        <entry file="file://D:/Python36/Lib/site-packages/elasticsearch/client/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7600">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
+            <state relative-caret-position="-109">
+              <caret line="179" column="59" selection-start-line="179" selection-start-column="59" selection-end-line="179" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -148,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/MonitorServer.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/auth.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/templatetags/__init__.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyMonitor/monitor/templatetags/custom_tags.py" />
@@ -199,6 +186,7 @@
         <option value="$PROJECT_DIR$/Python程序员面试算法宝典/排序/4、归并排序.py" />
         <option value="$PROJECT_DIR$/爬虫/拉钩自动投递简历.py" />
         <option value="$PROJECT_DIR$/ELK/es_api/1.py" />
+        <option value="$PROJECT_DIR$/ELK/es_api/持久化示例.py" />
       </list>
     </option>
   </component>
@@ -215,20 +203,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -237,7 +212,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -262,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1">
+  <component name="RunManager" selected="Python.持久化示例">
     <configuration name="拉钩自动投递简历" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,7 +295,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ELK/es_api/1.py" />
+      <option name="SCRIPT_NAME" value="D:\Destop\book\ELK\es_api\持久化示例.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="持久化示例" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="book" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ELK/es_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ELK/es_api/持久化示例.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,7 +372,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1" />
+        <item itemvalue="Python.持久化示例" />
         <item itemvalue="Python.拉钩自动投递简历" />
         <item itemvalue="Python.4、归并排序" />
         <item itemvalue="Python.520" />
@@ -421,14 +418,8 @@
       <workItem from="1558604556319" duration="39000" />
       <workItem from="1558609635598" duration="7000" />
       <workItem from="1558761112013" duration="236000" />
-      <workItem from="1560518667651" duration="568000" />
-    </task>
-    <task id="LOCAL-00061" summary="CrazyEye">
-      <created>1557927218101</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1557927218102</updated>
+      <workItem from="1560518667651" duration="3024000" />
+      <workItem from="1560571609298" duration="1971000" />
     </task>
     <task id="LOCAL-00062" summary="CrazyEye">
       <created>1557927256517</created>
@@ -766,31 +757,37 @@
       <option name="project" value="LOCAL" />
       <updated>1558429197329</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="es_dsl">
+      <created>1560519397992</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1560519397993</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79282000" />
+    <option name="totallyTimeSpent" value="83709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="836" y="8" width="1092" height="1016" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33430234" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19767442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497006" weight="0.389755" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497006" weight="0.45454547" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49957228" weight="0.67016315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32983682" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32983682" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004277" side_tool="true" weight="0.36363637" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985889" visible="true" weight="0.6083916" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985889" visible="true" weight="0.25174826" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -842,7 +839,8 @@
     <MESSAGE value="CrazyEye" />
     <MESSAGE value="自动投递简历" />
     <MESSAGE value="面试" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试" />
+    <MESSAGE value="es_dsl" />
+    <option name="LAST_COMMIT_MESSAGE" value="es_dsl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -856,19 +854,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/运维自动化/issue/issue/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/运维自动化/issue/web/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/运维自动化/issue/web/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1182,7 +1167,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬虫/拉钩自动投递简历.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="2900">
           <caret line="118" column="110" selection-start-line="118" selection-start-column="110" selection-end-line="118" selection-end-column="110" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -1204,12 +1189,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ELK/es_api/1.py">
+    <entry file="file://D:/Python36/Lib/site-packages/elasticsearch_dsl/connections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="316">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/elasticsearch/client/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="179" column="59" selection-start-line="179" selection-start-column="59" selection-end-line="179" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ELK/es_api/持久化示例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
