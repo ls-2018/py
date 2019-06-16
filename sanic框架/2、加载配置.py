@@ -30,6 +30,7 @@ app.config.from_pyfile('123.txt')
 app.config.from_envvar('myapp_settings')
 """
 app.config.ACCESS_LOG = False  # 日志
+app.config.REQUEST_TIMEOUT = 2
 
 
 @app.route('/')
