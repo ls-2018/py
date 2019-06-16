@@ -29,7 +29,7 @@ app.config.from_pyfile('123.txt')
 从环境变量中指定配置文件的位置，并告诉sanic使用它来查找配置文件
 app.config.from_envvar('myapp_settings')
 """
-app.config.ACCESS_LOG = False  # 日志
+# app.config.ACCESS_LOG = False  # 日志
 app.config.REQUEST_TIMEOUT = 2
 
 
@@ -41,4 +41,4 @@ async def test(request):
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8000)
+    app.run(host='127.0.0.1', port=8000,access_log=False)
