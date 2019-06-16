@@ -1,6 +1,6 @@
 from sanic import Sanic
 
-from sanic.response import json,text
+from sanic.response import json, text
 
 app = Sanic()
 
@@ -42,12 +42,12 @@ b''
     return json({'json': "hello"})
 
 
-@app.route('/')# http://127.0.0.1:8000/?a=1&a=2
+@app.route('/')  # http://127.0.0.1:8000/?a=1&a=2
 async def test(request):
     print(request.args)
     from sanic.request import RequestParameters
-    args=RequestParameters()
-    args['titles'] = ['1','2']
+    args = RequestParameters()
+    args['titles'] = ['1', '2']
     print(args.get('titles'))
     print(args.getlist('titles'))
     """
@@ -55,8 +55,11 @@ async def test(request):
 1
 ['1', '2']
     """
-    print(request.endpoint)# 3、请求数据.test
-    return text(request.endpoint)
+    print(request.endpoint)  # 3、请求数据.test
+    from sanic import response
+    # return response.raw(b'raw data')
+
+    return response.json({'message':"xxx"},headers={'X-Serverd-By':'sanic'},status=200)
 
 
 if __name__ == '__main__':
