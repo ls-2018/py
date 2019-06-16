@@ -35,6 +35,8 @@ app.config.REQUEST_TIMEOUT = 2
 
 @app.route('/')
 async def test(request):
+    print(request.remote_addr)  # '空'
+    print(request.ip)  # 127.0.0.1
     return json({'json': "hello"})
 
 
