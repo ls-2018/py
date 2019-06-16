@@ -1,5 +1,5 @@
 from sanic import Sanic
-
+import sanic.log
 from sanic.response import json
 
 app = Sanic(load_env=True)
