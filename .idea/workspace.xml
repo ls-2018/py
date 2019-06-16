@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sanic框架/6、url_for.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanic框架/6、url_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/sanic框架/6、url_for.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sanic框架/6、url_for.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="250">
+              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Python36/Lib/site-packages/sanic/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+            <state relative-caret-position="283">
+              <caret line="847" column="46" selection-start-line="847" selection-start-column="46" selection-end-line="847" selection-end-column="46" />
               <folding>
                 <element signature="e#4971#5319#1" />
                 <element signature="e#5329#5386#0" />
@@ -443,14 +443,7 @@
       <workItem from="1560518667651" duration="3024000" />
       <workItem from="1560571609298" duration="5457000" />
       <workItem from="1560664189585" duration="1757000" />
-      <workItem from="1560669684242" duration="8124000" />
-    </task>
-    <task id="LOCAL-00075" summary="自动投递简历">
-      <created>1558005892828</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1558005892828</updated>
+      <workItem from="1560669684242" duration="8442000" />
     </task>
     <task id="LOCAL-00076" summary="自动投递简历">
       <created>1558006108318</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560678150937</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="sanic配置">
+      <created>1560679474453</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1560679474453</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97076000" />
+    <option name="totallyTimeSpent" value="97394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="576" y="-6" width="1321" height="1016" extended-state="0" />
@@ -1230,18 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/sanic/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
-          <folding>
-            <element signature="e#4971#5319#1" />
-            <element signature="e#5329#5386#0" />
-            <element signature="e#5710#6398#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sanic框架/5、路由.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1262,10 +1250,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/sanic/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="847" column="46" selection-start-line="847" selection-start-column="46" selection-end-line="847" selection-end-column="46" />
+          <folding>
+            <element signature="e#4971#5319#1" />
+            <element signature="e#5329#5386#0" />
+            <element signature="e#5710#6398#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sanic框架/6、url_for.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="250">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

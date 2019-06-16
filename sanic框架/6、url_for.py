@@ -1,6 +1,6 @@
 from sanic import Sanic
 
-from sanic.response import json, redirect
+from sanic.response import json, redirect, text
 
 app = Sanic()
 
@@ -18,7 +18,7 @@ async def test(request):
     print(url)  # http://www.xxx.com/a/4
     url = app.url_for('post_handler', post_id=4, _external=True, _scheme='https', )
     print(url)  # https://www.xxx.com/a/4
-    url = app.url_for('post_handler', post_id=4, _external=True, _scheme='https',)
+    url = app.url_for('post_handler', post_id=4, _external=True, _scheme='https', )
     print(url)  # https://www.xxx.com/a/4
     """
     _scheme=‘http’  协议版本
@@ -30,6 +30,21 @@ async def test(request):
 @app.route('/a/<post_id>')
 async def post_handler(request, post_id):
     return json({'a': post_id})
+
+
+@app.get('/', name='get')
+def get(request):
+    return text('get')
+
+
+@app.post('/', name='post')
+def get(request):
+    return text('post')
+
+
+@app.put('/', name='put')
+def get(request):
+    return text('put')
 
 
 if __name__ == '__main__':
