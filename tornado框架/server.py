@@ -21,7 +21,10 @@ if __name__ == '__main__':
     import tornado.httpserver
 
     server = tornado.httpserver.HTTPServer(app)
-    server.listen(8088, '127.0.0.1')
+    # server.listen(8088, '127.0.0.1')# 默认单进程
+
+    server.bind(8008)
+    server.start(1)  # 启动4个进程，默认1
 
     # tornado.ioloop.IOLoop.current().start()
     """
