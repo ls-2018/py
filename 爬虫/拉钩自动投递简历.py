@@ -1,5 +1,5 @@
 from selenium import webdriver
-import time
+import time, os
 import json
 
 path = r'./utils/chromedriver.exe'
@@ -12,7 +12,7 @@ if browser.find_elements_by_xpath('//*[@id="colorbox"]'):
     pass
 
 browser.find_elements_by_xpath('//*[@id="lg_tbar"]/div/div[2]/div/a[1]')[0].click()
-browser.find_elements_by_xpath('/html/body/div[2]/div[1]/div/div/div[2]/div[3]/div[4]/div/a[2]')[0].click()
+browser.find_elements_by_xpath('/html/body/div[3]/div[1]/div/div/div[2]/div[1]')[0].click()
 time.sleep(5)
 browser.get(
     'https://www.lagou.com/jobs/list_python?gj=3%E5%B9%B4%E5%8F%8A%E4%BB%A5%E4%B8%8B&px=default&yx=10k-15k&city=%E5%8C%97%E4%BA%AC#order')
@@ -28,102 +28,101 @@ wb = Workbook()
 ws = wb.active
 ws.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
 
-for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
-    post = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/h3').text  # 职位
-    addr = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/span/em').text  # 地点
-    salary = item.find_element_by_xpath('.//div[1]/div[1]/div[2]/div/span').text  # 薪资
-    post_link = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a').get_attribute('href')  # 投递链接
 
-    company_href = item.find_element_by_xpath('.//div[1]/div[2]/div[1]/a').get_attribute('href')
-    company_name = item.find_element_by_xpath('.//div[1]/div[2]/div[1]/a').text  # 公司名字
-    demo = {
-        'post': post,
-        'addr': addr,
-        'salary': salary,
-        'post_link': post_link,
-        'company_name': company_name
-    }
-    print(demo)
-    title_list.append(demo)
+def init():
+    for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
+        post = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/h3').text  # 职位
+        addr = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/span/em').text  # 地点
+        salary = item.find_element_by_xpath('.//div[1]/div[1]/div[2]/div/span').text  # 薪资
+        post_link = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a')
+        #  //*[@id="s_position_list"]/ul/li[1]/div[1]/div[1]/div[1]/a
+        post_link = post_link.get_attribute('href')  # 投递链接
+        company_name = item.find_element_by_xpath('.//div[1]/div[2]/div[1]/a').text  # 公司名字
+        demo = {
+            'post': post,
+            'addr': addr,
+            'salary': salary,
+            'post_link': post_link,
+            'company_name': company_name
+        }
+        print(demo)
+        title_list.append(demo)
 
-next_flag = True
-while next_flag:
-    next_page = browser.find_elements_by_xpath('//*[@id="s_position_list"]/div[2]/div/span')[-1]
+    next_flag = True
 
-    if 'pager_next_disabled' not in next_page.get_attribute('class'):
-        next_page.click()
-        time.sleep(1)
-        for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
-            post = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/h3').text  # 职位
-            addr = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/span/em').text  # 地点
-            salary = item.find_element_by_xpath('.//div[1]/div[1]/div[2]/div/span').text  # 薪资
-            post_link = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a')
+    while next_flag:
+        next_page = browser.find_elements_by_xpath('//*[@id="s_position_list"]/div[2]/div/span')[-1]
 
-            post_link = post_link.get_attribute('href')  # 投递链接
-
-            company_name = item.find_element_by_xpath('.//div[1]/div[2]/div[1]/a').text  # 公司名字
-            demo = {
-                'post': post,
-                'addr': addr,
-                'salary': salary,
-                'post_link': post_link,
-                'company_name': company_name
-            }
-            title_list.append(demo)
-
-            print(demo)
+        if 'pager_next_disabled' not in next_page.get_attribute('class'):
+            next_page.click()
+            time.sleep(1)
+            for item in browser.find_elements_by_xpath('//*[@id="s_position_list"]/ul/li'):
+                post = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/h3').text  # 职位
+                addr = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a/span/em').text  # 地点
+                salary = item.find_element_by_xpath('.//div[1]/div[1]/div[2]/div/span').text  # 薪资
+                post_link = item.find_element_by_xpath('.//div[1]/div[1]/div[1]/a')
+                post_link = post_link.get_attribute('href')  # 投递链接
+                company_name = item.find_element_by_xpath('.//div[1]/div[2]/div[1]/a').text  # 公司名字
+                demo = {
+                    'post': post,
+                    'addr': addr,
+                    'salary': salary,
+                    'post_link': post_link,
+                    'company_name': company_name
+                }
+                title_list.append(demo)
+                print(demo)
+        else:
+            next_flag = False
     else:
-        next_flag = False
+        print('---------')
+        with open('./data.txt', 'w', encoding='utf8') as f:
+            f.write(json.dumps(title_list, ensure_ascii=False))
 
+
+if os.path.exists('./data.txt'):
+    with open('/data.txt', 'r', encoding='utf8') as f:
+        title_list = json.loads(f.read())
+else:
+    init()
+
+# 投递
 for item in title_list:
     try:
         company_name = item.get('company_name')  # 公司名字
 
         post = item.get('post')  # 职位
-        if '云' in post:
-            continue
-        if 'PaaS' in post:
-            continue
-        if '商业' in post:
-            continue
-        if 'Java' in post:
-            continue
-        if 'C' in post:
-            continue
-        if 'oracle' in post:
-            continue
-        if '气象' in post:
-            continue
-        if '大数据' in post:
-            continue
-        if '大数据' in post:
-            continue
-        if 'SEG' in post:
-            continue
-        if 'SEG' in post:
-            continue
-        if '达内' in company_name:
-            continue
-        if '爱科' in company_name:
-            continue
+
         addr = item.get('addr')  # 地点
         salary = item.get('salary')  # 薪资
         post_link = item.get('post_link')  # 投递链接
         # 投递简历
         browser.get(post_link)
-        if browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').text == '已投递':
+        time.sleep(1)
+        try:
+            flag_btn = browser.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[1]/div[2]/a')
+        except Exception as e:
+            print(e)
+            continue
+        if flag_btn.text == '已投递':
             pass
         else:
             print(post, company_name, addr, salary, post_link)
-
-            browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/ul/div/li[1]/span[1]').click()  # 选择简历
-            browser.find_element_by_xpath('/html/body/div[2]/div/div[2]/div[1]/div[2]/a').click()
-            time.sleep(1)
+            is_next = input('是否跳过：')
+            if is_next == 'p':
+                continue
+            else:
+                pass
+            chose_option = browser.find_element_by_xpath('/html/body/div[3]/div/div[2]/ul/div/li[1]/span[1]')
+            chose_option.click()  # 选择简历
+            post_option = browser.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[1]/div[2]')
+            post_option.click()  # 提交
             try:
                 if browser.find_element_by_id('colorbox'):
                     browser.find_element_by_xpath('//*[@id="delayConfirmDeliver"]').click()
             except Exception as e:
                 pass
+            # ws.append(['职位', '公司名字', '地点', '薪资', '投递链接'])
             ws.append([post, company_name, addr, salary, post_link])
 
             # print(browser.execute_script("document.getElementsByClassName('job-detail')[0].innerText"))
@@ -132,5 +131,5 @@ for item in title_list:
         print(e)
 wb.save(f'{str(datetime.date.today())}_lagou.xlsx')
 
-time.sleep(50)
+time.sleep(5)
 browser.quit()
