@@ -26,7 +26,7 @@ if __name__ == '__main__':
     server.bind(8008)
     server.start(1)  # 启动4个进程，默认1
 
-    # tornado.ioloop.IOLoop.current().start()
+    tornado.ioloop.IOLoop.current().start()
     """
     IOLoop.current()    返回当前线程的IOLoop实例
     """
