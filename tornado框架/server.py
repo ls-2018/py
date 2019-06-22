@@ -22,9 +22,14 @@ if __name__ == '__main__':
 
     server = tornado.httpserver.HTTPServer(app)
     # server.listen(8088, '127.0.0.1')# 默认单进程
-
     server.bind(8008)
-    server.start(1)  # 启动4个进程，默认1
+    server.start(2)  # 启动4个进程，默认1
+    """
+    以后不用以上这种方式启动多进程：
+    存在问题：
+        1、每个子进程都回从父进程中复制一份IOLoop的实例,如果在创建子进程前修改了IOLoop,会影响所有的子进程。
+        2、所有的进程都是由一个命令启动的，无法做到在不停止服务的情况下修改代码。
+    """
 
     tornado.ioloop.IOLoop.current().start()
     """
