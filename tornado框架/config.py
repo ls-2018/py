@@ -1,4 +1,4 @@
 options = {
     'port': 8000,
-    'list': ['good', 'nice', 'handsome']
+    'list': ['good', 'nice', 'handsome'],
 }

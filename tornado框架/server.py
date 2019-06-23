@@ -1,3 +1,4 @@
+import tornado.options
 import tornado.web
 # 基础web框架模块
 import tornado.ioloop
@@ -20,10 +21,11 @@ if __name__ == '__main__':
     # 手动创建一个服务器
     import tornado.httpserver
 
+    tornado.options.options.logging = None  # 关闭日志   或者在启动的时候  --logging=none
     server = tornado.httpserver.HTTPServer(app)
     # server.listen(8088, '127.0.0.1')# 默认单进程
     server.bind(8008)
-    server.start(2)  # 启动4个进程，默认1
+    server.start(1)  # 启动4个进程，默认1
     """
     以后不用以上这种方式启动多进程：
     存在问题：

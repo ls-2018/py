@@ -41,3 +41,4 @@ tornado.options.parse_config_file('./conf')  # 格式仍需要按照py的语法�
 # import config
 
 # print(config.options['port'])
+tornado.options.options.logging = None      # 关闭日志功能
