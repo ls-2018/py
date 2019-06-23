@@ -34,5 +34,10 @@ callback=None
 # print(tornado.options.options.list)  # ['123456', '456']
 
 # -------------------------------------------------从配置文件-------------------------------------------------
-tornado.options.parse_config_file('./conf')
-print(tornado.options.options.as_dict())
+tornado.options.parse_config_file('./conf')  # 格式仍需要按照py的语法格式
+# print(tornado.options.options.as_dict())
+
+# -------------------------------------------------从配置文件config.py----------------------------------------
+# import config
+
+# print(config.options['port'])
