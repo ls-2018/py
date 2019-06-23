@@ -1,5 +1,6 @@
 import tornado.web
 from views import index
+from config import settings
 
 
 class Application(tornado.web.Application):
@@ -8,4 +9,4 @@ class Application(tornado.web.Application):
             ('/', index.IndexHandler)
 
         ]
-        super(Application, self).__init__(handlers)
+        super(Application, self).__init__(handlers, **settings)
