@@ -4,9 +4,9 @@ from config import settings
 
 
 class Application(tornado.web.Application):
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         handlers = [
             ('/', index.IndexHandler)
 
         ]
-        super(Application, self).__init__(handlers, **settings)
+        super(Application, self).__init__(handlers, *args, **kwargs, **settings)
