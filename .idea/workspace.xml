@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tornado框架/reques.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado框架/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/project/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado框架/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado框架/project/views/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/project/views/index.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
     <SUITE FILE_PATH="coverage/book$.coverage" NAME="路由 Coverage Results" MODIFIED="1561173817336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sanic框架" />
     <SUITE FILE_PATH="coverage/book$xl.coverage" NAME="xl Coverage Results" MODIFIED="1557994046094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/book$520.coverage" NAME="520 Coverage Results" MODIFIED="1558153100465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python程序员面试算法宝典/面试" />
-    <SUITE FILE_PATH="coverage/book$server.coverage" NAME="server Coverage Results" MODIFIED="1561389163541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado框架/project" />
+    <SUITE FILE_PATH="coverage/book$server.coverage" NAME="server Coverage Results" MODIFIED="1561389772983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado框架/project" />
     <SUITE FILE_PATH="coverage/book$sysinfo.coverage" NAME="sysinfo Coverage Results" MODIFIED="1557627341339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/编程珠玑/CrazyMonitorClient/plugins/windows" />
     <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1、入门 Coverage Results" MODIFIED="1560668881790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sanic框架" />
     <SUITE FILE_PATH="coverage/book$4cookies.coverage" NAME="4、cookies Coverage Results" MODIFIED="1560677025940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sanic框架" />
@@ -69,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tornado框架/project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="188">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -78,11 +76,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tornado框架/project/views/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-75">
+              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tornado框架/reques.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python36/Lib/site-packages/tornado/web.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="2994" column="47" selection-start-line="2994" selection-start-column="41" selection-end-line="2994" selection-end-column="47" />
+              <folding>
+                <element signature="e#69358#71504#1" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/tasks.py" />
         <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/views.py" />
         <option value="$PROJECT_DIR$/Flask－/client.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendmail.py" />
@@ -189,9 +207,10 @@
         <option value="$PROJECT_DIR$/tornado框架/project/views/__init__.py" />
         <option value="$PROJECT_DIR$/tornado框架/project/__init__.py" />
         <option value="$PROJECT_DIR$/tornado框架/project/server.py" />
-        <option value="$PROJECT_DIR$/tornado框架/project/urls.py" />
         <option value="$PROJECT_DIR$/tornado框架/project/config.py" />
+        <option value="$PROJECT_DIR$/tornado框架/project/urls.py" />
         <option value="$PROJECT_DIR$/tornado框架/project/views/index.py" />
+        <option value="$PROJECT_DIR$/tornado框架/reques.py" />
       </list>
     </option>
   </component>
@@ -220,12 +239,6 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="tornado框架" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="tornado框架" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,14 +411,7 @@
       <workItem from="1561280760820" duration="3404000" />
       <workItem from="1561284344744" duration="5177000" />
       <workItem from="1561294901858" duration="1601000" />
-      <workItem from="1561387404471" duration="1655000" />
-    </task>
-    <task id="LOCAL-00096" summary="面试">
-      <created>1558140172567</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1558140172567</updated>
+      <workItem from="1561387404471" duration="4501000" />
     </task>
     <task id="LOCAL-00097" summary="面试">
       <created>1558141648239</created>
@@ -743,21 +749,29 @@
       <option name="project" value="LOCAL" />
       <updated>1561295959664</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="tornado规划">
+      <created>1561389287972</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1561389287973</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141843000" />
+    <option name="totallyTimeSpent" value="144689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="672" y="130" width="1227" height="801" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18423307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18423307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49357328" visible="true" weight="0.31881803" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49357328" visible="true" weight="0.31881803" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49957228" weight="0.3951049" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -826,7 +840,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="tornado规划" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python36/Lib/site-packages/sanic-19.3.1.dist-info/RECORD" />
     <entry file="file://D:/Python36/Lib/site-packages/sanic-19.3.1.dist-info/top_level.txt" />
     <entry file="file://$PROJECT_DIR$/sanic框架/sanic/app.py" />
     <entry file="file://D:/Python36/Lib/site-packages/sanic/__init__.py" />
@@ -1053,16 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/tornado/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
-          <folding>
-            <element signature="e#69358#71504#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tornado框架/conf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1114,10 +1117,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="2994" column="47" selection-start-line="2994" selection-start-column="41" selection-end-line="2994" selection-end-column="47" />
+          <folding>
+            <element signature="e#69358#71504#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tornado框架/project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="188">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -1126,8 +1139,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tornado框架/project/views/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="-75">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornado框架/reques.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
