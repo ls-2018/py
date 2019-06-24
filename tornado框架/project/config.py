@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(__file__)
 # 启动参数
 options = {
-    'port': 8001
+    'port': 8000
 }
 
 # 系统配置
