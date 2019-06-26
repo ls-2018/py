@@ -53,3 +53,15 @@ class KindHandler(RequestHandler):
         print(self.request.files)
         self.redirect('/?flag=1')
 
+def test():
+    import tornado.httputil
+    # tornado.httputil.HTTPFile()
+    """
+    {
+        xxxx:{
+            filename
+            body
+            content_type
+        }
+    }
+    """
