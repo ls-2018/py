@@ -34,15 +34,18 @@ class IndexHandler(RequestHandler):
             code = 404
             self.write('资源部存在')
         self.set_status(code, '')
+
     def prepare(self):
         """类似中间件"""
         pass
+
     def on_finish(self):
         """
         请求结束后执行，   资源释放，日志处理
         :return:
         """
         pass
+
 
 class KindHandler(RequestHandler):
     def initialize(self, arg):
