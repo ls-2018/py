@@ -41,4 +41,15 @@ class KindHandler(RequestHandler):
 
     def get(self, *args, **kwargs):
         print(self.reverse_url('kind'))
+        print(self.request.method)
+        print(self.request.url)
+        print(self.request.path)
+        print(self.request.host)
+        print(self.request.remote_ip)
+        print(self.request.query)
+        print(self.request.version)
+        print(self.request.headers)
+        print(self.request.body)
+        print(self.request.files)
         self.redirect('/?flag=1')
+
