@@ -4,8 +4,6 @@
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tornado框架/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado框架/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado框架/project/views/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/project/views/index.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,12 +68,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tornado框架/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+            <state relative-caret-position="700">
+              <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
               <folding>
                 <element signature="e#1#12#0" expanded="true" />
                 <element signature="e#886#1256#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python36/Lib/site-packages/tornado/queues.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="289" column="8" selection-start-line="289" selection-start-column="8" selection-end-line="289" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -207,9 +214,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="687" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="833" />
+    <option name="y" value="9" />
     <option name="width" value="1227" />
     <option name="height" value="1033" />
   </component>
@@ -509,14 +516,7 @@
       <workItem from="1561551254661" duration="1782000" />
       <workItem from="1561554306018" duration="599000" />
       <workItem from="1561558791260" duration="1931000" />
-      <workItem from="1561609708715" duration="4795000" />
-    </task>
-    <task id="LOCAL-00104" summary="面试">
-      <created>1558150832162</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1558150832162</updated>
+      <workItem from="1561609708715" duration="5717000" />
     </task>
     <task id="LOCAL-00105" summary="面试">
       <created>1558152038992</created>
@@ -854,11 +854,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561562661355</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="tornado">
+      <created>1561615089665</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1561615089665</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154812000" />
+    <option name="totallyTimeSpent" value="155734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="687" y="3" width="1227" height="1033" extended-state="0" />
@@ -877,7 +884,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32983682" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32983682" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50642675" side_tool="true" weight="0.3576983" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50642675" side_tool="true" weight="0.35746104" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4947469" weight="0.9657143" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
@@ -933,12 +940,11 @@
     <MESSAGE value="es_dsl" />
     <MESSAGE value="sanic配置" />
     <MESSAGE value="sanic" />
-    <MESSAGE value="tornado" />
     <MESSAGE value="tornado规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="tornado规划" />
+    <MESSAGE value="tornado" />
+    <option name="LAST_COMMIT_MESSAGE" value="tornado" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python36/Lib/site-packages/sanic/__init__.py" />
     <entry file="file://$PROJECT_DIR$/sanic框架/sanic/__init__.py" />
     <entry file="file://$PROJECT_DIR$/sanic框架/test.py" />
     <entry file="file://$PROJECT_DIR$/sanic框架/1、入门.py">
@@ -1266,10 +1272,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/tornado/queues.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="289" column="8" selection-start-line="289" selection-start-column="8" selection-end-line="289" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tornado框架/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        <state relative-caret-position="700">
+          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
           <folding>
             <element signature="e#1#12#0" expanded="true" />
             <element signature="e#886#1256#0" />

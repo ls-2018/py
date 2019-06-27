@@ -75,7 +75,7 @@ async def main():
 
     await q.put(base_url)
 
-    # Start workers, then wait for the work queue to be empty.
+    # 10个并发worker（协程）
     workers = gen.multi([worker() for _ in range(concurrency)])
     await q.join(timeout=timedelta(seconds=300))
     assert fetching == fetched
