@@ -1,4 +1,7 @@
 from tornado.web import RequestHandler
+from tornado import gen
+
+gen.coroutine
 
 
 class IndexHandler(RequestHandler):
@@ -14,15 +17,19 @@ class IndexHandler(RequestHandler):
         """
         self.set_header('k', 'v')
 
-    def get(self, *args, **kwargs):
+    async def get(self, *args, **kwargs):
         # print(self.get_query_argument('flag')) # 没有报错
-        self.write('<h1>hello world!</h1>')
-        self.write('<h1>hello world!</h1>')
-        self.write('<h1>hello world!</h1>')
-        self.finish()
-        self.set_header('k', 'v')
+        # self.write('<h1>hello world!</h1>')
+        # self.write('<h1>hello world!</h1>')
+        # self.write('<h1>hello world!</h1>')
+        # self.finish()
+        # self.set_header('k', 'v')
 
         # self.send_error(status_code=500, **kwargs)  # 抛出异常，以后的不再执行
+        from tornado.httpclient import AsyncHTTPClient
+        http_client = AsyncHTTPClient()
+        response = await http_client.fetch('/kind')
+        return response.body
 
     def write_error(self, status_code, **kwargs):
         """ 遇到异常，以后的执行"""
