@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AWS/day01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado框架/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,41 +66,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tornado框架/1.py">
+        <entry file="file://$PROJECT_DIR$/AWS/day01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            <state relative-caret-position="231">
+              <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
               <folding>
-                <element signature="e#1#12#0" expanded="true" />
-                <element signature="e#886#1256#0" />
+                <element signature="e#98#110#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/site-packages/tornado/queues.py">
+        <entry file="file://D:/Python36/Lib/site-packages/boto3/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="289" column="8" selection-start-line="289" selection-start-column="8" selection-end-line="289" selection-end-column="8" />
+            <state relative-caret-position="2200">
+              <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tornado框架/project/__init__.py">
+        <entry file="file://D:/Python36/Lib/site-packages/boto3/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/urllib/parse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="477" column="4" selection-start-line="477" selection-start-column="4" selection-end-line="477" selection-end-column="4" />
+            <state relative-caret-position="4325">
+              <caret line="184" column="20" selection-start-line="184" selection-start-column="20" selection-end-line="187" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -160,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/运维自动化/CrazyEye/bernard/views.py" />
         <option value="$PROJECT_DIR$/Flask－/client.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendmail.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendwx.py" />
@@ -211,12 +200,13 @@
         <option value="$PROJECT_DIR$/tornado框架/project/views/index.py" />
         <option value="$PROJECT_DIR$/tornado框架/project/__init__.py" />
         <option value="$PROJECT_DIR$/tornado框架/1.py" />
+        <option value="$PROJECT_DIR$/AWS/day01.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="833" />
-    <option name="y" value="9" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="632" />
+    <option name="y" value="49" />
     <option name="width" value="1227" />
     <option name="height" value="1033" />
   </component>
@@ -228,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,70 +225,11 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="tornado框架" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="tornado框架" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -517,13 +447,8 @@
       <workItem from="1561554306018" duration="599000" />
       <workItem from="1561558791260" duration="1931000" />
       <workItem from="1561609708715" duration="5717000" />
-    </task>
-    <task id="LOCAL-00105" summary="面试">
-      <created>1558152038992</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1558152038992</updated>
+      <workItem from="1561629494020" duration="2716000" />
+      <workItem from="1561645137128" duration="599000" />
     </task>
     <task id="LOCAL-00106" summary="面试">
       <created>1558160486092</created>
@@ -861,14 +786,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561615089665</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="tornado">
+      <created>1561629514356</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1561629514356</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155734000" />
+    <option name="totallyTimeSpent" value="159049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="687" y="3" width="1227" height="1033" extended-state="0" />
+    <frame x="632" y="49" width="1227" height="1033" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" weight="0.29391602" />
@@ -885,7 +817,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32983682" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32983682" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50642675" side_tool="true" weight="0.35746104" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4947469" weight="0.9657143" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4947469" visible="true" weight="0.034285713" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -945,18 +877,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="tornado" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sanic框架/sanic/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/sanic框架/test.py" />
-    <entry file="file://$PROJECT_DIR$/sanic框架/1、入门.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sanic框架/路由.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1066,21 +986,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/tornado/platform/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/tornado/platform/select.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/tornado/platform/epoll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375" />
-      </provider>
-    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/tornado/platform/common.py" />
+    <entry file="file://D:/Python36/Lib/site-packages/tornado/platform/select.py" />
+    <entry file="file://D:/Python36/Lib/site-packages/tornado/platform/epoll.py" />
     <entry file="file://D:/Python36/Lib/site-packages/tornado/httpserver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1258,35 +1166,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python36/Lib/urllib/parse.py">
+    <entry file="file://$PROJECT_DIR$/tornado框架/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="477" column="4" selection-start-line="477" selection-start-column="4" selection-end-line="477" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tornado框架/project/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="500">
+          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Python36/Lib/site-packages/tornado/queues.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="7000">
           <caret line="289" column="8" selection-start-line="289" selection-start-column="8" selection-end-line="289" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tornado框架/1.py">
+    <entry file="file://$PROJECT_DIR$/tornado框架/project/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="80" column="30" lean-forward="true" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="1700">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11875">
+          <caret line="477" column="4" selection-start-line="477" selection-start-column="4" selection-end-line="477" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/day01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
           <folding>
-            <element signature="e#1#12#0" expanded="true" />
-            <element signature="e#886#1256#0" />
+            <element signature="e#98#110#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/boto3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/boto3/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4325">
+          <caret line="184" column="20" selection-start-line="184" selection-start-column="20" selection-end-line="187" selection-end-column="50" />
         </state>
       </provider>
     </entry>
