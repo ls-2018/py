@@ -20,4 +20,7 @@ debug=True
     2、取消缓存编译的模板              compiled_template_cache=False
     3、取消缓存静态文件的hash值        static_hash_cache=False
     4、提供追踪信息                    serve_traceback=True
+
+autoescape = None
+    关闭模板的自动转义功能
 """
