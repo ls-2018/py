@@ -31,22 +31,14 @@ print(bucket)
 
 # 5.获取bucket信息
 bucket_info = s3_client.head_bucket(Bucket='bucket的名称')
-
 print(bucket_info)
+
 
 # 6.删除bucket
 # bucket_delete = s3_client.delete_bucket(Bucket='bucket的名称')
-
 # 7.上传文件到s3服务器
-
 # s3_client.upload_file("上传的源文件地址", "bucket名称", "上传文件在s3上对应的key名称", ExtraArgs={'ACL': 'public-read'})
-
 # 或者
-
-s3_client.upload_file("上传的源文件地址", "bucket名称", "上传文件在s3上对应的key名称", ExtraArgs={'ACL': 'public-read'},
-                      Callback=UploadProgressPercentage("上传的源文件地址"))
-
-
 # Callback属性对应的类方法如下，该类方法在控制台中打印了上传文件的进度
 
 class UploadProgressPercentage(object):
@@ -68,6 +60,9 @@ class UploadProgressPercentage(object):
                     percentage))
             sys.stdout.flush()
 
+
+s3_client.upload_file("上传的源文件地址", "bucket名称", "上传文件在s3上对应的key名称", ExtraArgs={'ACL': 'public-read'},
+                      Callback=UploadProgressPercentage("上传的源文件地址"))
 
 # 8.获取bucket下文件列表
 
