@@ -53,6 +53,26 @@ class IndexHandler(RequestHandler):
         """
         pass
 
+    """
+    正常情况下
+    set_default_headers
+    initialize
+    prepare
+    HTTP方法
+    on_finish
+    """
+
+    """
+    在http方法内抛异常
+    set_default_headers
+    initialize
+    prepare
+    HTTP方法
+    set_default_headers
+    write_error
+    on_finish
+    """
+
 
 class KindHandler(RequestHandler):
     def initialize(self, arg):
