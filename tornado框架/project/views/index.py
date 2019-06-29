@@ -1,4 +1,4 @@
-from tornado.web import RequestHandler
+from tornado.web import RequestHandler, authenticated
 from tornado import gen
 
 gen.coroutine
@@ -111,6 +111,7 @@ class KindHandler(RequestHandler):
         print(self.request.files)
         self.redirect('/?flag=1')
 
+
 # def test():
 #     import tornado.httputil
 #     # tornado.httputil.HTTPFile()
@@ -123,3 +124,12 @@ class KindHandler(RequestHandler):
 #         }
 #     }
 #     """
+
+class HomeHandler(RequestHandler):
+    def get_current_user(self):
+        # return True   # 登陆成功
+        return False  # 验证失败，跳转配置中的login_url
+
+    @authenticated
+    def get(self):
+        pass

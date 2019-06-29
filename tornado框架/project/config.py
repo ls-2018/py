@@ -15,7 +15,8 @@ settings = {
     'static_url_prefix': '/static',
     'template_path': os.path.join(BASE_DIR, 'templates'),
     'cookie_secret': base64.b64encode(uuid.uuid4().bytes + uuid.uuid4().bytes),
-    'xsrf_cookies': True,  # 开始xsrf保护
+    'xsrf_cookies': True,  # 开始xsrf保护，在模板内   {% module xsrf_from_html() %}
+    'login_url':'/login'
 }
 
 """
@@ -27,4 +28,6 @@ debug=True
 
 autoescape = None
     关闭模板的自动转义功能
+    
+
 """
