@@ -81,6 +81,12 @@ class KindHandler(RequestHandler):
         # self.clear_cookie(name='', path="/", domain='baidu.com')
         # self.clear_header('name')
         self.set_secure_cookie('name', 'value', expires_days=30, version=None, )
+        self.get_secure_cookie('name', value=None, max_age_days=31, min_version=None, )
+        """
+        max_age_days 最大过滤时间（不获取）
+        min_version
+        """
+        # self.get_secure_cookie_key_version()
         """
         self.set_cookie(
             name,
