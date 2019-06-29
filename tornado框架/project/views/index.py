@@ -77,6 +77,9 @@ class IndexHandler(RequestHandler):
 class KindHandler(RequestHandler):
     def initialize(self, arg):
         print(arg)
+        self.clear_all_cookies(path="/", domain=None)
+        self.clear_cookie(name='', path="/", domain='baidu.com')
+        self.clear_header('name')
 
     def get(self, *args, **kwargs):
         print(self.reverse_url('kind'))
