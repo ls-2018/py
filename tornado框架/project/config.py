@@ -1,4 +1,6 @@
 import os
+import uuid
+import base64
 
 BASE_DIR = os.path.dirname(__file__)
 # 启动参数
@@ -11,8 +13,10 @@ settings = {
     "debug": True,
     'static_path': os.path.join(BASE_DIR, 'static'),
     'static_url_prefix': '/static',
-    'template_path': os.path.join(BASE_DIR, 'templates')
+    'template_path': os.path.join(BASE_DIR, 'templates'),
+    'cookie_secret':base64.b64encode(uuid.uuid4().bytes+uuid.uuid4().bytes)
 }
+
 
 """
 debug=True
