@@ -14,9 +14,9 @@ settings = {
     'static_path': os.path.join(BASE_DIR, 'static'),
     'static_url_prefix': '/static',
     'template_path': os.path.join(BASE_DIR, 'templates'),
-    'cookie_secret':base64.b64encode(uuid.uuid4().bytes+uuid.uuid4().bytes)
+    'cookie_secret': base64.b64encode(uuid.uuid4().bytes + uuid.uuid4().bytes),
+    'xsrf_cookies': True,  # 开始xsrf保护
 }
-
 
 """
 debug=True
