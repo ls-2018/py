@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tornado框架/转义.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornado框架/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/tornado框架/project/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tornado框架/静态文件.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,24 +64,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tornado框架/project/views/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#156#192#0" />
-                <element signature="e#237#364#0" />
-                <element signature="e#416#907#0" />
-                <element signature="e#967#1214#0" />
-                <element signature="e#1247#1271#0" />
-                <element signature="e#1306#1380#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tornado框架/options功能.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,11 +145,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tornado框架/转义.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="325">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tornado框架/静态文件.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -230,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendmail.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_sendwx.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_senddd.py" />
         <option value="$PROJECT_DIR$/运维自动化/zabbix/zabbix_agent_install.py" />
@@ -281,12 +269,13 @@
         <option value="$PROJECT_DIR$/tornado框架/project/views/index.py" />
         <option value="$PROJECT_DIR$/tornado框架/project/config.py" />
         <option value="$PROJECT_DIR$/tornado框架/转义.py" />
+        <option value="$PROJECT_DIR$/tornado框架/静态文件.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="626" />
-    <option name="y" value="-3" />
+    <option name="x" value="876" />
+    <option name="y" value="-4" />
     <option name="width" value="1114" />
     <option name="height" value="1033" />
   </component>
@@ -309,12 +298,6 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="tornado框架" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="tornado框架" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -542,14 +525,7 @@
       <workItem from="1561645137128" duration="599000" />
       <workItem from="1561682475565" duration="1983000" />
       <workItem from="1561690371339" duration="672000" />
-      <workItem from="1561711168966" duration="1437000" />
-    </task>
-    <task id="LOCAL-00109" summary="面试">
-      <created>1558429197328</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1558429197329</updated>
+      <workItem from="1561711168966" duration="2056000" />
     </task>
     <task id="LOCAL-00110" summary="es_dsl">
       <created>1560519397992</created>
@@ -887,17 +863,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561711368607</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="转义">
+      <created>1561712616575</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1561712616575</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163141000" />
+    <option name="totallyTimeSpent" value="163760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="626" y="-3" width="1114" height="1033" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.32542694" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.32542694" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.29391602" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -910,7 +893,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32983682" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32983682" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5081405" side_tool="true" weight="0.32628062" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5081405" side_tool="true" visible="true" weight="0.3257143" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49185947" weight="0.3257143" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32995495" />
@@ -968,16 +951,10 @@
     <MESSAGE value="sanic" />
     <MESSAGE value="tornado规划" />
     <MESSAGE value="tornado" />
-    <option name="LAST_COMMIT_MESSAGE" value="tornado" />
+    <MESSAGE value="转义" />
+    <option name="LAST_COMMIT_MESSAGE" value="转义" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sanic框架/测试.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python36/Lib/site-packages/tornado/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1313,8 +1290,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tornado框架/转义.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        <state relative-caret-position="325">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornado框架/静态文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
