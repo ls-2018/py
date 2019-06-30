@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    <style>
+
+        .txt{
+            width: 500px;
+            height: 300px;
+            background-color: blanchedalmond;
+            overflow: scroll;
+        }
+
+        input[name='content']{
+            font-size:20px;
+            height:40px;
+            width: 450px;
+        }
+        input[type='button']{
+            height: 43px;
+            width: 100px;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="txt"></div>
+    <input type="text" name="content"/><input type="button" onclick="send()" value="发送消息"/>
+
+    <script>
+            var ws = new WebSocket("ws://127.0.0.1:8888/socket");
+            ws.onopen = function() {
+               console.log('连接成功！~')
+            };
+            ws.onmessage = function (evt) {
+               $('.txt').append('<p>'+evt.data+'</p>')
+            };
+            ws.onclose =function(){
+                console.log('关闭连接了~')
+            };
+
+            function send(){
+                var c = $('input[name="content"]').val();
+                ws.send(c);
+                $('input[name="content"]').val("")
+            }
+
+    </script>
+</body>
+</html>
