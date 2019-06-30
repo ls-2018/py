@@ -7,7 +7,7 @@
 """
 import tornado.web
 import tornado.gen
-from tornado.httpclient import AsyncHTTPClient
+from tornado.httpclient import AsyncHTTPClient, HTTPClient
 import tornado.ioloop
 import time
 from tornado.concurrent import Future
@@ -16,16 +16,20 @@ from tornado.concurrent import Future
 class Index(tornado.web.RequestHandler):
     def _on_download(self, response):
         print(response)
-        time.sleep(5)
+        # time.sleep(10)
         self.write(response.body)
         self.finish()
 
     @tornado.gen.coroutine
-    @tornado.web.asynchronous  # 取消自动关闭通道
+    # @tornado.web.asynchronous  # 取消自动关闭通道
     def get(self, *args, **kwargs):
         print(time.time(), '1')
-        http = AsyncHTTPClient()  # 写在这的都不是异步
-        http.fetch("http://www.baidu.com/", self._on_download)  # 要取消自动关闭
+        # http = AsyncHTTPClient()
+        # 方式一   不是异步
+        # data = yield http.fetch("http://www.baidu.com/", self._on_download)
+        # 方式二   不是异步
+        # data = yield http.fetch("http://www.baidu.com/")
+        # print('K.O.', data)
 
         # future = Future()
         # tornado.ioloop.IOLoop.current().add_timeout(time.time() + 1, self.doing)# 异步的
