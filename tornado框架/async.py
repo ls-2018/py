@@ -9,15 +9,6 @@ import time
 import threading
 
 
-# handler 获取数据(数据库、其他服务器，循环耗时)
-def longIo():
-    print('开始耗时操作')
-    time.sleep(5)
-    print('结束耗时操作')
-    # 返回数据
-    yield 'sunck is a good man'
-
-
 def genCoroutine(func):
     def wrapper(*args, **kwargs):
         # def func():
@@ -52,6 +43,15 @@ def reqA():
     res = yield longIo()
     print('接收到longIo的相应数据：', res)
     print('结束处理reqA')
+
+
+# handler 获取数据(数据库、其他服务器，循环耗时)
+def longIo():
+    print('开始耗时操作')
+    time.sleep(5)
+    print('结束耗时操作')
+    # 返回数据
+    yield 'sunck is a good man'
 
 
 # 另一个客户端的请求

@@ -16,36 +16,36 @@ from tornado.concurrent import Future
 class Index(tornado.web.RequestHandler):
     def _on_download(self, response):
         print(response)
+        time.sleep(5)
         self.write(response.body)
         self.finish()
 
-    # @tornado.web.asynchronous  # 取消自动关闭通道
-
     @tornado.gen.coroutine
+    @tornado.web.asynchronous  # 取消自动关闭通道
     def get(self, *args, **kwargs):
         print(time.time(), '1')
-        # http = AsyncHTTPClient()
-        # http.fetch("http://www.baidu.com/", self._on_download)
-        """
-        future = Future()
-        tornado.ioloop.IOLoop.current().add_timeout(time.time() + 1, self.doing)
-        # 或者
-        # future.add_done_callback(self.doing)
-        yield future
-        """
-        content = yield self.doing2()
-        self.write(content)
-        print(time.time(), '1')
+        http = AsyncHTTPClient()  # 写在这的都不是异步
+        http.fetch("http://www.baidu.com/", self._on_download)  # 要取消自动关闭
+
+        # future = Future()
+        # tornado.ioloop.IOLoop.current().add_timeout(time.time() + 1, self.doing)# 异步的
+        # # 或者
+        # # future.add_done_callback(self.doing)
+        # yield future
+
+        # content = yield self.doing2()        # 不是异步的
+        # self.write(content)
+        # print(time.time(), '1')
 
     def doing(self, *args, **kwargs):
         self.write('async')
-        # time.sleep(10)
+        time.sleep(10)
         self.finish()  # 手动关闭
         print(time.time(), '1')
 
     def doing2(self):
         future = Future()
-        time.sleep(2)
+        time.sleep(10)
         future.set_result('--------123')
         return future
 
