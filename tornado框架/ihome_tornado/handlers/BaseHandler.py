@@ -8,6 +8,7 @@ from utils.session import Session
 
 class BaseHandler(RequestHandler):
     """自定义基类"""
+
     @property
     def db(self):
         """作为RequestHandler对象的db属性"""
@@ -37,29 +38,7 @@ class BaseHandler(RequestHandler):
 
 class StaticFileBaseHandler(StaticFileHandler):
     """自定义静态文件处理类, 在用户获取html页面的时候设置_xsrf的cookie"""
+
     def __init__(self, *args, **kwargs):
         super(StaticFileBaseHandler, self).__init__(*args, **kwargs)
         self.xsrf_token
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

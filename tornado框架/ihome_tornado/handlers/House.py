@@ -11,8 +11,10 @@ from utils.commons import required_login
 from utils.qiniu_storage import storage
 from utils.session import Session
 
+
 class AreaInfoHandler(BaseHandler):
     """提供城区信息"""
+
     def get(self):
         # 先到redis中查询数据，如果获取到了数据，直接返回给用户
         try:
@@ -61,6 +63,7 @@ class AreaInfoHandler(BaseHandler):
 
 class MyHousesHandler(BaseHandler):
     """"""
+
     @required_login
     def get(self):
         user_id = self.session.data["user_id"]
@@ -70,24 +73,25 @@ class MyHousesHandler(BaseHandler):
             ret = self.db.query(sql, user_id)
         except Exception as e:
             logging.error(e)
-            return self.write({"errcode":RET.DBERR, "errmsg":"get data erro"})
+            return self.write({"errcode": RET.DBERR, "errmsg": "get data erro"})
         houses = []
         if ret:
             for l in ret:
                 house = {
-                    "house_id":l["hi_house_id"],
-                    "title":l["hi_title"],
-                    "price":l["hi_price"],
-                    "ctime":l["hi_ctime"].strftime("%Y-%m-%d"), # 将返回的Datatime类型格式化为字符串
-                    "area_name":l["ai_name"],
-                    "img_url":constants.QINIU_URL_PREFIX + l["hi_index_image_url"] if l["hi_index_image_url"] else ""
+                    "house_id": l["hi_house_id"],
+                    "title": l["hi_title"],
+                    "price": l["hi_price"],
+                    "ctime": l["hi_ctime"].strftime("%Y-%m-%d"),  # 将返回的Datatime类型格式化为字符串
+                    "area_name": l["ai_name"],
+                    "img_url": constants.QINIU_URL_PREFIX + l["hi_index_image_url"] if l["hi_index_image_url"] else ""
                 }
                 houses.append(house)
-        self.write({"errcode":RET.OK, "errmsg":"OK", "houses":houses})
+        self.write({"errcode": RET.OK, "errmsg": "OK", "houses": houses})
 
 
 class HouseImageHandler(BaseHandler):
     """房屋照片"""
+
     @required_login
     def post(self):
         user_id = self.session.data["user_id"]
@@ -96,7 +100,7 @@ class HouseImageHandler(BaseHandler):
         # 调用我们封装好的上传七牛的storage方法上传图片
         img_name = storage(house_image)
         if not img_name:
-            return self.write({"errcode":RET.THIRDERR, "errmsg":"qiniu error"})
+            return self.write({"errcode": RET.THIRDERR, "errmsg": "qiniu error"})
         try:
             # 保存图片路径到数据库ih_house_image表,并且设置房屋的主图片(ih_house_info中的hi_index_image_url）
             # 我们将用户上传的第一张图片作为房屋的主图片
@@ -106,13 +110,14 @@ class HouseImageHandler(BaseHandler):
             self.db.execute(sql, house_id, img_name, img_name, house_id)
         except Exception as e:
             logging.error(e)
-            return self.write({"errcode":RET.DBERR, "errmsg":"upload failed"})
+            return self.write({"errcode": RET.DBERR, "errmsg": "upload failed"})
         img_url = constants.QINIU_URL_PREFIX + img_name
-        self.write({"errcode":RET.OK, "errmsg":"OK", "url":img_url})
+        self.write({"errcode": RET.OK, "errmsg": "OK", "url": img_url})
 
 
 class HouseInfoHandler(BaseHandler):
     """房屋信息"""
+
     @required_login
     def post(self):
         """保存"""
@@ -146,7 +151,7 @@ class HouseInfoHandler(BaseHandler):
         deposit = self.json_args.get("deposit")
         min_days = self.json_args.get("min_days")
         max_days = self.json_args.get("max_days")
-        facility = self.json_args.get("facility") # 对一个房屋的设施，是列表类型
+        facility = self.json_args.get("facility")  # 对一个房屋的设施，是列表类型
         # 校验
         if not all((title, price, area_id, address, room_count, acreage, unit, capacity, beds, deposit, min_days,
                     max_days)):
@@ -172,7 +177,6 @@ class HouseInfoHandler(BaseHandler):
             logging.error(e)
             return self.write(dict(errcode=RET.DBERR, errmsg="save data error"))
 
-
         # house_id = 10001
         # facility = ["7", "8", "9", "10"]
         #
@@ -197,16 +201,12 @@ class HouseInfoHandler(BaseHandler):
         #     try:
         #         self.db.execute(sql, *sql_val)
 
-
-
-
-
         try:
             # for fid in facility:
             #     sql = "insert into ih_house_facility(hf_house_id,hf_facility_id) values(%s,%s)"
             #     self.db.execute(sql, house_id, fid)
             sql = "insert into ih_house_facility(hf_house_id,hf_facility_id) values"
-            sql_val = [] # 用来保存条目的(%s, %s)部分  最终的形式 ["(%s, %s)", "(%s, %s)"]
+            sql_val = []  # 用来保存条目的(%s, %s)部分  最终的形式 ["(%s, %s)", "(%s, %s)"]
             vals = []  # 用来保存的具体的绑定变量值
             for facility_id in facility:
                 # sql += "(%s, %s)," 采用此种方式，sql语句末尾会多出一个逗号
@@ -269,21 +269,21 @@ class HouseInfoHandler(BaseHandler):
             return self.write(dict(errcode=RET.NODATA, errmsg="查无此房"))
 
         data = {
-            "hid":house_id,
-            "user_id":ret["hi_user_id"],
-            "title":ret["hi_title"],
-            "price":ret["hi_price"],
-            "address":ret["hi_address"],
-            "room_count":ret["hi_room_count"],
-            "acreage":ret["hi_acreage"],
-            "unit":ret["hi_house_unit"],
-            "capacity":ret["hi_capacity"],
-            "beds":ret["hi_beds"],
-            "deposit":ret["hi_deposit"],
-            "min_days":ret["hi_min_days"],
-            "max_days":ret["hi_max_days"],
-            "user_name":ret["up_name"],
-            "user_avatar":constants.QINIU_URL_PREFIX + ret["up_avatar"] if ret.get("up_avatar") else ""
+            "hid": house_id,
+            "user_id": ret["hi_user_id"],
+            "title": ret["hi_title"],
+            "price": ret["hi_price"],
+            "address": ret["hi_address"],
+            "room_count": ret["hi_room_count"],
+            "acreage": ret["hi_acreage"],
+            "unit": ret["hi_house_unit"],
+            "capacity": ret["hi_capacity"],
+            "beds": ret["hi_beds"],
+            "deposit": ret["hi_deposit"],
+            "min_days": ret["hi_min_days"],
+            "max_days": ret["hi_max_days"],
+            "user_name": ret["up_name"],
+            "user_avatar": constants.QINIU_URL_PREFIX + ret["up_avatar"] if ret.get("up_avatar") else ""
         }
 
         # 查询房屋的图片信息
@@ -329,9 +329,9 @@ class HouseInfoHandler(BaseHandler):
         if ret:
             for comment in ret:
                 comments.append(dict(
-                    user_name = comment["up_name"] if comment["up_name"] != comment["up_mobile"] else "匿名用户",
-                    content = comment["oi_comment"],
-                    ctime = comment["oi_utime"].strftime("%Y-%m-%d %H:%M:%S")
+                    user_name=comment["up_name"] if comment["up_name"] != comment["up_mobile"] else "匿名用户",
+                    content=comment["oi_comment"],
+                    ctime=comment["oi_utime"].strftime("%Y-%m-%d %H:%M:%S")
                 ))
         data["comments"] = comments
 
@@ -350,6 +350,7 @@ class HouseInfoHandler(BaseHandler):
 
 class IndexHandler(BaseHandler):
     """主页信息"""
+
     def get(self):
         try:
             ret = self.redis.get("home_page_data")
@@ -361,20 +362,21 @@ class IndexHandler(BaseHandler):
         else:
             try:
                 # 查询数据库，返回房屋订单数目最多的5条数据(房屋订单通过hi_order_count来表示）
-                house_ret = self.db.query("select hi_house_id,hi_title,hi_order_count,hi_index_image_url from ih_house_info " \
-                                          "order by hi_order_count desc limit %s;" % constants.HOME_PAGE_MAX_HOUSES)
+                house_ret = self.db.query(
+                    "select hi_house_id,hi_title,hi_order_count,hi_index_image_url from ih_house_info " \
+                    "order by hi_order_count desc limit %s;" % constants.HOME_PAGE_MAX_HOUSES)
             except Exception as e:
                 logging.error(e)
-                return self.write({"errcode":RET.DBERR, "errmsg":"get data error"})
+                return self.write({"errcode": RET.DBERR, "errmsg": "get data error"})
             if not house_ret:
-                return self.write({"errcode":RET.NODATA, "errmsg":"no data"})
+                return self.write({"errcode": RET.NODATA, "errmsg": "no data"})
             houses = []
             for l in house_ret:
                 if not l["hi_index_image_url"]:
                     continue
                 house = {
-                    "house_id":l["hi_house_id"],
-                    "title":l["hi_title"],
+                    "house_id": l["hi_house_id"],
+                    "title": l["hi_title"],
                     "img_url": constants.QINIU_URL_PREFIX + l["hi_index_image_url"]
                 }
                 houses.append(house)
@@ -413,6 +415,7 @@ class IndexHandler(BaseHandler):
 
 class HouseListHandler(BaseHandler):
     """房源列表页面"""
+
     def get(self):
         """get方式用来获取数据库数据，本身的逻辑不会对数据库数据产生影响"""
         """
@@ -443,8 +446,8 @@ class HouseListHandler(BaseHandler):
         sql_total_count = "select count(distinct hi_house_id) count from ih_house_info inner join ih_user_profile on hi_user_id=up_user_id " \
                           "left join ih_order_info on hi_house_id=oi_house_id"
 
-        sql_where = [] # 用来保存sql语句的where条件
-        sql_params = {} # 用来保存sql查询所需的动态数据
+        sql_where = []  # 用来保存sql语句的where条件
+        sql_params = {}  # 用来保存sql查询所需的动态数据
 
         if start_date and end_date:
             sql_part = "((oi_begin_date>%(end_date)s or oi_end_date<%(start_date)s) " \
@@ -479,17 +482,17 @@ class HouseListHandler(BaseHandler):
         else:
             total_page = int(math.ceil(ret["count"] / float(constants.HOUSE_LIST_PAGE_CAPACITY)))
             page = int(page)
-            if page>total_page:
+            if page > total_page:
                 return self.write(dict(errcode=RET.OK, errmsg="OK", data=[], total_page=total_page))
 
         # 排序
-        if "new" == sort_key: # 按最新上传时间排序
+        if "new" == sort_key:  # 按最新上传时间排序
             sql += " order by hi_ctime desc"
-        elif "booking" == sort_key: # 最受欢迎
+        elif "booking" == sort_key:  # 最受欢迎
             sql += " order by hi_order_count desc"
-        elif "price-inc" == sort_key: # 价格由低到高
+        elif "price-inc" == sort_key:  # 价格由低到高
             sql += " order by hi_price asc"
-        elif "price-des" == sort_key: # 价格由高到低
+        elif "price-des" == sort_key:  # 价格由高到低
             sql += " order by hi_price desc"
 
         # 分页
@@ -498,7 +501,8 @@ class HouseListHandler(BaseHandler):
         if 1 == page:
             sql += " limit %s" % constants.HOUSE_LIST_PAGE_CAPACITY
         else:
-            sql += " limit %s,%s" % ((page-1)*constants.HOUSE_LIST_PAGE_CAPACITY, constants.HOUSE_LIST_PAGE_CAPACITY)
+            sql += " limit %s,%s" % (
+                (page - 1) * constants.HOUSE_LIST_PAGE_CAPACITY, constants.HOUSE_LIST_PAGE_CAPACITY)
 
         logging.debug(sql)
         try:
@@ -516,8 +520,9 @@ class HouseListHandler(BaseHandler):
                     room_count=l["hi_room_count"],
                     address=l["hi_address"],
                     order_count=l["hi_order_count"],
-                    avatar=constants.QINIU_URL_PREFIX+l["up_avatar"] if l.get("up_avatar") else "",
-                    image_url=constants.QINIU_URL_PREFIX+l["hi_index_image_url"] if l.get("hi_index_image_url") else ""
+                    avatar=constants.QINIU_URL_PREFIX + l["up_avatar"] if l.get("up_avatar") else "",
+                    image_url=constants.QINIU_URL_PREFIX + l["hi_index_image_url"] if l.get(
+                        "hi_index_image_url") else ""
                 )
                 data.append(house)
         self.write(dict(errcode=RET.OK, errmsg="OK", data=data, total_page=total_page))
@@ -525,6 +530,7 @@ class HouseListHandler(BaseHandler):
 
 class HouseListRedisHandler(BaseHandler):
     """使用了缓存的房源列表页面"""
+
     def get(self):
         """get方式用来获取数据库数据，本身的逻辑不会对数据库数据产生影响"""
         """
@@ -556,7 +562,6 @@ class HouseListRedisHandler(BaseHandler):
             logging.info("hit redis")
             return self.write(ret)
 
-
         # 数据查询
         # 涉及到表： ih_house_info 房屋的基本信息  ih_user_profile 房东的用户信息 ih_order_info 房屋订单数据
 
@@ -567,8 +572,8 @@ class HouseListRedisHandler(BaseHandler):
         sql_total_count = "select count(distinct hi_house_id) count from ih_house_info inner join ih_user_profile on hi_user_id=up_user_id " \
                           "left join ih_order_info on hi_house_id=oi_house_id"
 
-        sql_where = [] # 用来保存sql语句的where条件
-        sql_params = {} # 用来保存sql查询所需的动态数据
+        sql_where = []  # 用来保存sql语句的where条件
+        sql_params = {}  # 用来保存sql查询所需的动态数据
 
         if start_date and end_date:
             sql_part = "((oi_begin_date>%(end_date)s or oi_end_date<%(start_date)s) " \
@@ -603,17 +608,17 @@ class HouseListRedisHandler(BaseHandler):
         else:
             total_page = int(math.ceil(ret["count"] / float(constants.HOUSE_LIST_PAGE_CAPACITY)))
             page = int(page)
-            if page>total_page:
+            if page > total_page:
                 return self.write(dict(errcode=RET.OK, errmsg="OK", data=[], total_page=total_page))
 
         # 排序
-        if "new" == sort_key: # 按最新上传时间排序
+        if "new" == sort_key:  # 按最新上传时间排序
             sql += " order by hi_ctime desc"
-        elif "booking" == sort_key: # 最受欢迎
+        elif "booking" == sort_key:  # 最受欢迎
             sql += " order by hi_order_count desc"
-        elif "price-inc" == sort_key: # 价格由低到高
+        elif "price-inc" == sort_key:  # 价格由低到高
             sql += " order by hi_price asc"
-        elif "price-des" == sort_key: # 价格由高到低
+        elif "price-des" == sort_key:  # 价格由高到低
             sql += " order by hi_price desc"
 
         # 分页
@@ -622,7 +627,8 @@ class HouseListRedisHandler(BaseHandler):
         if 1 == page:
             sql += " limit %s" % (constants.HOUSE_LIST_PAGE_CAPACITY * constants.HOUSE_LIST_PAGE_CACHE_NUM)
         else:
-            sql += " limit %s,%s" % ((page-1)*constants.HOUSE_LIST_PAGE_CAPACITY, constants.HOUSE_LIST_PAGE_CAPACITY * constants.HOUSE_LIST_PAGE_CACHE_NUM)
+            sql += " limit %s,%s" % ((page - 1) * constants.HOUSE_LIST_PAGE_CAPACITY,
+                                     constants.HOUSE_LIST_PAGE_CAPACITY * constants.HOUSE_LIST_PAGE_CACHE_NUM)
 
         logging.debug(sql)
         try:
@@ -640,8 +646,9 @@ class HouseListRedisHandler(BaseHandler):
                     room_count=l["hi_room_count"],
                     address=l["hi_address"],
                     order_count=l["hi_order_count"],
-                    avatar=constants.QINIU_URL_PREFIX+l["up_avatar"] if l.get("up_avatar") else "",
-                    image_url=constants.QINIU_URL_PREFIX+l["hi_index_image_url"] if l.get("hi_index_image_url") else ""
+                    avatar=constants.QINIU_URL_PREFIX + l["up_avatar"] if l.get("up_avatar") else "",
+                    image_url=constants.QINIU_URL_PREFIX + l["hi_index_image_url"] if l.get(
+                        "hi_index_image_url") else ""
                 )
                 data.append(house)
 
@@ -653,10 +660,10 @@ class HouseListRedisHandler(BaseHandler):
         # 将多取出来的数据分页
         i = 1
         while 1:
-            page_data = data[i*constants.HOUSE_LIST_PAGE_CAPACITY: (i+1)*constants.HOUSE_LIST_PAGE_CAPACITY]
+            page_data = data[i * constants.HOUSE_LIST_PAGE_CAPACITY: (i + 1) * constants.HOUSE_LIST_PAGE_CAPACITY]
             if not page_data:
                 break
-            house_data[page+i] = json.dumps(dict(errcode=RET.OK, errmsg="OK", data=page_data, total_page=total_page))
+            house_data[page + i] = json.dumps(dict(errcode=RET.OK, errmsg="OK", data=page_data, total_page=total_page))
             i += 1
         try:
             redis_key = "houses_%s_%s_%s_%s" % (start_date, end_date, area_id, sort_key)
@@ -666,21 +673,3 @@ class HouseListRedisHandler(BaseHandler):
             logging.error(e)
 
         self.write(house_data[page])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

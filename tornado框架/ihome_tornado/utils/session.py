@@ -9,6 +9,7 @@ from constants import SESSION_EXPIRES_SECONDS
 
 class Session(object):
     """"""
+
     def __init__(self, request_handler_obj):
 
         # 先判断用户是否已经有了session_id
@@ -37,7 +38,7 @@ class Session(object):
         json_data = json.dumps(self.data)
         try:
             self._request_handler.redis.setex("sess_%s" % self.session_id,
-                                             SESSION_EXPIRES_SECONDS, json_data)
+                                              SESSION_EXPIRES_SECONDS, json_data)
         except Exception as e:
             logging.error(e)
             raise e
