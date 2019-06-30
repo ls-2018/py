@@ -31,11 +31,11 @@ class Index(tornado.web.RequestHandler):
         # data = yield http.fetch("http://www.baidu.com/")
         # print('K.O.', data)
 
-        # future = Future()
+        future = Future()
         # tornado.ioloop.IOLoop.current().add_timeout(time.time() + 1, self.doing)# 异步的
-        # # 或者
-        # # future.add_done_callback(self.doing)
-        # yield future
+        # 或者
+        # future.add_done_callback(self.doing)# 异步的
+        yield future
 
         # content = yield self.doing2()        # 不是异步的
         # self.write(content)
