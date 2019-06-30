@@ -38,4 +38,4 @@ if __name__ == '__main__':
     ])
     app.listen(8001)
 
-    tornado.ioloop.IOLoop.current().start( )
+    tornado.ioloop.IOLoop.current().start()
