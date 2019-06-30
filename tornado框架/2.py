@@ -2,7 +2,7 @@
 @Time: 2019/6/30 12:05 
 @Author: liushuo
 @File: 2.py 
-@Desc: 
+@Desc:    tornado  5.x
 @Software: PyCharm
 """
 import tornado.web
@@ -14,14 +14,14 @@ import tornado.ioloop
 def x():
     import time
 
-    time.sleep(2)
-    return 123
+    time.sleep(12)
+    return '123'
 
 
 class Indexhandler(RequestHandler):
-
-    async def get(self):
-        num = await x()
+    @coroutine
+    def get(self):
+        num = x()
         self.write(num)
 
 
@@ -38,4 +38,4 @@ if __name__ == '__main__':
     ])
     app.listen(8001)
 
-    tornado.ioloop.IOLoop.current().start()
+    tornado.ioloop.IOLoop.current().start( )
