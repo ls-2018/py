@@ -5,8 +5,10 @@
 @Desc: 
 @Software: PyCharm
 """
-S3_Setting = {
-    "aws_access_key_id": '',
-    "aws_secret_access_key": 'lMZRsBLNq/JJNViyZE5RT1NyLh651+ONpobNATF0',
-    "region_name": "cn-north-1"
-}
+
+import sys
+
+sys.path.append('D:\Destop\密码')
+from conf import S3_Setting
+
+print(S3_Setting)
