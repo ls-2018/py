@@ -6,7 +6,7 @@
 @Software: PyCharm
 """
 import boto3
-import datetime
+from datetime import datetime
 
 client = boto3.client('cloudwatch', )
 # aws cloudwatch list-metrics --namespace AWS/EC2       指定 AWS/EC2 命名空间以查看 Amazon EC2 的所有指标
@@ -80,17 +80,43 @@ list_metrics True
 # ###################################   describe_alarm_history     #################################
 # 检索指定警报的历史记录
 
-response = client.describe_alarm_history(
-    AlarmName='string',
-    HistoryItemType='ConfigurationUpdate' | 'StateUpdate' | 'Action',
-    StartDate=datetime(2015, 1, 1),
-    EndDate=datetime(2015, 1, 1),
-    MaxRecords=123,
-    NextToken='string'
-)
-# ###################################   can_paginate    #############################################
-
-
+# response = client.describe_alarm_history(
+# #     AlarmName='Default_Test_Alarm3',
+# #     HistoryItemType='ConfigurationUpdate',
+# #     StartDate=datetime(2015, 1, 1),
+# #     EndDate=datetime(2019, 7, 2),
+# #     MaxRecords=50,  # 小于等于100
+# #     # NextToken=None
+# # )
+# # # #  'ConfigurationUpdate' | 'StateUpdate' | 'Action',
+# # print(response)
+"""
+{
+    'AlarmHistoryItems': [],
+    'ResponseMetadata': {
+        'RequestId': '9a2d94f2-9cb6-11e9-b5ef-09bc043668d6',
+        'HTTPStatusCode': 200,
+        'HTTPHeaders': {
+            'x-amzn-requestid': '9a2d94f2-9cb6-11e9-b5ef-09bc043668d6',
+            'content-type': 'text/xml',
+            'content-length': '314',
+            'date': 'Tue, 02 Jul 2019 10:46:09 GMT'
+        },
+        'RetryAttempts': 0
+    }
+}
+"""
+# ###################################   describe_alarms     #############################################
+# 检索指定的警报。如果未指定警报，则返回所有警报。
+response = client.describe_alarms(
+    # AlarmNames=['Default_Test_Alarm3', ],
+    # AlarmNamePrefix='TargetTracking-table',
+    StateValue='ALARM',
+    ActionPrefix='TargetTracking-table',
+    MaxRecords=100,
+    # NextToken='string'
+)  # 'OK' | 'ALARM' | 'INSUFFICIENT_DATA',
+print(response)
 # ###################################   can_paginate    #############################################
 
 # ###################################   can_paginate    #############################################
