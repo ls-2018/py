@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/运维自动化/CrazyEye" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tornado框架/ihome_tornado" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AWS/images" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

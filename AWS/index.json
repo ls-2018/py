@@ -1,0 +1,2642 @@
+{
+  "formatVersion" : "v1.0",
+  "disclaimer" : "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://www.amazonaws.cn.",
+  "offerCode" : "AmazonS3",
+  "version" : "20190514230814",
+  "publicationDate" : "2019-05-14T23:08:14Z",
+  "products" : {
+    "H54NNJEXBSK2WTKQ" : {
+      "sku" : "H54NNJEXBSK2WTKQ",
+      "productFamily" : "Storage",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "availability" : "99.99%",
+        "storageClass" : "General Purpose",
+        "volumeType" : "Standard",
+        "usagetype" : "CNN1-TimedStorage-ByteHrs",
+        "operation" : "",
+        "durability" : "99.999999999%",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "YNJ2D3H789VHZ8YQ" : {
+      "sku" : "YNJ2D3H789VHZ8YQ",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-INT-Tier1",
+        "groupDescription" : "PUT/COPY/POST or LIST requests to Intelligent-Tiering",
+        "usagetype" : "CNN1-Requests-INT-Tier1",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "APNBNRQE9FBWW67D" : {
+      "sku" : "APNBNRQE9FBWW67D",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-ZIA-Retrieval",
+        "groupDescription" : "Object Retrieval in One Zone-Infrequent Access",
+        "usagetype" : "CNN1-Retrieval-ZIA",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "DFHMSPUTMPX64MCX" : {
+      "sku" : "DFHMSPUTMPX64MCX",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Inventory-ObjectsListed",
+        "feeDescription" : "Per object fee for objects listed in an Inventory",
+        "usagetype" : "CNN1-Inventory-ObjectsListed",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "QB24E2YE58T4RK7B" : {
+      "sku" : "QB24E2YE58T4RK7B",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "CompleteMultipartUpload for Replication to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "CompleteMultipartUploadForRepl",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "MUZPYKDGAQESDUQW" : {
+      "sku" : "MUZPYKDGAQESDUQW",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-ZIA-Select-Returned",
+        "groupDescription" : "Data Returned by S3 Select in One Zone-Infrequent Access",
+        "usagetype" : "CNN1-Select-Returned-ZIA-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "PRFYPH93SAC57ARE" : {
+      "sku" : "PRFYPH93SAC57ARE",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GDA-Tier2",
+        "groupDescription" : "GET and all other requests to GDA",
+        "usagetype" : "CNN1-Requests-GDA-Tier2",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "SBWDKYJYDB7KCKQ7" : {
+      "sku" : "SBWDKYJYDB7KCKQ7",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-SIA-Tier1",
+        "groupDescription" : "PUT/COPY/POST or LIST requests to Standard-Infrequent Access",
+        "usagetype" : "CNN1-Requests-SIA-Tier1",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "HQ5N7VDE5UYA7Q9Y" : {
+      "sku" : "HQ5N7VDE5UYA7Q9Y",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Bulk-Select-Returned",
+        "feeDescription" : "Fee for Select Data Returned using Bulk tier",
+        "usagetype" : "CNN1-Bulk-Select-Returned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "BW5DCPNG439WDMKQ" : {
+      "sku" : "BW5DCPNG439WDMKQ",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier3",
+        "groupDescription" : "Lifecycle Transition Requests into Glacier Deep Archive",
+        "usagetype" : "CNN1-Requests-Tier3",
+        "operation" : "S3-GDATransition",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "REG49PNKRHRNM7AN" : {
+      "sku" : "REG49PNKRHRNM7AN",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Bulk-Retrieval",
+        "feeDescription" : "Fee for Bulk Retrieval of data stored from Glacier Deep Archive",
+        "usagetype" : "CNN1-Bulk-Retrieval-Bytes",
+        "operation" : "DeepArchiveRestoreObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "WASTVQRAWR2Y3JPG" : {
+      "sku" : "WASTVQRAWR2Y3JPG",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "PUT for Replication to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "PutObjectForRepl",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "YZ9GPZGHZ8G2H2BT" : {
+      "sku" : "YZ9GPZGHZ8G2H2BT",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "PUT requests to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "PutObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "A89GTZ6B7DCS3NXK" : {
+      "sku" : "A89GTZ6B7DCS3NXK",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Expedited-Select-Scanned",
+        "feeDescription" : "Fee for Select Data Scanned using Expedited tier",
+        "usagetype" : "CNN1-Exp-Select-Scanned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "YJ9TKZJ8W9X5PWBH" : {
+      "sku" : "YJ9TKZJ8W9X5PWBH",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier6",
+        "groupDescription" : "Expedited Glacier Restore Requests",
+        "usagetype" : "CNN1-Requests-Tier6",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "X4SH5H6AF2GBVKP6" : {
+      "sku" : "X4SH5H6AF2GBVKP6",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-ZIA-Tier1",
+        "groupDescription" : "PUT/COPY/POST or LIST requests to One Zone-Infrequent Access",
+        "usagetype" : "CNN1-Requests-ZIA-Tier1",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "F2W5JKDDXKESFNMH" : {
+      "sku" : "F2W5JKDDXKESFNMH",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Expedited-Retrieval",
+        "feeDescription" : "Fee for Expedited Retrieval of data stored",
+        "usagetype" : "CNN1-Expedited-Retrieval-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "HQ9Q2G6KM354GUNJ" : {
+      "sku" : "HQ9Q2G6KM354GUNJ",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3:EarlyDelete-ZIA-SmallObjects",
+        "feeDescription" : "Pro-rated fee for small objects deleted before 30 days in One Zone-Infrequent Access volume",
+        "usagetype" : "CNN1-EarlyDelete-ZIA-SmObjects",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "M9UY3NE35ZHUNFQV" : {
+      "sku" : "M9UY3NE35ZHUNFQV",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-SIA-Select-Returned",
+        "groupDescription" : "Data Returned by S3 Select in Standard-Infrequent Access",
+        "usagetype" : "CNN1-Select-Returned-SIA-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "ZPN6PKWWHXYFPUDR" : {
+      "sku" : "ZPN6PKWWHXYFPUDR",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier3",
+        "groupDescription" : "Restore Object",
+        "usagetype" : "CNN1-Requests-Tier3",
+        "operation" : "RestoreObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "2NECUDK5HGT29DWZ" : {
+      "sku" : "2NECUDK5HGT29DWZ",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Standard-Retrieval",
+        "feeDescription" : "Fee for Standard Retrieval of data stored",
+        "usagetype" : "CNN1-Standard-Retrieval-Bytes",
+        "operation" : "RestoreObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "35APCA25Y2HTMVV2" : {
+      "sku" : "35APCA25Y2HTMVV2",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Bulk-Retrieval",
+        "feeDescription" : "Fee for Bulk Retrieval of data stored",
+        "usagetype" : "CNN1-Bulk-Retrieval-Bytes",
+        "operation" : "RestoreObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "KVFERZUXXVCQHT5N" : {
+      "sku" : "KVFERZUXXVCQHT5N",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3:EarlyDelete-SIA-SmallObjects",
+        "feeDescription" : "Pro-rated fee for small objects deleted before 30 days in Standard-Infrequent Access volume",
+        "usagetype" : "CNN1-EarlyDelete-SIA-SmObjects",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "J7FCQBYNWP8GE6HK" : {
+      "sku" : "J7FCQBYNWP8GE6HK",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "UploadPart for Replication to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "UploadPartForRepl",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "M7RZHAPF4KZDJWUJ" : {
+      "sku" : "M7RZHAPF4KZDJWUJ",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-INT-Select-Returned",
+        "groupDescription" : "Data Returned by S3 Select in Intelligent-Tiering",
+        "usagetype" : "CNN1-Select-Returned-INT-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "SU55KM987W2PB7NR" : {
+      "sku" : "SU55KM987W2PB7NR",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "storageClass" : "Intelligent-Tiering",
+        "volumeType" : "Intelligent-Tiering Infrequent Access",
+        "usagetype" : "CNN1-TimedStorage-INT-IA-ByteHrs",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "7DRWC5AM6KGPWVAD" : {
+      "sku" : "7DRWC5AM6KGPWVAD",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier2",
+        "groupDescription" : "GET and all other requests to GLACIER",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier2",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "ESKPW34EG235FHGM" : {
+      "sku" : "ESKPW34EG235FHGM",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier3",
+        "groupDescription" : "Lifecycle Transition Requests into Glacier",
+        "usagetype" : "CNN1-Requests-Tier3",
+        "operation" : "S3-GlacierTransition",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "NX9Y4XPUM4BPETXT" : {
+      "sku" : "NX9Y4XPUM4BPETXT",
+      "productFamily" : "Storage",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "availability" : "99.99%",
+        "storageClass" : "Non-Critical Data",
+        "volumeType" : "Reduced Redundancy",
+        "usagetype" : "CNN1-TimedStorage-RRS-ByteHrs",
+        "operation" : "",
+        "durability" : "99.99%",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "NH2ET2Q7FSKX5638" : {
+      "sku" : "NH2ET2Q7FSKX5638",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "InitiateMultipartUpload for Replication to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "InitiateMultipartUploadForRepl",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "48UH8RJGZAYYT9Y8" : {
+      "sku" : "48UH8RJGZAYYT9Y8",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Storage-ZIA-SmObject",
+        "feeDescription" : "Fee for storing small objects (<128KB) in ZIA Storage",
+        "usagetype" : "CNN1-TimedStorage-ZIA-SmObjects",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "G9HQTZTC7JYWZG7G" : {
+      "sku" : "G9HQTZTC7JYWZG7G",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "COPY requests to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "CopyObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "WVN5F5YKTJ2PCV77" : {
+      "sku" : "WVN5F5YKTJ2PCV77",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "Glacier:EarlyDelete",
+        "feeDescription" : "Pro-rated fee for deleting items prior to 90 days",
+        "usagetype" : "CNN1-EarlyDelete-ByteHrs",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "2GQ8X3JKKTT3QD9U" : {
+      "sku" : "2GQ8X3JKKTT3QD9U",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "storageClass" : "Staging",
+        "volumeType" : "Glacier Deep Archive",
+        "usagetype" : "CNN1-TimedStorage-GDA-Staging",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "SW32M354T6VU9HC5" : {
+      "sku" : "SW32M354T6VU9HC5",
+      "productFamily" : "Storage",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "availability" : "N/A",
+        "storageClass" : "Tags",
+        "volumeType" : "Tags",
+        "usagetype" : "CNN1-TagStorage-TagHrs",
+        "operation" : "",
+        "durability" : "N/A",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "TEB3UUEU5GSXXHGY" : {
+      "sku" : "TEB3UUEU5GSXXHGY",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-SIA-Select-Scanned",
+        "groupDescription" : "Data Scanned by S3 Select in Standard-Infrequent Access",
+        "usagetype" : "CNN1-Select-Scanned-SIA-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "NAMXTTGAD2NTF424" : {
+      "sku" : "NAMXTTGAD2NTF424",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3:EarlyDelete-SIA",
+        "feeDescription" : "Pro-rated fee for objects deleted before 30 days in Standard-Infrequent Access volume",
+        "usagetype" : "CNN1-EarlyDelete-SIA",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "ENMGWYJTSUR73JKK" : {
+      "sku" : "ENMGWYJTSUR73JKK",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-INT-Tier2",
+        "groupDescription" : "GET and all other requests to Intelligent-Tiering",
+        "usagetype" : "CNN1-Requests-INT-Tier2",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "UEY6N8Y6BUVVMHB8" : {
+      "sku" : "UEY6N8Y6BUVVMHB8",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "UploadPart to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "UploadPart",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "VSE4ERYMR3J2T4HN" : {
+      "sku" : "VSE4ERYMR3J2T4HN",
+      "productFamily" : "Storage",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "availability" : "99.9%",
+        "storageClass" : "Infrequent Access",
+        "volumeType" : "Standard - Infrequent Access",
+        "usagetype" : "CNN1-TimedStorage-SIA-ByteHrs",
+        "operation" : "",
+        "durability" : "99.999999999%",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "QYQPJNB4CY3X5F8T" : {
+      "sku" : "QYQPJNB4CY3X5F8T",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Standard-Retrieval",
+        "feeDescription" : "Fee for Standard Retrieval of data stored from Glacier Deep Archive",
+        "usagetype" : "CNN1-Standard-Retrieval-Bytes",
+        "operation" : "DeepArchiveRestoreObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "HVVS9HRN7RWDGV27" : {
+      "sku" : "HVVS9HRN7RWDGV27",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Bulk-Select-Scanned",
+        "feeDescription" : "Fee for Select Data Scanned using Bulk tier",
+        "usagetype" : "CNN1-Bulk-Select-Scanned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "WTTZXPBY4XW6ZNEU" : {
+      "sku" : "WTTZXPBY4XW6ZNEU",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "transferType" : "AWS Outbound",
+        "fromLocation" : "China (Beijing)",
+        "fromLocationType" : "AWS Region",
+        "toLocation" : "External",
+        "toLocationType" : "Other",
+        "usagetype" : "CNN1-DataTransfer-Out-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "H8D4SV22VWERJ3HY" : {
+      "sku" : "H8D4SV22VWERJ3HY",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-ZIA-Select-Scanned",
+        "groupDescription" : "Data Scanned by S3 Select in One Zone-Infrequent Access",
+        "usagetype" : "CNN1-Select-Scanned-ZIA-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "NA9763AEPFAQJEVJ" : {
+      "sku" : "NA9763AEPFAQJEVJ",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Standard-Select-Scanned",
+        "feeDescription" : "Fee for Select Data Scanned using Standard tier",
+        "usagetype" : "CNN1-Std-Select-Scanned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "58VJEAW29BMDWV87" : {
+      "sku" : "58VJEAW29BMDWV87",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-SIA-Tier2",
+        "groupDescription" : "GET and all other requests  to Standard-Infrequent Access",
+        "usagetype" : "CNN1-Requests-SIA-Tier2",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "G8Q2M3TPCUTPK4FD" : {
+      "sku" : "G8Q2M3TPCUTPK4FD",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3:EarlyDelete-ZIA",
+        "feeDescription" : "Pro-rated fee for objects deleted before 30 days in One Zone-Infrequent Access volume",
+        "usagetype" : "CNN1-EarlyDelete-ZIA",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "EEMZMRZVQWM4XKG3" : {
+      "sku" : "EEMZMRZVQWM4XKG3",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Select-Scanned",
+        "groupDescription" : "Data Scanned by S3 Select in Standard",
+        "usagetype" : "CNN1-Select-Scanned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "XJMQFHJG8SB58FJ7" : {
+      "sku" : "XJMQFHJG8SB58FJ7",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier2",
+        "groupDescription" : "GET and all other requests",
+        "usagetype" : "CNN1-Requests-Tier2",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "QQMKK2GR5SGPV83A" : {
+      "sku" : "QQMKK2GR5SGPV83A",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Analytics-ObjectCount",
+        "feeDescription" : "Per object fee for objects included in Analytics",
+        "usagetype" : "CNN1-StorageAnalytics-ObjCount",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "5ZSHZUP8J44AZ3MX" : {
+      "sku" : "5ZSHZUP8J44AZ3MX",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "storageClass" : "Staging",
+        "volumeType" : "Amazon Glacier",
+        "usagetype" : "CNN1-TimedStorage-GlacierStaging",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "JJNEZ44ERTWD4B5U" : {
+      "sku" : "JJNEZ44ERTWD4B5U",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Expedited-Select-Returned",
+        "feeDescription" : "Fee for Select Data Returned using Expedited tier",
+        "usagetype" : "CNN1-Exp-Select-Returned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "WTRJCW2RWZJSMRMZ" : {
+      "sku" : "WTRJCW2RWZJSMRMZ",
+      "productFamily" : "Data Transfer",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "transferType" : "AWS Inbound",
+        "fromLocation" : "External",
+        "fromLocationType" : "Other",
+        "toLocation" : "China (Beijing)",
+        "toLocationType" : "AWS Region",
+        "usagetype" : "CNN1-DataTransfer-In-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "GJAAPTEJSRS492XS" : {
+      "sku" : "GJAAPTEJSRS492XS",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "storageClass" : "Intelligent-Tiering",
+        "volumeType" : "Intelligent-Tiering Frequent Access",
+        "usagetype" : "CNN1-TimedStorage-INT-FA-ByteHrs",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "Q86ZX3HBP234YSPP" : {
+      "sku" : "Q86ZX3HBP234YSPP",
+      "productFamily" : "Storage",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "availability" : "N/A",
+        "storageClass" : "Archive",
+        "volumeType" : "Amazon Glacier",
+        "usagetype" : "CNN1-TimedStorage-GlacierByteHrs",
+        "operation" : "",
+        "durability" : "99.999999999%",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "2AZUAE6GFMA99BXD" : {
+      "sku" : "2AZUAE6GFMA99BXD",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier4",
+        "groupDescription" : "Lifecycle Transition Requests into Standard - Infrequent Access or One Zone - Infrequent Access or Intelligent-Tiering",
+        "usagetype" : "CNN1-Requests-Tier4",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "YQ4B43MBMUQQBF43" : {
+      "sku" : "YQ4B43MBMUQQBF43",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-ZIA-Tier2",
+        "groupDescription" : "GET and all other requests to One Zone-Infrequent Access",
+        "usagetype" : "CNN1-Requests-ZIA-Tier2",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "KA6AKKEMSEHCDSRJ" : {
+      "sku" : "KA6AKKEMSEHCDSRJ",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Monitoring and Automation-ObjectCount",
+        "feeDescription" : "Per object per month monitoring and automation fee for objects in Intelligent-Tiering",
+        "usagetype" : "CNN1-Monitoring-Automation-INT",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "EWWU6U9M3ZQHXXUY" : {
+      "sku" : "EWWU6U9M3ZQHXXUY",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3:EarlyDelete-INT",
+        "feeDescription" : "Pro-rated fee for objects deleted before 30 days in Intelligent-Tiering volume",
+        "usagetype" : "CNN1-EarlyDelete-INT",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "QVVN5JJU9VE9SB7R" : {
+      "sku" : "QVVN5JJU9VE9SB7R",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "Glacier:PeakRestore",
+        "feeDescription" : "Pro-rated fee for retrieving greater than 5% of data stored",
+        "usagetype" : "CNN1-Peak-Restore-Bytes-Delta",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "GBB242KDCDRXHAQS" : {
+      "sku" : "GBB242KDCDRXHAQS",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier5",
+        "groupDescription" : "Bulk Glacier Restore Requests",
+        "usagetype" : "CNN1-Requests-Tier5",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "RMWVX7S6N6PJPEDH" : {
+      "sku" : "RMWVX7S6N6PJPEDH",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-SIA-Retrieval",
+        "groupDescription" : "Object Retrieval in Standard-Infrequent Access",
+        "usagetype" : "CNN1-Retrieval-SIA",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "N3CB7PYYH5Q8D9JB" : {
+      "sku" : "N3CB7PYYH5Q8D9JB",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Select-Returned",
+        "groupDescription" : "Data Returned by S3 Select in Standard",
+        "usagetype" : "CNN1-Select-Returned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "9UYY7JJGYZHDSN6D" : {
+      "sku" : "9UYY7JJGYZHDSN6D",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "InitiateMultipartUpload to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "InitiateMultipartUpload",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "2GJGWX98EZGXUA7X" : {
+      "sku" : "2GJGWX98EZGXUA7X",
+      "productFamily" : "API Request",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-Tier1",
+        "groupDescription" : "PUT/COPY/POST or LIST requests",
+        "usagetype" : "CNN1-Requests-Tier1",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "JRBW338DZ9VZS3GM" : {
+      "sku" : "JRBW338DZ9VZS3GM",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Standard-Select-Returned",
+        "feeDescription" : "Fee for Select Data Returned using Standard tier",
+        "usagetype" : "CNN1-Std-Select-Returned-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "N4HQSAGXKUE6SGMD" : {
+      "sku" : "N4HQSAGXKUE6SGMD",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "CompleteMultipartUpload to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "CompleteMultipartUpload",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "H3AE8BTQJKCUFVFS" : {
+      "sku" : "H3AE8BTQJKCUFVFS",
+      "productFamily" : "Fee",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "feeCode" : "S3-Storage-SIA-SmObject",
+        "feeDescription" : "Fee for storing small objects (<128KB) in SIA Storage",
+        "usagetype" : "CNN1-TimedStorage-SIA-SmObjects",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "E7RDE9752Z3RZQNK" : {
+      "sku" : "E7RDE9752Z3RZQNK",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "CopyPart to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "CopyPart",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "864DTPGM2EG8CX6H" : {
+      "sku" : "864DTPGM2EG8CX6H",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-INT-Select-Scanned",
+        "groupDescription" : "Data Scanned by S3 Select in Intelligent-Tiering",
+        "usagetype" : "CNN1-Select-Scanned-INT-Bytes",
+        "operation" : "",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "XU93JVT4W7E8CSYX" : {
+      "sku" : "XU93JVT4W7E8CSYX",
+      "productFamily" : "Storage",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "availability" : "99.5%",
+        "storageClass" : "Infrequent Access",
+        "volumeType" : "One Zone - Infrequent Access",
+        "usagetype" : "CNN1-TimedStorage-ZIA-ByteHrs",
+        "operation" : "",
+        "durability" : "99.999999999%",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    },
+    "TPSAMBTN4YRZMPDZ" : {
+      "sku" : "TPSAMBTN4YRZMPDZ",
+      "attributes" : {
+        "servicecode" : "AmazonS3",
+        "location" : "China (Beijing)",
+        "locationType" : "AWS Region",
+        "group" : "S3-API-GLACIER-Tier1",
+        "groupDescription" : "POST requests to Glacier",
+        "usagetype" : "CNN1-Requests-GLACIER-Tier1",
+        "operation" : "PostObject",
+        "servicename" : "Amazon Simple Storage Service"
+      }
+    }
+  },
+  "terms" : {
+    "OnDemand" : {
+      "H54NNJEXBSK2WTKQ" : {
+        "H54NNJEXBSK2WTKQ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "H54NNJEXBSK2WTKQ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "H54NNJEXBSK2WTKQ.99YE2YK9UR.2YVJNAZHQM" : {
+              "rateCode" : "H54NNJEXBSK2WTKQ.99YE2YK9UR.2YVJNAZHQM",
+              "description" : "CNY 0.191 per GB - next 450 TB / month of storage used",
+              "beginRange" : "51200",
+              "endRange" : "512000",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1910000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "H54NNJEXBSK2WTKQ.99YE2YK9UR.4NJT53W9WU" : {
+              "rateCode" : "H54NNJEXBSK2WTKQ.99YE2YK9UR.4NJT53W9WU",
+              "description" : "CNY 0.195 per GB - first 50 TB / month of storage used",
+              "beginRange" : "0",
+              "endRange" : "51200",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1950000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "H54NNJEXBSK2WTKQ.99YE2YK9UR.RR77YGK4QU" : {
+              "rateCode" : "H54NNJEXBSK2WTKQ.99YE2YK9UR.RR77YGK4QU",
+              "description" : "CNY 0.181 per GB - storage used / month over 500 TB",
+              "beginRange" : "512000",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1810000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "NAMXTTGAD2NTF424" : {
+        "NAMXTTGAD2NTF424.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "NAMXTTGAD2NTF424",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "NAMXTTGAD2NTF424.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "NAMXTTGAD2NTF424.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.13377 per GB-Month prorated for objects deleted or overwritten before 30 days in Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1337700000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "YNJ2D3H789VHZ8YQ" : {
+        "YNJ2D3H789VHZ8YQ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "YNJ2D3H789VHZ8YQ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "YNJ2D3H789VHZ8YQ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "YNJ2D3H789VHZ8YQ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0045 per 1,000 PUT, COPY, POST, or LIST requests to Intelligent-Tiering",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000045000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "ENMGWYJTSUR73JKK" : {
+        "ENMGWYJTSUR73JKK.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "ENMGWYJTSUR73JKK",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "ENMGWYJTSUR73JKK.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "ENMGWYJTSUR73JKK.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.015 per 10,000 GET and all other requests to Intelligent-Tiering",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000015000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "APNBNRQE9FBWW67D" : {
+        "APNBNRQE9FBWW67D.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "APNBNRQE9FBWW67D",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "APNBNRQE9FBWW67D.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "APNBNRQE9FBWW67D.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per GB - flat fee for all bytes retrieved in One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0637000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "UEY6N8Y6BUVVMHB8" : {
+        "UEY6N8Y6BUVVMHB8.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "UEY6N8Y6BUVVMHB8",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "UEY6N8Y6BUVVMHB8.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "UEY6N8Y6BUVVMHB8.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0045 per 1,000 UploadPart requests to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000045000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "VSE4ERYMR3J2T4HN" : {
+        "VSE4ERYMR3J2T4HN.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "VSE4ERYMR3J2T4HN",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "VSE4ERYMR3J2T4HN.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "VSE4ERYMR3J2T4HN.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.13377 per GB-Month of storage used in Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1337700000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "DFHMSPUTMPX64MCX" : {
+        "DFHMSPUTMPX64MCX.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "DFHMSPUTMPX64MCX",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "DFHMSPUTMPX64MCX.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "DFHMSPUTMPX64MCX.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0187 per 1 million objects listed in S3 Inventory",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Objects",
+              "pricePerUnit" : {
+                "CNY" : "0.0000000187"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "QB24E2YE58T4RK7B" : {
+        "QB24E2YE58T4RK7B.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "QB24E2YE58T4RK7B",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "QB24E2YE58T4RK7B.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "QB24E2YE58T4RK7B.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 CompleteMultipartUpload for Replication to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "MUZPYKDGAQESDUQW" : {
+        "MUZPYKDGAQESDUQW.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "MUZPYKDGAQESDUQW",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "MUZPYKDGAQESDUQW.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "MUZPYKDGAQESDUQW.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per GB - for bytes returned by S3 Select in One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0637000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "PRFYPH93SAC57ARE" : {
+        "PRFYPH93SAC57ARE.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "PRFYPH93SAC57ARE",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "PRFYPH93SAC57ARE.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "PRFYPH93SAC57ARE.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.015 per 10,000 GET and all other requests from Glacier Deep Archive",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000015000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "QYQPJNB4CY3X5F8T" : {
+        "QYQPJNB4CY3X5F8T.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "QYQPJNB4CY3X5F8T",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "QYQPJNB4CY3X5F8T.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "QYQPJNB4CY3X5F8T.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.1334 per GB Standard retrieval fee from Glacier Deep Archive in China (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.1334000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "SBWDKYJYDB7KCKQ7" : {
+        "SBWDKYJYDB7KCKQ7.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "SBWDKYJYDB7KCKQ7",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "SBWDKYJYDB7KCKQ7.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "SBWDKYJYDB7KCKQ7.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per 1,000 PUT, COPY, POST or LIST requests to Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000637000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "HVVS9HRN7RWDGV27" : {
+        "HVVS9HRN7RWDGV27.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "HVVS9HRN7RWDGV27",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "HVVS9HRN7RWDGV27.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "HVVS9HRN7RWDGV27.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0067 per GB - Bulk Select Data Scanned Bytes",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0067000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "HQ5N7VDE5UYA7Q9Y" : {
+        "HQ5N7VDE5UYA7Q9Y.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "HQ5N7VDE5UYA7Q9Y",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "HQ5N7VDE5UYA7Q9Y.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "HQ5N7VDE5UYA7Q9Y.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0167 per GB - Bulk Select Data Returned Bytes",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0167000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "WTTZXPBY4XW6ZNEU" : {
+        "WTTZXPBY4XW6ZNEU.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "WTTZXPBY4XW6ZNEU",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "WTTZXPBY4XW6ZNEU.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "WTTZXPBY4XW6ZNEU.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.933 per GB - data transfer out per month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.9330000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "H8D4SV22VWERJ3HY" : {
+        "H8D4SV22VWERJ3HY.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "H8D4SV22VWERJ3HY",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "H8D4SV22VWERJ3HY.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "H8D4SV22VWERJ3HY.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.01593 per GB - for bytes scanned by S3 Select in One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0159300000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "NA9763AEPFAQJEVJ" : {
+        "NA9763AEPFAQJEVJ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "NA9763AEPFAQJEVJ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "NA9763AEPFAQJEVJ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "NA9763AEPFAQJEVJ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0560 per GB - Standard Select Data Scanned Bytes",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0560000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "58VJEAW29BMDWV87" : {
+        "58VJEAW29BMDWV87.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "58VJEAW29BMDWV87",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "58VJEAW29BMDWV87.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "58VJEAW29BMDWV87.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per 10,000 GET and all other requests  to Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000063700"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "BW5DCPNG439WDMKQ" : {
+        "BW5DCPNG439WDMKQ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "BW5DCPNG439WDMKQ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "BW5DCPNG439WDMKQ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "BW5DCPNG439WDMKQ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.4478 per 1,000 Lifecycle requests to Glacier Deep Archive in China (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0004478000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "REG49PNKRHRNM7AN" : {
+        "REG49PNKRHRNM7AN.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "REG49PNKRHRNM7AN",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "REG49PNKRHRNM7AN.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "REG49PNKRHRNM7AN.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.334 per GB Bulk retrieval fee from Glacier Deep Archive in China (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0334000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "WASTVQRAWR2Y3JPG" : {
+        "WASTVQRAWR2Y3JPG.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "WASTVQRAWR2Y3JPG",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "WASTVQRAWR2Y3JPG.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "WASTVQRAWR2Y3JPG.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 PUT for Replication to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "YZ9GPZGHZ8G2H2BT" : {
+        "YZ9GPZGHZ8G2H2BT.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "YZ9GPZGHZ8G2H2BT",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "YZ9GPZGHZ8G2H2BT.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "YZ9GPZGHZ8G2H2BT.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 PutObject requests to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "A89GTZ6B7DCS3NXK" : {
+        "A89GTZ6B7DCS3NXK.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "A89GTZ6B7DCS3NXK",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "A89GTZ6B7DCS3NXK.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "A89GTZ6B7DCS3NXK.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.1401 per GB - Expedited Select Data Scanned Bytes",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.1401000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "YJ9TKZJ8W9X5PWBH" : {
+        "YJ9TKZJ8W9X5PWBH.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "YJ9TKZJ8W9X5PWBH",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "YJ9TKZJ8W9X5PWBH.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "YJ9TKZJ8W9X5PWBH.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0667 per Expedited Glacier request",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0667000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "X4SH5H6AF2GBVKP6" : {
+        "X4SH5H6AF2GBVKP6.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "X4SH5H6AF2GBVKP6",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "X4SH5H6AF2GBVKP6.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "X4SH5H6AF2GBVKP6.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per 1,000 PUT, COPY, POST or LIST requests to One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000637000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "G8Q2M3TPCUTPK4FD" : {
+        "G8Q2M3TPCUTPK4FD.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "G8Q2M3TPCUTPK4FD",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "G8Q2M3TPCUTPK4FD.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "G8Q2M3TPCUTPK4FD.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.107016 per GB-Month prorated for objects deleted or overwritten before 30 days in One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1070160000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "EEMZMRZVQWM4XKG3" : {
+        "EEMZMRZVQWM4XKG3.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "EEMZMRZVQWM4XKG3",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "EEMZMRZVQWM4XKG3.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "EEMZMRZVQWM4XKG3.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.01593 per GB - for bytes scanned by S3 Select in Standard",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0159300000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "XJMQFHJG8SB58FJ7" : {
+        "XJMQFHJG8SB58FJ7.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "XJMQFHJG8SB58FJ7",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "XJMQFHJG8SB58FJ7.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "XJMQFHJG8SB58FJ7.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.015 per 10,000 GET and all other requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000015000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "F2W5JKDDXKESFNMH" : {
+        "F2W5JKDDXKESFNMH.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "F2W5JKDDXKESFNMH",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "F2W5JKDDXKESFNMH.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "F2W5JKDDXKESFNMH.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.2001 per GB - Expedited retrieval fee",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.2001000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "QQMKK2GR5SGPV83A" : {
+        "QQMKK2GR5SGPV83A.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "QQMKK2GR5SGPV83A",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "QQMKK2GR5SGPV83A.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "QQMKK2GR5SGPV83A.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.667 per 1 million objects monitored in S3 Analytics",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Objects",
+              "pricePerUnit" : {
+                "CNY" : "0.0000006670"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "HQ9Q2G6KM354GUNJ" : {
+        "HQ9Q2G6KM354GUNJ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "HQ9Q2G6KM354GUNJ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "HQ9Q2G6KM354GUNJ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "HQ9Q2G6KM354GUNJ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.107016 per GB-Month prorated for small objects deleted or overwritten before 30 days in One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1070160000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "M9UY3NE35ZHUNFQV" : {
+        "M9UY3NE35ZHUNFQV.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "M9UY3NE35ZHUNFQV",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "M9UY3NE35ZHUNFQV.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "M9UY3NE35ZHUNFQV.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per GB - for bytes returned by S3 Select in Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0637000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "5ZSHZUP8J44AZ3MX" : {
+        "5ZSHZUP8J44AZ3MX.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "5ZSHZUP8J44AZ3MX",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "5ZSHZUP8J44AZ3MX.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "5ZSHZUP8J44AZ3MX.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.181 per GB-Month of storage used in GlacierStagingStorage",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1810000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "JJNEZ44ERTWD4B5U" : {
+        "JJNEZ44ERTWD4B5U.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "JJNEZ44ERTWD4B5U",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "JJNEZ44ERTWD4B5U.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "JJNEZ44ERTWD4B5U.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.2001 per GB - Expedited Select Data Returned Bytes",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.2001000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "ZPN6PKWWHXYFPUDR" : {
+        "ZPN6PKWWHXYFPUDR.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "ZPN6PKWWHXYFPUDR",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "ZPN6PKWWHXYFPUDR.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "ZPN6PKWWHXYFPUDR.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 Glacier Requests (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "2NECUDK5HGT29DWZ" : {
+        "2NECUDK5HGT29DWZ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "2NECUDK5HGT29DWZ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "2NECUDK5HGT29DWZ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "2NECUDK5HGT29DWZ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0667 per GB - Standard retrieval fee",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0667000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "35APCA25Y2HTMVV2" : {
+        "35APCA25Y2HTMVV2.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "35APCA25Y2HTMVV2",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "35APCA25Y2HTMVV2.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "35APCA25Y2HTMVV2.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0167 per GB - Bulk retrieval fee",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0167000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "WTRJCW2RWZJSMRMZ" : {
+        "WTRJCW2RWZJSMRMZ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "WTRJCW2RWZJSMRMZ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "WTRJCW2RWZJSMRMZ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "WTRJCW2RWZJSMRMZ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.000 per GB - data transfer in per month",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0000000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "KVFERZUXXVCQHT5N" : {
+        "KVFERZUXXVCQHT5N.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "KVFERZUXXVCQHT5N",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "KVFERZUXXVCQHT5N.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "KVFERZUXXVCQHT5N.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.13377 per GB-Month prorated for small objects deleted or overwritten before 30 days in Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1337700000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "J7FCQBYNWP8GE6HK" : {
+        "J7FCQBYNWP8GE6HK.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "J7FCQBYNWP8GE6HK",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "J7FCQBYNWP8GE6HK.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "J7FCQBYNWP8GE6HK.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0045 per 1,000 UploadPart for Replication to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000045000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "M7RZHAPF4KZDJWUJ" : {
+        "M7RZHAPF4KZDJWUJ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "M7RZHAPF4KZDJWUJ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "M7RZHAPF4KZDJWUJ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "M7RZHAPF4KZDJWUJ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0057 per GB - for bytes returned by S3 Select in Intelligent-Tiering",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0057000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "GJAAPTEJSRS492XS" : {
+        "GJAAPTEJSRS492XS.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "GJAAPTEJSRS492XS",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "GJAAPTEJSRS492XS.99YE2YK9UR.2YVJNAZHQM" : {
+              "rateCode" : "GJAAPTEJSRS492XS.99YE2YK9UR.2YVJNAZHQM",
+              "description" : "CNY 0.191 per GB - next 450 TB / month of storage used in Intelligent-Tiering, Frequent Access Tier",
+              "beginRange" : "51200",
+              "endRange" : "512000",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1910000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GJAAPTEJSRS492XS.99YE2YK9UR.4NJT53W9WU" : {
+              "rateCode" : "GJAAPTEJSRS492XS.99YE2YK9UR.4NJT53W9WU",
+              "description" : "CNY 0.195 per GB - first 50 TB / month of storage used in Intelligent-Tiering, Frequent Access Tier",
+              "beginRange" : "0",
+              "endRange" : "51200",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1950000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "GJAAPTEJSRS492XS.99YE2YK9UR.RR77YGK4QU" : {
+              "rateCode" : "GJAAPTEJSRS492XS.99YE2YK9UR.RR77YGK4QU",
+              "description" : "CNY 0.181 per GB - over 500 TB / month of storage used in Intelligent-Tiering, Frequent Access Tier",
+              "beginRange" : "512000",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1810000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "Q86ZX3HBP234YSPP" : {
+        "Q86ZX3HBP234YSPP.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "Q86ZX3HBP234YSPP",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "Q86ZX3HBP234YSPP.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "Q86ZX3HBP234YSPP.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0334 per GB / month of storage used - Amazon Glacier (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.0334000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "2AZUAE6GFMA99BXD" : {
+        "2AZUAE6GFMA99BXD.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "2AZUAE6GFMA99BXD",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "2AZUAE6GFMA99BXD.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "2AZUAE6GFMA99BXD.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per 1,000 transitions to Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000637000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "YQ4B43MBMUQQBF43" : {
+        "YQ4B43MBMUQQBF43.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "YQ4B43MBMUQQBF43",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "YQ4B43MBMUQQBF43.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "YQ4B43MBMUQQBF43.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per 10,000 GET and all other requests  to One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000063700"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "SU55KM987W2PB7NR" : {
+        "SU55KM987W2PB7NR.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "SU55KM987W2PB7NR",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "SU55KM987W2PB7NR.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "SU55KM987W2PB7NR.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.13377 per GB-Month of storage used in Intelligent-Tiering, Infrequent Access Tier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1337700000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "KA6AKKEMSEHCDSRJ" : {
+        "KA6AKKEMSEHCDSRJ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "KA6AKKEMSEHCDSRJ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "KA6AKKEMSEHCDSRJ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "KA6AKKEMSEHCDSRJ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.016675 per 1,000 Objects per month in Intelligent-Tiering",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Objects",
+              "pricePerUnit" : {
+                "CNY" : "0.0000166750"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "EWWU6U9M3ZQHXXUY" : {
+        "EWWU6U9M3ZQHXXUY.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "EWWU6U9M3ZQHXXUY",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "EWWU6U9M3ZQHXXUY.99YE2YK9UR.2YVJNAZHQM" : {
+              "rateCode" : "EWWU6U9M3ZQHXXUY.99YE2YK9UR.2YVJNAZHQM",
+              "description" : "CNY 0.191 per GB - next 450 TB / month prorated for objects deleted or overwritten before 30 days in Intelligent-Tiering",
+              "beginRange" : "51200",
+              "endRange" : "512000",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1910000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "EWWU6U9M3ZQHXXUY.99YE2YK9UR.RR77YGK4QU" : {
+              "rateCode" : "EWWU6U9M3ZQHXXUY.99YE2YK9UR.RR77YGK4QU",
+              "description" : "CNY 0.181 per GB - over 500 TB / month prorated for objects deleted or overwritten before 30 days in Intelligent-Tiering",
+              "beginRange" : "512000",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1810000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "EWWU6U9M3ZQHXXUY.99YE2YK9UR.4NJT53W9WU" : {
+              "rateCode" : "EWWU6U9M3ZQHXXUY.99YE2YK9UR.4NJT53W9WU",
+              "description" : "CNY 0.195 per GB - first 50 TB / month prorated for objects deleted or overwritten before 30 days in Intelligent-Tiering",
+              "beginRange" : "0",
+              "endRange" : "51200",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1950000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "QVVN5JJU9VE9SB7R" : {
+        "QVVN5JJU9VE9SB7R.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "QVVN5JJU9VE9SB7R",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "QVVN5JJU9VE9SB7R.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "QVVN5JJU9VE9SB7R.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0497 per GB - Glacier Restore Fee (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0497000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "7DRWC5AM6KGPWVAD" : {
+        "7DRWC5AM6KGPWVAD.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "7DRWC5AM6KGPWVAD",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "7DRWC5AM6KGPWVAD.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "7DRWC5AM6KGPWVAD.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.015 per 10,000 GET and all other requests from Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000015000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "GBB242KDCDRXHAQS" : {
+        "GBB242KDCDRXHAQS.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "GBB242KDCDRXHAQS",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "GBB242KDCDRXHAQS.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "GBB242KDCDRXHAQS.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.1668 per 1,000 - Bulk Glacier requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0001668000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "ESKPW34EG235FHGM" : {
+        "ESKPW34EG235FHGM.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "ESKPW34EG235FHGM",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "ESKPW34EG235FHGM.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "ESKPW34EG235FHGM.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 Glacier Requests (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "NX9Y4XPUM4BPETXT" : {
+        "NX9Y4XPUM4BPETXT.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "NX9Y4XPUM4BPETXT",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "NX9Y4XPUM4BPETXT.99YE2YK9UR.2YVJNAZHQM" : {
+              "rateCode" : "NX9Y4XPUM4BPETXT.99YE2YK9UR.2YVJNAZHQM",
+              "description" : "CNY 0.160 per GB - next 450 TB / month of storage used - Reduced Redundancy Storage",
+              "beginRange" : "51200",
+              "endRange" : "512000",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1600000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "NX9Y4XPUM4BPETXT.99YE2YK9UR.V558XMWBX8" : {
+              "rateCode" : "NX9Y4XPUM4BPETXT.99YE2YK9UR.V558XMWBX8",
+              "description" : "CNY 0.155 per GB - next 4000 TB / month of storage used - Reduced Redundancy Storage",
+              "beginRange" : "1024000",
+              "endRange" : "5120000",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1550000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "NX9Y4XPUM4BPETXT.99YE2YK9UR.79TUVVAPPN" : {
+              "rateCode" : "NX9Y4XPUM4BPETXT.99YE2YK9UR.79TUVVAPPN",
+              "description" : "CNY 0.152 per GB - storage used /  month over 5000 TB - Reduced Redundancy Storage",
+              "beginRange" : "5120000",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1520000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "NX9Y4XPUM4BPETXT.99YE2YK9UR.K4M6CU9F98" : {
+              "rateCode" : "NX9Y4XPUM4BPETXT.99YE2YK9UR.K4M6CU9F98",
+              "description" : "CNY 0.163 per GB - next 49 TB / month of storage used - Reduced Redundancy Storage",
+              "beginRange" : "1024",
+              "endRange" : "51200",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1630000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "NX9Y4XPUM4BPETXT.99YE2YK9UR.SFX5EYCFCJ" : {
+              "rateCode" : "NX9Y4XPUM4BPETXT.99YE2YK9UR.SFX5EYCFCJ",
+              "description" : "CNY 0.168 per GB - first 1 TB / month of storage used - Reduced Redundancy Storage",
+              "beginRange" : "0",
+              "endRange" : "1024",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1680000000"
+              },
+              "appliesTo" : [ ]
+            },
+            "NX9Y4XPUM4BPETXT.99YE2YK9UR.N9WYB8QABN" : {
+              "rateCode" : "NX9Y4XPUM4BPETXT.99YE2YK9UR.N9WYB8QABN",
+              "description" : "CNY 0.157 per GB - next 500 TB / month of storage used - Reduced Redundancy Storage",
+              "beginRange" : "512000",
+              "endRange" : "1024000",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1570000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "RMWVX7S6N6PJPEDH" : {
+        "RMWVX7S6N6PJPEDH.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "RMWVX7S6N6PJPEDH",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "RMWVX7S6N6PJPEDH.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "RMWVX7S6N6PJPEDH.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0637 per GB - flat fee for all bytes retrieved in Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0637000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "NH2ET2Q7FSKX5638" : {
+        "NH2ET2Q7FSKX5638.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "NH2ET2Q7FSKX5638",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "NH2ET2Q7FSKX5638.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "NH2ET2Q7FSKX5638.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0045 per 1,000 InitiateMultipartUpload for Replication to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000045000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "N3CB7PYYH5Q8D9JB" : {
+        "N3CB7PYYH5Q8D9JB.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "N3CB7PYYH5Q8D9JB",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "N3CB7PYYH5Q8D9JB.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "N3CB7PYYH5Q8D9JB.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0057 per GB - for bytes returned by S3 Select in Standard",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0057000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "48UH8RJGZAYYT9Y8" : {
+        "48UH8RJGZAYYT9Y8.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "48UH8RJGZAYYT9Y8",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "48UH8RJGZAYYT9Y8.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "48UH8RJGZAYYT9Y8.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.107016 per GB-Month of storage used for One Zone-Infrequent Access small objects",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1070160000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "9UYY7JJGYZHDSN6D" : {
+        "9UYY7JJGYZHDSN6D.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "9UYY7JJGYZHDSN6D",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "9UYY7JJGYZHDSN6D.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "9UYY7JJGYZHDSN6D.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0045 per 1,000 InitiateMultipartUpload requests to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000045000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "2GJGWX98EZGXUA7X" : {
+        "2GJGWX98EZGXUA7X.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "2GJGWX98EZGXUA7X",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "2GJGWX98EZGXUA7X.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "2GJGWX98EZGXUA7X.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0045 per 1,000 PUT, COPY, POST, or LIST requests",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000045000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "G9HQTZTC7JYWZG7G" : {
+        "G9HQTZTC7JYWZG7G.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "G9HQTZTC7JYWZG7G",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "G9HQTZTC7JYWZG7G.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "G9HQTZTC7JYWZG7G.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 CopyObject requests to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "WVN5F5YKTJ2PCV77" : {
+        "WVN5F5YKTJ2PCV77.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "WVN5F5YKTJ2PCV77",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "WVN5F5YKTJ2PCV77.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "WVN5F5YKTJ2PCV77.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.1002 per GB - Glacier Early Delete (Beijing)",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.0334000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "2GQ8X3JKKTT3QD9U" : {
+        "2GQ8X3JKKTT3QD9U.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "2GQ8X3JKKTT3QD9U",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "2GQ8X3JKKTT3QD9U.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "2GQ8X3JKKTT3QD9U.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.181 per GB-Month of storage used in GlacierDeepArchiveStagingStorage",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1810000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "SW32M354T6VU9HC5" : {
+        "SW32M354T6VU9HC5.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "SW32M354T6VU9HC5",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "SW32M354T6VU9HC5.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "SW32M354T6VU9HC5.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0667 per 10,000 tags",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Tag-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.0000066700"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "JRBW338DZ9VZS3GM" : {
+        "JRBW338DZ9VZS3GM.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "JRBW338DZ9VZS3GM",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "JRBW338DZ9VZS3GM.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "JRBW338DZ9VZS3GM.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0667 per GB - Standard Select Data Returned Bytes",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0667000000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "N4HQSAGXKUE6SGMD" : {
+        "N4HQSAGXKUE6SGMD.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "N4HQSAGXKUE6SGMD",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "N4HQSAGXKUE6SGMD.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "N4HQSAGXKUE6SGMD.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 CompleteMultipartUpload requests to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "H3AE8BTQJKCUFVFS" : {
+        "H3AE8BTQJKCUFVFS.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "H3AE8BTQJKCUFVFS",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "H3AE8BTQJKCUFVFS.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "H3AE8BTQJKCUFVFS.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.13377 per GB-Month of storage used for small objects",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1337700000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "E7RDE9752Z3RZQNK" : {
+        "E7RDE9752Z3RZQNK.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "E7RDE9752Z3RZQNK",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "E7RDE9752Z3RZQNK.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "E7RDE9752Z3RZQNK.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.0045 per 1,000 CopyPart to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0000045000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "864DTPGM2EG8CX6H" : {
+        "864DTPGM2EG8CX6H.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "864DTPGM2EG8CX6H",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "864DTPGM2EG8CX6H.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "864DTPGM2EG8CX6H.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.01593 per GB - for bytes scanned by S3 Select in Intelligent - Tiering",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0159300000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "XU93JVT4W7E8CSYX" : {
+        "XU93JVT4W7E8CSYX.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "XU93JVT4W7E8CSYX",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "XU93JVT4W7E8CSYX.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "XU93JVT4W7E8CSYX.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.107016 per GB-Month of storage used in One Zone-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB-Mo",
+              "pricePerUnit" : {
+                "CNY" : "0.1070160000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "TEB3UUEU5GSXXHGY" : {
+        "TEB3UUEU5GSXXHGY.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "TEB3UUEU5GSXXHGY",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "TEB3UUEU5GSXXHGY.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "TEB3UUEU5GSXXHGY.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.01593 per GB - for bytes scanned by S3 Select in Standard-Infrequent Access",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "GB",
+              "pricePerUnit" : {
+                "CNY" : "0.0159300000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      },
+      "TPSAMBTN4YRZMPDZ" : {
+        "TPSAMBTN4YRZMPDZ.99YE2YK9UR" : {
+          "offerTermCode" : "99YE2YK9UR",
+          "sku" : "TPSAMBTN4YRZMPDZ",
+          "effectiveDate" : "2019-05-01T00:00:00Z",
+          "priceDimensions" : {
+            "TPSAMBTN4YRZMPDZ.99YE2YK9UR.Q7UJUT2CE6" : {
+              "rateCode" : "TPSAMBTN4YRZMPDZ.99YE2YK9UR.Q7UJUT2CE6",
+              "description" : "CNY 0.3732 per 1,000 PostObject requests to Glacier",
+              "beginRange" : "0",
+              "endRange" : "Inf",
+              "unit" : "Requests",
+              "pricePerUnit" : {
+                "CNY" : "0.0003732000"
+              },
+              "appliesTo" : [ ]
+            }
+          },
+          "termAttributes" : { }
+        }
+      }
+    }
+  }
+}
