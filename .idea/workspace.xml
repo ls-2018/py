@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/1.2 求两数之和.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/1.3 求2个数中中较大者.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="C">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AWS/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/1.2 求两数之和.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -223,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sanic框架/123.txt" />
         <option value="$PROJECT_DIR$/sanic框架/2、加载配置.py" />
         <option value="$PROJECT_DIR$/sanic框架/3、请求数据.py" />
         <option value="$PROJECT_DIR$/sanic框架/4、cookies.py" />
@@ -274,6 +273,7 @@
         <option value="$PROJECT_DIR$/AWS/images/CouldWatch-01.py" />
         <option value="$PROJECT_DIR$/AWS/test.py" />
         <option value="$PROJECT_DIR$/AWS/CouldWatch-01.py" />
+        <option value="$PROJECT_DIR$/C/1.2 求两数之和.c" />
       </list>
     </option>
   </component>
@@ -288,11 +288,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="320" />
-    <option name="y" value="4" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="157" />
+    <option name="y" value="-8" />
     <option name="width" value="1157" />
-    <option name="height" value="483" />
+    <option name="height" value="609" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -308,6 +308,11 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -490,21 +495,7 @@
       <workItem from="1561961080739" duration="11546000" />
       <workItem from="1562022267999" duration="12000" />
       <workItem from="1562031720135" duration="11521000" />
-      <workItem from="1562075278602" duration="1010000" />
-    </task>
-    <task id="LOCAL-00135" summary="tornado">
-      <created>1561259865301</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1561259865301</updated>
-    </task>
-    <task id="LOCAL-00136" summary="tornado">
-      <created>1561262449498</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1561262449498</updated>
+      <workItem from="1562075278602" duration="2209000" />
     </task>
     <task id="LOCAL-00137" summary="tornado">
       <created>1561264640299</created>
@@ -835,11 +826,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562075389939</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="C">
+      <created>1562078918550</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1562078918551</updated>
+    </task>
+    <task id="LOCAL-00185" summary="C">
+      <created>1562081164446</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1562081164446</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223173000" />
+    <option name="totallyTimeSpent" value="224372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,7 +856,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="4" width="1157" height="483" extended-state="0" />
+    <frame x="157" y="-8" width="1157" height="483" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.20966272" />
@@ -867,8 +872,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32914287" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32914287" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51237893" side_tool="true" weight="0.32914287" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49185947" weight="0.72307694" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50865996" side_tool="true" weight="0.72307694" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49134" weight="0.5476923" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32914287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -907,7 +912,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="断点续传" />
     <MESSAGE value="email报警" />
     <MESSAGE value="wx报警" />
     <MESSAGE value="dd报警" />
@@ -932,16 +936,10 @@
     <MESSAGE value="aws" />
     <MESSAGE value="flask" />
     <MESSAGE value="CloudWatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="CloudWatch" />
+    <MESSAGE value="C" />
+    <option name="LAST_COMMIT_MESSAGE" value="C" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tornado框架/project/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tornado框架/web.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1313,6 +1311,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/1.2 求两数之和.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
