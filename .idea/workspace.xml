@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="C">
+    <list default="true" id="e31cd5a0-8d28-4d26-a0c5-7c23944592c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C/1test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/1.2 求两数之和.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1.2 求两数之和.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C/a.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
     <SUITE FILE_PATH="coverage/book$websockect.coverage" NAME="websockect Coverage Results" MODIFIED="1561889450481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado框架" />
     <SUITE FILE_PATH="coverage/book$6url_for.coverage" NAME="6、url_for Coverage Results" MODIFIED="1560679249252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sanic框架" />
     <SUITE FILE_PATH="coverage/book$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1562058701131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
-    <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1562064959225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
+    <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1562082868658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
     <SUITE FILE_PATH="coverage/book$server.coverage" NAME="server Coverage Results" MODIFIED="1561612023725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado框架/project" />
     <SUITE FILE_PATH="coverage/book$1.coverage" NAME="1 Coverage Results" MODIFIED="1561614149417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tornado框架" />
     <SUITE FILE_PATH="coverage/book$4cookies.coverage" NAME="4、cookies Coverage Results" MODIFIED="1560677025940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sanic框架" />
@@ -71,96 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/S3-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/1.2 求两数之和.c">
+        <entry file="file://$PROJECT_DIR$/C/1test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/index.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="1007" column="40" selection-start-line="1007" selection-start-column="40" selection-end-line="1007" selection-end-column="40" />
-              <folding>
-                <element signature="n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#H54NNJEXBSK2WTKQ#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#YNJ2D3H789VHZ8YQ#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#APNBNRQE9FBWW67D#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#DFHMSPUTMPX64MCX#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#QB24E2YE58T4RK7B#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#MUZPYKDGAQESDUQW#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#PRFYPH93SAC57ARE#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#SBWDKYJYDB7KCKQ7#0;n#!!block;n#products#0;n#!!top" />
-                <element signature="n#!!block;n#NAMXTTGAD2NTF424#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#NAMXTTGAD2NTF424.99YE2YK9UR#0;n#!!block;n#NAMXTTGAD2NTF424#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#YNJ2D3H789VHZ8YQ#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#YNJ2D3H789VHZ8YQ.99YE2YK9UR#0;n#!!block;n#YNJ2D3H789VHZ8YQ#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#ENMGWYJTSUR73JKK#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#ENMGWYJTSUR73JKK.99YE2YK9UR#0;n#!!block;n#ENMGWYJTSUR73JKK#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#APNBNRQE9FBWW67D#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#APNBNRQE9FBWW67D.99YE2YK9UR#0;n#!!block;n#APNBNRQE9FBWW67D#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#UEY6N8Y6BUVVMHB8#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#VSE4ERYMR3J2T4HN#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#DFHMSPUTMPX64MCX#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#QB24E2YE58T4RK7B#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#MUZPYKDGAQESDUQW#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#PRFYPH93SAC57ARE#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#QYQPJNB4CY3X5F8T#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#SBWDKYJYDB7KCKQ7#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-                <element signature="n#!!block;n#HVVS9HRN7RWDGV27#0;n#!!block;n#OnDemand#0;n#!!block;n#terms#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/CouldWatch-01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2950">
-              <caret line="119" column="101" selection-start-line="119" selection-start-column="101" selection-end-line="119" selection-end-column="101" />
-              <folding>
-                <element signature="e#100#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/site-packages/botocore/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13450">
-              <caret line="569" column="4" selection-start-line="569" selection-start-column="4" selection-end-line="569" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/site-packages/boto/ec2/cloudwatch/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13100">
-              <caret line="531" column="32" selection-start-line="531" selection-start-column="32" selection-end-line="531" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -223,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sanic框架/2、加载配置.py" />
-        <option value="$PROJECT_DIR$/sanic框架/3、请求数据.py" />
         <option value="$PROJECT_DIR$/sanic框架/4、cookies.py" />
         <option value="$PROJECT_DIR$/sanic框架/5、路由.py" />
         <option value="$PROJECT_DIR$/sanic框架/6、url_for.py" />
@@ -274,6 +190,8 @@
         <option value="$PROJECT_DIR$/AWS/test.py" />
         <option value="$PROJECT_DIR$/AWS/CouldWatch-01.py" />
         <option value="$PROJECT_DIR$/C/1.2 求两数之和.c" />
+        <option value="$PROJECT_DIR$/C/1.c" />
+        <option value="$PROJECT_DIR$/C/1test.c" />
       </list>
     </option>
   </component>
@@ -289,10 +207,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="157" />
-    <option name="y" value="-8" />
+    <option name="x" value="753" />
+    <option name="y" value="40" />
     <option name="width" value="1157" />
-    <option name="height" value="609" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -340,19 +258,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\C" />
+      <recent name="D:\Destop\book\AWS" />
+      <recent name="D:\Destop\book\tornado框架" />
+      <recent name="D:\Destop\book\sanic框架" />
+      <recent name="D:\Destop\book\爬虫" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\AWS" />
       <recent name="D:\Destop\book\AWS\images" />
       <recent name="D:\Destop\book\tornado框架\project" />
       <recent name="D:\Destop\book\sanic框架" />
       <recent name="D:\Destop\book\运维自动化\CrazyMonitor" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\AWS" />
-      <recent name="D:\Destop\book\tornado框架" />
-      <recent name="D:\Destop\book\sanic框架" />
-      <recent name="D:\Destop\book\爬虫" />
-      <recent name="D:\Destop\book\数据分析" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,58 +284,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="CouldWatch-01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AWS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AWS/CouldWatch-01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="book" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AWS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AWS/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.CouldWatch-01" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -496,13 +362,9 @@
       <workItem from="1562022267999" duration="12000" />
       <workItem from="1562031720135" duration="11521000" />
       <workItem from="1562075278602" duration="2209000" />
-    </task>
-    <task id="LOCAL-00137" summary="tornado">
-      <created>1561264640299</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1561264640299</updated>
+      <workItem from="1562081979712" duration="134000" />
+      <workItem from="1562082451289" duration="925000" />
+      <workItem from="1562083455912" duration="251000" />
     </task>
     <task id="LOCAL-00138" summary="tornado">
       <created>1561281836814</created>
@@ -840,11 +702,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562081164446</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="C">
+      <created>1562082027150</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1562082027154</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224372000" />
+    <option name="totallyTimeSpent" value="225682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,15 +725,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="157" y="-8" width="1157" height="483" extended-state="0" />
+    <frame x="753" y="40" width="1157" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.20966272" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49849397" visible="true" weight="0.22060165" />
       <window_info id="Structure" order="1" sideWeight="0.50150603" side_tool="true" weight="0.29391602" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4876211" visible="true" weight="0.45545658" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4876211" weight="0.45545658" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49957228" weight="0.3951049" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -873,7 +742,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32914287" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32914287" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50865996" side_tool="true" weight="0.72307694" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49134" weight="0.5476923" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49134" visible="true" weight="0.5462611" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32914287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -940,16 +809,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="C" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tornado框架/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#91#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python36/Lib/site-packages/tornado/gen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
@@ -1248,6 +1107,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1307,17 +1173,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/1.2 求两数之和.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/1test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
