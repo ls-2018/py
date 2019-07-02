@@ -7,4 +7,5 @@ void main() {
     b = 456;
     sum = a + b;
     printf("sum is %d\n", sum);
+    getchar(); // 等待输入一个字符
 }
