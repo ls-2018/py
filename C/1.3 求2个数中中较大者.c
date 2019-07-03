@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /*求两数之较大者*/
 
 void main() {

@@ -9,4 +9,6 @@ void main() {
     sum = a + b;
     printf("sum is %d\n", sum);
     getchar(); // 等待输入一个字符
+    putchar("h"); // 输出一个字符(在屏幕上)  ,  或者写对应的ASCII
+    putchar('\n');
 }

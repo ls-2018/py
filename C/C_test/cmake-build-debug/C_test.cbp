@@ -79,6 +79,9 @@
 		<Unit filename="D:/Destop/book/C/C_test/data.c">
 			<Option target="C_test"/>
 		</Unit>
+		<Unit filename="D:/Destop/book/C/C_test/data.h">
+			<Option target="C_test"/>
+		</Unit>
 		<Unit filename="D:/Destop/book/C/C_test/main.c">
 			<Option target="C_test"/>
 		</Unit>
