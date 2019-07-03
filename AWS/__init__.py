@@ -1,7 +1,33 @@
-"""
-@Time: 2019/7/1 18:55 
-@Author: liushuo
-@File: __init__.py 
-@Desc: 
-@Software: PyCharm
-"""
+a = {'MetricAlarms': [{'AlarmName': 'TargetTracking-table/mytodo-AlarmLow-89650795-ecfc-4bfd-bd3c-3fb64312c588',
+                       'AlarmArn': 'arn:aws-cn:cloudwatch:cn-north-1:936669166135:alarm:TargetTracking-table/mytodo-AlarmLow-89650795-ecfc-4bfd-bd3c-3fb64312c588',
+                       'AlarmDescription': 'DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo.',
+                       'AlarmConfigurationUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 23, 31, 306000,
+                                                                               tzinfo=tzutc()), 'ActionsEnabled': True,
+                       'OKActions': [], 'AlarmActions': [
+        'arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo'],
+                       'InsufficientDataActions': [], 'StateValue': 'ALARM',
+                       'StateReason': 'Threshold Crossed: 15 datapoints were less than the threshold (150.0). The most recent datapoints which crossed the threshold: [0.0 (28/04/19 14:33:00), 0.0 (28/04/19 14:32:00), 0.0 (28/04/19 14:31:00), 0.0 (28/04/19 14:30:00), 0.0 (28/04/19 14:29:00)].',
+                       'StateReasonData': '{"version":"1.0","queryDate":"2019-04-28T14:37:17.348+0000","startDate":"2019-04-28T14:19:00.000+0000","statistic":"Sum","period":60,"recentDatapoints":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"threshold":150.0}',
+                       'StateUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 37, 17, 356000, tzinfo=tzutc()),
+                       'MetricName': 'ConsumedWriteCapacityUnits', 'Namespace': 'AWS/DynamoDB', 'Statistic': 'Sum',
+                       'Dimensions': [{'Name': 'TableName', 'Value': 'mytodo'}], 'Period': 60, 'EvaluationPeriods': 15,
+                       'Threshold': 150.0, 'ComparisonOperator': 'LessThanThreshold'},
+                      {'AlarmName': 'TargetTracking-table/mytodo-AlarmHigh-31ca4d3c-e3a3-441d-9d86-c319364bfb53',
+                       'AlarmArn': 'arn:aws-cn:cloudwatch:cn-north-1:936669166135:alarm:TargetTracking-table/mytodo-AlarmHigh-31ca4d3c-e3a3-441d-9d86-c319364bfb53',
+                       'AlarmDescription': 'DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo.',
+                       'AlarmConfigurationUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 23, 31, 202000,
+                                                                               tzinfo=tzutc()), 'ActionsEnabled': True,
+                       'OKActions': [], 'AlarmActions': [
+                          'arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo'],
+                       'InsufficientDataActions': [], 'StateValue': 'OK',
+                       'StateReason': 'Threshold Crossed: 2 datapoints [0.0 (28/04/19 14:24:00), 0.0 (28/04/19 14:23:00)] were not greater than the threshold (210.0).',
+                       'StateReasonData': '{"version":"1.0","queryDate":"2019-04-28T14:28:22.633+0000","startDate":"2019-04-28T14:23:00.000+0000","statistic":"Sum","period":60,"recentDatapoints":[0.0,0.0],"threshold":210.0}',
+                       'StateUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 28, 22, 639000, tzinfo=tzutc()),
+                       'MetricName': 'ConsumedWriteCapacityUnits', 'Namespace': 'AWS/DynamoDB', 'Statistic': 'Sum',
+                       'Dimensions': [{'Name': 'TableName', 'Value': 'mytodo'}], 'Period': 60, 'EvaluationPeriods': 2,
+                       'Threshold': 210.0, 'ComparisonOperator': 'GreaterThanThreshold'}],
+     'ResponseMetadata': {'RequestId': '1595c2a9-9d3e-11e9-b760-9975dd11f32e', 'HTTPStatusCode': 200,
+                          'HTTPHeaders': {'x-amzn-requestid': '1595c2a9-9d3e-11e9-b760-9975dd11f32e',
+                                          'content-type': 'text/xml', 'content-length': '4929',
+                                          'vary': 'accept-encoding', 'date': 'Wed, 03 Jul 2019 02:55:58 GMT'},
+                          'RetryAttempts': 0}}
