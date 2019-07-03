@@ -2,15 +2,16 @@
 /*求两数之较大者*/
 #include<stdlib.h>
 void main() {
-    system("\"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"");
+//    system("\"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"");
     printf("hello\n");
     printf("\"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"");
     system("pause");
     putchar('\x41');
     putchar('a');// 输出一个字符
-    printf("\\101\\102");
+    printf("\\101\\102"); //输出字符串
     // 单双引号的问题
     // 双引号里面的是字符串 而单引号里面的代表字符
+
 }
 /*
 \"   代替"
