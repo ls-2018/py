@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="C">
-      <change afterPath="$PROJECT_DIR$/C/.idea/C.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/3.1 转义字符.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/C_test/.idea/C_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/C_test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/C_test/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/C_test/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/CouldWatch-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/CouldWatch-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/1.2 求两数之和.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1.2 求两数之和.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/1.3 求2个数中中较大者.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1.3 求2个数中中较大者.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/C_test/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/C_test/cmake-build-debug/C_test.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/C/C_test/cmake-build-debug/C_test.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/C_test/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/C_test/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/3.1 转义字符.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/3.1 转义字符.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C/3.1 转义字符.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="100">
+              <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -104,8 +88,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="641" />
-    <option name="y" value="30" />
+    <option name="x" value="611" />
+    <option name="y" value="127" />
     <option name="width" value="1446" />
     <option name="height" value="931" />
   </component>
@@ -191,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562116637461</updated>
       <workItem from="1562116642795" duration="11708000" />
-      <workItem from="1562130821433" duration="9209000" />
+      <workItem from="1562130821433" duration="10281000" />
     </task>
     <task id="LOCAL-00001" summary="C">
       <created>1562123600140</created>
@@ -207,14 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1562129806805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="C">
+      <created>1562142797006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142797006</updated>
+    </task>
+    <task id="LOCAL-00004" summary="AWS">
+      <created>1562142832815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142832815</updated>
+    </task>
+    <task id="LOCAL-00005" summary="AWS">
+      <created>1562142968773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142968774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20917000" />
+    <option name="totallyTimeSpent" value="21989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="641" y="30" width="1446" height="931" extended-state="0" />
+    <frame x="611" y="127" width="1446" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12770563" />
@@ -231,7 +236,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.40200445" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.25355756" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.64165586" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -245,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="C" />
-    <option name="LAST_COMMIT_MESSAGE" value="C" />
+    <MESSAGE value="AWS" />
+    <option name="LAST_COMMIT_MESSAGE" value="AWS" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
@@ -358,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/3.1 转义字符.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="100">
+          <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="81" />
         </state>
       </provider>
     </entry>

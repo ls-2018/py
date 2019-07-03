@@ -2,9 +2,9 @@
 /*求两数之较大者*/
 #include<stdlib.h>
 void main() {
-//    system("\"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"");
+    system("start /b \"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"");
     printf("hello\n");
-    printf("\"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"");
+    printf("\"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"\n");
     system("pause");
     putchar('\x41');
     putchar('a');// 输出一个字符
@@ -19,7 +19,7 @@ void main() {
 
 */
 
-/*
+/*   转义字符
  \b 光标退格
  \n 换行
  \f 文本编辑器是换页符，命令行是乱码
