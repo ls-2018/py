@@ -3,7 +3,7 @@
 //
 # include"123.h"
 #include <stdio.h>
-
+int a,b,c;
 void add() {
     a = 3;
     b = 2;
