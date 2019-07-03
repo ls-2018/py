@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Destop/book/C/C_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_test">
+				<Option output="D:/Destop/book/C/C_test/cmake-build-debug/C_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Destop/book/C/C_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_test"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_test/fast">
+				<Option output="D:/Destop/book/C/C_test/cmake-build-debug/C_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Destop/book/C/C_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="D:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_test/fast"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Destop/book/C/C_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Destop/book/C/C_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;D:/Destop/book/C/C_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Destop/book/C/C_test/data.c">
+			<Option target="C_test"/>
+		</Unit>
+		<Unit filename="D:/Destop/book/C/C_test/main.c">
+			<Option target="C_test"/>
+		</Unit>
+		<Unit filename="D:/Destop/book/C/C_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
