@@ -1,10 +1,12 @@
 #include<stdio.h>
 /*求两数之较大者*/
 #include<stdlib.h>
+
 void main() {
-    system("start /b \"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"");
+    int $123 = 10;
+    system("start  cmd /k \"D:\\Program Files (x86)\\RedisDesktopManager\\rdm.exe\"");
     printf("hello\n");
-    printf("\"D:\\Program Files (x86)\\NetSarang\\Xshell 6\\Xshell.exe\"\n");
+    printf("\"D:\\Program Files (x86)\\RedisDesktopManager\\rdm.exe\"\n");
     system("pause");
     putchar('\x41');
     putchar('a');// 输出一个字符

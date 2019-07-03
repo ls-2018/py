@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/CouldWatch-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/CouldWatch-01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/3.1 转义字符.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/3.1 转义字符.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/3.2 常量与变量.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/3.2 常量与变量.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C/a.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,43 +21,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/1.3 求2个数中中较大者.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/1.2 求两数之和.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AWS/CouldWatch-01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="482" lean-forward="true" selection-start-line="482" selection-end-line="482" />
+            <state relative-caret-position="110">
+              <caret line="465" column="30" selection-start-line="465" selection-start-column="30" selection-end-line="465" selection-end-column="30" />
               <folding>
                 <element signature="e#100#112#0" expanded="true" />
-                <element signature="e#8186#8194#1" />
-                <element signature="e#14012#14429#1" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/3.1 转义字符.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -68,6 +45,7 @@
       <find>get_dashboard</find>
       <find>get</find>
       <find>AWS/EC2</find>
+      <find>start</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,15 +57,15 @@
         <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/C/1.3 求2个数中中较大者.c" />
         <option value="$PROJECT_DIR$/C/C_test/main.c" />
-        <option value="$PROJECT_DIR$/AWS/CouldWatch-01.py" />
         <option value="$PROJECT_DIR$/C/1.2 求两数之和.c" />
         <option value="$PROJECT_DIR$/C/3.1 转义字符.c" />
+        <option value="$PROJECT_DIR$/AWS/CouldWatch-01.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="611" />
-    <option name="y" value="127" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="116" />
+    <option name="y" value="-21" />
     <option name="width" value="1446" />
     <option name="height" value="931" />
   </component>
@@ -107,7 +85,7 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +151,9 @@
       <option name="presentableId" value="Default" />
       <updated>1562116637461</updated>
       <workItem from="1562116642795" duration="11708000" />
-      <workItem from="1562130821433" duration="10788000" />
+      <workItem from="1562130821433" duration="13941000" />
+      <workItem from="1562149262003" duration="680000" />
+      <workItem from="1562153327965" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="C">
       <created>1562123600140</created>
@@ -217,17 +197,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562144020514</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="C">
+      <created>1562144307998</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562144307998</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22496000" />
+    <option name="totallyTimeSpent" value="26927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="611" y="127" width="1446" height="931" extended-state="0" />
+    <frame x="116" y="-21" width="1446" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12770563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,7 +228,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.40200445" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.64165586" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.55122495" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -344,33 +331,38 @@
     <entry file="file://$PROJECT_DIR$/C/1.3 求2个数中中较大者.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/CouldWatch-01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="482" lean-forward="true" selection-start-line="482" selection-end-line="482" />
-          <folding>
-            <element signature="e#100#112#0" expanded="true" />
-            <element signature="e#8186#8194#1" />
-            <element signature="e#14012#14429#1" />
-          </folding>
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C/1.2 求两数之和.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C/3.1 转义字符.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="425">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/CMD.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="482" column="11" selection-start-line="482" selection-start-column="6" selection-end-line="482" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/CouldWatch-01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="465" column="30" selection-start-line="465" selection-start-column="30" selection-end-line="465" selection-end-column="30" />
+          <folding>
+            <element signature="e#100#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
