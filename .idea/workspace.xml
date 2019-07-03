@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/3.1 转义字符.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/3.1 转义字符.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/C/a.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C/3.1 转义字符.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="81" />
+            <state relative-caret-position="200">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -175,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562116637461</updated>
       <workItem from="1562116642795" duration="11708000" />
-      <workItem from="1562130821433" duration="10281000" />
+      <workItem from="1562130821433" duration="10788000" />
     </task>
     <task id="LOCAL-00001" summary="C">
       <created>1562123600140</created>
@@ -212,17 +210,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562142968774</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="C">
+      <created>1562144020514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562144020514</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21989000" />
+    <option name="totallyTimeSpent" value="22496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="611" y="127" width="1446" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12770563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12770563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,7 +241,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.40200445" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.64165586" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.64165586" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -249,9 +254,9 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C" />
     <MESSAGE value="AWS" />
-    <option name="LAST_COMMIT_MESSAGE" value="AWS" />
+    <MESSAGE value="C" />
+    <option name="LAST_COMMIT_MESSAGE" value="C" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
@@ -364,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/3.1 转义字符.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="81" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="81" />
+        <state relative-caret-position="200">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
