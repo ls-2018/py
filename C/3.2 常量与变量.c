@@ -33,11 +33,12 @@ void main() {
     // %x   十六进制显示（内存地址实际也是一串数字）
     // %s   字符串
     // %u   按无符号数十进制打印
+    // %o   按无符号数八进制打印
 
     printf("%d\n", x);
     printf("%d\n", pi);
     printf("%x - %x\n", &a, &b);
-
+    char stu[32];
 
     char namestr[] = "张三";
     printf("%s\n", namestr);
