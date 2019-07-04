@@ -14,7 +14,7 @@ void main(){
     printf("%c",1); // 求编号为1 字符
 
 
-
+// char 是 1 字节
  char a = '1';
  char b = "1";
  int c = 1;
@@ -26,4 +26,22 @@ void main(){
 /*在内存中，a以ascii存在，占一个字节
 
 而c占2个、4个或8个字节*/
+
+char ch ='A';
+printf("%c,%d",ch,ch);   //A,65
+ch=ch+1;
+printf("%c,%d",ch,ch);   //B 66
+
+
+
+
+
+
+for (int i=0;i<100;i++){
+    putchar(i);
+}
+
+
+
+
 }
