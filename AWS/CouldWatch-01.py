@@ -50,6 +50,13 @@ describe_alarms True
 get_metric_data True 
 list_dashboards True
 list_metrics True 
+
+
+CloudWatch.Paginator.DescribeAlarmHistory
+CloudWatch.Paginator.DescribeAlarms
+CloudWatch.Paginator.GetMetricData
+CloudWatch.Paginator.ListDashboards
+CloudWatch.Paginator.ListMetrics
 """
 # ###################################   delete_alarms    #############################################
 
@@ -479,5 +486,19 @@ response = client.put_metric_alarm(
 # ###################################   set_alarm_state    #############################################
 
 # ###################################   tag_resource    #############################################
-
+response = client.tag_resource(
+    ResourceARN='string',
+    Tags=[
+        {
+            'Key': 'string',
+            'Value': 'string'
+        },
+    ]
+)
 # ###################################   untag_resource    #############################################
+response = client.untag_resource(
+    ResourceARN='string',
+    TagKeys=[
+        'string',
+    ]
+)
