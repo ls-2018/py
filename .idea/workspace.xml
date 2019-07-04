@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/CouldWatch-02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/CouldWatch-03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/testx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/获取IAM的信息.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/获取ec2监测数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/获取存储桶的信息.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/936669166135-aws-billing-csv-2019-01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AWS/读取CSV.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/CouldWatch-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/CouldWatch-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AWS/获取ec2监测数据.py" beforeDir="false" afterPath="$PROJECT_DIR$/AWS/获取ec2监测数据.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据可视化/项目04视频网站数据清洗整理和结论研究.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据可视化/项目04视频网站数据清洗整理和结论研究.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,38 +19,26 @@
     <SUITE FILE_PATH="coverage/book$test.coverage" NAME="test Coverage Results" MODIFIED="1562227166861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
     <SUITE FILE_PATH="coverage/book$.coverage" NAME="获取存储桶的信息 Coverage Results" MODIFIED="1562224339020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
     <SUITE FILE_PATH="coverage/book$IAM.coverage" NAME="获取IAM的信息 Coverage Results" MODIFIED="1562230061284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
+    <SUITE FILE_PATH="coverage/book$CSV.coverage" NAME="读取CSV Coverage Results" MODIFIED="1562233897315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
     <SUITE FILE_PATH="coverage/book$CouldWatch_02.coverage" NAME="CouldWatch-02 Coverage Results" MODIFIED="1562204508692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
     <SUITE FILE_PATH="coverage/book$testx.coverage" NAME="testx Coverage Results" MODIFIED="1562214184317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
     <SUITE FILE_PATH="coverage/book$CouldWatch_03.coverage" NAME="CouldWatch-03 Coverage Results" MODIFIED="1562215649568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
     <SUITE FILE_PATH="coverage/book$ec2.coverage" NAME="获取ec2监测数据 Coverage Results" MODIFIED="1562215972458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AWS/获取IAM的信息.py">
+        <entry file="file://$PROJECT_DIR$/AWS/读取CSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="286">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS/testx.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/AWS/936669166135-aws-billing-csv-2019-01.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -125,17 +108,18 @@
         <option value="$PROJECT_DIR$/AWS/testx.py" />
         <option value="$PROJECT_DIR$/AWS/CouldWatch-03.py" />
         <option value="$PROJECT_DIR$/AWS/获取ec2实例数据.py" />
-        <option value="$PROJECT_DIR$/AWS/获取ec2监测数据.py" />
         <option value="$PROJECT_DIR$/获取存储桶的信息.py" />
         <option value="$PROJECT_DIR$/AWS/获取存储桶的信息.py" />
         <option value="$PROJECT_DIR$/AWS/test.py" />
         <option value="$PROJECT_DIR$/AWS/获取IAM的信息.py" />
+        <option value="$PROJECT_DIR$/AWS/获取ec2监测数据.py" />
+        <option value="$PROJECT_DIR$/AWS/读取CSV.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="414" />
-    <option name="y" value="33" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="202" />
+    <option name="y" value="38" />
     <option name="width" value="1613" />
     <option name="height" value="912" />
   </component>
@@ -147,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +148,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.获取IAM的信息">
+  <component name="RunManager" selected="Python.读取CSV">
     <configuration name="获取存储桶的信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CouldWatch-03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="读取CSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,7 +214,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AWS/CouldWatch-03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AWS/读取CSV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.读取CSV" />
         <item itemvalue="Python.获取IAM的信息" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.获取存储桶的信息" />
         <item itemvalue="Python.获取ec2监测数据" />
-        <item itemvalue="Python.CouldWatch-03" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +315,8 @@
       <workItem from="1562153327965" duration="5211000" />
       <workItem from="1562164790883" duration="3538000" />
       <workItem from="1562202641995" duration="2558000" />
-      <workItem from="1562205787186" duration="22567000" />
+      <workItem from="1562205787186" duration="23107000" />
+      <workItem from="1562231643869" duration="2309000" />
     </task>
     <task id="LOCAL-00001" summary="C">
       <created>1562123600140</created>
@@ -417,22 +402,29 @@
       <option name="project" value="LOCAL" />
       <updated>1562216502910</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AWS">
+      <created>1562230467551</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562230467551</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60203000" />
+    <option name="totallyTimeSpent" value="63052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="202" y="38" width="1613" height="912" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.13965885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.17063747" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44097996" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.83902127" visible="true" weight="0.35543767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54565704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,7 +432,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.40200445" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16097875" side_tool="true" visible="true" weight="0.35543767" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.45888594" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -453,10 +445,13 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AWS" />
     <MESSAGE value="C" />
-    <option name="LAST_COMMIT_MESSAGE" value="C" />
+    <MESSAGE value="AWS" />
+    <option name="LAST_COMMIT_MESSAGE" value="AWS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -792,20 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/获取ec2监测数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#100#112#0" expanded="true" />
-            <element signature="e#196#633#0" />
-            <element signature="e#688#2187#0" />
-            <element signature="e#1966#1987#0" />
-            <element signature="e#2205#3475#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python36/Lib/site-packages/botocore/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -829,15 +810,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="495">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/获取IAM的信息.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="71">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/获取ec2监测数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/936669166135-aws-billing-csv-2019-01.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/读取CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
