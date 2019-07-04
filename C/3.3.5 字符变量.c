@@ -16,7 +16,7 @@ void main(){
 
 // char 是 1 字节
  char a = '1';
- char b = "1";
+ char b = 1;
  int c = 1;
 // a 与b的区别，b在末尾有隐藏的   \0，  会占一个长度
 
@@ -41,7 +41,11 @@ for (int i=0;i<100;i++){
     putchar(i);
 }
 
-
+char str[2]="cd";
+printf("\n%s",str);
+printf(str);
+sprintf(str,"\nasdsad%d",10);
+printf(str);
 
 
 }
