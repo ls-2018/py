@@ -1,33 +1,23 @@
-a = {'MetricAlarms': [{'AlarmName': 'TargetTracking-table/mytodo-AlarmLow-89650795-ecfc-4bfd-bd3c-3fb64312c588',
-                       'AlarmArn': 'arn:aws-cn:cloudwatch:cn-north-1:936669166135:alarm:TargetTracking-table/mytodo-AlarmLow-89650795-ecfc-4bfd-bd3c-3fb64312c588',
-                       'AlarmDescription': 'DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo.',
-                       'AlarmConfigurationUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 23, 31, 306000,
-                                                                               tzinfo=tzutc()), 'ActionsEnabled': True,
-                       'OKActions': [], 'AlarmActions': [
-        'arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo'],
-                       'InsufficientDataActions': [], 'StateValue': 'ALARM',
-                       'StateReason': 'Threshold Crossed: 15 datapoints were less than the threshold (150.0). The most recent datapoints which crossed the threshold: [0.0 (28/04/19 14:33:00), 0.0 (28/04/19 14:32:00), 0.0 (28/04/19 14:31:00), 0.0 (28/04/19 14:30:00), 0.0 (28/04/19 14:29:00)].',
-                       'StateReasonData': '{"version":"1.0","queryDate":"2019-04-28T14:37:17.348+0000","startDate":"2019-04-28T14:19:00.000+0000","statistic":"Sum","period":60,"recentDatapoints":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"threshold":150.0}',
-                       'StateUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 37, 17, 356000, tzinfo=tzutc()),
-                       'MetricName': 'ConsumedWriteCapacityUnits', 'Namespace': 'AWS/DynamoDB', 'Statistic': 'Sum',
-                       'Dimensions': [{'Name': 'TableName', 'Value': 'mytodo'}], 'Period': 60, 'EvaluationPeriods': 15,
-                       'Threshold': 150.0, 'ComparisonOperator': 'LessThanThreshold'},
-                      {'AlarmName': 'TargetTracking-table/mytodo-AlarmHigh-31ca4d3c-e3a3-441d-9d86-c319364bfb53',
-                       'AlarmArn': 'arn:aws-cn:cloudwatch:cn-north-1:936669166135:alarm:TargetTracking-table/mytodo-AlarmHigh-31ca4d3c-e3a3-441d-9d86-c319364bfb53',
-                       'AlarmDescription': 'DO NOT EDIT OR DELETE. For TargetTrackingScaling policy arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo.',
-                       'AlarmConfigurationUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 23, 31, 202000,
-                                                                               tzinfo=tzutc()), 'ActionsEnabled': True,
-                       'OKActions': [], 'AlarmActions': [
-                          'arn:aws-cn:autoscaling:cn-north-1:936669166135:scalingPolicy:c73c6306-bb5a-41bf-9472-b1e8ac3d86a7:resource/dynamodb/table/mytodo:policyName/DynamoDBWriteCapacityUtilization:table/mytodo'],
-                       'InsufficientDataActions': [], 'StateValue': 'OK',
-                       'StateReason': 'Threshold Crossed: 2 datapoints [0.0 (28/04/19 14:24:00), 0.0 (28/04/19 14:23:00)] were not greater than the threshold (210.0).',
-                       'StateReasonData': '{"version":"1.0","queryDate":"2019-04-28T14:28:22.633+0000","startDate":"2019-04-28T14:23:00.000+0000","statistic":"Sum","period":60,"recentDatapoints":[0.0,0.0],"threshold":210.0}',
-                       'StateUpdatedTimestamp': datetime.datetime(2019, 4, 28, 14, 28, 22, 639000, tzinfo=tzutc()),
-                       'MetricName': 'ConsumedWriteCapacityUnits', 'Namespace': 'AWS/DynamoDB', 'Statistic': 'Sum',
-                       'Dimensions': [{'Name': 'TableName', 'Value': 'mytodo'}], 'Period': 60, 'EvaluationPeriods': 2,
-                       'Threshold': 210.0, 'ComparisonOperator': 'GreaterThanThreshold'}],
-     'ResponseMetadata': {'RequestId': '1595c2a9-9d3e-11e9-b760-9975dd11f32e', 'HTTPStatusCode': 200,
-                          'HTTPHeaders': {'x-amzn-requestid': '1595c2a9-9d3e-11e9-b760-9975dd11f32e',
-                                          'content-type': 'text/xml', 'content-length': '4929',
-                                          'vary': 'accept-encoding', 'date': 'Wed, 03 Jul 2019 02:55:58 GMT'},
-                          'RetryAttempts': 0}}
+# encoding=utf-8
+import cv2
+import os
+
+path = r'D:\Destop\新建文件夹 (2)'
+
+path = r'G:\清华_尹成_C语言从菜鸟到高手 10月14版\3传智播客_尹成_C语言从菜鸟到高手_第三章C语言数据类型_运算符与表达式\3.4 基本运算符与表达式\视频'
+
+file_l = list(os.walk(path))[0][2]
+sum = 0
+for file_path in file_l:
+
+    cap = cv2.VideoCapture(os.path.join(path, file_path))
+    # file_path是文件的绝对路径，防止路径中含有中文时报错，需要解码
+    if cap.isOpened():  # 当成功打开视频时cap.isOpened()返回True,否则返回False
+        # get方法参数按顺序对应下表（从0开始编号)
+        rate = cap.get(5)  # 帧速率
+        FrameNumber = cap.get(7)  # 视频文件的帧数
+        duration = FrameNumber / rate / 60  # 帧速率/视频总帧数 是时间，除以60之后单位是分钟
+        sum += duration
+print(sum / 60)
+# print(10661 / 60)  # 180 个小时
+

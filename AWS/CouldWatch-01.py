@@ -6,9 +6,8 @@
 @Software: PyCharm
 """
 import boto3
-from datetime import datetime
 
-client = boto3.client('cloudwatch', )
+client = boto3.client('cloudwatch')
 # aws cloudwatch list-metrics --namespace AWS/EC2       指定 AWS/EC2 命名空间以查看 Amazon EC2 的所有指标
 # List alarms of insufficient data through the pagination interface
 # 检查是否可以对操作进行分页
