@@ -20,5 +20,10 @@ void main()
     printf ("%d\n", a);
     a = ( (a = 3 * 5, a * 4), a + 5);  //20
     printf ("%d\n", a);
+
+
+    printf ("%d\n", a),printf ("%d\n", a),printf ("%d\n", a),printf ("%d\n", a),printf ("%d\n", a);
+
+
     getchar();
 }
