@@ -2,10 +2,13 @@
 #include<limits.h>
 #include<float.h> // float的极限
 void main(){
+printf("%d",sizeof(int));
+printf("\n%d",INT_MAX);
+printf("\n%u",UINT_MAX);
 //INT_MAX
 //INT_MIN
 //SHRT_MAX
-//USHRT_MAX
+//USHRT_MAX         %d (有符号10进制)   超出范围，使用%u
 //SHRT_MIN
 //UINT_MAX
 //FLT_MAX
