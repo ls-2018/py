@@ -41,6 +41,9 @@ void main1()
     printf ("%i,%#o,%#x\n", num1, num2, num3);
     // %#o 按照八进制输出，带0	没有# 不带0
     // %#x按照十六进制输出，带0x,没有#  不带0x
+
+
+    printf("%d,%f",1.1,10);//  printf 第一个不正确，及时后边匹配也会失败。
 }
 
 void main()
