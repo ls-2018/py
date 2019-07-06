@@ -37,5 +37,19 @@ void main()
         printf ("%d\n", i); //	3	4
     }
 
+    for (;;)
+    {
+        switch (i)
+        {
+            case 1:
+                return 1;
+            case 2:
+                i = i +2 ;
+                break;
+            default:
+                return 0;
+        }
+    }
+
     getchar();
 }
