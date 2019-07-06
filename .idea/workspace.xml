@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/1 demo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/1、if.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/4、基本运算符与表达式/4.1 运算符表达式操作符.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/4.1 运算符表达式操作符.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="372">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -98,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/3.1 转义字符.c" />
         <option value="$PROJECT_DIR$/C/3.3.2 八十十六.c" />
         <option value="$PROJECT_DIR$/C/3.3.6 四则运算.c" />
         <option value="$PROJECT_DIR$/C/3.3.7 类型转换.c" />
@@ -149,12 +153,13 @@
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.1 运算符表达式操作符.c" />
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/1、if.c" />
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c" />
+        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1024" />
-    <option name="y" value="112" />
+    <option name="x" value="753" />
+    <option name="y" value="87" />
     <option name="width" value="960" />
     <option name="height" value="906" />
   </component>
@@ -197,6 +202,14 @@
               <item name="C" type="462c0819:PsiDirectoryNode" />
               <item name="4、基本运算符与表达式" type="462c0819:PsiDirectoryNode" />
               <item name="结构" type="462c0819:PsiDirectoryNode" />
+              <item name="循环" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="4、基本运算符与表达式" type="462c0819:PsiDirectoryNode" />
+              <item name="结构" type="462c0819:PsiDirectoryNode" />
               <item name="选择" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -215,11 +228,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构\循环" />
       <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构\选择" />
       <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构" />
       <recent name="D:\Destop\book\C\4、基本运算符与表达式" />
       <recent name="D:\Destop\book\AWS" />
-      <recent name="D:\Destop\book\C" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\C\3、基础" />
@@ -386,7 +399,7 @@
       <workItem from="1562401200591" duration="927000" />
       <workItem from="1562407434569" duration="599000" />
       <workItem from="1562409399709" duration="1777000" />
-      <workItem from="1562419909061" duration="2342000" />
+      <workItem from="1562419909061" duration="4246000" />
     </task>
     <task id="LOCAL-00001" summary="C">
       <created>1562123600140</created>
@@ -612,14 +625,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562398833911</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="C">
+      <created>1562424619031</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1562424619031</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121650000" />
+    <option name="totallyTimeSpent" value="123554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1024" y="112" width="960" height="906" extended-state="0" />
+    <frame x="753" y="87" width="960" height="906" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.36888888" />
@@ -689,9 +709,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/2.3 判断是否是闰年.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JIRA/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -1091,8 +1108,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="372">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
         </state>
       </provider>
     </entry>
