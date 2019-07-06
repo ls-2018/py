@@ -40,6 +40,13 @@ void main()
         float f1 = 1000000000000000.0;
     printf ("%e,%f", f1, f1);
     printf ("\n%a,%A", f1, f1);
+
+
+
+    int dd;
+    char dddd[40] = "num = 99";
+    sscanf(dddd,"num = %d",&dd); // 从字符串中挖值
+    spintf(dddd,"-----------%d",dd);// 补充模板，填入dddd
     system ("pause");
 }
 
