@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/2、for.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/3、goto.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/demo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第1章/例1.2求两整数之和.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第1章/例1.3 求两个整数中的较大者.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第1章/课后题/1、求三个整数中的较大者.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第2章/例2.1 求1x2x3x4x5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第2章/例2.17 正负分数相加.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,35 +34,7 @@
     <SUITE FILE_PATH="coverage/book$ec2.coverage" NAME="获取ec2监测数据 Coverage Results" MODIFIED="1562215972458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/1、if.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,14 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/3.3.2 八十十六.c" />
-        <option value="$PROJECT_DIR$/C/3.3.6 四则运算.c" />
-        <option value="$PROJECT_DIR$/C/3.3.7 类型转换.c" />
-        <option value="$PROJECT_DIR$/AWS/CouldWatch-02.py" />
-        <option value="$PROJECT_DIR$/AWS/testx.py" />
-        <option value="$PROJECT_DIR$/AWS/CouldWatch-03.py" />
-        <option value="$PROJECT_DIR$/AWS/获取ec2实例数据.py" />
-        <option value="$PROJECT_DIR$/获取存储桶的信息.py" />
         <option value="$PROJECT_DIR$/AWS/获取存储桶的信息.py" />
         <option value="$PROJECT_DIR$/AWS/test.py" />
         <option value="$PROJECT_DIR$/AWS/获取IAM的信息.py" />
@@ -154,12 +126,20 @@
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/1、if.c" />
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c" />
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c" />
+        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/2、for.c" />
+        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/3、goto.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/demo.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第1章/例1.2求两整数之和.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第1章/例1.3 求两个整数中的较大者.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第1章/课后题/6 求三个整数中的较大者.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第2章/例2.1 求1x2x3x4x5.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第2章/例2.17 正负分数相加.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="753" />
-    <option name="y" value="87" />
+    <option name="x" value="844" />
+    <option name="y" value="154" />
     <option name="width" value="960" />
     <option name="height" value="906" />
   </component>
@@ -171,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,36 +168,34 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="4、基本运算符与表达式" type="462c0819:PsiDirectoryNode" />
+              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="4、基本运算符与表达式" type="462c0819:PsiDirectoryNode" />
-              <item name="结构" type="462c0819:PsiDirectoryNode" />
+              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
+              <item name="第1章" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="4、基本运算符与表达式" type="462c0819:PsiDirectoryNode" />
-              <item name="结构" type="462c0819:PsiDirectoryNode" />
-              <item name="循环" type="462c0819:PsiDirectoryNode" />
+              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
+              <item name="第1章" type="462c0819:PsiDirectoryNode" />
+              <item name="课后题" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="4、基本运算符与表达式" type="462c0819:PsiDirectoryNode" />
-              <item name="结构" type="462c0819:PsiDirectoryNode" />
-              <item name="选择" type="462c0819:PsiDirectoryNode" />
+              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
+              <item name="第2章" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,16 +206,16 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构\循环" />
-      <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构\选择" />
-      <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构" />
-      <recent name="D:\Destop\book\C\4、基本运算符与表达式" />
-      <recent name="D:\Destop\book\AWS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\C\3、基础" />
       <recent name="D:\Destop\book\AWS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\C\谭浩强\第2章" />
+      <recent name="D:\Destop\book\C\谭浩强\第1章\课后题" />
+      <recent name="D:\Destop\book\C\谭浩强\第1章" />
+      <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构\循环" />
+      <recent name="D:\Destop\book\C\4、基本运算符与表达式\结构\选择" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,7 +378,8 @@
       <workItem from="1562401200591" duration="927000" />
       <workItem from="1562407434569" duration="599000" />
       <workItem from="1562409399709" duration="1777000" />
-      <workItem from="1562419909061" duration="4246000" />
+      <workItem from="1562419909061" duration="4376000" />
+      <workItem from="1562460373957" duration="3429000" />
     </task>
     <task id="LOCAL-00001" summary="C">
       <created>1562123600140</created>
@@ -632,17 +612,30 @@
       <option name="project" value="LOCAL" />
       <updated>1562424619031</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="C">
+      <created>1562429206251</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1562429206251</updated>
+    </task>
+    <task id="LOCAL-00035" summary="C">
+      <created>1562429270806</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1562429270806</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123554000" />
+    <option name="totallyTimeSpent" value="127113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="753" y="87" width="960" height="906" extended-state="0" />
-    <editor active="true" />
+    <frame x="844" y="154" width="960" height="906" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.36888888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.37777779" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -709,128 +702,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JIRA/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="e#106#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/ec2实例数据.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4998" column="27" selection-start-line="4998" selection-start-column="17" selection-end-line="4998" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#5091#0" />
-            <element signature="e#381#440#0" />
-            <element signature="e#471#623#0" />
-            <element signature="e#5097#10212#0" />
-            <element signature="e#10218#16029#0" />
-            <element signature="e#16035#20725#0" />
-            <element signature="e#20731#25939#0" />
-            <element signature="e#25945#31552#0" />
-            <element signature="e#31558#41437#0" />
-            <element signature="e#41443#46683#0" />
-            <element signature="e#46689#52642#0" />
-            <element signature="e#52648#58254#0" />
-            <element signature="e#58260#63722#0" />
-            <element signature="e#63728#68459#0" />
-            <element signature="e#68465#73227#0" />
-            <element signature="e#73233#77773#0" />
-            <element signature="e#77779#82732#0" />
-            <element signature="e#82738#88240#0" />
-            <element signature="e#88246#93689#0" />
-            <element signature="e#93695#98452#0" />
-            <element signature="e#98458#103173#0" />
-            <element signature="e#103179#108779#0" />
-            <element signature="e#108785#113931#0" />
-            <element signature="e#113937#119855#0" />
-            <element signature="e#119861#125275#0" />
-            <element signature="e#125281#130182#0" />
-            <element signature="e#130188#135229#0" />
-            <element signature="e#135235#139972#0" />
-            <element signature="e#139978#145053#0" />
-            <element signature="e#145059#150264#0" />
-            <element signature="e#150270#155832#0" />
-            <element signature="e#155838#160854#0" />
-            <element signature="e#160860#165585#0" />
-            <element signature="e#165591#170377#0" />
-            <element signature="e#170383#176270#0" />
-            <element signature="e#176276#181402#0" />
-            <element signature="e#181408#186900#0" />
-            <element signature="e#186906#191747#0" />
-            <element signature="e#191753#197630#0" />
-            <element signature="e#197636#202714#0" />
-            <element signature="e#202720#208156#0" />
-            <element signature="e#208536#208595#0" />
-            <element signature="e#208626#208778#0" />
-            <element signature="e#209011#209100#0" />
-            <element signature="e#209348#209757#0" />
-            <element signature="e#209944#210104#0" />
-            <element signature="e#210143#212623#0" />
-            <element signature="e#212747#213541#0" />
-            <element signature="e#213615#213793#0" />
-            <element signature="e#213819#214244#0" />
-            <element signature="e#213973#214100#0" />
-            <element signature="e#214122#214226#0" />
-            <element signature="e#214321#214416#0" />
-            <element signature="e#214470#214549#0" />
-            <element signature="e#214589#214648#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/CouldWatch-02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-          <folding>
-            <element signature="e#203#818#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/获取IAM的信息.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/CouldWatch-03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
-          <folding>
-            <element signature="e#100#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/获取ec2监测数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/S3-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/testx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -1101,22 +972,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/1、if.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="650">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c">
+    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/2、for.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="672">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/1、while.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        <state relative-caret-position="200">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#499#0" />
+            <element signature="e#0#499#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/选择/2、switch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第1章/例1.2求两整数之和.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/demo.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/结构/循环/3、goto.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第1章/例1.3 求两个整数中的较大者.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第1章/课后题/1、求三个整数中的较大者.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/例2.1 求1x2x3x4x5.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/例2.17 正负分数相加.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
