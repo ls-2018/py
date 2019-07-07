@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第3章/课后题/1、国民生产总值.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第3章/课后题/2.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/谭浩强/第2章/课后题/-6、求方程式的根.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/谭浩强/第2章/课后题/6、求方程式的根.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/谭浩强/第2章/课后题/-7、输出1900-2000中的闰年.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/谭浩强/第2章/课后题/7、输出1900-2000中的闰年.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/谭浩强/demo.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/谭浩强/demo.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,46 +31,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/3、判断一个数n能否被3和5同时整除.c">
+        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/6、求方程式的根.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="375">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/4、输出100-200之间的素数.c">
+        <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/课后题/1、国民生产总值.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/5、求n与m的最大公约数.c">
+        <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/课后题/2.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state>
+              <caret selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/1、输出10个数中最大的.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/6、求方程式的根.c">
+        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/2、abc按大小输出.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/7、输出1900-2000中的闰年.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="500">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -113,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/谭浩强/demo.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="175">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -168,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/3.3.8 BOOL.c" />
-        <option value="$PROJECT_DIR$/C/3.3.9 auto.c" />
         <option value="$PROJECT_DIR$/C/3.3.10 十进制小数-二进制.c" />
         <option value="$PROJECT_DIR$/C/3.3.11 ll与ld.c" />
         <option value="$PROJECT_DIR$/C/3.3.12 宽字符.c" />
@@ -214,11 +213,13 @@
         <option value="$PROJECT_DIR$/C/谭浩强/第2章/课后题/4、输出100-200之间的素数.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第2章/课后题/5、求n与m的最大公约数.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第2章/课后题/-7、输出1900-2000中的闰年.c" />
-        <option value="$PROJECT_DIR$/C/谭浩强/demo.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第3章/例3.1 摄氏度转换.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第3章/例3.3 大转小.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第3章/例3.4 求三角形面积.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第2章/课后题/6、求方程式的根.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/demo.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第3章/课后题/1国民生产总值.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第3章/课后题/2.c" />
       </list>
     </option>
   </component>
@@ -260,21 +261,6 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
               <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
-              <item name="第1章" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
-              <item name="第1章" type="462c0819:PsiDirectoryNode" />
-              <item name="课后题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
               <item name="第2章" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,6 +277,14 @@
               <item name="C" type="462c0819:PsiDirectoryNode" />
               <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
               <item name="第3章" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
+              <item name="第3章" type="462c0819:PsiDirectoryNode" />
+              <item name="课后题" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,11 +305,11 @@
       <recent name="D:\Destop\book\AWS" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\C\谭浩强\第3章\课后题" />
       <recent name="D:\Destop\book\C\谭浩强\第3章" />
       <recent name="D:\Destop\book\C\谭浩强\第2章\课后题" />
       <recent name="D:\Destop\book\C\谭浩强\第2章" />
       <recent name="D:\Destop\book\C\谭浩强\第1章\课后题" />
-      <recent name="D:\Destop\book\C\谭浩强\第1章" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -479,7 +473,7 @@
       <workItem from="1562407434569" duration="599000" />
       <workItem from="1562409399709" duration="1777000" />
       <workItem from="1562419909061" duration="4376000" />
-      <workItem from="1562460373957" duration="8265000" />
+      <workItem from="1562460373957" duration="9564000" />
     </task>
     <task id="LOCAL-00001" summary="C">
       <created>1562123600140</created>
@@ -768,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562477590259</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="C">
+      <created>1562477994582</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1562477994582</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131949000" />
+    <option name="totallyTimeSpent" value="133248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="918" y="184" width="960" height="906" extended-state="0" />
@@ -845,20 +846,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/4.9 星号.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/4.8 csfeg格式符.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/4.7 d输出格式.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
@@ -1102,20 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/1、输出10个数中最大的.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/2、abc按大小输出.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/3、判断一个数n能否被3和5同时整除.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1151,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/demo.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/例3.1 摄氏度转换.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1181,8 +1147,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/6、求方程式的根.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="375">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/demo.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/课后题/1、国民生产总值.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/课后题/2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/1、输出10个数中最大的.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/2、abc按大小输出.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
