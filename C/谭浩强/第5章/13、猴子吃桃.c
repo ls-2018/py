@@ -5,16 +5,17 @@
 
 void main()
 {
-    double sn = 100, bn = sn / 2;
-    int n;
+    int day, x1, x2;
+    day = 9;
+    x2 = 1;
 
-    for (n = 2; n <= 10; n++)
+    while (day > 0)
     {
-        sn += 2 * bn;
-        bn /= 2;
+        x1 = (x2 + 1) * 2;
+        x2 = x1;
+        day--;
     }
 
-    printf ("第十次落地时共经过%f米\n", sn);
-    printf ("第十次反弹%f米\n", bn);
+    printf ("total = %d\n", x1);
     system ("pause");
 }
