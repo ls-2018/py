@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AWS/get_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第5章/10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第5章/11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第5章/7、公约公倍数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第5章/8、统计输入的字符种类及个数.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/谭浩强/第5章/9.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,49 +34,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/3.c">
+        <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/10.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/课后题/3.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/5、函数/可变参数.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AWS/get_data.py">
+        <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/11.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="31" column="106" lean-forward="true" selection-start-line="31" selection-start-column="106" selection-end-line="31" selection-end-column="106" />
+            <state relative-caret-position="165">
+              <caret line="145" column="1" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
               <folding>
-                <element signature="e#112#124#0" expanded="true" />
+                <element signature="e#0#3373#0" />
+                <element signature="e#0#3373#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python36/Lib/site-packages/pandas/core/frame.py">
+        <entry file="file://$PROJECT_DIR$/AWS/get_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="6586" column="16" lean-forward="true" selection-start-line="6586" selection-start-column="16" selection-end-line="6586" selection-end-column="16" />
+            <state relative-caret-position="258">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+              <folding>
+                <element signature="e#112#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,12 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.8 C格式符.c" />
-        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.8 cs格式符.c" />
-        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.8 csf格式符.c" />
-        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.9 星号.c" />
-        <option value="$PROJECT_DIR$/C/3、基础/3.3.1 原反补.c" />
-        <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.7 d输出格式.c" />
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.5 条件.c" />
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.11 put-get-char.c" />
         <option value="$PROJECT_DIR$/C/4、基本运算符与表达式/4.10 井号.c" />
@@ -177,14 +161,20 @@
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/课后题/3.c" />
         <option value="$PROJECT_DIR$/C/5、函数/可变参数.c" />
         <option value="$PROJECT_DIR$/AWS/get_data.py" />
+        <option value="$PROJECT_DIR$/AWS/XX.py" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第5章/7、公约公倍数.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第5章/8、统计输入的字符种类及个数.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第5章/9.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第5章/10.c" />
+        <option value="$PROJECT_DIR$/C/谭浩强/第5章/11.c" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="387" />
-    <option name="y" value="52" />
-    <option name="width" value="1804" />
-    <option name="height" value="906" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="326" />
+    <option name="y" value="348" />
+    <option name="width" value="1265" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -207,6 +197,24 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="AWS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="谭浩强" type="462c0819:PsiDirectoryNode" />
+              <item name="第5章" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -221,17 +229,17 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\C\5、函数" />
-      <recent name="D:\Destop\book\C\谭浩强\第5章\课后题" />
-      <recent name="D:\Destop\book\C\谭浩强\第5章" />
-      <recent name="D:\Destop\book\C\谭浩强\第4章\课后题" />
-      <recent name="D:\Destop\book\C\谭浩强\第4章" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\C\谭浩强\第5章" />
       <recent name="D:\Destop\book\C\3、基础" />
       <recent name="D:\Destop\book\AWS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\C\谭浩强\第5章" />
+      <recent name="D:\Destop\book\C\5、函数" />
+      <recent name="D:\Destop\book\C\谭浩强\第5章\课后题" />
+      <recent name="D:\Destop\book\C\谭浩强\第4章\课后题" />
+      <recent name="D:\Destop\book\C\谭浩强\第4章" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,14 +405,7 @@
       <workItem from="1562419909061" duration="4376000" />
       <workItem from="1562460373957" duration="18376000" />
       <workItem from="1562540979384" duration="2518000" />
-      <workItem from="1562548599419" duration="7884000" />
-    </task>
-    <task id="LOCAL-00001" summary="C">
-      <created>1562123600140</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1562123600140</updated>
+      <workItem from="1562548599419" duration="10188000" />
     </task>
     <task id="LOCAL-00002" summary="C">
       <created>1562129806805</created>
@@ -742,22 +743,29 @@
       <option name="project" value="LOCAL" />
       <updated>1562543634979</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="AWS">
+      <created>1562562823901</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1562562823902</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152462000" />
+    <option name="totallyTimeSpent" value="154766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="574" y="161" width="1804" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" weight="0.3311111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.15309633" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.83848614" visible="true" weight="0.3507795" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83848614" visible="true" weight="0.48018292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.49443206" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -783,9 +791,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JIRA" />
-    <MESSAGE value="AWS" />
     <MESSAGE value="C" />
-    <option name="LAST_COMMIT_MESSAGE" value="C" />
+    <MESSAGE value="AWS" />
+    <option name="LAST_COMMIT_MESSAGE" value="AWS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -810,21 +818,6 @@
           <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AWS/get_data.py</url>
-          <line>40</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AWS/get_data.py</url>
-          <line>39</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/AWS/get_data.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -834,48 +827,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/6、求方程式的根.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/demo.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/课后题/1、国民生产总值.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/课后题/2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/1、输出10个数中最大的.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第2章/课后题/2、abc按大小输出.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第3章/例3.4 求三角形面积.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1048,20 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第4章/课后题/2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第4章/课后题/1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1119,13 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/5、函数/可变参数.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1149,17 +1079,84 @@
     </entry>
     <entry file="file://D:/Python36/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="6586" column="16" lean-forward="true" selection-start-line="6586" selection-start-column="16" selection-end-line="6586" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6575" column="43" lean-forward="true" selection-start-line="6575" selection-start-column="43" selection-end-line="6575" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/XX.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第4章/课后题/2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/5、函数/可变参数.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/7、公约公倍数.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/8、统计输入的字符种类及个数.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/9.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/get_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="31" column="106" lean-forward="true" selection-start-line="31" selection-start-column="106" selection-end-line="31" selection-end-column="106" />
+        <state relative-caret-position="258">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="e#112#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/10.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/11.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="145" column="1" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#3373#0" />
+            <element signature="e#0#3373#0" />
           </folding>
         </state>
       </provider>
