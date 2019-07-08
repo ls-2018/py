@@ -2,7 +2,22 @@
 // Created by Administrator on 2019/7/3.
 //
 const int x = 10;  // 常量,定义方式1
-#define pi   3.14159926// 常量,定义方式2
+#define pi   3.14159926// 常量,定义方式2      没有内存地址
+
+#define xxxxxxxx 10
+ma(){
+int a[xxxxxxxx];
+printf("");
+}
+
+
+
+
+
+
+
+
+
 // define 的本质是替换
 #include <stdio.h>
 #include <stdlib.h>
