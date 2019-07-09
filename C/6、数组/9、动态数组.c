@@ -72,7 +72,7 @@ void main()
     for (int i=0;i<x;i++){
     // 释放内存
     free(pp[i]);
-    }
+    }    free(pp);
     // printf("%d\n", sizeof(int *));	// 指向int类型数据的指针，
     system ("pause");
 }
