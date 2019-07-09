@@ -4,52 +4,51 @@
 void main()
 {
     time_t ts;
-    unsigned int num =  time (&ts);
-    srand (num);   // 初始化随机种子
+    unsigned int num = time (&ts);
+    srand (num); // 初始化随机种子
     int a[1024];
 
     for (int i = 0; i < 1024; i++)
     {
-        //a[i] = rand() % 1024;
         a[i] = i;
     }
+	a[333] = 334;
+    int key = 333;
+    int low = 0;
+    int high = 1023;
+    int mid, flag = 0;
 
-    a[333] = 334;
-    int target = 333;
-    int shang = 0;
-    int xia = 1023;
-    int zhong;
-    printf ("%x", a);
-    int flag = 0;
-
-    while (shang <= xia)
+    while (low < high)
     {
-        zhong = (shang + xia) / 2;
-        printf ("shang = %d	zhong = %d	xia = %d\n", shang, zhong, xia);
+        mid = (low + high) / 2;
 
-        if (a[zhong] == target)
+        if (a[mid] < key)
         {
-            flag = 1;
-            break;
+            low = mid + 1;
         }
 
-        if (a[zhong] < target)
-        {
-            shang = zhong + 1;
-        }
+        else
+            if (a[mid] > key)
+            {
+                high = mid - 1;
+            }
 
-        if (a[zhong] > target)
-        { xia = zhong - 1; }
+            else
+                if (a[mid] == key)
+                {
+                    flag = mid;
+                    break;
+                }
     }
 
     if (flag)
     {
-        printf ("找到了");
+        printf ("%d\n", a[flag]);
     }
 
     else
     {
-        printf ("没找到");
+        printf ("lose");
     }
 
     getchar();
