@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AWS/1222222222.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AWS/xxxxxxx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/6、数组/7、二分查找.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +38,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/6、数组/7、二分查找.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="207">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/6、数组/8、选择排序.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -122,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/谭浩强/第2章/课后题/6、求方程式的根.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/demo.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第3章/课后题/1国民生产总值.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第3章/课后题/2.c" />
@@ -173,6 +174,7 @@
         <option value="$PROJECT_DIR$/AWS/templates/index.html" />
         <option value="$PROJECT_DIR$/AWS/demo2.py" />
         <option value="$PROJECT_DIR$/C/6、数组/7、二分查找.c" />
+        <option value="$PROJECT_DIR$/C/6、数组/8、选择排序.c" />
       </list>
     </option>
   </component>
@@ -197,6 +199,17 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="6、数组" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
@@ -410,21 +423,7 @@
       <workItem from="1562650928899" duration="1783000" />
       <workItem from="1562652886860" duration="301000" />
       <workItem from="1562654476871" duration="12263000" />
-      <workItem from="1562676375397" duration="1406000" />
-    </task>
-    <task id="LOCAL-00010" summary="C">
-      <created>1562163915544</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1562163915544</updated>
-    </task>
-    <task id="LOCAL-00011" summary="C">
-      <created>1562167579463</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1562167579463</updated>
+      <workItem from="1562676375397" duration="1464000" />
     </task>
     <task id="LOCAL-00012" summary="C">
       <created>1562216502910</created>
@@ -755,14 +754,28 @@
       <option name="project" value="LOCAL" />
       <updated>1562597245893</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="C">
+      <created>1562679403963</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1562679403967</updated>
+    </task>
+    <task id="LOCAL-00060" summary="aws">
+      <created>1562679423740</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1562679423740</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187135000" />
+    <option name="totallyTimeSpent" value="187193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="739" y="379" width="1123" height="916" extended-state="0" />
+    <frame x="828" y="266" width="1123" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.4430856" />
@@ -798,7 +811,8 @@
     <MESSAGE value="JIRA" />
     <MESSAGE value="AWS" />
     <MESSAGE value="C" />
-    <option name="LAST_COMMIT_MESSAGE" value="C" />
+    <MESSAGE value="aws" />
+    <option name="LAST_COMMIT_MESSAGE" value="aws" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,13 +886,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/10.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/11.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1202,8 +1209,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/6、数组/7、二分查找.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="207">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/6、数组/8、选择排序.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
