@@ -25,6 +25,22 @@ void showb (int b[][4])
         }
     }
 }
+
+void ser (int (*p) [3], int n)
+{
+    double res = 0;
+
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            res += p[i][j];
+        }
+    }
+
+    printf ("%f\n", res / 12);
+}
+
 void main()
 {
     int a[10] = { 1, 2, 3, 4, 5, 6, 7 };
@@ -35,5 +51,8 @@ void main()
     showa (a);
     printf ("-----------------\n");
     showb (b);
+    ser (b, 3);
+    printf ("----%d\n", sizeof (*a)); // a是一个行指针，16个字节，每一行有4个元素
+    int (*u) [4] = a;
     getchar();
 }
