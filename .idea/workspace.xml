@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/7、指针/6、重要-函数返回值指针.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/7、指针/6、重要------函数返回值指针.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/7、指针/9、动态分配.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/7、指针/9、重要-----动态分配.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,56 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/2、外挂注入.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/1、二重指针.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/6、数组/11、字符数组.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/6、重要-函数返回值指针.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/7、void指针.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/8、.c">
+        <entry file="file://$PROJECT_DIR$/C/7、指针/9、重要-----动态分配.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="123">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -137,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/谭浩强/第5章/课后题/4.c" />
-        <option value="$PROJECT_DIR$/C/谭浩强/第5章/5.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/6.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/课后题/1.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/课后题/3.c" />
@@ -188,12 +143,14 @@
         <option value="$PROJECT_DIR$/C/7、指针/6、重要-函数返回值指针.c" />
         <option value="$PROJECT_DIR$/C/7、指针/7、void指针.c" />
         <option value="$PROJECT_DIR$/C/7、指针/8、.c" />
+        <option value="$PROJECT_DIR$/C/7、指针/9、.c" />
+        <option value="$PROJECT_DIR$/C/7、指针/9、动态分配.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="747" />
-    <option name="y" value="366" />
+    <option name="x" value="745" />
+    <option name="y" value="136" />
     <option name="width" value="1123" />
     <option name="height" value="732" />
   </component>
@@ -239,19 +196,19 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Destop\book\C\7、指针" />
+      <recent name="D:\Destop\book\AWS" />
+      <recent name="D:\Destop\book\C\6、数组" />
+      <recent name="D:\Destop\book\C\谭浩强\第5章" />
+      <recent name="D:\Destop\book\C\5、函数" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Destop\book\AWS\templates" />
       <recent name="D:\Destop\book\C\6、数组" />
       <recent name="D:\Destop\book\C\谭浩强" />
       <recent name="D:\Destop\book\C\谭浩强\第5章" />
       <recent name="D:\Destop\book\C\3、基础" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Destop\book\AWS" />
-      <recent name="D:\Destop\book\C\6、数组" />
-      <recent name="D:\Destop\book\C\谭浩强\第5章" />
-      <recent name="D:\Destop\book\C\5、函数" />
-      <recent name="D:\Destop\book\C\谭浩强\第5章\课后题" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -432,28 +389,7 @@
       <workItem from="1562807125619" duration="16000" />
       <workItem from="1562839719781" duration="1097000" />
       <workItem from="1562841767901" duration="97000" />
-      <workItem from="1562846295057" duration="4023000" />
-    </task>
-    <task id="LOCAL-00031" summary="C">
-      <created>1562392346322</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1562392346322</updated>
-    </task>
-    <task id="LOCAL-00032" summary="C">
-      <created>1562398833911</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1562398833911</updated>
-    </task>
-    <task id="LOCAL-00033" summary="C">
-      <created>1562424619031</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1562424619031</updated>
+      <workItem from="1562846295057" duration="4869000" />
     </task>
     <task id="LOCAL-00034" summary="C">
       <created>1562429206251</created>
@@ -777,14 +713,35 @@
       <option name="project" value="LOCAL" />
       <updated>1562857185640</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="C">
+      <created>1562858185406</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1562858185406</updated>
+    </task>
+    <task id="LOCAL-00081" summary="C">
+      <created>1562858272102</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1562858272102</updated>
+    </task>
+    <task id="LOCAL-00082" summary="C">
+      <created>1562858308741</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1562858308741</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201568000" />
+    <option name="totallyTimeSpent" value="202414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="238" width="1123" height="732" extended-state="0" />
+    <frame x="745" y="136" width="1123" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.20978363" />
@@ -800,7 +757,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16204691" side_tool="true" visible="true" weight="0.41114983" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16204691" side_tool="true" weight="0.41114983" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.38175675" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -855,11 +812,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AWS/获取IAM的信息.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/获取存储桶的信息.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31" />
@@ -1153,7 +1105,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/7、指针/6、重要-函数返回值指针.c">
+    <entry file="file://$PROJECT_DIR$/C/7、指针/6、重要------函数返回值指针.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
@@ -1167,10 +1119,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/7、指针/8、.c">
+    <entry file="file://$PROJECT_DIR$/C/7、指针/8、malloc_free.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="137">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/7、指针/9、重要-----动态分配.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
