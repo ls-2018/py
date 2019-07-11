@@ -39,5 +39,11 @@ void main()
 
 
     */
+    int ff[5] = { 0 };
+    printf ("%d,%d\n", ff, &ff);//18283320,18283320
+	int *g = &ff;// 指向元素
+	int(*pa)[5] = &ff;// 指向数组的指针
+	printf("%d,%d,%d\n", sizeof(g), sizeof(*g), sizeof(*(&g)));  // 4,4,4
+	printf("%d,%d,%d\n", sizeof(ff), sizeof(*ff), sizeof(*(&ff)));//20,4,20// 指向数组的指针
     getchar();
 }
