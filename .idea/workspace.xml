@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C/7、指针/6、重要-函数返回值指针.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="348">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -174,8 +172,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="714" />
-    <option name="y" value="247" />
+    <option name="x" value="617" />
+    <option name="y" value="256" />
     <option name="width" value="1123" />
     <option name="height" value="732" />
   </component>
@@ -414,14 +412,7 @@
       <workItem from="1562807125619" duration="16000" />
       <workItem from="1562839719781" duration="1097000" />
       <workItem from="1562841767901" duration="97000" />
-      <workItem from="1562846295057" duration="2693000" />
-    </task>
-    <task id="LOCAL-00029" summary="C">
-      <created>1562388203476</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1562388203476</updated>
+      <workItem from="1562846295057" duration="3385000" />
     </task>
     <task id="LOCAL-00030" summary="C">
       <created>1562388643054</created>
@@ -759,14 +750,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562855631799</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="C">
+      <created>1562856344653</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1562856344653</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200238000" />
+    <option name="totallyTimeSpent" value="200930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="247" width="1123" height="732" extended-state="0" />
+    <frame x="1080" y="642" width="1123" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.20978363" />
@@ -1145,8 +1143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/7、指针/6、重要-函数返回值指针.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="348">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
