@@ -20,6 +20,9 @@ void dt()
         *p = i + 1;
         printf ("%d\n", *p);
     }
+
+    free (p);
+    p = NULL;// 软件工程规范, 不置空，再次释放以及p[i]都回报错
 }
 void main()
 {
