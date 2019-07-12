@@ -10,5 +10,14 @@ void main()
 	int *p;
 	printf("%d\n", sizeof(p));
 	printf("%d\n", sizeof(int));
+	//寻址空间
+
+    /*
+    疑问：
+    内存  内存条的区别
+
+    */
+
+	///
     getchar();
 }
