@@ -34,7 +34,7 @@ data = data.loc[tag_i]
 service_list = list(data['ProductCode'].unique())
 for service in service_list:
     service_i = [True if i == service else False for i in list(data['ProductCode'])]
- 
+
     temp = dict()
     temp['CostBeforeTax'] = data.loc[service_i, 'CostBeforeTax'].sum()
     temp['Credits'] = data.loc[service_i, 'Credits'].sum()
@@ -42,4 +42,3 @@ for service in service_list:
     temp['UsageQuantity'] = data.loc[service_i, 'UsageQuantity'].sum()
     temp['TotalCost'] = data.loc[service_i, 'TotalCost'].sum()
     print(service, temp)
- 
