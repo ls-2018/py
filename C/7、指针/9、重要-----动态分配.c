@@ -34,3 +34,21 @@ void main()
     getchar();
     getchar();
 }
+
+void importance()
+{
+    //int *p = malloc(4 * sizeof(int));
+    ////realloc(已分配的内存地址，重新分配的字节数)
+    //int *x = realloc(p, 8 * sizeof(int));
+    ////calloc申请内存块，	（对象占据的内存字节数size,对象的个数num）
+    //getchar();
+    int a[3][4] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    printf ("%x\n", a);
+    //int *p = a;// p[2][0]出错
+    int (*p) [4] = a;
+    printf ("%x,	%d\n", p, p[2][0]);
+    p++;
+    printf ("%x,	%x	,%x\n", *p, * (p + 1), &a[2][0]);
+    printf ("%d\n", p[0]);
+    getchar();
+}
