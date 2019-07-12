@@ -14,7 +14,7 @@ void main()
     {
         printf ("%d  ", i);
     }
-
+    ++*p;//ֵ+1
     getchar();
 }
 void main2()
