@@ -40,7 +40,7 @@ void importance()
     //int *p = malloc(4 * sizeof(int));
     ////realloc(已分配的内存地址，重新分配的字节数)
     //int *x = realloc(p, 8 * sizeof(int));
-    ////calloc申请内存块，	（对象占据的内存字节数size,对象的个数num）
+    ////calloc申请内存块，	（对象占据的内存字节数size,对象的个数num）   ，会自动初始化位0
     //getchar();
     int a[3][4] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     printf ("%x\n", a);
@@ -51,4 +51,6 @@ void importance()
     printf ("%x,	%x	,%x\n", *p, * (p + 1), &a[2][0]);
     printf ("%d\n", p[0]);
     getchar();
+    // realloc 就是内存不够用的情况下，扩展内存；如果原来的内存后部无人使用，就直接扩展
+    // 有人使用，就重新分配，并且先拷贝原来内存的内容，然后回收
 }
