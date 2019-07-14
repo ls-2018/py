@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="" />
+    <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C/8、字符串/2、字符串与字符数组的关系.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/8、字符串/1、声明.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="446">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/8、字符串/2、字符串与字符数组的关系.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/谭浩强/第5章/9.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/10.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/11.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/12.c" />
@@ -153,12 +164,13 @@
         <option value="$PROJECT_DIR$/C/7、指针/9、重要-----动态分配.c" />
         <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/C/8、字符串/1、声明.c" />
+        <option value="$PROJECT_DIR$/C/8、字符串/2、字符串与字符数组的关系.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="384" />
-    <option name="y" value="99" />
+    <option name="x" value="868" />
+    <option name="y" value="84" />
     <option name="width" value="1187" />
     <option name="height" value="962" />
   </component>
@@ -406,21 +418,7 @@
       <workItem from="1562893485360" duration="7597000" />
       <workItem from="1562918742720" duration="3260000" />
       <workItem from="1562924691985" duration="605000" />
-      <workItem from="1563106041173" duration="730000" />
-    </task>
-    <task id="LOCAL-00050" summary="AWS">
-      <created>1562562823901</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1562562823902</updated>
-    </task>
-    <task id="LOCAL-00051" summary="C">
-      <created>1562565890646</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1562565890646</updated>
+      <workItem from="1563106041173" duration="1472000" />
     </task>
     <task id="LOCAL-00052" summary="AWS">
       <created>1562571197829</created>
@@ -751,14 +749,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563106353601</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="AWS">
+      <created>1563106822217</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1563106822217</updated>
+    </task>
+    <task id="LOCAL-00100" summary="AWS">
+      <created>1563106892052</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1563106892052</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215506000" />
+    <option name="totallyTimeSpent" value="216248000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="775" y="162" width="1187" height="962" extended-state="1" />
+    <frame x="868" y="84" width="1187" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.22182786" />
@@ -830,16 +842,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AWS/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" selection-start-line="11" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#112#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/6、数组/11、字符数组" />
     <entry file="file://$PROJECT_DIR$/C/1test.c">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1122,8 +1124,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/8、字符串/1、声明.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="446">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/8、字符串/2、字符串与字符数组的关系.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
