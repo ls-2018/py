@@ -17,11 +17,15 @@ void main()
     {
         {"world!"},
     };
-    int count=0;
-    char *x ="hello world!;
-    while(*x){
-        printf("%c\n",*x);
+    int count = 0;
+    char *x = "hello world!";
+
+    while (*x)
+    {
+        printf ("%c\n", *x);
         count++;
+        x++;
     }
+
     getchar();
 }
