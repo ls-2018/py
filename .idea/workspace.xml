@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/8、字符串/1、声明.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/8、字符串/1、声明.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,29 @@
     <SUITE FILE_PATH="coverage/book$ec2.coverage" NAME="获取ec2监测数据 Coverage Results" MODIFIED="1562215972458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#17#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/8、字符串/1、声明.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/谭浩强/第5章/8、统计输入的字符种类及个数.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/9.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/10.c" />
         <option value="$PROJECT_DIR$/C/谭浩强/第5章/11.c" />
@@ -122,7 +144,6 @@
         <option value="$PROJECT_DIR$/C/7、指针/8、.c" />
         <option value="$PROJECT_DIR$/C/7、指针/9、.c" />
         <option value="$PROJECT_DIR$/C/7、指针/9、动态分配.c" />
-        <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/C/7、指针/5、函数指针.c" />
         <option value="$PROJECT_DIR$/AWS/untitled0.py" />
         <option value="$PROJECT_DIR$/C/7、指针/10、.c" />
@@ -133,12 +154,14 @@
         <option value="$PROJECT_DIR$/AWS/S3-2.py" />
         <option value="$PROJECT_DIR$/AWS/CouldWatch-01.py" />
         <option value="$PROJECT_DIR$/C/7、指针/9、重要-----动态分配.c" />
+        <option value="$PROJECT_DIR$/AWS/__init__.py" />
+        <option value="$PROJECT_DIR$/C/8、字符串/1、声明.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="16" />
+    <option name="x" value="775" />
+    <option name="y" value="162" />
     <option name="width" value="1187" />
     <option name="height" value="962" />
   </component>
@@ -150,7 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,10 +180,22 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="8、字符串" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,20 +409,7 @@
       <workItem from="1562893485360" duration="7597000" />
       <workItem from="1562918742720" duration="3260000" />
       <workItem from="1562924691985" duration="605000" />
-    </task>
-    <task id="LOCAL-00047" summary="C">
-      <created>1562499106993</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1562499106993</updated>
-    </task>
-    <task id="LOCAL-00048" summary="C">
-      <created>1562501098972</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1562501098972</updated>
+      <workItem from="1563106041173" duration="276000" />
     </task>
     <task id="LOCAL-00049" summary="C">
       <created>1562543634979</created>
@@ -719,21 +740,36 @@
       <option name="project" value="LOCAL" />
       <updated>1562920025137</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="AWS">
+      <created>1563106094813</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1563106094814</updated>
+    </task>
+    <task id="LOCAL-00097" summary="AWS">
+      <created>1563106203247</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1563106203247</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214776000" />
+    <option name="totallyTimeSpent" value="215052000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="109" width="1187" height="962" extended-state="0" />
+    <frame x="775" y="162" width="1187" height="962" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.21827862" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.22182786" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8379531" visible="true" weight="0.35191637" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8379531" visible="true" weight="0.35074627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46993318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -797,13 +833,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python程序员面试算法宝典/数组/16、高效地在二维数组中查找数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/get_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -859,16 +888,6 @@
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/8、统计输入的字符种类及个数.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-452" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AWS/936669166135-aws-billing-csv-2019-01.csv">
@@ -1091,6 +1110,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="48" column="39" lean-forward="true" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/8、字符串/1、声明.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
