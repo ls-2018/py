@@ -53,7 +53,7 @@ void main2()
     getchar();
 }
 
-void main()
+void main3()
 {
     // strchr查找字符串s中首次出现字符c的位置
     // 返回首次出现字符c的位置，如果s中不存在则返回NULL
@@ -75,7 +75,34 @@ void main()
     printf ("%s\n", str1);
     // 把数字字符串转换成正整数
     int at = atoi ("8848"); //0
-    int at = atoi ("e8848"); //0，出现非数字字符，都回转化失败
+    at = atoi ("e8848"); //0，出现非数字字符，都回转化失败
     printf ("%d\n", at); //0
+    // 逆转字符串
+    printf ("%s\n", str); //0
+    _strrev (str);
+    printf ("%s\n", str); //0
+    getchar();
+}
+void main4()
+{
+    char str[100] = " hello ";
+    char *p = " hello ";
+    printf ("%d\n", strlen (str));
+    printf ("%d\n", strlen (p));
+    getchar();
+}
+void main()
+{
+    //strcat
+    char str1[10] = "note";
+    char str2[10] = "pad";
+    char str[20];
+    //1
+    //sprintf(str, "%s%s", str1, str2);
+    //printf(str);
+    //2
+    strcpy (str, str1);
+    strcat (str, str2);
+    printf (str);
     getchar();
 }
