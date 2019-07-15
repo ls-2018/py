@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="PayerAccountId">付款用户</label>
+        <input type="text" id="PayerAccountId" name="PayerAccountId" value="441271182313">
+    </div>
+    <div>
+        <label for="link_user">为谁付款</label>
+        <input type="text" id="link_user" name="link_user" value="515743265704">
+    </div>
+
+    <div>
+        <label for="tag_name">标签名</label>
+        <input type="text" id="tag_name" name="tag_name" value="user:appenv">
+    </div>
+    <div>
+        <label for="tag_value">标签值</label>
+        <input type="text" id="tag_value" name="tag_value" value="dac-uat">
+    </div>
+    <br>
+
+
+    <input type="checkbox" name="is_file" value="1">是否选择上传账单文件</input>
+    <input type="file" name="file">
+    <div>
+        <label for="tag_name">存储桶</label>
+        <input type="text" id="s3_bucket" name="s3_bucket" value="liushuo-test">
+    </div>
+    <div>
+        <label for="tag_value">日期</label>
+        <input type="text" id="date_time" name="date_time" value="2017-10">
+    </div>
+
+
+    <input type="submit" value="提交">
+    <br>
+    {% if flag %}
+        <div id="TotalCost" style="width:50%;height:400px"></div>    {{ finally_dict }}
+
+        <div id="UsageQuantity" style="width:50%;height:400px"></div>
+        <div id="TaxAmount" style="width:50%;height:400px"></div>
+        <div id="Credits" style="width:50%;height:400px"></div>
+        <div id="CostBeforeTax" style="width:50%;height:400px"></div>
+        <script src="https://code.highcharts.com.cn/highcharts/highcharts.js"></script>
+        <script src="https://img.hcharts.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+        <script src="https://code.highcharts.com.cn/highcharts/modules/exporting.js"></script>
+        <script>
+            var data = {{ finally_dict | safe }};
+            Highcharts.chart('TotalCost', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
+                },
+                title: {
+                    text: data.date_time + ' 各服务消费占比'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                            style: {
+                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Brands',
+                    colorByPoint: true,
+                    data: data.TotalCost
+                }]
+            });
+            Highcharts.chart('UsageQuantity', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
+                },
+                title: {
+                    text: data.date_time + ' UsageQuantity'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                            style: {
+                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Brands',
+                    colorByPoint: true,
+                    data: data.UsageQuantity
+                }]
+            });
+            Highcharts.chart('TaxAmount', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
+                },
+                title: {
+                    text: data.date_time + ' TaxAmount'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                            style: {
+                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Brands',
+                    colorByPoint: true,
+                    data: data.TaxAmount
+                }]
+            });
+            Highcharts.chart('Credits', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
+                },
+                title: {
+                    text: data.date_time + ' Credits'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                            style: {
+                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Brands',
+                    colorByPoint: true,
+                    data: data.Credits
+                }]
+            });
+            Highcharts.chart('CostBeforeTax', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false,
+                    type: 'pie'
+                },
+                title: {
+                    text: data.date_time + ' CostBeforeTax'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                            style: {
+                                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Brands',
+                    colorByPoint: true,
+                    data: data.CostBeforeTax
+                }]
+            });
+        </script>
+
+    {% endif %}
+    <br>
+
+</form>
+</body>
+</html>

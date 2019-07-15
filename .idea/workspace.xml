@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/8、字符串/3、字符串操作.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +32,7 @@
     <SUITE FILE_PATH="coverage/book$ec2.coverage" NAME="获取ec2监测数据 Coverage Results" MODIFIED="1562215972458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AWS" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/8、字符串/3、字符串操作.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,8 +137,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="868" />
-    <option name="y" value="84" />
+    <option name="x" value="856" />
+    <option name="y" value="128" />
     <option name="width" value="1187" />
     <option name="height" value="962" />
   </component>
@@ -171,13 +160,18 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="8、字符串" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,14 +391,8 @@
       <workItem from="1562893485360" duration="7597000" />
       <workItem from="1562918742720" duration="3260000" />
       <workItem from="1562924691985" duration="605000" />
-      <workItem from="1563106041173" duration="3928000" />
-    </task>
-    <task id="LOCAL-00054" summary="C">
-      <created>1562590538869</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1562590538870</updated>
+      <workItem from="1563106041173" duration="4224000" />
+      <workItem from="1563151551951" duration="1412000" />
     </task>
     <task id="LOCAL-00055" summary="C">
       <created>1562590833012</created>
@@ -742,22 +730,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563110664288</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="C">
+      <created>1563111454688</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1563111454688</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218704000" />
+    <option name="totallyTimeSpent" value="220412000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="868" y="84" width="1187" height="962" extended-state="0" />
-    <editor active="true" />
+    <frame x="856" y="128" width="1187" height="962" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.22182786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.22537711" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8379531" visible="true" weight="0.35074627" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8379531" weight="0.35074627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46993318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -785,9 +779,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JIRA" />
     <MESSAGE value="aws" />
-    <MESSAGE value="C" />
     <MESSAGE value="AWS" />
-    <option name="LAST_COMMIT_MESSAGE" value="AWS" />
+    <MESSAGE value="C" />
+    <option name="LAST_COMMIT_MESSAGE" value="C" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1136,8 +1130,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/8、字符串/3、字符串操作.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="475">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
