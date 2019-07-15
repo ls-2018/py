@@ -15,6 +15,10 @@ void main5()
     // 如果提前遇到了 0  结束
     // 如果没遇到，	拷贝7个字符
     //puts(dest);
-
+	char  temp[] = "abcd";
+	char *xx = temp;
+	printf("%c\n", *xx);			//a
+	char a = *xx++;
+	printf("%c	%x	%c", a, xx, *xx);	//a   xxx   b
     getchar();
 }
