@@ -16,9 +16,11 @@ char * mystrcpy (char * dest, char * source)
     //while ((*dest++ = *source++) != '\0');
     while (*source != '\0')
     {
-        /**dest = *source;
+        /*
+        *dest = *source;
         dest++;
-        source++;*/
+        source++;
+        */
         *dest++ = *source++; // a=b整体表达式的值，就是b的值
     }
 }
