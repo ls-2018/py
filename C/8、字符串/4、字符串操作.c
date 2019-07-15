@@ -44,7 +44,7 @@ int mystrcmp (char *p1, char *p2)
 
 void main2()
 {
-	demo();
+    demo();
     printf ("%d\n", mystrcmp ("abcj", "abcg"));
     char str[] = "asdBV";
     _strupr (str); // 小写转大写
@@ -53,13 +53,29 @@ void main2()
     getchar();
 }
 
-void main(){
-	// strchr查找字符串s中首次出现字符c的位置
-	// 返回首次出现字符c的位置，如果s中不存在则返回NULL
-	char str[] = "calcxlect";
-	char *p = strchr(str, 'x');
-	if (p != NULL){
-		printf("%s\n", p);
-	}
-	getchar();
+void main()
+{
+    // strchr查找字符串s中首次出现字符c的位置
+    // 返回首次出现字符c的位置，如果s中不存在则返回NULL
+    char str[] = "calcxlect";
+    char *p = strchr (str, 'x');
+
+    if (p != NULL)
+    {
+        printf ("%s\n", p);
+    }
+
+    char str1[30] = "yincheng";
+    char str2[10] = "xxx";
+    // 把str2所指字符串的添加到str1结尾处，覆盖原\0
+    // 且二者不能有交集，str1必须有足够的空间，返回str1的指针
+    strcat (str1, str2);
+    printf ("%s\n", str1);
+    strncat (str1, str2, 2);
+    printf ("%s\n", str1);
+    // 把数字字符串转换成正整数
+    int at = atoi ("8848"); //0
+    int at = atoi ("e8848"); //0，出现非数字字符，都回转化失败
+    printf ("%d\n", at); //0
+    getchar();
 }
