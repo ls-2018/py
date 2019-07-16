@@ -2,9 +2,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<memory.h>
-void main5()
+#include<string.h>
+void main()
 {
-    char str[100] = "hello";
+    char str[100] = "hello想";
+    puts (str);
+    _strupr (str);
+    puts (str);
     puts (str);
     memset (str, 'A', 10);
     puts (str);
@@ -15,10 +19,10 @@ void main5()
     // 如果提前遇到了 0  结束
     // 如果没遇到，	拷贝7个字符
     //puts(dest);
-	char  temp[] = "abcd";
-	char *xx = temp;
-	printf("%c\n", *xx);			//a
-	char a = *xx++;
-	printf("%c	%x	%c", a, xx, *xx);	//a   xxx   b
+    char  temp[] = "abcd";
+    char *xx = temp;
+    printf ("%c\n", *xx);			//a
+    char a = *xx++;
+    printf ("%c	%x	%c", a, xx, *xx);	//a   xxx   b
     getchar();
 }
