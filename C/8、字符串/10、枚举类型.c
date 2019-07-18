@@ -25,5 +25,8 @@ void main()
     enum  level demo5 = 连长;
 	printf("%d\n", demo5);
 	printf("%d\n", sizeof(demo5));
+	for (enum level l1=司令;l1<=士兵;l1++){
+	    printf("|%d\n",l1)
+	}
     system ("pause");
 }
