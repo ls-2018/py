@@ -1,0 +1,20 @@
+#define   _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<stdlib.h>
+
+
+
+void main()
+{
+    int a = 8;
+    1 || ++a;	//a不会自增
+    0 && ++a;//a不会自增
+    printf ("%d\n", a);
+    int b = 1;
+    int c = 4;
+    int *dest = &b;
+    int *source = &c;
+
+    while (*dest++ = *source++ != '\0')
+    { system ("pause"); }
+}
