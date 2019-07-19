@@ -28,5 +28,9 @@ void main()
     ch2 = ch2 ^ ch1;
     ch1 = ch2 ^ ch1;
     printf ("%d	%d\n", ch1, ch2);
+    // 将 unsigned  char 末尾置零
+    printf ("%d\n", 11 & ~1);
+    // 求出73除4的余数，不能用%
+    printf ("%d\n", 73 - (73 & ~3));	// - 》 ~ 》&
     system ("pause");
 }
