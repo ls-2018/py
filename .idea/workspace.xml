@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C/10、位运算/1、位运算.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/logs/myeasylog.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,66 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/6、数组/9、动态数组.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1200" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/6、数组/10、多元数组.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/6、数组/11、字符数组.c">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/1、二重指针.c">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/2、外挂注入.c">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/3、指针运算.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-900" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/4、数组作为参数传递.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-675" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/5、函数指针.c">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/7、指针/6、重要------函数返回值指针.c">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/10、位运算/1、位运算.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/复习">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -168,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AWS/1222222222.py" />
         <option value="$PROJECT_DIR$/AWS/index.html" />
         <option value="$PROJECT_DIR$/AWS/demo.py" />
         <option value="$PROJECT_DIR$/AWS/templates/index.html" />
@@ -219,13 +145,14 @@
         <option value="$PROJECT_DIR$/C/9、结构体/5、结构体共同体.c" />
         <option value="$PROJECT_DIR$/C/8、字符串/10、枚举类型.c" />
         <option value="$PROJECT_DIR$/C/复习" />
+        <option value="$PROJECT_DIR$/C/10、位运算/1、位运算.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="639" />
+    <option name="x" value="757" />
     <option name="y" value="40" />
-    <option name="width" value="1097" />
+    <option name="width" value="979" />
     <option name="height" value="849" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -247,6 +174,12 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="10、位运算" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -480,14 +413,9 @@
       <workItem from="1563372414217" duration="4310000" />
       <workItem from="1563411577511" duration="62000" />
       <workItem from="1563421049972" duration="43000" />
-      <workItem from="1563457451856" duration="3024000" />
-    </task>
-    <task id="LOCAL-00080" summary="C">
-      <created>1562858185406</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1562858185406</updated>
+      <workItem from="1563457451856" duration="3127000" />
+      <workItem from="1563499323457" duration="45000" />
+      <workItem from="1563543258721" duration="820000" />
     </task>
     <task id="LOCAL-00081" summary="C">
       <created>1562858272102</created>
@@ -825,17 +753,24 @@
       <option name="project" value="LOCAL" />
       <updated>1563460545318</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="c">
+      <created>1563463653033</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1563463653033</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246841000" />
+    <option name="totallyTimeSpent" value="247809000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="757" y="40" width="979" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.14498934" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" weight="0.2719383" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -848,7 +783,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2778429" side_tool="true" weight="0.3482143" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2778429" side_tool="true" visible="true" weight="0.34732273" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.27745664" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -910,9 +845,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/C关键字">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/C_test/123.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1094,9 +1026,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C/6、数组/9、动态数组.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C/6、数组/10、多元数组.cpp">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1111,14 +1041,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C/7、指针/3、指针运算.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C/7、指针/4、数组作为参数传递.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C/7、指针/5、函数指针.c">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1132,8 +1058,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/复习">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="276">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/10、位运算/1、位运算.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
