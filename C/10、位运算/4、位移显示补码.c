@@ -25,6 +25,7 @@ void main()
         	pint = (int *)malloc(sizeof(struct bits) * 4);
         	scanf("%d",pint)*/
     }
+    // 低位在前，高位在后
 
     system ("pause");
 }
