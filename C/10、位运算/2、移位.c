@@ -32,5 +32,11 @@ void main()
     右边移动的时候，如果是无符号数据，左边填充0
     				如果是有符号的数据，整数按照符号位填充0，负数按照符号位1填充1
     */
+    char ab = -1;
+    int cd = 4;
+    printf ("%d\n", ab >> 1);
+    unsigned char ch1 = 4;
+    unsigned ch2 = -3;
+    printf ("%d\n", ch1 | ch2); // -3
     system ("pause");
 }
