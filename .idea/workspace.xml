@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C/10、位运算/1、位运算.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="440">
+              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -54,6 +54,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
               <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C/7、指针/5、函数指针.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -163,8 +172,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="195" />
-    <option name="y" value="70" />
+    <option name="x" value="58" />
+    <option name="y" value="-9" />
     <option name="width" value="979" />
     <option name="height" value="849" />
   </component>
@@ -176,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,11 +198,16 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="10、位运算" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,14 +437,8 @@
       <workItem from="1563421049972" duration="43000" />
       <workItem from="1563457451856" duration="3127000" />
       <workItem from="1563499323457" duration="45000" />
-      <workItem from="1563543258721" duration="3450000" />
-    </task>
-    <task id="LOCAL-00083" summary="C">
-      <created>1562859331186</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1562859331186</updated>
+      <workItem from="1563543258721" duration="3584000" />
+      <workItem from="1563584054197" duration="1205000" />
     </task>
     <task id="LOCAL-00084" summary="C">
       <created>1562859953494</created>
@@ -767,21 +776,29 @@
       <option name="project" value="LOCAL" />
       <updated>1563546265618</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="c">
+      <created>1563548283658</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1563548283659</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250439000" />
+    <option name="totallyTimeSpent" value="251778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="195" y="70" width="979" height="849" extended-state="0" />
+    <frame x="58" y="-9" width="979" height="849" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.27094668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.27638736" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7203482" visible="true" weight="0.3617945" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7203482" visible="true" weight="0.3617945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46993318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -789,7 +806,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2796518" side_tool="true" visible="true" weight="0.3617945" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2796518" side_tool="true" weight="0.36127168" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.27745664" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1046,9 +1063,6 @@
     <entry file="file://$PROJECT_DIR$/C/7、指针/4、数组作为参数传递.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/7、指针/5、函数指针.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/7、指针/6、重要------函数返回值指针.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1073,10 +1087,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C/7、指针/5、函数指针.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/C/10、位运算/1、位运算.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="440">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
     </entry>
