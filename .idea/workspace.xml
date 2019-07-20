@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/10、位运算/3、位字段.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/10、位运算/4、位移显示补码.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/10、位运算/3、位字段.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="526">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/10、位运算/4、位移显示补码.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -136,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AWS/demo2.py" />
         <option value="$PROJECT_DIR$/C/6、数组/8、选择排序.c" />
         <option value="$PROJECT_DIR$/C/6、数组/9、动态数组.c" />
         <option value="$PROJECT_DIR$/AWS/testx.py" />
@@ -187,10 +194,11 @@
         <option value="$PROJECT_DIR$/C/10、位运算/1、位运算.c" />
         <option value="$PROJECT_DIR$/C/10、位运算/2、移位.c" />
         <option value="$PROJECT_DIR$/C/10、位运算/3、位字段.c" />
+        <option value="$PROJECT_DIR$/C/10、位运算/4、位移显示补码.c" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="713" />
     <option name="y" value="308" />
     <option name="width" value="980" />
@@ -338,14 +346,7 @@
       <workItem from="1563543258721" duration="3584000" />
       <workItem from="1563584054197" duration="1205000" />
       <workItem from="1563593393588" duration="659000" />
-      <workItem from="1563610496265" duration="671000" />
-    </task>
-    <task id="LOCAL-00085" summary="C">
-      <created>1562898315202</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1562898315203</updated>
+      <workItem from="1563610496265" duration="2297000" />
     </task>
     <task id="LOCAL-00086" summary="C">
       <created>1562911421013</created>
@@ -683,14 +684,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563593449488</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="c">
+      <created>1563619021160</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1563619021172</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253108000" />
+    <option name="totallyTimeSpent" value="254734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="836" y="246" width="980" height="849" extended-state="0" />
+    <frame x="713" y="308" width="980" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.28913045" />
@@ -768,11 +776,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/9、结构体/1、结构体.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/3、基础/3.1 转义字符.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-349" />
@@ -1004,8 +1007,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/10、位运算/3、位字段.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="526">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/10、位运算/4、位移显示补码.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
