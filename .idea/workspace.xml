@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/11、文件/2、fflush.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/11、文件/4、文件型结构体.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/11、文件/1、文本与二进制c" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/1、文本与二进制.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +45,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.5 字符变量.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="250">
+              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/3、文件重定向.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/4、文件型结构体.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,8 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/6、数组/7、二分查找.c" />
-        <option value="$PROJECT_DIR$/C/6、数组/10、多元数组.cpp" />
         <option value="$PROJECT_DIR$/C/7、指针/1、二重指针.c" />
         <option value="$PROJECT_DIR$/C/7、指针/2、外挂注入.c" />
         <option value="$PROJECT_DIR$/C/6、数组/11、字符数组" />
@@ -156,12 +171,14 @@
         <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/C/11、文件/1、c" />
         <option value="$PROJECT_DIR$/C/11、文件/2、flush.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/3、文件重定向.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/4、文件型结构体.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="623" />
-    <option name="y" value="106" />
+    <option name="x" value="866" />
+    <option name="y" value="249" />
     <option name="width" value="1419" />
     <option name="height" value="793" />
   </component>
@@ -339,21 +356,7 @@
       <workItem from="1563610496265" duration="4876000" />
       <workItem from="1563634460046" duration="1019000" />
       <workItem from="1563755692363" duration="88000" />
-      <workItem from="1563882047700" duration="2159000" />
-    </task>
-    <task id="LOCAL-00090" summary="C">
-      <created>1562917869750</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1562917869750</updated>
-    </task>
-    <task id="LOCAL-00091" summary="C">
-      <created>1562919618296</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1562919618297</updated>
+      <workItem from="1563882047700" duration="3429000" />
     </task>
     <task id="LOCAL-00092" summary="C">
       <created>1562919655957</created>
@@ -684,14 +687,29 @@
       <option name="project" value="LOCAL" />
       <updated>1563885009326</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="c">
+      <created>1563885577249</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1563885577249</updated>
+    </task>
+    <task id="LOCAL-00140" summary="c">
+      <created>1563886459864</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1563886459864</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260579000" />
+    <option name="totallyTimeSpent" value="261849000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="623" y="106" width="1419" height="793" extended-state="0" />
+    <frame x="866" y="249" width="1419" height="793" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.20456217" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
@@ -768,14 +786,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.2 八十十六.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.3 整型变量.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.4 浮点型变量.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31" />
@@ -1014,8 +1024,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.5 字符变量.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="250">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/3、文件重定向.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/4、文件型结构体.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
