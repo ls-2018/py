@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/11、文件/4、文件型结构体.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/11、文件/5、.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,20 +36,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/2、fflush.c">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/5、.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="109">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.5 字符变量.c">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/1、文本与二进制.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="1284">
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/4、文件型结构体.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="834">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -57,17 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/11、文件/3、文件重定向.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="300">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/4、文件型结构体.c">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/2、fflush.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="59">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -122,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/7、指针/1、二重指针.c" />
-        <option value="$PROJECT_DIR$/C/7、指针/2、外挂注入.c" />
         <option value="$PROJECT_DIR$/C/6、数组/11、字符数组" />
         <option value="$PROJECT_DIR$/C/7、指针/4、数组作为参数传递.c" />
         <option value="$PROJECT_DIR$/C/7、指针/6、重要-函数返回值指针.c" />
@@ -173,12 +180,14 @@
         <option value="$PROJECT_DIR$/C/11、文件/2、flush.c" />
         <option value="$PROJECT_DIR$/C/11、文件/3、文件重定向.c" />
         <option value="$PROJECT_DIR$/C/11、文件/4、文件型结构体.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/5、读.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/5、.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="866" />
-    <option name="y" value="249" />
+    <option name="x" value="222" />
+    <option name="y" value="332" />
     <option name="width" value="1419" />
     <option name="height" value="793" />
   </component>
@@ -356,14 +365,7 @@
       <workItem from="1563610496265" duration="4876000" />
       <workItem from="1563634460046" duration="1019000" />
       <workItem from="1563755692363" duration="88000" />
-      <workItem from="1563882047700" duration="3429000" />
-    </task>
-    <task id="LOCAL-00092" summary="C">
-      <created>1562919655957</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1562919655957</updated>
+      <workItem from="1563882047700" duration="5321000" />
     </task>
     <task id="LOCAL-00093" summary="AWS">
       <created>1562919785577</created>
@@ -701,14 +703,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563886459864</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="c">
+      <created>1563887354290</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1563887354290</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261849000" />
+    <option name="totallyTimeSpent" value="263741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="866" y="249" width="1419" height="793" extended-state="0" />
+    <frame x="222" y="332" width="1419" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.20456217" />
@@ -716,7 +725,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7203482" visible="true" weight="0.36062992" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7203482" weight="0.36062992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46993318" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -786,11 +795,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.4 浮点型变量.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/3、基础/3.3.6 四则运算.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31" />
@@ -1001,24 +1005,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/1、文本与二进制.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/2、fflush.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -1031,15 +1021,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/3、文件重定向.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/1、文本与二进制.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1284">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/2、fflush.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/4、文件型结构体.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="834">
           <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/5、.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
