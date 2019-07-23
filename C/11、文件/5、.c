@@ -7,7 +7,7 @@ void main2()
     int a = fputs ("xxxxx", stdout); // –¥»Î ß∞‹ª·∑µªÿ-1
     //
     putchar ('A');
-    fputc ('a', stdout);
+    fputc ('a', stdout);    //  ß∞‹ª·∑µªÿ-1
     //
     int a;
     scanf ("%d\n", &a);
@@ -18,7 +18,7 @@ void main2()
     //
     char str[50];
     gets (str);
-    char g = fgetc (stdin);
+    char g = fgetc (stdin);//  ß∞‹∑µªÿ-1
     fgets (str, sizeof (str) - 1, stdin);
     fputs (str, stdout);
     system ("pause");
