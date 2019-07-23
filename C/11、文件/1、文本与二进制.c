@@ -11,6 +11,8 @@ void readfile (char *path)
     {
         printf ("%d	", ch); //打印ASCII码
         fread (&ch, 1, 1, pf); // 读取下一个元素
+        //char ch = fgetc(p);
+        //putchar(ch);
     }
 
     fclose (pf);
