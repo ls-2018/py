@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/C/11、文件/7、文件是否异常.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/7、文件是否异常.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/11、文件/9、处理错误.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/9、处理错误.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,28 +37,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件是否存在.c">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/1、文本与二进制.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="59">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/init">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/9、处理错误.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/7、文件是否异常.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="125">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -65,26 +57,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件读取.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="675">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/4、文件型结构体.c">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/8、输出错误.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="31" />
+            <state>
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/5、.c">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/7、文件是否异常.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="234">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -139,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/7、指针/8、.c" />
-        <option value="$PROJECT_DIR$/C/7、指针/9、.c" />
         <option value="$PROJECT_DIR$/C/7、指针/9、动态分配.c" />
         <option value="$PROJECT_DIR$/C/7、指针/5、函数指针.c" />
         <option value="$PROJECT_DIR$/AWS/untitled0.py" />
@@ -186,10 +176,12 @@
         <option value="$PROJECT_DIR$/C/11、文件/4、文件型结构体.c" />
         <option value="$PROJECT_DIR$/C/11、文件/5、读.c" />
         <option value="$PROJECT_DIR$/C/11、文件/5、.c" />
-        <option value="$PROJECT_DIR$/C/11、文件/1、文本与二进制.c" />
         <option value="$PROJECT_DIR$/C/11、文件/6、文件读取.c" />
         <option value="$PROJECT_DIR$/C/11、文件/7、文件是否异常.c" />
         <option value="$PROJECT_DIR$/C/11、文件/init" />
+        <option value="$PROJECT_DIR$/C/11、文件/8、输出错误.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/1、文本与二进制.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/9、处理错误.c" />
       </list>
     </option>
   </component>
@@ -347,35 +339,7 @@
       <workItem from="1563882047700" duration="8346000" />
       <workItem from="1563930103751" duration="35000" />
       <workItem from="1563959520505" duration="564000" />
-      <workItem from="1563971180501" duration="2221000" />
-    </task>
-    <task id="LOCAL-00100" summary="AWS">
-      <created>1563106892052</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1563106892052</updated>
-    </task>
-    <task id="LOCAL-00101" summary="AWS">
-      <created>1563107824906</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1563107824906</updated>
-    </task>
-    <task id="LOCAL-00102" summary="AWS">
-      <created>1563110664288</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1563110664288</updated>
-    </task>
-    <task id="LOCAL-00103" summary="C">
-      <created>1563111454688</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1563111454688</updated>
+      <workItem from="1563971180501" duration="2824000" />
     </task>
     <task id="LOCAL-00104" summary="aws">
       <created>1563153276528</created>
@@ -692,11 +656,39 @@
       <option name="project" value="LOCAL" />
       <updated>1563973874521</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="c">
+      <created>1563974385916</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1563974385916</updated>
+    </task>
+    <task id="LOCAL-00150" summary="c">
+      <created>1563974447171</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1563974447172</updated>
+    </task>
+    <task id="LOCAL-00151" summary="c">
+      <created>1563974470101</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1563974470101</updated>
+    </task>
+    <task id="LOCAL-00152" summary="c">
+      <created>1563974641108</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1563974641130</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269586000" />
+    <option name="totallyTimeSpent" value="270189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="646" y="190" width="1419" height="793" extended-state="0" />
@@ -777,16 +769,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/4.6 逻辑.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/4.9 星号.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/4、基本运算符与表达式/4.10 井号.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1015,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/1、文本与二进制.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/2、fflush.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -1050,20 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件读取.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/7、文件是否异常.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件是否存在.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1073,8 +1034,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/init">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="259">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/1、文本与二进制.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/7、文件是否异常.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/8、输出错误.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件读取.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/9、处理错误.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
