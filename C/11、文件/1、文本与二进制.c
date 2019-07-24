@@ -10,7 +10,8 @@ void readfile (char *path)
     while (!feof (pf))
     {
         printf ("%d	", ch); //打印ASCII码
-        fread (&ch, 1, 1, pf); // 读取下一个元素
+        fread (&ch, 1, 1, pf); // 读取下一个元素,成功返回个数
+        //fwrite (buf, 1, 5, pfa); // 写入数组，传入数组首地址，元素大小为1,5个元素，以及文件指针,会返回成功的个数
         //char ch = fgetc(p);
         //putchar(ch);
     }
