@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/11、文件/10、文件定位.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/11、文件/6、文件读取.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/6、文件读取.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/11、文件/init" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/11、文件/10、文件定位.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/8、字符串/C语言函数表.chw" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/11、文件/init">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -57,10 +56,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/10、文件定位.c">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="25">
+              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -115,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C/7、指针/5、函数指针.c" />
         <option value="$PROJECT_DIR$/AWS/untitled0.py" />
         <option value="$PROJECT_DIR$/C/7、指针/10、.c" />
         <option value="$PROJECT_DIR$/C/7、指针/11、.c" />
@@ -166,12 +164,13 @@
         <option value="$PROJECT_DIR$/C/11、文件/init" />
         <option value="$PROJECT_DIR$/C/11、文件/6、文件读取.c" />
         <option value="$PROJECT_DIR$/C/11、文件/10、文件定位.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="598" />
-    <option name="y" value="95" />
+    <option name="x" value="967" />
+    <option name="y" value="97" />
     <option name="width" value="1419" />
     <option name="height" value="793" />
   </component>
@@ -323,14 +322,7 @@
       <workItem from="1563882047700" duration="8346000" />
       <workItem from="1563930103751" duration="35000" />
       <workItem from="1563959520505" duration="564000" />
-      <workItem from="1563971180501" duration="3367000" />
-    </task>
-    <task id="LOCAL-00105" summary="c">
-      <created>1563155680639</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1563155680640</updated>
+      <workItem from="1563971180501" duration="3739000" />
     </task>
     <task id="LOCAL-00106" summary="c">
       <created>1563195100515</created>
@@ -668,14 +660,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563975110144</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="c">
+      <created>1563975708187</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1563975708187</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270732000" />
+    <option name="totallyTimeSpent" value="271104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="784" y="376" width="1419" height="793" extended-state="0" />
+    <frame x="967" y="97" width="1419" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.15452538" />
@@ -1041,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/init">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件读取.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
@@ -1055,12 +1047,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/10、文件定位.c">
+    <entry file="file://$PROJECT_DIR$/C/11、文件/init">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
