@@ -35,3 +35,14 @@ clearerr(fp);
 
 
 int res = remove(&path);   // 删除文件,成功返回0，失败，-1
+
+#include<io.h>
+
+mktemp  新建一个唯一的目录
+
+
+
+
+
+
+
