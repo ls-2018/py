@@ -32,3 +32,6 @@ _access ("e:\123.c", 模式)
 perror("输出的错误是");//输出的错误是: Bad file descriptor
 ferror (fp);    // 错误为-1（EOF），正常为0
 clearerr(fp);
+
+
+int res = remove(&path);   // 删除文件,成功返回0，失败，-1
