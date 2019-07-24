@@ -15,3 +15,6 @@ int num = fseek(fp,偏移，起始)
 fseek(fp,0,SEEK_END)
 fputs("xxxxxxxxx",pf);
 fclose(fp)
+
+windows下，换行解析为/r/n两个字符，不需要结束符
+linux下，换行解析为/n一个字符，需要一个结束符
