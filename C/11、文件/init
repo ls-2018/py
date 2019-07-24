@@ -18,7 +18,10 @@ fwrite (buf, 1, 5, pfa); // Ğ´ÈëÊı×é£¬´«ÈëÊı×éÊ×µØÖ·£¬ÔªËØ´óĞ¡Îª1,5¸öÔªËØ£¬ÒÔ¼°Î
 
 fgets (&str, sizeof (str) - 1, stdin);
 fputs (&str, stdout);
-char ch = fgetc(p)
+char ch = fgetc(fp)
+fputc('f', fp);
+
+
 
 int w = _getw (stdin);
 _putw (97, stdout);
