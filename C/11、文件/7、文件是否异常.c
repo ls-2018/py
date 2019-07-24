@@ -3,7 +3,7 @@
 #include<stdlib.h>
 void main()
 {
-    FILE *fp = fopen ("E:\\123.c", "r+");
+    FILE *fp = fopen ("E:\\123.c", "r");
 
     if (fp == NULL)
     {
@@ -13,10 +13,16 @@ void main()
     else
     {
         printf ("win\n");
+        fputs ("xxx", fp);
 
         if (ferror (fp) == 0)
         {
             printf ("Õý³£\n");
+        }
+
+        else
+        {
+            printf ("Òì³£\n");
         }
 
         fclose (fp);
