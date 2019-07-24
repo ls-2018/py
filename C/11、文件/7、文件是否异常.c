@@ -23,9 +23,10 @@ void main()
         else
         {
             printf ("异常\n");
+			perror("输出的错误是");//输出的错误是: Bad file descriptor
         }
 
-        fclose (fp);
+        fclose (fp);// 关闭空指针，会报错
     }
 
     system ("pause");

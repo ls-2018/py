@@ -22,3 +22,4 @@ char ch = fgetc(p)
 
 fflush (pfa);
 _access ("e:\123.c", 模式)
+perror("输出的错误是");//输出的错误是: Bad file descriptor
