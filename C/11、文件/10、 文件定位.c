@@ -9,3 +9,9 @@ int num = fseek(fp,偏移，起始)
 文件开始    0   SEEK_SET
 文件末尾    2   SEEK_END
 当前位置    1   SEEK_CUR
+
+
+
+fseek(fp,0,SEEK_END)
+fputs("xxxxxxxxx",pf);
+fclose(fp)
