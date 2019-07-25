@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C/11、文件/12、汉字读取.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C/11、文件/13、遍历文件.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/11、文件/init" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/init" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,49 +37,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C/11、文件/init">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="234">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/11、随机目录.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/12、汉字读取.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件读取.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/C/11、文件/13、遍历文件.c">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -179,15 +149,15 @@
         <option value="$PROJECT_DIR$/C/11、文件/6、文件读取.c" />
         <option value="$PROJECT_DIR$/C/11、文件/10、文件定位.c" />
         <option value="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" />
-        <option value="$PROJECT_DIR$/C/11、文件/init" />
         <option value="$PROJECT_DIR$/C/11、文件/11、随机目录.c" />
         <option value="$PROJECT_DIR$/C/11、文件/12、汉字读取.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/init" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="773" />
-    <option name="y" value="43" />
+    <option name="x" value="576" />
+    <option name="y" value="146" />
     <option name="width" value="1419" />
     <option name="height" value="793" />
   </component>
@@ -341,14 +311,7 @@
       <workItem from="1563959520505" duration="564000" />
       <workItem from="1563971180501" duration="7220000" />
       <workItem from="1564018748656" duration="24000" />
-      <workItem from="1564060062984" duration="614000" />
-    </task>
-    <task id="LOCAL-00113" summary="c">
-      <created>1563203541671</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1563203541671</updated>
+      <workItem from="1564060062984" duration="2567000" />
     </task>
     <task id="LOCAL-00114" summary="c">
       <created>1563276328493</created>
@@ -686,14 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563979840765</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="c">
+      <created>1564061545663</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1564061545663</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275223000" />
+    <option name="totallyTimeSpent" value="277176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="773" y="43" width="1419" height="793" extended-state="0" />
+    <frame x="576" y="146" width="1419" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.1589404" />
@@ -771,9 +741,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/6、数组/0、数组参数.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/6、数组/1、参数副本.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1049,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/init">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/6、文件读取.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -1079,8 +1039,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/12、汉字读取.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        <state relative-caret-position="459">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/13、遍历文件.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/init">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>

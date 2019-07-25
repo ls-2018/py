@@ -16,7 +16,7 @@ fprintf (f, "str=%s\n", &str);
 fread (&ch, 1, 1, pf); // 读取下一个元素,成功返回个数
 fwrite (buf, 1, 5, pfa); // 写入数组，传入数组首地址，元素大小为1,5个元素，以及文件指针,会返回成功的个数
 
-fgets (&str, sizeof (str) - 1, stdin);
+fgets (&str, 4, stdin); // 读取4个字节到str
 fputs (&str, stdout);
 char ch = fgetc(fp)
 fputc('f', fp);
