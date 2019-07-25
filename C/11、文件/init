@@ -1,11 +1,12 @@
+setvbuf(stdin,NULL,_IONBF,0)    // 设置键盘输入无缓冲模式，即程序只有两个字节进行缓冲输入
 struct _iobuf {
-    char *_ptr;
-    int   _cnt;
-    char *_base;
+    char *_ptr;         缓冲区的指针（当前地址）
+    int   _cnt;         缓冲区的有效数据（未读的字符数）
+    char *_base;        缓冲区的起始地址
     int   _flag;
-    int   _file;
-    int   _charbuf;
-    int   _bufsiz;
+    int   _file;        文件提示符
+    int   _charbuf;     缓冲区保存的字符    用于双字节缓冲，前8位保留第一个字节的字符，次8位保留第二个
+    int   _bufsiz;      缓冲区的大小
     char *_tmpfname;
     };
 typedef struct _iobuf FILE;
