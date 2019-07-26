@@ -58,5 +58,6 @@ __fpurge(stdin);  刷新输入缓冲区stdio.h
 feof(stdin)		  是否检测到结束符EOF；没到为0
 检测到结束符，clearerr清空键盘缓冲区
 
+rename(path1,path2)
 
 
