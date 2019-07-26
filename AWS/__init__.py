@@ -19,5 +19,5 @@ for file_path in file_l:
         duration = FrameNumber / rate / 60  # 帧速率/视频总帧数 是时间，除以60之后单位是分钟
         sum += duration
 print(sum / 60)
-# print(10661 / 60)  # 180 个小时
+
 

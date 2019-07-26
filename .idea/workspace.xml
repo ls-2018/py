@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C/11、文件/init" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/init" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +35,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/11、文件/init">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="82">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#17#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +140,6 @@
         <option value="$PROJECT_DIR$/C/10、位运算/3、位字段.c" />
         <option value="$PROJECT_DIR$/C/10、位运算/4、位移显示补码.c" />
         <option value="$PROJECT_DIR$/C/10、位运算/交换" />
-        <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/C/11、文件/1、c" />
         <option value="$PROJECT_DIR$/C/11、文件/2、flush.c" />
         <option value="$PROJECT_DIR$/C/11、文件/3、文件重定向.c" />
@@ -150,6 +156,7 @@
         <option value="$PROJECT_DIR$/C/11、文件/11、随机目录.c" />
         <option value="$PROJECT_DIR$/C/11、文件/12、汉字读取.c" />
         <option value="$PROJECT_DIR$/C/11、文件/init" />
+        <option value="$PROJECT_DIR$/AWS/__init__.py" />
       </list>
     </option>
   </component>
@@ -178,13 +185,7 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="11、文件" type="462c0819:PsiDirectoryNode" />
+              <item name="AWS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,14 +313,7 @@
       <workItem from="1564060062984" duration="4138000" />
       <workItem from="1564102874611" duration="71000" />
       <workItem from="1564134482086" duration="64000" />
-      <workItem from="1564148096198" duration="5469000" />
-    </task>
-    <task id="LOCAL-00119" summary="c">
-      <created>1563372842651</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1563372842652</updated>
+      <workItem from="1564148096198" duration="6042000" />
     </task>
     <task id="LOCAL-00120" summary="c">
       <created>1563373542406</created>
@@ -657,19 +651,27 @@
       <option name="project" value="LOCAL" />
       <updated>1564154392679</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="c">
+      <created>1564156610359</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1564156610361</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284351000" />
+    <option name="totallyTimeSpent" value="284924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="34" width="1641" height="916" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" weight="0.14640523" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="File Transfer" sideWeight="0.64020103" visible="true" weight="0.43667546" />
+      <window_info active="true" anchor="bottom" id="File Transfer" sideWeight="0.64072496" visible="true" weight="0.2494432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7203482" weight="0.36062992" />
@@ -680,7 +682,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.359799" side_tool="true" weight="0.3298153" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.35927504" side_tool="true" weight="0.2494432" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.27745664" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32995495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -861,13 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1054,8 +1049,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/init">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="82">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
