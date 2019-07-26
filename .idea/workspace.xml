@@ -36,25 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/13、遍历文件.c">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C/11、文件/init">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="526">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -71,7 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>windows</find>
       <find>Platform</find>
       <find>i-00b3afe744c237237</find>
       <find>small</find>
@@ -101,6 +86,7 @@
       <find>get</find>
       <find>fgetw</find>
       <find>re</find>
+      <find>feof</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -322,21 +308,7 @@
       <workItem from="1564060062984" duration="4138000" />
       <workItem from="1564102874611" duration="71000" />
       <workItem from="1564134482086" duration="64000" />
-      <workItem from="1564148096198" duration="2053000" />
-    </task>
-    <task id="LOCAL-00115" summary="c">
-      <created>1563278744262</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1563278744262</updated>
-    </task>
-    <task id="LOCAL-00116" summary="c">
-      <created>1563285002024</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1563285002025</updated>
+      <workItem from="1564148096198" duration="2867000" />
     </task>
     <task id="LOCAL-00117" summary="c">
       <created>1563285873726</created>
@@ -667,11 +639,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564065778966</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="c">
+      <created>1564150880876</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1564150880877</updated>
+    </task>
+    <task id="LOCAL-00165" summary="c">
+      <created>1564152078710</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1564152078712</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280935000" />
+    <option name="totallyTimeSpent" value="281749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="883" y="41" width="1590" height="916" extended-state="0" />
@@ -1052,20 +1038,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/13、遍历文件.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/13、遍历文件.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/init">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="526">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
         </state>
       </provider>
     </entry>

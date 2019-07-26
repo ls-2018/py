@@ -55,7 +55,7 @@ while(1){};//默认不会进行输出
 
 
 __fpurge(stdin);  刷新输入缓冲区stdio.h
-feof(stdin)		  是否检测到结束符EOF；到了为0
+feof(stdin)		  是否检测到结束符EOF；没到为0
 检测到结束符，clearerr清空键盘缓冲区
 
 
