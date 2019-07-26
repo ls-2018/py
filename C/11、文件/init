@@ -48,6 +48,15 @@ mktemp  新建一个唯一的目录
 
 
 
+检测到输入时，会自动刷新输出缓冲区
+printf("xxxxxxxxx");
+while(1){};//默认不会进行输出
+
+
+
+__fpurge(stdin);  刷新输入缓冲区stdio.h
+feof(stdin)		  是否检测到结束符EOF；到了为0
+检测到结束符，clearerr清空键盘缓冲区
 
 
 
