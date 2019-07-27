@@ -36,7 +36,7 @@ _putw (97, stdout);
 fflush (pfa);
 _access ("e:\123.c", 模式)
 perror("输出的错误是");//输出的错误是: Bad file descriptor
-ferror (fp);    // 错误为-1（EOF），正常为0
+ferror (fp);    // 用来检测各种输入输出函数是否出现错误；错误为-1（EOF），正常为0
 clearerr(fp);
 
 
