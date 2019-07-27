@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C/11、文件/init" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/init" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +39,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/11、文件/init">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="-100">
+              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -154,13 +163,13 @@
         <option value="$PROJECT_DIR$/C/11、文件/9、处理错误.c" />
         <option value="$PROJECT_DIR$/C/11、文件/6、文件读取.c" />
         <option value="$PROJECT_DIR$/C/11、文件/10、文件定位.c" />
-        <option value="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" />
         <option value="$PROJECT_DIR$/C/11、文件/11、随机目录.c" />
         <option value="$PROJECT_DIR$/C/11、文件/12、汉字读取.c" />
         <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/七牛云/x.py" />
         <option value="$PROJECT_DIR$/Flask－/xxxxxxxxx.py" />
         <option value="$PROJECT_DIR$/C/11、文件/init" />
+        <option value="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" />
       </list>
     </option>
   </component>
@@ -376,14 +385,7 @@
       <workItem from="1564102874611" duration="71000" />
       <workItem from="1564134482086" duration="64000" />
       <workItem from="1564148096198" duration="6871000" />
-      <workItem from="1564192482233" duration="4363000" />
-    </task>
-    <task id="LOCAL-00121" summary="c">
-      <created>1563373635638</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1563373635638</updated>
+      <workItem from="1564192482233" duration="5381000" />
     </task>
     <task id="LOCAL-00122" summary="c">
       <created>1563377099636</created>
@@ -721,11 +723,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564157218620</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="c">
+      <created>1564199950666</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1564199950666</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290116000" />
+    <option name="totallyTimeSpent" value="291134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1090,13 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/13、遍历文件.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1126,8 +1128,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/11、文件/init">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="-100">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/10、 文件定位.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
