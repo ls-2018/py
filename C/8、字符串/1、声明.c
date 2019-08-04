@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
-#define getname(x) #x
+#define getname(x) #x//  自动给x 加上 “x”
 #include<time.h>
 void main()
 {
