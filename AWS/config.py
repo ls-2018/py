@@ -6,9 +6,11 @@
 @Software: PyCharm
 """
 
-import sys
-
-sys.path.append('D:\Destop\密码')
-from conf import S3_Setting
-
-print(S3_Setting)
+# import sys
+# 
+# sys.path.append('D:\Destop\密码')
+# from conf import S3_Setting
+# 
+# print(S3_Setting)
+import platform
+print(platform.system())
