@@ -39,11 +39,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/13、编译/1、内置宏.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/12、变量/1、.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -143,18 +152,18 @@
         <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/AWS/config.py" />
         <option value="$PROJECT_DIR$/xxxxxxx.py" />
-        <option value="$PROJECT_DIR$/C/12、变量/1、.c" />
         <option value="$PROJECT_DIR$/C/13、编译/2、断言.c" />
         <option value="$PROJECT_DIR$/C/test.py" />
         <option value="$PROJECT_DIR$/C/13、编译/3、预处理.c" />
         <option value="$PROJECT_DIR$/C/8、字符串/1、声明.c" />
         <option value="$PROJECT_DIR$/C/13、编译/1、内置宏.c" />
+        <option value="$PROJECT_DIR$/C/12、变量/1、.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="122" />
+    <option name="x" value="611" />
+    <option name="y" value="58" />
     <option name="width" value="1366" />
     <option name="height" value="888" />
   </component>
@@ -166,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,12 +197,19 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
+              <item name="12、变量" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="C" type="462c0819:PsiDirectoryNode" />
               <item name="13、编译" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,14 +377,9 @@
       <workItem from="1564882262800" duration="3000" />
       <workItem from="1564882297504" duration="1741000" />
       <workItem from="1564888887419" duration="1942000" />
-      <workItem from="1564901200481" duration="4992000" />
-    </task>
-    <task id="LOCAL-00128" summary="c">
-      <created>1563460545318</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1563460545318</updated>
+      <workItem from="1564901200481" duration="5803000" />
+      <workItem from="1564918218591" duration="39000" />
+      <workItem from="1564918515476" duration="1130000" />
     </task>
     <task id="LOCAL-00129" summary="c">
       <created>1563463653033</created>
@@ -707,17 +717,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564907739136</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="c">
+      <created>1564908423847</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1564908423847</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307480000" />
+    <option name="totallyTimeSpent" value="309460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="943" y="653" width="932" height="888" extended-state="0" />
+    <frame x="611" y="58" width="1366" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" weight="0.26490825" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.18147014" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -730,7 +747,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.33315566" side_tool="true" weight="0.27282852" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.33315566" side_tool="true" weight="0.27260274" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.27728286" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32995495" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.64072496" weight="0.29452056" />
@@ -953,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C/12、变量/1、.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/13、编译/2、断言.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1058,7 +1068,14 @@
     <entry file="file://$PROJECT_DIR$/C/13、编译/1、内置宏.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/12、变量/1、.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
