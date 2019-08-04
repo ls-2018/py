@@ -18,7 +18,7 @@
 */
 
 /*
-static int num = 100 ;  // 作用域在本个c文件内，外部无法使用
+static int num = 100 ;  // 作用域在本个c文件内，外部无法使用，全局变量，在静态区
 int data = 1001;// 结合extern可以跨文件使用，跨文件的作用域
 */
 
@@ -30,7 +30,7 @@ int num = 10;全局变量，会自动解析为	extern int num = 10;
 */
 /*
 {
-	static int num = 10;//静态局部变量
+	static int num = 10;//静态局部变量,在栈区
 	static int num;// static局部变量，没有生命，只有定义
 }
 
