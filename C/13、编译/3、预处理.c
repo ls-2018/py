@@ -7,6 +7,7 @@
 ----------------------------------------------------------------------------------------------
 
 
+//#ifndef NODEBUG
 #ifdef NODEBUG
 #define myassert(x)// 没有代码检测提示
 #else
@@ -17,3 +18,8 @@
     printf ("当前函数名为%s,文件名为%s,代码行号为%d\n", __FUNCTION__, __FILE__, __LINE__);\
 }
 #endif
+
+
+
+#define myassert(x)
+#undef myassert(x)// 终止宏定义的范围
