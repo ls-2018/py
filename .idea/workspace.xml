@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69884567-b8b8-48ad-9ed9-39b1f215f451" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/11、文件/init" beforeDir="false" afterPath="$PROJECT_DIR$/C/11、文件/init" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C/12、变量/1、.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="104">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C/11、文件/init">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -148,7 +158,6 @@
         <option value="$PROJECT_DIR$/七牛云/x.py" />
         <option value="$PROJECT_DIR$/Flask－/xxxxxxxxx.py" />
         <option value="$PROJECT_DIR$/C/11、文件/10、 文件定位.c" />
-        <option value="$PROJECT_DIR$/C/11、文件/init" />
         <option value="$PROJECT_DIR$/AWS/__init__.py" />
         <option value="$PROJECT_DIR$/AWS/config.py" />
         <option value="$PROJECT_DIR$/xxxxxxx.py" />
@@ -158,12 +167,13 @@
         <option value="$PROJECT_DIR$/C/8、字符串/1、声明.c" />
         <option value="$PROJECT_DIR$/C/13、编译/1、内置宏.c" />
         <option value="$PROJECT_DIR$/C/12、变量/1、.c" />
+        <option value="$PROJECT_DIR$/C/11、文件/init" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="611" />
-    <option name="y" value="58" />
+    <option name="x" value="1004" />
+    <option name="y" value="36" />
     <option name="width" value="1366" />
     <option name="height" value="888" />
   </component>
@@ -191,19 +201,7 @@
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="8、字符串" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="12、变量" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="C" type="462c0819:PsiDirectoryNode" />
-              <item name="13、编译" type="462c0819:PsiDirectoryNode" />
+              <item name="11、文件" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,14 +377,9 @@
       <workItem from="1564888887419" duration="1942000" />
       <workItem from="1564901200481" duration="5803000" />
       <workItem from="1564918218591" duration="39000" />
-      <workItem from="1564918515476" duration="1130000" />
-    </task>
-    <task id="LOCAL-00129" summary="c">
-      <created>1563463653033</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1563463653033</updated>
+      <workItem from="1564918515476" duration="1749000" />
+      <workItem from="1564966079644" duration="46000" />
+      <workItem from="1565099861707" duration="1543000" />
     </task>
     <task id="LOCAL-00130" summary="c">
       <created>1563545201984</created>
@@ -724,17 +717,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564908423847</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="c">
+      <created>1564920753202</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1564920753203</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309460000" />
+    <option name="totallyTimeSpent" value="311668000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="611" y="58" width="1366" height="888" extended-state="0" />
+    <frame x="1004" y="36" width="1366" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" visible="true" weight="0.18147014" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498503" weight="0.18683001" />
       <window_info id="Structure" order="1" sideWeight="0.50149703" side_tool="true" weight="0.13965885" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -810,9 +810,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/6.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C/谭浩强/第5章/5.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1074,8 +1071,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C/12、变量/1、.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="104">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/11、文件/init">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>

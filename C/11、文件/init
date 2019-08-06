@@ -25,6 +25,7 @@ fgets (&str, 4, stdin); // 最大读取3个字节到str,同时在末尾加一个\0字符，遇到回车
 fputs (&str, stdout);   并不会将回车符也写入  // 失败即返回文件结束标志EOF   -1
 char ch = fgetc(fp);    // 失败即返回文件结束标志EOF   -1
 fputc('f', fp);         // 失败即返回文件结束标志EOF   -1
+putc('f', fp);         // 失败即返回文件结束标志EOF   -1
 
 putchar()
 getchar()
