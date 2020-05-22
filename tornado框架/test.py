@@ -11,8 +11,6 @@ from tornado import gen
 from tornado.concurrent import Future
 
 
-
-
 class AsyncHandler(tornado.web.RequestHandler):
 
     @gen.coroutine
@@ -21,7 +19,7 @@ class AsyncHandler(tornado.web.RequestHandler):
         # future.add_done_callback(self.doing)
         # yield future
         # 或
-        tornado.ioloop.IOLoop.current().add_future(future,self.doing)
+        tornado.ioloop.IOLoop.current().add_future(future, self.doing)
         yield future
 
     def doing(self, *args, **kwargs):
@@ -34,6 +32,7 @@ class AsyncHandler(tornado.web.RequestHandler):
 class StopHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         self.write('---------------')
+
 
 application = tornado.web.Application([
 
