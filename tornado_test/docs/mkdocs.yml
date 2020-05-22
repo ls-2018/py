@@ -1,0 +1,19 @@
+site_name: Raac 文档
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - django
+nav:
+  - 文档: index.md
+  - 接口文档: 接口文档/iam.md
+extra_css:
+  - css/extra.css
+markdown_extensions:
+  - toc:
+      permalink: 
+  - admonition
+  - def_list
+plugins:
+  - search

@@ -1,0 +1,12 @@
+requests
+bcrypt
+redis
+tornado
+aiomysql
+aiofiles
+peewee
+peewee-async
+wtforms
+wtforms-tornado
+wtforms-json
+PyJWT
