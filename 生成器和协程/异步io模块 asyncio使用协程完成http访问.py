@@ -1,7 +1,8 @@
 import asyncio
 
+
 async def get_url():
-    reader,writer = await asyncio.open_connection('www.shuoiliu.com',80)
+    reader, writer = await asyncio.open_connection('www.shuoiliu.com', 80)
     writer.write(b'GET / HTTP/1.1\r\nHOST:www.shuoiliu.com\r\nConnection:close\r\n\r\n')
     all_lines = []
     async for line in reader:
@@ -9,6 +10,7 @@ async def get_url():
         all_lines.append(data)
     html = '\n'.join(all_lines)
     return html
+
 
 async def main():
     tasks = []
