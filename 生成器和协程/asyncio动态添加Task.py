@@ -30,11 +30,11 @@ threading.Thread(target=start_loop, args=(ioloop,)).start()
 for url in ['www.163.com', 'www.baidu.com', 'www.sina.com']:
     asyncio.run_coroutine_threadsafe(wget(url), ioloop)
 
-coro = asyncio.sleep(1, result=3)
-future = asyncio.run_coroutine_threadsafe(coro, ioloop)
-assert future.result() == 3
-
-ioloop.close()
+# coro = asyncio.sleep(1, result=3)
+# future = asyncio.run_coroutine_threadsafe(coro, ioloop)
+# assert future.result() == 3
+#
+# ioloop.close()
 
 '''
 Task对象, 用于动态的添加任务的

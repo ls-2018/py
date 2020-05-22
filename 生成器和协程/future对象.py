@@ -26,3 +26,12 @@ if not future.cancelled():
     print(future.result())
 
 loop.close()
+
+'''
+future是一个可访问的低级对象,表示异步操作的最终结果   ,内部由_state标识是否完成
+Task继承Future, 内部await结果的处理基于Future
+'''
+
+
+
+
