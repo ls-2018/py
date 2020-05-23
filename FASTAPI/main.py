@@ -4,6 +4,7 @@ from fastapi import FastAPI, Query, Path, Body, Cookie
 from pydantic import BaseModel, Field, HttpUrl
 from uuid import UUID
 from datetime import datetime, time, timedelta
+import uvicorn
 
 app = FastAPI()
 
@@ -81,4 +82,7 @@ async def update_item(
         "item_id": item_id
     }
 
+
+if __name__ == '__main__':
+    uvicorn.run("main:app", host='127.0.0.1', port=8000, log_level='info')
 # uvicorn main:app --reload
