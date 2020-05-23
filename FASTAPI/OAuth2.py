@@ -1,7 +1,7 @@
-from fastapi import Depends, FastAPI, Header, HTTPException
+from fastapi import Depends, FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from starlette.requests import Request
+from starlette import status
 from typing import Optional
 import uvicorn
 
@@ -35,12 +35,14 @@ async def read_items(token: str = Depends(oauth2_scheme)):
     print("token", token)
     if token in fake_users_db:
         return User(**fake_users_db[token])
+    else:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='over time ')
 
 
 @app.post('/token')
 async def auth2(form_data: OAuth2PasswordRequestForm = Depends(OAuth2PasswordRequestForm)):
     if form_data.username not in fake_users_db:
-        raise HTTPException(status_code=400, detail='Incorrect username')
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='Incorrect username')
     return {'access_token': form_data.username, "token_type": 'bearer'}
 
 
