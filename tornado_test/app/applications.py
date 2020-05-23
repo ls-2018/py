@@ -10,7 +10,28 @@ import peewee_async
 from peewee import MySQLDatabase
 
 define('port', type=int, default=8000, help='run server as the given port')
+define('list', default=[], type=str, help='this is a port info', metavar=None,
+       multiple=True, group=None, callback=None)
 
+
+# -------------------------------------------------从命令行-------------------------------------------------
+
+# # 获取参数的方法
+# tornado.options.parse_command_line()  # 命令行解析
+# python options功能.py --list=123456,456
+#
+# print(tornado.options.options.as_dict())
+# print(tornado.options.options.list)  # ['123456', '456']
+
+# -------------------------------------------------从配置文件-------------------------------------------------
+# tornado.options.parse_config_file('./conf')  # 格式仍需要按照py的语法格式
+# print(tornado.options.options.as_dict())
+
+# -------------------------------------------------从配置文件config.py----------------------------------------
+# import config
+
+# print(config.options['port'])
+# tornado.options.options.logging = None      # 关闭日志功能
 
 class Application(tornado.web.Application):
     def __init__(self, *args, **kwargs):
