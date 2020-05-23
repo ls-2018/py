@@ -28,8 +28,8 @@ async def main():
 
 
 if __name__ == '__main__':
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(main())  # 处理一个任务
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())  # 处理一个任务
     # loop.run_until_complete(asyncio.wait([main()]))  # 处理多个任务
     # asyncio.run(main())
     """  
@@ -41,9 +41,9 @@ if __name__ == '__main__':
       done, pending =  asyncio.wait(tasks, timeout=2)
       print(done)
   """
-    tasks = [
-        get_url(),
-        get_url(),
-    ]
-    done, pending = asyncio.run(asyncio.wait(tasks, timeout=2))
-    print(done)
+    # tasks = [
+    #     get_url(),
+    #     get_url(),
+    # ]
+    # done, pending = asyncio.run(asyncio.wait(tasks, timeout=2))
+    # print(done)
