@@ -15,12 +15,12 @@ async def fetch(session, url):
 
 
 async def start():
-    async with aiohttp.ClientSession() as session:
+    async with aiohttp.ClientSession() as client:
         url_list = [
             'https://www.baidu.com'
         ]
 
-        tasks = [asyncio.create_task(fetch(session, url)) for url in url_list]
+        tasks = [asyncio.create_task(fetch(client, url)) for url in url_list]
         await asyncio.wait(tasks)
 
 
