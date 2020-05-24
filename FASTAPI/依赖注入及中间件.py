@@ -36,7 +36,7 @@ async def read_item2():
 if __name__ == '__main__':
     import uvicorn
 
-    uvicorn.run(app='依赖注入:app', host='127.0.0.1', port=8000, reload=True)
+    uvicorn.run(app='依赖注入及中间件:app', host='127.0.0.1', port=8000, reload=True)
 
 """
 依赖注入：

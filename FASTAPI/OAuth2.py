@@ -43,33 +43,6 @@ class Token(BaseModel):
     token_type: str
 
 
-class AUTH:
-    @staticmethod
-    def verify_password(plain_password, hashed_password):
-        """
-        验证密码
-        :param plain_password: 明文密码
-        :param hashed_password: 密文密码
-        :return:
-        """
-        return pwd_context.verify(plain_password, hashed_password)
-
-    @staticmethod
-    def generate_hash_password(plain_password):
-        """
-        生成密文密码
-        :param plain_password: 明文密码
-        :return:
-        """
-        return pwd_context.hash(plain_password)
-
-    @staticmethod
-    def create_access_token(data: dict, expire_delta: timedelta = None):
-        to_encode = data.copy()
-        expire = datetime.datetime.utcnow() + expire_delta  # 过期时间
-        to_encode.update({'exp': expire})
-        encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
-        return encoded_jwt
 
 
 @app.get('/item/')  # Authorization: Bearer
