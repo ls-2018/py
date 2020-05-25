@@ -1,6 +1,6 @@
 # pip install locustio==0.8a2
 import random
-from locust import HttpUser, between, TaskSet, task
+from locust import HttpUser, between, TaskSet, task, tag
 
 
 class MyTaskSet(TaskSet):
@@ -14,7 +14,7 @@ class MyTaskSet(TaskSet):
 
     @tag('tag1', 'tag2')  # 可以使用--tags和--exclude-tags参数对测试期间执行的任务保持谨慎
     @task(1)
-    def inde2x(self):
+    def index2(self):
         self.client.get("/index")
 
     def wait_time(self):
@@ -33,3 +33,4 @@ class WebsiteUser(HttpUser):
     #
     # def on_stop(self):
     #     print('end')
+# locust --web-host=http://127.0.0.1:8090

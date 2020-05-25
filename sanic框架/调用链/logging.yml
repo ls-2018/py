@@ -1,0 +1,385 @@
+version: 1
+disable_existing_logers: False
+formatters:
+    verbose:
+        format: '%(asctime)s -- %(process)d %(levelname)s %(name)s %(thread)d %(message)s'
+    simple:
+        format: '%(levelname)s %(message)s'
+    json:
+        (): sanicms.loggers.JsonFormatter
+handlers:
+    console:
+        level: DEBUG
+        class: logging.StreamHandler
+        formatter: verbose
+    json:
+        level: DEBUG
+        class: logging.StreamHandler
+        formatter: json
+    file:
+        level: INFO
+        class: logging.handlers.RotatingFileHandler
+        formatter: json
+        filename: info.log
+        maxBytes: 1024000
+        backupCount: 10
+loggers:
+    root:
+        handlers: [console]
+        propagate: True
+        level: DEBUG
+    sanic:
+        handlers: [json]
+        propagate: True
+        level: DEBUG
+    zipkin:
+        handlers: [json]
+        propagate: True
+        level: DEBUG
+    logstash:
+        handlers: [file]
+        propagate: True
+        level: DEBUG
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<consume() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py:44> exception=KeyError('ZIPKIN_SERVER')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py", line 45, in consume
+    zs = app.config['ZIPKIN_SERVER']
+KeyError: 'ZIPKIN_SERVER'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<service_watcher() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\service.py:110> exception=KeyError('CONSUL_AGENT_HOST')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 111, in service_watcher
+    service = ServiceManager(loop=loop, host=app.config['CONSUL_AGENT_HOST'])
+KeyError: 'CONSUL_AGENT_HOST'
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\app.py", line 1170, in run
+    serve(**server_settings)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 832, in serve
+    trigger_events(before_start, loop)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 648, in trigger_events
+    loop.run_until_complete(result)
+  File "C:\Python38\lib\asyncio\base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "C:/Users/Administrator/Desktop/xxxxxxxxx/server.py", line 32, in before_server_start
+    app.db = await ConnectionPool(loop=loop).init(app.config['DB_CONFIG'])
+KeyError: 'DB_CONFIG'
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<consume() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py:44> exception=KeyError('ZIPKIN_SERVER')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py", line 45, in consume
+    zs = app.config['ZIPKIN_SERVER']
+KeyError: 'ZIPKIN_SERVER'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<service_watcher() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\service.py:110> exception=KeyError('CONSUL_AGENT_HOST')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 111, in service_watcher
+    service = ServiceManager(loop=loop, host=app.config['CONSUL_AGENT_HOST'])
+KeyError: 'CONSUL_AGENT_HOST'
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\app.py", line 1170, in run
+    serve(**server_settings)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 832, in serve
+    trigger_events(before_start, loop)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 648, in trigger_events
+    loop.run_until_complete(result)
+  File "C:\Python38\lib\asyncio\base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "C:/Users/Administrator/Desktop/xxxxxxxxx/server.py", line 31, in before_server_start
+    app.db = await ConnectionPool(loop=loop).init(app.config['DB_CONFIG'])
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\db.py", line 144, in init
+    self._pool = await create_pool(**config, loop=self._loop, max_size=100)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 398, in _async__init__
+    await self._initialize()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 426, in _initialize
+    await first_ch.connect()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 125, in connect
+    self._con = await self._pool._get_new_connection()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 468, in _get_new_connection
+    con = await connection.connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connection.py", line 1668, in connect
+    return await connect_utils._connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connect_utils.py", line 663, in _connect
+    raise last_error
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connect_utils.py", line 652, in _connect
+    con = await _connect_addr(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connect_utils.py", line 621, in _connect_addr
+    tr, pr = await asyncio.wait_for(
+  File "C:\Python38\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Python38\lib\asyncio\base_events.py", line 1030, in create_connection
+    raise exceptions[0]
+  File "C:\Python38\lib\asyncio\base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Python38\lib\asyncio\base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Python38\lib\asyncio\proactor_events.py", line 702, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 595, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] 远程计算机拒绝网络连接。
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<consume() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py:44> exception=KeyError('ZIPKIN_SERVER')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py", line 45, in consume
+    zs = app.config['ZIPKIN_SERVER']
+KeyError: 'ZIPKIN_SERVER'
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\app.py", line 1170, in run
+    serve(**server_settings)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 832, in serve
+    trigger_events(before_start, loop)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 648, in trigger_events
+    loop.run_until_complete(result)
+  File "C:\Python38\lib\asyncio\base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "C:/Users/Administrator/Desktop/xxxxxxxxx/server.py", line 31, in before_server_start
+    app.db = await ConnectionPool(loop=loop).init(app.config['DB_CONFIG'])
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\db.py", line 144, in init
+    self._pool = await create_pool(**config, loop=self._loop, max_size=100)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 398, in _async__init__
+    await self._initialize()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 426, in _initialize
+    await first_ch.connect()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 125, in connect
+    self._con = await self._pool._get_new_connection()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\pool.py", line 468, in _get_new_connection
+    con = await connection.connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connection.py", line 1668, in connect
+    return await connect_utils._connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connect_utils.py", line 663, in _connect
+    raise last_error
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connect_utils.py", line 652, in _connect
+    con = await _connect_addr(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\asyncpg\connect_utils.py", line 621, in _connect_addr
+    tr, pr = await asyncio.wait_for(
+  File "C:\Python38\lib\asyncio\tasks.py", line 483, in wait_for
+    return fut.result()
+  File "C:\Python38\lib\asyncio\base_events.py", line 1030, in create_connection
+    raise exceptions[0]
+  File "C:\Python38\lib\asyncio\base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Python38\lib\asyncio\base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Python38\lib\asyncio\proactor_events.py", line 702, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 595, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] 远程计算机拒绝网络连接。
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<consume() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py:44> exception=KeyError('ZIPKIN_SERVER')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py", line 45, in consume
+    zs = app.config['ZIPKIN_SERVER']
+KeyError: 'ZIPKIN_SERVER'
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\app.py", line 1170, in run
+    serve(**server_settings)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 832, in serve
+    trigger_events(before_start, loop)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\sanic\server.py", line 648, in trigger_events
+    loop.run_until_complete(result)
+  File "C:\Python38\lib\asyncio\base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "C:/Users/Administrator/Desktop/xxxxxxxxx/server.py", line 31, in before_server_start
+    app.db = await ConnectionPool(loop=loop).init(app.config['DB_CONFIG'])
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\db.py", line 144, in init
+    self._pool = await create_pool(**config, loop=self._loop, max_size=100)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiomysql\pool.py", line 29, in _create_pool
+    await pool._fill_free_pool(False)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiomysql\pool.py", line 167, in _fill_free_pool
+    conn = await connect(echo=self._echo, loop=self._loop,
+TypeError: connect() got an unexpected keyword argument 'max_size'
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<consume() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py:44> exception=KeyError('ZIPKIN_SERVER')>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\utils.py", line 45, in consume
+    zs = app.config['ZIPKIN_SERVER']
+KeyError: 'ZIPKIN_SERVER'
+INFO:sanic.root:Starting worker [2576]
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<service_watcher() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\service.py:110> exception=ClientConnectorError(ConnectionKey(host='192.168.0.100', port=8500, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), OSError(22, '信号灯超时时间已到', None, 121, None))>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "C:\Python38\lib\asyncio\base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "C:\Python38\lib\asyncio\base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Python38\lib\asyncio\base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Python38\lib\asyncio\proactor_events.py", line 702, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 595, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] 信号灯超时时间已到
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 115, in service_watcher
+    services = await service.discovery_services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 98, in discovery_services
+    result = await catalog.services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\consul\aio.py", line 26, in _request
+    resp = yield from self._session.request(method, uri, data=data)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 1004, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 980, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 943, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 192.168.0.100:8500 ssl:default [信号灯超时时间已到]
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+INFO:sanic.root:Starting worker [7640]
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<service_watcher() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\service.py:110> exception=ClientConnectorError(ConnectionKey(host='192.168.0.100', port=8500, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), OSError(22, '信号灯超时时间已到', None, 121, None))>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "C:\Python38\lib\asyncio\base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "C:\Python38\lib\asyncio\base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Python38\lib\asyncio\base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Python38\lib\asyncio\proactor_events.py", line 702, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 595, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] 信号灯超时时间已到
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 115, in service_watcher
+    services = await service.discovery_services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 98, in discovery_services
+    result = await catalog.services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\consul\aio.py", line 26, in _request
+    resp = yield from self._session.request(method, uri, data=data)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 1004, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 980, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 943, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 192.168.0.100:8500 ssl:default [信号灯超时时间已到]
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+INFO:sanic.root:Starting worker [7628]
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<service_watcher() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\service.py:110> exception=ClientConnectorError(ConnectionKey(host='192.168.0.100', port=8500, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), OSError(22, '信号灯超时时间已到', None, 121, None))>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "C:\Python38\lib\asyncio\base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "C:\Python38\lib\asyncio\base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Python38\lib\asyncio\base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Python38\lib\asyncio\proactor_events.py", line 702, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 595, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] 信号灯超时时间已到
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 115, in service_watcher
+    services = await service.discovery_services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 98, in discovery_services
+    result = await catalog.services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\consul\aio.py", line 26, in _request
+    resp = yield from self._session.request(method, uri, data=data)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 1004, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 980, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 943, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 192.168.0.100:8500 ssl:default [信号灯超时时间已到]
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+INFO:sanic.root:Starting worker [11836]
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<service_watcher() done, defined at C:\Users\Administrator\Desktop\xxxxxxxxx\service.py:110> exception=ClientConnectorError(ConnectionKey(host='192.168.0.100', port=8500, is_ssl=False, ssl=None, proxy=None, proxy_auth=None, proxy_headers_hash=None), OSError(22, '信号灯超时时间已到', None, 121, None))>
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "C:\Python38\lib\asyncio\base_events.py", line 1025, in create_connection
+    raise exceptions[0]
+  File "C:\Python38\lib\asyncio\base_events.py", line 1010, in create_connection
+    sock = await self._connect_sock(
+  File "C:\Python38\lib\asyncio\base_events.py", line 924, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Python38\lib\asyncio\proactor_events.py", line 702, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 808, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Python38\lib\asyncio\windows_events.py", line 595, in finish_connect
+    ov.getresult()
+OSError: [WinError 121] 信号灯超时时间已到
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 115, in service_watcher
+    services = await service.discovery_services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\service.py", line 98, in discovery_services
+    result = await catalog.services()
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\consul\aio.py", line 26, in _request
+    resp = yield from self._session.request(method, uri, data=data)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\client.py", line 480, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 858, in _create_connection
+    _, proto = await self._create_direct_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 1004, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 980, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "C:\Users\Administrator\Desktop\xxxxxxxxx\venv\lib\site-packages\aiohttp\connector.py", line 943, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 192.168.0.100:8500 ssl:default [信号灯超时时间已到]
+INFO:sanic.root:Goin' Fast @ http://127.0.0.1:8000
+INFO:sanic.root:Starting worker [10652]
