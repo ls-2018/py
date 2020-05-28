@@ -1,11 +1,12 @@
 from fastapi import Depends, HTTPException
 from pydantic import BaseModel
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+from fastapi.security import OAuth2PasswordRequestForm
 from starlette import status
 from typing import Optional
 from core.security import *
 from core.config import settings
 import jwt
+
 from . import api_router
 from core.security import oauth2_scheme
 
@@ -35,8 +36,7 @@ class Token(BaseModel):
     token_type: str
 
 
-@api_router.put('/item/', tags=['oauth2'])  # Authorization: Bearer
-async def read_items(token: str = Depends(oauth2_scheme)):
+async def get_current_user(token: str = Depends(oauth2_scheme)):
     """
     需要授权
     :param token:
@@ -47,7 +47,11 @@ async def read_items(token: str = Depends(oauth2_scheme)):
     except jwt.exceptions.ExpiredSignatureError:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='token已失效')
     except jwt.DecodeError:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='token认证失败')
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication credentials",
+            headers={"WWW-Authenticate": "Bearer"}
+        )
     except jwt.InvalidTokenError:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -56,7 +60,14 @@ async def read_items(token: str = Depends(oauth2_scheme)):
                 'X-Error': 'There goes my error'
             }
         )
+
     return verified_payload
+
+
+# @api_router.put('/item/', tags=['oauth2'], dependencies=[Depends(get_current_user)])  # Authorization: Bearer
+@api_router.put('/item/', tags=['oauth2'])  # Authorization: Bearer
+async def read_items(current_user: User = Depends(get_current_user)):
+    return current_user
 
 
 @api_router.post(

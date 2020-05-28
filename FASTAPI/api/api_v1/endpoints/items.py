@@ -64,8 +64,8 @@ async def read_root(a: str = Cookie(None)):  # 从Cookie中读取参数a
     return {"Hello": a}
 
 
-@api_router.get("/items/{name:str}")
-async def read_item(
+@api_router.get("/one/{name:str}")
+async def read_one(
         name: ModelName = Path(..., title='The Name of Module'),  # str可选 ge=1  gt  lt  le
         # q: str = Query("fixedquery", min_length=3, max_length=50, regex="^fixedquery$")
         # q: str = Query(..., min_length=3)
