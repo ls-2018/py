@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session  # 会话
 
 import models
-import schemas  # 模式
+from . import schemas  # 模式
 
 
 # 通过id查询用户信息

@@ -13,7 +13,7 @@ def write_log(message: str):
         log.write(message)
 
 
-@app.post("/send-notification/{email}")
+@api_router.post("/send-notification/{email}")
 async def send_notification(
         email: str, background_tasks: BackgroundTasks
 ):
