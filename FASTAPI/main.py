@@ -16,7 +16,8 @@ app = FastAPI(
     version="6.6.6",
 )
 app.mount('/static', StaticFiles(directory='static'), name='static')
-# Set all CORS enabled origins
+# html  目录名    内部使用
+
 app.add_middleware(  # 添加中间件
     CORSMiddleware,  # CORS中间件类
     allow_origins=['*'],  # 允许起源所有
