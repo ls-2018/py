@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from enum import Enum
-from typing import List, Dict, Set, Tuple, Optional
+from typing import List, Dict, Set, Tuple, Optional, Union
 from fastapi import FastAPI, Query, Path, Body, Form, File, UploadFile, Cookie, Header, Depends, HTTPException
 from pydantic import BaseModel, Field, HttpUrl
 from uuid import UUID
@@ -8,7 +8,8 @@ from starlette.requests import Request
 from starlette.templating import Jinja2Templates
 from datetime import datetime, timedelta, time
 
-router = APIRouter()
+from . import api_router
+
 templates = Jinja2Templates(directory='templates')
 
 
@@ -53,17 +54,20 @@ class Item(BaseModel):
         }
 
 
-class ModelName(str, Enum):
+print(Item(name='123', demo=[{'a': 1}], url='http://baidu.com', is_offer=False, price=132).dict(), '----------')
+
+
+class ModelName(str, Enum):  # 继承的属性
     alexnet = "1"
     resnet = "2"
 
 
-@router.get("/")
+@api_router.get("/")
 async def read_root(a: str = Cookie(None)):  # 从Cookie中读取参数a
     return {"Hello": a}
 
 
-@router.get("/items/{name:str}")
+@api_router.get("/items/{name:str}")
 async def read_item(
         name: ModelName = Path(..., title='The Name of Module'),  # str可选 ge=1  gt  lt  le
         # q: str = Query("fixedquery", min_length=3, max_length=50, regex="^fixedquery$")
@@ -78,7 +82,7 @@ async def read_item(
         ),
         limit: Optional[int] = None
 ):  # 请求参数如果不指定默认值,则必须输入
-    print(limit)
+    print()
     if name == ModelName.alexnet:
         return {"name": name, "message": "Deep Learning FTW!", 'q': q}
     if name == ModelName.resnet:
@@ -86,26 +90,25 @@ async def read_item(
     return {"name": name, "message": "Have some residuals", 'q': q}
 
 
-@router.put("/item2s/{item_id}")
+@api_router.put("/item2s/{item_id}")
 async def update_item(
         item_id: UUID,
         repeat_at: time = Body(None),  # 不再是请求参数;而是请求体参数
         item: Item = Body(..., embed=False),  # True将item在包装一层{item：{}}
+        # response_model_include={"name", "description"},
+        # response_model_exclude=["tax"],
+        response_model=Union[Item, ModelName],  # 响应将是两种类型中的任何一种
 ):
     print(item.dict())
-    return {
-        "item_name": item.name,
-        "repeat_at": repeat_at,
-        "item_id": item_id
-    }
+    return item
 
 
-@router.get('/render')
+@api_router.get('/render')
 async def render(request: Request):
     return templates.TemplateResponse('index.html', {'request': request})
 
 
-@router.post('/files/')
+@api_router.post('/files/')
 def user(username: str = Form(..., media_type="application/x-www-form-urlencoded"),
          file_list: List[bytes] = File(...),
          file_name: List[UploadFile] = File(...)
@@ -115,10 +118,3 @@ def user(username: str = Form(..., media_type="application/x-www-form-urlencoded
     for item in file_name:
         print(item.filename)
     return {"ok": 1}
-
-
-@router.get("/header")
-def header(request: Request, user_agent: str = Header(None)):
-    # user_agent:str=Header(None) 匹配 User-Agent
-    print(user_agent)
-    return user_agent

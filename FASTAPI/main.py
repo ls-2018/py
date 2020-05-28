@@ -5,7 +5,7 @@ from starlette.staticfiles import StaticFiles
 import uvicorn
 import time as raw_time
 from starlette.middleware.cors import CORSMiddleware
-from api.api_v1.api import api_router
+from api.api_v1.endpoints.api import api_router
 from core.config import settings
 
 app = FastAPI(
@@ -36,9 +36,13 @@ async def add_process_time_header(request: Request, call_next):
     return response
 
 
-async def get_token_header(x_token: str = Header(...)):
-    if x_token != "fake-super-secret-token":  # 假超密令牌
-        raise HTTPException(status_code=400, detail="X-Token header invalid")  # X令牌头无效
+# def header(request: Request, user_agent: str = Header(None)):
+#     # user_agent:str=Header(None) 匹配 User-Agent
+#     print(user_agent)
+#     return user_agent
+async def get_token_header(user_agent: str = Header(None)):
+    if not user_agent:  # 假超密令牌
+        raise HTTPException(status_code=400, detail="user_agent header invalid")  # X令牌头无效
 
 
 app.include_router(
@@ -50,6 +54,6 @@ app.include_router(
 )
 
 if __name__ == '__main__':
-    # uvicorn.run("main:app", host='127.0.0.1', port=8000, log_level='info', reload=True)
-    uvicorn.run(app, host='127.0.0.1', port=8000, log_level='info', reload=True)
+    uvicorn.run("main:app", host='127.0.0.1', port=8000, log_level='info', reload=True)
+    # uvicorn.run(app, host='127.0.0.1', port=8000, log_level='info', reload=True)
 # uvicorn main:app --reload

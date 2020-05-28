@@ -48,5 +48,5 @@ wait = wait_fixed(wait_seconds)
 wait = wait_random(min=1, max=2)
 # 重试时间间隔满足：2^n * multiplier, n为重试次数，但最多间隔10秒,最多重试三次
 wait = wait_exponential(multiplier=2, min=3, max=100)   #按照指数的等待时间
-  
+
 '''

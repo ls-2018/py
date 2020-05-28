@@ -1,20 +1,14 @@
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, HTTPException
 from pydantic import BaseModel
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from starlette import status
-from passlib.context import CryptContext
-from datetime import timedelta
 from typing import Optional
-import uvicorn
-import datetime
+from core.security import *
+from core.config import settings
 import jwt
-from jwt import exceptions
+from . import api_router
 
-app = FastAPI()
-SECRET_KEY = 'iv%x6xo7l7_u9bf_u!9#g#m*)*=ej@bek5)(@u3kh*72+unjv='
-ALGORITHM = 'HS256'
-ACCESS_TOKEN_EXPIRE_MINUTES = 1
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/token')
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/api/v1/token')
 pwd_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
 
 # 生命该URL是客户端应用于获取凌派的URL。该信息在OpenAPI中使用，然后在交互式API文档系统中使用。
@@ -43,12 +37,10 @@ class Token(BaseModel):
     token_type: str
 
 
-
-
-@app.get('/item/')  # Authorization: Bearer
+@api_router.get('/item/')  # Authorization: Bearer
 async def read_items(token: str = Depends(oauth2_scheme)):
     try:
-        verified_payload = jwt.decode(token, SECRET_KEY, True)
+        verified_payload = jwt.decode(token, settings.SECRET_KEY, True)
     except jwt.exceptions.ExpiredSignatureError:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='token已失效')
     except jwt.DecodeError:
@@ -58,21 +50,16 @@ async def read_items(token: str = Depends(oauth2_scheme)):
     return verified_payload
 
 
-@app.post('/token', response_model=Token)
+@api_router.post('/token', response_model=Token, response_model_exclude_unset=True)
 async def auth2(form_data: OAuth2PasswordRequestForm = Depends(OAuth2PasswordRequestForm)):
     if form_data.username not in fake_users_db:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='Incorrect username')
-    if AUTH.verify_password(form_data.password, fake_users_db[form_data.username]['hashed_password']):
+    if verify_password(form_data.password, fake_users_db[form_data.username]['hashed_password']):
         return {
-            'access_token': AUTH.create_access_token(
-                form_data.__dict__,
-                expire_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+            'access_token': create_access_token(
+                form_data.__dict__
             ),
             "token_type": 'bearer'
         }
     else:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='invalid username or password')
-
-
-if __name__ == '__main__':
-    uvicorn.run(app='OAuth2:app', host='127.0.0.1', port=8000, reload=True)
