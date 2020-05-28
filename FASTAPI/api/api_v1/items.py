@@ -1,30 +1,18 @@
 from enum import Enum
 from typing import List, Dict, Set, Tuple, Optional, Union
-from fastapi import FastAPI, Query, Path, Body, status, Form, File, UploadFile, Cookie, Header, Depends, HTTPException
+from fastapi import Query, Path, Body, status, Form, File, UploadFile, Cookie, Depends, HTTPException
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel, Field, HttpUrl
 from starlette.requests import Request
 from starlette.templating import Jinja2Templates
-from fastapi import APIRouter, BackgroundTasks
+from fastapi import APIRouter
 
 from core.security import oauth2_scheme
+
 router = APIRouter()
 
 templates = Jinja2Templates(directory='templates')
 
-
-# @router.post("/", response_model=schemas.Item)
-# def create_item(
-#         *,
-#         db: Session = Depends(deps.get_db),
-#         item_in: schemas.ItemCreate,
-#         current_user: models.User = Depends(deps.get_current_active_user),
-# ) -> Any:
-#     """
-#     Create new item.
-#     """
-#     item = crud.item.create_with_owner(db=db, obj_in=item_in, owner_id=current_user.id)
-#     return item
 
 class Item(BaseModel):
     # 有等于号的是可选参数
