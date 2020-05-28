@@ -6,9 +6,11 @@ from typing import Optional
 from core.security import *
 from core.config import settings
 import jwt
+from fastapi import APIRouter
 
-from . import api_router
 from core.security import oauth2_scheme
+
+router = APIRouter()
 
 # 生命该URL是客户端应用于获取凌派的URL。该信息在OpenAPI中使用，然后在交互式API文档系统中使用。
 # 该oauth2_scheme变量的一个实例OAuth2PasswordBearer 但它也是一个通知
@@ -64,13 +66,13 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):
     return verified_payload
 
 
-# @api_router.put('/item/', tags=['oauth2'], dependencies=[Depends(get_current_user)])  # Authorization: Bearer
-@api_router.put('/item/', tags=['oauth2'])  # Authorization: Bearer
+# @router.put('/item/', tags=['oauth2'], dependencies=[Depends(get_current_user)])  # Authorization: Bearer
+@router.put('/item/', tags=['oauth2'])  # Authorization: Bearer
 async def read_items(current_user: User = Depends(get_current_user)):
     return current_user
 
 
-@api_router.post(
+@router.post(
     '/token',
     response_model=Token,
     response_model_exclude_unset=True,

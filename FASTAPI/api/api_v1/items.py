@@ -5,10 +5,10 @@ from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel, Field, HttpUrl
 from starlette.requests import Request
 from starlette.templating import Jinja2Templates
-from datetime import datetime, timedelta, time
+from fastapi import APIRouter, BackgroundTasks
 
 from core.security import oauth2_scheme
-from . import api_router
+router = APIRouter()
 
 templates = Jinja2Templates(directory='templates')
 
@@ -59,12 +59,12 @@ class ModelName(str, Enum):  # 继承的属性
     resnet = "2"
 
 
-@api_router.get("/", tags=['item'])
+@router.get("/", tags=['item'])
 async def read_root(a: str = Cookie(None)):  # 从Cookie中读取参数a
     return {"Hello": a}
 
 
-@api_router.get("/one/{name:str}")
+@router.get("/one/{name:str}")
 async def read_one(
         name: ModelName = Path(..., title='The Name of Module'),  # str可选 ge=1  gt  lt  le
         # q: str = Query("fixedquery", min_length=3, max_length=50, regex="^fixedquery$")
@@ -93,7 +93,7 @@ class CarItem(BaseModel):
 
 
 # 响应将是两种类型中的任何一种
-@api_router.get("/item2s/{item_id}", response_model=Union[CarItem, Item])
+@router.get("/item2s/{item_id}", response_model=Union[CarItem, Item])
 async def get_item(
         item_id: str,
         # repeat_at: time = Body(None),  # 不再是请求参数;而是请求体参数
@@ -112,12 +112,12 @@ async def get_item(
     return jsonable_encoder(item)
 
 
-@api_router.get('/render', status_code=200, tags=['item'])
+@router.get('/render', status_code=200, tags=['item'])
 async def render(request: Request):
     return templates.TemplateResponse('index.html', {'request': request})
 
 
-@api_router.post('/files/', status_code=status.HTTP_202_ACCEPTED, tags=['item'])
+@router.post('/files/', status_code=status.HTTP_202_ACCEPTED, tags=['item'])
 async def user(username: str = Form(..., media_type="application/x-www-form-urlencoded"),
                file_list: List[bytes] = File(...),
                file_name: List[UploadFile] = File(...),
@@ -144,6 +144,6 @@ async def query_or_cookie_extractor(
     return q
 
 
-@api_router.get("/xx/")
+@router.get("/xx/")
 async def read_query(query_or_default: str = Depends(query_or_cookie_extractor)):
     return {"q_or_cookie": query_or_default}

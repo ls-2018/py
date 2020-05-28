@@ -1,7 +1,9 @@
 from fastapi import BackgroundTasks
 import time
 from pydantic import EmailStr
-from . import api_router
+from fastapi import APIRouter, BackgroundTasks
+
+router = APIRouter()
 
 
 def write_log(message: str):
@@ -10,7 +12,7 @@ def write_log(message: str):
         log.write(message)
 
 
-@api_router.post("/send/{email}")
+@router.post("/send/{email}")
 async def send_notification(
         email: EmailStr, background_tasks: BackgroundTasks
 ):

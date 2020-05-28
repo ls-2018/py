@@ -2,7 +2,7 @@ from starlette.staticfiles import StaticFiles
 from fastapi import Depends, FastAPI, HTTPException, Request, Response, Header
 import time as raw_time
 from starlette.middleware.cors import CORSMiddleware
-from api.api_v1.endpoints.api import api_router
+from api.api_v1 import api, main, items, OAuth2, selery
 from core.config import settings
 from core.db.database import SessionLocal
 import uvicorn
@@ -52,8 +52,11 @@ async def get_token_header(user_agent: str = Header(None)):
         raise HTTPException(status_code=400, detail="user_agent header invalid")  # X令牌头无效
 
 
+app.include_router(main.router)
+app.include_router(items.router)
+app.include_router(OAuth2.router)
 app.include_router(
-    api_router,
+    api.router,
     prefix=settings.API_V1_STR,
     dependencies=[Depends(get_token_header)],
     responses={404: {'description': "Not found"}}
