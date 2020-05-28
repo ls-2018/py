@@ -1,8 +1,9 @@
 from typing import Dict
-
 from fastapi.testclient import TestClient
-
 from core.config import settings
+from ..main import app
+
+client = TestClient(app)
 
 
 def test_celery_worker_test(
@@ -30,12 +31,7 @@ def test_get_access_token(client: TestClient) -> None:
     assert tokens["access_token"]
 
 
-def test_use_access_token(
-    client: TestClient, superuser_token_headers: Dict[str, str]
-) -> None:
-    r = client.post(
-        f"{settings.API_V1_STR}/login/test-token", headers=superuser_token_headers,
-    )
-    result = r.json()
-    assert r.status_code == 200
-    assert "email" in result
+'''
+pip install pytest
+$ pytest
+'''
