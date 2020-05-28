@@ -7,9 +7,7 @@ from core.security import *
 from core.config import settings
 import jwt
 from . import api_router
-
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/api/v1/token')
-pwd_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
+from core.security import oauth2_scheme
 
 # 生命该URL是客户端应用于获取凌派的URL。该信息在OpenAPI中使用，然后在交互式API文档系统中使用。
 # 该oauth2_scheme变量的一个实例OAuth2PasswordBearer 但它也是一个通知
@@ -37,8 +35,13 @@ class Token(BaseModel):
     token_type: str
 
 
-@api_router.get('/item/')  # Authorization: Bearer
+@api_router.put('/item/', tags=['oauth2'])  # Authorization: Bearer
 async def read_items(token: str = Depends(oauth2_scheme)):
+    """
+    需要授权
+    :param token:
+    :return:
+    """
     try:
         verified_payload = jwt.decode(token, settings.SECRET_KEY, True)
     except jwt.exceptions.ExpiredSignatureError:
@@ -46,11 +49,24 @@ async def read_items(token: str = Depends(oauth2_scheme)):
     except jwt.DecodeError:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='token认证失败')
     except jwt.InvalidTokenError:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='非法的token')
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail='非法的token',
+            headers={
+                'X-Error': 'There goes my error'
+            }
+        )
     return verified_payload
 
 
-@api_router.post('/token', response_model=Token, response_model_exclude_unset=True)
+@api_router.post(
+    '/token',
+    response_model=Token,
+    response_model_exclude_unset=True,
+    tags=['oauth2'],
+    summary='Generate a token',
+    description='-----------------'
+)
 async def auth2(form_data: OAuth2PasswordRequestForm = Depends(OAuth2PasswordRequestForm)):
     if form_data.username not in fake_users_db:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='Incorrect username')

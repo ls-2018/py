@@ -1,13 +1,11 @@
 from typing import Any
 
-from fastapi import APIRouter, Depends
 from pydantic.networks import EmailStr
 
-from core.celery_app import celery_app
+# from core.celery_app import celery_app
 
 # from utils import send_test_email
 
-router = APIRouter()
 
 # @router.post("/test-celery/", response_model=schemas.Msg, status_code=201)
 # def test_celery(

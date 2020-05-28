@@ -1,13 +1,13 @@
-from fastapi import APIRouter, Depends, HTTPException
 from enum import Enum
 from typing import List, Dict, Set, Tuple, Optional, Union
-from fastapi import FastAPI, Query, Path, Body, Form, File, UploadFile, Cookie, Header, Depends, HTTPException
+from fastapi import FastAPI, Query, Path, Body, status, Form, File, UploadFile, Cookie, Header, Depends, HTTPException
+from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel, Field, HttpUrl
-from uuid import UUID
 from starlette.requests import Request
 from starlette.templating import Jinja2Templates
 from datetime import datetime, timedelta, time
 
+from core.security import oauth2_scheme
 from . import api_router
 
 templates = Jinja2Templates(directory='templates')
@@ -54,15 +54,12 @@ class Item(BaseModel):
         }
 
 
-print(Item(name='123', demo=[{'a': 1}], url='http://baidu.com', is_offer=False, price=132).dict(), '----------')
-
-
 class ModelName(str, Enum):  # 继承的属性
     alexnet = "1"
     resnet = "2"
 
 
-@api_router.get("/")
+@api_router.get("/", tags=['item'])
 async def read_root(a: str = Cookie(None)):  # 从Cookie中读取参数a
     return {"Hello": a}
 
@@ -90,31 +87,63 @@ async def read_item(
     return {"name": name, "message": "Have some residuals", 'q': q}
 
 
-@api_router.put("/item2s/{item_id}")
-async def update_item(
-        item_id: UUID,
-        repeat_at: time = Body(None),  # 不再是请求参数;而是请求体参数
+class CarItem(BaseModel):
+    description: str
+    type: str
+
+
+# 响应将是两种类型中的任何一种
+@api_router.get("/item2s/{item_id}", response_model=Union[CarItem, Item])
+async def get_item(
+        item_id: str,
+        # repeat_at: time = Body(None),  # 不再是请求参数;而是请求体参数
         item: Item = Body(..., embed=False),  # True将item在包装一层{item：{}}
         # response_model_include={"name", "description"},
         # response_model_exclude=["tax"],
-        response_model=Union[Item, ModelName],  # 响应将是两种类型中的任何一种
+        response_description="=========="
 ):
-    print(item.dict())
-    return item
+    """
+    asd
+    -   :param item_id:
+    -   **:param** response_description:
+    -   :return:
+       Create an item with all the information:
+    """
+    return jsonable_encoder(item)
 
 
-@api_router.get('/render')
+@api_router.get('/render', status_code=200, tags=['item'])
 async def render(request: Request):
     return templates.TemplateResponse('index.html', {'request': request})
 
 
-@api_router.post('/files/')
-def user(username: str = Form(..., media_type="application/x-www-form-urlencoded"),
-         file_list: List[bytes] = File(...),
-         file_name: List[UploadFile] = File(...)
-         ):
+@api_router.post('/files/', status_code=status.HTTP_202_ACCEPTED, tags=['item'])
+async def user(username: str = Form(..., media_type="application/x-www-form-urlencoded"),
+               file_list: List[bytes] = File(...),
+               file_name: List[UploadFile] = File(...),
+               token: str = Depends(oauth2_scheme)
+               ):
     for item in file_list:
         print(len(item))
     for item in file_name:
         print(item.filename)
+
+        contents = await item.read()
     return {"ok": 1}
+
+
+def query_extractor():
+    return 123
+
+
+async def query_or_cookie_extractor(
+        q: int = Depends(query_extractor), last_query: str = Cookie(None)
+):
+    if q != 123:
+        raise HTTPException(status_code=400, detail="X-Token header invalid")
+    return q
+
+
+@api_router.get("/xx/")
+async def read_query(query_or_default: str = Depends(query_or_cookie_extractor)):
+    return {"q_or_cookie": query_or_default}

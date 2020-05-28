@@ -1,6 +1,5 @@
-from starlette.requests import Request
 from fastapi import Depends, FastAPI, Header, HTTPException
-
+from starlette.requests import Request
 from starlette.staticfiles import StaticFiles
 import uvicorn
 import time as raw_time
@@ -36,12 +35,10 @@ async def add_process_time_header(request: Request, call_next):
     return response
 
 
-# def header(request: Request, user_agent: str = Header(None)):
-#     # user_agent:str=Header(None) 匹配 User-Agent
-#     print(user_agent)
-#     return user_agent
 async def get_token_header(user_agent: str = Header(None)):
-    if not user_agent:  # 假超密令牌
+    # user_agent:str=Header(None) 匹配 User-Agent
+    print(user_agent)
+    if not user_agent.endswith('Mozilla'):  # 假超密令牌
         raise HTTPException(status_code=400, detail="user_agent header invalid")  # X令牌头无效
 
 

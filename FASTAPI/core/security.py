@@ -1,10 +1,12 @@
 from datetime import datetime, timedelta
 import jwt
+from fastapi.security import OAuth2PasswordBearer
 from passlib.context import CryptContext
 
 from core.config import settings
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl='/api/v1/token')
 
 
 def create_access_token(data: dict, expires_delta: timedelta = None) -> str:
