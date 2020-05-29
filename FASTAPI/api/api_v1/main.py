@@ -25,6 +25,7 @@ def read_users(response: Response, skip: int = 0, limit: int = 100, db: Session 
     users = curd.get_users(db, skip=skip, limit=limit)
     response.set_cookie('a', 'b')
     response.headers["X-Cat-Dog"] = "alone in the world"
+    response.status_code = 200
     return users
 
 

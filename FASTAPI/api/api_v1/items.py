@@ -59,7 +59,7 @@ class ModelName(str, Enum):  # 继承的属性
         200: {"content": {"image/png": {}}}},
 )
 async def read_root(a: str = Cookie(None)):  # 从Cookie中读取参数a
-    return JSONResponse({"Hello": a})
+    return JSONResponse({"Hello": a}, headers={}, status_code=200)
 
 
 @router.get("/one/{name:str}")
