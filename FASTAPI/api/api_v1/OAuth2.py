@@ -1,14 +1,7 @@
-from fastapi import Depends, HTTPException
-from pydantic import BaseModel
 from fastapi.security import OAuth2PasswordRequestForm
-from starlette import status
-from typing import Optional
 from core.security import *
-from core.config import settings
-import jwt
 from fastapi import APIRouter
-
-from core.security import oauth2_scheme
+from schemas import Token
 
 router = APIRouter()
 
@@ -24,46 +17,6 @@ fake_users_db = {
         'disabled': False  # 禁用
     }
 }
-
-
-class User(BaseModel):
-    username: str
-    email: Optional[str] = None
-    full_name: Optional[str] = None
-    disabled: Optional[bool] = None
-
-
-class Token(BaseModel):
-    access_token: str
-    token_type: str
-
-
-async def get_current_user(token: str = Depends(oauth2_scheme)):
-    """
-    需要授权
-    :param token:
-    :return:
-    """
-    try:
-        verified_payload = jwt.decode(token, settings.SECRET_KEY, True)
-    except jwt.exceptions.ExpiredSignatureError:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail='token已失效')
-    except jwt.DecodeError:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid authentication credentials",
-            headers={"WWW-Authenticate": "Bearer"}
-        )
-    except jwt.InvalidTokenError:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail='非法的token',
-            headers={
-                'X-Error': 'There goes my error'
-            }
-        )
-
-    return verified_payload
 
 
 # @router.put('/item/', tags=['oauth2'], dependencies=[Depends(get_current_user)])  # Authorization: Bearer
@@ -86,7 +39,7 @@ async def auth2(form_data: OAuth2PasswordRequestForm = Depends(OAuth2PasswordReq
     if verify_password(form_data.password, fake_users_db[form_data.username]['hashed_password']):
         return {
             'access_token': create_access_token(
-                form_data.__dict__
+                data={'sub': form_data.username, "scopes": ['me']},
             ),
             "token_type": 'bearer'
         }

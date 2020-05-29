@@ -64,8 +64,8 @@ app.include_router(
 )
 
 if __name__ == '__main__':
-    for route in app.routes:
-        print(route.path_regex.pattern)
-    # uvicorn.run("main:app", host='127.0.0.1', port=8000, log_level='info', reload=True)
+    # for route in app.routes:
+    #     print(route.path_regex.pattern)
+    uvicorn.run("main:app", host='127.0.0.1', port=8000, log_level='info', reload=True)
     # uvicorn.run(app, host='127.0.0.1', port=8000, log_level='info', reload=True)
 # uvicorn main:app --reload

@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 from pydantic import BaseModel
 
 
@@ -27,10 +27,21 @@ class UserCreate(UserBase):
     password: str
 
 
-class User(UserBase):
-    id: int
-    is_active: bool
-    items: List[Item] = []
+class User(BaseModel):
+    username: str
+    email: Optional[str] = None
+    full_name: Optional[str] = None
+    disabled: Optional[bool] = None
 
     class Config:
         orm_mode = True
+
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+
+class TokenData(BaseModel):
+    username: str = None
+    scopes: List[str] = []
