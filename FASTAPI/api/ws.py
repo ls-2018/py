@@ -1,5 +1,6 @@
-from fastapi import FastAPI, WebSocket
+from fastapi import FastAPI, WebSocket, Cookie, Depends, Header
 from fastapi.responses import HTMLResponse
+from starlette.testclient import TestClient
 
 app = FastAPI()
 
@@ -43,6 +44,7 @@ async def get():
     return HTMLResponse(html)
 
 
+# 一对一
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
@@ -50,6 +52,20 @@ async def websocket_endpoint(websocket: WebSocket):
         data = await websocket.receive_text()
         await websocket.send_text(f"Message text was: {data}")
 
+
+def test_read_items():
+    with TestClient(app) as client:
+        response = client.get("/ws")
+        assert response.status_code == 200
+        assert response.json() == {"name": "Fighters"}
+
+
+@app.on_event("startup")
+async def startup_event():
+    test_read_items()
+
+
 if __name__ == '__main__':
     import uvicorn
+
     uvicorn.run(app)

@@ -1,10 +1,12 @@
 import time
 from starlette.staticfiles import StaticFiles
 from fastapi import Depends, FastAPI, HTTPException, Request, Response, Header
-from starlette.middleware.cors import CORSMiddleware
-from api.api_v1 import email, main, items, OAuth2
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
+from fastapi.middleware.trustedhost import TrustedHostMiddleware
+from fastapi.middleware.gzip import GZipMiddleware
+from api.api_v1 import email, main, items, OAuth2, base_auth
 from core.config import settings
-from core.db.database import SessionLocal
 import uvicorn
 
 app = FastAPI(
@@ -15,9 +17,12 @@ app = FastAPI(
     description="This is a very fancy project, with auto docs for the API and everything",
     version="6.6.6",
 )
+
 app.mount('/static', StaticFiles(directory='static'), name='static')
 # html  目录名    内部使用
-
+app.add_middleware(GZipMiddleware, minimum_size=1000)
+# app.add_middleware(HTTPSRedirectMiddleware)   # https wss
+app.add_middleware(TrustedHostMiddleware, allowed_hosts=['*'])
 app.add_middleware(  # 添加中间件
     CORSMiddleware,  # CORS中间件类
     allow_origins=['*'],  # 允许起源所有
@@ -28,18 +33,9 @@ app.add_middleware(  # 添加中间件
 
 
 @app.middleware("http")
-async def db_session_middleware(request: Request, call_next):
-    response = Response("Internal server error", status_code=500)
-    try:
-        request.state.db = SessionLocal()
-        response = await call_next(request)
-    finally:
-        request.state.db.close()
-    return response
-
-
-@app.middleware("http")
 async def add_process_time_header(request: Request, call_next):
+    print(request.client.host)
+    print(request.client.port)
     start_time = time.time()
     response = await call_next(request)
     process_time = time.time() - start_time
@@ -55,6 +51,7 @@ async def get_token_header(user_agent: str = Header(None)):
 
 app.include_router(main.router)
 app.include_router(email.router)
+app.include_router(base_auth.router)
 app.include_router(OAuth2.router)
 app.include_router(
     items.router,
@@ -62,6 +59,18 @@ app.include_router(
     dependencies=[Depends(get_token_header)],
     responses={404: {'description': "Not found"}}
 )
+
+
+@app.on_event("startup")
+async def startup_event():
+    print('start')
+
+
+@app.on_event("shutdown")
+def shutdown_event():
+    # 不能使用async
+    print('shutdown')
+
 
 if __name__ == '__main__':
     # for route in app.routes:

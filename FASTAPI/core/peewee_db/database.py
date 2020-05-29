@@ -22,14 +22,14 @@ class PeeweeConnectionState(peewee._ConnectionState):
 
 db = peewee.SqliteDatabase(DATABASE_NAME, check_same_thread=False)
 
-db._state = PeeweeConnectionState() # 检查peewee是否经过修改
+db._state = PeeweeConnectionState()  # 检查peewee是否经过修改
 
 
 # fastapi并没有赋予peewee异步能力
 # 替换peewee内部使用的threading.local  ;并使用ContextVar
 async def reset_db_state():
     db._state._state.set(db_state_default.copy())
-    db._state.reset()   # 每个请求都是独立的
+    db._state.reset()  # 每个请求都是独立的
 
 
 def get_db(db_state=Depends(reset_db_state)):

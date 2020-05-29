@@ -21,11 +21,7 @@ class Item(peewee.Model):
         database = db
 
 
-def init_table():
-    """
-    初始化数据库
-    :return:
-    """
-    db.connect()
-    db.create_tables([User, Item])
-    db.close()
+# 初始化数据库
+db.connect()
+db.create_tables([User, Item])
+db.close()
