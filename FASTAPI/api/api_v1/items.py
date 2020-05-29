@@ -4,7 +4,9 @@ from fastapi import Query, Path, Body, status, Form, File, UploadFile, Cookie, D
 from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel, Field, HttpUrl
 from starlette.requests import Request
+from starlette.responses import StreamingResponse
 from starlette.templating import Jinja2Templates
+from fastapi.responses import JSONResponse, Response, HTMLResponse, ORJSONResponse
 from fastapi import APIRouter
 
 from core.security import oauth2_scheme
@@ -47,9 +49,17 @@ class ModelName(str, Enum):  # 继承的属性
     resnet = "2"
 
 
-@router.get("/", tags=['item'])
+@router.get(
+    "/",
+    tags=['item'],
+    responses={
+        404: {"description": "Item not found"},
+        302: {"description": "The item was moved"},
+        403: {"description": "Not enough privileges"},
+        200: {"content": {"image/png": {}}}},
+)
 async def read_root(a: str = Cookie(None)):  # 从Cookie中读取参数a
-    return {"Hello": a}
+    return JSONResponse({"Hello": a})
 
 
 @router.get("/one/{name:str}")
@@ -100,9 +110,31 @@ async def get_item(
     return jsonable_encoder(item)
 
 
-@router.get('/render', status_code=200, tags=['item'])
+# @router.get('/render', status_code=200, tags=['item'])
+# @router.get('/render', status_code=200, tags=['item'], response_class=HTMLResponse)
+@router.get('/render', status_code=200, tags=['item'], response_class=ORJSONResponse)
 async def render(request: Request):
-    return templates.TemplateResponse('index.html', {'request': request})
+    # return templates.TemplateResponse('index.html', {'request': request})
+    data = """<?xml version="1.0"?>
+    <shampoo>
+    <Header>
+        Apply shampoo here.
+    </Header>
+    <Body>
+        You'll have to use soap here.
+    </Body>
+    </shampoo>
+    """
+    # return Response(content=data, media_type="application/xml")
+    # return data
+    # return RedirectResponse("https://typer.tiangolo.com")
+    # return [{"item_id": "Foo"}]
+    # return FileResponse("large-video-file.mp4")
+    return StreamingResponse(fake_video_streamer(), media_type="video/mp4")
+
+
+async def fake_video_streamer():
+    return open('./123.txt', mode="rb")
 
 
 @router.post('/files/', status_code=status.HTTP_202_ACCEPTED, tags=['item'])
