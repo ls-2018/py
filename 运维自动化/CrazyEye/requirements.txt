@@ -1,4 +1,4 @@
-cryptography==1.5.2
+cryptography==3.2
 Django==1.10.2
 django-session-security==2.4.0
 djangorestframework==3.5.3
