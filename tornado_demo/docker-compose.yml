@@ -1,0 +1,23 @@
+# 第6章/tornado_static/docker-compose.yml
+
+version: "3"
+
+services:
+  gateway:
+    build: ./runtime/gateway
+    volumes:
+      # 将 static 目录映射到 apache 服务器的文档目录下
+      - "./static:/usr/local/apache2/htdocs/static"
+    ports:
+      # 将 gateway 的80端口映射到本机80端口
+      - "80:80"
+  
+  web:
+    build: ./runtime/web
+    volumes:
+      # 将当前目录映射到 web 服务中的 /opt/web 目录
+      - ".:/opt/web"
+    # 设置工作目录为 /opt/web
+    working_dir: "/opt/web"
+    # 容器启动后执行该命令用于启动 python 服务器
+    command: python3 ./tornado_http_server.py

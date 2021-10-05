@@ -1,0 +1,13 @@
+<!-- 第6章/tornado_template/template/server2_index.html -->
+{% extends "layout.html" %}
+
+{% block body %}
+<div>
+    Users:
+    <ul>
+        {% for u in users %}
+        <li>{{ u }}</li>
+        {% end %}
+    </ul>
+</div>
+{% end %}
