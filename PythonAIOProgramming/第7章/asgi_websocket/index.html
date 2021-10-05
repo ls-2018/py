@@ -1,0 +1,39 @@
+<!-- 第7章/asgi_websocket/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket示例</title>
+</head>
+
+<body>
+
+<div>
+    <button>Ping</button>
+</div>
+<div id="output">
+</div>
+
+<script>
+        (function () {
+            let output = document.querySelector("#output");
+
+            // 创建 WebSocket 实例用于连接服务器
+            let ws = new WebSocket(`ws://${location.host}`);
+
+            // 当收到服务器消息时触发该事件
+            ws.onmessage = e => {
+                output.innerHTML += `[${Date.now()}] Recevied data: ${e.data}<br>`;
+            };
+
+            // 为按钮添加点击侦听器，在点击时向服务器发送 Ping
+            document.querySelector("button").onclick = e => {
+                ws.send("Ping");
+            };
+        })();
+
+</script>
+</body>
+
+</html>

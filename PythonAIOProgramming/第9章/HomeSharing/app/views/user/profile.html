@@ -1,0 +1,32 @@
+<!-- 第9章/HomeSharing/app/views/user/profile.html -->
+{% extends "layout.html" %}
+{% block body %}
+{% if "current_user" in session %}
+{% set user = session['current_user'] %}
+<div class="card" style="margin-top:10px">
+    <div class="card-header" style="display: flex;flex-direction: row;">
+        <div>
+            用户信息
+        </div>
+    </div>
+    <div class="card-body">
+        <table class="table table-borderless">
+            <tbody>
+            <tr>
+                <td class="font-weight-bold" style="width: 200px;">用户名</td>
+                <td>{{ user["user_name"] }}</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold">邮箱</td>
+                <td>{{ user["user_email"] }}</td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold">手机号</td>
+                <td>{{ user["user_phone"] }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
