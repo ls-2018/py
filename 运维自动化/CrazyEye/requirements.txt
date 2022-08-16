@@ -1,7 +1,7 @@
 cryptography==3.2
 Django==1.10.2
 django-session-security==2.4.0
-djangorestframework==3.5.3
+djangorestframework==3.11.2
 paramiko==2.10.1
 pycparser==2.16
 PyMySQL==0.7.9
