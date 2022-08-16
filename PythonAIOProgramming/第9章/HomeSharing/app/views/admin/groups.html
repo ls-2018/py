@@ -1,0 +1,31 @@
+<!-- 第9章/HomeSharing/app/views/admin/groups.html -->
+{% extends "admin_layout.html" %}
+{% block body %}
+<div style="margin-top:1rem;" class="card">
+    <div class="card card-header" style="position: relative;">
+        <button class="btn btn-link btn-add-group">
+            +
+        </button>
+        用户组
+    </div>
+    {{ grid }}
+</div>
+
+<script src="/static_files/dialogs.js"></script>
+<script src="/static_files/admin_groups.js"></script>
+
+<style>
+    table, ul {
+        margin: 0 !important;
+    }
+
+    .btn-add-group {
+        position: absolute;
+        top: 0;
+        right: 0.5rem;
+        font-size: 16pt;
+        text-decoration: none !important;
+        font-weight: bold;
+    }
+</style>
+{% endblock %}

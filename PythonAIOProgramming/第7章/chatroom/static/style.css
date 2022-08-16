@@ -1,0 +1,21 @@
+/* 第7章/chatroom/static/style.css */
+
+#output {
+    width: 100%;
+    height: 300px;
+    border: solid;
+    border-width: thin;
+    overflow: auto;
+}
+
+.input-control {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-control input {
+    flex: 1;
+    margin-right: 5px;
+}

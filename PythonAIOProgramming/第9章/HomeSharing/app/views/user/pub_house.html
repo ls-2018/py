@@ -1,0 +1,28 @@
+<!-- 第9章/HomeSharing/app/views/user/pub_house.html -->
+{% extends "layout.html" %}
+{% block body %}
+<script src="/static_files/libs/ckeditor5-build-classic/ckeditor.js"></script>
+<div style="margin-top:1rem;">
+    <form enctype="multipart/form-data" method="POST">
+        <div style="margin-bottom: 0.5rem;">
+            <input placeholder="标题" required name="house_res_title" class="form-control">
+        </div>
+        <textarea name="house_res_content" placeholder="此处编写详细信息"></textarea>
+        <div style="margin-top: 0.5rem;">
+            <input type="submit" class="btn btn-primary" value="发布">
+        </div>
+    </form>
+</div>
+
+<script>
+    ClassicEditor.create(
+        document.querySelector('textarea[name="house_res_content"]'),
+        {
+            ckfinder: {
+                uploadUrl: `/ckeditor/file_upload_url?command=QuickUpload&type=Files&responseType=json`
+            }
+        }
+    );
+
+</script>
+{% endblock %}

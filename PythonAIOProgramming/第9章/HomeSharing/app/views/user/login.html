@@ -1,0 +1,39 @@
+<!-- 第9章/HomeSharing/app/views/user/login.html -->
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+    <div class="card" style="width: 500px;margin: 20px auto 20px auto;">
+        <div class="card-header">登录</div>
+        <div class="card-body">
+            <form method="post" enctype="multipart/form-data">
+                <div style="text-align:center" class="alert-msg text-danger">
+                    {% if alert_msg %} {{ alert_msg }} {% endif %}
+                </div>
+                <table class="table table-borderless">
+                    <tbody>
+                    <tr>
+                        <td class="font-weight-bold">用户名</td>
+                        <td>
+                            <input type="text" class="form-control" required name="login"
+                                   placeholder="用户名/邮箱/手机号">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold">密码</td>
+                        <td><input type="password" class="form-control" required name="password"></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <div style="float: right;">
+                        <a href="/user/register" class="text-success" style="display: block;">
+                            没有帐户？点此注册
+                        </a>
+                    </div>
+                    <input type="submit" class="btn btn-outline-success" value="登录">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

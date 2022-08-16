@@ -1,0 +1,22 @@
+<!-- 第7章/aiohttp_socketio/static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="socket.io.js"></script>
+</head>
+
+<body>
+<script>
+        (function () {
+            let socket = io();
+            socket.on("echo", d => console.log(d));
+        })();
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!-- 第9章/HomeSharing/app/views/admin/manage_permissions.html -->
+{% extends "admin_layout.html" %}
+{% block body %}
+<style>
+    .table td {
+        padding: 0;
+    }
+</style>
+<div style="margin-top:1rem;">
+    <div class="card">
+        <div class="card-header">
+            编辑用户权限
+        </div>
+        <div class="card-body">
+            <div style="display: flex;flex-direction: row;">
+                <table class="table table-borderless" style="width: 360px;">
+                    <tbody>
+                    <tr>
+                        <td class="font-weight-bold" style="width: 80px;">
+                            id
+                        </td>
+                        <td>{{ the_user["id"] }}</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold" style="width: 80px;">
+                            用户名
+                        </td>
+                        <td>{{ the_user["user_name"] }}</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold">邮箱</td>
+                        <td>{{ the_user["user_email"] }}</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold">用机号</td>
+                        <td>{{ the_user["user_phone"] }}</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div style="flex:1;border-radius: 10px" class="bg-light">
+                    <table class="table table-borderless">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>role</th>
+                            <th>描述</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for g in groups %}
+                        <tr>
+                            <td>{{ g.id }}</td>
+                            <td>{{ g.role }}</td>
+                            <td>{{ g.description }}</td>
+                            <td>
+                                {% if g.has_membership %}
+                                <a href="/admin/edit_membership?role={{ g.role }}&userid={{ the_user['id'] }}&op=remove_membership"
+                                   class="btn btn-danger btn-sm"
+                                   style="margin: 2px;">退出该组</a>
+                                {% else %}
+                                <a href="/admin/edit_membership?role={{ g.role }}&userid={{ the_user['id'] }}&op=add_membership"
+                                   class="btn btn-success btn-sm" style="margin: 2px;">加入该组</a>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

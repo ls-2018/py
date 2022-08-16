@@ -1,0 +1,16 @@
+<!-- 第9章/HomeSharing/app/views/admin/users.html -->
+{% extends "admin_layout.html" %}
+{% block body %}
+<div style="margin-top:1rem;" class="card">
+    <div class="card card-header" style="position: relative;">
+        所有用户
+    </div>
+    {{ grid }}
+</div>
+
+<style>
+    table, ul {
+        margin: 0 !important;
+    }
+</style>
+{% endblock %}

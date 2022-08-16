@@ -1,0 +1,13 @@
+<!-- 第9章/HomeSharing/app/views/admin/users_row.html -->
+<tr>
+    <td>{{ row.id }}</td>
+    <td>{{ row.user_name }}</td>
+    <td>{{ row.user_email }}</td>
+    <td>{{ row.user_phone }}</td>
+    <td style="width:7rem">
+        <a href="/admin/manage_permissions?userid={{ row.id }}"
+           class="btn btn-primary btn-sm btn-edit-group">
+            权限管理
+        </a>
+    </td>
+</tr>

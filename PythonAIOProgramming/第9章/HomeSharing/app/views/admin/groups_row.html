@@ -1,0 +1,13 @@
+<!-- 第9章/HomeSharing/app/views/admin/groups_row.html -->
+<tr>
+    <td>{{ row.id }}</td>
+    <td>{{ row.role }}</td>
+    <td>{{ row.description }}</td>
+    <td style="width:5rem">
+        <button data-group_id="{{ row.id }}"
+                data-group_description="{{ row.description }}"
+                class="btn btn-primary btn-sm btn-edit-group">
+            编辑
+        </button>
+    </td>
+</tr>

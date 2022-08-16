@@ -1,0 +1,11 @@
+.DS_Store
+venv
+.idea
+*.pyc
+node_modules
+data
+db_data
+databases
+errors
+mariadb_data
+uploads

@@ -1,0 +1,10 @@
+{{
+  from
+  gluon.serializers
+  import
+  json
+}}{
+{
+=XML(json(response._vars))
+}
+}
